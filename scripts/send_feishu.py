@@ -43,7 +43,7 @@ def send_failure_message(run_date: str, error_text: str) -> Dict[str, Any]:
         "content": {
             "text": "\n".join(
                 [
-                    "每日 AI 行业简讯生成失败",
+                    "每日 AI Builders 简讯生成失败",
                     f"日期：{run_date}",
                     f"失败原因：{error_text}",
                     "请查看 GitHub Actions 日志或本地运行输出。",
@@ -79,7 +79,7 @@ def build_payload(brief: Dict[str, Any]) -> Dict[str, Any]:
 def build_text(brief: Dict[str, Any]) -> str:
     stats = brief.get("stats", {})
     lines = [
-        f"{brief.get('title', '每日 AI 行业简讯')}",
+        f"{brief.get('title', '每日 AI Builders 简讯')}",
         f"日期：{brief.get('date', '')}",
         "",
         "今日核心摘要：",
@@ -91,7 +91,7 @@ def build_text(brief: Dict[str, Any]) -> str:
             if item.get("why_it_matters"):
                 lines.append(f"   重要性：{item['why_it_matters']}")
     else:
-        lines.append("暂无已确认核心事件。")
+        lines.append("暂无核心事件。")
 
     deep_titles = [item.get("title", "") for item in brief.get("deep_dives", [])[:3]]
     if deep_titles:

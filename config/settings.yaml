@@ -1,5 +1,5 @@
 site:
-  title: "每日 AI 行业简讯"
+  title: "每日 AI Builders 简讯"
   language: "zh-CN"
   homepage_recent_days: 7
   timezone: "Asia/Shanghai"
@@ -20,4 +20,3 @@ openai:
 
 feishu:
   enabled: true
-

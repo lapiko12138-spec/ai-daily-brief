@@ -36,11 +36,18 @@ def verify_and_dedupe(events: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
         merged[match_index] = chosen
 
     for event in merged:
-        event["is_verified"] = event.get("credibility") in ["official", "media"] or any(
-            source.get("credibility") == "official" for source in event.get("secondary_sources", [])
-        )
-        event["needs_follow_up"] = not event["is_verified"] or event.get("credibility") == "conflicting"
+        event["is_verified"] = is_source_traceable(event)
+        event["needs_follow_up"] = event.get("credibility") in ["unverified", "conflicting"]
     return merged, duplicates
+
+
+def is_source_traceable(event: Dict[str, Any]) -> bool:
+    credibility = event.get("credibility")
+    if credibility in ["official", "media"]:
+        return True
+    if credibility == "community" and event.get("source_platform") == "follow-builders" and event.get("source_url"):
+        return True
+    return any(source.get("credibility") == "official" for source in event.get("secondary_sources", []))
 
 
 def find_duplicate_index(event: Dict[str, Any], candidates: List[Dict[str, Any]]) -> int:

@@ -1,13 +1,14 @@
-# 每日 AI 行业简讯
+# 每日 AI Builders 简讯
 
-一个面向个人认知积累的 AI 行业信息追踪系统。它会优先抓取海外一线 AI 公司和开发者生态的官方更新，合并手动日报，生成可溯源的结构化 JSON 和 GitHub Pages HTML 页面，并通过飞书机器人推送当天链接和核心摘要。
+一个面向个人认知积累的 AI builders 信息追踪系统。默认调用 [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) skill，消费它集中维护的 X builders、播客访谈和博客 feed，合并手动日报，生成可溯源的结构化 JSON 和 GitHub Pages HTML 页面，并通过飞书机器人推送当天链接和核心摘要。
 
 ## MVP 范围
 
-- 官方来源优先：OpenAI、Anthropic、Google / DeepMind、Meta AI、xAI、Mistral、Microsoft、AWS、Perplexity、Hugging Face。
-- 支持 RSS、HTML 快照变化检测、GitHub Releases、Hugging Face 模型 API。
+- 默认来源：Follow Builders skill。
+- 内容类型：AI builder 的 X 动态、YouTube / podcast 访谈、博客/长文 feed。
+- 调用方式：优先下载并运行 `follow-builders` 的 `scripts/prepare-digest.js`；如果 Node 或脚本执行失败，回退到同一仓库的公开 feed。
 - 支持 `data/manual_input/YYYY-MM-DD.md` 或 `.txt` 手动日报。
-- 支持去重、可信度标记、待核实标记、多源确认。
+- 支持去重、可信度标记、可溯源标记、待核实标记、多源确认。
 - 生成 `docs/daily/YYYY-MM-DD.html` 和近 7 天首页 `docs/index.html`。
 - GitHub Actions 每天北京时间 09:00 自动运行。
 - 飞书机器人推送摘要和 GitHub Pages 链接。
@@ -69,7 +70,7 @@ data/manual_input/YYYY-MM-DD.md
 data/manual_input/YYYY-MM-DD.txt
 ```
 
-脚本会自动拆分条目、提取链接、推断公司、标记可信度，并和自动抓取的信息做去重。没有可靠来源的内容会标记为 `unverified` 和待核实。
+脚本会自动拆分条目、提取链接、推断公司、标记可信度，并和 Follow Builders 自动内容做去重。没有可靠来源的内容会标记为 `unverified` 和待核实。
 
 ## GitHub Pages
 
@@ -116,7 +117,7 @@ OPENAI_MODEL
 
 - `official`: 官方 blog、docs、release notes、官方仓库或官方模型页。
 - `media`: 媒体报道。
-- `community`: 社区、非官方 GitHub 项目、二手来源。
+- `community`: X builders、社区、非官方 GitHub 项目、二手来源。Follow Builders 中的 builder 原帖会标记为可溯源，但不等同于公司官方确认。
 - `unverified`: 手动日报或转述中无法找到可靠来源的信息。
 - `conflicting`: 多个来源说法冲突，需要人工复核。
 
@@ -124,9 +125,8 @@ OPENAI_MODEL
 
 ## 信息源配置
 
-编辑 `config/sources.yaml` 可以增删来源。MVP 中 HTML 类型来源采用快照哈希检测：第一次运行只建立基线，后续页面内容变化才会生成事件。
+默认 `config/sources.yaml` 只启用 `follow_builders`。如需恢复公司官方 RSS / changelog 抓取，可以继续新增旧版支持的 `rss`、`html`、`github_releases`、`huggingface_models` 或 `github_search` 来源类型。
 
 ## 自动化
 
 `.github/workflows/daily.yml` 默认每天 UTC 01:00 运行，也就是北京时间 09:00。你也可以在 GitHub Actions 页面手动触发，并指定日期。
-

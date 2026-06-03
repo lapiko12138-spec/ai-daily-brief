@@ -17,6 +17,9 @@ COMPANY_ORDER = [
     "Perplexity",
     "Hugging Face",
     "GitHub",
+    "Builder Ecosystem",
+    "Podcasts / Interviews",
+    "Blogs / Essays",
     "Other",
 ]
 
@@ -68,7 +71,7 @@ def generate_brief(
 
     return {
         "date": run_date,
-        "title": f"{run_date} 每日 AI 行业简讯",
+        "title": f"{run_date} 每日 AI Builders 简讯",
         "page_url": public_page_url(run_date, settings),
         "language": "中文为主 / Original titles retained",
         "core_summary": core_items,
@@ -164,7 +167,7 @@ def build_agent_tools(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                     "company": event.get("company", ""),
                     "source_url": event.get("source_url", ""),
                     "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
-                    "try_or_not": "值得试用" if event.get("importance") in ["High", "Medium"] and event.get("credibility") == "official" else "先收藏观察",
+                    "try_or_not": "值得试用" if event.get("importance") in ["High", "Medium"] else "先收藏观察",
                     "scenarios": infer_agent_scenario(event),
                     "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
                     "importance": event.get("importance", "Low"),
@@ -202,7 +205,7 @@ def build_manual_review(events: List[Dict[str, Any]], duplicates: List[Dict[str,
         if not event.get("is_manual_input") and not event.get("has_manual_input"):
             continue
         duplicate_of = event.get("duplicate_of", "")
-        status = "多源确认" if duplicate_of or event.get("multi_source") else ("已核实" if event.get("is_verified") else "待核实")
+        status = "多源确认" if duplicate_of or event.get("multi_source") else ("可溯源" if event.get("is_verified") else "待核实")
         rows.append(
             {
                 "title": display_title(event),
@@ -284,7 +287,7 @@ def infer_problem_solved(event: Dict[str, Any]) -> str:
         return "主要解决从模型回答到任务执行之间的工作流连接问题。"
     if "模型更新" in tags:
         return "主要围绕模型能力、可用范围或产品化入口做增强。"
-    return "目前只能确认这是一个值得跟踪的官方或生态更新，具体问题需要继续看原文细节。"
+        return "目前只能确认这是一个值得跟踪的 builder 或生态更新，具体问题需要继续看原文细节。"
 
 
 def infer_industry_signal(event: Dict[str, Any]) -> str:
@@ -341,7 +344,7 @@ def infer_personal_takeaway(event: Dict[str, Any]) -> str:
 
 def infer_uncertainty(event: Dict[str, Any]) -> str:
     if event.get("credibility") != "official":
-        return "这条信息不是官方确认，仍需后续核实。"
+        return "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
     if event.get("category") in ["模型更新", "API 更新"] and "信息不足" in event.get("summary", ""):
         return "具体更新前后差异仍需继续查证，不能补写参数、价格或 benchmark。"
     return "当前判断基于已抓取来源，具体影响仍需结合原文细节和后续反馈。"
