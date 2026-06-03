@@ -17,14 +17,12 @@
       --accent-2: #00a7f7;
       --accent-3: #f2c200;
       --accent-soft: #fff0fb;
-      --amber: #946200;
-      --amber-soft: #fff5ce;
-      --red: #d12f6a;
-      --red-soft: #ffe7f1;
-      --blue: #0877d9;
       --blue-soft: #e5f4ff;
+      --yellow-soft: #fff5ce;
       --green: #16845b;
       --green-soft: #ddf7eb;
+      --red: #d12f6a;
+      --red-soft: #ffe7f1;
       --gray-soft: #f1f1ef;
       --shadow: 0 1px 2px rgba(15, 15, 15, 0.04), 0 8px 24px rgba(15, 15, 15, 0.04);
     }
@@ -40,121 +38,161 @@
         --accent-2: #35c7ff;
         --accent-3: #ffd84d;
         --accent-soft: #402035;
-        --amber: #ffd84d;
-        --amber-soft: #3d3517;
-        --red: #ff7bac;
-        --red-soft: #442232;
-        --blue: #68c7ff;
         --blue-soft: #183243;
+        --yellow-soft: #3d3517;
         --green: #73e0ad;
         --green-soft: #17362a;
+        --red: #ff7bac;
+        --red-soft: #442232;
         --gray-soft: #2f2f2e;
         --shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
       }
     }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.62;
+      line-height: 1.68;
       letter-spacing: 0;
     }
-    a { color: var(--accent); text-decoration: none; }
+    a { color: #c01899; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .page { max-width: 1120px; margin: 0 auto; padding: 28px 20px 56px; }
+    @media (prefers-color-scheme: dark) { a { color: var(--accent); } }
+    .page { max-width: 1160px; margin: 0 auto; padding: 28px 20px 56px; }
     header {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
-      gap: 18px;
+      gap: 20px;
       align-items: end;
-      padding: 24px 0 18px;
+      padding: 26px 0 18px;
       border-bottom: 1px solid var(--line);
     }
-    h1 { margin: 0; font-size: clamp(28px, 5vw, 42px); line-height: 1.1; font-weight: 750; }
-    h2 { margin: 0 0 14px; font-size: 21px; font-weight: 720; }
-    h3 { margin: 0 0 8px; font-size: 17px; }
-    p { margin: 0; }
-    .subtitle { color: var(--muted); margin-top: 10px; max-width: 760px; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.08; font-weight: 780; }
+    h2 { font-size: 23px; line-height: 1.25; font-weight: 760; }
+    h3 { font-size: 18px; line-height: 1.38; font-weight: 730; }
+    .subtitle { color: var(--muted); margin-top: 10px; max-width: 780px; }
     .date-pill {
       display: inline-flex;
-      align-items: center;
       border: 1px solid var(--line);
       border-radius: 6px;
-      padding: 7px 12px;
+      padding: 8px 12px;
       color: var(--muted);
       background: var(--panel);
       font-size: 14px;
       white-space: nowrap;
     }
-    .metrics {
+    .dashboard {
       display: grid;
-      grid-template-columns: repeat(4, minmax(92px, 1fr));
-      gap: 10px;
-      margin: 18px 0 6px;
+      grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.85fr);
+      gap: 14px;
+      margin: 18px 0 8px;
+      align-items: stretch;
+    }
+    .lead-idea, .metrics-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .lead-idea {
+      padding: 18px;
+      border-left: 5px solid var(--accent);
+    }
+    .lead-label {
+      display: inline-flex;
+      width: fit-content;
+      color: #8a196f;
+      background: var(--accent-soft);
+      border-radius: 5px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 720;
+      margin-bottom: 10px;
+    }
+    .lead-idea p { margin-top: 8px; color: var(--muted); }
+    .metrics-panel {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      overflow: hidden;
+      background: var(--line);
     }
     .metric {
       background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      padding: 12px;
-      box-shadow: var(--shadow);
+      padding: 14px;
+      min-height: 84px;
     }
-    .metric strong { display: block; font-size: 22px; line-height: 1.1; color: var(--accent-2); }
+    .metric strong { display: block; font-size: 25px; line-height: 1.1; color: var(--accent-2); }
     .metric span { color: var(--muted); font-size: 13px; }
     nav {
       position: sticky;
       top: 0;
       z-index: 2;
-      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      background: color-mix(in srgb, var(--bg) 94%, transparent);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--line);
-      margin: 0 0 24px;
-      padding: 10px max(20px, calc((100vw - 1120px) / 2 + 20px));
+      margin: 0 0 28px;
+      padding: 10px max(20px, calc((100vw - 1160px) / 2 + 20px));
       overflow-x: auto;
       white-space: nowrap;
     }
     nav a {
       display: inline-flex;
-      margin-right: 14px;
+      margin-right: 12px;
       color: var(--muted);
-      font-size: 14px;
       border-radius: 5px;
-      padding: 4px 6px;
+      padding: 4px 7px;
+      font-size: 14px;
     }
-    nav a:hover { background: var(--panel-soft); text-decoration: none; color: var(--text); }
-    section { margin: 28px 0; }
+    nav a:hover { background: var(--panel-soft); color: var(--text); text-decoration: none; }
+    section { margin: 34px 0; }
     .section-head {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
       gap: 12px;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
     .section-note { color: var(--muted); font-size: 14px; }
-    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
     .stack { display: grid; gap: 12px; }
-    .event-card, .deep-card, .summary-card, .simple-card {
+    .view-card, .analysis-card, .tool-card {
       background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 6px;
-      padding: 14px;
+      border-radius: 8px;
       box-shadow: var(--shadow);
     }
-    .card-title {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 8px;
+    .view-card {
+      padding: 16px;
+      border-top: 4px solid var(--accent);
     }
-    .card-title h3 { min-width: 0; overflow-wrap: anywhere; }
+    .view-card:nth-child(2n) { border-top-color: var(--accent-2); }
+    .view-card:nth-child(3n) { border-top-color: var(--accent-3); }
+    .view-title {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: start;
+    }
+    .view-title h3 { overflow-wrap: anywhere; }
+    .viewpoint {
+      margin-top: 12px;
+      padding: 12px;
+      background: color-mix(in srgb, var(--accent-soft) 52%, var(--panel));
+      border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line));
+      border-radius: 6px;
+      font-weight: 650;
+    }
+    .why { margin-top: 10px; color: var(--muted); }
     .meta {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
-      margin: 10px 0;
+      margin: 11px 0 0;
     }
     .badge {
       display: inline-flex;
@@ -162,31 +200,33 @@
       border-radius: 5px;
       padding: 3px 8px;
       font-size: 12px;
-      font-weight: 650;
+      font-weight: 700;
       line-height: 1.4;
       white-space: nowrap;
     }
     .badge-high { color: var(--red); background: var(--red-soft); }
-    .badge-medium { color: var(--amber); background: var(--amber-soft); }
+    .badge-medium { color: #946200; background: var(--yellow-soft); }
     .badge-low { color: var(--muted); background: var(--gray-soft); }
-    .badge-official { color: var(--green); background: var(--green-soft); }
-    .badge-media { color: var(--blue); background: var(--blue-soft); }
-    .badge-community { color: var(--amber); background: var(--amber-soft); }
+    .badge-official, .badge-media { color: var(--green); background: var(--green-soft); }
+    .badge-community { color: #946200; background: var(--yellow-soft); }
     .badge-unverified, .badge-conflicting { color: var(--red); background: var(--red-soft); }
     .tag { color: var(--muted); background: var(--gray-soft); }
-    .summary-card {
-      border-left: 4px solid var(--accent);
-    }
-    .summary-card:nth-child(2n) { border-left-color: var(--accent-2); }
-    .summary-card:nth-child(3n) { border-left-color: var(--accent-3); }
-    .company-block {
+    details.expand {
+      margin-top: 12px;
       border-top: 1px solid var(--line);
-      padding-top: 16px;
-      margin-top: 18px;
+      padding-top: 10px;
     }
-    .company-block:first-child { border-top: 0; padding-top: 0; }
-    .event-body { color: var(--text); }
-    .impact { color: var(--muted); margin-top: 8px; }
+    details.expand > summary {
+      cursor: pointer;
+      color: #c01899;
+      font-weight: 720;
+      list-style-position: inside;
+    }
+    .evidence {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+    .evidence li { margin: 7px 0; }
     .source-line {
       display: flex;
       flex-wrap: wrap;
@@ -195,9 +235,61 @@
       font-size: 13px;
       margin-top: 10px;
     }
-    .deep-card dl {
+    .source-context {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .reader-takeaway {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 6px;
+      background: color-mix(in srgb, var(--blue-soft) 72%, var(--panel));
+    }
+    .original {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+    .company-block {
+      padding-top: 18px;
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+    .company-block:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+    .event-detail {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .event-detail > summary {
+      cursor: pointer;
       display: grid;
-      grid-template-columns: 160px minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      padding: 14px 16px;
+      list-style: none;
+    }
+    .event-detail > summary::-webkit-details-marker { display: none; }
+    .event-detail > summary::after {
+      content: "展开";
+      color: var(--muted);
+      font-size: 13px;
+      align-self: start;
+    }
+    .event-detail[open] > summary::after { content: "收起"; }
+    .event-summary-title { display: grid; gap: 6px; }
+    .event-summary-title p { color: var(--muted); }
+    .event-body {
+      padding: 0 16px 16px;
+      border-top: 1px solid var(--line);
+    }
+    .analysis-card, .tool-card { padding: 16px; }
+    .analysis-card dl {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
       gap: 8px 14px;
       margin: 12px 0 0;
     }
@@ -208,7 +300,7 @@
       border-collapse: collapse;
       background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 6px;
+      border-radius: 8px;
       overflow: hidden;
     }
     th, td {
@@ -218,14 +310,14 @@
       vertical-align: top;
       font-size: 14px;
     }
-    th { color: var(--muted); background: var(--panel-soft); font-weight: 700; }
+    th { color: var(--muted); background: var(--panel-soft); font-weight: 720; }
     tr:last-child td { border-bottom: 0; }
     .table-wrap { overflow-x: auto; }
     .empty {
       color: var(--muted);
       background: var(--panel-soft);
       border: 1px dashed var(--line);
-      border-radius: 6px;
+      border-radius: 8px;
       padding: 16px;
     }
     footer {
@@ -235,11 +327,11 @@
       margin-top: 34px;
       font-size: 14px;
     }
-    @media (max-width: 820px) {
-      header { grid-template-columns: 1fr; }
-      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    @media (max-width: 860px) {
+      header, .dashboard { grid-template-columns: 1fr; }
       .grid { grid-template-columns: 1fr; }
-      .deep-card dl { grid-template-columns: 1fr; }
+      .view-title, .event-detail > summary { grid-template-columns: 1fr; }
+      .analysis-card dl { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -248,63 +340,91 @@
     <header>
       <div>
         <h1>{{ brief.title }}</h1>
-        <p class="subtitle">默认调用 Follow Builders skill，追踪一线 AI builders、播客访谈和生态信号。中文为主，保留原始英文标题、原始链接和可信度标记。</p>
+        <p class="subtitle">中文观点优先。每条信息先给出我该记住的核心判断，再展开看原文证据、来源和不确定性。</p>
       </div>
       <div class="date-pill">{{ brief.date }}</div>
     </header>
 
-    <div class="metrics">
-      <div class="metric"><strong>{{ brief.stats.total_events }}</strong><span>结构化事件</span></div>
-      <div class="metric"><strong>{{ brief.stats.verified_events }}</strong><span>可溯源</span></div>
-      <div class="metric"><strong>{{ brief.stats.needs_follow_up }}</strong><span>待核实</span></div>
-      <div class="metric"><strong>{{ brief.stats.source_failures }}</strong><span>抓取失败</span></div>
+    <div class="dashboard">
+      <div class="lead-idea">
+        <span class="lead-label">今天的主线</span>
+        {% if brief.cognition %}
+        <h2>{{ brief.cognition[0].insight }}</h2>
+        <p>{{ brief.cognition[0].explanation }}</p>
+        {% else %}
+        <h2>先把分散信号整理成可复用判断。</h2>
+        <p>当日信息不足时，保留原始来源和不确定性，比强行得出结论更重要。</p>
+        {% endif %}
+      </div>
+      <div class="metrics-panel">
+        <div class="metric"><strong>{{ brief.stats.total_events }}</strong><span>结构化信息</span></div>
+        <div class="metric"><strong>{{ brief.stats.verified_events }}</strong><span>可溯源</span></div>
+        <div class="metric"><strong>{{ brief.stats.needs_follow_up }}</strong><span>待核实</span></div>
+        <div class="metric"><strong>{{ brief.stats.source_failures }}</strong><span>抓取失败</span></div>
+      </div>
     </div>
   </div>
 
   <nav>
-    <a href="#summary">核心摘要</a>
-    <a href="#companies">Builders 动态</a>
-    <a href="#deep">重点深挖</a>
-    <a href="#agents">Agent 与工具</a>
-    <a href="#models">模型/API 表</a>
+    <a href="#summary">核心观点</a>
+    <a href="#feed">完整信息流</a>
+    <a href="#deep">重点分析</a>
+    <a href="#agents">Agent 工具</a>
+    <a href="#models">模型/API</a>
     <a href="#manual">手动日报</a>
-    <a href="#cognition">认知积累</a>
+    <a href="#cognition">认知沉淀</a>
     <a href="#actions">行动建议</a>
   </nav>
 
   <main class="page">
     <section id="summary">
       <div class="section-head">
-        <h2>今日核心摘要</h2>
-        <span class="section-note">最多 5 条</span>
+        <h2>今日核心观点</h2>
+        <span class="section-note">先读这里，判断今天是否值得深挖</span>
       </div>
       {% if brief.core_summary %}
       <div class="grid">
         {% for item in brief.core_summary %}
-        <article class="summary-card">
-          <div class="card-title">
+        <article class="view-card">
+          <div class="view-title">
             <h3>{{ item.title }}</h3>
-            <span class="badge {{ item.importance|importance_class }}">{{ item.importance }}</span>
+            <span class="badge {{ item.importance|importance_class }}">{{ item.importance|importance_label }}</span>
           </div>
-          <p>{{ item.summary }}</p>
-          <p class="impact">{{ item.why_it_matters }}</p>
-          <div class="source-line">
-            <span>{{ item.company }}{% if item.product %} / {{ item.product }}{% endif %}</span>
-            <span class="badge {{ item.credibility|credibility_class }}">{{ item.credibility }}</span>
-            {% if item.source_url %}<a href="{{ item.source_url }}" target="_blank" rel="noopener">来源：{{ item.source_name or "原文" }}</a>{% endif %}
+          <p class="viewpoint">{{ item.core_viewpoint or item.summary }}</p>
+          <p class="why">{{ item.why_it_matters }}</p>
+          <div class="meta">
+            <span class="badge {{ item.credibility|credibility_class }}">{{ item.credibility|credibility_label }}</span>
+            <span class="badge tag">{{ item.company }}{% if item.product %} / {{ item.product }}{% endif %}</span>
           </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            {% if item.evidence_points %}
+            <ol class="evidence">
+              {% for point in item.evidence_points %}
+              <li>{{ point }}</li>
+              {% endfor %}
+            </ol>
+            {% endif %}
+            {% if item.reader_takeaway %}<p class="reader-takeaway">{{ item.reader_takeaway }}</p>{% endif %}
+            {% if item.source_context %}<p class="source-context">{{ item.source_context }}</p>{% endif %}
+            {% if item.original_title %}<p class="original">原始标题 / 原帖：{{ item.original_title }}</p>{% endif %}
+            <div class="source-line">
+              {% if item.source_url %}<a href="{{ item.source_url }}" target="_blank" rel="noopener">打开原始来源</a>{% endif %}
+              {% if item.uncertainty_note %}<span>{{ item.uncertainty_note }}</span>{% endif %}
+            </div>
+          </details>
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <div class="empty">今日暂无已确认核心事件。若是首次运行，HTML 快照源会先建立基线，后续检测到变化再生成事件。</div>
+      <div class="empty">今日暂无核心观点。可能是来源没有新内容，或全部信息都需要继续核实。</div>
       {% endif %}
     </section>
 
-    <section id="companies">
+    <section id="feed">
       <div class="section-head">
-        <h2>Builders 与行业动态</h2>
-        <span class="section-note">按公司 / 来源归档</span>
+        <h2>完整信息流</h2>
+        <span class="section-note">默认收起，展开看原文要点</span>
       </div>
       {% if brief.company_updates %}
         {% for company, events in brief.company_updates.items() %}
@@ -312,42 +432,56 @@
           <h3>{{ company }}</h3>
           <div class="stack">
             {% for event in events %}
-            <article class="event-card">
-              <div class="card-title">
-                <h3>{{ event.title_zh or event.title }}</h3>
-                <span class="badge {{ event.importance|importance_class }}">{{ event.importance }}</span>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>{{ event.title_zh or event.title }}</h3>
+                  <p>{{ event.core_viewpoint or event.summary }}</p>
+                </div>
+                <span class="badge {{ event.importance|importance_class }}">{{ event.importance|importance_label }}</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge {{ event.credibility|credibility_class }}">{{ event.credibility|credibility_label }}</span>
+                  {% if event.multi_source %}<span class="badge badge-official">多源确认</span>{% endif %}
+                  {% for tag in event.tags %}<span class="badge tag">{{ tag }}</span>{% endfor %}
+                </div>
+                {% if event.evidence_points %}
+                <ol class="evidence">
+                  {% for point in event.evidence_points %}
+                  <li>{{ point }}</li>
+                  {% endfor %}
+                </ol>
+                {% endif %}
+                <p class="reader-takeaway">{{ event.reader_takeaway }}</p>
+                <p class="source-context">{{ event.source_context }}</p>
+                <p class="original">原始标题 / 原帖：{{ event.original_title or event.title }}</p>
+                <div class="source-line">
+                  <span>{{ event.product or event.company }}</span>
+                  {% if event.published_at %}<span>{{ event.published_at }}</span>{% endif %}
+                  {% if event.source_url %}<a href="{{ event.source_url }}" target="_blank" rel="noopener">{{ event.source_name or "原始来源" }}</a>{% endif %}
+                  {% if event.uncertainty_note %}<span>{{ event.uncertainty_note }}</span>{% endif %}
+                </div>
               </div>
-              <p class="event-body">{{ event.summary }}</p>
-              <div class="meta">
-                <span class="badge {{ event.credibility|credibility_class }}">{{ event.credibility }}</span>
-                {% if event.multi_source %}<span class="badge badge-official">多源确认</span>{% endif %}
-                {% for tag in event.tags %}<span class="badge tag">{{ tag }}</span>{% endfor %}
-              </div>
-              <p class="impact">{{ event.why_it_matters }}</p>
-              <div class="source-line">
-                <span>{{ event.product or event.company }}</span>
-                {% if event.published_at %}<span>{{ event.published_at }}</span>{% endif %}
-                {% if event.source_url %}<a href="{{ event.source_url }}" target="_blank" rel="noopener">{{ event.source_name or "原始来源" }}</a>{% endif %}
-              </div>
-            </article>
+            </details>
             {% endfor %}
           </div>
         </div>
         {% endfor %}
       {% else %}
-        <div class="empty">今日暂无公司动态事件。</div>
+      <div class="empty">今日暂无可展示信息。</div>
       {% endif %}
     </section>
 
     <section id="deep">
       <div class="section-head">
-        <h2>今日重点深挖</h2>
-        <span class="section-note">1-3 条克制分析</span>
+        <h2>重点分析</h2>
+        <span class="section-note">从产品、竞争和商业化角度拆解</span>
       </div>
       {% if brief.deep_dives %}
       <div class="stack">
         {% for item in brief.deep_dives %}
-        <article class="deep-card">
+        <article class="analysis-card">
           <h3>{{ item.title }}</h3>
           <div class="source-line">
             <span>{{ item.company }}</span>
@@ -366,40 +500,40 @@
         {% endfor %}
       </div>
       {% else %}
-      <div class="empty">今日暂无适合深挖的高可信事件。</div>
+      <div class="empty">今日暂无适合展开分析的信息。</div>
       {% endif %}
     </section>
 
     <section id="agents">
       <div class="section-head">
-        <h2>Agent 与开发者工具专区</h2>
-        <span class="section-note">Codex / Claude Code / Gemini CLI / MCP / RAG / 工作流</span>
+        <h2>Agent 与开发者工具</h2>
+        <span class="section-note">是否值得试用、适合什么场景</span>
       </div>
       {% if brief.agent_tools %}
       <div class="grid">
         {% for item in brief.agent_tools %}
-        <article class="simple-card">
+        <article class="tool-card">
           <h3>{{ item.title }}</h3>
           <div class="meta">
-            <span class="badge {{ item.importance|importance_class }}">{{ item.importance }}</span>
-            <span class="badge {{ item.credibility|credibility_class }}">{{ item.credibility }}</span>
+            <span class="badge {{ item.importance|importance_class }}">{{ item.importance|importance_label }}</span>
+            <span class="badge {{ item.credibility|credibility_class }}">{{ item.credibility|credibility_label }}</span>
           </div>
-          <p>{{ item.workflow_help }}</p>
-          <p class="impact">{{ item.try_or_not }}。{{ item.scenarios }}</p>
-          <p class="impact">{{ item.business_relevance }}</p>
-          {% if item.source_url %}<div class="source-line"><a href="{{ item.source_url }}" target="_blank" rel="noopener">来源链接</a></div>{% endif %}
+          <p class="viewpoint">{{ item.workflow_help }}</p>
+          <p class="why">{{ item.try_or_not }}。{{ item.scenarios }}</p>
+          <p class="reader-takeaway">{{ item.business_relevance }}</p>
+          {% if item.source_url %}<div class="source-line"><a href="{{ item.source_url }}" target="_blank" rel="noopener">打开原始来源</a></div>{% endif %}
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <div class="empty">今日暂无 Agent 或开发者工具专项事件。</div>
+      <div class="empty">今日暂无 Agent 或开发者工具专项信息。</div>
       {% endif %}
     </section>
 
     <section id="models">
       <div class="section-head">
-        <h2>模型能力与 API 变化表</h2>
-        <span class="section-note">缺少确证时标记信息不足</span>
+        <h2>模型能力与 API 变化</h2>
+        <span class="section-note">无法确认更新前后时保留“信息不足”</span>
       </div>
       {% if brief.model_api_changes %}
       <div class="table-wrap">
@@ -433,7 +567,7 @@
     <section id="manual">
       <div class="section-head">
         <h2>手动日报整理区</h2>
-        <span class="section-note">拆分、去重、核实</span>
+        <span class="section-note">拆分、去重、可信度标记</span>
       </div>
       {% if brief.manual_review %}
       <div class="table-wrap">
@@ -461,37 +595,37 @@
 
     <section id="cognition">
       <div class="section-head">
-        <h2>今日认知积累</h2>
-        <span class="section-note">3-5 条沉淀</span>
+        <h2>认知沉淀</h2>
+        <span class="section-note">把信息变成可复用判断</span>
       </div>
       {% if brief.cognition %}
       <div class="stack">
         {% for item in brief.cognition %}
-        <article class="simple-card">
+        <article class="tool-card">
           <h3>{{ item.insight }}</h3>
-          <p>{{ item.explanation }}</p>
+          <p class="why">{{ item.explanation }}</p>
           {% if item.source_url %}<div class="source-line"><span>关联：{{ item.source_title }}</span><a href="{{ item.source_url }}" target="_blank" rel="noopener">来源</a></div>{% endif %}
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <div class="empty">今日暂无足够事件生成认知积累。</div>
+      <div class="empty">今日暂无足够信息生成认知沉淀。</div>
       {% endif %}
     </section>
 
     <section id="actions">
       <div class="section-head">
-        <h2>今日行动建议</h2>
-        <span class="section-note">3-5 条</span>
+        <h2>行动建议</h2>
+        <span class="section-note">今天可以做什么</span>
       </div>
       {% if brief.actions %}
       <div class="grid">
         {% for item in brief.actions %}
-        <article class="simple-card">
+        <article class="tool-card">
           <h3>{{ item.title }}</h3>
-          <p>{{ item.action }}</p>
-          <p class="impact">{{ item.reason }}</p>
-          {% if item.source_url %}<div class="source-line"><a href="{{ item.source_url }}" target="_blank" rel="noopener">打开原始链接</a></div>{% endif %}
+          <p class="viewpoint">{{ item.action }}</p>
+          <p class="why">{{ item.reason }}</p>
+          {% if item.source_url %}<div class="source-line"><a href="{{ item.source_url }}" target="_blank" rel="noopener">打开原始来源</a></div>{% endif %}
         </article>
         {% endfor %}
       </div>
@@ -504,7 +638,7 @@
     <section id="failures">
       <div class="section-head">
         <h2>抓取失败来源</h2>
-        <span class="section-note">不会阻断日报生成</span>
+        <span class="section-note">不会阻断页面生成</span>
       </div>
       <div class="table-wrap">
         <table>
@@ -524,7 +658,7 @@
     {% endif %}
 
     <footer>
-      <p>生成时间：{{ brief.stats.generated_at }}。所有分析均基于已抓取来源，缺少确证的信息会保留不确定性标记。</p>
+      <p>生成时间：{{ brief.stats.generated_at }}。观点标题是系统基于原始来源生成的中文阅读层；非官方信息会保留不确定性说明。</p>
     </footer>
   </main>
 </body>

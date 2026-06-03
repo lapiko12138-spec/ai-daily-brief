@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import json
+import re
 from typing import Any, Dict, List
 
-from utils import local_now, public_page_url
+from utils import compact_text, local_now, public_page_url
 
 
 COMPANY_ORDER = [
@@ -48,7 +50,7 @@ def generate_brief(
     manual_meta: Dict[str, Any],
     settings: Dict[str, Any],
 ) -> Dict[str, Any]:
-    sorted_events = sorted(events, key=event_sort_key, reverse=True)
+    sorted_events = enrich_events_for_reader(sorted(events, key=event_sort_key, reverse=True))
     core_items = build_core_summary(sorted_events, settings)
     company_updates = build_company_updates(sorted_events)
     deep_dives = build_deep_dives(sorted_events, settings)
@@ -112,6 +114,12 @@ def build_core_summary(events: List[Dict[str, Any]], settings: Dict[str, Any]) -
             "source_name": event.get("source_name", ""),
             "importance": event.get("importance", "Low"),
             "credibility": event.get("credibility", "unverified"),
+            "core_viewpoint": event.get("core_viewpoint", ""),
+            "evidence_points": event.get("evidence_points", []),
+            "reader_takeaway": event.get("reader_takeaway", ""),
+            "original_title": event.get("original_title", ""),
+            "source_context": event.get("source_context", ""),
+            "uncertainty_note": event.get("uncertainty_note", ""),
         }
         for event in selected
     ]
@@ -279,6 +287,148 @@ def display_title(event: Dict[str, Any]) -> str:
     return event.get("title_zh") or event.get("title") or "Untitled"
 
 
+def enrich_events_for_reader(events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return [enrich_event_for_reader(event) for event in events]
+
+
+def enrich_event_for_reader(event: Dict[str, Any]) -> Dict[str, Any]:
+    event = dict(event)
+    original_title = event.get("title", "")
+    evidence_points = extract_evidence_points(event)
+    source_context = build_source_context(event, evidence_points)
+    reader_title, core_viewpoint = infer_reader_framing(event, evidence_points)
+    event["original_title"] = original_title
+    event["title_zh"] = reader_title
+    event["core_viewpoint"] = core_viewpoint
+    event["evidence_points"] = evidence_points
+    event["source_context"] = source_context
+    event["reader_takeaway"] = infer_reader_takeaway(event, core_viewpoint)
+    event["uncertainty_note"] = infer_uncertainty(event)
+    return event
+
+
+def extract_evidence_points(event: Dict[str, Any]) -> List[str]:
+    raw_text = event.get("raw_text", "")
+    points: List[str] = []
+    parsed = try_parse_json(raw_text)
+    if isinstance(parsed, dict) and isinstance(parsed.get("tweets"), list):
+        for tweet in parsed.get("tweets", [])[:4]:
+            text = clean_source_text(tweet.get("text", ""))
+            if text:
+                points.append(compact_text(text, 360))
+    elif event.get("source_kind") == "podcast":
+        points.extend(extract_transcript_points(raw_text))
+    if not points:
+        points.extend(extract_summary_points(event.get("summary", "")))
+    return points[:4]
+
+
+def try_parse_json(value: str) -> Any:
+    if not value:
+        return None
+    try:
+        return json.loads(value)
+    except json.JSONDecodeError:
+        return None
+
+
+def extract_transcript_points(value: str) -> List[str]:
+    cleaned = re.sub(r"Speaker\s+\d+\s*\|\s*\d{2}:\d{2}\s*-\s*\d{2}:\d{2}", " ", value or "")
+    sentences = split_sentences(clean_source_text(cleaned))
+    return [compact_text(sentence, 360) for sentence in sentences if len(sentence) > 40][:4]
+
+
+def extract_summary_points(summary: str) -> List[str]:
+    text = clean_source_text(summary)
+    marker_match = re.search(r"要点：(.+)", text)
+    if marker_match:
+        text = marker_match.group(1)
+    candidates = re.split(r"\s+\d+\.\s+", " " + text)
+    points = [compact_text(candidate.strip(" .。"), 360) for candidate in candidates if candidate.strip(" .。")]
+    if points:
+        return points[:4]
+    return [compact_text(text, 360)] if text else []
+
+
+def split_sentences(text: str) -> List[str]:
+    return [part.strip() for part in re.split(r"(?<=[.!?。！？])\s+", text or "") if part.strip()]
+
+
+def clean_source_text(value: str) -> str:
+    text = re.sub(r"https?://\S+", "", value or "")
+    text = text.replace("&amp;", "&").replace("&gt;", ">").replace("&lt;", "<")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def build_source_context(event: Dict[str, Any], evidence_points: List[str]) -> str:
+    source = event.get("source_name") or "原始来源"
+    product = event.get("product") or event.get("company") or ""
+    prefix = f"{source}"
+    if product and product not in prefix:
+        prefix += f" / {product}"
+    if not evidence_points:
+        return f"{prefix} 记录了这条动态，但当前没有足够原文摘录。"
+    return f"{prefix} 的原始信息主要包括：" + "；".join(evidence_points[:2])
+
+
+def infer_reader_framing(event: Dict[str, Any], evidence_points: List[str]) -> tuple[str, str]:
+    haystack = " ".join(
+        [
+            event.get("title", ""),
+            event.get("summary", ""),
+            " ".join(evidence_points),
+            event.get("product", ""),
+            event.get("company", ""),
+        ]
+    ).lower()
+    company = event.get("company") or "AI 生态"
+    rules = [
+        (["claude code", "workflow"], "Claude Code 正在把 Agent 从写代码扩展到可复用工作流", "Claude Code 的重点不只是生成代码，而是把复杂任务沉淀为可复用、可迁移的 workflow。"),
+        (["codex", "business plan"], "Codex 开始从编码助手走向团队工作台", "Codex 新能力开始覆盖网站托管、插件、skills 和视觉反馈，说明 OpenAI 在把 Agent 放进团队日常交付链路。"),
+        (["codex", "agi"], "Codex 的真实任务完成能力正在被 builders 放大", "一线 builder 关注的不是 benchmark，而是 Codex 能否在真实工作里一次性完成任务。"),
+        (["chatgpt", "agents"], "ChatGPT 正被重新定位为未来 Agent 入口", "OpenAI 相关 builder 的表达显示，ChatGPT 不只是聊天产品，正在被视为 Agent 分发入口。"),
+        (["thinking levels", "gemini"], "Gemini Thinking Levels 已扩展到全端产品体验", "Gemini 把思考强度控制带到 Web、iOS 和 Android，说明模型能力正在产品界面中变成用户可调参数。"),
+        (["devin", "windsurf"], "AI 原生开发工具正在靠持续迭代换取口碑", "Devin / Windsurf 的讨论重点是长期产品耐心和真实使用口碑，而不是一次发布的声量。"),
+        (["saas is not dead"], "AI 正在重定价窄场景 SaaS 的价值", "简单窄场景 SaaS 会被 Claude、ChatGPT、Codex 这类带个人上下文的 Agent 挤压，付费理由必须更深。"),
+        (["microsoft", "fabric data apps"], "企业数据应用正在被 AI 平台进一步低门槛化", "Replit 与 Microsoft 的合作信号是，企业内部数据应用会越来越像低代码/Agent 化工作流。"),
+        (["swe benchmarks", "vibench"], "应用构建能力需要新的评测方式", "传统 SWE benchmark 不一定能衡量真实 app building 能力，新的评测会影响开发工具叙事。"),
+        (["gbrain", "retrieval", "memory"], "检索和记忆正在成为 Agent 工作流的底座", "Agent 要进入真实工作，必须具备稳定的检索、记忆和上下文组织能力。"),
+        (["model routing", "token"], "模型路由会成为企业控制 AI 成本的关键基础设施", "随着 token 成本进入运营费用，企业会更需要按任务选择模型，而不是固定使用单一模型。"),
+        (["yes-code"], "Coding Agent 正在削弱 no-code 的原始假设", "当代码变得更便宜、更可控，no-code 的核心卖点会从“不会写代码”转向“组织工作流”。"),
+        (["conductor", "coding agents"], "面向 Agent 的开发环境正在形成新类别", "IDE 可能会演化成 Agent Development Environment，远程开发和多 Agent 协作会成为新默认。"),
+        (["customer", "research", "listen labs"], "AI 用户研究正在从低频调研变成连续决策系统", "访谈和仿真结合后，企业可以把客户洞察嵌入产品、营销和策略循环。"),
+        (["cyber", "trusted defenders"], "AI 安全与网络防御进入国家竞争叙事", "模型领先、安全治理和可信网络防御正在被放到国家级 AI 竞争框架中讨论。"),
+        (["knowledge workers", "codex"], "Codex 的采用正在从开发者扩展到知识工作者", "如果知识工作者增长快于开发者，Codex 的市场边界就不只是 IDE，而是通用办公自动化。"),
+    ]
+    for keywords, title, viewpoint in rules:
+        if all(keyword in haystack for keyword in keywords):
+            return title, viewpoint
+
+    if "Agent" in event.get("tags", []) or "开发者工具" in event.get("tags", []):
+        return f"{company} 相关 Agent 动态值得跟踪", "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。"
+    if "企业服务" in event.get("tags", []):
+        return f"{company} 的企业 AI 信号值得关注", "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。"
+    if "模型更新" in event.get("tags", []):
+        return f"{company} 的模型/产品能力有新变化", "核心信号是模型能力继续被包装进用户可感知的产品入口。"
+    if event.get("source_kind") == "podcast":
+        return "一线访谈提供了值得沉淀的 builder 判断", "长访谈的价值在于理解问题定义、产品取舍和商业化逻辑，而不是只看新闻标题。"
+    return f"{company} 生态出现一条值得记录的信号", "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。"
+
+
+def infer_reader_takeaway(event: Dict[str, Any], core_viewpoint: str) -> str:
+    tags = event.get("tags", [])
+    if "Agent" in tags or "开发者工具" in tags:
+        return "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。"
+    if "企业服务" in tags:
+        return "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。"
+    if "模型更新" in tags:
+        return "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。"
+    if event.get("source_kind") == "podcast":
+        return "我的判断：把这类访谈当作长期认知材料，重点记录 builder 如何定义问题和衡量价值。"
+    return f"我的判断：{core_viewpoint}"
+
+
 def infer_problem_solved(event: Dict[str, Any]) -> str:
     tags = event.get("tags", [])
     if "API 更新" in tags:
@@ -287,7 +437,7 @@ def infer_problem_solved(event: Dict[str, Any]) -> str:
         return "主要解决从模型回答到任务执行之间的工作流连接问题。"
     if "模型更新" in tags:
         return "主要围绕模型能力、可用范围或产品化入口做增强。"
-        return "目前只能确认这是一个值得跟踪的 builder 或生态更新，具体问题需要继续看原文细节。"
+    return "目前只能确认这是一个值得跟踪的 builder 或生态更新，具体问题需要继续看原文细节。"
 
 
 def infer_industry_signal(event: Dict[str, Any]) -> str:

@@ -17,6 +17,8 @@ def render_all(run_date: str, brief: Dict[str, Any], settings: Dict[str, Any]) -
     )
     env.filters["importance_class"] = importance_class
     env.filters["credibility_class"] = credibility_class
+    env.filters["importance_label"] = importance_label
+    env.filters["credibility_label"] = credibility_label
 
     docs_dir = ROOT / "docs"
     daily_dir = docs_dir / "daily"
@@ -69,6 +71,14 @@ def importance_class(value: str) -> str:
     }.get(value, "badge-low")
 
 
+def importance_label(value: str) -> str:
+    return {
+        "High": "高优先级",
+        "Medium": "中优先级",
+        "Low": "低优先级",
+    }.get(value, value or "低优先级")
+
+
 def credibility_class(value: str) -> str:
     return {
         "official": "badge-official",
@@ -77,3 +87,13 @@ def credibility_class(value: str) -> str:
         "unverified": "badge-unverified",
         "conflicting": "badge-conflicting",
     }.get(value, "badge-unverified")
+
+
+def credibility_label(value: str) -> str:
+    return {
+        "official": "官方来源",
+        "media": "媒体/访谈",
+        "community": "Builder 原帖",
+        "unverified": "待核实",
+        "conflicting": "信息冲突",
+    }.get(value, value or "待核实")

@@ -19,7 +19,7 @@
     "language": "zh"
   },
   "adapter_mode": "follow-builders public feeds fallback",
-  "fetched_at": "2026-06-04T00:21:02.693268+08:00",
+  "fetched_at": "2026-06-04T00:20:16.421288+08:00",
   "events_count": 15,
   "stats": {
     "podcastEpisodes": 1,
@@ -28,7 +28,7 @@
     "blogPosts": 0,
     "feedGeneratedAt": "2026-06-03T08:03:30.181Z"
   },
-  "digest_generated_at": "2026-06-04T00:21:02.672258+08:00",
+  "digest_generated_at": "2026-06-04T00:20:16.399840+08:00",
   "skill_errors": [
     "Podcast: Transcript error for \"GitHub's plan for Agents — Kyle Daigle, GitHub\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
   ],
@@ -37,7 +37,7 @@
   ],
   "digest": {
     "status": "ok",
-    "generatedAt": "2026-06-04T00:21:02.672258+08:00",
+    "generatedAt": "2026-06-04T00:20:16.399840+08:00",
     "config": {
       "language": "zh",
       "frequency": "daily",
