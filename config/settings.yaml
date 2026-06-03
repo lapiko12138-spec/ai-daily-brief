@@ -1,0 +1,23 @@
+site:
+  title: "每日 AI 行业简讯"
+  language: "zh-CN"
+  homepage_recent_days: 7
+  timezone: "Asia/Shanghai"
+  default_author: "AI Daily Brief Bot"
+  base_url: ""
+
+brief:
+  max_core_items: 5
+  max_deep_dive_items: 3
+  max_cognition_items: 5
+  max_action_items: 5
+  fetch_window_days: 3
+
+openai:
+  enabled: false
+  # Keep this empty by default. Set OPENAI_MODEL in GitHub Actions variables or local env.
+  model: ""
+
+feishu:
+  enabled: true
+

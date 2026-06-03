@@ -1,0 +1,26 @@
+{
+  "source": {
+    "id": "mistral_news",
+    "name": "Mistral AI News",
+    "company": "Mistral AI",
+    "product": "Mistral",
+    "type": "html",
+    "url": "https://mistral.ai/news/",
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "API 更新",
+      "Agent",
+      "企业服务"
+    ]
+  },
+  "fetched_at": "2026-06-02T01:04:57.627289+08:00",
+  "title": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+  "url": "https://mistral.ai/news/",
+  "hash": "c931356502b1179ed2cea49def6a42d42605f6b08d9af36cd369dbb676f01cf5",
+  "previous_hash": "c931356502b1179ed2cea49def6a42d42605f6b08d9af36cd369dbb676f01cf5",
+  "changed": false,
+  "text_excerpt": "Frontier AI LLMs, assistants, agents, services | Mistral AI Start building Menu Products Solutions Models Developers Blog Customers Company Contact sales Start building Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background. Compute Frontier-scale infrastructure for training and inference. Pricing Plans API pricing For enterprises Services Delivery methodology Model customization Industries Financial services Public sector & government Manufacturing Use cases Use case overview Coding Document intelligence Speech Latest models Mistral Medium 3.5 Mistral Small 4 Mistral 3 Voxtral TTS See all models Docs API Reference Cookbooks Latest posts AI Now Summit 2026 Vibe gets to work. Introducing Search Toolkit Read all news Categories Product Research Engineering Solutions Company Featured stories ASML CMA CGM HSBC BMW See all Who we are About us Careers Brand Connect Community Partners Help center Products Solutions Models Developers Blog Customers Company Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background. Compute Frontier-scale infrastructure for training and inference. Pricing Plans API pricing For enterprises Services Delivery methodology Model customization Industries Financial services Public sector & government Manufacturing Use cases Use case overview Coding Document intelligence Speech Latest models Mistral Medium 3.5 Mistral Small 4 Mistral 3 Voxtral TTS See all models Docs API Reference Cookbooks Latest posts AI Now Summit 2026 Vibe gets to work. Introducing Search Toolkit Read all news Categories Product Research Engineering Solutions Company Featured stories ASML CMA CGM HSBC BMW See all Who we are About us Careers Brand Connect Community Partners Help center Start buil...",
+  "events_count": 0
+}

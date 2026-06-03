@@ -1,0 +1,7 @@
+{
+  "source_id": "claude_code_releases",
+  "source_name": "Claude Code Releases",
+  "url": "https://github.com/anthropics/claude-code",
+  "error": "Failed to fetch https://api.github.com/repos/anthropics/claude-code/releases?per_page=10: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.820613+08:00"
+}

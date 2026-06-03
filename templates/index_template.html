@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ settings.site.title }}</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8f5;
+      --panel: #ffffff;
+      --text: #1c211c;
+      --muted: #687064;
+      --line: #d9dfd2;
+      --accent: #0f766e;
+      --accent-soft: #d7f2ed;
+      --red: #b42318;
+      --red-soft: #ffe1dd;
+      --green: #15803d;
+      --green-soft: #dcfce7;
+      --shadow: 0 10px 28px rgba(24, 32, 24, 0.07);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11140f;
+        --panel: #191e17;
+        --text: #eef3ea;
+        --muted: #aab4a3;
+        --line: #333b2f;
+        --accent: #5eead4;
+        --accent-soft: #123d39;
+        --red: #fb7185;
+        --red-soft: #441a1f;
+        --green: #86efac;
+        --green-soft: #153821;
+        --shadow: none;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.58;
+      letter-spacing: 0;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page { max-width: 960px; margin: 0 auto; padding: 34px 18px 56px; }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 22px; }
+    h1 { margin: 0; font-size: clamp(30px, 6vw, 48px); line-height: 1.06; }
+    h2 { margin: 0 0 10px; font-size: 20px; }
+    p { margin: 0; }
+    .subtitle { color: var(--muted); margin-top: 10px; max-width: 720px; }
+    .brief-list { display: grid; gap: 14px; }
+    .brief-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .brief-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 10px;
+    }
+    .date {
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0;
+    }
+    .badge {
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 650;
+    }
+    .ok { color: var(--green); background: var(--green-soft); }
+    .warn { color: var(--red); background: var(--red-soft); }
+    ul { margin: 10px 0 0; padding-left: 20px; }
+    li { margin: 5px 0; }
+    .empty {
+      color: var(--muted);
+      background: color-mix(in srgb, var(--panel) 75%, var(--accent-soft));
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>{{ settings.site.title }}</h1>
+      <p class="subtitle">近 {{ settings.site.homepage_recent_days }} 天 AI 行业简讯归档。官方来源优先，保留链接、可信度和待核实标记。</p>
+    </header>
+
+    {% if recent %}
+    <div class="brief-list">
+      {% for item in recent %}
+      <article class="brief-card">
+        <div class="brief-head">
+          <h2><a href="{{ item.href }}">{{ item.title }}</a></h2>
+          <span class="date">{{ item.date }}</span>
+        </div>
+        <div class="metrics">
+          <span class="badge ok">事件 {{ item.stats.total_events }}</span>
+          <span class="badge ok">已核实 {{ item.stats.verified_events }}</span>
+          <span class="badge warn">待核实 {{ item.stats.needs_follow_up }}</span>
+          <span class="badge warn">失败来源 {{ item.stats.source_failures }}</span>
+        </div>
+        {% if item.core_summary %}
+        <ul>
+          {% for core in item.core_summary %}
+          <li>{{ core.title }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty">还没有日报归档。运行 scripts/run_daily.py 后会生成第一篇。</div>
+    {% endif %}
+  </main>
+</body>
+</html>

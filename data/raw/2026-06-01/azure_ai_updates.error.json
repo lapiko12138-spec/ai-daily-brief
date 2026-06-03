@@ -1,0 +1,7 @@
+{
+  "source_id": "azure_ai_updates",
+  "source_name": "Azure AI Services Blog",
+  "url": "https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIServicesBlog/rss",
+  "error": "HTTP 403 for https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIServicesBlog/rss: <!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"description\" content=\"Azure WAF JS Challenge\"/><title>Azure WAF</title><style>html *{font-family:\"Segoe UI\",S...",
+  "fetched_at": "2026-06-02T01:05:06.038960+08:00"
+}

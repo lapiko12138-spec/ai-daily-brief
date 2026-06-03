@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "anthropic_release_notes",
+    "name": "Anthropic Release Notes",
+    "company": "Anthropic",
+    "product": "Claude API",
+    "type": "html",
+    "url": "https://docs.anthropic.com/en/release-notes/overview",
+    "credibility": "official",
+    "category": "api_update",
+    "tags": [
+      "API 更新",
+      "模型更新",
+      "开发者工具"
+    ]
+  },
+  "fetched_at": "2026-06-02T01:04:35.236981+08:00",
+  "title": "Claude Platform - Claude API Docs",
+  "url": "https://docs.anthropic.com/en/release-notes/overview",
+  "hash": "a858c416fdb1a7870bb30e1f38daf3aacc9ddcb350b3b6c47eb895e90a2a8f04",
+  "previous_hash": "a858c416fdb1a7870bb30e1f38daf3aacc9ddcb350b3b6c47eb895e90a2a8f04",
+  "changed": false,
+  "text_excerpt": "Claude Platform - Claude API Docs Loading... Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K Release notes Overview System prompts Migration guides Migrating to Managed Agents Log in Release notes Overview Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Solutions AI agents Code modernization Coding Customer support Education Financial services Government Life sciences Partners Amazon Bedrock Google Cloud's Vertex AI Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Company Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Help and security Availability Status Support Discord Terms and policies Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy Release notes Claude Platform Copy page Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console. Copy page For release notes on Claude Apps, see the Release notes for Claude Apps in the Claude Help Center . For updates to Claude Code, see the complete CHANGELOG.md in the claude-code repository. May 29, 2026 Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sandboxes are now available on Claude Platform on AWS . See IAM actions for Claude Platform on AWS for the new IAM actions and the AnthropicSelfHostedEnvironmentAccess managed policy. May 28, 2026 We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default, 128k max output tokens, and the same set...",
+  "events_count": 0
+}

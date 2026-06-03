@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "openai_platform_changelog",
+    "name": "OpenAI Platform Changelog",
+    "company": "OpenAI",
+    "product": "API",
+    "type": "html",
+    "url": "https://platform.openai.com/docs/changelog",
+    "credibility": "official",
+    "category": "api_update",
+    "tags": [
+      "API 更新",
+      "模型更新",
+      "开发者工具"
+    ]
+  },
+  "fetched_at": "2026-06-02T01:04:29.830945+08:00",
+  "title": "Changelog | OpenAI API",
+  "url": "https://platform.openai.com/docs/changelog",
+  "hash": "e31e5d5bb1e299565a33128c7f1a64f448c1da075f9b9af40d93b08486976566",
+  "previous_hash": "e31e5d5bb1e299565a33128c7f1a64f448c1da075f9b9af40d93b08486976566",
+  "changed": false,
+  "text_excerpt": "Changelog | OpenAI API Home API Docs Guides and concepts for the OpenAI API API reference Endpoints, parameters, and responses Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams hand to Codex ChatGPT Apps SDK Build apps to extend ChatGPT Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources Showcase Demo apps to get inspired Blog Learnings and experiences from developers Cookbook Notebook examples for building with OpenAI models Learn Docs, videos, and demo apps for building with OpenAI Community Programs, meetups, and support for builders Start searching API Dashboard Search the API docs Search docs Suggested responses create reasoning_effort realtime prompt caching Primary navigation API API Reference Codex ChatGPT Resources Search docs Suggested responses create reasoning_effort realtime prompt caching Get started Overview Quickstart Models Pricing SDKs and CLI OpenAI SDK Agents SDK OpenAI CLI Latest: GPT-5.5 Prompt guidance Core concepts Text generation Code generation Images and vision Audio and speech Structured output Function calling Responses API Using tools Agents SDK Overview Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows Voice agents Agent Builder Overview Node reference Safety in building agents ChatKit Overview Customize Widgets Actions Advanced integrations Tools Web search MCP and Connectors Secure MCP Tunnel Skills Shell Computer use File search and retrieval File search Retrieval Tool search More tools Apply Patch Local shell Image generation Code interpreter Run and scale Conversation state Background mode Streaming WebSocket mode Webhooks File inputs Context management Compaction Counting tokens Prompt caching Prompting Overview Prompt engineering Citation formatting Migration guide Reasoning Reasoning models Reasoning best practice...",
+  "events_count": 0
+}

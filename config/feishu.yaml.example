@@ -1,0 +1,13 @@
+# Do not put real secrets in this file.
+# Use local environment variables or GitHub Actions Secrets instead.
+#
+# Required:
+#   FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/...
+#
+# Optional, only if your custom bot enables signature verification:
+#   FEISHU_SECRET=...
+#
+# Optional LLM enrichment:
+#   OPENAI_API_KEY=...
+#   OPENAI_MODEL=...
+

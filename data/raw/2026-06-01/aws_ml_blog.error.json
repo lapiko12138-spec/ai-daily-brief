@@ -1,0 +1,7 @@
+{
+  "source_id": "aws_ml_blog",
+  "source_name": "AWS Machine Learning Blog",
+  "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+  "error": "Failed to fetch https://aws.amazon.com/blogs/machine-learning/feed/: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.875992+08:00"
+}

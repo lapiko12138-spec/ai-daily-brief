@@ -1,0 +1,7 @@
+{
+  "source_id": "vertex_ai_generative_ai_release_notes",
+  "source_name": "Vertex AI Generative AI Release Notes",
+  "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes",
+  "error": "Failed to fetch https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.835122+08:00"
+}

@@ -1,0 +1,7 @@
+{
+  "source_id": "microsoft_ai_blog",
+  "source_name": "Microsoft AI Blog",
+  "url": "https://blogs.microsoft.com/ai/feed/",
+  "error": "Failed to fetch https://blogs.microsoft.com/ai/feed/: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.864658+08:00"
+}

@@ -1,0 +1,92 @@
+{
+  "source": {
+    "id": "openai_developers",
+    "name": "OpenAI Developers",
+    "company": "OpenAI",
+    "product": "API / Developers",
+    "type": "rss",
+    "url": "https://developers.openai.com/rss.xml",
+    "credibility": "official",
+    "category": "developer_tools",
+    "tags": [
+      "API 更新",
+      "开发者工具",
+      "Agent"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-02T01:04:26.854581+08:00",
+  "items": [
+    {
+      "title": "Docs MCP",
+      "link": "https://developers.openai.com/learn/docs-mcp/",
+      "published_at": "Tue, 06 Jan 2026 00:00:00 GMT",
+      "summary": "Quickstart for connecting to OpenAI's developer docs MCP server from common coding agents and editors. - mcp, tools, docs",
+      "raw_text": "Quickstart for connecting to OpenAI's developer docs MCP server from common coding agents and editors. - mcp, tools, docs"
+    },
+    {
+      "title": "Realtime and audio guide",
+      "link": "https://platform.openai.com/docs/guides/realtime",
+      "published_at": "Mon, 21 Jul 2025 00:00:00 GMT",
+      "summary": "Shows how to build realtime voice agents, live translation, and streaming transcription. — realtime, voice, low latency",
+      "raw_text": "Shows how to build realtime voice agents, live translation, and streaming transcription. — realtime, voice, low latency"
+    },
+    {
+      "title": "Realtime prompting guide",
+      "link": "https://platform.openai.com/docs/guides/realtime-models-prompting",
+      "published_at": "Tue, 05 May 2026 00:00:00 GMT",
+      "summary": "Shows how to prompt realtime voice agents, including Realtime 2 reasoning, preambles, tools, and exact entity capture.",
+      "raw_text": "Shows how to prompt realtime voice agents, including Realtime 2 reasoning, preambles, tools, and exact entity capture."
+    },
+    {
+      "title": "Realtime transcription guide",
+      "link": "https://platform.openai.com/docs/guides/realtime-transcription",
+      "published_at": "Mon, 21 Jul 2025 00:00:00 GMT",
+      "summary": "Shows how to stream realtime audio for transcript deltas. — realtime, voice, streaming, low latency, transcription",
+      "raw_text": "Shows how to stream realtime audio for transcript deltas. — realtime, voice, streaming, low latency, transcription"
+    },
+    {
+      "title": "Realtime translation guide",
+      "link": "https://platform.openai.com/docs/guides/realtime-translation",
+      "published_at": "Mon, 21 Jul 2025 00:00:00 GMT",
+      "summary": "Shows how to build live speech translation with the Realtime API. — realtime, voice, streaming, low latency, translation, audio",
+      "raw_text": "Shows how to build live speech translation with the Realtime API. — realtime, voice, streaming, low latency, translation, audio"
+    },
+    {
+      "title": "OpenAI Developers plugin for Codex",
+      "link": "https://developers.openai.com/learn/developers-codex-plugin/",
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "summary": "Install and use the OpenAI Developers plugin in Codex to set up project API keys and troubleshoot OpenAI API issues.",
+      "raw_text": "Install and use the OpenAI Developers plugin in Codex to set up project API keys and troubleshoot OpenAI API issues."
+    },
+    {
+      "title": "API deployment checklist",
+      "link": "https://developers.openai.com/api/docs/guides/deployment-checklist/",
+      "published_at": "Fri, 17 Apr 2026 00:00:00 GMT",
+      "summary": "Review Responses API settings for production quality, latency, cost, reliability, and data handling.",
+      "raw_text": "Review Responses API settings for production quality, latency, cost, reliability, and data handling."
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "link": "https://www.youtube.com/watch?v=Lm7-yFZ5fZQ",
+      "published_at": "Thu, 16 Apr 2026 00:00:00 GMT",
+      "summary": "Overview of new Codex app updates for working across tools, apps, automations, and more developer workflows.",
+      "raw_text": "Overview of new Codex app updates for working across tools, apps, automations, and more developer workflows."
+    },
+    {
+      "title": "Sora 2 Prompting Guide",
+      "link": "https://developers.openai.com/cookbook/examples/sora/sora2_prompting_guide/",
+      "published_at": "Thu, 12 Mar 2026 00:00:00 GMT",
+      "summary": "Cookbook to craft effective video prompts for Sora 2 generation.",
+      "raw_text": "Cookbook to craft effective video prompts for Sora 2 generation."
+    },
+    {
+      "title": "Codex Prompting Guide",
+      "link": "https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide/",
+      "published_at": "Wed, 25 Feb 2026 00:00:00 GMT",
+      "summary": "Codex models advance the frontier of intelligence and efficiency and our recommended agentic coding model. Follow this guide closely to ensure you’re getting th",
+      "raw_text": "Codex models advance the frontier of intelligence and efficiency and our recommended agentic coding model. Follow this guide closely to ensure you’re getting th"
+    }
+  ],
+  "events_count": 0
+}

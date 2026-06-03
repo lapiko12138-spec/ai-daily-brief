@@ -1,0 +1,26 @@
+{
+  "source": {
+    "id": "mistral_docs_changelog",
+    "name": "Mistral Docs Changelog",
+    "company": "Mistral AI",
+    "product": "API",
+    "type": "html",
+    "url": "https://docs.mistral.ai/resources/changelogs",
+    "timeout_seconds": 8,
+    "credibility": "official",
+    "category": "api_update",
+    "tags": [
+      "API 更新",
+      "模型更新",
+      "开发者工具"
+    ]
+  },
+  "fetched_at": "2026-06-02T01:05:00.583276+08:00",
+  "title": "Changelog | Mistral Docs",
+  "url": "https://docs.mistral.ai/resources/changelogs",
+  "hash": "381e05b175ebf18aa9a221261a2d4628dab57b6a0d48eeb1ab1a8bf3c6754c49",
+  "previous_hash": "381e05b175ebf18aa9a221261a2d4628dab57b6a0d48eeb1ab1a8bf3c6754c49",
+  "changed": false,
+  "text_excerpt": "Changelog | Mistral Docs Docs & API Search docs ⌘K Getting Started Models Products Developers Admin API Search docs ⌘K Toggle theme Reach out Try Studio Home Resources API Reference SDKs Changelog Security advisories Cookbooks Error glossary Known limitations Observability integrations Deprecated features Migration guides Community Ambassadors Developers Resources Changelog Changelog Find out about all the latest changes to our tool. You may filter by date and type of release. May 26 May 28 We launched Vibe , our unified agent at chat.mistral.ai , available in three modes: OTHER Work for productivity on web and mobile, with Skills, Workflows, Connectors, Libraries, and scheduled tasks. Code for developers, covering the Vibe CLI , the VS Code extension , and Vibe Code Web for remote coding sessions in a managed cloud sandbox. Chat preserves the legacy Le Chat experience for existing workflows. Documentation restructured: previous /le-chat/* and /mistral-vibe/* paths now redirect to the new /vibe/* tree. OTHER Apr 26 April 28 We released Mistral Medium 3.5 ( mistral-medium-3-5 ), our frontier-class multimodal model optimized for agentic and coding use cases, with adjustable reasoning via the reasoning_effort parameter. Released as open weights under a Modified MIT license. MODEL RELEASED Mar 26 March 23 We released Voxtral TTS ( voxtral-tts-2603 ), our state-of-the-art text-to-speech model with zero-shot voice cloning, multilingual support, and real-time streaming. MODEL RELEASED March 16 We released Mistral Small 4 ( mistral-small-2603 ), a hybrid model unifying instruct, reasoning, and coding in a single multimodal model with a 256k context window. MODEL RELEASED We released Leanstral ( labs-leanstral-2603 ), our first open-source code agent designed for Lean 4 formal proof engineering. MODEL RELEASED March 12 We released Mistral Moderation 2603 ( mistral-moderation-2603 ). MODEL RELEASED We added Custom Guardrails support for Agents and Conversations. API UPDATED...",
+  "events_count": 0
+}

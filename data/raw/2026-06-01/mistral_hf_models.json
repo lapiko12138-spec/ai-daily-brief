@@ -1,0 +1,1091 @@
+{
+  "source": {
+    "id": "mistral_hf_models",
+    "name": "Mistral Models on Hugging Face",
+    "company": "Mistral AI",
+    "product": "Models",
+    "type": "huggingface_models",
+    "author": "mistralai",
+    "credibility": "official",
+    "category": "open_models",
+    "tags": [
+      "开源模型",
+      "模型更新"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-02T01:05:01.570978+08:00",
+  "api_url": "https://huggingface.co/api/models?author=mistralai&sort=lastModified&direction=-1&limit=10&full=false",
+  "items": [
+    {
+      "_id": "69a6bd1c59ca5dda6c15a0ec",
+      "id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-05-31T13:58:33.000Z",
+      "likes": 91,
+      "private": false,
+      "sha": "d57a94c74a961e1f9b489b8b3e792923ca29149b",
+      "downloads": 1180,
+      "tags": [
+        "vLLM",
+        "compressed-tensors",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "ar",
+        "fa",
+        "id",
+        "ms",
+        "ne",
+        "pl",
+        "ro",
+        "sr",
+        "sv",
+        "tr",
+        "uk",
+        "vi",
+        "hi",
+        "bn",
+        "base_model:mistralai/Mistral-Small-4-119B-2603",
+        "base_model:finetune:mistralai/Mistral-Small-4-119B-2603",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "createdAt": "2026-03-03T10:51:08.000Z",
+      "modelId": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00003-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00004-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00005-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00006-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00007-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00008-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00009-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00010-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00011-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00012-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00013-of-00013.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "_id": "69737426589e773a3682a4d3",
+      "id": "mistralai/Mistral-Small-4-119B-2603",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-05-31T13:57:57.000Z",
+      "likes": 380,
+      "private": false,
+      "sha": "19037a2b5fa91a94a46fab6c50f4d2fffe43ebc8",
+      "downloads": 51890,
+      "tags": [
+        "safetensors",
+        "mistral3",
+        "vLLM",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "ar",
+        "fa",
+        "id",
+        "ms",
+        "ne",
+        "pl",
+        "ro",
+        "sr",
+        "sv",
+        "tr",
+        "uk",
+        "vi",
+        "hi",
+        "bn",
+        "license:apache-2.0",
+        "eval-results",
+        "fp8",
+        "deploy:azure",
+        "region:us"
+      ],
+      "createdAt": "2026-01-23T13:14:14.000Z",
+      "modelId": "mistralai/Mistral-Small-4-119B-2603",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00003-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00004-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00005-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00006-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00007-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "images/aime.png"
+        },
+        {
+          "rfilename": "images/image2.png"
+        },
+        {
+          "rfilename": "images/image3.png"
+        },
+        {
+          "rfilename": "images/lcr.png"
+        },
+        {
+          "rfilename": "images/livecode.png"
+        },
+        {
+          "rfilename": "model-00001-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "_id": "69cb98dc5fddeedae351721a",
+      "id": "mistralai/Mistral-Medium-3.5-128B",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-05-04T14:16:22.000Z",
+      "likes": 345,
+      "private": false,
+      "sha": "ed0c85631cf20929c29bc36d7cb37519ed0cdd28",
+      "downloads": 352333,
+      "tags": [
+        "safetensors",
+        "mistral3",
+        "vLLM",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "ar",
+        "fa",
+        "id",
+        "ms",
+        "ne",
+        "pl",
+        "ro",
+        "sr",
+        "sv",
+        "tr",
+        "uk",
+        "vi",
+        "hi",
+        "bn",
+        "license:other",
+        "eval-results",
+        "fp8",
+        "region:us"
+      ],
+      "createdAt": "2026-03-31T09:50:20.000Z",
+      "modelId": "mistralai/Mistral-Medium-3.5-128B",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00003.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00003.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00003-of-00003.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "images/README.md"
+        },
+        {
+          "rfilename": "images/image1.png"
+        },
+        {
+          "rfilename": "images/image2.png"
+        },
+        {
+          "rfilename": "images/image3.png"
+        },
+        {
+          "rfilename": "images/image4.png"
+        },
+        {
+          "rfilename": "model-00001-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00003.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "_id": "69ef66262dcd5b6125e67097",
+      "id": "mistralai/Mistral-Medium-3.5-128B-EAGLE",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-04-30T06:32:10.000Z",
+      "likes": 40,
+      "private": false,
+      "sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+      "downloads": 473,
+      "tags": [
+        "vLLM",
+        "EAGLE",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "ar",
+        "fa",
+        "id",
+        "ms",
+        "ne",
+        "pl",
+        "ro",
+        "sr",
+        "sv",
+        "tr",
+        "uk",
+        "vi",
+        "hi",
+        "bn",
+        "base_model:mistralai/Mistral-Medium-3.5-128B",
+        "base_model:finetune:mistralai/Mistral-Medium-3.5-128B",
+        "license:other",
+        "region:us"
+      ],
+      "createdAt": "2026-04-27T13:35:34.000Z",
+      "modelId": "mistralai/Mistral-Medium-3.5-128B-EAGLE",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "consolidated.safetensors"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        }
+      ]
+    },
+    {
+      "_id": "69a85ff6e0e5efb4f123e368",
+      "id": "mistralai/Mistral-Small-4-119B-2603-eagle",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-04-27T15:33:15.000Z",
+      "likes": 52,
+      "private": false,
+      "sha": "06f2292922a635990cfa6543911b55ebf2974062",
+      "downloads": 172,
+      "tags": [
+        "vLLM",
+        "en",
+        "fr",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "ar",
+        "fa",
+        "id",
+        "ms",
+        "ne",
+        "pl",
+        "ro",
+        "sr",
+        "sv",
+        "tr",
+        "uk",
+        "vi",
+        "hi",
+        "bn",
+        "base_model:mistralai/Mistral-Small-4-119B-2603",
+        "base_model:finetune:mistralai/Mistral-Small-4-119B-2603",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "createdAt": "2026-03-04T16:38:14.000Z",
+      "modelId": "mistralai/Mistral-Small-4-119B-2603-eagle",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "consolidated.safetensors"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        }
+      ]
+    },
+    {
+      "_id": "69b175b99939d960ae05c3c9",
+      "id": "mistralai/Leanstral-2603",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-04-21T15:10:31.000Z",
+      "likes": 157,
+      "private": false,
+      "sha": "06e21e7148367ade8c4a3896daaa338eb8c9ea55",
+      "downloads": 88,
+      "tags": [
+        "vllm",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "library_name": "vllm",
+      "createdAt": "2026-03-11T14:01:29.000Z",
+      "modelId": "mistralai/Leanstral-2603",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LEAN.md"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00003-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00004-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00005-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00006-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00007-of-00007.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        }
+      ]
+    },
+    {
+      "_id": "691b56317f03ea622aa80f6a",
+      "id": "mistralai/Voxtral-4B-TTS-2603",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-03-31T13:43:59.000Z",
+      "likes": 835,
+      "private": false,
+      "sha": "b81be46c3777f88621676791b512bb01dc1cb970",
+      "downloads": 7181,
+      "tags": [
+        "vllm",
+        "mistral-common",
+        "text-to-speech",
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "it",
+        "nl",
+        "de",
+        "ar",
+        "hi",
+        "arxiv:2603.25551",
+        "base_model:mistralai/Ministral-3-3B-Base-2512",
+        "base_model:finetune:mistralai/Ministral-3-3B-Base-2512",
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "pipeline_tag": "text-to-speech",
+      "library_name": "vllm",
+      "createdAt": "2025-11-17T17:06:57.000Z",
+      "modelId": "mistralai/Voxtral-4B-TTS-2603",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "consolidated.safetensors"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "voice_embedding/ar_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/casual_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/casual_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/cheerful_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/de_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/de_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/es_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/es_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/fr_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/fr_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/hi_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/hi_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/it_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/it_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/neutral_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/neutral_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/nl_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/nl_male.pt"
+        },
+        {
+          "rfilename": "voice_embedding/pt_female.pt"
+        },
+        {
+          "rfilename": "voice_embedding/pt_male.pt"
+        }
+      ]
+    },
+    {
+      "_id": "69710b3a38616e3bf1912b76",
+      "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-03-11T15:04:02.000Z",
+      "likes": 862,
+      "private": false,
+      "sha": "2769294da9567371363522aac9bbcfdd19447add",
+      "downloads": 1166380,
+      "tags": [
+        "vllm",
+        "safetensors",
+        "voxtral_realtime",
+        "mistral-common",
+        "automatic-speech-recognition",
+        "en",
+        "fr",
+        "es",
+        "de",
+        "ru",
+        "zh",
+        "ja",
+        "it",
+        "pt",
+        "nl",
+        "ar",
+        "hi",
+        "ko",
+        "arxiv:2602.11298",
+        "base_model:mistralai/Ministral-3-3B-Base-2512",
+        "base_model:finetune:mistralai/Ministral-3-3B-Base-2512",
+        "license:apache-2.0",
+        "eval-results",
+        "region:us"
+      ],
+      "pipeline_tag": "automatic-speech-recognition",
+      "library_name": "vllm",
+      "createdAt": "2026-01-21T17:22:02.000Z",
+      "modelId": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "consolidated.safetensors"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        }
+      ]
+    },
+    {
+      "_id": "6929870f02675ff68df68192",
+      "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-02-25T08:50:48.000Z",
+      "likes": 607,
+      "private": false,
+      "sha": "f2ca762c466d28ab948b7205492ceb3914e73f8a",
+      "downloads": 223501,
+      "tags": [
+        "vllm",
+        "safetensors",
+        "mistral3",
+        "mistral-common",
+        "arxiv:2501.19399",
+        "base_model:mistralai/Mistral-Small-3.1-24B-Base-2503",
+        "base_model:quantized:mistralai/Mistral-Small-3.1-24B-Base-2503",
+        "license:apache-2.0",
+        "fp8",
+        "deploy:azure",
+        "region:us"
+      ],
+      "library_name": "vllm",
+      "createdAt": "2025-11-28T11:27:11.000Z",
+      "modelId": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "CHAT_SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "VIBE_SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00002.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00002.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model-00005-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model-00006-of-00006.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "_id": "6929dc99c913fbc94d7e80a3",
+      "id": "mistralai/Devstral-2-123B-Instruct-2512",
+      "author": "mistralai",
+      "gated": false,
+      "lastModified": "2026-02-25T08:50:20.000Z",
+      "likes": 322,
+      "private": false,
+      "sha": "d1854fb6703ad473a4537286d50bf0a4cb1dd4ab",
+      "downloads": 10602,
+      "tags": [
+        "vllm",
+        "safetensors",
+        "ministral3",
+        "mistral-common",
+        "license:other",
+        "fp8",
+        "region:us"
+      ],
+      "library_name": "vllm",
+      "createdAt": "2025-11-28T17:32:09.000Z",
+      "modelId": "mistralai/Devstral-2-123B-Instruct-2512",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "CHAT_SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "VIBE_SYSTEM_PROMPT.txt"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "consolidated-00001-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00002-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00003-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00004-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00005-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00006-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00007-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00008-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00009-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00010-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00011-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00012-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00013-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00014-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00015-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00016-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00017-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00018-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00019-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00020-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00021-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00022-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00023-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00024-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00025-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00026-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated-00027-of-00027.safetensors"
+        },
+        {
+          "rfilename": "consolidated.safetensors.index.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00005-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00006-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00007-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00008-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00009-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00010-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00011-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00012-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00013-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00014-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00015-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00016-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00017-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00018-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00019-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00020-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00021-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00022-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00023-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00024-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00025-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00026-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model-00027-of-00027.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "params.json"
+        },
+        {
+          "rfilename": "tekken.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ]
+    }
+  ],
+  "events_count": 2
+}

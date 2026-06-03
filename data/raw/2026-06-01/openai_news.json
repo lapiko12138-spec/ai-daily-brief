@@ -1,0 +1,94 @@
+{
+  "source": {
+    "id": "openai_news",
+    "name": "OpenAI News",
+    "company": "OpenAI",
+    "product": "OpenAI",
+    "type": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "API 更新",
+      "产品功能",
+      "Agent",
+      "安全与合规"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-02T01:04:25.528546+08:00",
+  "items": [
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "published_at": "Fri, 29 May 2026 12:00:00 GMT",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "raw_text": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases."
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "link": "https://openai.com/index/braintrust",
+      "published_at": "Fri, 29 May 2026 12:00:00 GMT",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "raw_text": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster."
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "published_at": "Fri, 29 May 2026 03:00:00 GMT",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "raw_text": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI."
+    },
+    {
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "published_at": "Fri, 29 May 2026 00:00:00 GMT",
+      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "raw_text": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems."
+    },
+    {
+      "title": "How Endava builds an agentic organization with Codex",
+      "link": "https://openai.com/index/endava",
+      "published_at": "Thu, 28 May 2026 12:00:00 GMT",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "raw_text": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "published_at": "Thu, 28 May 2026 00:00:00 GMT",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "raw_text": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations."
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "published_at": "Thu, 28 May 2026 00:00:00 GMT",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "raw_text": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "link": "https://openai.com/index/cisco",
+      "published_at": "Wed, 27 May 2026 11:00:00 GMT",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "raw_text": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation."
+    },
+    {
+      "title": "Building self-improving tax agents with Codex",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "published_at": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "raw_text": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
+    },
+    {
+      "title": "Election information and safeguards in 2026",
+      "link": "https://openai.com/index/election-safeguards-2026",
+      "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "raw_text": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency"
+    }
+  ],
+  "events_count": 4
+}

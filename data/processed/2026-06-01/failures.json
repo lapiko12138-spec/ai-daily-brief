@@ -1,0 +1,16 @@
+[
+  {
+    "source_id": "xai_news",
+    "source_name": "xAI News",
+    "url": "https://x.ai/news",
+    "error": "HTTP 403 for https://x.ai/news: <!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--...",
+    "fetched_at": "2026-06-02T01:04:53.398993+08:00"
+  },
+  {
+    "source_id": "azure_ai_updates",
+    "source_name": "Azure AI Services Blog",
+    "url": "https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIServicesBlog/rss",
+    "error": "HTTP 403 for https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIServicesBlog/rss: <!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"description\" content=\"Azure WAF JS Challenge\"/><title>Azure WAF</title><style>html *{font-family:\"Segoe UI\",S...",
+    "fetched_at": "2026-06-02T01:05:06.038960+08:00"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "source_id": "xai_news",
+  "source_name": "xAI News",
+  "url": "https://x.ai/news",
+  "error": "HTTP 403 for https://x.ai/news: <!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]--> <!--...",
+  "fetched_at": "2026-06-02T01:04:53.398993+08:00"
+}

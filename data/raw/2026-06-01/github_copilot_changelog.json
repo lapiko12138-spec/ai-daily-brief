@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "github_copilot_changelog",
+    "name": "GitHub Copilot Changelog",
+    "company": "Microsoft",
+    "product": "GitHub Copilot",
+    "type": "html",
+    "url": "https://github.blog/changelog/label/copilot/",
+    "credibility": "official",
+    "category": "developer_tools",
+    "tags": [
+      "Agent",
+      "开发者工具",
+      "产品功能"
+    ]
+  },
+  "fetched_at": "2026-06-02T01:05:04.044794+08:00",
+  "title": "Use Case: copilot - GitHub Changelog",
+  "url": "https://github.blog/changelog/label/copilot/",
+  "hash": "e1a4a92f88cde6e8d08f8811aea39312781c781f74a5b487c55686e65417eeee",
+  "previous_hash": "e1a4a92f88cde6e8d08f8811aea39312781c781f74a5b487c55686e65417eeee",
+  "changed": false,
+  "text_excerpt": "Use Case: copilot - GitHub Changelog Skip to content / Blog Changelog Docs Customer stories Try GitHub Copilot CLI See what's new Search Changelog Docs Customer stories See what's new Try GitHub Copilot CLI Back to blog Changelog Copy RSS feed URL Follow @ghchangelog on X All New Releases Improvements Retired Filters ( 0 selected ) Copilot Clear all Filters ( 0 selected ) Match: Any All Tags Account management Actions Application Security Client apps Collaboration tools Community engagement Copilot Ecosystem & accessibility Enterprise management tools Platform governance Projects & Issues Supply chain security Universe ‘25 Clear all Apply May May 2026 May May 2026 May.29 Improvement Copilot usage metrics API adds cohorts for AI adoption account management copilot enterprise management tools ... +2 May.28 Release Claude Opus 4.8 is generally available for GitHub Copilot copilot May.26 Improvement Copilot Memory has more controls for deletion, scope, and the Copilot CLI copilot May.26 Improvement Target Copilot models to organizations with model rules copilot enterprise management tools ... +1 May.21 Release GitHub Copilot for Eclipse is open source copilot May.20 Improvement Copilot usage metrics reports now use GitHub-owned download URLs account management copilot ... +1 May.20 Retired Updates to available models in Copilot on web copilot May.20 Improvement Auto model selection now routes based on your task in VS Code copilot May.20 Release Semantic issue search in Copilot Chat copilot projects & issues ... +1 May.19 Improvement Easily apply Copilot code review feedback with Copilot cloud agent copilot May.19 Release Gemini 3.5 Flash is generally available for GitHub Copilot copilot May.18 Improvement One-click fixes for failing Actions with Copilot cloud agent copilot May.18 Release Copilot cloud agent: Fast, cost-efficient models for simple tasks copilot May.18 Release Ask questions in context with Copilot on web copilot May.18 Release Audit repository Copilot cl...",
+  "events_count": 0
+}

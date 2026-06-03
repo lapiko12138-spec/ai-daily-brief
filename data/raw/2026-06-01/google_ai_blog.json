@@ -1,0 +1,92 @@
+{
+  "source": {
+    "id": "google_ai_blog",
+    "name": "Google AI Blog",
+    "company": "Google / DeepMind",
+    "product": "Google AI",
+    "type": "rss",
+    "url": "https://blog.google/technology/ai/rss/",
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "产品功能",
+      "多模态"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-02T01:04:42.558920+08:00",
+  "items": [
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "published_at": "Fri, 29 May 2026 19:00:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "published_at": "Fri, 29 May 2026 17:30:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "published_at": "Fri, 29 May 2026 12:00:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "published_at": "Thu, 28 May 2026 15:00:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "published_at": "Fri, 22 May 2026 18:00:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "We’re announcing new community investments in Missouri.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "published_at": "Wed, 20 May 2026 20:40:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "100 things we announced at I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "published_at": "Wed, 20 May 2026 19:30:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "published_at": "Wed, 20 May 2026 16:45:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "published_at": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "New ways to create and get things done in Google Workspace",
+      "link": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "published_at": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "",
+      "raw_text": ""
+    }
+  ],
+  "events_count": 3
+}

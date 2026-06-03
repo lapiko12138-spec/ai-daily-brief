@@ -1,0 +1,7 @@
+{
+  "source_id": "openai_platform_changelog",
+  "source_name": "OpenAI Platform Changelog",
+  "url": "https://platform.openai.com/docs/changelog",
+  "error": "Failed to fetch https://platform.openai.com/docs/changelog: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.808452+08:00"
+}

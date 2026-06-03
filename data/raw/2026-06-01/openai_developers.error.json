@@ -1,0 +1,7 @@
+{
+  "source_id": "openai_developers",
+  "source_name": "OpenAI Developers",
+  "url": "https://developers.openai.com/rss.xml",
+  "error": "Failed to fetch https://developers.openai.com/rss.xml: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.804197+08:00"
+}

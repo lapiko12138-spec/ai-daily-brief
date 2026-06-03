@@ -1,0 +1,7 @@
+{
+  "source_id": "mistral_news",
+  "source_name": "Mistral AI News",
+  "url": "https://mistral.ai/news/",
+  "error": "Failed to fetch https://mistral.ai/news/: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.853871+08:00"
+}

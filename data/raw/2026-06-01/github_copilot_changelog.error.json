@@ -1,0 +1,7 @@
+{
+  "source_id": "github_copilot_changelog",
+  "source_name": "GitHub Copilot Changelog",
+  "url": "https://github.blog/changelog/label/copilot/",
+  "error": "Failed to fetch https://github.blog/changelog/label/copilot/: [Errno 8] nodename nor servname provided, or not known",
+  "fetched_at": "2026-06-02T00:16:53.868715+08:00"
+}

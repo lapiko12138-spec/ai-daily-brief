@@ -1,0 +1,93 @@
+{
+  "source": {
+    "id": "google_deepmind_blog",
+    "name": "Google DeepMind Blog",
+    "company": "Google / DeepMind",
+    "product": "DeepMind",
+    "type": "rss",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "多模态",
+      "论文研究",
+      "安全与合规"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-02T01:04:40.081613+08:00",
+  "items": [
+    {
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published_at": "Thu, 21 May 2026 19:46:42 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "link": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published_at": "Mon, 18 May 2026 18:21:39 +0000",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "raw_text": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells."
+    },
+    {
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "link": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published_at": "Sun, 17 May 2026 19:53:18 +0000",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "raw_text": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
+    },
+    {
+      "title": "Introducing Gemini Omni",
+      "link": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published_at": "Sun, 17 May 2026 19:50:57 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Introducing Google Antigravity 2.0",
+      "link": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published_at": "Sun, 17 May 2026 19:43:45 +0000",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "link": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "published_at": "Sun, 17 May 2026 13:50:34 +0000",
+      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "raw_text": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
+    },
+    {
+      "title": "Making it easier to understand how content was created and edited",
+      "link": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "published_at": "Sun, 17 May 2026 13:43:50 +0000",
+      "summary": "We're expanding our tools to help you understand how content was created and edited across the web.",
+      "raw_text": "We're expanding our tools to help you understand how content was created and edited across the web."
+    },
+    {
+      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+      "link": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+      "published_at": "Sat, 16 May 2026 09:13:34 +0000",
+      "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+      "raw_text": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more."
+    },
+    {
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "link": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+      "published_at": "Sat, 16 May 2026 08:16:06 +0000",
+      "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
+      "raw_text": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases."
+    },
+    {
+      "title": "Opening new paths in aging research",
+      "link": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "published_at": "Sat, 16 May 2026 08:08:44 +0000",
+      "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
+      "raw_text": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research."
+    }
+  ],
+  "events_count": 0
+}
