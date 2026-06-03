@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "amazon_bedrock_doc_history",
+    "name": "Amazon Bedrock Document History",
+    "company": "Amazon / AWS",
+    "product": "Amazon Bedrock",
+    "type": "html",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/doc-history.html",
+    "credibility": "official",
+    "category": "cloud_ai",
+    "tags": [
+      "Amazon Bedrock",
+      "API 更新",
+      "企业服务"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:46.219613+08:00",
+  "title": "Document history for the Amazon Bedrock User Guide - Amazon Bedrock",
+  "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/doc-history.html",
+  "hash": "d8a56ec88c85e8bbd6354f51add662407b93a5969bbf5e263697ee79cd8783d0",
+  "previous_hash": "d8a56ec88c85e8bbd6354f51add662407b93a5969bbf5e263697ee79cd8783d0",
+  "changed": false,
+  "text_excerpt": "Document history for the Amazon Bedrock User Guide - Amazon Bedrock View a markdown version of this page Document history for the Amazon Bedrock User Guide - Amazon Bedrock Documentation Amazon Bedrock User Guide Document history for the Amazon Bedrock User Guide Latest documentation update: November 26th, 2025 The following table describes important changes in each release of Amazon Bedrock. For notification about updates to this documentation, you can subscribe to an RSS feed. Change Description Date Removed requests-per-minute (RPM) quotas Amazon Bedrock no longer enforces requests-per-minute (RPM) quotas on the bedrock-runtime or bedrock-mantle endpoints. Throttling is now governed by token-based quotas. RPM rows have been removed from the Amazon Bedrock quotas terminology and the bundled quota-increase list. May 27, 2026 Quotas for the bedrock-runtime endpoint Added a dedicated page that describes the per-model token quotas that govern inference traffic to the bedrock-runtime endpoint and points to related quotas for custom inference profiles, batch inference, and Provisioned Throughput. May 27, 2026 Quotas for the bedrock-mantle endpoint Documented the per-model input and output token quotas that govern inference traffic to the bedrock-mantle endpoint, including the default values for Anthropic Claude Opus 4.7, the request evaluation order, the differences from bedrock-runtime quotas, and how to request quota increases through AWS Support. May 27, 2026 Token counting on the bedrock-mantle endpoint Documented how to count input tokens through the Anthropic count_tokens path on the bedrock-mantle endpoint, including for Claude models that are not supported by CountTokens on bedrock-runtime . May 26, 2026 Converse API support for batch inference You can now use the Converse API format for batch inference input data. When creating a batch inference job, set the model invocation type to Converse to use a consistent request format across models. February 27, 2026 N...",
+  "events_count": 0
+}

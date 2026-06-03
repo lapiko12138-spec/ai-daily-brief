@@ -1,0 +1,94 @@
+{
+  "source": {
+    "id": "openai_news",
+    "name": "OpenAI News",
+    "company": "OpenAI",
+    "product": "OpenAI",
+    "type": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "API 更新",
+      "产品功能",
+      "Agent",
+      "安全与合规"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-03T22:19:28.025764+08:00",
+  "items": [
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "link": "https://openai.com/index/travelers",
+      "published_at": "Tue, 02 Jun 2026 12:00:00 GMT",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "raw_text": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand."
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "published_at": "Tue, 02 Jun 2026 09:00:00 GMT",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "raw_text": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI."
+    },
+    {
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "published_at": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "raw_text": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people."
+    },
+    {
+      "title": "Codex is becoming a productivity tool for everyone",
+      "link": "https://openai.com/index/codex-for-knowledge-work",
+      "published_at": "Tue, 02 Jun 2026 02:00:00 GMT",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "raw_text": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation."
+    },
+    {
+      "title": "Our views on AI policy and political advocacy",
+      "link": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "published_at": "Mon, 01 Jun 2026 17:00:00 GMT",
+      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "raw_text": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf."
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "link": "https://openai.com/index/stargate-michigan-data-center",
+      "published_at": "Mon, 01 Jun 2026 12:00:00 GMT",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "raw_text": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities."
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "published_at": "Mon, 01 Jun 2026 10:00:00 GMT",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "raw_text": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "published_at": "Fri, 29 May 2026 12:00:00 GMT",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "raw_text": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases."
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "link": "https://openai.com/index/braintrust",
+      "published_at": "Fri, 29 May 2026 12:00:00 GMT",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "raw_text": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster."
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "published_at": "Fri, 29 May 2026 03:00:00 GMT",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "raw_text": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI."
+    }
+  ],
+  "events_count": 7
+}

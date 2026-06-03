@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "meta_ai_blog",
+    "name": "Meta AI Blog",
+    "company": "Meta AI",
+    "product": "Meta AI / Llama",
+    "type": "html",
+    "url": "https://ai.meta.com/blog/",
+    "credibility": "official",
+    "category": "open_models",
+    "tags": [
+      "开源模型",
+      "模型更新",
+      "论文研究"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:42.637591+08:00",
+  "title": "AI at Meta Blog",
+  "url": "https://ai.meta.com/blog/",
+  "hash": "de5ca3650994d4a4493a02783174991aa4b9e4ad4a67d8a2053f0ae2ff05570e",
+  "previous_hash": "2dbe71a571c197d627aa7780c50e517e8175e547435a871769e7335990f80b69",
+  "changed": true,
+  "text_excerpt": "AI at Meta Blog Products AI Research Resources About Get Llama Try Meta AI The latest AI news from Meta FEATURED Introducing Muse Spark: Scaling Towards Personal Superintelligence April 8, 2026 Latest News FEATURED Research Scaling How We Build and Test Our Most Advanced AI Apr 8, 2026 Computer Vision How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet Apr 6, 2026 FEATURED Computer Vision SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning Mar 27, 2026 FEATURED Four MTIA Chips in Two Years: Scaling AI Experiences for Billions Mar 11, 2026 Get the latest from AI at Meta in your inbox Sign up Blog Posts Blog April 08, 2026 Scaling How We Build and Test Our Most Advanced AI As we build more capable, personalized AI, reliability, security, and user protections are more important than ever. April 08, 2026 Learn More Blog April 08, 2026 Introducing Muse Spark: Scaling Towards Personal Superintelligence April 08, 2026 Learn More Blog March 26, 2026 Research Introducing TRIBE v2: A Predictive Foundation Model Trained to Understand How the Human Brain Processes Complex Stimuli March 26, 2026 Learn More Blog March 10, 2026 Open Source Mapping the World's Forests with Greater Precision: Introducing Canopy Height Maps v2 In partnership with the World Resources Institute, today we’re announcing Canopy Height Maps v2 (CHMv2), an open source model, along with world-scale maps generated with the model. March 10, 2026 Learn More Blog April 06, 2026 Computer Vision How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet April 06, 2026 Learn More Blog March 27, 2026 Computer Vision SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning March 27, 2026 Learn More Blog March 11, 2026 Four MTIA Chips in Two Years: Scaling AI Experiences for Billions Serving a wide range of AI models on a global scale, while maintaining the lo...",
+  "events_count": 1
+}

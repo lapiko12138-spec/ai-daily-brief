@@ -1,0 +1,26 @@
+{
+  "source": {
+    "id": "xai_news",
+    "name": "xAI News",
+    "company": "xAI",
+    "product": "Grok",
+    "type": "html",
+    "url": "https://x.ai/news",
+    "timeout_seconds": 8,
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "模型更新",
+      "产品功能",
+      "API 更新"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:43.005485+08:00",
+  "title": "News: Research, Product & Company Updates | xAI",
+  "url": "https://x.ai/news",
+  "hash": "13e3ba93729deee08bd26e47ea156b86fc8337bd58b7cbd70340eda8a3eeef2e",
+  "previous_hash": "",
+  "changed": false,
+  "text_excerpt": "News: Research, Product & Company Updates | xAI Products Solutions Developer Company Pricing News Contact Sales Try for free Products Grok Business Government Download iOS Android Grok on X Developers API Console Documentation CLI Try for free Jun 1, 2026 Composer 2.5 Latest post Jun 1, 2026 Composer 2.5 Composer 2.5 is now available in Grok Build. Try it from the /models menu. Read More May 29, 2026 Grok Build 0.1 on API May 27, 2026 Use Grok in Kilo Code May 25, 2026 Introducing Grok Build May 21, 2026 Use Grok in OpenCode All posts Use Grok in OpenClaw Use your SuperGrok or X Premium subscription inside OpenClaw, an open-source, local-first agent and personal assistant. May 19, 2026 Skills in web, iOS, and Android Persistent expertise for Grok. Generate documents, decks, and spreadsheets. Automate workflows. Build and share your own skills. May 18, 2026 Connect Grok to Hermes Agent Use your Grok account and subscription inside Nous Research’s open-source, self-improving Hermes agent. May 15, 2026 New Compute Partnership with Anthropic SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1. May 6, 2026 Connectors in web, iOS, and Android Deep integrations that bring the apps you use every day directly into Grok. May 6, 2026 Grok Imagine Quality Mode API Higher realism. Stronger text rendering. Better creative control. May 6, 2026 Custom Voices and Voice Library Your voice. Your brand. Clone a voice from a short recording and manage your entire voice catalog from the xAI console. Apr 30, 2026 Grok Voice Think Fast 1.0 Our most capable voice agent is now available via API. Apr 23, 2026 Grok Speech to Text and Text to Speech APIs Fast and accurate. Natural, expressive voices. Simple pricing. Multilingual support. Apr 17, 2026 xAI joins SpaceX SpaceX announced today that it has acquired xAI. Feb 2, 2026 Grok Imagine API State-of-the-art video generation across quality, cost, and latency. Jan 28, 2026 xAI Raises $20B Series E xAI is rapidly ac...",
+  "events_count": 0
+}

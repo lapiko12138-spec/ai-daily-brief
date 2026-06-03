@@ -1,0 +1,92 @@
+{
+  "source": {
+    "id": "huggingface_blog",
+    "name": "Hugging Face Blog",
+    "company": "Hugging Face",
+    "product": "Hugging Face",
+    "type": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "credibility": "official",
+    "category": "open_models",
+    "tags": [
+      "开源模型",
+      "开发者工具",
+      "论文研究"
+    ],
+    "max_items": 10
+  },
+  "fetched_at": "2026-06-03T22:19:46.615562+08:00",
+  "items": [
+    {
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Adding MCP Tools to Reachy Mini",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "published_at": "Wed, 03 Jun 2026 00:00:00 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "published_at": "Mon, 01 Jun 2026 15:45:17 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "published_at": "Mon, 01 Jun 2026 04:44:55 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "published_at": "Fri, 29 May 2026 00:00:00 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+      "summary": "",
+      "raw_text": ""
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "published_at": "Mon, 25 May 2026 00:00:00 GMT",
+      "summary": "",
+      "raw_text": ""
+    }
+  ],
+  "events_count": 6
+}

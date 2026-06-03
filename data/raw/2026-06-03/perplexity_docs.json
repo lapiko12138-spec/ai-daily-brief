@@ -1,0 +1,26 @@
+{
+  "source": {
+    "id": "perplexity_docs",
+    "name": "Perplexity Changelog",
+    "company": "Perplexity",
+    "product": "API / Product",
+    "type": "html",
+    "url": "https://docs.perplexity.ai/docs/resources/changelog",
+    "timeout_seconds": 8,
+    "credibility": "official",
+    "category": "product_research",
+    "tags": [
+      "搜索",
+      "API 更新",
+      "Agent"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:46.497108+08:00",
+  "title": "Changelog - Perplexity",
+  "url": "https://docs.perplexity.ai/docs/resources/changelog",
+  "hash": "5947d3a3dbda76a685164ba12beb4b8a330471e64253f27d138bb14c8dce9442",
+  "previous_hash": "bae9e4d7adc809728ce30f9e252f53c185b69bd66a58c0705fc0d98f2f078879",
+  "changed": true,
+  "text_excerpt": "Changelog - Perplexity Skip to main content For AI agents: see the complete llms.txt documentation index. Perplexity home page Docs Cookbook API Reference Get Started Get Started Search... Navigation Resources Changelog Search ⌘ K Community Blog Changelog Getting Started Overview Quickstart Pricing Perplexity MCP Server Agent API Overview Models & Configuration Tools Features OpenAI Compatibility Prompt Guide Search API Quickstart Best Practices Agent SDKs Filters Sonar API Quickstart Models Prompt Guide Features Pro Search OpenAI SDK Compatibility Embeddings API Quickstart Best Practices Standard Embeddings Contextualized Embeddings Perplexity SDK Quickstart Guides Admin & Management API Groups & Billing API Key Management Rate Limits & Usage Tiers AWS Marketplace Resources Integrations API Roadmap Privacy & Security Frequently Asked Questions System Status Changelog Get in Touch Perplexity Crawlers Filters Clear Models Search Deprecation Features Filters Agent API Multimodal Security SDK Pricing Tools Finance Integrations AWS Billing Embeddings Docs Pro Search MCP Playground File Attachments API Keys Cost Tracking Usage Financial Academic Reasoning Async Breaking Change Organization Portal Images Access Structured Outputs Citations Rate Limits Resources Changelog Copy page Copy page Documentation Index Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt Use this file to discover all available pages before exploring further. Looking ahead? Check out our Feature Roadmap to see what’s coming next. ​ May 2026 Agent API Tools Finance Finance Search: Now Available The finance_search tool is now available in the Agent API. Pull structured financial and market data — quotes, financials, earnings, analyst estimates, segment KPIs, ETF constituents, and more — for public companies and instruments. The model decides which fields to fetch based on your prompt, so a single call can return valuation, earnings, and context together. Highlights: Quotes...",
+  "events_count": 1
+}

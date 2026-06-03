@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "github_copilot_changelog",
+    "name": "GitHub Copilot Changelog",
+    "company": "Microsoft",
+    "product": "GitHub Copilot",
+    "type": "html",
+    "url": "https://github.blog/changelog/label/copilot/",
+    "credibility": "official",
+    "category": "developer_tools",
+    "tags": [
+      "Agent",
+      "开发者工具",
+      "产品功能"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:44.109189+08:00",
+  "title": "Use Case: copilot - GitHub Changelog",
+  "url": "https://github.blog/changelog/label/copilot/",
+  "hash": "e40175de207077ea687f6f3637370bf5e9caa67bc39ba7d1918173d6c6dd18c0",
+  "previous_hash": "e1a4a92f88cde6e8d08f8811aea39312781c781f74a5b487c55686e65417eeee",
+  "changed": true,
+  "text_excerpt": "Use Case: copilot - GitHub Changelog Skip to content / Blog Changelog Docs Customer stories Try GitHub Copilot CLI See what's new Search Changelog Docs Customer stories See what's new Try GitHub Copilot CLI Back to blog Changelog Copy RSS feed URL Follow @ghchangelog on X All New Releases Improvements Retired Filters ( 0 selected ) Copilot Clear all Filters ( 0 selected ) Match: Any All Tags Account management Actions Application Security Client apps Collaboration tools Community engagement Copilot Ecosystem & accessibility Enterprise management tools Platform governance Projects & Issues Supply chain security Universe ‘25 Clear all Apply June Jun 2026 June Jun 2026 Jun.02 Retired GPT-4.1 deprecated copilot Jun.02 Improvement Expanded technical preview availability for the GitHub Copilot app client apps copilot ... +1 Jun.02 Release Copilot SDK is now generally available copilot Jun.02 Release Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input client apps copilot ... +1 Jun.02 Release Cloud and local sandboxes for GitHub Copilot now in public preview application security copilot platform governance ... +2 Jun.02 Improvement Shape Copilot code review around your team copilot Jun.02 Release GitHub Copilot code review for Azure Repos is now in technical preview copilot Jun.02 Release Extend GitHub with agent apps copilot Jun.02 Improvement Introducing Copilot CLI and agentic capabilities enhancements in JetBrains IDEs copilot Jun.02 Release Gemini models in Copilot CLI, cloud agent, and the Copilot app copilot Jun.02 Release MAI-Code-1-Flash is now available for GitHub Copilot copilot Jun.02 Release Copilot Memory supports user preferences for Business, Enterprise copilot enterprise management tools ... +1 Jun.02 Release Schedule and automate tasks with Copilot cloud agent copilot Jun.02 Release Gain insights across your agent sessions with /chronicle copilot Jun.02 Release GitHub Copilot in Eclipse: BYOK, skills, and chat updates copilot Jun.01...",
+  "events_count": 1
+}

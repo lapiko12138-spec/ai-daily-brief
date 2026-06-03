@@ -1,0 +1,25 @@
+{
+  "source": {
+    "id": "vertex_ai_generative_ai_release_notes",
+    "name": "Vertex AI Generative AI Release Notes",
+    "company": "Google / DeepMind",
+    "product": "Vertex AI",
+    "type": "html",
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes",
+    "credibility": "official",
+    "category": "cloud_ai",
+    "tags": [
+      "API 更新",
+      "企业服务",
+      "算力/基础设施"
+    ]
+  },
+  "fetched_at": "2026-06-03T22:19:40.915990+08:00",
+  "title": "Vertex AI release notes | Generative AI on Vertex AI | Google Cloud Documentation",
+  "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes",
+  "hash": "11ee3229b0743555d2dcb1f90407e30e5f35a82c7e2c96fc40472f7dddae2306",
+  "previous_hash": "9dc5edfa79b0671d910a2e92c2e25fe07fe34f30bb8b079671e6539074f267d3",
+  "changed": true,
+  "text_excerpt": "Vertex AI release notes | Generative AI on Vertex AI | Google Cloud Documentation Skip to main content Technology areas close AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage Cross-product tools close Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools / Console English Deutsch Español – América Latina Français Português – Brasil 中文 – 简体 日本語 한국어 Sign in Vertex AI Generative AI on Vertex AI Start free Guides API reference Vertex AI Cookbook Prompt gallery Resources FAQ Pricing Technology areas More Guides API reference Vertex AI Cookbook Prompt gallery Resources FAQ Pricing Cross-product tools More Console Resources Getting help Quotas and limits Throughput quota Release notes Current Archive Security bulletins Locations Deployments and endpoints Data residency Supported capabilities Vertex AI and zero data retention Service Level Agreement Deprecations and migrations Deprecations Generative AI module in Vertex AI SDK AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools Vertex AI documentation is no longer being updated Vertex AI's services are now part of Gemini Enterprise Agent Platform. See the most up-to-date information in the Agent Platform documentation . Home Documentation AI and ML Vertex AI Generative AI on Vertex AI Resources Send feedback Vertex AI release notes Stay organized with collections Save and categorize content based on your preferences. This page documents production updates to Vertex AI. Check this page for announcements...",
+  "events_count": 1
+}

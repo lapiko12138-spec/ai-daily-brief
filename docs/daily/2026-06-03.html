@@ -1,0 +1,1734 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-06-03 每日 AI 行业简讯</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8f5;
+      --panel: #ffffff;
+      --panel-soft: #f1f5ef;
+      --text: #1c211c;
+      --muted: #687064;
+      --line: #d9dfd2;
+      --accent: #0f766e;
+      --accent-soft: #d7f2ed;
+      --amber: #a16207;
+      --amber-soft: #fff3c4;
+      --red: #b42318;
+      --red-soft: #ffe1dd;
+      --blue: #2563eb;
+      --blue-soft: #dbeafe;
+      --green: #15803d;
+      --green-soft: #dcfce7;
+      --gray-soft: #edf0ea;
+      --shadow: 0 10px 28px rgba(24, 32, 24, 0.07);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11140f;
+        --panel: #191e17;
+        --panel-soft: #20271e;
+        --text: #eef3ea;
+        --muted: #aab4a3;
+        --line: #333b2f;
+        --accent: #5eead4;
+        --accent-soft: #123d39;
+        --amber: #fbbf24;
+        --amber-soft: #3d2f0a;
+        --red: #fb7185;
+        --red-soft: #441a1f;
+        --blue: #93c5fd;
+        --blue-soft: #172b4c;
+        --green: #86efac;
+        --green-soft: #153821;
+        --gray-soft: #252b23;
+        --shadow: none;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.58;
+      letter-spacing: 0;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 18px 56px; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: end;
+      padding: 24px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.08; }
+    h2 { margin: 0 0 14px; font-size: 22px; }
+    h3 { margin: 0 0 8px; font-size: 17px; }
+    p { margin: 0; }
+    .subtitle { color: var(--muted); margin-top: 10px; max-width: 760px; }
+    .date-pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+      color: var(--muted);
+      background: var(--panel);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(92px, 1fr));
+      gap: 10px;
+      margin: 18px 0 6px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+    }
+    .metric strong { display: block; font-size: 22px; line-height: 1.1; }
+    .metric span { color: var(--muted); font-size: 13px; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: color-mix(in srgb, var(--bg) 90%, transparent);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+      margin: 0 -18px 24px;
+      padding: 10px 18px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    nav a {
+      display: inline-flex;
+      margin-right: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    section { margin: 28px 0; }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .section-note { color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .stack { display: grid; gap: 12px; }
+    .event-card, .deep-card, .summary-card, .simple-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+    .card-title {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .card-title h3 { min-width: 0; overflow-wrap: anywhere; }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 650;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+    .badge-high { color: var(--red); background: var(--red-soft); }
+    .badge-medium { color: var(--amber); background: var(--amber-soft); }
+    .badge-low { color: var(--muted); background: var(--gray-soft); }
+    .badge-official { color: var(--green); background: var(--green-soft); }
+    .badge-media { color: var(--blue); background: var(--blue-soft); }
+    .badge-community { color: var(--amber); background: var(--amber-soft); }
+    .badge-unverified, .badge-conflicting { color: var(--red); background: var(--red-soft); }
+    .tag { color: var(--muted); background: var(--gray-soft); }
+    .summary-card {
+      border-left: 4px solid var(--accent);
+    }
+    .company-block {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+      margin-top: 18px;
+    }
+    .company-block:first-child { border-top: 0; padding-top: 0; }
+    .event-body { color: var(--text); }
+    .impact { color: var(--muted); margin-top: 8px; }
+    .source-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .deep-card dl {
+      display: grid;
+      grid-template-columns: 160px minmax(0, 1fr);
+      gap: 8px 14px;
+      margin: 12px 0 0;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th { color: var(--muted); background: var(--panel-soft); font-weight: 700; }
+    tr:last-child td { border-bottom: 0; }
+    .table-wrap { overflow-x: auto; }
+    .empty {
+      color: var(--muted);
+      background: var(--panel-soft);
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+      margin-top: 34px;
+      font-size: 14px;
+    }
+    @media (max-width: 820px) {
+      header { grid-template-columns: 1fr; }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .grid { grid-template-columns: 1fr; }
+      .deep-card dl { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <h1>2026-06-03 每日 AI 行业简讯</h1>
+        <p class="subtitle">官方来源优先，保留原始链接、可信度、重要性和简短行业判断。中文为主，原始英文标题保留。</p>
+      </div>
+      <div class="date-pill">2026-06-03</div>
+    </header>
+
+    <div class="metrics">
+      <div class="metric"><strong>37</strong><span>结构化事件</span></div>
+      <div class="metric"><strong>37</strong><span>已核实</span></div>
+      <div class="metric"><strong>0</strong><span>待核实</span></div>
+      <div class="metric"><strong>1</strong><span>抓取失败</span></div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#summary">核心摘要</a>
+    <a href="#companies">一线公司动态</a>
+    <a href="#deep">重点深挖</a>
+    <a href="#agents">Agent 与工具</a>
+    <a href="#models">模型/API 表</a>
+    <a href="#manual">手动日报</a>
+    <a href="#cognition">认知积累</a>
+    <a href="#actions">行动建议</a>
+  </nav>
+
+  <main class="page">
+    <section id="summary">
+      <div class="section-head">
+        <h2>今日核心摘要</h2>
+        <span class="section-note">最多 5 条</span>
+      </div>
+      <div class="grid">
+        <article class="summary-card">
+          <div class="card-title">
+            <h3>Perplexity Changelog 页面出现更新</h3>
+            <span class="badge badge-high">High</span>
+          </div>
+          <p>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+          <div class="source-line">
+            <span>Perplexity / API / Product</span>
+            <span class="badge badge-official">official</span>
+<a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">来源：Perplexity Changelog</a>          </div>
+        </article>
+        <article class="summary-card">
+          <div class="card-title">
+            <h3>Meta AI Blog 页面出现更新</h3>
+            <span class="badge badge-high">High</span>
+          </div>
+          <p>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+          <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+          <div class="source-line">
+            <span>Meta AI / Meta AI / Llama</span>
+            <span class="badge badge-official">official</span>
+<a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">来源：Meta AI Blog</a>          </div>
+        </article>
+        <article class="summary-card">
+          <div class="card-title">
+            <h3>Vertex AI Generative AI Release Notes 页面出现更新</h3>
+            <span class="badge badge-high">High</span>
+          </div>
+          <p>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+          <p class="impact">API 能力变化会直接影响开发者接入成本、产品边界和企业集成节奏。</p>
+          <div class="source-line">
+            <span>Google / DeepMind / Vertex AI</span>
+            <span class="badge badge-official">official</span>
+<a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">来源：Vertex AI Generative AI Release Notes</a>          </div>
+        </article>
+        <article class="summary-card">
+          <div class="card-title">
+            <h3>Gemini API Release Notes 页面出现更新</h3>
+            <span class="badge badge-high">High</span>
+          </div>
+          <p>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+          <div class="source-line">
+            <span>Google / DeepMind / Gemini API</span>
+            <span class="badge badge-official">official</span>
+<a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">来源：Gemini API Release Notes</a>          </div>
+        </article>
+        <article class="summary-card">
+          <div class="card-title">
+            <h3>Anthropic News 页面出现更新</h3>
+            <span class="badge badge-high">High</span>
+          </div>
+          <p>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+          <div class="source-line">
+            <span>Anthropic / Claude</span>
+            <span class="badge badge-official">official</span>
+<a href="https://www.anthropic.com/news" target="_blank" rel="noopener">来源：Anthropic News</a>          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="companies">
+      <div class="section-head">
+        <h2>一线公司动态</h2>
+        <span class="section-note">按公司归档</span>
+      </div>
+        <div class="company-block">
+          <h3>OpenAI</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>OpenAI Platform Changelog 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">API 更新</span><span class="badge tag">模型更新</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>API</span>
+<span>2026-06-03T22:19:29.101670+08:00</span><a href="https://platform.openai.com/docs/changelog" target="_blank" rel="noopener">OpenAI Platform Changelog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Codex for every role, tool, and workflow</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-02T17:00:00+08:00</span><a href="https://openai.com/index/codex-for-every-role-tool-workflow" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Codex is becoming a productivity tool for everyone</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-02T10:00:00+08:00</span><a href="https://openai.com/index/codex-for-knowledge-work" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>OpenAI frontier models and Codex are now available on AWS</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span><span class="badge tag">开发者工具</span><span class="badge tag">企业服务</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-01T18:00:00+08:00</span><a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Travelers deploys AI-powered claims countrywide with OpenAI</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-02T20:00:00+08:00</span><a href="https://openai.com/index/travelers" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Advancing youth safety and opportunity through global leadership</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-02T15:00:00+08:00</span><a href="https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Our views on AI policy and political advocacy</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-02T01:00:00+08:00</span><a href="https://openai.com/index/our-views-on-ai-policy-and-political-advocacy" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Building the infrastructure for the Intelligence Age in Michigan</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>OpenAI</span>
+<span>2026-06-01T20:00:00+08:00</span><a href="https://openai.com/index/stargate-michigan-data-center" target="_blank" rel="noopener">OpenAI News</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Anthropic</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Anthropic News 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge badge-official">多源确认</span><span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">Agent</span><span class="badge tag">安全与合规</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Claude</span>
+<span>2026-06-03T22:19:37.313787+08:00</span><a href="https://www.anthropic.com/news" target="_blank" rel="noopener">Anthropic News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>anthropics/claude-code v2.1.161</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">## What&#39;s changed - `OTEL_RESOURCE_ATTRIBUTES` values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo - `claude agents` rows now show `done/total` before the detail when work is fanned out; peek shows the longest-running item - `/mcp` now collapses claude.ai connectors you&#39;ve never signed in to behind a &#34;Show unused connectors&#34; row - Parallel tool calls: a failed Bash command no longer cancels other calls in the same batch — each tool returns its own result independently - Fullscreen mode: clipboard now uses `wl-copy`/`xcl...</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge badge-official">多源确认</span><span class="badge tag">Agent</span><span class="badge tag">开发者工具</span><span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Claude Code</span>
+<span>2026-06-03T05:58:22+08:00</span><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.161" target="_blank" rel="noopener">Claude Code Releases</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Google / DeepMind</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Vertex AI Generative AI Release Notes 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">API 更新</span><span class="badge tag">企业服务</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">API 能力变化会直接影响开发者接入成本、产品边界和企业集成节奏。</p>
+              <div class="source-line">
+                <span>Vertex AI</span>
+<span>2026-06-03T22:19:40.913326+08:00</span><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">Vertex AI Generative AI Release Notes</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Gemini API Release Notes 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">API 更新</span><span class="badge tag">模型更新</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Gemini API</span>
+<span>2026-06-03T22:19:39.815265+08:00</span><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">Gemini API Release Notes</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>How we used Gemini to build Google I/O 2026</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">How we used Gemini to build Google I/O 2026</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">产品功能</span><span class="badge tag">多模态</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Google AI</span>
+<span>2026-06-02T00:00:00+08:00</span><a href="https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/" target="_blank" rel="noopener">Google AI Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>5 ways Google Search can level up your thrift and vintage shopping</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">5 ways Google Search can level up your thrift and vintage shopping</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">产品功能</span><span class="badge tag">多模态</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Google AI</span>
+<span>2026-06-03T21:00:00+08:00</span><a href="https://blog.google/products-and-platforms/products/search/thrifting-tips/" target="_blank" rel="noopener">Google AI Blog</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Meta AI</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Meta AI Blog 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">模型更新</span><span class="badge tag">论文研究</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Meta AI / Llama</span>
+<span>2026-06-03T22:19:42.637216+08:00</span><a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">Meta AI Blog</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Mistral AI</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Mistral AI News 页面出现更新</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">Agent</span><span class="badge tag">企业服务</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Mistral</span>
+<span>2026-06-03T22:19:43.316137+08:00</span><a href="https://mistral.ai/news/" target="_blank" rel="noopener">Mistral AI News</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Hugging Face 模型更新：mistralai/Pixtral-Large-Instruct-2411</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Hugging Face 上的 mistralai/Pixtral-Large-Instruct-2411 最近有更新。 downloads=53, likes=433</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Models</span>
+<span>2026-06-02T12:46:39+08:00</span><a href="https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411" target="_blank" rel="noopener">Mistral Models on Hugging Face</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Hugging Face 模型更新：mistralai/Pixtral-12B-2409</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Hugging Face 上的 mistralai/Pixtral-12B-2409 最近有更新。 downloads=4713, likes=688</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Models</span>
+<span>2026-06-02T12:44:58+08:00</span><a href="https://huggingface.co/mistralai/Pixtral-12B-2409" target="_blank" rel="noopener">Mistral Models on Hugging Face</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Hugging Face 模型更新：mistralai/Mistral-Small-4-119B-2603-NVFP4</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Hugging Face 上的 mistralai/Mistral-Small-4-119B-2603-NVFP4 最近有更新。 downloads=1230, likes=93</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge badge-official">多源确认</span><span class="badge tag">开源模型</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+              <div class="source-line">
+                <span>Models</span>
+<span>2026-05-31T21:58:33+08:00</span><a href="https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4" target="_blank" rel="noopener">Mistral Models on Hugging Face</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Microsoft</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>GitHub Copilot Changelog 页面出现更新</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Agent</span><span class="badge tag">开发者工具</span><span class="badge tag">产品功能</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>GitHub Copilot</span>
+<span>2026-06-03T22:19:44.108810+08:00</span><a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noopener">GitHub Copilot Changelog</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Amazon / AWS</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Object detection with Amazon Nova 2 Lite</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">In this post, we&#39;ll walk through implementing object detection with Amazon Nova 2 Lite. You&#39;ll learn how to deploy an object detection application using Amazon Bedrock, AWS Lambda, and Amazon API Gateway. You&#39;ll also learn how to craft effective prompts, process structured JSON output, and visualize results. We explore practical applications across manufacturing, agriculture, and logistics.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-03T01:31:11+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">This post walks through how Baz built their Spec Review agent using Amazon Bedrock and Amazon Bedrock AgentCore. We&#39;ll cover the architecture decisions, implementation details, and the business outcomes they achieved by leveraging these AWS services to automate their code review process</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T23:45:11+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Building a secure auth code flow setup using AgentCore Gateway with MCP clients</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">产品功能</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T11:23:35+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">Today, we’re excited to announce the ability to reference a secret in AWS Secrets Manager for AgentCore Identity, so you can reference your own preconfigured secret from Secrets Manager and retain full control over how it is managed. With this ability, you can extend your organization’s existing secrets governance processes to AgentCore. You can provide an existing, preconfigured AWS Secrets Manager secret to use with your credential provider resources. You retain full control over its encryption configuration, rotation, replication, tags, and resource policies, just as you would manage other...</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T06:16:28+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>OpenAI models and Codex on Amazon Bedrock are now generally available</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy them in production applications and agents today, on Bedrock’s high performance inference engine.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">模型更新</span><span class="badge tag">产品功能</span><span class="badge tag">开发者工具</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T05:31:12+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Extending MCP support for Amazon Bedrock AgentCore Gateway</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">While deploying Model Context Protocol (MCP) servers in production, enterprises need fine-grained access control across servers, observability into which teams use which tools, security guarantees against data exfiltration, and centralized credential management, all at scale. Amazon Bedrock AgentCore Gateway sits between MCP servers and the clients that consume them, centralizing credential management, observability, and secure […]</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">模型更新</span><span class="badge tag">产品功能</span><span class="badge tag">开发者工具</span><span class="badge tag">安全与合规</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T02:35:03+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">In this post, we use a lakehouse data agent to demonstrate how you can use Policy for deterministic access control and Lambda interceptors for dynamic validation. We then show how to combine Lambda interceptors and Policy to implement a geography-based access control which requires both dynamic validation and deterministic access control.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">安全与合规</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T01:54:22+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">In this post, we address several key risks that surface when designing an agentic payment system, and how to address them with the capabilities of AgentCore payments.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T01:30:12+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>The art and science of hyperparameter optimization on Amazon Nova Forge</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Fine-tuning for domain-specific tasks means improving performance in one area without degrading the model’s general capabilities, and getting that balance right is harder than it looks. This post walks through how to navigate that balance, from selecting the right customization strategy for your data and task, to configuring the training parameters that most influence outcomes, like learning rate, batch size, and checkpointing. We also cover the common mistakes that lead to wasted training runs and how to catch them early, so you can improve domain performance without degrading general capabi...</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-03T01:39:03+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/the-art-and-science-of-hyperparameter-optimization-on-amazon-nova-forge/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Transforming rare cancer research with Amazon Quick: Integrating biomedical databases for breakthrough discoveries</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">In this post, we walk through how to use Amazon Quick Research to integrate biomedical data sources for rare cancer research. The walkthrough uses pediatric sarcoma as the research domain and draws on publicly available datasets from PubMed and other open biomedical repositories. It covers the end-to-end workflow: defining a research objective, configuring data sources, reviewing the AI-generated research plan, running the investigation, and iterating on results using the revision and versioning system.</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">Amazon Bedrock</span><span class="badge tag">企业服务</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span><span class="badge tag">多模态</span><span class="badge tag">论文研究</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>AWS AI / ML</span>
+<span>2026-06-02T05:54:16+08:00</span><a href="https://aws.amazon.com/blogs/machine-learning/transforming-rare-cancer-research-with-amazon-quick-integrating-biomedical-databases-for-breakthrough-discoveries/" target="_blank" rel="noopener">AWS Machine Learning Blog</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Perplexity</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Perplexity Changelog 页面出现更新</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">搜索</span><span class="badge tag">API 更新</span><span class="badge tag">Agent</span><span class="badge tag">产品功能</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>API / Product</span>
+<span>2026-06-03T22:19:46.495773+08:00</span><a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">Perplexity Changelog</a>              </div>
+            </article>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Hugging Face</h3>
+          <div class="stack">
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Holo3.1: Fast &amp; Local Computer Use Agents</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">Holo3.1: Fast &amp; Local Computer Use Agents</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span><span class="badge tag">Agent</span><span class="badge tag">算力/基础设施</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-02T22:13:23+08:00</span><a href="https://huggingface.co/blog/Hcompany/holo31" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</h3>
+                <span class="badge badge-high">High</span>
+              </div>
+              <p class="event-body">Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span><span class="badge tag">Agent</span><span class="badge tag">企业服务</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-01T21:51:18+08:00</span><a href="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Direct Preference Optimization Beyond Chatbots</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Direct Preference Optimization Beyond Chatbots</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-03T20:55:11+08:00</span><a href="https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Adding MCP Tools to Reachy Mini</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Adding MCP Tools to Reachy Mini</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span><span class="badge tag">Agent</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-03T08:00:00+08:00</span><a href="https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-01T23:45:17+08:00</span><a href="https://huggingface.co/blog/JetBrains/mellum2-launch" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+            <article class="event-card">
+              <div class="card-title">
+                <h3>Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</h3>
+                <span class="badge badge-medium">Medium</span>
+              </div>
+              <p class="event-body">Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</p>
+              <div class="meta">
+                <span class="badge badge-official">official</span>
+<span class="badge tag">开源模型</span><span class="badge tag">开发者工具</span><span class="badge tag">论文研究</span><span class="badge tag">模型更新</span>              </div>
+              <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+              <div class="source-line">
+                <span>Hugging Face</span>
+<span>2026-06-01T12:44:55+08:00</span><a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai" target="_blank" rel="noopener">Hugging Face Blog</a>              </div>
+            </article>
+          </div>
+        </div>
+    </section>
+
+    <section id="deep">
+      <div class="section-head">
+        <h2>今日重点深挖</h2>
+        <span class="section-note">1-3 条克制分析</span>
+      </div>
+      <div class="stack">
+        <article class="deep-card">
+          <h3>Perplexity Changelog 页面出现更新</h3>
+          <div class="source-line">
+            <span>Perplexity</span>
+<a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">Perplexity Changelog</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>主要解决开发者接入、能力调用或平台集成中的具体问题。</dd>
+            <dt>行业信号</dt><dd>行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 Perplexity 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。</dd>
+            <dt>商业化影响</dt><dd>可能影响企业采购、云平台绑定和业务自动化方案设计。</dd>
+            <dt>我的认知积累</dt><dd>建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。</dd>
+            <dt>不确定性</dt><dd>当前判断基于已抓取来源，具体影响仍需结合原文细节和后续反馈。</dd>
+          </dl>
+        </article>
+        <article class="deep-card">
+          <h3>Meta AI Blog 页面出现更新</h3>
+          <div class="source-line">
+            <span>Meta AI</span>
+<a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">Meta AI Blog</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>主要围绕模型能力、可用范围或产品化入口做增强。</dd>
+            <dt>行业信号</dt><dd>行业信号是开源模型仍在为私有化、成本控制和生态扩散提供替代路径。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 Meta AI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。</dd>
+            <dt>商业化影响</dt><dd>商业化影响暂时需要更多使用数据和客户场景验证。</dd>
+            <dt>我的认知积累</dt><dd>建议保留官方链接，后续和同类公司更新放在一起比较。</dd>
+            <dt>不确定性</dt><dd>当前判断基于已抓取来源，具体影响仍需结合原文细节和后续反馈。</dd>
+          </dl>
+        </article>
+        <article class="deep-card">
+          <h3>Vertex AI Generative AI Release Notes 页面出现更新</h3>
+          <div class="source-line">
+            <span>Google / DeepMind</span>
+<a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">Vertex AI Generative AI Release Notes</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>主要解决开发者接入、能力调用或平台集成中的具体问题。</dd>
+            <dt>行业信号</dt><dd>行业信号是模型能力继续被包装成云服务、企业 API 和可采购方案。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 Google / DeepMind 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。</dd>
+            <dt>商业化影响</dt><dd>可能影响企业采购、云平台绑定和业务自动化方案设计。</dd>
+            <dt>我的认知积累</dt><dd>建议从云服务销售视角记录它面向什么客户问题、如何定价、如何集成。</dd>
+            <dt>不确定性</dt><dd>当前判断基于已抓取来源，具体影响仍需结合原文细节和后续反馈。</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="agents">
+      <div class="section-head">
+        <h2>Agent 与开发者工具专区</h2>
+        <span class="section-note">Codex / Claude Code / Gemini CLI / MCP / RAG / 工作流</span>
+      </div>
+      <div class="grid">
+        <article class="simple-card">
+          <h3>Perplexity Changelog 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合检索增强、信息核查、研究型工作流和知识库问答。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Gemini API Release Notes 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Anthropic News 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://www.anthropic.com/news" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>OpenAI Platform Changelog 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://platform.openai.com/docs/changelog" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>anthropics/claude-code v2.1.161</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.161" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Object detection with Amazon Nova 2 Lite</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Holo3.1: Fast &amp; Local Computer Use Agents</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/Hcompany/holo31" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Codex for every role, tool, and workflow</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/codex-for-every-role-tool-workflow" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Building a secure auth code flow setup using AgentCore Gateway with MCP clients</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Codex is becoming a productivity tool for everyone</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/codex-for-knowledge-work" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>OpenAI models and Codex on Amazon Bedrock are now generally available</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Extending MCP support for Amazon Bedrock AgentCore Gateway</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>OpenAI frontier models and Codex are now available on AWS</h3>
+          <div class="meta">
+            <span class="badge badge-high">High</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>GitHub Copilot Changelog 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Mistral AI News 页面出现更新</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://mistral.ai/news/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Direct Preference Optimization Beyond Chatbots</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Adding MCP Tools to Reachy Mini</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合把本地文件、数据库、知识库或第三方工具接入 Agent。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>The art and science of hyperparameter optimization on Amazon Nova Forge</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/the-art-and-science-of-hyperparameter-optimization-on-amazon-nova-forge/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Travelers deploys AI-powered claims countrywide with OpenAI</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/travelers" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Advancing youth safety and opportunity through global leadership</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Transforming rare cancer research with Amazon Quick: Integrating biomedical databases for breakthrough discoveries</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合把本地文件、数据库、知识库或第三方工具接入 Agent。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://aws.amazon.com/blogs/machine-learning/transforming-rare-cancer-research-with-amazon-quick-integrating-biomedical-databases-for-breakthrough-discoveries/" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Our views on AI policy and political advocacy</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/our-views-on-ai-policy-and-political-advocacy" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/JetBrains/mellum2-launch" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Building the infrastructure for the Intelligence Age in Michigan</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://openai.com/index/stargate-michigan-data-center" target="_blank" rel="noopener">来源链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</h3>
+          <div class="meta">
+            <span class="badge badge-medium">Medium</span>
+            <span class="badge badge-official">official</span>
+          </div>
+          <p>可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="impact">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="impact">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai" target="_blank" rel="noopener">来源链接</a></div>        </article>
+      </div>
+    </section>
+
+    <section id="models">
+      <div class="section-head">
+        <h2>模型能力与 API 变化表</h2>
+        <span class="section-note">缺少确证时标记信息不足</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>公司</th><th>模型/产品</th><th>更新前</th><th>更新后</th><th>变化类型</th><th>开发者影响</th><th>商业化影响</th><th>来源</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Perplexity</td>
+              <td>API / Product</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>搜索, API 更新, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Meta AI</td>
+              <td>Meta AI / Llama</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>开源模型, 模型更新, 论文研究</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Google / DeepMind</td>
+              <td>Vertex AI</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>API 更新, 企业服务, 算力/基础设施</td>
+              <td>API 能力变化会直接影响开发者接入成本、产品边界和企业集成节奏。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Google / DeepMind</td>
+              <td>Gemini API</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>API 更新, 模型更新, 开发者工具</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Anthropic</td>
+              <td>Claude</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>模型更新, API 更新, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://www.anthropic.com/news" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>API</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>API 更新, 模型更新, 开发者工具</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://platform.openai.com/docs/changelog" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Anthropic</td>
+              <td>Claude Code</td>
+              <td>信息不足</td>
+              <td>## What&#39;s changed - `OTEL_RESOURCE_ATTRIBUTES` values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo - `claude agents` rows now show `done/total` before the detail when work is fanned out; peek shows the longest-running item - `/mcp` now collapses claude.ai connectors you&#39;ve never signed in to behind a &#34;Show unused connectors&#34; row - Parallel tool calls: a failed Bash command no longer cancels other calls in the same batch — each tool returns its own result independently - Fullscreen mode: clipboard now uses `wl-copy`/`xcl...</td>
+              <td>Agent, 开发者工具, 模型更新</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.161" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>In this post, we&#39;ll walk through implementing object detection with Amazon Nova 2 Lite. You&#39;ll learn how to deploy an object detection application using Amazon Bedrock, AWS Lambda, and Amazon API Gateway. You&#39;ll also learn how to craft effective prompts, process structured JSON output, and visualize results. We explore practical applications across manufacturing, agriculture, and logistics.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>This post walks through how Baz built their Spec Review agent using Amazon Bedrock and Amazon Bedrock AgentCore. We&#39;ll cover the architecture decisions, implementation details, and the business outcomes they achieved by leveraging these AWS services to automate their code review process</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Hugging Face</td>
+              <td>Hugging Face</td>
+              <td>信息不足</td>
+              <td>Holo3.1: Fast &amp; Local Computer Use Agents</td>
+              <td>开源模型, 开发者工具, 论文研究</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://huggingface.co/blog/Hcompany/holo31" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/codex-for-every-role-tool-workflow" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assistant request is authenticated with a valid user identity token issued from your organization’s identity provider.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/codex-for-knowledge-work" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>Today, we’re excited to announce the ability to reference a secret in AWS Secrets Manager for AgentCore Identity, so you can reference your own preconfigured secret from Secrets Manager and retain full control over how it is managed. With this ability, you can extend your organization’s existing secrets governance processes to AgentCore. You can provide an existing, preconfigured AWS Secrets Manager secret to use with your credential provider resources. You retain full control over its encryption configuration, rotation, replication, tags, and resource policies, just as you would manage other...</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy them in production applications and agents today, on Bedrock’s high performance inference engine.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>While deploying Model Context Protocol (MCP) servers in production, enterprises need fine-grained access control across servers, observability into which teams use which tools, security guarantees against data exfiltration, and centralized credential management, all at scale. Amazon Bedrock AgentCore Gateway sits between MCP servers and the clients that consume them, centralizing credential management, observability, and secure […]</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>In this post, we use a lakehouse data agent to demonstrate how you can use Policy for deterministic access control and Lambda interceptors for dynamic validation. We then show how to combine Lambda interceptors and Policy to implement a geography-based access control which requires both dynamic validation and deterministic access control.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>In this post, we address several key risks that surface when designing an agentic payment system, and how to address them with the capabilities of AgentCore payments.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Google / DeepMind</td>
+              <td>Google AI</td>
+              <td>信息不足</td>
+              <td>How we used Gemini to build Google I/O 2026</td>
+              <td>模型更新, 产品功能, 多模态</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Hugging Face</td>
+              <td>Hugging Face</td>
+              <td>信息不足</td>
+              <td>Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic</td>
+              <td>开源模型, 开发者工具, 论文研究</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Microsoft</td>
+              <td>GitHub Copilot</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>Agent, 开发者工具, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://github.blog/changelog/label/copilot/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Mistral AI</td>
+              <td>Mistral</td>
+              <td>信息不足</td>
+              <td>检测到该官方页面内容与上次快照不同。MVP 阶段先记录官方入口，后续可为该来源增加专用解析器来抽取具体更新条目。</td>
+              <td>模型更新, API 更新, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://mistral.ai/news/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Google / DeepMind</td>
+              <td>Google AI</td>
+              <td>信息不足</td>
+              <td>5 ways Google Search can level up your thrift and vintage shopping</td>
+              <td>模型更新, 产品功能, 多模态</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://blog.google/products-and-platforms/products/search/thrifting-tips/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Hugging Face</td>
+              <td>Hugging Face</td>
+              <td>信息不足</td>
+              <td>Adding MCP Tools to Reachy Mini</td>
+              <td>开源模型, 开发者工具, 论文研究</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>Fine-tuning for domain-specific tasks means improving performance in one area without degrading the model’s general capabilities, and getting that balance right is harder than it looks. This post walks through how to navigate that balance, from selecting the right customization strategy for your data and task, to configuring the training parameters that most influence outcomes, like learning rate, batch size, and checkpointing. We also cover the common mistakes that lead to wasted training runs and how to catch them early, so you can improve domain performance without degrading general capabi...</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/the-art-and-science-of-hyperparameter-optimization-on-amazon-nova-forge/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/travelers" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Mistral AI</td>
+              <td>Models</td>
+              <td>信息不足</td>
+              <td>Hugging Face 上的 mistralai/Pixtral-Large-Instruct-2411 最近有更新。 downloads=53, likes=433</td>
+              <td>开源模型, 模型更新</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Mistral AI</td>
+              <td>Models</td>
+              <td>信息不足</td>
+              <td>Hugging Face 上的 mistralai/Pixtral-12B-2409 最近有更新。 downloads=4713, likes=688</td>
+              <td>开源模型, 模型更新</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://huggingface.co/mistralai/Pixtral-12B-2409" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Amazon / AWS</td>
+              <td>AWS AI / ML</td>
+              <td>信息不足</td>
+              <td>In this post, we walk through how to use Amazon Quick Research to integrate biomedical data sources for rare cancer research. The walkthrough uses pediatric sarcoma as the research domain and draws on publicly available datasets from PubMed and other open biomedical repositories. It covers the end-to-end workflow: defining a research objective, configuring data sources, reviewing the AI-generated research plan, running the investigation, and iterating on results using the revision and versioning system.</td>
+              <td>Amazon Bedrock, 企业服务, Agent</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://aws.amazon.com/blogs/machine-learning/transforming-rare-cancer-research-with-amazon-quick-integrating-biomedical-databases-for-breakthrough-discoveries/" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/our-views-on-ai-policy-and-political-advocacy" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Hugging Face</td>
+              <td>Hugging Face</td>
+              <td>信息不足</td>
+              <td>Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</td>
+              <td>开源模型, 开发者工具, 论文研究</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://huggingface.co/blog/JetBrains/mellum2-launch" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>OpenAI</td>
+              <td>信息不足</td>
+              <td>OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.</td>
+              <td>模型更新, API 更新, 产品功能</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://openai.com/index/stargate-michigan-data-center" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Hugging Face</td>
+              <td>Hugging Face</td>
+              <td>信息不足</td>
+              <td>Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</td>
+              <td>开源模型, 开发者工具, 论文研究</td>
+              <td>这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Mistral AI</td>
+              <td>Models</td>
+              <td>信息不足</td>
+              <td>Hugging Face 上的 mistralai/Mistral-Small-4-119B-2603-NVFP4 最近有更新。 downloads=1230, likes=93</td>
+              <td>开源模型, 模型更新</td>
+              <td>模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="manual">
+      <div class="section-head">
+        <h2>手动日报整理区</h2>
+        <span class="section-note">拆分、去重、核实</span>
+      </div>
+      <div class="empty">未读取到当天手动日报。可放入 data/manual_input/2026-06-03.md 或 .txt。</div>
+    </section>
+
+    <section id="cognition">
+      <div class="section-head">
+        <h2>今日认知积累</h2>
+        <span class="section-note">3-5 条沉淀</span>
+      </div>
+      <div class="stack">
+        <article class="simple-card">
+          <h3>Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。</h3>
+          <p>今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。</p>
+<div class="source-line"><span>关联：Perplexity Changelog 页面出现更新</span><a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">来源</a></div>        </article>
+        <article class="simple-card">
+          <h3>模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。</h3>
+          <p>只看 benchmark 容易低估产品入口和开发者生态的价值。</p>
+<div class="source-line"><span>关联：Meta AI Blog 页面出现更新</span><a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">来源</a></div>        </article>
+        <article class="simple-card">
+          <h3>API 能力变化会改变应用层产品的功能边界。</h3>
+          <p>接口、上下文、工具调用和价格变化，都会影响一个功能是否值得产品化。</p>
+<div class="source-line"><span>关联：Vertex AI Generative AI Release Notes 页面出现更新</span><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">来源</a></div>        </article>
+      </div>
+    </section>
+
+    <section id="actions">
+      <div class="section-head">
+        <h2>今日行动建议</h2>
+        <span class="section-note">3-5 条</span>
+      </div>
+      <div class="grid">
+        <article class="simple-card">
+          <h3>Perplexity Changelog 页面出现更新</h3>
+          <p>打开官方链接，记录接口能力、限制和可能影响现有工作流的变化。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+<div class="source-line"><a href="https://docs.perplexity.ai/docs/resources/changelog" target="_blank" rel="noopener">打开官方或原始链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Meta AI Blog 页面出现更新</h3>
+          <p>收藏模型页面，观察许可证、推理成本、社区评测和部署条件。</p>
+          <p class="impact">模型能力更新通常会改变多模型竞争格局，也会影响上层应用可实现的功能范围。</p>
+<div class="source-line"><a href="https://ai.meta.com/blog/" target="_blank" rel="noopener">打开官方或原始链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Vertex AI Generative AI Release Notes 页面出现更新</h3>
+          <p>打开官方链接，记录接口能力、限制和可能影响现有工作流的变化。</p>
+          <p class="impact">API 能力变化会直接影响开发者接入成本、产品边界和企业集成节奏。</p>
+<div class="source-line"><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/release-notes" target="_blank" rel="noopener">打开官方或原始链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Gemini API Release Notes 页面出现更新</h3>
+          <p>打开官方链接，记录接口能力、限制和可能影响现有工作流的变化。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+<div class="source-line"><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener">打开官方或原始链接</a></div>        </article>
+        <article class="simple-card">
+          <h3>Anthropic News 页面出现更新</h3>
+          <p>打开官方链接，记录接口能力、限制和可能影响现有工作流的变化。</p>
+          <p class="impact">这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。</p>
+<div class="source-line"><a href="https://www.anthropic.com/news" target="_blank" rel="noopener">打开官方或原始链接</a></div>        </article>
+      </div>
+    </section>
+
+    <section id="failures">
+      <div class="section-head">
+        <h2>抓取失败来源</h2>
+        <span class="section-note">不会阻断日报生成</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>来源</th><th>链接</th><th>错误</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Azure AI Services Blog</td>
+              <td><a href="https://techcommunity.microsoft.com/t5/azure-ai-services-blog/bg-p/AzureAIServicesBlog/rss" target="_blank" rel="noopener">链接</a></td>
+              <td>not well-formed (invalid token): line 13, column 71</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p>生成时间：2026-06-03T22:19:46.980027+08:00。所有分析均基于已抓取来源，缺少确证的信息会保留不确定性标记。</p>
+    </footer>
+  </main>
+</body>
+</html>
