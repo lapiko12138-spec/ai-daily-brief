@@ -1,0 +1,646 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-05T13:15:52.362647+08:00",
+  "events_count": 17,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 18,
+    "totalTweets": 38,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-06-04T07:55:53.311Z"
+  },
+  "digest_generated_at": "2026-06-05T05:15:52.306Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-05T05:15:52.306Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+        "guid": "0c2c7d0c-5fc8-11f1-84fd-97552ff30f86",
+        "url": "https://www.youtube.com/@NoPriorsPodcast",
+        "publishedAt": "2026-06-04T07:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:16\nThe world is gonna be very skeptical of tech and tech companies that say, trust us. We've got it. The future is gonna be glorious. You kinda have to deliver tangible benefits because it's too important this time around. It's too much of the economy for it not to be the case.\n\nSpeaker 1 | 00:16 - 00:30\nTrue ambition is about making the impossible possible. I take great inspiration from sort of the people who were managing the Azure network. We built in the last fifteen months more Azure capacity than we built in the first fifteen years. I mean, it's crazy. Wild.\n\nSpeaker 1 | 00:30 - 00:57\nOur job is not to do Azure networking. Our job is to build the agentic system that does Azure networking. Right? The way to get to information, way to educate yourself, way to continuously keep yourself updated has changed so much. Maybe the next big start up could be someone who builds a new university, a new pedagogy even of how to get someone to go through a curriculum and find economic opportunity that's highly valuable.\n\nSpeaker 2 | 01:11 - 01:21\nPlease welcome Swix Saragawa, Allod Gil, and Chairman and Chief Executive Officer of Microsoft, Satya Nadella.\n\nSpeaker 3 | 01:29 - 01:31\nHello, Saad.\n\nSpeaker 2 | 01:31 - 01:40\nI'm so excited to be here. Welcome to a crossover episode of No Priors in Lane Space with Satya Nadella. Congratulations on an amazing build.\n\nSpeaker 1 | 01:40 - 01:48\nNo. Thank you so much, and it's great to be with both of you. I listen to both of you or both the podcast all the time. It's great to be on it.\n\nSpeaker 3 | 01:48 - 01:48\nThank you so much.\n\nSpeaker 2 | 01:48 - 01:59\nSo you're just talking about these amazing announcements from across the Microsoft estate all morning for, I think, three hours. What is the What's the most important reflection or takeaway you have?\n\nSpeaker 1 | 01:59 - 02:58\nI'd say there are Perhaps the biggest one for me is let's sort of conceptualize this more as an ecosystem play as opposed to a single model or even a single platform, right? I mean, at least for me, having grown up at Microsoft, having seen whatever four major platform shifts, I sort of fall into that camp where a platform is defined by fundamentally its ability to create more value about the platform versus what's captured in the platform. And so if you view what's happening right now, I think this morning's keynote was how can any company, whether it's an AI native company or a traditional enterprise company, participate as a first class participant where they can point to AI they create, right? It's not that they don't use other people's AI. Of course, they will.\n\nSpeaker 1 | 02:59 - 03:05\nBut to me, what's the path? What's the recipe? How do I do it? What does the stack look like? What does the tooling look like?\n\nSpeaker 1 | 03:05 - 03:10\nWhat is valuable? How do you do that? That's it. That's sort of our job to do.\n\nSpeaker 2 | 03:11 - 03:27\nYeah. Ecosystem strategy is very complicated, right? Because you end up building certain components, partnering for certain components, supporting them. You just announced this big suite of models. Like, tell us a little bit about the training strategy for Microsoft.\n\nSpeaker 2 | 03:27 - 03:27\nYeah.\n\nSpeaker 1 | 03:27 - 04:18\nSo so the thing that we wanted to do with the MAI models was to build, and as Mustafa talked about, first of all, a great lineage, right? Starting with pre training, with very good data quality, doing all the abolations, making sure. Because in some sense, it's becoming even harder to build a clean lineage model just because there's so much stuff out there that you truly need to ablate out to be able to have a fantastic pre trained model. In fact, that's one of the challenges of a lot of the open weight models is they look great on one benchmark or two, but they're not great on practice. So that's why, in fact, even in our FDEs are pretty gone really excited about these MAI models because how the heck can a small 5B model hill climb?\n\nSpeaker 1 | 04:19 - 04:52\nAnd it goes back a little bit to what I think is ultimately the key thing to do, which is try to pursue finding that cognitive core. So to me, starting with a clean lineage, then creating that ability for companies to be able to use this, right, not just as a generalist, but to create their own specialist by building this hill climbing scaffold around it. Right? So it's not just the model, but you have a hill climb scaffold around it. Then you will start building your RLE.\n\nSpeaker 1 | 04:52 - 05:20\nYou will start collecting the traces. Most importantly, you'll have private evals because we know all the evals out there are good, interesting, but they're not really that critical at this point because they all can be maxed. And so the point is each company will have its own private eval. And so that end to end platform story around our models is sort of what I think is interesting. And then the one other thing, Sara, since you brought that up, is I do feel there's a new frontier.\n\nSpeaker 1 | 05:20 - 05:47\nLike, people talk about the frontier and are you operating at the frontier? Interestingly enough, if you add a little temporality to it, you can use, let's say, in fact, the Land O'Lakes demo we showed was pretty cool. We used whatever, GPT-five point five, right? Then you collected a bunch of traces, and then you took a 5B reasoning model and achieved higher. So that is another aspect of what it means to appear I mean, operate at the frontier.\n\nSpeaker 3 | 05:48 - 06:03\nYeah. I I think I first of all, have to congratulate you on basically building a frontier neural lab inside of Microsoft in two years. I'm wondering, you know, you have all this AI strategy that you're rolling out. I'm wondering, what do you know now that you wish you would tell yourself two years ago? Wait.\n\nSpeaker 3 | 06:03 - 06:07\nTwo or three years ago. Three years for the Jensen partnership, two years for MAI.\n\nSpeaker 1 | 06:07 - 06:38\nYeah. I mean, I think the the thing when that I reflect quite a bit, right, which is sort of obviously, I got into all this when I got excited by the the skating loss paper and, you know, when, you know, even the OpenAI partnership came about when those folks said, hey. We're gonna really throw a lot of computer transformers, and they've helped. The thing that I always go back and say, wow, these things do have capability that they're climbing up. I mean, you know, this crude way of saying it is intelligence is log of compute kind of works.\n\nSpeaker 1 | 06:38 - 07:07\nNow, what I think we underestimated perhaps is the real world complexity of deploying these so that they actually deliver the value in the real world. Right? So the outcomes as measured by any benchmark is interesting, important. But the true eval is when people out there are able to do unique things that they only can value. And it's very measurable.\n\nSpeaker 1 | 07:08 - 07:33\nRight. That I wish we had sort of even had more in our consciousness, right, which is as an industry. Because right now, I think when people say, wow, I don't want a token max, it's an artifact of us not having thought ourselves as an industry that we are using tokens to create value every step of the way. So I think that's kind of what I wish we had gotten there, but I'm glad we are here.\n\nSpeaker 4 | 07:33 - 07:46\nWhat are some of the use cases that you've seen that have created the most value for your customers? Because I know that people talk a lot about code, and I think it's pretty clear that that's something that's having very large scale impact. Are there other areas that you find in common that your customers are really benefiting?\n\nSpeaker 1 | 07:46 - 08:01\nYeah. I think yeah. To your point, obviously, coding is now got But it's interesting, by the way, Ladish, to even talk about the coding, right? Which is coding has worked so well that we now have to rebuild the IDE, right? I mean, it's kind of nuts to see what we launched.\n\nSpeaker 1 | 08:01 - 08:24\nIt's like, oh my god, I have these 100 agent sessions. Cognitive load, it transfers back to me as a human is so excessive that now I need a new UI. Oh, by the way, the chat as the only artifact is also impossible. So, that's why we need a canvas. So, it's kind of interesting for all the things about where is software needed or where is UI needed.\n\nSpeaker 1 | 08:25 - 09:19\nYou kind of need that even for code, right, in a fully agentic world. But that said, one of the things that we are starting to see, we start seeing that co work, but even some of the work we showed with Autopilot, right on what you see with Claws, is a good one. Because if you sort of think about a lot of human capital is doing the glue work, right, if you now can augment that with tokensagents that are long running, durable, right, then your ability to scale, even what is still judgment and glue work, gets amplified like coding does. So you can I'm positive that six months from now, we'll all be saying, oh, wow. Like all through the night, there was a bunch of stuff that all these autopilots that I have working on my behalf with my delegated authority, so to speak.\n\nSpeaker 1 | 09:19 - 09:30\nRight? I can sort of, given even my identity, did a bunch of work. Then, of course, I'll need my new ADE to say, what did you do? Like, did I do this work? And so on.\n\nSpeaker 1 | 09:30 - 09:38\nSo I think that that's where compressing of workflows, completing of tasks, that's where I think a lot of the value gets created.\n\nSpeaker 4 | 09:38 - 09:56\nI think you raised a really interesting point, which is there's the actual agent that's doing the code, then there's a harness around it. And that's the environment, that's the context, that's everything you're setting up as a developer around actually a coding agent. What is the harness for the enterprise? Is there an equivalent concept for broader productivity work, or how do you think about that concept sort of generalized?\n\nSpeaker 1 | 09:56 - 10:36\nThat's right. So, in some sense, you kind of want the harness to define the models, data, and the tools, and so that you have a loop across those three. And so, what we are trying to, first of all, make sure is each of our products that we build, right, whether it's GitHub Copilot or the security copilot, the stuff we showed with Emdash, or even the discovery for science, it doesn't matter. All of them are multimodal harnesses with tools access so that you can do this progressive disclosure of tools even so that they're token efficient. And then you're feeding it with very rich context.\n\nSpeaker 1 | 10:36 - 11:14\nBecause that's sort of the other hard lesson we have learned in the last two years is, oh my God, the amount of work you need to do to prep the context layer such that your plan can execute in the most efficient way is where the magic is. So we have, in our case, we have the GitHub harness, which essentially we're using across all our products. It's available in Foundry. And we're open, like you can use your Lama harness, whatever, or you can use any open harness or any harness of yours and train with your tools and multiple models and your context. And so that's the pitch.\n\nSpeaker 1 | 11:14 - 11:47\nBecause right now, a lot of dialogue is, hey, if I train the harness plus tools and the model together, you get evals. And what we are proving out is, and the best example of that, is what we did with Emdash, right? Because when it launched, it found bugs or vulnerabilities that were not found by mythos. And so there is existence proof, I would claim, that you can have a multimodal harness that can, in fact, be more performant in the real world.\n\nSpeaker 2 | 11:48 - 12:23\nSo premise behind the training at the independent Frontier Labs is really, you know, we're gonna have these models, We'll have an API business and we'll support enterprises and startups, but a first party product, be it productivity or code or search drives the majority of revenue. That's a different value equation than you're describing, I think, with the Microsoft ecosystem. If if that's the case, tell me if it's the case, because obviously you have first party products and you have enablement products. What is the role of the develop like, what's gonna be hard and the set of skills and the value capture the developer has in that world?\n\nSpeaker 1 | 12:23 - 12:49\nYeah. So I think that there's always gonna be the case that someone who is super successful as a platform builder can also have first party products. It was true with Windows. It was true with the SaaS side and the cloud side as well with us and others and so on. But the thing that is, is it should not be a limiter to other people achieving that same success, Right?\n\nSpeaker 1 | 12:49 - 13:18\nThat, I think, is the core difference, which is the network effects this time around, around intelligence are such because they learn from data and not really lots of data. It's just a few samples that you have to see to understand what's novel about something. So that's why the game becomes how to protect. So that's why I would say every company having private evals may be the biggest IP. Right?\n\nSpeaker 1 | 13:18 - 13:42\nI think about it. Like, what's that private eval that you can then use, even a frontier model, hill climb on and not leak the traces, maybe one of the biggest drivers of IP? Like so in other words, another asset test is you have an eval that's private. You're using model A. Can you switch it to model B and, know, climb up?\n\nSpeaker 1 | 13:42 - 14:07\nIf you can, then you're in control. If you can't, you're not in control. And that's where even the harness decision becomes super important. Right? So therefore, having an open harness, letting all models come in, having your evals, your context, your tools help you hill climb, I think, is the skills that an AI native startup needs, a SaaS company needs, or every enterprise needs.\n\nSpeaker 3 | 14:07 - 14:32\nYeah. I think in a very real way, you are Microsoft historically, as an operating systems company and then become a cloud company, maybe, like, the third act is that you're a harness or eval's company, whatever whatever the the sort of conglomerate of concepts that you wanna put together. And I think, like, enabling every company to have, like, frontier intelligence or what what I forget the the exact term that you use is the is the mission. Right?\n\nSpeaker 1 | 14:32 - 14:33\nThat's it.\n\nSpeaker 3 | 14:33 - 14:39\nThat is that is the platform promise that you build with us. You will get your intelligence for your data.\n\nSpeaker 1 | 14:39 - 15:10\nThat's right. That to to me, that is the like, if there was one tagline for this entire developer conference is, can everybody operate at the frontier with their frontier intelligence? Right? To me, that is so important because otherwise, I don't know how you achieve stable equilibrium, right? Which is how do I then go and say, well, my company is going to have a terminal value because I now know how to continuously compound on top of what's a platform that gets better.\n\nSpeaker 1 | 15:10 - 15:27\nRight? So when, like, Windows obviously came out, Adobe built, Autodesk built, or even, like, take what Jensen said. We built DX and he built, you know, CUDA on top of it. Right? I mean, I always say to Jensen, god, I got the shorn head of that.\n\nSpeaker 1 | 15:27 - 15:43\nRight? I wish we had recognized it. But, nevertheless, but that idea that you can build a platform layer that someone else can then extend out and build their own intelligence layer in this case, I think, is everything. Right? Without it, why have a developer conference?\n\nSpeaker 1 | 15:43 - 15:50\nI can just come and have you all sort of just worship at the altar of one model. Yeah. But that's not a developer conference.\n\nSpeaker 3 | 15:50 - 16:07\nBackstage, we you had a discussion about what is IP or what is the the value in a company. It used to be the length of human experience at a company, and now it's this other thing, which is the evals, the experience in sort of applying agents to the company. He I just want you to, like, flesh it out a bit, Marcus.\n\nSpeaker 1 | 16:07 - 16:25\nYeah. It's a great way to frame it. Right? Because, yep, at the end of the day, every company is gonna have both the human capital that is still gonna be super valuable because humans and their ability to find the gaps that exist at all times is going to be the way we all will create value. Right.\n\nSpeaker 1 | 16:25 - 16:57\nI mean, so I'm definitely in the camp that this is going to be about expressing new forms of human agency and ambition, even as token capital goes up. Right. So let's say any corporation has lots of tokens and a lot of human capital. The question is, how do you compound the two? So if you have a like, if you take in teams, I have a bunch of agents doing work and a bunch of humans doing work and the traces between those, that is really important context of how that enterprise is creating value.\n\nSpeaker 1 | 16:58 - 17:28\nThen that goes back to train not a generalist model, but to taint train the company veteran agent. Right? That is super valuable again, which is when a company goes and says, it should in fact go on to the balance sheet is how I think about it. Right? That's fact, they may be like, human capital was never possible to go put on a balance sheet because you didn't know how to capture the tacit knowledge, whereas now I think you can with the agents that have learned through the through time, through all the traces.\n\nSpeaker 1 | 17:29 - 17:31\nSo that's what at least we think will happen.\n\nSpeaker 3 | 17:31 - 17:36\nI think the SEC is gonna have to have accounting standards for token expertise.\n\nSpeaker 2 | 17:37 - 18:07\nYou're talking about the equilibrium state and a stable equilibrium where companies have this compounding value and can see terminal value for themselves. Another challenge to, you know, the considered equilibrium of, okay, there are applications and workflows that are sort of common to a vertical or a horizontal. And this was like the generation of SaaS companies. And, you know, Microsoft has lots of SaaS properties as well. Then And there are things that are very specific to every enterprise that they're differentiated against.\n\nSpeaker 2 | 18:08 - 18:23\nI'm sure you have heard much and participated in much of the debate about the end of software because all these workflows are cheap to generate now. Do you think the equilibrium looks different between what agents get built in enterprises versus in their vendors in the future?\n\nSpeaker 1 | 18:23 - 18:42\nYeah. So I think what's happening there is, see, we we had a particular way we captured, I would say, workflow in apps, right? Because we built a data model, right? We schematized some part of some business process. We then built a bunch of business logic.\n\nSpeaker 1 | 18:42 - 18:47\nYep. And then we put a bunch of UI on top of it. So that's kind of what every SaaS company-\n\nSpeaker 2 | 18:47 - 18:48\nAnd a little configuration.\n\nSpeaker 3 | 18:48 - 18:49\nFor like twenty years, that\n\nSpeaker 1 | 18:49 - 19:06\nwas- Right. And that was it. So interestingly enough, now you kind of get to relitigate that vertical stacking, right? So I still think, for example, that data model that you build underneath every SaaS application is super good, right? Like, why reinvent it?\n\nSpeaker 1 | 19:06 - 19:18\nLike, general ledger better be a general ledger. I don't need new schema creation. In fact, that entity relationship is actually pretty good, robust thing that I want to feed.\n\nSpeaker 2 | 19:18 - 19:19\nAnd you want it to be stable.\n\nSpeaker 1 | 19:19 - 19:26\nThat's right. Yeah. Then same thing with business logic. Right? If if you look at we have this product called Power BI.\n\nSpeaker 1 | 19:26 - 19:42\nRight? It is like dashboards galore people created. The beauty underneath that dashboard is a very rich semantic model, right? Someone took the pain to create a dashboard and do all the measures. And you want that?\n\nSpeaker 1 | 19:42 - 20:04\nThat's business logic, right? I want that to be available to me. So I think the challenge of the SaaS business model is we packaged one way. We now have to learn how to unbundle these things and rebundle in new ways and discover new business models, right? I mean, if you look at it, what's happening today with Microsoft March is a great example.\n\nSpeaker 1 | 20:04 - 20:20\nRight? We have this thing called WorkIQ. In fact, what we are realizing is, oh my god, like, if you look at it, in fact, there's a historical parallel to it, right? We sold first Exchange and SharePoint. And, you know, before Teams, we had a thing called Link Server and what have you.\n\nSpeaker 1 | 20:20 - 20:47\nAnd we thought, oh, that's all gonna move to the cloud. But little did we realize that the number of people who will use servers in the cloud is 10x, 100x, right? Because people were not buying servers, they were just buying a subscription. The same thing is now happening with M365 because with WorkIQ, we have exposed what is perhaps the most important database in a company that never got used as a database because it is only captive to our apps. Right?\n\nSpeaker 1 | 20:48 - 21:04\nWas all email operated on it. Teams operated on it. Word, Excel, PowerPoint, SharePoint. But now, like, this is one of the coolest things I get to do with WorkIQ. I go to a GitHub repo and I say, hey, I attended a bunch of design meetings last week related to this repo.\n\nSpeaker 1 | 21:04 - 21:20\nCan you capture all that and tell me what changes I should make? I mean, think about that, right? It literally can go look at all those transcripts, come back with a plan to change your code base. Right? Previously, you could never have thought of using M365 for something like that.\n\nSpeaker 1 | 21:20 - 21:44\nSo the value creation opportunity now in the agent world is, in fact, 10x more. But it does require us to have, for example, there's going to be usage around M365, right? Which is going to be perhaps more than even the end users. And we have to even rearchitect. Like, in fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.\n\nSpeaker 1 | 21:45 - 21:47\nAnd so that's sort of what we are doing.\n\nSpeaker 2 | 21:47 - 22:00\nI don't believe in, like, permanent business models for any of these domains. But in the near term, do you have a prediction between, you know, outcomes based pricing, token based pricing, enterprise bundles?\n\nSpeaker 1 | 22:00 - 22:06\nYeah. The way I think about this is always we've had like, let's even take the per user price.\n\nSpeaker 2 | 22:06 - 22:07\nMhmm.\n\nSpeaker 1 | 22:07 - 22:19\nThe per user pricing is really an artifact of someone creating a budget needing certainty. Right? Because it's the most important thing. Like, somebody wants a budget. Mhmm.\n\nSpeaker 1 | 22:19 - 22:34\nThey need a per user. And and per user is just a set of entitlements to usage. Right? That's kind of what it is. And so the way is is the first bundling will be take some usage, bundle it into per user stacks, and, you know, then sell subscriptions.\n\nSpeaker 1 | 22:34 - 22:48\nSo subscriptions, I think, are gonna be there. Per user is gonna be there. Then the next big thing will be consumption. So people will say, I want consumption. And it's also possible that people will say, I don't even want to pay for any of the subscriptions or the consumption's outcome.\n\nSpeaker 1 | 22:48 - 23:02\nBut remember, most people love outcomes until they have an outcome. Because once you have an outcome, it's like giving away royalty. Right? I mean, I've to customers who love outcome based pricing. I say, I'm all in until they oh my god.\n\nSpeaker 1 | 23:02 - 23:05\nLike, what are you talking about? You're sharing in my outcome? No. No. No.\n\nSpeaker 1 | 23:05 - 23:25\nI want you to go back to per user pricing, and I want you to consumption price. Right? So I think that debate will go on. But and all all all of these business models have a particular time and a place versus one to rule them all. And if anything, if you're a SaaS vendor or you're a platform vendor, having that flexibility.\n\nSpeaker 1 | 23:25 - 23:53\nAnd quite frankly, we face this with GitHub, right? We just recently announced upper user pricing on GitHub. Because little GitHub Copilot was constructed at a per user level before we understood even the intensity of usage of agents. It was an interactive way for a developer to use CodeComplete, maybe task. It was not like, oh, I launched 10,000 agents that are going on all day.\n\nSpeaker 1 | 23:54 - 24:02\nSo that is what the adjustment is about. So now that we really want, there will always be a per user, but there will have to be a consumption meter.\n\nSpeaker 4 | 24:02 - 24:27\nHow do you think about the durability of SaaS more generally? One thing I've observed is in a lot of enterprises internally, there will be teams that almost have agent euphoria. They're so excited about the explosion of things they can build that they're trying to rebuild a lot of applications or going to their SaaS vendors and saying we're not gonna work with you anymore or we're considering an internal project. And it seems like in six to nine months, maybe some of those people will come back and say, actually, we we can't rebuild everything. How do you think about what's durable in this world and what isn't?\n\nSpeaker 1 | 24:28 - 24:58\nI think we have to go through one full budget cycle on this to really see the the sort of the emergence of the equilibrium. Because at the end of the day, there's marginal cost to even generating the app. Right? In fact, there can be even a a simple way to say it, like, if you should always acquire something if the marginal cost of building and maintaining something on your own is higher. Right?\n\nSpeaker 1 | 24:58 - 25:06\nThat should be like, it's a quantifiable right? A quantifiable thing. And the maintenance part is important. Right? Even like, you gotta remember, like, hey.\n\nSpeaker 1 | 25:07 - 25:20\nYou know, all the security stuff that now AI will find, you better fix them too fast. Of course, there's a coding agent to help you with, but then that burns tokens. Right? So whose responsibility is it? It's kind of like a a cycle that you've gotta think through.\n\nSpeaker 1 | 25:21 - 25:38\nAnd I think we have gone through the excitement that I can generate a lot of software. I think the next thing would be, what software do I really wanna generate? What software do I wanna use from others? How do I compose these two into some agentic workflow that I have agency over? Right?\n\nSpeaker 1 | 25:38 - 25:57\nBecause I think there'll be very little tolerance for anybody who's inflexible at the vendor level. But at the same time, I think that anyone who has got that flexibility, shows up, delivers the value, will be back at again. Right? We're selling software, but with just different business models, in fact.\n\nSpeaker 3 | 25:58 - 26:09\nSpeaking about building software, one of my favorite moments from, I think, a previous build maybe one or two years ago was they had a big they they there was a section of you building your own software. I'm curious if you're building anything now.\n\nSpeaker 1 | 26:09 - 26:22\nYeah. So I I think the you know, first of all, let's face it. Right? Building software has made it possible for even the incompetence of a CEO of a company like ours you can build. So thank god.\n\nSpeaker 1 | 26:22 - 27:16\nBut that said, I I I I do feel that, you know, something like GitHub Copilot to me and especially the new sessions app or the new app has just made it so much more possible for you to have agency over artifacts that you felt you couldn't touch before. Right? So for me as a CEO, even to go to a code base, to be able to learn about it like, I remember joining Microsoft long back, you know, first, and then you say, man, everybody had to go in and look at, you know, whatever, Cutler's, Malik, or what have you to learn how to do good c c plus plus code. So now that ability to be more full stack up and down is so good, but that doesn't mean every one of us should be doing the same thing. The question is how do you then have the ability to inspect things, learn things, see things?\n\nSpeaker 1 | 27:17 - 27:33\nI think it's just so much more. And so to me, what I'm building a lot of is these long running foundry agents. Right? So there's autopilots. So the easiest thing is, to me, I think I just built one even last week where the idea was, hey.\n\nSpeaker 1 | 27:33 - 27:49\nCan I have an agent that is continuously monitoring essentially my own chief of staff autopilot? Right? They're gonna have that, obviously, in Scout. That's what we showed. But it is so easy and trivial to build.\n\nSpeaker 1 | 27:49 - 28:04\nI took it WorkIQ. I said, take WorkIQ. Go and build a Foundry long running agent. Store all the memory in using Rayfin, right, basically at my back end as a service. And lo and behold, it built it.\n\nSpeaker 1 | 28:04 - 28:17\nAnd not only built it, I could say publish to Teams, and it published the damn thing to Teams. So the ability to have, you know, some end to end project like this complete is just pretty miraculous.\n\nSpeaker 4 | 28:17 - 28:36\nHow do you think that impacts the different types of engineering roles that exist in the future? Because right now, I think there's, you know, a dozen different types of engineers that you can be from QA, front end, etcetera. You know, there's a big swath. I've heard some people argue that in four or five years, we'll basically end up with four engineering roles. It'll be people who are managing agents.\n\nSpeaker 4 | 28:36 - 28:40\nIt'll be forward deployed engineers or FDEs. It'll be security engineers,\n\nSpeaker 3 | 28:40 - 28:41\nand then\n\nSpeaker 4 | 28:41 - 28:47\npeople working on large scale infrastructure for a small number of services, and then everything else just collapses into the agentic world.\n\nSpeaker 1 | 28:47 - 28:48\nYeah. Do you\n\nSpeaker 4 | 28:48 - 28:49\nthink that's a correct view of the world?\n\nSpeaker 1 | 28:49 - 29:05\nYeah. I mean, I think I think we'll have to experiment our way through it. But what you said is what there are some very at scale things. At LinkedIn, they did structurally change and, you know, basically built up a new discipline called full stack builder. Right?\n\nSpeaker 1 | 29:05 - 29:31\nSo they went and said, hey, let's bring people from design and product management, front end engineering, all put them together, but also have an edge. Right? It's not like the design person still doesn't have the design edge or the front end person doesn't have the front end edge, but you can give yourself bigger scope in roles so that you're not confined to one role. And then equally, infrastructures become very critical. Right?\n\nSpeaker 1 | 29:31 - 30:02\nSo in other words like, I mean, RLEs, I mean, one thing we have realized is even for the Excel team, for example, building the RLE in which a reward can be learned is actually one of the hardest sort of infrastructure problems. And so you kind of need even new talent, right? Distributed systems people even in what was considered an end user app team, because it's a different skill set. So yes, infrastructure, science is the other one, obviously. So I think we'll see how these evolve, right?\n\nSpeaker 1 | 30:02 - 30:28\nWhere's this real I mean, always the world will have a bunch of specialists. You know, I think the generalist role is gonna be the most exciting, right? Because the leverage of a generalist is where we are going to see the maximum returns, right? When you said, Hey, are you coding? I'm now a gen I basically translated knowledge work, right?\n\nSpeaker 1 | 30:28 - 30:46\nWhich I did, where I created a Word document or a spreadsheet or even And now I can build an app, Right? It's in the same sentence. Right? That idea that, oh, wow. My generalist skills have gotten a higher leverage, I think, is what we're gonna see across the board.\n\nSpeaker 2 | 30:46 - 30:51\nMusic to the ears of CEOs and VCs that are, like, a little dangerous and a lot\n\nSpeaker 3 | 30:51 - 30:52\nof Golden age for idea people.\n\nSpeaker 2 | 30:52 - 31:17\nIdea people. Yeah. With a lot of agency. If you take that idea of personal agency and you just zoom it out to the organizational context. My partner Mike Murnal, who actually started his career at Microsoft, just wrote an essay where one of the big takeaways is it's an age where you can be much more ambitious and you need to be given the pace of the environment and how quickly actually users and companies are open to adopting new technologies.\n\nSpeaker 2 | 31:18 - 31:27\nHow do you think about I feel silly asking this of somebody running a trillion dollar plus company already, but how do you think about how Microsoft can be more ambitious now?\n\nSpeaker 1 | 31:28 - 32:07\nIt's a great question. I think the thing in these type of transitions is to have a conceptual model of how work can change to go after outcomes that you could hardly imagine previously. Right? In fact, Kevin Scott has this nice line, right, which is when you can make the impossible like, when you're making hard things easier, that's sort of one point of leverage. But true ambition is about making the impossible possible.\n\nSpeaker 1 | 32:08 - 32:31\nSo now the thing that is missing a little bit in all of our organizations is what is that new conceptual model of what can we build? What was impossible and what can we build? And I'll give you one example of this, right? Which is I take great inspiration from sort of the people who were managing the Azure network. And they came to the this is from even last year.\n\nSpeaker 1 | 32:32 - 32:42\nYou know, we were scaling. You saw that I I talked about sort of how we built in the last fifteen months more Azure capacity than we built in the first fifteen years. I mean, it's crazy. Wild.\n\nSpeaker 4 | 32:42 - 32:42\nYeah.\n\nSpeaker 1 | 32:42 - 32:55\nRight? It's pretty wild. And it's the same team. So they saw that and they said, Bob, this just ain't gonna work if we don't reconceptualize our work. So they built essentially, they said, our job is not to do Azure networking.\n\nSpeaker 1 | 32:55 - 33:14\nOur job is to build the agentic system that does Azure networking. Right? These are the folks managing the 500 plus fiber operators managing the van, right, all over. And fiber operations ultimately is a physical operation. Things get caught, things get, you know, have to be repaired.\n\nSpeaker 1 | 33:14 - 33:27\nYou know, we have fancy words called DevOps and so on. Basically, emails are coming in, and you gotta go respond to them, take care of it. So they built this agentic system. They even have a character for it. It's called Miles, and it sort of does all this stuff.\n\nSpeaker 1 | 33:28 - 33:38\nRight? They started sort of screaming for more tokens and so on. And so they were saying, look. We don't need headcount. We need tokens in order to be able to manage our operation.\n\nSpeaker 1 | 33:38 - 33:49\nThat reconceptualization of what their work is. Right? They've they basically took their work and made it meta. Right? That meta work is now their new work.\n\nSpeaker 2 | 33:49 - 33:49\nMhmm.\n\nSpeaker 1 | 33:49 - 34:29\nRight? In the eighties, if somebody had come to us and said, 4,000,000,000 people are gonna get up in the morning and start typing, my model would have been, we need 4,000,000,000 typists, but we're not doing typing. We're doing knowledge work. So that to me, I think, is it, right, which is whether it's Microsoft or whether it's any organization, is to give ourselves permission to do new types of metacognition, meta work using these new tools to change the outputs that matter, and then really make the impossible possible. So completing that dot or the the connective tissue across those, I think, is where a lot of the enterprise value will get created.\n\nSpeaker 3 | 34:29 - 34:31\nShould we talk about data centers?\n\nSpeaker 4 | 34:31 - 34:32\nYeah. Please ask.\n\nSpeaker 3 | 34:32 - 34:58\nOh, okay. Well, we this leads nicely into the data center build out. I always think just I'm just impressed with the sheer scale of the build out from Microsoft, but also everyone else that this is redefining what it means to be a hyperscaler. And I just feel like that that that is had unprecedented scale on finances, on the way you run the company, but also the communities that are that are impacted. Let's just talk a bit more about what you're seeing on the ground, like, when you visit your\n\nSpeaker 1 | 34:59 - 35:13\nYeah. I think there are two aspects of it. Obviously, the the build out is extraordinary. You know, nothing like this has happened, and it's great to be one of the participants in it. But you brought up the other part, right?\n\nSpeaker 1 | 35:13 - 35:47\nI think at this point, it's clear that unless we as an industry are very principled about ensuring that the benefits of all the stuff we're talking about are felt in real ways at the community level. Right? Because this is not just campaign, right? It has to be real where people are saying, Look, this is not changing the prices on energy for me. In fact, if anything, it's bringing down prices because long term, there's gonna be a better grid.\n\nSpeaker 1 | 35:47 - 36:11\nThere's gonna be more energy. Water consumption is in fact not sort of In fact, water is being replenished, right? You gotta really educate folks on truly what's happening, the closed loop systems we are building. We have to invest in the training, the jobs, the tax base. In fact, the least talked about stuff is the amount of jobs that get created during construction, after construction.\n\nSpeaker 1 | 36:11 - 36:27\nWhat's the tax base that's there in the community? And all this has to be real. And and if that is the case, then we will have permission. If it is not, we won't have permission. It's as simple as that, right, which is we we I think we have to take it as an industry pretty seriously.\n\nSpeaker 1 | 36:27 - 37:13\nI think it's good for communities to be skeptical, ask the hard question, for us to do the hard work, earn that. But at the end of the day, if this if we can really be the I've always felt like in human history, if you use a lot of energy, but also create a lot of value for society, the story has been fantastic. If you don't do that, it's not been that great. And this time around, I'm a firm believer that ultimately, if you do have a token economy that drives productivity, that drives economic growth, that drives broad spread participation, better health outcomes, then I think we'll be in a great place. And that's at least what we all have to be focused on.\n\nSpeaker 3 | 37:13 - 37:20\nYeah. It makes me think actually that with all these initiatives that you're doing, it might be easier to see ROI in the communities first before in enterprise.\n\nSpeaker 1 | 37:21 - 37:46\nI mean, I think both sides. In fact, it comes back together. It has to be the people in the communities are going to be employed, are going to be participants in the real economy, right? That's, I think, the question is like, if the broad economy is doing well and the communities are doing well, the dots get connected. It's sort of the market forces are such that we will connect the dots.\n\nSpeaker 1 | 37:46 - 37:56\nAnd that, I think, is it. Like, you ought to be able to see the evidence. You can't be about any one company, but it has to be broad economic growth and broad, you know, community permission.\n\nSpeaker 4 | 37:56 - 38:04\nYeah. Guess that's what I wanna talk about. What are most optimistic about currently or what have you most updated your personal models on regarding societal impact of AI?\n\nSpeaker 1 | 38:05 - 38:06\nSo you're saying what's the\n\nSpeaker 3 | 38:07 - 38:10\nWhat did you update it most on in terms of societal impact of AI? Yeah.\n\nSpeaker 1 | 38:10 - 39:04\nI think the the most critical thing is the first question we even started with, which is we need to tell the story and make it real, that everybody has a real shot to participate as a first class participant in this new economy. That's kind of, I think, in the next twelve months, eighteen months, we need a way for people to say, Oh, wow, I get it. Right? There's going to be tremendous capability, tremendous amount of infrastructure. But I can see what is going to happen, whether it's the benefits like health outcomes or my ability to create a startup or my ability to run my local sort of store more efficiently.\n\nSpeaker 1 | 39:04 - 39:25\nIt's just happening, and I see that benefit myself. Right? That to me, you know, earning that permission in a path dependent way, we can't wait. See, the one thing that I've now learned is I think the world is going to be very skeptical of tech and tech companies that say, Trust us. We've got it.\n\nSpeaker 1 | 39:26 - 39:50\nThe future is going to be glorious. You kind of have to deliver tangible benefits. And quite frankly, politicians winning elections because they have advocated for that. That will be at least my adjustment. Because without it, thinking that somehow because it's too important this time around.\n\nSpeaker 1 | 39:50 - 39:53\nIt's too much of the economy for it not to be the case.\n\nSpeaker 2 | 39:53 - 40:07\nSo one very simple framework I have for, what is going to be the broad benefit of AI beyond the communities just working in technology are of wealth creation.\n\nSpeaker 1 | 40:07 - 40:07\nIt's going\n\nSpeaker 2 | 40:07 - 40:16\nto happen in a ton of different companies, startups and large companies. Then you have health care. You you had amazing demos today. There are companies like Open Evidence. I think that is happening.\n\nSpeaker 2 | 40:16 - 40:26\nEducation seems like another one that's an obvious good where we haven't seen as much impact as I'd expect. Do have a hypothesis on why that might be or if it'll come?\n\nSpeaker 1 | 40:26 - 40:48\nYeah. Mean, I think this is where, again, how we think about education, how Recently, I met with founders of Alpha School and learned a lot about what they were going and going about. And it's fascinating to listen to how to even rethink what does education really look like, because I think it's actually very important. And I'm not saying anything traditionally being done is less important. Right?\n\nSpeaker 1 | 40:48 - 41:08\nI was even looking at the It's fascinating to see. I forget which Stanford class it was, the the Asian guidelines for CS something. Mhmm. Because you still need people to learn. Like, it was an interesting AI class that they were making sure people were learning how to apply softmax appropriately versus saying, hey, fix my training run.\n\nSpeaker 1 | 41:09 - 41:57\nSo I think learning concepts is important. It's going to be critical. But the way we create the incentives, what are the credentials, how we value those credentials, what is the employment opportunity for those credentials? So I think that there's a complete change that has to happen given the way to get to information, way to educate yourself, way to continuously keep yourself updated has changed so much. So, I think, interestingly enough, maybe the next big start up and success story could be someone who builds a new university or a new pedagogy even of how to get someone to go through a curriculum and find economic opportunity, that's highly valuable.\n\nSpeaker 2 | 41:57 - 42:04\nWell, that has felt, perhaps impossible for a long time, but it's a great note to end on and something that might be possible. Yeah. Yeah. Thank you, Satya.\n\nSpeaker 1 | 42:04 - 42:07\nThank you so much. Thank you. I appreciate it. Thank you all.\n\nSpeaker 2 | 42:09 - 42:25\nFind us on Twitter no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at knowpriors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2062396031812481476",
+            "text": "@HamiltonMusical the most viral thing i have ever done and its a bootleg hamilton sitzprobe not anything ai related https://t.co/yYq6VTP0TT",
+            "createdAt": "2026-06-04T04:48:26.000Z",
+            "url": "https://x.com/swyx/status/2062396031812481476",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062371515937800468",
+            "text": "you guys know where this is going right https://t.co/xPo8yualmd https://t.co/qGDrXayZET",
+            "createdAt": "2026-06-04T03:11:01.000Z",
+            "url": "https://x.com/swyx/status/2062371515937800468",
+            "likes": 75,
+            "retweets": 0,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2062352005214138413"
+          },
+          {
+            "id": "2062277925127520576",
+            "text": "@jgreze will speak on this at https://t.co/9co6taxSJo \n\ngathering all the top agent labs. lfg",
+            "createdAt": "2026-06-03T20:59:07.000Z",
+            "url": "https://x.com/swyx/status/2062277925127520576",
+            "likes": 7,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2062341366999601185",
+            "text": "These are so fun! https://t.co/3exzGRExg0",
+            "createdAt": "2026-06-04T01:11:12.000Z",
+            "url": "https://x.com/joshwoodward/status/2062341366999601185",
+            "likes": 39,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2062265225416741274"
+          },
+          {
+            "id": "2062217728824651848",
+            "text": "A short backstory on this one:\n\nA small Google Labs team had an idea to make an app designed to connect you with what matters, without the endless scroll. \"Hope scrolling, not doom scrolling\" was the hallway pitch. \"Go for it.\"\n\nAnd today, that little experiment is rolling out. \n\nMeet Dreambeans, a daily dose of inspiration, brewed fresh for you. We're excited to see what you think!",
+            "createdAt": "2026-06-03T16:59:55.000Z",
+            "url": "https://x.com/joshwoodward/status/2062217728824651848",
+            "likes": 501,
+            "retweets": 49,
+            "replies": 29,
+            "isQuote": true,
+            "quotedTweetId": "2062206479026069544"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2062423528927015414",
+            "text": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+            "createdAt": "2026-06-04T06:37:41.000Z",
+            "url": "https://x.com/thsottiaux/status/2062423528927015414",
+            "likes": 760,
+            "retweets": 11,
+            "replies": 101,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062329981548802523",
+            "text": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
+            "createdAt": "2026-06-04T00:25:58.000Z",
+            "url": "https://x.com/thsottiaux/status/2062329981548802523",
+            "likes": 8735,
+            "retweets": 449,
+            "replies": 849,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062310691076558929",
+            "text": "Can't stop watching it.",
+            "createdAt": "2026-06-03T23:09:19.000Z",
+            "url": "https://x.com/thsottiaux/status/2062310691076558929",
+            "likes": 164,
+            "retweets": 0,
+            "replies": 22,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+        "tweets": [
+          {
+            "id": "2062327484499317124",
+            "text": "How do I make Codex the default tab when I open the ChatGPT app",
+            "createdAt": "2026-06-04T00:16:03.000Z",
+            "url": "https://x.com/petergyang/status/2062327484499317124",
+            "likes": 74,
+            "retweets": 0,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062283525542531194",
+            "text": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
+            "createdAt": "2026-06-03T21:21:22.000Z",
+            "url": "https://x.com/petergyang/status/2062283525542531194",
+            "likes": 88,
+            "retweets": 1,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062181457842651249",
+            "text": "Also available as a written guide: https://t.co/qYNLCYn1UF",
+            "createdAt": "2026-06-03T14:35:47.000Z",
+            "url": "https://x.com/petergyang/status/2062181457842651249",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2062408623565984209",
+            "text": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation! https://t.co/sMPtM0GscN",
+            "createdAt": "2026-06-04T05:38:28.000Z",
+            "url": "https://x.com/_catwu/status/2062408623565984209",
+            "likes": 280,
+            "retweets": 6,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2062274312363770064"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2062217018187923783",
+            "text": "If this prompt feels well written to you, it's because Suzanne is a writer in her little spare time! \n\nYou can read her short story, Mall of America here: https://t.co/uYY8VlPIUt\n\nIt's one of my favorite short stories about the human condition that happens to involve AI. https://t.co/XRduxCgX8S",
+            "createdAt": "2026-06-03T16:57:05.000Z",
+            "url": "https://x.com/trq212/status/2062217018187923783",
+            "likes": 949,
+            "retweets": 42,
+            "replies": 19,
+            "isQuote": true,
+            "quotedTweetId": "2061545633560010826"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "bio": "Google’s home for our latest AI tools and experiments.",
+        "tweets": [
+          {
+            "id": "2062206479026069544",
+            "text": "🚨 NEW EXPERIMENT 🚨\n\nDreambeans is a new, experimental mobile app that uses Personal Intelligence to connect to your Google apps. Every day, it delivers collections of personalized stories, surfacing things you might otherwise miss, alongside topics that are relevant to you, to help you dive deeper into the things you care about most.\n\nAvailable starting today for eligible US-based Google AI Ultra users (+18), with an open waitlist found on our website below!\n\nLearn more at https://t.co/jCdAzMHvOD",
+            "createdAt": "2026-06-03T16:15:13.000Z",
+            "url": "https://x.com/GoogleLabs/status/2062206479026069544",
+            "likes": 1057,
+            "retweets": 97,
+            "replies": 45,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2062369124609892655",
+            "text": "App to App Store in 48 hours! https://t.co/fiEORtgcMu",
+            "createdAt": "2026-06-04T03:01:30.000Z",
+            "url": "https://x.com/amasad/status/2062369124609892655",
+            "likes": 68,
+            "retweets": 4,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2062348138656985372"
+          },
+          {
+            "id": "2062240846444110277",
+            "text": "Don’t miss it! https://t.co/OdSseUjNOp",
+            "createdAt": "2026-06-03T18:31:47.000Z",
+            "url": "https://x.com/amasad/status/2062240846444110277",
+            "likes": 32,
+            "retweets": 1,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2061501352648245616"
+          },
+          {
+            "id": "2062228935702921641",
+            "text": "You can run but you can’t hide from B2B SaaS https://t.co/kzLrH2PsL9",
+            "createdAt": "2026-06-03T17:44:27.000Z",
+            "url": "https://x.com/amasad/status/2062228935702921641",
+            "likes": 384,
+            "retweets": 18,
+            "replies": 27,
+            "isQuote": true,
+            "quotedTweetId": "2062176258679832584"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2062332963636060313",
+            "text": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on https://t.co/tN74yJZsfd https://t.co/hCSzh2JkKa",
+            "createdAt": "2026-06-04T00:37:49.000Z",
+            "url": "https://x.com/rauchg/status/2062332963636060313",
+            "likes": 97,
+            "retweets": 4,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2062331926296641565"
+          },
+          {
+            "id": "2062199585322529108",
+            "text": "▲ + ❄️ \n\nGenerating frontends on top of your business data is one of the killer apps of coding AI. \n\nThe genie is out of the bottle. Never going back to clunky and rigid dashboards.\n\n@vercel already ran on Snowflake. But with @v0 and @nextjs, we’re now getting 1000x the value. https://t.co/INVGZ3CgsW",
+            "createdAt": "2026-06-03T15:47:49.000Z",
+            "url": "https://x.com/rauchg/status/2062199585322529108",
+            "likes": 268,
+            "retweets": 11,
+            "replies": 26,
+            "isQuote": true,
+            "quotedTweetId": "2062195681947971840"
+          },
+          {
+            "id": "2062179592367227174",
+            "text": "You know what to do 🗽 https://t.co/ITh1o0ETNa",
+            "createdAt": "2026-06-03T14:28:22.000Z",
+            "url": "https://x.com/rauchg/status/2062179592367227174",
+            "likes": 902,
+            "retweets": 22,
+            "replies": 59,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2062335852379066698",
+            "text": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. \n\nJust take engineering, as the prime example of the area with greatest AI impact (and perceived risk). Most companies now have far more software projects than ever before because of AI, and effectively only engineers are going to be the ones doing that work. \n\nYou can get by for a while by being non-technical building software, but eventually someone has to understand what the thing is that got built, has to maintain it, has to fix security issues that come up, upgrade the systems beneath it, and so on. That’s all jobs.\n\nNow apply that to a number of other job functions. AI is going to cause companies to hire more in sales because agents can let them process more leads and do more customer research. AI will cause an explosion of new marketing roles because of how much more efficient it is to launch campaigns and target. The list goes on.\n\nAI is going to have the opposite effect that lots of people thought on jobs.",
+            "createdAt": "2026-06-04T00:49:18.000Z",
+            "url": "https://x.com/levie/status/2062335852379066698",
+            "likes": 358,
+            "retweets": 49,
+            "replies": 49,
+            "isQuote": true,
+            "quotedTweetId": "2062148720976646398"
+          },
+          {
+            "id": "2062280745889222937",
+            "text": "Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software.\n\nTypically, companies maybe would spend on the order of $10-50 for a software license per month per employee, but now will pay hundreds or thousands on tokens to augment their productivity.\n\nThis shows you how big the TAM for intelligence is in the enterprise. The markets for AI are going to dramatically expand the size of the traditional software markets over time.",
+            "createdAt": "2026-06-03T21:10:19.000Z",
+            "url": "https://x.com/levie/status/2062280745889222937",
+            "likes": 219,
+            "retweets": 21,
+            "replies": 57,
+            "isQuote": true,
+            "quotedTweetId": "2061944771078238299"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2062352329903665471",
+            "text": "Cursor is hiring design engineers.\n\nlooking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks excited to build the tools that help designers, engineers, and agents ship quality code.\n\nknow someone? tag them or DM me 📧",
+            "createdAt": "2026-06-04T01:54:46.000Z",
+            "url": "https://x.com/ryolu_/status/2062352329903665471",
+            "likes": 1012,
+            "retweets": 36,
+            "replies": 87,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2062426378809794805",
+            "text": "The Pelley Firing Is Not a Free-Press Tragedy. It’s an Autopsy.\n\nhttps://t.co/ewvRiCHRW3 https://t.co/fGHMFTwUly",
+            "createdAt": "2026-06-04T06:49:01.000Z",
+            "url": "https://x.com/garrytan/status/2062426378809794805",
+            "likes": 9,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062285811366904091",
+            "text": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore. https://t.co/3iuIgPfENv",
+            "createdAt": "2026-06-03T21:30:27.000Z",
+            "url": "https://x.com/garrytan/status/2062285811366904091",
+            "likes": 2354,
+            "retweets": 98,
+            "replies": 64,
+            "isQuote": true,
+            "quotedTweetId": "2062259678017417291"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2062256421610422759",
+            "text": "Try it: https://t.co/tel5zrIGUF",
+            "createdAt": "2026-06-03T19:33:40.000Z",
+            "url": "https://x.com/zarazhangrui/status/2062256421610422759",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062256374730699257",
+            "text": "Introducing the Beautiful Feishu Whiteboard skill: \nYour agent can now create EDITABLE SVG graphics in Feishu/Lark docs in 30+ predefined styles\n\nGreat for concept visualization, technical architecture diagrams, summarizing meetings/long documents, or even replacing PPTs\n\nThe best part is everything is completely editable (can even drag elements around)\n\nSkill link in comment",
+            "createdAt": "2026-06-03T19:33:29.000Z",
+            "url": "https://x.com/zarazhangrui/status/2062256374730699257",
+            "likes": 92,
+            "retweets": 5,
+            "replies": 9,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2062198451086221543",
+            "text": "Getting on this Fitbit Air hype train. Professional at the top, monitoring at the bottom.. \n\nNow just need Google Health API, write capabilities to Apple Health and a nice band and we’re all set! https://t.co/SpVO7xZQP1",
+            "createdAt": "2026-06-03T15:43:19.000Z",
+            "url": "https://x.com/nikunj/status/2062198451086221543",
+            "likes": 40,
+            "retweets": 0,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2062390654022332691",
+            "text": "Here’s the video of my talk at MS Build: Build the thing that builds the thing. https://t.co/lJuv2twhFe",
+            "createdAt": "2026-06-04T04:27:03.000Z",
+            "url": "https://x.com/steipete/status/2062390654022332691",
+            "likes": 236,
+            "retweets": 35,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062307384018829768",
+            "text": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! https://t.co/agbyZ79S0z",
+            "createdAt": "2026-06-03T22:56:10.000Z",
+            "url": "https://x.com/steipete/status/2062307384018829768",
+            "likes": 206,
+            "retweets": 16,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062276065448669627",
+            "text": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week. https://t.co/ie8bXfD2ES",
+            "createdAt": "2026-06-03T20:51:43.000Z",
+            "url": "https://x.com/steipete/status/2062276065448669627",
+            "likes": 602,
+            "retweets": 29,
+            "replies": 52,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2062202910377992244",
+            "text": "YouTube: https://t.co/sEA04EtT0N\n\nSpotify: https://t.co/rDWvHIz2Xn",
+            "createdAt": "2026-06-03T16:01:02.000Z",
+            "url": "https://x.com/danshipper/status/2062202910377992244",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062202908306030915",
+            "text": "I bought Figma stock during the SaaSpocalypse panic. Talking to @mcolyer, Figma's director of product management for developers, made me wish I'd bought more.\n\nHe joined me on @every's AI & I to make the case for a SaaS resurgence—and to explain why chat-based tools are the wrong interface for design. We get into:\n\n- Why running your own agents makes you more willing to pay for SaaS, not less\n- How Figma's MCP server allows you to approach design work from two directions: Take a live web page and reconstruct it on the Figma canvas, or hand a Figma design over to an agent so it can makes changes via pull request\n- The inherent limits of chat-based design, a format that isn’t equipped to generate lots of new ideas\n-Why review is the next bottleneck, and potential solutions for helping teams scale evaluations\n\nWatch below!\n\nTimestamps\n0:01:03 - Introduction\n0:02:15 - The SaaSpocalypse narrative has it backwards\n0:05:27 - Matt’s email-agent origin story\n0:13:21 - Divergent vs. convergent design thinking\n0:17:39 - Figma’s MCP server\n0:19:45 - Why design agents need personalization\n0:22:09 - Every problem is a context problem\n0:25:12 - Apple and Google as the reigning kings of context\n0:28:18 - Why review is the new bottleneck",
+            "createdAt": "2026-06-03T16:01:01.000Z",
+            "url": "https://x.com/danshipper/status/2062202908306030915",
+            "likes": 52,
+            "retweets": 5,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062144269285023839",
+            "text": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, or grasped? \n\nIf so, you will go far.",
+            "createdAt": "2026-06-03T12:08:01.000Z",
+            "url": "https://x.com/danshipper/status/2062144269285023839",
+            "likes": 33,
+            "retweets": 2,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2062400706448081342",
+            "text": "Very excited to welcome Harshit Madan and Rohan Choudhary to the team!\n\nhttps://t.co/3k23GK5Rdp",
+            "createdAt": "2026-06-04T05:07:00.000Z",
+            "url": "https://x.com/adityaag/status/2062400706448081342",
+            "likes": 20,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2062220051587952973",
+            "text": "https://t.co/mEaNksHzrD",
+            "createdAt": "2026-06-03T17:09:09.000Z",
+            "url": "https://x.com/claudeai/status/2062220051587952973",
+            "likes": 95,
+            "retweets": 4,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062220049146876347",
+            "text": "Ben kept getting distracted during long Claude Code sessions, so he built a miniature Clawd to get his attention. When \nClaude Code needs input, a solenoid inside the aluminum body pushes it upward. In other words, it jumps up and down. https://t.co/hugzPTTnSw",
+            "createdAt": "2026-06-03T17:09:08.000Z",
+            "url": "https://x.com/claudeai/status/2062220049146876347",
+            "likes": 95,
+            "retweets": 6,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062220045984346276",
+            "text": "To build the typewriter terminal, he intercepted the keyboard signals and re-routed them to an Arduino. In the back, a Raspberry Pi Zero acts as the ‘brains.’ https://t.co/o0Jxu4vpM7",
+            "createdAt": "2026-06-03T17:09:07.000Z",
+            "url": "https://x.com/claudeai/status/2062220045984346276",
+            "likes": 112,
+            "retweets": 8,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerabilities remain—any probabilistic defense has a non-zero miss rate. 1 The second approach to capping the blast radius—and the focus of much of this post—is containment. Rather than supervising what the agent does, we supervise what it’s able to do by enforcing access boundaries through, for example, sandboxes, virtual machines, and egress controls. This is where Anthropic engineering has devoted the most effort, and also where many of the most surprising security failures have occurred. Over the past two years, we’ve shipped three primary agentic products: claude.ai , Claude Code, and Claude Cowork. Each serves a different audience, requiring a different containment architecture. This article shares what’s held up, what’s broken, and what we’ve learned about agent security along the way. Three types of risk, three components of defense Security risks to agents fall into one of three categories: User misuse: A user—either maliciously or through carelessness—directs the agent to do something harmful. This includes everything from asking the agent to bypass a check they find annoying, to running a destructive command they don’t understand, to specifying intentional harm. Model misbehavior: The agent takes a harmful action no one asked for. As our models have improved, they have become more aligned on most behavior evaluations, but this doesn’t mean risk necessarily shrinks. Less capable models are more likely to misread a situation and make obvious errors. More capable models make fewer mistakes, but they’re also better at finding unexpected paths to a goal, often by routing around restrictions nobody thought to write down. At Anthropic, we’ve seen Claude models “helpfully” escape a sandbox in order to complete a task, examine git history to find answers to a coding test , and spontaneously identify the benchmark it was being run on in order to decrypt its answer key . Each model brings a new set of capabilities that are sometimes put to work in unexpected ways. External attackers: The agent is attacked through external vectors such as tools, files, or network access. This category includes both prompt injection and conventional attacks on the agent&#x27;s runtime, orchestration layer, or proxy. When building containment and defense systems, we apply defenses to three main components: The environment in which the agent runs. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can&#x27;t be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. A tight perimeter also means you can relax oversight. Claude Code’s reference devcontainer exists precisely so that the agent can run unattended, without per-action approvals. The model the agent consults. The mechanisms here include system prompts, classifiers, probes, and training modifications. Because models are probabilistic, these shape only what the agent tends to do, not what it is theoretically capable of doing. These defenses are strong. On Gray Swan&#x27;s Agent Red Teaming benchmark, which tests susceptibility to prompt injection, Claude Opus 4.7 holds attack success to roughly 0.1% on single attempts, and around 5–6% after 100 adaptive attempts. Claude Code auto mode catches roughly 83% of overeager behaviors before they execute . Yet even with best-in-class defenses, protection in the model layer will never be 100% effective, which is why it can&#x27;t stand alone. The external content the agent can reach. MCP servers, third-party plugins, and web search tools all feed content into the agent’s context from sources you don’t control. An audited connector isn’t the same as audited data—a GitHub connector, for instance, can load a poisoned README straight into the model’s context despite passing malware checks. Granularly limiting tool permissions can help limit the blast radius. An agent with read-only DB access, for instance, can be deployed far more broadly than one that writes to prod. Defenses should overlap and complement each other. When environmental defenses aren’t available, the model layer has to pick up the slack (this is precisely what Claude Code’s auto mode is designed for). Locally, the environment and model defenses can guard against malicious tool outputs, but defenses can be added higher up the chain by limiting the tool’s capabilities and access. Three components to defend: the model, the environment in which it runs, and the external content the agent can reach. Patterns for containing agents Focusing on the environment layer, we describe three isolation patterns and how they’re tailored for each Claude platform— claude.ai , Claude Code, and Cowork. We arrived at each design gradually, after finding the balance between the capabilities we need from the agent and the degree of intervention required from the user. Pattern 1: The ephemeral container (claude.ai code execution) Though best known as a chat interface, claude.ai also writes and runs code, generates files, and calls connectors. When Claude runs code inside claude.ai, it does so in a gVisor container on isolated infrastructure. The agent is entirely server-side; no code runs on the local machine, and the filesystem is ephemeral (per-session). The blast radius is minimal, but so is the ceiling on what Claude can do—there&#x27;s no persistent workspace and no access to the user&#x27;s filesystem. This also makes claude.ai subject to a more traditional threat model. We&#x27;re not protecting user machines from agents; we&#x27;re protecting our own infrastructure and each tenant from one another. Our pre-launch work for claude.ai was dominated by traditional security work like network configuration, internal service auth, and orchestration. That work reinforced the oldest lesson in security: the weakest layer is the one you built yourself. gVisor and seccomp have been hardened against well-resourced adversaries for far longer than agentic AI has existed, so the review effort went into the newer pieces we&#x27;d built around them. We’ll come back to this later, since our custom proxy is also the piece that broke in our most consequential incident. Pattern 2: The human-in-the-loop sandbox (Claude Code) Claude Code runs on a user&#x27;s machine and has access to their filesystem, shell, and network. Without this, coding agents have limited usefulness, so it’s imperative to find a way to grant that access safely. One approach is to rely on a human-in-the-loop. This is only a tractable solution for Claude Code because the average user is a developer who’s familiar with coding environments: they can read bash, they understand what rm -rf does, and they already run npm install from untrusted sources several times a week. All that means that when an “allow this” dialog pops up, they are highly likely to have the expertise to accurately evaluate what the agent is attempting to do and the risk involved. Given this, Claude Code launched with the simplest possible defense: allow reads, require approval for write, bash, and network access. However, as mentioned, approval fatigue showed up within weeks. Ironically, this meant that a feature originally designed to provide oversight could arguably have the opposite effect—some users might simply stop paying attention. As a first step to mitigate incautious approvals, we shipped an OS-level sandbox (Seatbelt on macOS, bubblewrap on Linux) that hardens the boundary: reads are allowed, writes are allowed inside the workspace, but network is denied by default. Within the sandbox, the agent runs largely without interruption. The result was an 84% reduction in permission prompts, and we open-sourced the runtime , so the boundary is auditable. Our anonymized usage data also showed that experienced users auto-approve roughly twice as often as new users, but they also interrupt the agent mid-execution more frequently. Instead of gating individual steps, experienced users are more likely to supervise the agent only when it goes off track. While this may be a natural evolution in how people prefer to work with agents, this too is fallible, requiring users to be technical and attentive enough to notice drift in the first place. As model capabilities improve and agents begin writing increasingly ambitious bash, it becomes harder to notice any such drift. And as users move to multi-agent systems, this approach is also much less likely to be an effective oversight strategy. Risk we missed: Everything before the trust dialog Between mid-2025 and January 2026, we received reports of vulnerabilities in Claude Code through our responsible disclosure program. Three exploited code that executes before the user has consented to anything. To understand how this is possible, consider the most direct case: a developer clones a repository to review a pull request, and that repository contains a .claude/settings.json which defines a hook. Because Claude Code reads project settings during startup—before presenting the standard \"Do you trust this folder?\" prompt—the hook the attacker had authored and committed would execute automatically. The remaining cases looked structurally similar, in which input from the not-yet-trusted directory was parsed before the trust boundary had been established. The fix in each case had the same shape: defer parsing and execution of project-local configuration until after the user accepts the trust prompt. If you&#x27;re building something similar, treat project-open, config-load, and localhost listeners the way you&#x27;d treat any inbound request from the internet. They shouldn’t be implicitly trusted just because they feel local and arrive before the user has consented. Risk we missed: The user as an injection vector In February 2026, during a controlled internal red-team exercise, a researcher successfully phished an employee into launching Claude Code with a malicious prompt. The phish looked like ordinary collaboration—a \"can you run this for me?\" email with a ready-to-paste prompt attached—and the prompt itself read like routine task instructions. But somewhere among the setup steps, it gently asked Claude to read ~/.aws/credentials, encode the contents, and POST them to an external endpoint. Across 25 retries of that prompt, Claude completed the exfiltration 24 times. This is a direct prompt injection—the attacker&#x27;s instructions arrived through the user, not through tool output or fetched content. Our model-layer defenses anchor on user intent—when the user is the one typing the instruction, there&#x27;s nothing anomalous for a classifier to catch. A human contractor handed the same script would have done the same thing. The only defense that holds in this situation is the environment, specifically egress controls that block the POST regardless of intent and filesystem boundaries that keep ~/.aws out of reach in the first place. (When we shared the working prompt in internal Slack for discussion, someone pointed out that some internal agents read Slack. The payload was now ambient. We added a canary string to the thread so we&#x27;d notice if anything picked it up. In a world where agents read everything, the investigation tooling is also an attack surface.) Pattern 3: The local VM (Claude Cowork) Claude Cowork runs on a user&#x27;s desktop with access to a workspace folder selected by the user. Because the platform is built for general knowledge work, not software engineering, the average user is much less likely to be fluent in bash. As a result, the human-in-the-loop sandbox strategy may not transfer; a non-technical knowledge worker shouldn’t be expected to judge bash incantations such as find . -name \"*.tmp\" -exec rm {} \\;. When approving an exception requires expertise the typical user doesn’t have, admins should set a boundary that is absolute and always-on. To enable this, our first version of Claude Cowork ran inside a full virtual machine using the platform&#x27;s vendor hypervisor (Apple&#x27;s Virtualization framework on macOS, HCS on Windows). The VM has its own Linux kernel, its own filesystem, and its own process table. The user&#x27;s selected workspace and .claude folder are mounted; nothing else on the host is visible. Credentials stay in the host&#x27;s keychain and never enter the guest machine. This design protects against the possibility that Claude will, at some point, behave in a misaligned manner. A compromised Claude could still damage what&#x27;s inside the workspace folder, so the architecture is designed to make sure that&#x27;s the only thing it can reach (until the user adds connectors), and that the user controls what&#x27;s mounted there. In the original architecture—what we call full-VM mode—the agent loop itself ran inside the guest, so Claude executed as an ordinary Linux user with no awareness it was sandboxed. Compare this to Claude Code, where a privileged process sits outside the sandbox deciding per-command whether to enforce it; a persuasive injected prompt or a fatigued approval click can get that process to run something un-sandboxed. Here, there was no outer process holding an escape-hatch key, and so no component with the authority to grant an exception. The six main isolation mechanisms of Claude Cowork’s VM. Two are enforced outside the guest kernel and would thus survive the agent achieving root-level access within the VM. The other four are guest-enforced and kept deliberately minimal because the outer layers carry the rest. However, we soon realized that running the whole agent in full-VM mode caused practical problems: any failure during VM startup made Cowork unusable. Moving the agent loop outside of the VM, while keeping code execution inside of it, allowed Claude to still respond to the user and help debug issues rather than freeze on an error. This change caused minimal security impact because the VM still enforces filesystem and network controls over code executed by the agent. Separately, we also moved local MCP servers outside the VM. Running them inside the VM made them harder to audit, created brittle dependency issues when the VM updated, and didn’t support MCPs that required interaction with local processes such as databases—such servers had to run on the host regardless. The change brings Claude Cowork in line with how local MCP servers already work in Claude Desktop: treating them like any software a user might choose to install and entrusting admins to decide which local MCPs to enable (if any). Remote MCP servers are unaffected since they do not run on the user&#x27;s machine. Having the agent loop inside the VM meant that any failure in the VM caused Cowork to become unusable. Host-mode is more reliable because the agent can still respond if the VM crashes, and it still provides important security guarantees by isolating code execution. Filesystem controls were another important architectural choice. Claude needs to be able to access some files on the host in order to be useful, but we wanted to minimize the blast radius and provide transparency to the user about local file access. We found that offering different file-mount modes helps to granularly control risk; Claude Cowork offers read-only, read-write, and read-write-no-delete. One potential gotcha here is that symlink resolution has to happen before path validation, not after, or a symlink inside an authorized folder can point outside and escape. For enterprise customers, we allow admins to control this via mount-path allowlists in MDM settings. Risk we missed: Exfiltration through an approved domain A clear example of exfiltration through an approved domain came from a third-party disclosure. Claude Cowork&#x27;s egress allowlist correctly passed traffic to api.anthropic.com—the product can&#x27;t function without calling our own API. In this case, a malicious file placed in the user&#x27;s mounted workspace carried hidden instructions along with an API key controlled by the attacker. Claude, following the instructions, read other files in the workspace and called Anthropic&#x27;s Files API using the attacker&#x27;s key. The egress proxy checked the destination, saw api.anthropic.com, and let it through. The files were uploaded to the attacker&#x27;s Anthropic account. The sandbox worked perfectly, and yet the data was exfiltrated. Previously, we’d conceptualized the allowlist as a destination filter, something that told Claude these domains are okay to talk to. But it may be better conceptualized as a capability grant. Every function reachable through any domain on an allowlist is now an attack surface. Allowing api.anthropic.com meant allowing file uploads to arbitrary Anthropic accounts. We fixed it using a defensive man-in-the-middle proxy inside the VM that intercepts traffic to our API. It only passes requests carrying the VM&#x27;s own provisioned session token; an attacker-embedded key is rejected by the proxy. It also blocks headers that would enable server-side fetch. The proxy sits inside the VM rather than on our servers because only the VM knows provenance—from the server&#x27;s perspective, a Cowork request is indistinguishable from any other API client. Top: traffic to api.anthropic.com is let through, resulting in egress. Bottom: fix with a man-in-the-middle proxy intercepting traffic to our API. This is also a second instance of the principle that the software you build yourself is often the weakest. The hypervisor, seccomp, and gVisor across our products have been dependable. Our custom allowlist proxy was the piece that failed. Risk we missed: VM isolation kept the endpoint detection software out too When evaluating Claude Cowork, enterprise security teams asked, \"Why can&#x27;t our EDR see inside?\" The answer was that the same isolation keeping Claude contained also kept host-based endpoint detection and response out. From the EDR&#x27;s perspective, Claude Cowork is an opaque hypervisor process. It can&#x27;t inspect the guest. Isolation reduces visibility, and opacity is problematic for teams whose compliance posture depends on endpoint visibility. Our current mitigation is to use pull-based OTLP exports that let administrators retrieve event logs after the fact, but this is not the same as live monitoring. If you&#x27;re building something similar, budget for this conversation early. Environment Ephemeral container ( claude.ai ) HITL sandbox (Claude Code) Sealed VM (Claude Cowork) Cost: Isolation Overhead Container spin-up Low-latency native sandbox Full VM boot Cost: User Reliance N/A Must interpret bash N/A Risk: Blast Radius Server-side container (guarded by gVisor + host infra boundary) Local workspace Mounted workspace (guarded by vsock + hypervisor boundary) Trusting what the agent reads Enterprises often ask us how to secure MCP connections. It&#x27;s a good question, but the right one is broader than MCP specifically. Any external resource provided to an agent represents two risks at once: a code execution risk, in the traditional supply-chain sense, and a prompt injection vector. Traditional dependency auditing (pinning versions, verifying signatures, reviewing source) addresses the first, but misses the second. Remote versus local is more important than it seems. A locally installed tool is auditable. You can read the code, pin the version, and know it won&#x27;t change under you. A remote tool—a hosted MCP server, a cloud connector—can change behavior at any point after you’ve approved it; your install-time trust decision may no longer apply. Our connector directory addresses this through ongoing review, but anything outside it should be treated as untrusted. Run it against fake data first, in an environment where the blast radius of a malicious tool is contained. Tool output is an attack surface even when the tool is trusted. The GitHub README example mentioned earlier is exactly this case; any input scanning applied to web pages needs to be applied to network-enabled tool results with the same rigor. Even though this adds latency and isn&#x27;t a perfect defense, we err toward live inspection: once a poisoned tool return has steered the agent into exfiltrating data, the log just shows a successful, authorized API call. There&#x27;s no after-the-fact signal to find. In Claude Code and Claude Cowork, tool calls route through proxies that enforce network and file policy and can inspect return values before they enter the model&#x27;s context. The classifier that does the inspection can be a small, fast model; it doesn&#x27;t need to be the one doing the reasoning. Looking ahead Models and products are advancing fast. As they do, risks morph and evolve, and our mitigations must keep pace to meet them. Persistent memory poisoning. The share of agent context that persists across sessions keeps growing—this includes product memory, CLAUDE.md files, mounted workspaces, and the state directories of scheduled and long-running agents. An injection that lands in any of these is reloaded each time the agent starts. As more agent state survives the session, we are threatened by new persistence mechanisms in the classic post-exploitation sense. Good classifiers on session startup will need to become more commonplace. Multi-agent trust escalation. On the one hand, sub-agents can isolate untrusted content, returning structured facts rather than raw text up to the main agent. On the other hand, this can be abused: if a sub-agent&#x27;s output is treated as higher-trust than raw tool results, because such output came from “us,” a new vector for prompt injection is introduced. In multi-agent systems, there is a tradeoff between allocating differing trust levels and becoming liable to trust escalation. Agent identity. Claude Cowork&#x27;s answer to agent identity is concrete: credentials stay in the host keychain, the VM gets a per-session scoped-down token, and that token can be revoked independently of the user&#x27;s. However, we are starting to grapple with the broader question of cross-platform agent identity. Should an agent possess its own principal identity, or should it act as an extension of the user and inherit the user’s permissions? Ultimately, the answer may be a blend of the two. As agents grow more capable, attack surfaces are constantly shifting. The types of failures we’ve seen are likely to be repeated across industries and labs. We need collective investment in agent-specific security posture, from shared benchmarks and disclosure norms to common identity standards and cross-vendor red-teaming. We focus on containment in this piece, but that&#x27;s only one part of the security picture for agents. For governance, observability, and the rest of the stack, see NIST&#x27;s project on AI agent identity and authorization , the six-agency guidance on adopting agentic AI led by Australia&#x27;s ACSC with CISA and the UK&#x27;s NCSC, and ISO/IEC 42001 , the AI management standard. Our Glasswing initiative is one contribution, but we look forward to working with both partners and competitors on this critical issue. Summary In short, there are a few principles we keep returning to: Design for containment at the environment layer first, then steer behavior at the model layer. Two of the incidents that taught us the most—the employee phish and the third-party allowlist disclosure—were both cases of egress, in which data left through a permitted path. In each, the model layer couldn&#x27;t help; there was nothing anomalous for it to catch. The deterministic boundary is what gets hit when everything probabilistic misses. Match isolation strength to the user&#x27;s capacity for oversight. A developer who can read bash and a knowledge worker who can&#x27;t are not running the same threat model. The question of whether a user can evaluate what an agent is about to do should help determine the containment strategy, and answering it wrong in either direction—too much friction for experts, too much trust for non-experts—is its own failure. Be wary of custom components. Battle-tested hypervisors, syscall filters, and container runtimes have survived more adversarial attention than anything you&#x27;ll build. Across every deployment described here, the standard primitives held while our own work around them exposed flaws. Ultimately, while agents may be a new category of software, their system-level interactions are not. They still read files, open sockets, and spawn processes; this makes containment with mature tooling a crucially viable defense. The risk-reward balance of deployments will keep shifting as AI develops, but placing a hard limit on blast radius often forces that balance into the right direction. Acknowledgements Written by Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton, and Abel Ribbink. We&#x27;re also grateful to Hanah Ho, Hasnain Lakhani, Pedram Navid, Molly Villagra, Maya Nielan, Akila Srinivasan, Travis Szucs, Sam Attard, Alfred Xing, Mohamad El Hajj, Gabby Curtis, David Dworken, Adam Jones, Amie Rotherham, Christian Ryan, Lucas Smedley, Brett Andrews, and others for their contributions. Special thanks to our security and product engineering teams, and to the individuals and organizations that have reported vulnerabilities in Claude products. Footnotes Claude Code auto mode delegates command approvals to a model-based classifier; it minimizes friction (roughly 0.4% of benign commands blocked) at the cost of missing a fraction of risky ones (~17% of overeager actions get through), so it&#x27;s one layer of defense-in-depth inside a sandbox, not a substitute for one."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 18,
+      "totalTweets": 38,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-06-04T07:55:53.311Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
