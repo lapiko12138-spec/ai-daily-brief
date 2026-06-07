@@ -1,0 +1,552 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-07T13:21:03.630370+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 15,
+    "totalTweets": 32,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-06-06T07:23:01.789Z"
+  },
+  "digest_generated_at": "2026-06-07T05:21:03.561Z",
+  "skill_errors": [
+    "Podcast feed problem: Podcast: Transcript error for \"🔬Scaling Past Informal AI - Carina Hong, Axiom Math\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}",
+    "Podcast feed problem: Podcast: Transcript error for \"⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+  ],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-07T05:21:03.561Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer",
+        "guid": "39522bf7-c802-4596-a9bc-2f1b28b51c39",
+        "url": "https://www.youtube.com/watch?v=kYKebKB3-d0",
+        "publishedAt": "2026-06-03T15:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:27\nThe SaaS apocalypse or the next era of software, if you will. I'm really excited about it, and I think Figma and a lot of other SaaS businesses are too. Because, like, I've worked in developer tools for a long time, and maybe five, ten years ago, the estimate of, like, number of developers worldwide was, like, 25,000,000, 30,000,000, 40,000,000, give or take. I think what's most exciting about this time is that I think it's gonna be, like, a billion, maybe even more than that. I think there's this incredible time that we're moving through of product development and really the democratization of technology.\n\nSpeaker 1 | 00:27 - 00:33\nI think the end result is that there is dramatically more software out there in the world. If you're in that space, it means it's a gold mine. Right?\n\nSpeaker 2 | 00:47 - 01:00\nEvery is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to to separate out the signal from the noise. Go to every. Tosubscribe today. Matt, welcome to the show.\n\nSpeaker 1 | 01:00 - 01:02\nThanks for having me, Dan.\n\nSpeaker 2 | 01:02 - 01:39\nSo for people who don't know you, you are the director of product management for developers at Figma. And I want to start with, I think, the big question on everyone's mind. I should probably say I bought a bunch of Figma, like, probably like two months ago, something like that, because there's this whole SaaS pocalypse narrative. And what I want to get in detail or get get into with you, I think you have lot of stuff to share about AI, AI and product management, all the stuff that you've been doing yourself. But also, I'd love to I'd love to start with what is gonna happen to SaaS tools in AI?\n\nSpeaker 2 | 01:40 - 02:10\nAnd I think Figma is a really interesting example where there are always people who are like, oh, I I don't have to use Figma anymore. There are, you know, you guys just launched an agent, like, in your product. You also have Figma MCP. So if you're transitioning from so if you're transitioning from a world where you'd you know, there was no AI when Figma started to now you're a big scaled product, and now there is AI. Like, how does that work and how are you how are you thinking about do we open the product up to agents?\n\nSpeaker 2 | 02:10 - 02:14\nDo we build our own agent? What's working? What's not? All that kind of stuff. I'm really interested in that.\n\nSpeaker 1 | 02:14 - 02:32\nYeah. I'd love to talk about that today. I think for me, it comes from a couple of different angles. I think the first thing is like the SaaS apocalypse or, like, you know, the next era of software, if you will, maybe is more of positive framing on that. I'm really excited about it because, like, I think like, I've worked in developer tools for a long time.\n\nSpeaker 1 | 02:32 - 03:03\nAnd, like, you know, maybe five, ten years ago, the estimate of, like, number of developers worldwide was like, I don't know, 25,000,000, 30,000,000, 40,000,000 give or take. I think what's most exciting about this time is that like, I think it's gonna be like a billion, right, like maybe even more than that, right. And so like, I think there's this incredible time that we're moving through of product development and really the democratization of technology. Mean, there's a lot of catchphrases around, homegrown software and, like, we can talk about some of that stuff later. But I think the end result is that there is dramatically more software out there in the world.\n\nSpeaker 1 | 03:03 - 03:32\nAnd so kinda coming back to your point about like the SaaS pocalypse and like what does that mean for companies that have an established product is like if you're in that space, like it it means it's a gold mine. Right? That that there's all this opportunity out there and that I'm really excited about it. And I think, you know, Figma and a lot of other SaaS businesses are too. And so I think the other part, you know, kind of to more of the negative sentiments of the discussions you see online is around like, well, what if I could just vibe code every app?\n\nSpeaker 1 | 03:32 - 03:49\nRight? And I think what's really interesting about this time is like, for whatever reason, like, January of this year was like the point at which it, like, became the larger narrative. Like, I've been doing this stuff for, like, probably eighteen months or two years. So, like, I was already like, yeah, let's go build everything, but I feel like the whole world's caught up in January of this year. I was like, yeah, let's go build everything, and, like, people are.\n\nSpeaker 1 | 03:50 - 04:16\nAnd I am excited to see what happens because, like, I know my own personal journey through that is, like, it's really fun to build the initial version of it. Right? And, like, I actually built one of my own agents two years ago, and the very first one was like an email agent. And I had to look back as like how it started and it was like literally this like terrible Python script and it kind of was rickety and it like sometimes the replies didn't work and I was like, okay. But like and like the larger narrative here is like software companies build more than just like code.\n\nSpeaker 1 | 04:16 - 04:27\nRight? Like, there's a reason that I pay for Gmail to like operate my email. It's like, it turns out it kind of stinks when you're like, the SMTP version needs upgraded. You're like, I don't care. Like, I just wanna receive email.\n\nSpeaker 1 | 04:27 - 04:45\nAnd so like, as I've had to run my own agents for my personal life, like, I've had to experience that pain of, like, the product I want doesn't exist and I built it and now I get the ongoing cost of it. And, like, I'll be honest, I'm buying more software these days than I ever did before because I'm like, you know what? That that tool seems cool. Like, I'm just gonna pay somebody else to run the MyAgent for me.\n\nSpeaker 2 | 04:46 - 05:26\nI totally agree. As someone who has vibe coded my fair share of tools, a, yes, the personal maintenance, but b, I have vibe coded tools that we've re released into production. And let me tell you, it's not it's not as simple as saying, like, fix this bug. And I do think that that's I do think that's saying that that is that is really missed in in the, quote, unquote, SaaSpocalypse discourse. I gotta say, though, if you if one of the first things you did was an email agent, I'm super curious how you're doing your email right now because I feel like things just got to a point where you can, like, kinda just do your email without doing your email, and I'm so excited about it.\n\nSpeaker 1 | 05:26 - 05:38\nYeah. I don't yeah. I can tell a little bit more about the story. So, like, the problem that started two years ago as, I was using chatbots at work because, like, at that point, that was kind of, like, the primary interface. Like, agent usage was not really a thing yet.\n\nSpeaker 1 | 05:38 - 06:07\nAnd so my my personal life, like I have kids in three schools. And if there are any parents out there listening, you know what it's like to get the PTO emails and the like, what is the what's the theme for today? And like, you know the feeling of like a missed, this is, like, the worst parent feeling in the world, but, like, if you miss the spirit day because your kid didn't do crazy hair day, like, you feel like you have failed at life, I will tell you that, and having done it more than once. And so I was like, I can't I can't miss another one. And I was like, you know what I have?\n\nSpeaker 1 | 06:07 - 06:18\nI have and it was because I had to track, you know, 15 emails a day. Like, you think we produce a lot of email in corporate America. Wait till you get to the PTO emails you get at school. And so I was like, you know what? I can't read all these, but who can?\n\nSpeaker 1 | 06:18 - 06:44\nAgents. And I was like, why can't I just do this in, you know, one of the agent many agent platforms out there? And I was like, the missing part here is, like, I just wanna hook it up to email. And so the very first first version of it was just literally, like, grab an email inbox, look for the top email, and literally paste it to, like, one of the LLMs and, like, dump the response back. And I know you like to talk a lot about prompts, and, like, my favorite prompts in those days was basically, like, forward the email, and it would just be extract the facts.\n\nSpeaker 1 | 06:45 - 06:49\nAnd it was always shocking to me that I would send, like, a multi page email and get, like, three bullet points back.\n\nSpeaker 2 | 06:50 - 06:59\nThat is yeah. I I remember those days. Like, the the wiring up and the copy and pasting, and I feel like that's so far away, but it's only, like, a year or two ago.\n\nSpeaker 1 | 07:00 - 07:16\nYeah. Well, and then, like, you know, to to your point about agents, so then I've added a memory system. Right? Because, like, to your point, I've, like, haven't fully automated and, like, not sure that I trust it to reply on my behalf, but, like, having the memory system was, a total unlock. And, like, now how I've evolved it is, like, I have a daily so, like, this is an interesting thing.\n\nSpeaker 1 | 07:16 - 07:37\nLike, OpenClaw, I feel, like, hit on this, but, like, the proactive part is I think the thing that really, like, set it on fire. And my version of that was, I would have my agent, like, take a summary of all that stuff and send me an email every day at a certain time. And, like, the unlock for me was, like, instead of having to go to a tool and ask for the thing, like, it was just like it would show up. Now not that it was particularly smart. It would just do it the same time every day.\n\nSpeaker 1 | 07:37 - 07:46\nBut, like, I think where agents are going, it's, like, much more proactive and then, like, you know, thinking about, like, do I need to reach out and contact my owner and let them know what's going on?\n\nSpeaker 2 | 07:46 - 08:04\nSo if if that was the like, where you were a couple years ago, like, are what are the, you know, what are the workflow things that you have now that you rely on that you're excited about? So it seems like there's some sort of brief functionality you're using in OpenCloud, but what are a couple of things that, you know, you've been tinkering with that you like?\n\nSpeaker 1 | 08:05 - 08:34\nI think one of the things I'm trying to figure out, like, in my work life is around summarization. Like, I think part of the job is, like, understanding an immense amount of information and then, like, figuring out, like, how do I filter that information and like how do I like imbue my agents with that skill of like this is the thing that matters and this doesn't. And then like it's actually like a really hard problem because like there's a lot of stuff that you read and that the first batch you're like, oh, that doesn't matter. And then it will matter like three days later. And it's like, how do you describe, like, which things matter and which things don't?\n\nSpeaker 2 | 08:34 - 09:10\nIt also feels like the agents are a little bit like, you know, one of the things that I will have it do is go through all my meetings. And like all the meetings in the company, we recorded all in Notion. I can have Codex just like go through all the meetings, be like, here's all the stuff that you might be interested in, which is really cool because I can be in all these meetings that I'm not in. But then it feels like if it gives me stuff that is not quite right and I tell it it's not quite right, it overcorrects and gives me all of the things that I said I wanted, but, like, way too much and way too literally, you know, and it's just like you're never it's never quite right somehow in in in this weird way.\n\nSpeaker 1 | 09:10 - 09:28\nYeah. I was curious to see where you're at on that because, like, I I feel like this is, one of the unsolved problems at this point. It's, like, I think we're all kind of grasping for, like, like you said, like, I guess you mentioned, like, with the email and the like, your inbox, like, have you fully automated it? Like, does it reply on your behalf or, like, do you approve every reply or, like, what does that look like?\n\nSpeaker 2 | 09:28 - 10:08\nI have to approve every reply. But basically, I have what I do is in Codex, I have a little app that I open in the Codex in app browser that and the app runs locally. And basically, every day, it just sweeps through all my emails and then gives me a list of here's Every email is like on that page and there's a draft that it has said, here's what I'm gonna probably try to reply to. And because it has access to my computer and everything, if it's an email from my lawyers or whatever, it can like go and search and like be like, here's basically what I think I should say. And then I just scroll through and talk to it.\n\nSpeaker 2 | 10:08 - 10:27\nWe have this tool called monologue. I just like monologue into it and just say, no, go fix this or yes, you can send that draft or no or whatever. And I I've been at inbox zero for, like, four weeks straight and that is, like, a huge I've never it's never happened before. My assistant is like, what the fuck is going on here? I\n\nSpeaker 1 | 10:28 - 10:40\nwill fully admit I am part of the religion of inbox zero. So I've been running it for many years, and I believe in it, but it sure does take a lot of work. I'd be curious about the monologue thing. Do you actually talk to it, or do you type to it? Yeah.\n\nSpeaker 1 | 10:40 - 10:42\nDoes it know video, or is it only just the audio?\n\nSpeaker 2 | 10:42 - 10:43\nIt's only audio right now.\n\nSpeaker 1 | 10:44 - 11:02\nYeah. That is one of again, hidden tips for, like, most people. Like, the audio unlock is huge. And, like, one of the things that I've learned about it is, like, it's kind of weird to talk to your computer. And so, like, my trick for that is, like, actually use Loom a lot because it feels less weird to pretend like I'm screen sharing to somebody, and that allows me to, like, actually talk through the problem.\n\nSpeaker 1 | 11:02 - 11:04\nThat's so funny.\n\nSpeaker 2 | 11:05 - 11:06\nLike, at in the office?\n\nSpeaker 1 | 11:07 - 11:15\nYeah. Like, I feel well, I guess I do it from home mostly, so I don't people don't hear me talking to myself. But, like, even in the office, I feel like people aren't like, they'll just think you're on a Zoom or something.\n\nSpeaker 2 | 11:15 - 11:21\nYeah. Yeah. Yeah. There there's always there was this, like, barrier at some point. Now now everyone in the office, I just they're not talking to me.\n\nSpeaker 2 | 11:21 - 11:24\nI assume they're talking to their computer. So it's, like, weird when they're talking to me.\n\nSpeaker 1 | 11:25 - 11:27\nWhat a world we live in. What a world. I know.\n\nSpeaker 2 | 11:29 - 11:44\nBut I think that it's it became this this, like, social thing where you kind of like you can see, are they looking at their computer? Are they looking up? Or, like, there's also, like, the whisper, you know, just like they're just, like, getting kinda close to their computer, and they're like, I I want you to, like, do this little thing. And and and you're\n\nSpeaker 1 | 11:44 - 11:45\nlike, okay.\n\nSpeaker 2 | 11:45 - 11:46\nI know what's going on here.\n\nSpeaker 1 | 11:48 - 11:53\nBut it's, like, twice as fast. I forget what it is. I don't know. It's, like, roughly twice or three times as fast to talk than type.\n\nSpeaker 2 | 11:53 - 12:14\nAnd, like, I've got, you know, carpal tunnel and shit, so it it doesn't aggravate my hands as much. It's much more ergonomic. So, yeah, huge, huge unlock to use voice. I do wanna get back, though, to the the original thing that we were talking about, which is okay. Let's just let's just say, I think we're we're on the same page.\n\nSpeaker 2 | 12:15 - 12:42\nSaaS apocalypse, not a not a thing. Like actually making a piece of SaaS software that works all the time is a gigantic effort that only some some people want to do and other people just want to pay for. But then let's like dive more, more distinctly down into Figma land. So, you know, there are questions about. In a in a design world.\n\nSpeaker 2 | 12:43 - 13:19\nWhat kind of a do I want to just chat with my landing page and move things around that way, or do I want to be on the infinite canvas? And I know internally, like pretty much all of our designers, they're super, I pulled super early adopters and they're all like. Yeah, like the, you know, typing is good for a first pass, but like to actually get the details right, I need to be able to like move stuff around. So in the design world, like how does that change? How do you think that changes the product strategy when the the possibilities for how you might design something have changed so radically?\n\nSpeaker 1 | 13:19 - 13:38\nYeah. I mean, think it's a lot to unpack, and I think, you know, we're in the early innings here, and we're kinda figuring it out. I think we're still in kind of this hangover of like the text box rules. Like, I think so much of us are defaulting to like chat as the experience for generative UI. And I feel like we're starting to enter the second chapter of that of like, does it mean?\n\nSpeaker 1 | 13:38 - 13:58\nAnd like, that's part of the reason I'm so excited about our agents launch. Like, we've had it internally for a while. And for those who haven't seen it yet, it's the ability to use an agent directly on the Infinite Canvas. And I think going back, it's funny about, like, what's old is new again. Like, there's a lot of, like, this happening throughout LLM and ML land of, like, we've reinvented eval.\n\nSpeaker 1 | 13:58 - 14:11\nSo it's like, okay. Well, we had unit tests before. And it's like, well, we've reinvented, like, prompting. And we, like, we had user input before, and it's like, okay. And design in the new, like, AI era is still, like the the principles still matter.\n\nSpeaker 1 | 14:11 - 14:29\nRight? And so, like, one of the principal core principles of design for me is, like, the the die the diamond. And so, like, there's this idea of, like, divergent thinking and then convergent thinking. And, like, most design problems are, like and, like, this is the idea behind brainstorms and when people tell you, like, don't ever, you know, shoot somebody's idea down. Like, brainstorming is all about just, like, generating ideas.\n\nSpeaker 1 | 14:29 - 14:51\nAnd one of the things that I don't think we fully unlocked yet from these new capabilities is, like, the ability to, like, supercharge generative thinking. I think oftentimes we get stuck in our own life stories and lived experience and we approach a problem from a certain angle. And this is what's so valuable about having teammates. Right? It's like you go to talk to your teammate and they have a totally different starting point and it's like the answer to this problem is different.\n\nSpeaker 1 | 14:52 - 15:05\nAnd, like, the creativity comes between the conversation between the two of you of like, oh, like, hadn't thought about it from that angle. That's interesting. Let me take it and then build on top of that. Right? And so, like, going back to the, like, what does this mean in this new AI world?\n\nSpeaker 1 | 15:06 - 15:23\nIf we get outside of the text boxes because I think text boxes are super limiting and it's very much like a linear, like, well, this and then that and then this. If we get to the canvas and you have the ability to, like, have some of those same kind of concepts, but the agents allow you to do different gen thinking that it's like, hey. Like, I have this frame. Let start here. It's like, hey.\n\nSpeaker 1 | 15:23 - 15:29\nI think it should be grayscale. Then you have another frame. You're like, oh, let me try SIPA. And then it's like, oh, the SIPA thing is cool, but, like, the type is wrong. And it's like, oh, let me try that.\n\nSpeaker 1 | 15:29 - 15:38\nNow it's like the accessibility is off. Let me, like, duplicate the frame and try again. And so, like, I think and even that is still, like, I think early innings. That's, like, very much, like, the human driving the input. Right?\n\nSpeaker 1 | 15:38 - 15:59\nAnd, like, you kind of have talked about the, like, proactive flow. Right? And it's, like, I think we're starting to figure out, like, what if we had an agent that's, like, here's a bunch of frames that I threw on the canvas. Like, your job is to, like, push them, like try different directions or don't just like double down. But then I think there's a separate set of agents that it's like, okay, we have 25 frames on this canvas of like concepts for like a new marketing page.\n\nSpeaker 1 | 15:59 - 16:18\nRight? And then it's like, how do I channel them down? So like, then there's like a convergent agent that's like, okay, these three are kind of like this and these are clustered around this. And like, I think, and you can ask it for its opinion, you're like, pretend you're like a customer clicking through this, like which one makes the most sense, right? And so I don't think we've really tapped all of that stuff yet.\n\nSpeaker 1 | 16:18 - 16:28\nAnd so like, I think even the best agents, like command line agents, like don't have the ability to like do those workflows. And so that's kind of where I see the future of design and product thinking.\n\nSpeaker 2 | 16:29 - 17:21\nI think that makes total sense. And, yeah, it seems like from what I can tell so far, the agents are really good for I already have a design system. I need a new landing page. Like, get me the get me a landing page in the in the design system I already have kind of thing, which, be to honest, a lot of designers don't really want to have to spend time doing the nth landing page or the nth graphic for this post or whatever, which is more convergent and a little bit less divergent. What about the future of maybe Figma design tools or just generally software with allowing external agents in versus building your own agent or having both, which you which you all do have, how does how do you think that works?\n\nSpeaker 1 | 17:21 - 17:32\nI mean, I think we embrace both. Right? Like, and I think this is like I think design workflows are different than engineering workflows, but, like, the lines are blurring. And so, like, I think in the future, we're gonna be all builders. Right?\n\nSpeaker 1 | 17:32 - 17:47\nAnd that kinda comes, like, which perspective are you coming at the problem from? And so we definitely very much support third party agents today. And, like, our answer for that is our MCP server. Right? And so I think one of the nice things about MCP is, like, it allows, like, a standardized interface across all these different kinds of tools.\n\nSpeaker 1 | 17:47 - 18:00\nRight? And so we kind of think about the problem in two directions. We think about it as like code to design. So it's like, okay, in that scenario you just said like, that's like a pretty common thing. You're like, hey, have a sign up page, but like, it doesn't support GDPR.\n\nSpeaker 1 | 18:00 - 18:12\nRight? Like, Most people are not gonna be like, know what I should do? I'm gonna start with a greenfield page and reimagine what our signup flow should be to add GDPR. Most people are trying to get their job. It's like you log in on Monday morning, you're like, okay, I just gotta get this thing done.\n\nSpeaker 1 | 18:12 - 18:42\nAnd like, me add the checkbox here. And so for that workflow, it's like if you are comfortable in Codex or Claude or Windsurf or Cursor, you pull up your code base, you fire up the MCP server and you ask it like, hey, can you copy, go to this page, like, fire up the dev server, go to this page, and copy it into Figma Canvas, and it will actually do it. Like, that's one of the releases we had earlier this year, which is like a little bit mind blowing that agents can do this faithfully, but it turns out they can. And now you have just removed all that drudgery. Right?\n\nSpeaker 1 | 18:42 - 18:59\nThat and you've got it into, like, a medium where you can actually interact with it. It's like, okay. Let me go, like, move things around very precisely with the direct manipulation tools that most people are comfortable with. And then the other kind of workflow that we think about is like, okay, now that we've got the design, take that design and bring it back to code. Right?\n\nSpeaker 1 | 18:59 - 19:17\nAnd so we've got a tool called kit design context, which takes a Figma design, wraps up all the different properties and, like, components that you're using as well as, like, any other kind of guidelines you've provided in your design library and provides it to the agent. And, again, it's kind of like magic. It's like the agent will be like, okay. Cool. Let me, like, look at your current code base.\n\nSpeaker 1 | 19:17 - 19:31\nI'll make a branch, create a PR, make the changes, and then, like, you ask the agent and be like, okay. Take me a screenshot and put on the PR. And then, like, your job is, like, kinda like what you're talking about, your workflow earlier with email. It's like, you don't merge it, but you're like, okay. Well, I've got a a good starting spot.\n\nSpeaker 1 | 19:31 - 19:32\nRight? And then it's like you can come in there and then riff.\n\nSpeaker 2 | 19:34 - 19:44\nWhat do you what have you learned about what makes for a good internal agent experience internal to a product that you may not have known before before Figma agent?\n\nSpeaker 1 | 19:44 - 20:06\nI don't know. Like, that's like a interesting question. What would make it a good product? I think specific This is like very specific to Figma, but like the context and personalization matters, like in other products like I've worked on in the past for like AI companies is like personalization is often, like, kind of the last thing. Like, you get it just working for everybody first.\n\nSpeaker 1 | 20:06 - 20:30\nBut I think the thing that really differentiates, like, an okay agent to one that people really love is the personalization aspect. Like, we talked about memory, like, as a form of it and these, like, third party chat agents. I think for Figma's version of that, it's like the design system. But it's like if you have assistant but without, like, the concept of, well, this is, like, how we structure our designs and, like, how we put them together. Like, the designs that it create just aren't usable from that perspective.\n\nSpeaker 2 | 20:30 - 20:48\nI don't know, like, what your plans are for Figma and and, you know, the, like, proactive being, like, being a proactive agent, but I'm curious to the extent you have those plans and those experiments, how that's working? Obviously, like we've talked about that being kind of hard to get right.\n\nSpeaker 1 | 20:49 - 21:02\nYeah. I mean, I think that's where the future is going. Like, if you look at like how like agents have kind of evolved. I will say we've got a lot of things cooking internally. I don't know I can't talk about specifics too much.\n\nSpeaker 1 | 21:02 - 21:17\nI definitely think this is an area we run ahead. Right? And so, like, I think I can talk about the problems that we see today. It's like if the amount of software is really exploding in the world, one of the bigger challenges then becomes like, okay, well, like, how do you make sure that it's, like, consistent with your values? Right?\n\nSpeaker 1 | 21:17 - 21:33\nAnd so, like, I think and, like, we become the bottleneck then. Right? It's like we only have so many human eyes to review all of this work. And so it's like, how do we provide a solution that allows people to make sure that they can continue to innovate at the speed that these agents create, but also maintains their values.\n\nSpeaker 2 | 21:34 - 21:48\nWhat has been the transition like internally in Figma in terms of your own workflows in the engineering org, in the product org, in the design org, from a pre AI world to now?\n\nSpeaker 1 | 21:49 - 22:11\nSo I joined in January, and I would say even in that period of time, it's been, like, kind of night and day. Like, I think folks in January were kind of experimenting with these new ways of working and, like, across all the functions. Right? Like, I think probably engineering was leading the way as they do in, I think, most of these cases, but, I'll give you an example on the product org. So, like, we had an off-site.\n\nSpeaker 1 | 22:11 - 22:28\nI think you might have actually come by. Fairly enough. It's like a small world. I think one of my favorite memories of that off-site is that we have a product operations team, and they had put together what we call PMOS. And to, like, take a step back for a minute.\n\nSpeaker 1 | 22:28 - 22:52\nLike, of the one of the, like, unlocks to me about AI is, like, you kind of realize every problem becomes a context problem. And it's all like, then the work becomes about, like, framing the problem with the right set of, like, information. And so our product operations team is like, A lot of the work that we do is in structured data as a PM. And it's like, why don't we aggregate that all together? And it's like, okay, let's get a copy of the org chart.\n\nSpeaker 1 | 22:52 - 23:03\nWe'll throw that in a SQLite table and put it in the file system. And then it's like, okay. Why don't we create, like, a connector to Asana? And then we'll connect Slack and then we'll connect, know, GitHub and a few other things. Right?\n\nSpeaker 1 | 23:03 - 23:19\nAnd then the real insight was, like, skills had really taken off at this point. It's like, okay. The magic sauce here is like one of the skills that I really like is like this onboarding file creation. So, like, when you add a new team member to your team, like, as a manager, you gotta, like, create a customized, like, okay. Here's the channels you should know.\n\nSpeaker 1 | 23:19 - 23:40\nHere's the people you should know. And, like, takes a lot of that knowledge that I would have previously said was entirely in my head. But then you start to look at how if you shape the context rate, that data was actually already there. I already had the org chart and it can walk the org chart and figure out who's the team and who's the trifecta on the product engineering design side for this new team. You just have to identify, like, here's the new person.\n\nSpeaker 1 | 23:40 - 23:50\nHere's the team they're gonna join. And it's like, okay. And then it can do a bunch of research. And then it goes into Slack and it figures out the channels. It's like, oh, this team is probably these three channels, and then it reads the last thirty days of content.\n\nSpeaker 1 | 23:50 - 24:00\nAnd then it's like, here and then it goes and checks the Asana board and finds all the projects. And so, like, it comes back and you're like, oh, this is, like, uncannily good. It's like, yeah, this is a pretty good starting spot.\n\nSpeaker 2 | 24:00 - 24:35\nThat's one of the things that I think it's the weirdly the it's weirdly I think the thing that made Cloud Code so good and is is the thing that makes Codecs so good right now is everyone tried to start with agents that, like, live in the cloud or are always on, but then you have to manually connect them to everything. And Cloud Code is just, yeah, no, it's just an agent on your computer that has access to everything that you have access to. And then that just totally changes all the stuff it can do because it can get all the context it needs. And same thing with Codecs. I can just ask a random question to Codex.\n\nSpeaker 2 | 24:35 - 24:50\nWe just published an article today, I was like, who should I send this to? And it just went through my emails and my texts. I didn't even know I had access to any of that. It just found five people that I probably would have forgotten about but that I should have sent it to. And I did.\n\nSpeaker 2 | 24:51 - 25:10\nAnd that's the magical thing that's starting to happen now that was very I think the technology, like AI itself, if you gave it all the context, have been able to do this for a while, but it's only now that it's in the right harness and form factor and it can do it a little bit more independently than it was able to before.\n\nSpeaker 1 | 25:11 - 25:20\nYeah. I'm gonna I'm gonna put a plea out there. Like, I remember WWDC, it was at, like, '24. I can't remember when it was, like, Apple Intelligence. Whenever the headline WWDC,\n\nSpeaker 2 | 25:20 - 25:23\nlike, intelligence was. I think that was more recent. I think it was '25.\n\nSpeaker 1 | 25:24 - 25:30\nWas it '25? Gosh. Again, AI time. Who knows what year it is? I upgraded my I was, like, all in.\n\nSpeaker 1 | 25:30 - 25:43\nI, like, upgraded my iPad. Was like, I'm gonna get because, like, I had just upgraded the last cycle, and then they're like, well, you need a new processor to I was like, okay. Upped all my stuff. Saw WWDC. I was like, this is great because, like, they had this concept of, like, our phones have all of this personal data.\n\nSpeaker 1 | 25:43 - 25:55\nAnd I was like, oh my gosh. I was like, this is gonna be it. And then, like, I will say, like, I'm really hoping WWDC this year is actually it because, like, you know, this past year and whatever has not been it. Right? Because, like, to your point, like, the technology's been there.\n\nSpeaker 1 | 25:55 - 26:11\nThe part that's missing is they'll, like, tie it all together and, like, the mobile phone ecosystem, like, has all that content. And so, like, I'm waiting for the thing where it's, like, the the always on Siri that runs in the background is actually smart rather than the one that's, like, what was that? I didn't understand you, Matt. So one day.\n\nSpeaker 2 | 26:11 - 26:17\nDo you think they're gonna do you think they're gonna be able to get that right? And if they don't, do you think it matters?\n\nSpeaker 1 | 26:19 - 26:56\nI think it still matters because I think even them being late to the game, they are still the king of context. Right? And I think that's what's been interesting to watch about like Google IO too this year is like seemingly Google has also like kind of woken up to that, that like they don't maybe have as much data as Apple, but like they have a lot. It And seems like they are now starting to marry their AI products, if you can keep all the names straight. I saw this great tweet that was like, is it Bard or Gemini Pro or Spark or like whatever the thing is, there's some I think Spark is the product that is supposedly gonna be the always on agent that is auto connected to all of your Google content.\n\nSpeaker 1 | 26:56 - 27:00\nAnd so I'm waiting for the day that it runs my inbox for me and I get to inbox zero.\n\nSpeaker 2 | 27:00 - 27:32\nYeah. I think I I just have this feeling about Apple that, you know, like when OpenClaw took off, everyone started buying Mac minis. And you're just like, that's such a good business. Like, they didn't have they don't have to even be in the AI race because they win by default because it's the thing that everyone runs the AI on. And and and so even if they're behind on Apple intelligence, which which they are and historically, like, their software products have been kind of lagging behind their their hardware, because their hardware is so good, it doesn't matter.\n\nSpeaker 2 | 27:32 - 27:33\nThey have a lot of time to catch up.\n\nSpeaker 1 | 27:33 - 27:38\nYeah. Well, and I think their strategy is very smart. Right? It's like at the privacy play. Right?\n\nSpeaker 1 | 27:38 - 27:47\nLike, I think like, it is scary to upload all of your information to, like, the cloud. And so, like, I do I do think they're in the game, and, I really am hoping that they've got something interesting this year.\n\nSpeaker 2 | 27:48 - 28:15\nSo if we if we sort of look back over the last year, there's been this, like, big sea change in how we build stuff, how good the tools are, and then maybe correspondingly, like, software works and how we build software and and all that kind of stuff. What do you expect or what are you planning for over the next year as the capabilities increase both in how you make stuff and what you make?\n\nSpeaker 1 | 28:17 - 28:30\nI think the big thing this year will be about the, like, how do we, like, review better? Like, I think that's where the bottleneck is now. Right? That it's like, I think we have Asians that are capable of producing all this stuff. They're available enough.\n\nSpeaker 1 | 28:30 - 28:45\nThey're cheap enough. And now, like, we're just being inundated with, like, all of this new content. And, like, I think people are getting kind of overloaded of, like, well, what do I do with all of this? It's not just, like, summaries of, like, stuff. Like, that's been out for a while, but now it's, okay.\n\nSpeaker 1 | 28:45 - 29:03\nThis is, net new content that it's, like, do you want me to go or not? And, like, I think we have to solve the problem of, like, how do we scale, like I said, kind of our value system of, like, how do we evaluate, like, that that this new thing that we're creating is actually, like and then feel confident and have enough trust in it that it's like it can go to some degree in, like, auto mode, if you will.\n\nSpeaker 2 | 29:04 - 29:15\nDo you have any inkling about how that will work inside of Figma or what the what the what the interesting design considerations are for that kind of flow?\n\nSpeaker 1 | 29:16 - 29:41\nI think that's like one of the problems that we're really focused on is like talking to customers, understanding. Like, I think a lot of customers and us are figuring out at the same time, right? That it's like, I think the industry is in general trying to understand like what is the new like, is it a video walkthrough that's recorded? Or is it screenshots? Or is it another agent that's with a different prompt that reviews the work and then you trust this agent so much that you approve its decisions?\n\nSpeaker 1 | 29:43 - 29:46\nI don't know. It's hard to predict the future, especially at this time.\n\nSpeaker 2 | 29:46 - 30:04\nYeah. One last question for you. So I know I feel like there's been a lot of back and forth over the last year or two about is there a future for PMs? Is there a future for designers? And if you want to be a PM, like how do you break into the industry now?\n\nSpeaker 2 | 30:04 - 30:21\nBecause maybe there's fewer PM seats or engineers don't need PMs. How do you think about the career progression for a PM and how someone who's not senior gets to where you are?\n\nSpeaker 1 | 30:21 - 30:37\nYeah, that's an interesting I I think the fundamentals still matter. Right? Like, I think I think the best analogy I've seen is, like, I mean, there were there was math class in school, but, like, you still had a calculator. Right? But, like, at the same time, we, like, all learned long division.\n\nSpeaker 1 | 30:37 - 30:46\nRight? And, like, how to do that. And, like, I remember, like, integrating and, like, taking derivatives and the rest of that. And, like, do I do that on a daily basis now? Absolutely not.\n\nSpeaker 1 | 30:46 - 31:04\nBut, like, I think it's incredibly important in order to drive these systems that you, like, have an understanding of, what these concepts are, be able to do it by hand. And so, like, I think that the, like, the foundations still matter. And, like, I would be really curious actually at this point to see, like, what CS classes look like. What is it like a one on one CS class? Right?\n\nSpeaker 1 | 31:05 - 31:20\nBecause, like, I think there's, like, two parallel worlds. There's one where it's like, oh my gosh, you can just dump your answer or question into ChatGPT, and it's, like, literally, like, here's the bubble sort for you. Right? Like, which of the 42 ways do you want it? And then there's a version of that where it's like, I'm a really curious person.\n\nSpeaker 1 | 31:21 - 31:47\nI wrote the bubble sort in C, but, like, take it put it in assembly and then explain it line by line to me and, like, explain, like, what a register is and, like, what is l one cache and l two cache and, like, the rest of it. And, like, I think being a curious person I guess, yeah, maybe this is the answer. I I think the most important thing is to be a curious person. Right? Because, like, I think with these new tools, the people who, like, cannot leverage them are the ones that just kind of, like, accept the output.\n\nSpeaker 1 | 31:48 - 32:10\nAnd the people that, like, are able to, like, invent the next set of tools and, like, really get drive the tools to their maximum are the ones that are, like, pushing the boundaries and understand how it's put together. And in order to be able to do that, you have to be the curious person. Like, you can't have been the one who's, like, answer this problem for me, right, and just give me the answer. You, like, have to be that curious person to be, like, is this thing put together? And how does this actually work and help you understand the next level?\n\nSpeaker 2 | 32:11 - 32:14\nI agree. And it's so much more fun to live that way.\n\nSpeaker 1 | 32:14 - 32:32\nTotally. I mean, it's like catnip for me. It's like I remember because it's kind of like, I don't know if you're a Hitchhiker's Guide to the Galaxy person, but I feel like LLMs are the book. It is literally the manifestation of it. And you can even have them on I have this when I go on airplanes.\n\nSpeaker 1 | 32:32 - 32:45\nI don't run a lot of local LLMs, but I'll download an 8B model and run it on an airplane. It's literally that. It's like the Hitchhiker's Guide to the Galaxy. Or it's like you can ask it a question, like, why is the sky blue? And it breaks it down into the refraction and all the rest of it.\n\nSpeaker 1 | 32:45 - 32:58\nYou're like, well, what is a squirrel? And it will give you an answer of that. And so it's like And they're they're not perfect, and some of them are a little weird, especially at the eight b size, but, like, I don't know. It's like it's a magical time to be alive for, like, curious people, I'd say.\n\nSpeaker 2 | 32:58 - 33:01\nI totally agree. Matt, it was a pleasure.\n\nSpeaker 1 | 33:01 - 33:02\nThanks.\n\nSpeaker 3 | 33:09 - 33:27\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.\n\nSpeaker 3 | 33:27 - 33:47\nEvery episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.\n\nSpeaker 3 | 33:47 - 33:52\nAnd now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2063082950317486133",
+            "text": "a smarter alternative to \"always use plan mode\": \n\nalways frame your task as a question, so that the model is invited to push back and rate the quality of the idea/suggest alternatives, rather than blindly execute what you SAID to do \n\n(which is often not precisely what you MEANT)\n\nliterally just appending \"?\" to the end of your prompt often does it",
+            "createdAt": "2026-06-06T02:18:00.000Z",
+            "url": "https://x.com/swyx/status/2063082950317486133",
+            "likes": 119,
+            "retweets": 6,
+            "replies": 30,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2063029941202239645",
+            "text": "i love being (for now) bdfl for aie because i can do cheeky shit like the AGI pills we did in london and also this https://t.co/dXoPfxlKd0 https://t.co/DS4J7hY1gF",
+            "createdAt": "2026-06-05T22:47:21.000Z",
+            "url": "https://x.com/swyx/status/2063029941202239645",
+            "likes": 24,
+            "retweets": 0,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2063014431752355983"
+          },
+          {
+            "id": "2063013079974367557",
+            "text": "@aiDotEngineer lmao designer vincent back at it again with the frontier capability tests https://t.co/I6OoTDbs5E",
+            "createdAt": "2026-06-05T21:40:21.000Z",
+            "url": "https://x.com/swyx/status/2063013079974367557",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2063028956211867837",
+            "text": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies.\n\nIf you’ve been curious, this is a good month to find out what it can take off your plate. Can’t wait to see what you do.",
+            "createdAt": "2026-06-05T22:43:27.000Z",
+            "url": "https://x.com/bcherny/status/2063028956211867837",
+            "likes": 127,
+            "retweets": 5,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2063028954546733462",
+            "text": "We doubled Claude Cowork usage limits for the next month. This applies to your 5-hr rate limits. If you’ve been saving up a big messy project, now’s the time. https://t.co/qwjn8cVTUk",
+            "createdAt": "2026-06-05T22:43:26.000Z",
+            "url": "https://x.com/bcherny/status/2063028954546733462",
+            "likes": 2714,
+            "retweets": 109,
+            "replies": 217,
+            "isQuote": true,
+            "quotedTweetId": "2063018337567670285"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2062997876297609257",
+            "text": "Incredible work from @simpsoka and team",
+            "createdAt": "2026-06-05T20:39:57.000Z",
+            "url": "https://x.com/thsottiaux/status/2062997876297609257",
+            "likes": 36,
+            "retweets": 0,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062997768470474765",
+            "text": "Codex papercuts 📉\nCodex adoption 📈 https://t.co/KwVlGIB9ed",
+            "createdAt": "2026-06-05T20:39:31.000Z",
+            "url": "https://x.com/thsottiaux/status/2062997768470474765",
+            "likes": 976,
+            "retweets": 23,
+            "replies": 114,
+            "isQuote": true,
+            "quotedTweetId": "2062987643286438337"
+          },
+          {
+            "id": "2062966625733861752",
+            "text": "Better memory = Shorter prompts = More utility per token https://t.co/IT5h4ZSbEl",
+            "createdAt": "2026-06-05T18:35:46.000Z",
+            "url": "https://x.com/thsottiaux/status/2062966625733861752",
+            "likes": 1675,
+            "retweets": 40,
+            "replies": 137,
+            "isQuote": true,
+            "quotedTweetId": "2062567556524003631"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+        "tweets": [
+          {
+            "id": "2062959766314582064",
+            "text": "Just interviewed @mvanhorn and I'm so inspired.\n\nI had no idea that he has no CS degree or real engineering background.\n\nDespite that, he has shipped so many awesome projects and contributed to repos like Python and Go.\n\nHe does swear by @every's Compound Engineering for making good plans and shipping good code: https://t.co/L8JrNQfyPb\n\n📌 Will clean up the interview and share soon on my YouTube: https://t.co/1C6pbWzPYn",
+            "createdAt": "2026-06-05T18:08:30.000Z",
+            "url": "https://x.com/petergyang/status/2062959766314582064",
+            "likes": 72,
+            "retweets": 7,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062899832965255443",
+            "text": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\"\n\n2. Make it easy to trigger\n\n“Write a clear skill description using this pattern: Use when the user wants to [do this].”\n\n3. Add evals\n\n\"Create an evals md with 10 pass/fail checks for common errors in the skill's output.\"\n\n4. Add memory\n\n\"Create a memory md to capture one-sentence learnings from past chats using this skill.\"\n\n5. Build a skill to edit skills\n\n\"Create a skill that cleans up other skills by removing duplicate or stale instructions, vague rules, and AI slop.\"\n\n📌 Watch my full walkthrough here: https://t.co/u434ytNSZd",
+            "createdAt": "2026-06-05T14:10:21.000Z",
+            "url": "https://x.com/petergyang/status/2062899832965255443",
+            "likes": 154,
+            "retweets": 19,
+            "replies": 15,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2063024953721827329",
+            "text": "One of the most common mistakes I see enterprise AI teams make is building for today’s model capabilities and price points.\n\nThink 6 months out. Models will be way smarter and cheaper.\n\nScaffold around today’s model weaknesses to push the frontier. Bet that the next generation of models will natively solve for the scaffold. Push the frontier again.\n\nBuild for the slope.\n\nOver time, that ability to repeatedly identify and bridge model gaps becomes a moat of its own.",
+            "createdAt": "2026-06-05T22:27:32.000Z",
+            "url": "https://x.com/realmadhuguru/status/2063024953721827329",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2063089288997491063",
+            "text": "I hear a version of this almost daily. https://t.co/OEI3CkrtcX",
+            "createdAt": "2026-06-06T02:43:11.000Z",
+            "url": "https://x.com/amasad/status/2063089288997491063",
+            "likes": 144,
+            "retweets": 4,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2062690215215432000"
+          },
+          {
+            "id": "2063065480878063694",
+            "text": "Replit x Shopify! https://t.co/QgJZLu4eFK",
+            "createdAt": "2026-06-06T01:08:35.000Z",
+            "url": "https://x.com/amasad/status/2063065480878063694",
+            "likes": 69,
+            "retweets": 3,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2062987921859223875"
+          },
+          {
+            "id": "2062902535153910081",
+            "text": "Crazy times https://t.co/CcW1bv3LuR",
+            "createdAt": "2026-06-05T14:21:05.000Z",
+            "url": "https://x.com/amasad/status/2062902535153910081",
+            "likes": 94,
+            "retweets": 8,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2062842513610727438"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2063009510503932181",
+            "text": "Agent filesystem state can now be read, written and mounted independently of Sandbox lifecycle.\n\nWe’ve been developing a novel virtual storage infrastructure solution for all our compute products.\n\nStorage that’s decoupled, but attachable to Builds, Functions, Sandboxes &amp; more. https://t.co/x2CJpPHf62",
+            "createdAt": "2026-06-05T21:26:10.000Z",
+            "url": "https://x.com/rauchg/status/2063009510503932181",
+            "likes": 172,
+            "retweets": 10,
+            "replies": 26,
+            "isQuote": true,
+            "quotedTweetId": "2063000902227878012"
+          },
+          {
+            "id": "2062954780465434779",
+            "text": "Shoutout to @andrewqu founder and CEO of https://t.co/pYz1Gn97jD 😁 you can just ship things https://t.co/YfqUgl5zCm",
+            "createdAt": "2026-06-05T17:48:42.000Z",
+            "url": "https://x.com/rauchg/status/2062954780465434779",
+            "likes": 55,
+            "retweets": 2,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2062952590502236224"
+          },
+          {
+            "id": "2062951924677128455",
+            "text": "Use the Skills API to make all your agents and platforms smarter.\n\nThink of it as the npm registry for agent capabilities and extensibility. Free and open. https://t.co/kcVnJSupTf",
+            "createdAt": "2026-06-05T17:37:21.000Z",
+            "url": "https://x.com/rauchg/status/2062951924677128455",
+            "likes": 322,
+            "retweets": 10,
+            "replies": 26,
+            "isQuote": true,
+            "quotedTweetId": "2062950386819117430"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2063055332545540096",
+            "text": "Coding is basically the pinnacle of what you could reasonably automate with AI, and yet we still need human engineers to oversee agents for them to be effective.\n\nThe AI models are trained on an incredible amount of sophisticated code. The users are highly technical and can use the latest tools quickly. The work is “verifiable” because you can test an app. The outcomes are often removed from the quality of the code (you can have sloppy code but the app can still work). And the context for the agent is often already digitized and sitting in the codebase. \n\nThat’s an incredible amount of benefits that AI coding agents get to work with. Some of those apply to knowledge work, but most don’t in areas where the work needs to be fully reviewed to be useful, or where data isn’t as abundantly digitized. This makes the job for agents in knowledge work more complicated.\n\nSo if with all of that, engineers still remain in very high demand, the risks are going to be less than what’s perceived for other areas of knowledge work. Agents will let people do far more than they did before, but the people don’t go away.",
+            "createdAt": "2026-06-06T00:28:15.000Z",
+            "url": "https://x.com/levie/status/2063055332545540096",
+            "likes": 283,
+            "retweets": 31,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2062896783424905424"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2063038983408615435",
+            "text": "designing in code is now as easy as:\nclick, chat, hold shift to multi-select.\n\nworks best with Composer 2.5 https://t.co/jKDWktp69K",
+            "createdAt": "2026-06-05T23:23:17.000Z",
+            "url": "https://x.com/ryolu_/status/2063038983408615435",
+            "likes": 288,
+            "retweets": 7,
+            "replies": 25,
+            "isQuote": true,
+            "quotedTweetId": "2062950344687272144"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2063157328753594505",
+            "text": "GBrain gives OpenClaw and Hermes Agent wings https://t.co/gUt6ll33Vn",
+            "createdAt": "2026-06-06T07:13:33.000Z",
+            "url": "https://x.com/garrytan/status/2063157328753594505",
+            "likes": 10,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2063129846713057632"
+          },
+          {
+            "id": "2063146456106795457",
+            "text": "You can now finally try one of those big projects I was teasing that I started working on a few months ago. \n\nWe want this to over time get better at helping you learn the best techniques to build better software, faster. https://t.co/hQpYCpl9JB",
+            "createdAt": "2026-06-06T06:30:21.000Z",
+            "url": "https://x.com/garrytan/status/2063146456106795457",
+            "likes": 36,
+            "retweets": 2,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2062982928574136449"
+          },
+          {
+            "id": "2063146111960019028",
+            "text": "This is the definition of must-have for the future drone war. https://t.co/m33IZgh1Dx",
+            "createdAt": "2026-06-06T06:28:59.000Z",
+            "url": "https://x.com/garrytan/status/2063146111960019028",
+            "likes": 22,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2062957629098336626"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2063035894790345200",
+            "text": "Ok bad stories about VCs are spreading on X right now, but VCs have horror stories about founders too \n\nLike, that one time when a founder decided to take another term sheet with a higher valuation despite our obvious ability to add value, thought leadership and vendor discounts",
+            "createdAt": "2026-06-05T23:11:01.000Z",
+            "url": "https://x.com/mattturck/status/2063035894790345200",
+            "likes": 907,
+            "retweets": 19,
+            "replies": 28,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2063143108070744492",
+            "text": "Full video out tomorrow am 🕺",
+            "createdAt": "2026-06-06T06:17:02.000Z",
+            "url": "https://x.com/nikunj/status/2063143108070744492",
+            "likes": 0,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062910976018854252",
+            "text": "QED. The quote tweets in this thread just show we HAVE to do better. Evergreen reminder that without founders, there are no VCs! https://t.co/vDQnupyZrs https://t.co/6KOdD47pHG",
+            "createdAt": "2026-06-05T14:54:38.000Z",
+            "url": "https://x.com/nikunj/status/2062910976018854252",
+            "likes": 19,
+            "retweets": 2,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2061794787825479818"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2063100104274280597",
+            "text": "go Knicks!!",
+            "createdAt": "2026-06-06T03:26:10.000Z",
+            "url": "https://x.com/danshipper/status/2063100104274280597",
+            "likes": 11,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2063015392092524924",
+            "text": "watch on youtube: https://t.co/FN7zIOIhG3",
+            "createdAt": "2026-06-05T21:49:33.000Z",
+            "url": "https://x.com/danshipper/status/2063015392092524924",
+            "likes": 6,
+            "retweets": 2,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062930113390354641",
+            "text": "we'll have the full workflow and prompts available to @every subscribers soon:\n\nhttps://t.co/9wRhOCUCAk",
+            "createdAt": "2026-06-05T16:10:41.000Z",
+            "url": "https://x.com/danshipper/status/2062930113390354641",
+            "likes": 6,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2062917028558639292",
+            "text": "https://t.co/DVmreFIkrW",
+            "createdAt": "2026-06-05T15:18:41.000Z",
+            "url": "https://x.com/adityaag/status/2062917028558639292",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2062917027103130013",
+            "text": "Sometimes speed is just impatience disguised as ambition. https://t.co/NQ32ApE7sD",
+            "createdAt": "2026-06-05T15:18:41.000Z",
+            "url": "https://x.com/adityaag/status/2062917027103130013",
+            "likes": 77,
+            "retweets": 7,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2063018339710992794",
+            "text": "Live now on all paid plans through July 5. \n\nDownload the Claude desktop app to give Cowork a try: https://t.co/EYHUToV3eS",
+            "createdAt": "2026-06-05T22:01:15.000Z",
+            "url": "https://x.com/claudeai/status/2063018339710992794",
+            "likes": 279,
+            "retweets": 10,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2063018337567670285",
+            "text": "We've doubled usage limits in Claude Cowork for the next month.\n\nDelegate bigger, more complex tasks to Claude. https://t.co/ivHZuaMbZV",
+            "createdAt": "2026-06-05T22:01:15.000Z",
+            "url": "https://x.com/claudeai/status/2063018337567670285",
+            "likes": 8810,
+            "retweets": 564,
+            "replies": 491,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 15,
+      "totalTweets": 32,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-06-06T07:23:01.789Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    },
+    "errors": [
+      "Podcast feed problem: Podcast: Transcript error for \"🔬Scaling Past Informal AI - Carina Hong, Axiom Math\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}",
+      "Podcast feed problem: Podcast: Transcript error for \"⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+}
