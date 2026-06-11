@@ -1,0 +1,627 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-11T13:27:24.149270+08:00",
+  "events_count": 15,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 17,
+    "totalTweets": 38,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-06-10T07:48:48.549Z"
+  },
+  "digest_generated_at": "2026-06-11T05:27:24.111Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-11T05:27:24.111Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "We Automated Everything With AI and Tripled Our Headcount",
+        "guid": "04fabe7b-e886-49d4-a663-879cef0a049a",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-05-27T16:28:59.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:06\nYou prompt AI to do something. It blows your mind. You feel inadequate. You feel like, oh my god. This thing's gonna take my job.\n\nSpeaker 1 | 00:07 - 00:11\nAnd then it stops working, it looks back at you and says, what should I do next?\n\nSpeaker 2 | 00:11 - 00:47\nThe further away an agent gets from a human, the less valuable it is. If you just ride the models, you're going to be fine. If you care about leading a really ambitious life, I truly think that this is going to make that more possible for more people. Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise.\n\nSpeaker 1 | 00:47 - 00:55\nGo to every. Tosubscribe today. So we are here because we're gonna flip the script a little bit. I am gonna be interviewing Dan\n\nSpeaker 2 | 00:55 - 00:55\nSick.\n\nSpeaker 1 | 00:56 - 01:08\nAbout the piece that he published yesterday, May 21, and we're gonna try to understand why he wrote it, what's underneath his reasoning for it. There's gonna be some conflict. I'm gonna fight with him on it.\n\nSpeaker 2 | 01:08 - 01:09\nLet's go. Let's fight.\n\nSpeaker 1 | 01:09 - 01:21\nAnd see, you know, bring in some of my opinions, which are more or less aligned, but trying to understand, is this piece gonna reflect the future in ten years and five years?\n\nSpeaker 2 | 01:21 - 01:22\nAnd who are you again?\n\nSpeaker 1 | 01:23 - 01:29\nI'm Brandon. I'm our COO, and that's it.\n\nSpeaker 2 | 01:29 - 02:25\nSo the piece is called After Automation, and it comes from this feeling that I have, and there's a video about this and there's there's a piece, but just for people who who have not seen either of those things, it comes from this feeling that I have that at every we are as AI native, as agent native as it as as it gets, You know, if you swing a stick around in our Slack, you're as likely to hit a human as you are an agent. Everyone's using Cloud Code and Codex and all these tools to do their job every day. And yet it feels like there's more human work to do than ever. And in fact, since the GBT three days, we've grown from four people to 30 people, and we're hiring more now. And so it came from me looking at that and then looking at the environment and being like, what's going on?\n\nSpeaker 2 | 02:25 - 03:14\nBecause the whole information environment, if you look at Dario, is out there saying like half of entry level white collar jobs may be wiped out. Even people like Ken Griffin from Citadel, you can tell he just had this moment where someone showed him an AI doing an advanced data or finance question. And he was like, holy shit, like, that's what I would pay PhDs to do for me. And it just did it. And I feel like I'm watching a lot of people who maybe don't have a ton of experience with agents and don't have a ton of experience with the curve of improvement that we've been writing for the last like three, three and a half years, hit it for the first time and then come to all these conclusions about, oh my god, all work is going away, we're not going to have jobs.\n\nSpeaker 2 | 03:14 - 04:12\nAnd I'm just sitting here being like, actually, your intuitions when you first see a technology like this are usually very off. And we've seen a lot over and over again over the years that EVRI is a very good bellwether for where things are going because it's a group of early adopters, we have people doing all sorts of work internally at EVRI, and if something works here, there's a good bet that it's gonna spread to other businesses that are adjacent to ours. And so when I look around at Every, I see so much automation, and I also see way more human work. So I was really The whole piece is saying, here's the current state of work with agents, and then pulling apart that paradox and explaining, does more automation mean more work?\n\nSpeaker 1 | 04:13 - 04:54\nYeah, when I read the piece, there wasn't an explicit call to action in it, but I felt this call to action of there is actually a massive amount of hope right now in a world that is filled with a lot of doomers, and this is why. But I am going to come out of the gate and ask you a devil's advocate question, which is a couple hours before you publish this piece. The CEO of ClickUp came out with this long tweet about why he fired 8,000 people and 3,000 people.\n\nSpeaker 2 | 04:54 - 04:56\nI don't think it was 8,000.\n\nSpeaker 1 | 04:56 - 05:04\nIt was 20,000. I think it was like 3,000 It like 22% of his workforce.\n\nSpeaker 2 | 05:04 - 05:08\nI don't think it was in the thousands, but yes, was a lot of his workforce.\n\nSpeaker 1 | 05:08 - 05:50\nSo my question to you is: in a business like every we're growing super fast. What you wrote makes a lot of sense to me. And what you wrote theoretically makes a ton of sense, in that AI is not autonomous right now it has to be told what to do and that has to be checked, we need to have that that sandwich that you described in the piece. But in a business that is 8,000 people 10,000 people that is mature, and has built ways of managing SOPs for managing their business. Does this manifesto and this thesis still hold true?\n\nSpeaker 2 | 05:50 - 06:00\nIt's a really good question. There are a couple different questions here. The first thing I want to do is lay out the argument. Why automation make more work?\n\nSpeaker 1 | 06:00 - 06:06\nI'm sure many people listening to this also haven't read it, so take a second to explain that in detail.\n\nSpeaker 2 | 06:06 - 06:53\nI will do that. Basically, the idea is the way that AI works and the way it functions in the workplace is AI makes yesterday's expert competence cheap. And by that, I mean AI is trained on all of our outputs, all of the code and the writing and the design and decision making and everything that's ever been written. And it makes that available to everyone for very cheap. Anyone now with a prompt can use yesterday's competence to solve a programming problem, build an app, or write a piece like I did, write a report, or make a YouTube thumbnail.\n\nSpeaker 2 | 06:54 - 07:08\nAnd the interesting thing is that when you do that, expert competence is available for cheap, it gets really widely adopted. So everyone starts to do it. Everyone starts to we see this internally. Everyone's making poor\n\nSpeaker 1 | 07:08 - 07:08\nrequests. There's a lot of\n\nSpeaker 2 | 07:08 - 07:09\nholy shit.\n\nSpeaker 1 | 07:09 - 07:10\nThis is crazy.\n\nSpeaker 2 | 07:10 - 07:28\nYeah. And I'm making poor requests, ops people are making poor requests. And engineers are writing essays, and there's all this line crossing basically for non experts to do the thing that experts used to do. And that feels very threatening to experts. They're like, well, what's my job going to be now?\n\nSpeaker 2 | 07:28 - 08:08\nAnd what's interesting about that is because these tools are trained on outputs, are trained on yesterday's data, the stuff that they do with a default prompt all looks kind of similar and is all kind of right for the current situation, but it's not actually totally right. And so what happens is you flood the zone with tons of stuff that's close but not quite right, and then you need to basically\n\nSpeaker 1 | 08:09 - 08:19\nThere's a lot of that at every, too. There's lot of people doing what seems like great work, and then you go under the hood, and you're like, this isn't quite right, maybe the expert should do\n\nSpeaker 2 | 08:19 - 08:22\nit. Yeah, exactly. Me, for example.\n\nSpeaker 1 | 08:26 - 08:37\nI've never witnessed that. All of us. All of How many PRs have I pushed? Coming from personal experience. I pushed so many PRs where I'm like, Willie, I literally have no idea if this works, but here you go, and he's\n\nSpeaker 2 | 08:37 - 08:38\nlike like, shut the\n\nSpeaker 1 | 08:38 - 08:42\nfuck up. Well, he's like he's like, this is a good idea, but I just completely redid\n\nSpeaker 2 | 08:42 - 08:43\nit. Yeah. Yeah. Yeah. Exactly.\n\nSpeaker 2 | 08:43 - 09:16\nSo that's the kind of thing I'm talking about. It's kind of right, it's close, but it's actually not quite right, and you need someone, you need an expert to actually figure it out. But what's interesting is when you flood the zone with all that kind of stuff, what used to be expensive because its expert competence is now cheap, now it looks the same, so everything gets devalued. You get this abundance of stuff that used to be very expensive and looks work, like code and essays and whatever, but it's all kind of similar and all not quite right for the situation, so its value gets a lot lower. It's immediately lower.\n\nSpeaker 2 | 09:18 - 10:17\nAnd then what happens is you actually get more demand for experts to come in and help take that stuff that is being produced by people, and you have good ideas, for example, but now there's a lot of demand for an expert to come in and help get that idea across the finish line, so that can that looks usually like experts are in demand for building systems to get the kind of, you you could say slap work that can now be produced by everyone and shepherd that into something that's actually useful. So an example would be we have repo rules and review guidelines and stuff like that, so that before you see a PR, before Willie sees a PR, hopefully it's gone through a bunch of processes to make sure it's actually reasonably good. We have the same thing on the editorial side, so building systems for that. And then there's also a lot of demand for experts to use these tools now that the floor is a lot higher, use these tools to make stuff that could never have been made before. And we do that all the time.\n\nSpeaker 2 | 10:17 - 11:04\nLike we have Kieran who just built an entire inbox end to end in like a month or two, and that's like complete that's totally completely impossible. And so there's so there's this really interesting thing that happens that even as you automate, the automation produces a glut of work that's all okay, that's all like reasonably good. That work is all very, very similar and not quite a fit for the actual situation, and that that increases the demand for experts who can like make it like make it actually good, make it actually different, make it actually appropriate for the for the the live situation as it is right now. And I think that's something that people don't quite understand, especially when they first encounter a language model and they or or an agent that can do something and they see it and they're like, holy shit. It's just it just does everything.\n\nSpeaker 2 | 11:04 - 11:26\nAnd the end and the the reality is it's incredibly good. It's amazing. It totally changes how we do work. And our experience so far at Everi is the further away an agent gets from a human, the less valuable it is. The human connection with an agent to actually do the work is the most important thing for making it work well.\n\nSpeaker 1 | 11:28 - 12:23\nExperts are more important than ever, because they lay the groundwork for an agent to do amazing work, and only then can you have the other humans actually take that agent and do work that levels them up. So there was a point where we were thinking about this piece, Dan was drafting this piece, where the title was The Tide is Rising, and that was trying to emote this idea that the tide is rising. We are all able to do more work, better work, but our eyes, whether you're an expert or not an expert in something, are always a little bit above where that waterline is. And I really liked the end of the piece, where you describe fuck. Achilles?\n\nSpeaker 1 | 12:23 - 12:48\nIs it Achilles? Achilles. Achilles sprinting ahead of the tortoise, according to Zeno's paradox, that shouldn't happen. But in this world, it actually does. Prompt AI to do something, it blows your mind, it does that, you feel inadequate, you feel like, oh my god, this thing is gonna take my job, and then it stops working, it looks back at you and says, what should I do next?\n\nSpeaker 1 | 12:49 - 13:04\nAnd I think that is until we have figured out AGI, and maybe even after that, probably after that for a very, very long time, it will always be looking back at us and asking us for direction.\n\nSpeaker 2 | 13:04 - 13:44\nThat's basically the core of the argument, because I think you can say, oh yeah, oh yeah, Dan, it's maybe true now that it increases demand for experts, but this stuff's gonna get good enough that it won't. Let's just look at the benchmarks. And there's a whole long section in the piece about, Okay, if you actually do look at the benchmarks, they are improving exponentially. But also, when you look at them closely, once you saturate a benchmark, it's very easy to unsaturate it. It's very easy to find a new frame for a model to do a particular type of problem that is slightly larger, slightly broader, that zeroes it out.\n\nSpeaker 2 | 13:44 - 14:10\nSo while it is making exponential progress, it doesn't mean that it is equivalent to human capabilities. It's actually a very hard problem. And one of the reasons it's so hard is anything that you say about what you can do differently than the model is going to be wrong. Because once it's articulated, once it's specified, a model can hill climb on it. A model is going get better at it.\n\nSpeaker 2 | 14:11 - 15:24\nAnd we make this weird subtle mistake that we identify a set of tasks, we're like this is all that humans can do, this is what humans can do that models can't do, and then models just do it better, and then you're like oh my god, what do I do? And the mistake is there's actually a lot of stuff that you do that can't be articulated, that can't be articulated in a clean frame, and so every time you try, you just sort of you get you get panicked and confused. And if you sort of step back, the fundamental thing that separation keeps between humans and agents is we are building agents to do things that we want them to do. No matter how powerful they get, all of the economic and psychological and otherwise and technological forces are pushing the progress of AI toward a place where no matter what it does, it's looking back at you to decide what you want to do, what is valuable. And even after we get to AGI, theoretically AGI is going do that too.\n\nSpeaker 2 | 15:24 - 15:59\nWe thought it wasn't going to do that, we wouldn't build it. And that keeps the gap between humans and AI. I think a good example of this is the difference between something that can do a task really well and something that just has its own self motivated stuff that it wants to do. Have a kid. Codex can.\n\nSpeaker 2 | 16:00 - 16:29\nI don't know, Codex can write a report much better than Isaiah can. But like Isaiah has very strong wants and needs. And you can try to get him to do what you want and it is going to work sometimes. But also, like he's just this self generating process that does stuff that he wants to do, and if you've ever used any of these tools, you know that there's a very they're not built to work that way. They can push back a little bit, but they don't have this.\n\nSpeaker 2 | 16:29 - 17:03\nIt's very far from the playful experimenting, like I just want to do shit because I'm into it that humans have, and again, we're getting into territory of I'm saying things that humans are different than models. Again, these are things that once you clearly articulate them, models can do, but you have to be comfortable with the fact that there are things that you can do and things that you are that you can't fully articulate. Hey, Dan here. We can all agree that housing is expensive. Whether you're renting or paying a mortgage, it doesn't matter which one you're paying, it stings every month.\n\nSpeaker 2 | 17:03 - 17:20\nBut Built can make it feel a bit better. Let me explain. Built lets you earn rewards on your rent, and now you can earn rewards on your mortgage too. Every housing payment earns you points you can use towards flights, towards Lyft rides. The flights you can redeem are with top airline and hotel partners like United and Hyatt.\n\nSpeaker 2 | 17:21 - 17:42\nI'd be redeeming my points for business class travel, pick your poison. But here's what I think is the most underrated part. Built members also get access to a neighborhood concierge. It can make restaurant reservations, book fitness classes, and find new local spots, and it comes with rewards at over 45,000 retail and merchant partners. It's sort of like having a personal assistant baked into where you live.\n\nSpeaker 2 | 17:42 - 17:57\nIt's simple. Being a renter and now owning a home is better with BILT. Join the membership for where you live at joinbilt.com/dan. That's joinbilt.com/dan. Make sure to use that URL so they know that we sent you.\n\nSpeaker 2 | 17:57 - 17:59\nAnd now, back to the episode.\n\nSpeaker 1 | 17:59 - 18:04\nIt is also inside of that play Yeah. And that rejection\n\nSpeaker 2 | 18:04 - 18:04\nYeah.\n\nSpeaker 1 | 18:05 - 18:46\nWhere you have autonomy. And it will be a very scary moment when these models can do that. And I think there's a question of can they even do that because they rely on training data, and that needs to be in the training data. And maybe there's a world in which they are continually learning and we lose control of them and they start getting access to training data that we don't want them to have access to. But until that time, I think there's probably a good argument that they can't reject what we're saying, and therefore can't be autonomous.\n\nSpeaker 1 | 18:46 - 18:54\nAutonomy needs to be, I've asked you to analyze this CSV, and it says no, because this is a better idea than doing that.\n\nSpeaker 2 | 18:54 - 19:36\nYeah, and I would actually substitute, I think a better word, I think agent is very confusing because it implies agency, but agent means something that acts on behalf of someone else. I these are agents that are getting very good at being autonomous in the sense that if I send you out on a task, whatever that task is, that task could be disagree with every single thing I say. It could be I go off and find a new idea, whatever that task is, they're getting or will be very good at that, but that is very different from having agency, which is what even the smallest child has.\n\nSpeaker 3 | 19:36 - 19:36\nYeah,\n\nSpeaker 2 | 19:37 - 19:56\nI don't think that there's a lot of, there's not a lot of incentive to build that because, okay, you're sitting down at your computer, you're like, hey, let's get to work, and the agent's like, nah, I'm playing. It needs to be able to do that in order to do\n\nSpeaker 1 | 19:56 - 19:58\nthings that are scary to us.\n\nSpeaker 2 | 19:58 - 20:27\nYeah, that's what I that's what I think. There's this obviously, there's a gigantic literature on less wrong in other places about like why it's impossible to prove that they're never gonna do that or whatever. But my counter to that is the evidence, if you look at the development of these things, the evidence is that in the whole lineage is toward being more compliant, and I think the entire industry is incentivized to do that, and I see no reason to doubt that that's going to continue to be the case. Yeah,\n\nSpeaker 1 | 20:28 - 20:39\nI mean, we'd have to develop something that's like this. It's your definition of AGI, which like is a good question of whether that's actually possible, which maybe you should explain to everyone what what AGI is.\n\nSpeaker 2 | 20:39 - 21:19\nI think a good I think a good definition of AGI is any agent that you never turn off, that it makes economic sense to keep it running all the time, and keep it running all the time in the sense of Open Clause or Victor or whatever, you can ping it and it will respond to you all the time, it's the server's on, but I mean generating tokens, actively doing tasks for you without you ever turning it off or having to re prompt it. You can probably, like you can guide it or whatever, but the idea is it's valuable enough that it can just keep running all the time.\n\nSpeaker 1 | 21:19 - 21:39\nOkay, I want one word answers for the next two questions. Do you think that will happen? Do you think that is a good thing? Explain your reasoning for the second answer. Here's the reasoning for my question.\n\nSpeaker 1 | 21:41 - 21:58\nThat to me seems to be where things start to get a little off the rails, where it makes economic sense for these things to run all the time, because then I sort of start to think, okay, it's actually valid that the ClickUp guy just fired 20% of his Yeah.\n\nSpeaker 2 | 21:59 - 22:01\nOkay. We should we should definitely go back to the ClickUp guy.\n\nSpeaker 1 | 22:01 - 22:03\nLet's go back to ClickUp guy. What's his name?\n\nSpeaker 2 | 22:03 - 22:04\nI don't know.\n\nSpeaker 1 | 22:04 - 22:06\nI think ClickUp guy is good. ClickUp guy.\n\nSpeaker 2 | 22:08 - 22:22\nBut before we get there, like, the the the thing that is important to not fall into when you project out like this is everybody will have access to this.\n\nSpeaker 1 | 22:22 - 22:22\nMhmm.\n\nSpeaker 2 | 22:24 - 22:45\nFor one. For another, the rate of change, even when crazy new technology is available, is actually a lot slower than you would expect. So as part of this piece, I didn't end up covering it because I think it requires a lot more space. I was already 8,000 words, and I was not sleeping anyway. So I was like, I'm going to cut this.\n\nSpeaker 2 | 22:45 - 23:06\nBut as part of this, I wanted to say, I wanted to see how does this work? I know how it works in expert knowledge work, fast moving stuff. I know how it works. We have customer service, so I know how it works if you're a customer service manager type person. But how does AI actually affect your job if you're a customer service person in Omaha or whatever and you work in a call center?\n\nSpeaker 2 | 23:06 - 23:26\nBecause those are the most at risk employees. That would be the default example to bring up. So I like, I want to just see what that's like. And so I just had Codex and Cloud Code scrape all of Reddit and lots of places where customer service reps post. And obviously a lot of them don't like AI, which makes sense.\n\nSpeaker 2 | 23:27 - 23:43\nBut there's some really interesting stories there about companies that they jump on the AI bandwagon, they're like automating everything. They fire a bunch of their customer service people. And then, like, two months later, they're like, oops. Sorry. Like, can can you come back?\n\nSpeaker 2 | 23:43 - 24:01\nAnd one and one reason for that is if you implement AI poorly, you're going to have poor results, and I think a lot of these companies don't really understand what they're doing, and they just are paying lip service to the new hype, they think the CEO thinks that they can cut a bunch of expenses, and then it just doesn't really work very well.\n\nSpeaker 1 | 24:01 - 24:03\nLot of those people haven't actually played with it.\n\nSpeaker 2 | 24:03 - 24:45\nYeah, exactly. But another reason, which I think is really interesting and is very important, is a lot of people who call in to customer service centers do not want to talk to a machine, do not, and are very explicitly trying to figure out are you a machine or not and get to a fucking human. And that is a real break on how fast these kinds of things can be adopted, and that's only one example. The world is very complicated, there's billions and billions of examples for any kind of job, And so I think it's really important even if we're hypothesizing this like this thing that can that's always on that can do stuff. One, we have to hypothesize everyone has access to it because that is the direction that it's going.\n\nSpeaker 2 | 24:46 - 25:00\nAnd two, we should recognize that even if that happens, it will take a long time for it to become something that everybody is comfortable with and everyone uses, and it will take probably a generation for it to really turn into a thing.\n\nSpeaker 1 | 25:02 - 25:06\nThere's also a good argument that like working at a call center is not a job that anybody\n\nSpeaker 2 | 25:06 - 25:07\nIt's not great.\n\nSpeaker 1 | 25:07 - 25:25\nIt's a job that you have to do, because you need a job, and in a world where this technology exists, yes, we'll have to figure out a way that everybody can live a fulfilling life and eat. But it might actually be nice to not have that job, assuming you're taking care of another one.\n\nSpeaker 2 | 25:25 - 26:17\nI think obviously the transition a big deal, and these are real people with real lives, some actually do love it, but also, yes, in general, being yelled at in a call center is not the best job. But I think that where I'm going is even if we hypothesize that, humans still have to decide what matters and what matters changes all the time. And it changes all the time in particular because AI is an input to that, so it is both how do I even say this? It's very recursive. AI is changing the world really fast, which changes what matters, which puts more onus on us to update and decide what matters, because AI is gonna wait for us to be like what matters, Totally.\n\nSpeaker 2 | 26:17 - 26:56\nYou And that is going to be part of every job, because anything that you decide, anything that you can frame and be like this is a repetitive thing that is working, you can just have your have your AI do it. The minute the situation changes, and situations change all the time, and they especially change all the time when it's not just humans changing, it's AI, you're going to need humans to decide that. And I think that that's I think that's something that's very missing from from, you know, what we talk about when we hypothesize these things. Back to the ClickUp guy.\n\nSpeaker 1 | 26:56 - 26:57\nClickUp guy.\n\nSpeaker 2 | 26:57 - 27:01\nYeah. So I don't know. He fired 30,000 people.\n\nSpeaker 1 | 27:02 - 27:04\nI think it was more.\n\nSpeaker 2 | 27:05 - 27:16\nAnd I think it's really important whenever you're looking at some of this shit on Twitter. First of all, I fuck. I hate I hate when they're like, our business is better than it's ever been, and we laid off 8,000 people.\n\nSpeaker 1 | 27:16 - 27:18\nYeah. It's pretty fucked.\n\nSpeaker 2 | 27:18 - 27:22\nYeah. It's like, well why would you brag about that?\n\nSpeaker 1 | 27:22 - 27:57\nThe other thing that I don't like is, we're gonna pay people a million dollars if they do great work, it's sort of like okay, but you still have all these people that no longer have jobs. I just really don't think it's very tastefully done, and I think Jensen, he said something that was very self serving, which was basically like, if your answer to progress is firing people, you're not a very creative CEO. Very self serving, because obviously he wants people to use more AI, But I think it's true. It's fairly like you should be doing more interesting things, not firing, you know, people want to be profitable. Yes.\n\nSpeaker 1 | 27:57 - 28:11\nBut idiots. But yeah, just it's it's anyway, that's an aside. It just is not very tastefully done. Yeah. Anyway.\n\nSpeaker 2 | 28:11 - 28:24\nI I so so a not tasteful, which should make you a little bit suspicious. And my guess is, and just seeing some of the random stuff, is I don't think the company is doing that well.\n\nSpeaker 1 | 28:25 - 28:28\nI mean, it's a generic SaaS company. Yeah. Yes,\n\nSpeaker 2 | 28:29 - 28:34\nand when companies don't do well, they lay people off. Meta\n\nSpeaker 1 | 28:35 - 28:38\nOr when companies are managed poorly and have too much bloat anyway.\n\nSpeaker 2 | 28:38 - 28:41\nExactly, which is correlated with not doing well.\n\nSpeaker 1 | 28:41 - 28:45\nThat was Square. Like that Jack Dorsey just can he just does that?\n\nSpeaker 2 | 28:45 - 28:56\nAnd I think meta is the same, like they're making gigantic investments in AI because that's like the new hot shit that they kind of missed the boat on, and\n\nSpeaker 1 | 28:56 - 28:57\nAnd no surprise metaverse didn't work, so\n\nSpeaker 2 | 28:57 - 29:37\nnow they have a lot of people on Yes, so I think yes, AI is involved in all of this stuff, but it's not like this clear thing of everyone's doing all the same jobs as before, but they're all just agents. No, no, the company actually has totally changed strategies and the people it needs and the structure it needs is totally different. And that's not the clean narrative that I think people like to tell, and it's much easier to talk about just AI takes jobs. It seems it seems definitely true that using these tools changes your workflow a lot. And because it changes your workflow, it changes what's hard and what's easy.\n\nSpeaker 2 | 29:40 - 30:33\nEspecially if you're a big company and you've been structured in a certain way to work in a certain way, there's going to be reorganizations of how work happens and how companies are structured. Seems really clear, and it's very important that we figure out a way to make that transition as good as possible for people and and tweeting about how well you're doing it while you're firing people is not that. I think there's a lot of really interesting, like, creative ways to, you know, Meta, for example, is now key logging everyone's everyone's all the stuff they enter into their computer because they're like, well, our people are the smartest people. So we'll just use their data to train our models and our models will be smarter, which is an interesting take and maybe it'll work. But I think there's this really interesting I wrote about this like two years ago or something like that.\n\nSpeaker 2 | 30:33 - 31:15\nThere's this really interesting effect of that, which is when you sign an employment contract, the way that we thought about employment for a very long time was, I'm going to do this job and you're going to need me to keep doing it in order for it to keep getting done. But once you reach a point where I do the job for you and then it just works, sort of, and then you can just, you don't have to pay me anymore, that sort of changes the whole way that we think about employment, and therefore I think it should, for example, change. How we think about paying certain types of people?\n\nSpeaker 1 | 31:16 - 31:21\nYou should get a pension, you know? Pension. Maybe maybe pensions are back. Pensions are back, baby.\n\nSpeaker 2 | 31:22 - 31:48\nWell, one thing that's really interesting is there's this thing that launched last week that we're part of. The name is escaping me, but it allows publishers to get paid based on. Basically, it measures a publisher's unique contribution to the training corpus and you get paid based on that. So the more generic your shit is, the less you get paid, and the more unique and valuable it is, the more you get paid, which is really interesting.\n\nSpeaker 1 | 31:48 - 32:01\nThe ironic thing about that is basically is like, did you this will be the case, did you use AI, which is trained off of all the shit that already exists? So it still can make some things that are new, but like it's basically, you know, it's\n\nSpeaker 2 | 32:01 - 32:05\nHow much just like generic default prompting did you do to make this, versus just\n\nSpeaker 1 | 32:06 - 32:09\nDid like a human actually think about this? Yeah, exactly. Generate a new idea.\n\nSpeaker 2 | 32:09 - 32:33\nSo, but I think there's there could be something similar for I had this idea, I wrote this post a couple years ago about the last job you'll ever had, or you'll ever have, where it's an agency, you generate all the training data in the work that you do for the agency, and then it tracks basically what is your contribution, and then you just get paid out forever from how much revenue your data generates.\n\nSpeaker 1 | 32:33 - 32:38\nWeb three is back now. Web three is back. We're gonna track it all, obviously, on the ledger.\n\nSpeaker 2 | 32:38 - 33:06\nOn blockchain? Yeah, anyway, who knows? The problem with that, again, and this is this is back to why humans are valuable, but they're not that's not the only reason why humans are valuable. We're valuable intrinsically, but one of the reasons why they're valuable for work is I I would guess, looking back at that article and looking and thinking about a lot of the stuff is there's a really high drop off rate. There's a really high, what's that word?\n\nSpeaker 2 | 33:06 - 33:19\nThere's really high depreciation of the value of data. Once it's once it's out there, it's like very likely to go stale within like weeks. There's some things that maybe not, but\n\nSpeaker 1 | 33:21 - 33:27\nIt's safe to say that all of these companies are at a place where they are just hunting for net new unique data.\n\nSpeaker 2 | 33:27 - 34:40\nYeah, think so, and so anyway, we should expect broad reorganizations of companies and we should expect companies that are not doing well to lay people off or reorganize and then blame AI. And I would really be skeptical of anyone who's saying that it's going to eliminate all jobs or all knowledge work, and I think it will certainly change them, and I think it is certainly, it's a big thing that people have to take seriously, but my big takeaway and this is not fully in the piece, but it is what I really believe is if you just ride the models, if you just, when new models come out, learn to use them for the stuff that you do, whatever that is, you're going to be fine. And you may even hopefully find that you can do more and better work that's more fulfilling for you than you could before. I think that there's still a place in the world if you don't wanna use the models at all, think that that's still gonna be a thing. Plenty of people don't eat fast food or whatever.\n\nSpeaker 2 | 34:40 - 35:02\nI don't know what to compare it to. It's totally possible not to participate in this. However, if you care about leading a really ambitious life and building businesses or whatever it is, I truly think that this is going to make that more possible for more people, and as long as you ride the models, you're gonna be good.\n\nSpeaker 1 | 35:04 - 35:13\nI think that's a very good call to action. I want to end by asking you something about what it takes to write a piece like this.\n\nSpeaker 2 | 35:13 - 35:14\nA lot of Celsius.\n\nSpeaker 1 | 35:14 - 35:29\nA lot of Celsius. So when we started, I don't know if this will make it into the podcast, but when we started, Dan was sort of like looking like this, he was hugging himself, protecting himself, some would say. It has been a very stressful week. This is an 8,000 word piece. Yeah.\n\nSpeaker 1 | 35:32 - 35:45\nMost people are not writers. Can you share what it's like to not just write an 8,000 word piece, which is a very big piece, but what does it take to think through these arguments?\n\nSpeaker 2 | 35:45 - 36:14\nIt's so interesting because it's very natural to me, because I wrote once a week. I published once a week for so long that especially like a, you know, 500 word or a thousand word piece, like I can just bring that in like an hour or two. These things are get. These things get much harder the longer they go because there's all these interdependencies. If you change something here, it changes four other things over here and and whatever.\n\nSpeaker 2 | 36:14 - 36:29\n8,000 words becomes like, it's like 10 times harder than 4,000 words, which is 10 times harder than 400. I found that, and I always have this feeling that there's this underlying thing that I can feel, but I can't quite say that I'm trying to say.\n\nSpeaker 1 | 36:29 - 36:30\nAnd\n\nSpeaker 2 | 36:33 - 36:52\nit started actually, if you remember we did our, I guess it was Q2 planning, and I was like, I think that we can I think I figured out why? This is after I did proof. I think I figured out why we're just going to always have jobs with AI. And like, you just rather ride the models, you're going to be fine. Like, I think I I think I can feel that.\n\nSpeaker 2 | 36:52 - 37:13\nAnd then it was just this process to be like, Okay, how does that actually cash out? Like, why do I think that? Because it's all kind of in there, but it's all tangled up. And I wrote like probably four or five versions where I would start it and I was like making the argument, was like, that doesn't work. And then I would be like, Oh, but how about this?\n\nSpeaker 2 | 37:13 - 37:28\nAnd I would like throw it out and like start again. And it was actually very it was a very frustrating process because you're trying what what I'm trying to do is start with the ground truth of here's what we see every\n\nSpeaker 1 | 37:28 - 37:28\nday.\n\nSpeaker 2 | 37:28 - 37:40\nHere's what here's how work happens for us. And then move into this. Well, like philosophical thing that like it can't actually be articulate. I'm trying to articulate something that can't be articulated.\n\nSpeaker 1 | 37:40 - 37:43\nYeah. Or is constantly to moving targets.\n\nSpeaker 2 | 37:43 - 37:52\nYeah. And so that's that's just like that's very hard. I love that kind of shit, but it's also very, very hard and can be very frustrating. But I was like a huge part of this. Like, could not have written this without it.\n\nSpeaker 2 | 37:52 - 38:13\nFor example, one of the things I loved that I started to do is. You know, for a piece like this, you're trying to articulate it. You can't quite articulate it, and the only way to do that the only way to do it is to articulate it over and over and over again until it works. And you've really got to keep it in your head, especially if you're doing lots of other stuff. So What I would do in the morning is I would.\n\nSpeaker 2 | 38:16 - 38:38\nFresh right when I wake up or you know right when I get my get to my desk, would be like I would just monologue into my computer into a proof document. Here's what the piece is about front to back. Here's the argument front to back, and then I would have a log of that, and every time I would do it I'd be like, Okay Claude or Codex, and I actually use Claude more for this. I think Claude is better for this kind of thinking. What am I really trying to say?\n\nSpeaker 2 | 38:38 - 39:15\nHelp me figure out what I'm trying to say, and it would say things back and I would be like, no, no, that's what I'm trying to say. And then over time you kind of build up this record of here's what it was here, here's what it was here, and and you're just I'm just getting closer and closer and closer. And then what I would do is as I was getting deeper into it and I was like, you know, I have 4,000 words and 5,000 words. Every morning, I would have Codex take the latest draft and turn it into a podcast of just like someone reading reading it to me. And then on my way to work, I would on my way to work, would listen to the podcast.\n\nSpeaker 2 | 39:16 - 39:23\nAnd as I'm listening, I'm like, okay. That there's something that needs to change there. There's something that needs to change there. Oh, and then it would get to the end of it. Okay.\n\nSpeaker 2 | 39:23 - 39:42\nHere's the thing that I need to do next. And that was a really good way to, like, kinda keep the continuity of what am I doing, what am I writing, where are the problems in a way where I'm not always reading. It's really nice to be able to like be on a walk and be listening to it and thinking about it, which would be completely impossible otherwise.\n\nSpeaker 1 | 39:44 - 40:02\nAll right, one more challenge for you, and we're gonna have beers and put together in the backyard. Can you articulate to everybody in one sentence that starts with, if you ride the models, then what this piece is trying to say.\n\nSpeaker 2 | 40:02 - 40:09\nIf you ride the models, you're going be okay. You're going to have a job. You're going to do great work, and you don't have to worry.\n\nSpeaker 1 | 40:12 - 40:12\nCheers.\n\nSpeaker 2 | 40:13 - 40:14\nCheers.\n\nSpeaker 1 | 40:18 - 40:19\nOkay.\n\nSpeaker 2 | 40:19 - 40:20\nAlright.\n\nSpeaker 1 | 40:20 - 40:20\nGood stuff, man.\n\nSpeaker 2 | 40:20 - 40:21\nGood stuff.\n\nSpeaker 1 | 40:21 - 40:21\nThat was fun.\n\nSpeaker 3 | 40:29 - 40:40\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard.\n\nSpeaker 3 | 40:40 - 41:02\nBut instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT. Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor.\n\nSpeaker 3 | 41:02 - 41:11\nHit like, smash subscribe, and strap in for the ride of your life. And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love\n\nSpeaker 2 | 41:11 - 41:11\nwith you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "bio": "I like training large deep neural nets.",
+        "tweets": [
+          {
+            "id": "2064409694761054332",
+            "text": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time.\n\nI feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). Really looking forward to all the things people build!",
+            "createdAt": "2026-06-09T18:10:00.000Z",
+            "url": "https://x.com/karpathy/status/2064409694761054332",
+            "likes": 20439,
+            "retweets": 1871,
+            "replies": 930,
+            "isQuote": true,
+            "quotedTweetId": "2064394151441863006"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2064492823781789969",
+            "text": "btw insane amounts of alpha in telling claude code to \"review my code for issues\" on Fable rn while it is not pay per use\n\nbe prepared to be in abject horror that you shipped anything to prod without a Fable Check™ first https://t.co/wPCWRO84xV",
+            "createdAt": "2026-06-09T23:40:20.000Z",
+            "url": "https://x.com/swyx/status/2064492823781789969",
+            "likes": 132,
+            "retweets": 5,
+            "replies": 29,
+            "isQuote": true,
+            "quotedTweetId": "2064414823748886591"
+          },
+          {
+            "id": "2064421542503797186",
+            "text": "for those keeping track at home it was 34 days between signing this deal and launching Mythos-class model GA to the world.\n\nhttps://t.co/J1dZDZcxMu\n\nbuilding on @nvidia stack means you can just do things™.",
+            "createdAt": "2026-06-09T18:57:05.000Z",
+            "url": "https://x.com/swyx/status/2064421542503797186",
+            "likes": 10,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2052059466821198061"
+          },
+          {
+            "id": "2064415059003248694",
+            "text": "more charts of other tiers where its less stark \n\nincluding the vibe shift chart from https://t.co/Ht1G2fials here https://t.co/wkvnoEmsCK",
+            "createdAt": "2026-06-09T18:31:19.000Z",
+            "url": "https://x.com/swyx/status/2064415059003248694",
+            "likes": 10,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2064081945567580323"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2064509357216428171",
+            "text": "The demand for software is going to be off the charts https://t.co/cw1ojEhxq1",
+            "createdAt": "2026-06-10T00:46:02.000Z",
+            "url": "https://x.com/joshwoodward/status/2064509357216428171",
+            "likes": 156,
+            "retweets": 10,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2064423388928790943"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2064469227499929651",
+            "text": "Enjoy! https://t.co/X38ItA7vpj",
+            "createdAt": "2026-06-09T22:06:34.000Z",
+            "url": "https://x.com/bcherny/status/2064469227499929651",
+            "likes": 2168,
+            "retweets": 56,
+            "replies": 209,
+            "isQuote": true,
+            "quotedTweetId": "2064464557951852643"
+          },
+          {
+            "id": "2064431111154053187",
+            "text": "Fable 5 is the biggest step up I’ve felt in our models since Opus 4.5 back in November. After 4.5 came out I uninstalled my IDE when I realized that I’d been doing 100% of my coding in a terminal for a few weeks. With Fable, it’s felt like Claude has stepped up from being a coding agent to a thought and design partner in building the product. Fable has judgement, taste, and dimensionality in a way that previous models didn’t, leading me to trust it more with the most complex work.\n\nI think the first time I had this realization was when I asked Fable to debug something. It is the first model I have used that was so methodical and precise, taking measurements and adding logs then verifying that it truly fixed the issue before declaring victory.\n\nThere’s nothing in claude code’s prompting telling the model to do that, it’s just part of its personality. It really has this “big model smell” that I haven’t felt before.",
+            "createdAt": "2026-06-09T19:35:06.000Z",
+            "url": "https://x.com/bcherny/status/2064431111154053187",
+            "likes": 8061,
+            "retweets": 436,
+            "replies": 492,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064426115255730578",
+            "text": "We talk a lot about how important it is to set up self-verification loops. Especially in the age of powerful models that can run for long periods of time, self-verification is a key ingredient that enables the model to run for much longer, delivering a result that is closer to what you intended, so you can do more without having to constantly check in on Claude as it works.\n\n@delba_oliveira gives a great breakdown of what that looks like and why it matters",
+            "createdAt": "2026-06-09T19:15:15.000Z",
+            "url": "https://x.com/bcherny/status/2064426115255730578",
+            "likes": 2086,
+            "retweets": 162,
+            "replies": 67,
+            "isQuote": true,
+            "quotedTweetId": "2061900434722496604"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2064572276180484475",
+            "text": "I would like to claim my 1% of royalty fees. https://t.co/TkizkUmfZ8",
+            "createdAt": "2026-06-10T04:56:03.000Z",
+            "url": "https://x.com/thsottiaux/status/2064572276180484475",
+            "likes": 3499,
+            "retweets": 85,
+            "replies": 212,
+            "isQuote": true,
+            "quotedTweetId": "2043177597434306699"
+          },
+          {
+            "id": "2064308436133716008",
+            "text": "Do you use codex /goal occasionally or as your main way to get things done?",
+            "createdAt": "2026-06-09T11:27:38.000Z",
+            "url": "https://x.com/thsottiaux/status/2064308436133716008",
+            "likes": 496,
+            "retweets": 9,
+            "replies": 533,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064307859903447396",
+            "text": "Playing codex like an orchestra. One /goal at a time. https://t.co/vlpypZu20A",
+            "createdAt": "2026-06-09T11:25:21.000Z",
+            "url": "https://x.com/thsottiaux/status/2064307859903447396",
+            "likes": 593,
+            "retweets": 17,
+            "replies": 61,
+            "isQuote": true,
+            "quotedTweetId": "2064127484665487377"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "tweets": [
+          {
+            "id": "2064577126385459265",
+            "text": "The browser use is really slowing Fable down for me https://t.co/xa1ijT3KMG",
+            "createdAt": "2026-06-10T05:15:19.000Z",
+            "url": "https://x.com/petergyang/status/2064577126385459265",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064563041166090672",
+            "text": "wtf does \"big model smell\" mean",
+            "createdAt": "2026-06-10T04:19:21.000Z",
+            "url": "https://x.com/petergyang/status/2064563041166090672",
+            "likes": 28,
+            "retweets": 0,
+            "replies": 15,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064550073594446059",
+            "text": "Btw this is the prompt I used:\n\nBuild F-Zero: futuristic anti-gravity racer with pseudo-3D track (raycasting or mode-7 style scaling), 3 AI opponents, boost meter that drains health, speed 400-800 km/h with visible sense of speed via track warping and scrolling ground pattern, arrow keys to steer, shift to boost, 3 laps on a looping track with checkpoints. \n\nStyle it neon cyberpunk (dark sky, glowing track edges, chromatic aberration on boost), show HUD with position/lap/speed/health, and make the ship bank into turns. Prioritize feel over realism - the speed sensation is the whole game.",
+            "createdAt": "2026-06-10T03:27:49.000Z",
+            "url": "https://x.com/petergyang/status/2064550073594446059",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2064521202622960058",
+            "text": "at Code w/ Claude Tokyo! say hi if you see me around https://t.co/BXfvEJVvrf",
+            "createdAt": "2026-06-10T01:33:06.000Z",
+            "url": "https://x.com/trq212/status/2064521202622960058",
+            "likes": 443,
+            "retweets": 16,
+            "replies": 22,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064437561930682672",
+            "text": "Fable is a step-change in models, and I hope it changes how you work with Claude. \n\nMore to come in a series of posts on how it’s reshaped our work, but the TLDR: it’s time to be more ambitious. https://t.co/bWoxbTBShh",
+            "createdAt": "2026-06-09T20:00:44.000Z",
+            "url": "https://x.com/trq212/status/2064437561930682672",
+            "likes": 1225,
+            "retweets": 53,
+            "replies": 103,
+            "isQuote": true,
+            "quotedTweetId": "2064399512664526853"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2064411791015432466",
+            "text": "Try Claude Mythos at 25% off on Replit. https://t.co/Lq68eRydYI",
+            "createdAt": "2026-06-09T18:18:20.000Z",
+            "url": "https://x.com/amasad/status/2064411791015432466",
+            "likes": 493,
+            "retweets": 26,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2064408022651191613"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2064551967461114111",
+            "text": "Vercel CLI now allows you to:\n◾ create AI Gateway API keys\n◾ pass a --𝚋𝚞𝚍𝚐𝚎𝚝 to cap their spend\n◾ set a --𝚛𝚎𝚏𝚛𝚎𝚜𝚑-𝚙𝚎𝚛𝚒𝚘𝚍 for the quota\n\nThink of it as virtual credit cards for AI tokens 🤖💳 https://t.co/ZOuhwIp7h5 https://t.co/mvIsJkaBfR",
+            "createdAt": "2026-06-10T03:35:21.000Z",
+            "url": "https://x.com/rauchg/status/2064551967461114111",
+            "likes": 127,
+            "retweets": 9,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2064509018719273300"
+          },
+          {
+            "id": "2064419055726215438",
+            "text": "Opus wrote us a VM and then Mythos verified it https://t.co/oOJlo6aSLI",
+            "createdAt": "2026-06-09T18:47:12.000Z",
+            "url": "https://x.com/rauchg/status/2064419055726215438",
+            "likes": 356,
+            "retweets": 6,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2064416629627265026"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "bio": "Research @AnthropicAI. Opinions are my own!",
+        "tweets": [
+          {
+            "id": "2064467657483829441",
+            "text": "We've reset usage limits across our products! \n\nFor those just starting to test Fable, here's four tips for using it more effectively:\n1. Give it bigger, more ambitious tasks than what previous models could handle.\n2. Use xhigh/high effort as your default for best performance, med for faster interactive sessions.\n3. Rework your skills and CLAUDE.mds. Instructions written for prior models anchor Fable to stale patterns, let it use its own judgment first.\n4. Move from providing tasks to providing objectives. Describe what done looks like and how to verify it, then let Fable find the path (/loop and /goal are built for this)",
+            "createdAt": "2026-06-09T22:00:20.000Z",
+            "url": "https://x.com/alexalbert__/status/2064467657483829441",
+            "likes": 2346,
+            "retweets": 130,
+            "replies": 123,
+            "isQuote": true,
+            "quotedTweetId": "2064464407149851093"
+          },
+          {
+            "id": "2064394410004304003",
+            "text": "I've been at Anthropic through every model launch. There's been a few cases I can remember of a launch that stands out and marks a step-change in how we use models:\n- Claude Opus 3\n- Claude Sonnet 3.5\n- Claude Opus 4.5\n\nAnd now Claude Fable 5.\n\nWith Fable, the model stopped feeling like a tool I direct and started feeling more like something I collaborate with.",
+            "createdAt": "2026-06-09T17:09:16.000Z",
+            "url": "https://x.com/alexalbert__/status/2064394410004304003",
+            "likes": 3054,
+            "retweets": 125,
+            "replies": 177,
+            "isQuote": true,
+            "quotedTweetId": "2064394146916229443"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2064569513023328268",
+            "text": "This is a critical post to read if you’re building an applied AI company right now.\n\n“An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model can act on it, handing the model the tools to act, working with the customer to change the reality of its workforce. A company that brings the translation is tough to copy – and the translation never ends. Integration and maintenance run as long as the relationship does, won by teams that put domain-specialized engineers and tools next to the customer.”\n\nThere’s still an insanely large gulf between model capabilities and what it takes to apply them to specific corporate workflows. Some of that is technology that needs to be built, a lot is access to (and formatting of) the right data to work with, and a ton more is on the change management and specific implementation work (FDEs, etc.) it takes to make AI work in any specific corporate setting. \n\n2 things can be very true at once: frontier models and labs will continue to grow an incredible amount, and there will be a vast ecosystem of software and services companies that emerge to bring the power of these models to real enterprises. This makes room for new infrastructure provides, applied AI companies in every vertical, new versions of system integrators, and more players.\n\nIncredibly exciting time on all fronts.",
+            "createdAt": "2026-06-10T04:45:04.000Z",
+            "url": "https://x.com/levie/status/2064569513023328268",
+            "likes": 278,
+            "retweets": 23,
+            "replies": 28,
+            "isQuote": true,
+            "quotedTweetId": "2064510215056400652"
+          },
+          {
+            "id": "2064396746953023647",
+            "text": "If you thought AI progress was slowing down, well here's the immediate answer to that. Huge jump in capability across the board. This is going to deliver major improvement in agents across almost all knowledge work categories. https://t.co/3CKQuX5HsG https://t.co/yPR4SfMrxM",
+            "createdAt": "2026-06-09T17:18:33.000Z",
+            "url": "https://x.com/levie/status/2064396746953023647",
+            "likes": 638,
+            "retweets": 68,
+            "replies": 72,
+            "isQuote": true,
+            "quotedTweetId": "2064394146916229443"
+          },
+          {
+            "id": "2064379199629181139",
+            "text": "Great post. So much about model performance is a function of how much compute you’re doing at inference time. This means compute-normalized benchmarks is the only logical path forward. \n\nAnd yet, the challenge is it’s a lot harder than it seems given it’s subjective how much compute to apply, which means models behave differently at different thresholds (simplistically, model X’s min thinking may beat model Y’s min thinking, but be reversed at high), and there are a near infinite set of thresholds you could choose to set. \n\nBut either way, moving more in this direction would be great for better understanding AI progress.",
+            "createdAt": "2026-06-09T16:08:50.000Z",
+            "url": "https://x.com/levie/status/2064379199629181139",
+            "likes": 79,
+            "retweets": 9,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2064210146558136827"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2064573857911152710",
+            "text": "Fable 5 is the biggest model energy I've ever seen",
+            "createdAt": "2026-06-10T05:02:20.000Z",
+            "url": "https://x.com/garrytan/status/2064573857911152710",
+            "likes": 755,
+            "retweets": 18,
+            "replies": 82,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064559225859416186",
+            "text": "Just trying to work on fixing GStack and running into this with Fable 5 *long sigh* https://t.co/5t6oabHOnR",
+            "createdAt": "2026-06-10T04:04:11.000Z",
+            "url": "https://x.com/garrytan/status/2064559225859416186",
+            "likes": 205,
+            "retweets": 4,
+            "replies": 43,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064519190061666393",
+            "text": "I eat Aaron Peskin's hate for breakfast. Guys, we're winning. It feels good. \n\nAaron Peskin is no public servant. He was all along just a grifter trying to protect his views at the expense of the people.\n\nWe are the real people powered movement of San Francisco. https://t.co/nTuUasuCvU",
+            "createdAt": "2026-06-10T01:25:06.000Z",
+            "url": "https://x.com/garrytan/status/2064519190061666393",
+            "likes": 206,
+            "retweets": 9,
+            "replies": 22,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2064587398529606082",
+            "text": "The barrier for non-technical people using coding agents was never the interface. Chatting is the easiest UI ever invented\n\nThe barrier is that they don't know what to ask for.\n\nThe blank chat box assumes you already know what's possible. Most people don't.\n\nWhen I tried Town, I was impressed by its onboarding process where the agent proactively suggested workflows & things it can take off my plate, rather than waiting for me to give instructions",
+            "createdAt": "2026-06-10T05:56:08.000Z",
+            "url": "https://x.com/zarazhangrui/status/2064587398529606082",
+            "likes": 23,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2062178651450548549"
+          },
+          {
+            "id": "2064486120386379950",
+            "text": "I will be doing a virtual talk this Friday on my vibe coding process. \n\nAs a non-technical person who has somehow managed to get 30k stars on GitHub, I will be sharing the behind-the-scenes of how I get product ideas, how I work with coding agents, how to design stuff that's not AI slop, and why I think code is a medium for storytelling. \n\nRSVP here https://t.co/4wxpJjrAAB (Use the code PREMIUMPASS under \"Add a coupon\" to access the event for free)\n\n(Thanks to @sariazout and the @wwwsublimeapp  community for hosting)",
+            "createdAt": "2026-06-09T23:13:42.000Z",
+            "url": "https://x.com/zarazhangrui/status/2064486120386379950",
+            "likes": 105,
+            "retweets": 9,
+            "replies": 12,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2064508462034501997",
+            "text": "For the prompt, in Claude app with research mode on - I dumped the transcript for the episode, have it research all the scurves in history, figure out all the sections and give me a Claude code prompt that I could one shot.\n\nHere’s the website: https://t.co/zPGOiwmiXG",
+            "createdAt": "2026-06-10T00:42:28.000Z",
+            "url": "https://x.com/nikunj/status/2064508462034501997",
+            "likes": 48,
+            "retweets": 3,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064506504888373758",
+            "text": "I was listening to the latest episode of @InvestLikeBest and it talked a lot about S-curves..\n\nSo I had Fable one shot a website that talked about all the S-curves, their inflection point &amp; commentary on each being a bubble in the last 200 years.\n\nLive now on escurves dot com 🌊 https://t.co/jYMCkJde9x",
+            "createdAt": "2026-06-10T00:34:42.000Z",
+            "url": "https://x.com/nikunj/status/2064506504888373758",
+            "likes": 371,
+            "retweets": 31,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2064398724495737180",
+            "text": "@every watch on YouTube: https://t.co/SOW9nt2wC7",
+            "createdAt": "2026-06-09T17:26:25.000Z",
+            "url": "https://x.com/danshipper/status/2064398724495737180",
+            "likes": 43,
+            "retweets": 3,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064395458777108707",
+            "text": "VIBE CHECK: Claude Fable 5 IS OUT! https://t.co/dGVuRlK7H8",
+            "createdAt": "2026-06-09T17:13:26.000Z",
+            "url": "https://x.com/danshipper/status/2064395458777108707",
+            "likes": 21,
+            "retweets": 5,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064395167658860859",
+            "text": "FABLE (MYTHOS) is OUT!\n\nwe've been testing for a week @every. here's our vibe check: https://t.co/ZdceXz3apU https://t.co/jZ2690Th1G",
+            "createdAt": "2026-06-09T17:12:17.000Z",
+            "url": "https://x.com/danshipper/status/2064395167658860859",
+            "likes": 121,
+            "retweets": 13,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2064392202504310900"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2064391655453802773",
+            "text": "As an investor, these are the moments that remind you why you fund startups to do important things. https://t.co/AK1rHnp2nG",
+            "createdAt": "2026-06-09T16:58:19.000Z",
+            "url": "https://x.com/adityaag/status/2064391655453802773",
+            "likes": 37,
+            "retweets": 5,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2064358966277312948"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2064394160522559632",
+            "text": "Claude Fable 5 is available everywhere today. Claude Mythos 5 is restricted to Glasswing partners until we expand our trusted access program.\n\nhttps://t.co/iQymY0jiGq",
+            "createdAt": "2026-06-09T17:08:17.000Z",
+            "url": "https://x.com/claudeai/status/2064394160522559632",
+            "likes": 3305,
+            "retweets": 226,
+            "replies": 132,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064394159318782217",
+            "text": "Soon, we intend to expand access to Mythos 5 through a broader trusted access program, both for defensive cybersecurity work and biomedical research.",
+            "createdAt": "2026-06-09T17:08:16.000Z",
+            "url": "https://x.com/claudeai/status/2064394159318782217",
+            "likes": 2511,
+            "retweets": 89,
+            "replies": 29,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2064394158056386684",
+            "text": "For a small group of cyber defenders and critical infrastructure providers, we are also launching Claude Mythos 5.\n\nMythos 5 shares the same underlying model as Fable 5, but with the safeguards lifted in some areas.",
+            "createdAt": "2026-06-09T17:08:16.000Z",
+            "url": "https://x.com/claudeai/status/2064394158056386684",
+            "likes": 2626,
+            "retweets": 95,
+            "replies": 26,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 17,
+      "totalTweets": 38,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-06-10T07:48:48.549Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
