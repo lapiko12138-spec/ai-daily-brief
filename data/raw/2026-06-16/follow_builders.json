@@ -1,0 +1,425 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-16T14:32:46.308272+08:00",
+  "events_count": 8,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 11,
+    "totalTweets": 24,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-06-15T08:30:08.244Z"
+  },
+  "digest_generated_at": "2026-06-16T06:32:46.260Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-16T06:32:46.260Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "Training Data",
+        "title": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+        "guid": "0fae4dc4-6456-11f1-9180-3f07b7c1bee8",
+        "url": "https://www.youtube.com/watch?v=2UpQbeAZuqA",
+        "publishedAt": "2026-06-10T09:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:32\nThank you so much, Jensen. So we are in the middle of a massive AI revolution. It is probably bigger and faster than even the industrial revolution. And you have called out what's happening right now as the largest infrastructure build out in human history. At the center of that build out is the AI factory, and the company enabling all of that is NVIDIA.\n\nSpeaker 1 | 00:33 - 00:40\nCan you tell us what is an AI factory, and why is it the best investment for any enterprise in the next decade?\n\nSpeaker 2 | 00:42 - 00:59\nOkay, so you understand AI in a particular number of ways. The way that you understand AI probably most is through a chat bot, through a web browser. You're interacting with it. You give it a prompt. It says something back to you.\n\nSpeaker 2 | 01:00 - 01:32\nAnd even those of you who have been using AI for some time, you've seen in the last couple, two, three years a very significant evolution improvement in the capabilities of AI. Two years ago you heard about ChatGPT. And ChatGPT basically is a computer software that understands the input you give it. It can perceive, understand information. And it can translate and generate the information into something else.\n\nSpeaker 2 | 01:33 - 01:48\nOkay, so you can give it a prompt and you can say, here's this PDF I gave you. I would like you now to summarize it. It went from text to text. You could also tell it, here's a PDF I gave you. I would like you to now generate an image of that story.\n\nSpeaker 2 | 01:48 - 02:02\nIt goes text to image. You could use go from image to text, meaning you could give it a picture and what's happening inside this picture? It goes image to text. Does that make sense? Anything to anything else.\n\nSpeaker 2 | 02:02 - 02:28\nAnd AI in two years ago was largely able to do this translation. We call it generation. Generative models. Generative AI. But the thing that is very big deal inside that word generative AI is in order to do something even more valuable than generation, understanding and generating, is thinking.\n\nSpeaker 2 | 02:28 - 02:55\nWell, you can't think if you don't generate words. And so the foundation of generative AI gave us the ability to generate internal thoughts. Thinking, reasoning, step by step reasoning, problem solving. It also allowed us to do another thing that is now very important which is generate intelligence to control something else. To generate control to use a tool.\n\nSpeaker 2 | 02:55 - 03:19\nDoes it make sense? To use a browser, use a spreadsheet, use Photoshop, use PowerPoint, use something, use AutoCAD, use another tool. Now, that tool today is digital, but someday that tool will be mechanical. So if I generate a command to a mechanical system, that would be called robotics. If I generate commands for a machine with steering wheel, that would be called self driving cars.\n\nSpeaker 2 | 03:20 - 03:30\nDoes that make sense? Okay. And so two years ago, in fact, you saw the foundations. We call it ChatGPT. And everybody said, ah, it's fun.\n\nSpeaker 2 | 03:30 - 03:53\nIt's silly, or it produced a whole bunch of crazy, hallucinated text. That's all true, but it was the foundational technology that led to all of this. Two years later, we now have agentic systems. Now, that's one view of AI. I just described the view, which is what can AI do?\n\nSpeaker 2 | 03:53 - 04:22\nRight? And so now all of you realize you see it from ChatGPT, you see it from Codecs, you see it from Cloud Code, you see that it's now able to not just understand, but it's able to do work. Reason and do work. Now, two years ago, when AI was able to understand you and generate information that was interesting, novel, a little cute. Whenever you need a poem written, great way to do it.\n\nSpeaker 2 | 04:22 - 04:48\nRight? Who doesn't want to write a country song? And so that was two years ago, but now because it's able to do work, AI is valuable. Valuable meaning it can generate information, it can generate useful work, and it can be paid for it. Because we pay for, we're interested in having friends that are smart, we love people who are know it alls, but we don't pay them for it.\n\nSpeaker 2 | 04:48 - 05:07\nWe pay for people who do work. Does that make sense? Alright, which is what happened in the last two years. AI went from having this capability to now AgenTek went from not very valuable to now producing useful work. So much useful work that you and I are doing this every day, we're paying AI by the hour.\n\nSpeaker 2 | 05:08 - 05:23\nRight? And so we might pay them $30 an hour to do the work, 20 an hour to do the work. We're basically paying AI a lot of money today. The fastest growing software business in the history of mankind. Because now it's doing useful work and we can pay them to do it.\n\nSpeaker 2 | 05:23 - 05:55\nNow, that's one view of AI, which is what it can do. But one other view of AI that's really important to help reason through what Constantine is saying. So, example, the reason why some companies, some people are able to build great businesses and could maneuver themselves into the center of very large industries is because when they see this capability, this is very interesting. One interesting thought is if we're able to do this, what is the implication to this downstream industries? That's an interesting conversation we should have.\n\nSpeaker 2 | 05:55 - 06:23\nOkay? So now that AI can do this, what happens to all the industries like healthcare and financial services, and life sciences, manufacturing, logistics, transportation, on and on and on. E tail, advertising, future entertainment, the conversations list you can have about now that AI can do this, what can it do as a result subsequently? That's an interesting conversation. But you should go upstream, meaning industrially, what does that mean?\n\nSpeaker 2 | 06:23 - 06:46\nAnd so the first thing you realize is this. Go back to first principles. I told you just now that AI is software and is being produced by a computer. Now, what happened to the computer that has made it possible to do this? Well, the big idea is, you think about the computer as we know it today, it really emerged about sixty four years ago.\n\nSpeaker 2 | 06:46 - 07:13\nIBM System March was the biggest announcement of computing and sixty four years ago IBM was the most valuable company in the world. And they created the modern understanding of computers. Everything that we can describe about computer was really described in 1964. For forty years, largely has remained the same. And what happened was that form of computing is called pre recording.\n\nSpeaker 2 | 07:14 - 07:33\nYou write down your story, you save it to a file. You write a program by hand, you save it to a file. You take a picture, you save it to a file, you record music, you save it to a file, you make a video right now, we're streaming right now, but somebody's going to record it, you're going to save it to a file. And when you want to use it later, you retrieve it from the disk drive. Does that make sense?\n\nSpeaker 2 | 07:33 - 07:53\nAnd the retrieval process is done intelligently. So that's why everybody's retrieval of a news story is a little bit different. It's called a recommender system. But basically, computers as we know it today is a retrieval based system, which is the reason why these buildings are called data centers. They store data.\n\nSpeaker 2 | 07:54 - 08:34\nNotice they don't call them computer centers because it's not doing much computing. They just store data that you retrieve based on what you touch on your phone. Well, what happened now, if you look at what I just described, in order for this AI to work as I described it, every time I say something to it, I have to give it new information, we call it context. I give it a new prompt, that's called a query. Between the context and the query, it will understand it first, reason about it and it will produce an output based on that context in that query, based on the circumstance.\n\nSpeaker 2 | 08:34 - 09:01\nDoes that make sense so far? Okay, give me one nod, okay? And so, if that is the case, every time you use the AI, the content is produced originally every single time. Everything I'm saying to you right now is being produced in real time. And it's because my explanation is based on the fact that I realize all of you come from 60 different countries, 128 different families.\n\nSpeaker 2 | 09:02 - 09:19\nYou all have many different backgrounds. Some of you probably came from the computer industry. Most of you probably did not. And so I'm explaining the information to you in a way that is sufficiently deep. But ultimately my goal is this, so that you know how to make your next investment.\n\nSpeaker 2 | 09:20 - 09:42\nThat's what I'm leading to and so I'm going to give you enough sufficient information that you can reason about it for yourself so that when you see something in the next time you go, that's worth investing in. That's going to be a big industry. That's $100,000,000,000 right now and it looks really big, but that's nothing compared to how big it's going to be. I'm going to give you the intuition to solve that problem. And so here we are.\n\nSpeaker 2 | 09:43 - 10:01\nWent from a computer industry that was largely based on retrieval for sixty years and all of a sudden, one day, it's completely generated in real time. We call it intelligence. This is what I'm doing right now for you. I'm demonstrating intelligence. Contextual awareness, he gave me a prompt and here comes my answer.\n\nSpeaker 2 | 10:01 - 10:15\nDoes it make sense? Extremely artificial intelligence. Okay? So here, what's going on now? I just gave you one word earlier.\n\nSpeaker 2 | 10:15 - 10:53\nIt's called generative The the computer of today has been completely reinvented. It's now generative and every single toe, every single letter you see, every single word you see in your in the future, every video, every image, every ad, every TV commercial, every single time you read a story, a news story, every one of them will be different. What Constantine sees, what I see, what you see will be completely different because it'll be generated for you. Because your interest, your context, who you are, for what reason you asked, how you asked is completely different. Does it make sense?\n\nSpeaker 2 | 10:53 - 11:19\nAnd so therefore, therefore, every single pixel that you see, every single sound that you hear in the future, every video you see in the future will be originally generated, not retrieved. Which means in the future we need a lot more generators. And these generators is what we build. That's what we build for a living. These are large computers and they're generating intelligence.\n\nSpeaker 2 | 11:20 - 11:45\nNow the next question is this. Well, how big could it be? How big can it be? And so it turns out, the amount of information, the amount of generation of intelligence, we do it for about a billion people in the world today. Now that I told you that AI has become agentic, meaning that it can actually do work by itself.\n\nSpeaker 2 | 11:46 - 12:20\nWell, if it can do work by itself, then one agent can communicate with another agent and say, I have some work to do, let's team up together and let's do some work. And now you have all these different agents and they're all working together to solve problems inside your company, say. So inside our company, Constantine knows that we're huge users of AgenTik AI. We have hundreds of thousands of agents probably running around right now that are doing work and they're talking to each other and they're solving problems. All guardrailed, all sandboxed, all guardrailed and sandboxed, but they're all working with each other.\n\nSpeaker 2 | 12:20 - 12:51\nWhich means in the future it is very likely that the internet that we use today for a billion people will likely mostly be several billion, call it a 100,000,000,000 agents working around the clock and they're using the internet and talking to each other. And what are they saying? So for example, there'll be companies working with companies, employees' agents working with other employees' agents. There'll be self driving cars, which are agentic. There will be robots, which are agentic.\n\nSpeaker 2 | 12:51 - 13:09\nAll the manufacturing systems, every building will be agentic. There will be agents all over the place, they'll be using the internet. And all of those commands that they generate to each other will be generated. All of the thoughts that they have to understand, all generated. Does that make sense?\n\nSpeaker 2 | 13:09 - 13:35\nAnd so basically the world is going to be this layer of computing that's going to cocoon the earth and it's going to be generating intelligence all the time. Now I just said something that sounds ridiculous. Except, in fact it's already happened. Twice. So three hundred years ago, a company in Germany called Siemens produced a machine.\n\nSpeaker 2 | 13:35 - 13:51\nAnd this machine is a really interesting machine. You go up to this machine, you light it on fire. And then this incredible invisible force comes out the other end. Nobody understood what it was. We understand it now as electricity.\n\nSpeaker 2 | 13:52 - 14:16\nHow many power generators are there in the world? We call it a grid. Power generation cocoons the planet. We call it the grid. And then of course, twenty some odd years ago, earlier than that, thirty five years ago, this networking scheme, networking matrix fabric was created here in The United States, eventually became the internet.\n\nSpeaker 2 | 14:16 - 14:31\nAnd where is it? It cocoons the world. And so now you have energy, communications, intelligence, and it will cocoon the world. And it'll just be a commodity, we'll use it all over the place. And so what NVIDIA does for a living is this new machine.\n\nSpeaker 2 | 14:32 - 14:56\nThe machine that was invented three hundred years ago is called the Dynamo. That Dynamo, anything that moves comes in. It could be waterfalls, it could be wind, fire, steam. Transfer it from motion, atoms, right, to electrons. Atoms to electrons.\n\nSpeaker 2 | 14:57 - 15:25\nWe then take the electrons into our machine called NVIDIA. Electrons now comes into our machine, comes in this factory, and what comes out are numbers. These numbers, depending on how you combine them, turns into language, math. It can also turn into a new language we've learned, proteins. We learned the the language of human biology.\n\nSpeaker 2 | 15:26 - 16:10\nWe learned the language of the physical world, physics, climate, weather. We learned the language of the three d world, robotics, self driving cars. We learned the language of all kinds of different forms of intelligence. But the point being, now, these two machines, three hundred years apart, atoms in, electrons out, electrons in, numbers out, and those numbers could be rejiggered, reformulated into all kinds of different intelligence. That's what we built, that's what we do for a living, and that's why I call it a factory because it's producing, we call them tokens but they're just numbers, tokens and these tokens are intelligence.\n\nSpeaker 2 | 16:10 - 16:30\nThat's it. That's what we do. It's not that hard. Brilliant. Now you know what AI's for, and now you know how AI's built, and how big it's gonna be.\n\nSpeaker 1 | 16:31 - 16:32\nThank you all for joining today.\n\nSpeaker 2 | 16:32 - 16:36\nThank you. Good job. Excellent question. I\n\nSpeaker 1 | 16:39 - 16:45\nI really felt that carried it. You know, the prompt. You laid it up. Yeah. Okay.\n\nSpeaker 1 | 16:45 - 17:08\nSo this is a massive revolution. Yeah. And you you laid out three transformations. Energy transformation, which touches everyone today, and a lot of the people in the audience are part of these manufacturing and energy producers globally, telecommunications, which connects all of us, and now intelligence. And in energy, you talked about the generator, telecommunications.\n\nSpeaker 1 | 17:08 - 17:26\nI guess the comparable would be the switch or something along those lines for routing communications globally. And now in the intelligence revolution, it's the GPU at the core. And the AI factory like the h 100 or any of the new systems that bring everything you need under the same hood, Vera Rubin, what happens.\n\nSpeaker 2 | 17:26 - 17:53\nThese factories, so you know, these generators, each one of our units, we call it a rack, there's 72 chips inside. We manufacture, call it 8,000,000 of them this year. But 72 of them go into a rack. That rack weighs two tons. It is $4,000,000.\n\nSpeaker 2 | 17:54 - 18:14\nHas one and a half million parts and it's the most expensive piece of equipment in the world. And we manufacture them like, I guess it would be like phones. I mean we crank them out And they go into data centers all over the world. We build these machines in volume.\n\nSpeaker 1 | 18:16 - 18:22\nThey are big devices. This is how you do your weight lifting. I understand.\n\nSpeaker 2 | 18:22 - 18:23\nNo volume discounts.\n\nSpeaker 1 | 18:27 - 18:30\nOkay. So you laid out this picture of a very exciting world\n\nSpeaker 2 | 18:30 - 18:31\nMhmm.\n\nSpeaker 1 | 18:31 - 18:34\nThat we are in. We're in the middle of this revolution.\n\nSpeaker 2 | 18:34 - 18:34\nWe're Yeah.\n\nSpeaker 1 | 18:34 - 18:37\nYou could say decades in, you could say years in.\n\nSpeaker 2 | 18:37 - 18:37\nYeah.\n\nSpeaker 1 | 18:37 - 18:48\nCertainly now in the the mainstream of the intelligence revolution. How do we participate? I'm sure everybody here wants to participate in this revolution.\n\nSpeaker 2 | 18:48 - 18:49\nYeah. Excellent question.\n\nSpeaker 1 | 18:49 - 18:56\nLet's start with big enterprises, and then let's get to individuals as well. Yep. How do people join this movement?\n\nSpeaker 2 | 18:56 - 19:10\nAnd so now I gave you two mental models. I'm gonna give you one more mental model. So so one mental model, they're they're really you know, we could talk about this story, hopefully, we cover all four phases. I just talked about what AI can do. I talked about how AI is made.\n\nSpeaker 2 | 19:11 - 19:35\nAnd these things are in these factories. These factories are each gigawatt is about $50,000,000,000 So have you ever seen it's the most expensive factory in the world. But also, that 1 $50,000,000,000 factory also generates $300 $400,000,000,000 in intelligence. And so the production value is incredible. The return on investment is extremely fast.\n\nSpeaker 2 | 19:35 - 19:57\nAnd so that's the factory part. The part that I'm going to tell you now, and this is very important when you think about investment, is what does the industrial layout look like for AI? And the way to think about the industrial view is think of it as a five layer cake. Now, told you on the bottom is energy. The bottom is, remember I said the dynamo, Okay?\n\nSpeaker 2 | 19:57 - 20:22\nNow we have, of course, different AC generators and things like that, power generation. And so on the lowest layer is energy. This is the single greatest opportunity in several generations for the energy industries to grow. The very first time in probably, I don't know, one hundred years since the energy grid in many countries could be invested in. This is the best opportunity to invest in sustainable energy.\n\nSpeaker 2 | 20:22 - 20:51\nIf you care about sustainable energy, nuclear, air, or wind, solar, you name it, whatever form, hydrogen, whatever form, so long as it produces energy, it's going to get funded. And so that tells you something about how great of a time this is because we have a trillion dollars. Just think, this year alone, we're going to put a trillion dollars from the market into this entire five layer cake I'm about to describe to you. So the first layer is energy. That's the reason why Siemens is doing so well.\n\nSpeaker 2 | 20:51 - 21:04\nMitsubishi is doing fantastically. GE, Vernova. I mean everybody. The first layer of the cake is energy. The second layer of the cake is chips and computers and networking and switches and silicon photonics.\n\nSpeaker 2 | 21:04 - 21:21\nDoes that make sense? It's all the computers. The third layer of the cake, we call it infrastructure. Land, power, shell, money, data center operations. Every one of them in scarce supply today.\n\nSpeaker 2 | 21:21 - 21:34\nAnd so that's the next layer, is infrastructure layer. And then the layer that everybody sees, that everybody thinks is AI, is the model layer. Does it make sense? That's the next layer. It sits on top of the computers, cloud infrastructure.\n\nSpeaker 2 | 21:34 - 21:55\nAnd this is the greatest opportunity in recent human history that I know that so much market driven investment is naturally coming into the ecosystem. This is a great time to build. And so now that's the model layer. The model layer is OpenAI, it's anthropic, but this is the part that you can't overlook. This is very important.\n\nSpeaker 2 | 21:55 - 22:21\nSo you have two companies that you know of, that you hear about. However, don't forget AI as I was explaining earlier has learned the language. It learns the language and the meaning. Language, the meaning of anything that is structural. So that layer, what's really important is that we hear, we talk about all the language, but don't forget, you can learn anything with structure.\n\nSpeaker 2 | 22:22 - 22:50\nAnd so let me give you an example of something with structure. Today, when I walked into a room, I was explaining a lot of people and it wasn't unexpected the way you appeared. Now, if some of you were hanging off the ceiling and floating in mid air and some of you, the one human but body parts in 17 different places and I could see through some of you then it's hard to learn that because every time it's different. Okay. Because it's hard to learn quantum things.\n\nSpeaker 2 | 22:50 - 23:16\nHowever, things with structure we can learn, right? People have eyes and so you can learn these things, okay? And so, three d, I learned the laws of physics, I sat down and notice, I sat down with confidence. I 53% of the time I landed safely on the chair, the other 47% of the time I went right through it. And so I can't trust it but 100% of the time.\n\nSpeaker 2 | 23:16 - 23:39\nDo you guys understand? And so if things are predictable, then there's structure you can learn from it and you can learn the meaning of it, okay? And so we learned the meaning of proteins, we're learning the meaning of genes, not just sequencing it, not just CRISPR editing it, but what is the meaning of that gene? What is the meaning of a cell? Why does a cell do what the cell does?\n\nSpeaker 2 | 23:39 - 23:54\nWhat happens when two cells coming together? And so this is no different than imagine I learned the meaning of a cell the way I learned the meaning of a word. And what happens when I take two words and put them together? These two words activate each other, turn into something else of another meaning. Okay?\n\nSpeaker 2 | 23:54 - 24:22\nAnd so from a computer's perspective, it doesn't care if it's a cell, a protein, a word, an image, a car. Does that make sense? It's just tokens. And so we have to figure out, as computer scientists, we have to figure out how to represent the world's information in all these different ways so that the computer can understand it. Understand reason about it, come up with a plan, generate an action, the intelligence loop.\n\nSpeaker 2 | 24:22 - 24:33\nProtein's the same way, cell's the same way, the human anatomy's the same way. It must be predictable. It's predictable because tomorrow morning I'm largely the same. It must be predictable. Okay?\n\nSpeaker 2 | 24:33 - 25:12\nAnd so we're learning all these different. My point is there are two language models that you guys know about, but AI is a giant industry. The industry of everything else physical is about $80,000,000,000,000. It is actually the most important frontier, the parts that we're not talking about. And then on top of that, this model, this technology then feeds into all the stuff that Constantine gets to see these days, which is all of these startups that are coming up with revolutionary ideas in financial services, in legal, in accounting, in transportation, logistics.\n\nSpeaker 2 | 25:12 - 25:39\nIsn't that right? And so that layer above, this last year, a $100,000,000,000 of venture capital investment. The single largest year of VC investment in the history of humanity. All of that money is going into that fifth layer, the top layer, which is the layer that apply applications to enhance human condition. And so there are five layers.\n\nSpeaker 2 | 25:39 - 26:17\nWhen you think about AI and you want to invest in this future, and I promise you this future is going to be gigantic because two years ago, zero, it's approximately, we're about to put $1,000,000,000,000 in, but that's $1,000,000,000,000 out of the, you know, we're going to be putting in probably the AI industry, I'm going to guess for a second, probably something along the lines of $20,000,000,000,000 a year. We're $1,000,000,000,000 in of a $20,000,000,000,000 a year ecosystem. Because the production of intelligence, you just got to ask yourself, how important is intelligence? And who needs it? And how much of it do you want?\n\nSpeaker 2 | 26:18 - 26:36\nAnd so those are kind of the basic questions and all of that intelligence, whether it's for proteins or cars or robots or language or math, science, whatever it is, has to be generated by these machines. And so this five layer cake is the industrial version. And I think that's a good way to think about where to invest.\n\nSpeaker 1 | 26:37 - 27:07\nHugely so. So you've described what is a multi trillion dollar opportunity to become part of this revolution, and that includes the hardware and the facilities. If it's $50,000,000,000 for a gigawatt and there's 100 plus coming online in the next several years, that is trillions plus the application layer where that is many, many more trillions plus plus plus, and that means real jobs for people doing the the hands in building. And then\n\nSpeaker 2 | 27:07 - 27:20\nalso Right now. Exactly. And We have to really emphasize this, and this is very important to you. Every country has a different attitude about AI today. Would you guys agree with that?\n\nSpeaker 2 | 27:20 - 27:44\nEvery country, because everybody's culture is a little different. Okay? And here's my recommendation. Be careful with the analogies and the science fiction stories that this is Terminator and words like singularity and ideas that somebody say, in 20% chance this will be the end of humanity as we know it. Okay?\n\nSpeaker 2 | 27:44 - 27:59\nThose kind of articulations of AI is just nonsense. It is complete nonsense. Oh, we have no idea how it works. This is so mysterious we don't even know how it works. It might just get up out of its seat and walk out tomorrow morning.\n\nSpeaker 2 | 28:00 - 28:13\nThere's no question in my mind, it's computer and software. And there's no question in my mind, they know how it works. And do you know how they know how it works? Because every single year apparently it's getting better. If you don't know how something works, how do you make it better?\n\nSpeaker 2 | 28:14 - 28:26\nI have no idea how it works but I know how to make it better. That's nonsense. So why are they saying these things? That's an interesting question. However, don't let it scare you.\n\nSpeaker 2 | 28:26 - 28:40\nYou must engage it. You may or may not lose a job to an AI. But you will absolutely lose a job to someone who uses AI. Would you agree with that? Okay, so let's not worry about the things you're not sure about and focus on the things that you are sure about.\n\nSpeaker 2 | 28:42 - 29:03\nI am absolutely certain I will lose my job to someone who uses AI. So before I worry about AI, let's just go make sure I use AI. Now why is that common sense so important for me to tell you? Because some of you have children. What are you advising them?\n\nSpeaker 2 | 29:03 - 29:34\nRun away? Or make sure whatever this technology is that gives people superpowers that you go make sure you use it. So I'm hoping that we do two things. One, we are and we're doing everything we can to build this technology safely for the world. I promise you so much computer science, so much investment, so much passion dedicated to making this technology safe for everybody to use and I can prove it.\n\nSpeaker 2 | 29:35 - 30:09\nUse ChatGPT two years ago and use it again. The amount of hallucination completely reduced to almost nothing. To the point where it's producing knowledge not only accurately, contextually relevant, relevant to the moment and if it doesn't know the answer, it does research and when it comes up with an answer, it even questions itself. Before it tells you an answer, it reflects on it. And it comes up with two or different answers and it reflects on those before it produces the answer for you.\n\nSpeaker 2 | 30:10 - 30:37\nThe amount of safety and guard railing, grounding of truth, the technology advanced so fast to make it safe. I am certain I can tell you this completely with fact. I prefer my car today than the car that was one hundred years ago. The technology is a lot better, but it's a lot safer. And it takes a lot of technology to be invented in order for it to be safe.\n\nSpeaker 2 | 30:37 - 31:10\nAnd so, I can tell you that it is our job, it is the responsibility of the technology industry, the responsibility of scientists and engineers for us to build AI safely. Two, it is your responsibility to make sure that you tell the people that you love, whether it's your family, your kids, your grandkids, or the company you work for, or the country that you're in. Whatever we do, engage AI. If we think it's a superpower, engage it. Because if we don't engage it, somebody else will.\n\nSpeaker 2 | 31:12 - 31:33\nWe're not gonna lose our lives to AI, we're gonna lose our lives to somebody who uses AI. And so that's my, well that's too serious. That's the That's too serious. That was because he said the word job. So I've got a trigger and the trigger is a bunch of people making stuff up about jobs.\n\nSpeaker 2 | 31:33 - 31:46\nWe put a trillion dollars into the world's ecosystem this year, did we not? What's it doing? Making jobs. Right now, the energy sector, more jobs than ever. The chip sector, more jobs than ever.\n\nSpeaker 2 | 31:46 - 31:59\nInfrastructure layer, more jobs than ever. Everything from land, power, shell, finances. AI model layer, more jobs than ever. And we just said $100,000,000,000 last year went into the upper layer. More jobs than ever.\n\nSpeaker 2 | 31:59 - 32:18\nWe're creating so many more jobs. Now, somebody might say, well, what about the traditional jobs? So, let me give you the example. You know that everybody's job and their task is related not the same. A job and the task you do in the job is related not the same.\n\nSpeaker 2 | 32:18 - 32:43\nSo for example, my job is to be the CEO, to lead the company. Most of the time, and I spent a lot of it today, most of my time my task is typing and talking. And so you could say CEO equals typing and talking. Both of them, AI does in a superhuman way. And I'm busier than ever.\n\nSpeaker 2 | 32:43 - 33:21\nOf course, that's a really cute example, but let me give you a deep example and you can now apply it. So ten years ago, slightly more than that, one of the world's leading computer scientists wanted to warn everybody about the power of AI. And so he said, and Constantine probably knows who it is, he said, the first job that AI will destroy and eliminate, and I advise nobody goes into this field because this field will be wiped out is radiology. Computer vision is superhuman already twelve years ago. Computer vision.\n\nSpeaker 2 | 33:21 - 33:54\nA computer can recognize images, detect anomalies with superhuman capability, never gets tired, never misses a detail. Twelve years ago it was able to do that and he predicted as a result of that, radiology is going to be wiped out. Well he was absolutely right. Radiology was completely penetrated by computer vision. Computer vision proliferated through every single form of radiology and every radiology stack and every radiologist today is augmented by computer vision.\n\nSpeaker 2 | 33:54 - 34:07\nHowever, the interesting thing is this, radiology demand went up. The number of radiologists in the world went up. Why? Audience participation please. Why?\n\nSpeaker 2 | 34:11 - 34:36\nI heard some of the things, it's all true. It turns out, radiology spends a lot of time studying scans. But the purpose of the radiology, the purpose of the radiologist, is to work with doctors to diagnose disease. To work with doctors to diagnose disease. And because it's now automated, they are more productive.\n\nSpeaker 2 | 34:36 - 35:04\nSo two things happen. More patients are admitted into the hospital. They do more scans. The radiology department became more profitable. When they realized they were more profitable and they were admitting more patients, they hired more radiologists so that they could admit more patients, so that they could make more money, take care of more people.\n\nSpeaker 2 | 35:04 - 35:42\nBecause as it turns out, there are a lot of people who are suffering and they're waiting to get into the hospital. So now, let's pretend for a second, do you appreciate the computer scientists tell you it's going to be the end of the world for radiologists? My point is, we have to be responsible about what we make up because we could have done harm. And it turns out, the number of people who want to be radiologists after his speech because it permeated through everything, the number of radiologists started to decline. But we need more radiologists.\n\nSpeaker 2 | 35:43 - 36:04\nNow somebody recently said 90% of software coding will be gone, and therefore we don't need software engineers. Meanwhile, we're hiring more software engineers than ever. The reason for that is because a software engineer's job is to solve problems and dream up problems to solve. Innovate. I never hired somebody and said, hey guess what, you're a software engineer, listen.\n\nSpeaker 2 | 36:05 - 36:20\nHere's a keyboard, show me how many words a second you can type. Typing is not the job of a software engineer. Coding is not their job. Solving problems is their job. And so I just gave you two examples.\n\nSpeaker 2 | 36:20 - 36:43\nTask versus purpose. Does that make sense? It turns out this example happens all over the place. But because we have such a contrived, such a naive understanding that computer scientists could say things like 50% of the jobs will be gone. Software coding is completely irrelevant.\n\nSpeaker 2 | 36:43 - 37:00\nRadiology is going be wiped out because we think about it from the task perspective, we forgot the purpose of the job. There were radiologists before, there were workstations. There are going to be radiologists after AI. There engineers before software coding. I promise you that.\n\nSpeaker 2 | 37:00 - 37:17\nThere will be engineers after. Does that make sense? And so, that's the way to think about jobs. And I've now covered two things. One, if your country is not investing in AI, there's a massive boom of jobs that you're missing out on.\n\nSpeaker 2 | 37:18 - 37:46\nIf your country or your company is not investing in AI, there's a level of elevation of your people that you're missing out on. AI is not going to eliminate jobs. AI is going to elevate your job. If I were a plumber today, largely I get a job task sheet or a schematic. However, if I'm a plumber tomorrow, it is very likely I'm a designer as well.\n\nSpeaker 2 | 37:47 - 38:14\nDoes that make sense? Because you and I both know that we could just use AI to generate these incredible designs of a kitchen, if I'm a carpenter. If I were a salesperson of furniture, I'm going be an interior designer for sure. And so I've elevated my craft. Went from somebody who sells furniture to somebody who could advise you on how beautiful your home could be.\n\nSpeaker 2 | 38:14 - 38:31\nI went from somebody who's a carpenter. You expecting me to come and just put some wood together and now I'm your home designer. I've elevated my craft. I've given you so many examples but that's my point. I think the narrative about AI is absolutely wrong.\n\nSpeaker 2 | 38:31 - 39:18\nAnd the goal is to scare everybody out of it so that some people could benefit from it. But AI, as you know, is the greatest force for eliminating the technology divide in my entire career. I spent forty some odd years, my entire life has been in computer design, I spent forty some odd years and this entire time the technology we created became more and more and more and more complex and the number of people who could program these computers as a percentage of population declined. Who in this room knows C plus plus Come on, cut it out you weirdos. This row is just a startup company.\n\nSpeaker 2 | 39:18 - 39:33\nOkay, and so this row, okay, we're looking at 2%. Okay? 2% and this is a very strange room. This is a very strange room. And so 2% of society knows C plus plus How many people know human?\n\nSpeaker 2 | 39:35 - 39:48\nOkay, more than 2%. And so can everybody program a computer and yet in the past only 2% can. We have closed the technology divide. We've got to bring everybody with us. Does that make sense?\n\nSpeaker 2 | 39:48 - 39:52\nOkay, anyways that's it. On a Friday night that's too serious.\n\nSpeaker 1 | 39:52 - 40:39\nThat that that is extremely optimistic, and I agree. And it's great to hear from someone who is closer to actual building of the actual technology that powers everything than anyone else in the world. So Jensen, you talked about a future where we move from retrieval, this paradigm that we've had our entire lives in, to generation where everything is customized, knowledge is customized for the individual, a world where we have the generation of intelligence paralleling from the energy to the telecommunications revolution to now the intelligence revolution. You talked about these languages that the computer can speak, not just English or German, but even protein. You talked about five layers of participation,\n\nSpeaker 2 | 40:39 - 40:39\na\n\nSpeaker 1 | 40:39 - 41:09\nabundant opportunity to participate in this revolution for everyone in this room and and everyone listening. And you talked about how this transformation is gonna be something that has real consequences, real consequences that allow people to move from just doing the task to dreaming the problems and the solutions, maybe even a life of purpose and a life where we move from carpenters to architects. Thank you, Jensen. Please join me in thanking Jensen Huang, the man who made the sale happen. Thank you.\n\nSpeaker 1 | 41:11 - 41:12\nThank you so much.\n\nSpeaker 2 | 41:12 - 41:17\nYou're all awesome. You're all appreciated. Thank you. Bye."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2066415484149633329",
+            "text": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly to make use of the fanout that i think subagents are best at.\n\nbasically the idea is \"subroutines but intelligent\". when you undersatnd just how much knowledge work is just yakshaves after yakshaves that require some judgment and intelligence, you start to appreciate that dynamic workflows are not just for coding tasks...",
+            "createdAt": "2026-06-15T07:00:18.000Z",
+            "url": "https://x.com/swyx/status/2066415484149633329",
+            "likes": 45,
+            "retweets": 2,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2061907337154367865"
+          },
+          {
+            "id": "2066235625695850526",
+            "text": "Satya on loops as IP:\nhttps://t.co/87HBsQptdQ\n> This is the first time we can create a real cognitive loop between people and digital systems. That is a mind-bender, because it changes how we even conceptualize work inside an enterprise.\n\n> This means the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning\n\n> In my view, our priority has to be building a frontier ecosystem, not just a frontier model, so value flows broadly across every company, every industry, and every country. One where every organization can own the learning loop that encodes its institutional knowledge, compounding its human and token capital.",
+            "createdAt": "2026-06-14T19:05:36.000Z",
+            "url": "https://x.com/swyx/status/2066235625695850526",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2066182223213293753"
+          },
+          {
+            "id": "2066225354885488709",
+            "text": "@DevinAI link here! https://t.co/kdtMCNXwzI",
+            "createdAt": "2026-06-14T18:24:47.000Z",
+            "url": "https://x.com/swyx/status/2066225354885488709",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2066270561081454989",
+            "text": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent. https://t.co/8xyjRjFk4v",
+            "createdAt": "2026-06-14T21:24:25.000Z",
+            "url": "https://x.com/thsottiaux/status/2066270561081454989",
+            "likes": 2232,
+            "retweets": 94,
+            "replies": 151,
+            "isQuote": true,
+            "quotedTweetId": "2066225908202053818"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "tweets": [
+          {
+            "id": "2066344036030636041",
+            "text": "@grok do you know why? Explain to us",
+            "createdAt": "2026-06-15T02:16:23.000Z",
+            "url": "https://x.com/petergyang/status/2066344036030636041",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066331938760314909",
+            "text": "Dumb question - Why can’t China and India train good enough teams to qualify for the World Cup?",
+            "createdAt": "2026-06-15T01:28:19.000Z",
+            "url": "https://x.com/petergyang/status/2066331938760314909",
+            "likes": 307,
+            "retweets": 3,
+            "replies": 173,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066309743619244174",
+            "text": "Watch the interviews here:\n\nKieran: https://t.co/bomAyU9Utg\n\nKun: https://t.co/qfug4hOuhw\n\nMatt: https://t.co/vPVZNwtsCu\n\nWho should I interview next?",
+            "createdAt": "2026-06-15T00:00:07.000Z",
+            "url": "https://x.com/petergyang/status/2066309743619244174",
+            "likes": 7,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2066190061419282602",
+            "text": "Counterpoint: everyone pair programs now, with a robot. https://t.co/eDDgBiPAkT",
+            "createdAt": "2026-06-14T16:04:33.000Z",
+            "url": "https://x.com/thenanyu/status/2066190061419282602",
+            "likes": 46,
+            "retweets": 2,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2066013507901116622"
+          },
+          {
+            "id": "2066189299821711401",
+            "text": "Modern color graders been subconsciously turning everyone into Knicks fans this whole time https://t.co/YWoP1fxegg",
+            "createdAt": "2026-06-14T16:01:31.000Z",
+            "url": "https://x.com/thenanyu/status/2066189299821711401",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2066136596470956099"
+          },
+          {
+            "id": "2066158221648134602",
+            "text": "I was told this mayor was good at graphic design https://t.co/XnmUjC88Up",
+            "createdAt": "2026-06-14T13:58:02.000Z",
+            "url": "https://x.com/thenanyu/status/2066158221648134602",
+            "likes": 48,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2066032094048825632"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2066195933969412098",
+            "text": "This is the most inspiring positive-sum vision for AI in the enterprise. https://t.co/rltvxNEw0U",
+            "createdAt": "2026-06-14T16:27:53.000Z",
+            "url": "https://x.com/amasad/status/2066195933969412098",
+            "likes": 2917,
+            "retweets": 150,
+            "replies": 83,
+            "isQuote": true,
+            "quotedTweetId": "2066182223213293753"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2066315273947500699",
+            "text": "My flight to London is Starlink-enabled 😭\n\nThe greatest advancement to air travel since the Wright brothers. God bless America https://t.co/vyJvpobz9R",
+            "createdAt": "2026-06-15T00:22:06.000Z",
+            "url": "https://x.com/rauchg/status/2066315273947500699",
+            "likes": 1064,
+            "retweets": 14,
+            "replies": 52,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066299732277031042",
+            "text": "https://t.co/pYz1Gn9F9b has passed 700,000 skills. wild!\nall organic and community-driven.\nthe open⎵ai ecosystem!",
+            "createdAt": "2026-06-14T23:20:20.000Z",
+            "url": "https://x.com/rauchg/status/2066299732277031042",
+            "likes": 389,
+            "retweets": 19,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066253064957509811",
+            "text": "I have 🇯🇵 winning 2-0 ⚽",
+            "createdAt": "2026-06-14T20:14:54.000Z",
+            "url": "https://x.com/rauchg/status/2066253064957509811",
+            "likes": 214,
+            "retweets": 4,
+            "replies": 42,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2066237607244427761",
+            "text": "Great post. The companies that are able to get their unique IP, institutional knowledge, and data into a format and architecture that lets them capture all of the gains and progress in AI are going to be in the best position in the future.\n\n“the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning. The future of the firm is the ability to compound that learning across people and AI.\n\nThis requires a new architectural approach where every business is able to build agentic systems that improve over time, while still retaining control over their IP. A company should be able to switch out a “generalist” model without losing the “company veteran” expertise built into their learning system.”\n\nWe’re all collectively figuring out the right architecture for the future of AI. But it’s clear that so much of the power and value will accrue to wherever can best leverage any AI system against their information. This is also why the applied AI layer will also gain so much value over the coming years.",
+            "createdAt": "2026-06-14T19:13:29.000Z",
+            "url": "https://x.com/levie/status/2066237607244427761",
+            "likes": 712,
+            "retweets": 74,
+            "replies": 58,
+            "isQuote": true,
+            "quotedTweetId": "2066182223213293753"
+          },
+          {
+            "id": "2066167615618466060",
+            "text": "The big winner in all of this is going to be open weights models. This is a huge win for the field, as a risk that was entirely theoretical and untested 2 days ago (that a model could be pulled back), now has a new precedent that’s been set.\n\nThe game theory the US should highly consider, and the risk with regulating AI at the model layer vs. applied layer, is that other countries now have even more incentive to develop sovereign AI.\n\nIf at any moment a model can be become unavailable to your country’s users or businesses, this poses very real risk on relying on technology from a particular country.\n\nAs a result, it forces major countries to charter their own path on AI development, which reduces America’s leadership role in this tech stack over time. The most likely solution that other countries will rely on is open weights models, which currently is generally not coming from the US.\n\nAmerica should be considering all of these downstream implications as it decides how and where in the stack to be regulating AI. At the same time, we should be doing a ton more OSS innovation.",
+            "createdAt": "2026-06-14T14:35:21.000Z",
+            "url": "https://x.com/levie/status/2066167615618466060",
+            "likes": 564,
+            "retweets": 57,
+            "replies": 76,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2066307697574862905",
+            "text": "Open source is the escape hatch for businesses to be able to continue to control their own destiny long term https://t.co/9hVUR5w6Lp",
+            "createdAt": "2026-06-14T23:51:59.000Z",
+            "url": "https://x.com/garrytan/status/2066307697574862905",
+            "likes": 327,
+            "retweets": 28,
+            "replies": 50,
+            "isQuote": true,
+            "quotedTweetId": "2066260212772679864"
+          },
+          {
+            "id": "2066269513935642689",
+            "text": "* Basically gbrain users https://t.co/yFpFU4pn5b",
+            "createdAt": "2026-06-14T21:20:16.000Z",
+            "url": "https://x.com/garrytan/status/2066269513935642689",
+            "likes": 32,
+            "retweets": 2,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066269412391637050",
+            "text": "The next generation of young people who change the world will almost certainly be the people who are most adept at making long-running multi-stage multi-team agent tasks work extremely well, and at high volume and across every part of their personal and work lives. https://t.co/xG2qvRNdW5",
+            "createdAt": "2026-06-14T21:19:52.000Z",
+            "url": "https://x.com/garrytan/status/2066269412391637050",
+            "likes": 446,
+            "retweets": 41,
+            "replies": 49,
+            "isQuote": true,
+            "quotedTweetId": "2066263541347483703"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2066394505037926426",
+            "text": "You make a skill by ending with one, not starting with one",
+            "createdAt": "2026-06-15T05:36:56.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066394505037926426",
+            "likes": 8,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066388749244854771",
+            "text": "You don't make a good skill by writing a skill. \n\nYou make it by doing the thing, fixing it 20 times, then telling the AI to bottle up everything you just did.",
+            "createdAt": "2026-06-15T05:14:04.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066388749244854771",
+            "likes": 112,
+            "retweets": 8,
+            "replies": 22,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066209311404208636",
+            "text": "Watch on YouTube: https://t.co/t6cVHdM3Oo",
+            "createdAt": "2026-06-14T17:21:02.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066209311404208636",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2066427449551036469",
+            "text": "Mosh + tmux/zellij is a lifesaver for bad in-flight internet. (i prefer zellij but either works)",
+            "createdAt": "2026-06-15T07:47:50.000Z",
+            "url": "https://x.com/steipete/status/2066427449551036469",
+            "likes": 80,
+            "retweets": 0,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2066217865943093514",
+            "text": "FREE FABLE https://t.co/nFihacLkaq",
+            "createdAt": "2026-06-14T17:55:02.000Z",
+            "url": "https://x.com/danshipper/status/2066217865943093514",
+            "likes": 613,
+            "retweets": 38,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 11,
+      "totalTweets": 24,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-06-15T08:30:08.244Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
