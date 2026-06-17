@@ -1,0 +1,460 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-17T14:09:37.548191+08:00",
+  "events_count": 6,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 12,
+    "totalTweets": 25,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-06-16T08:20:57.835Z"
+  },
+  "digest_generated_at": "2026-06-17T06:09:37.525Z",
+  "skill_errors": [
+    "Podcast feed problem: Podcast: Transcript error for \"Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+  ],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-17T06:09:37.525Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+        "guid": "19ae4fac-acd5-40bf-b6a7-168292c2c275",
+        "url": "https://www.youtube.com/watch?v=oWOz2htozfI",
+        "publishedAt": "2026-06-04T12:30:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:23\nOne of the things that CHAT GPT was able to do was assume it was false. When you go against the grain and do something contrarian like that, you really have to have strong conviction in what you're doing in order to persevere down a really long calculation path. I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that that we care about with the aid or the models being the driving force. And so that's just really thrilling.\n\nSpeaker 2 | 00:23 - 01:03\nHi. I'm Matt Turk. Welcome to the Matt podcast. It's been yet another extraordinary last few days in AI with OpenAI, DeepMind, and Anthropic cracking some of the most famous long unsolved questions in mathematics known as the Erdosch problems, a moment many view as a stunning breakthrough and yet another signal that AI is moving from doing the work we ask of it to autonomously making deep science discoveries. To unpack the moment and the fundamental advances in model reasoning that make it possible, I'm excited to welcome Dan Roberts, a top AI researcher at OpenAI who comes from a deep background in theoretical physics and has a particular interest in the intersection of science and AI.\n\nSpeaker 2 | 01:03 - 01:20\nIn this conversation, we go deep on what reinforcement learning is, it's the most important paradigm in AI right now, and what's ahead for AI and science. Please enjoy my conversation with Dan Roberts. Hey, Excited to do this. Thanks for taking the time.\n\nSpeaker 1 | 01:20 - 01:21\nCourse. Very happy to be here.\n\nSpeaker 2 | 01:21 - 01:31\nYou are the lead of the foundations of reinforcement learning team at OpenAI. So what what does that mean? What does the name mean?\n\nSpeaker 1 | 01:31 - 02:01\nThe larger team that that we're on is called foundations, and we think about reinforcement learning. So very boring foundations of reinforcement learning. But the team comes from a mandate of of thinking about the science of reinforcement learning. And a long time ago, which in AI speak is like six months ago, maybe a year, I guess now two years. So before we released a one and thinking reasoning models, we were studying this internally.\n\nSpeaker 1 | 02:01 - 02:31\nAnd one of the advantages to being first or at least to being forced and and spending a lot of resources on scaling things up is that you can empower a group of people to not just work on making the thing work, but work on understanding how it works. And then beyond that, how do we scale? How should we think about scaling reinforcement learning versus scaling pretraining? So what what are scaling laws look like? But then going beyond that, what what sort of things does this kind of training teach us?\n\nSpeaker 1 | 02:31 - 02:56\nWhat doesn't it teach us? We're very interested in at the frontier for exploratory scenarios. How do we either improve or understand better what reinforcement learning is doing? We have all this compute that famously we are in the process of of of acquiring, and we would like to turn that compute into intelligence. And to do that, we need to make thinking models.\n\nSpeaker 1 | 02:56 - 03:08\nAnd some somewhere along the way, we interact with that process usually at the earlier stage, for models, you know, not the next model, but things that are like the next model or the next next model.\n\nSpeaker 2 | 03:08 - 03:16\nGreat. And, quickly, what was your path to OpenAI? So how did you go from studying physics to being where you are today?\n\nSpeaker 1 | 03:16 - 03:45\nI did a PhD in in theoretical physics, from from MIT, thinking about the intersection of quantum gravity and quantum information, thought a lot about black holes and quantum chaos kind of thing of what if you throw something into a black hole? What happens to the information? Does it does it come out? How if we think about black holes as computers, how fast are they? I was very interested in this fundamental question in theoretical physics, which is how do you find a quantum theory of gravity?\n\nSpeaker 1 | 03:46 - 04:13\nI also got very interested in this inter interplay between computation and the laws of physics. You know, any computer exists in the universe in in, you know, behaves according to physical law. So the sort of computations you can do are bounded by the laws of physics, and there's some sort of interesting relationship there. Black holes are pretty interesting because they sort of saturate some conjectured bounds around processing of of information. And from there, I did a postdoc at the Institute for Advanced Study.\n\nSpeaker 1 | 04:14 - 05:03\nAnd at around that time, I'm pretty old now for at least for this field, so that was about 2016, when the DQN Atari paper from DeepMind happened in 2015 and then AlphaGo was in 2016. And I got very excited about these about the possibility of machine learning and then and then deep learning was statistical science that lived in a similar framework to the sort of frameworks that we use to, like, study the rest of the universe. And so there's always this question of of, you know, how does everything work? This three year old question of I'm curious about about everything. And if you look outward and you you care enough, you end up philosophy maybe, if you're quantitative, you end up in in in in physics, very, very crude characterization.\n\nSpeaker 1 | 05:03 - 06:24\nAn AI that works is very fascinating, Or AI systems that work is are fascinating because they are simple examples that do things that humans do. And then if it lives in the same framework that we use to understand everything else, then you know, it's sort of like, you can, you can draw the parallels between how does the universe work and how do I work or how does intelligence work. And so I got extremely interested in, in AI and deep learning, then I went to fair Facebook's AI research lab at around '27 2017 to basically try and use the tools from theoretical physics to understand deep learning. Deep learning was supposed to be this really difficult thing that you couldn't understand, and I thought maybe the tools of physics could could be helpful. This actually culminated in a book that I wrote with a collaborator who now is cloud still a collaborator of mine now at at OpenAI working on the same thing as Shoyeda, but we wrote this book, The Principles of Deep Learning Theory, that was a culmination of these sets of ideas of can we can we sort of use the statistical ideas of of of, you know, understanding statistical statistical systems like the gas in the room, we can characterize them with some simple laws of thermodynamics, the ideal gas law and, and maybe we can make similar progress in understanding deep deep network.\n\nSpeaker 1 | 06:24 - 07:01\nSo that was sort of my transition. I also had a startup along the way, and spent some time at Sequoia Capital as an entrepreneur in residence. So there's some tension between am I a scientist and an entrepreneur. But about two years ago, after thinking about whether I want to start another AI company, I realized that the thing that was most exciting right now was what was happening at the frontier that there's some some some amazing scientific progress happening in AI and to really get at the questions and understand what's going on, you need to be there and you need to participate. And that meant joining lab.\n\nSpeaker 1 | 07:01 - 07:04\nSo I joined OpenAI two years ago.\n\nSpeaker 2 | 07:04 - 07:27\nGreat, thank you for that. Where do you think we are in the evolution of AI being increasingly able to solve difficult scientific problems. I mean, it's certainly something that we've been talking as an industry about for a while now, but it seems to be accelerating perhaps just like everything else in in AI. But where do you think we are?\n\nSpeaker 1 | 07:27 - 08:13\nI think one of the interesting things is that this process is smooth. The there's no sharp point, or I don't think there will be a sharp point where we'll say that systems didn't weren't able to be useful for scientific the scientific process to their fully fledged scientists, there'll be sort of a gradual shift. If you had to point to one moment, maybe it would be the release of a one and by OpenAI and the sort of paradigm of test time compute and reasoning. But I'm sure if I tried to make that claim, you could go and look at gpd four and and see that there's glimpses of that sort of useful behavior for the scientific process. We're already present as a general point, know, the models are very good at certain types of things that clearly are amenable to to making progress in math.\n\nSpeaker 1 | 08:13 - 08:21\nThey're not open loop, fully fledged scientists in in any domain, although, you know, neither am I. It seems like it's just this really nice gradual process.\n\nSpeaker 2 | 08:21 - 09:05\nSo it feels like a particularly fun week to be having this conversation because over the last few days there were a number of different announcements in the general field of AI and mathematics around the Erdos problems. OpenAI came out first with this progress, but like almost within a few hours Google DeepMind had a claim as well on different problems, then Anthropic had some claims. However, from what I understand, the OpenAI approach and the DeepMind approach were were very different, and that may be very interesting in terms of what that means for AI as a research scientist.\n\nSpeaker 1 | 09:05 - 09:35\nThis conjecture everyone assumed was true and but could not prove it. One of the things that CHECH EPT was able to do was assume it was false. And when you go against the grain and and do something contrarian like that, you really have to have strong conviction in what you're doing in order to persevere down a really long calculation path. Because there's a lot of choices that you can make along along the path. And if you get any of those choices wrong, if you if your ideas don't work, then you find out that that you didn't make any progress.\n\nSpeaker 1 | 09:35 - 10:09\nAnd so you need this really strong persistence. And then you need expertise in this other field, let's which is like algebraic number theory, some sort of generalization of number theory on, you know, things that sort of generalize the the integers and the real numbers, you go down that path really far, you can refute this conjecture. So that was the big result. The big result was that this, this conjecture of this lower bound for the number of pairs that you can make is false. Not only is it false, it was false due to a really interesting connection to another field of mathematics.\n\nSpeaker 1 | 10:09 - 10:25\nAnd so you would have to be somebody who is aware of this problem as interesting, which sounds like, you know, your expertise is one thing, and then be an expertise in something else, and then also be super contrarian and go down this really long path. And and then you could you would you have identified the solution.\n\nSpeaker 2 | 10:25 - 10:34\nThe OpenAI approach and the DeepMind approach were were very different. Do you wanna compare and contrast the two approaches?\n\nSpeaker 1 | 10:34 - 11:25\nOne of the approaches that GDM takes is to take problems, present them in a formal language called Lean, and then used methods to search for proofs in in that language. And some problems for problems to be representable, there's this process called auto formalization, where you take English version of the problem and you translate it into rigorous formal statements, And then you you conduct your proofs there. And it's it's it's designed so that the proofs can be airtight, no one has to go and check for for some hidden assumption or some weird thing or I guess it's usually hidden assumptions or definitions that are not airtight. But in that setting, which is a setting that DeepMind has has cared a lot about, they were able to formalize some some problems and and use their use their system to prove them. So that's that's one approach.\n\nSpeaker 1 | 11:25 - 11:54\nAnother approach is to just take the problem in English with mathematical expressions as well, but just the English statement of it, which is informal, and understand what is meant by that and solve that in informal language, presenting a proof much like the way a human mathematician would or human mathematician who's not using Lean. And then you have to check it. It's the the verification problem is is is harder because it's not something that auto checks.\n\nSpeaker 2 | 11:54 - 11:56\nAnd that second approach was OpenAI.\n\nSpeaker 1 | 11:56 - 12:12\nMost of our results that we publicize as far as I I can think are all in the informal setting. We have we have language models that we've taught them to reason at test time, and and one of the applications or benchmarks for that is reasoning in mathematics.\n\nSpeaker 2 | 12:13 - 12:35\nOkay, great. All right. So let's get into reinforcement learning. To make this broadly accessible, let's start from the top. What is the one, two, three sentences definition, for reinforcement learning and perhaps give us a simple non technical analogy for people to understand?\n\nSpeaker 1 | 12:35 - 12:56\nMaybe a simple thing to do would be to to give you two examples of of how you could try to learn something, you you as an individual. And and maybe we can we can take a game or even a say say a video game. Right? I'm old enough that where I played the original eight bit Mario Brothers, the Super Mario Brothers. And so here are two ways you could learn how to play.\n\nSpeaker 1 | 12:56 - 13:15\nOne way you could learn how to play is your dad takes it out and plugs it in, and he boots up the game, and then he plays for a few hours. And then you you just watch him play. That's all you do. So he's demonstrating how to play. And then at the end of that, he you know, he and he's not very nice, so he doesn't let you play.\n\nSpeaker 1 | 13:15 - 13:30\nAnd but then he, like, goes and runs outside and does something else. And, you know, you sneak into his room, you you plug it in, and you try to play. How how good are you going to be? Well, all you've done is tried to memorize what he's done. You haven't gotten to push any of the buttons yourself.\n\nSpeaker 1 | 13:30 - 13:52\nYou haven't gotten to to interact with with the game yourself. This is sometimes called, expert demonstrations, and and, and, you know, you're you're you're just trying to memorize what someone else is doing. It's the version of supervised learning. But supervision being like you just watch what he does and accept that that's the true way of doing a thing. Reinforcement learning would be your dad's like, Here, why don't you play?\n\nSpeaker 1 | 13:52 - 14:17\nMaybe he shows you once, or maybe he doesn't even need to show you because the game is beautifully designed to to sort of take you from not knowing anything to to being able to play expertly as something called a curriculum. But you you play. Maybe the first thing you do is you run, you hit the first bad guy, and you probably this example is dated, but, you know, you you you lose a life. But then the second time you press a button and you jump in. So you're taking actions, there's an environment that's giving you feedback.\n\nSpeaker 1 | 14:17 - 14:47\nAnd you you know, there's this this close connection between the environment, you know, be between actions that you can take and then the responses that you're getting. And and then the the final part is there's a reward. And the reward, you know, can can be something that you get pretty often. For for instance, every time you do something, there's there's some score that goes up, or it could be just something that you get at the end. So you play a game of of chess, and and and at the very end, you you get a reward, which is you won or you lost.\n\nSpeaker 1 | 14:47 - 15:10\nBut in the middle, you don't really know how you're doing until until the very end. So this this is called sparse resistance rewards, but I think this is a basic idea in that, and there's there's obviously lots of variants here, and ways to cope with this, but it's this this notion that you you interact with an environment, you get a reward, and often it's it's in a way where you get the sort of feedback as opposed to just trying to, you know, learn from data that you don't get to interact with.\n\nSpeaker 2 | 15:10 - 15:15\nAnd why does it work and why is RL so powerful?\n\nSpeaker 1 | 15:15 - 15:46\nIt works because of this ability to get feedback from the environment. You can go and learn, you know, if you're if you're doing it right, you can figure out how to learn the things that that that you don't know. And I also think it's powerful because of this fact that it's it's much easier to learn when you're learning at the right level for you. Right? So if you want to learn, you know, addition, you shouldn't read a calculus textbook, you want to learn by being able to practice and learn at the right level.\n\nSpeaker 1 | 15:46 - 15:57\nI'm actually making the choices and and learning from my own choices, whether they work or not, then then I'm able to, like, place it in a better context for for the set of things that I understand.\n\nSpeaker 2 | 15:58 - 16:03\nGreat. And then conversely, what's the catch and how does RL break?\n\nSpeaker 1 | 16:03 - 16:37\nThe setting where very difficult is is the setting that I alluded to before where you don't get much feedback from the environment. You have to take many, many, many, many actions, and then you get maybe, yes, that whole set of actions was good or no, it was bad. For instance, you're playing a game of chess and you don't know what you know, until you make all the moves. That has an opponent, so it's maybe complicated. Maybe it's you are trying to do a homework problem, and it's a research level, or, you know, like someone gives you a well defined problem like we give our language models.\n\nSpeaker 1 | 16:37 - 17:03\nAnd it's, you know, a problem that requires days and days of thinking. There's so many choices that you can make along the way. And at the end, if you if you don't get any feedback at all, if you're just hidden in the woods by yourself scribbling in notebooks, it's very hard to make progress that way because you don't have any feed you don't have any sense. If you get a yes at the end or you get a no at the end, you have no sense for which of the the actions that you took, which of the things you did were were good or bad.\n\nSpeaker 2 | 17:03 - 17:16\nOkay. Great. Now let's talk about how, RL has been applied in the context of large language models. So was the first step historically RLHF?\n\nSpeaker 1 | 17:16 - 17:42\nYeah. I think that's probably fair, at least in a broad sense that the first kind of RL that was done on language models was part of this post training process to turn a model that just tries to predict the next word on the Internet into into either something that will follow your instructions, be nice to you, you know, or, like, fit the form of a of a chatbot.\n\nSpeaker 2 | 17:42 - 17:47\nSo do you wanna define for people what RLHF is and sort of how it works quickly?\n\nSpeaker 1 | 17:47 - 18:19\nThe basic idea is that you could use collect data from from humans. That's the r RLHF is reinforcement learning from human feedback. So you collect data from humans and you train a value function. So you would show in the language model setting, say, two different completions from from from a language model, ask them to say which is better. This this sort of comparisons could be used to train a value function, and then you can use that as a as a as a reward for for reinforcement learning process.\n\nSpeaker 2 | 18:19 - 18:24\nGreat. And you you do that initially with humans, but then you build that into a reward model?\n\nSpeaker 1 | 18:25 - 18:41\nYeah. So you would train a model for this, and then and then now because during the training process, you can't just pause your training run to ask some humans for for input. Right? The the feedback the that that would have way too much latency. So instead, you need a proxy for what a human would say.\n\nSpeaker 1 | 18:41 - 18:47\nSo you train this model based on based on the human preference data, and then you can optimize against it or at least a little bit.\n\nSpeaker 2 | 18:48 - 19:01\nOne of the famous things in the history of our RL is moves 37. How do you train a model to encourage the model to do that kind of things and come up with brand new ways while being efficient and exploit known path?\n\nSpeaker 1 | 19:02 - 19:19\nYeah. So the great thing about Go is that you can just train it. It's a, you know, zero sum two player game. You can train train in what's called self play. It plays itself, and it can go from playing randomly to expert play, and it will find whatever the the sort of best best strategies are.\n\nSpeaker 1 | 19:20 - 19:46\nSo if that that means exploring, great. That means exploiting actually, I have a I have a funny story about this. So I I met Noam Brown in grad school. He went to a different grad school than me, but he wanted to enter MIT's poker bot competition. And he had a poker bot that was the best in the world, but it wasn't something that would compete against humans yet.\n\nSpeaker 1 | 19:46 - 20:14\nHe just won in this research competition. He collaborated with me and another friend to enter MIT's poker bot competition. This is great actually for me, because I learned some really exciting work in in AI and I got very excited about this while I was doing doing physics. We were playing essentially this this kind of self play equal of equilibrium strategy. There's some some nuances, but, you know, essentially, we could not lose assuming we did not have any bugs in in our code.\n\nSpeaker 1 | 20:16 - 20:54\nThe way this this thing worked was that it was a tournament where you would be paired with, say, another another person and play them in an end if you, know, you depending on the amount of points you got in, like, some sort of round robin setup, they would eliminate the bottom half, and they would keep going until you got to the final table, which would just be, say, you versus the other person. And so the scores, there was the award ceremony, and we didn't know what what happened. But the there was someone else who was, you know, what what what did the what was everyone's scores over time look like? And there was, know, say 64 I think there were 32 actually people playing. So it was like around, 32 kinda tournament.\n\nSpeaker 1 | 20:54 - 21:22\nAnd 30 people over time, you know, their scores would were all very negative and going down. And then there was one person whose score was, like like, pretty much straight up. And then there was another that was, like, pretty good, but but not, like, with a crazy slope. And so do you wanna guess which which one we were? So so we were we were the lower slope, and then there was this other guy that was had this crazy slope, which just, like, completely crushing all the other players.\n\nSpeaker 1 | 21:22 - 21:42\nAnd then this happened for the round of 16, the round of eight, the round of four. And then in the round of two, it's heads up us versus this guy who is, like, over the course of this tournament, won way more than us overall, like, taking more money from from everyone else. And then we crushed him. Because why? Because he was exploiting the weaknesses of of of everybody else.\n\nSpeaker 1 | 21:42 - 22:07\nRight? It it's had some theory of mind to try to figure out, oh, this this guy, you know, does this when he bluffs. And and so it's very I assume it was very good at at, like, taking, you know, exploiting everyone else, but we were just playing the best possible thing that you could that you can do given you know, so the the criteria was not maximize your your amount that you get from anyone else. It was don't lose. Like, put you know?\n\nSpeaker 1 | 22:07 - 22:16\nAnd and and, you know, so it's the best response to anyone's strategy. And so at the end, we had to win, assuming we did it right, and someone else playing the same strategy would would tie.\n\nSpeaker 2 | 22:16 - 22:35\nOkay. Fascinating. So just, tying this back to the beginning of the conversation about the Erdos problem and and solving, unsolved math problems. Presumably, the the instinct would be that you need a lot of exploration and exploitation. So how does how does that work in, the context of novel scientific discovery?\n\nSpeaker 1 | 22:35 - 23:19\nI think math research or scientific research in general has a lot of versions of both explore and and and exploit. To give to give the recent example, the OpenAI unit distance proof, I think, is is is very much in the explorer setting where the the model was happy to be contrarian and and try to disprove this thing that everyone believed. And it was it was just looking for has this huge repository of understanding all of human math. And so it was it was spending a very long amount of time, I forgot how how many hours, but I think we published a reverting version of this chain of thought, like hours and hours trying different things. So it's clearly in the in the domain of exploration.\n\nSpeaker 1 | 23:20 - 23:56\nA lot of times, though, you can ask these models to compute something that they understand very well, and then that that has a different structure and might look a lot like exploit. There's a a paper that came out recently after the OpenAI result where the an unrelated Erdos problem has something to do with if you have a set and you try to add it to a cell add the set to itself or you try to multiply the set with itself. So, like, take the elements and add them all together or take the element individualizer, multiply them together and how many unique sums or products you get. There's some conjecture around that. And this this one was also disproved.\n\nSpeaker 1 | 23:56 - 24:30\nAnd and that was done by by humans. And the core idea was, it's like a totally different problem. But there there was inspiration from the from the unit distance one, the idea that you can sort of generalize from from the as pick a pick a certify it, pick a certain type of numbers that had a certain property that the OpenAI model figured out, and that they realized that like this applies in this setting. So that's very much an exploit thing. But and so so I think the process clearly is like this, the actual discovery process.\n\nSpeaker 1 | 24:31 - 24:50\nI think normally when you talk about explore exploits, maybe we're talking about when training reinforcement learning models, how should we train them? But I think there's this interesting point that in the scientific discovery process, there's really this interplay between like exploring exploration, and then exploitation in order to totally push the field forward.\n\nSpeaker 2 | 24:50 - 25:15\nSwitching to RL in modern LLM systems. So there used to be a saying, which I think comes from Jan LaConde, that RL was the cherry on top of the cake, but I think you have argued that things have switched now and that Aurel is the main part, the the cake. Do you wanna just walk us through what you were thinking?\n\nSpeaker 1 | 25:15 - 25:30\nYeah. I said that about a year and a half ago. I had to give a talk that was public, and I couldn't say much. So I decided to invert this meme with the with this cake and the cherry. RL is really exciting.\n\nSpeaker 1 | 25:31 - 25:46\nThat's what what I'm here talking about. And I think that when you have a lot of compute, you want to turn that compute into intelligence in a way that's that's useful. And RL is one way of doing it. And we just started doing it then. And we're gonna do a lot more of it now.\n\nSpeaker 2 | 25:46 - 25:57\nWhy did RL start working well? It's not an entirely new concept. It's been tried for many years now. What is different now?\n\nSpeaker 1 | 25:57 - 26:28\nYeah. I'm not sure, to be honest, what when people say it wasn't working, what that actually means. Like, there was this 2016, '27, maybe even to 2018 before the transform period where DeepMind was all in on RL, and OpenAI had Dota and the Rubik's cube and some other exciting exciting results as as well. But a lot of people were all in on RL, and then there were language models. And the obvious thing to do was scale up the thing that worked, which was pre training.\n\nSpeaker 1 | 26:29 - 27:15\nAnd I don't know whether or what people tried for RL. As you pointed out, RLHF was a central thing that that came pretty quickly. Originally, it was developed for in the in the context of of of game environments of of, like, trying to prevent reward hacking by using, think the original paper was about using human feedback to like, control like a character for what or some something like that. But there's an interesting thing to point out here, though, which is that there's this question of how do you get models to think in test time and reason. And there's a reasoning effort at OpenAI that was quite early and spent some time and and came up with some some algorithms.\n\nSpeaker 1 | 27:15 - 27:29\nI think maybe the simple thing to say is that if you have a powerful enough pre trained model, then it can start to do well at RL. They can start to, like, think at at use test time compute to to, for instance, solve solve math problems that it that it wouldn't otherwise be able to do.\n\nSpeaker 2 | 27:30 - 27:52\nThis viral analysis from earlier this year, February, I think, that claims that Aurel produces less than one bit of useful information per 10,000 tokens, and then Carpathi called it sucking supervisions through a straw. What is your take on on this and the overall efficiency of of Aurel?\n\nSpeaker 1 | 27:52 - 28:22\nIf you look at, like, the deep seq algorithm, which is a public thing that that we can talk about, then the you train on on sequences that that are correct. So whether it's correct or not is maybe one bit of information. So I I think there's you know, you can see where that logic comes from. I think the question is, like, is this doing a kind of thing that you can't otherwise do? Like, maybe you would want to give more supervision, but how how are you going to do that?\n\nSpeaker 1 | 28:22 - 28:47\nI think I think it's very clear that that this method these methods have lead led to a bunch of of breakthroughs in terms of, the explosion of what the models can do and and, you know, both in in coding and in science. I think broadly, it's about getting models to think in in test time, to use test time computing and and and and do reasoning. And there's clearly a lot of the pieces of what the RL process is that's essential to make that work.\n\nSpeaker 2 | 28:47 - 29:32\nWhat's your overall feeling in terms of how far we can go with that current sort of systems model where we have pre training and then we have RL on on on top. Somewhat famously last year, there was a conversation with, Rich Sutton on the Dwarkish podcast where his claim, my best attempt to paraphrase it, was that LLMs were not really intelligent and therefore RL was the only way to do it and pure RL, not LM plus RLs. What is your take on this? I mean, obviously, you're in on on an RL team at a company that does, you know, both pre training and RL combined. So what's your what's your take?\n\nSpeaker 1 | 29:32 - 30:02\nLet me tell another story. So when I when I was before I did my PhD, I spent two years in The UK, and I was at Oxford for one of those years. And I was at a pub as one does, and, you know, two of my close friends, one was the cognitive scientists, and one was linguist. And so we had the sort of argument that you do in those situations when you're that age. And so something like physics is the most fundamental of all the sciences, because explains how the world works and everything is in the world.\n\nSpeaker 1 | 30:02 - 30:24\nI said this earlier, my computer exists in the world, I exist in the world, we all follow the laws of physics. And then the cognitive scientists said something like, yes, but then you have to, you know, you have to process it. So there's all sorts of cognitive biases about that and and and, you know, the way you collect data and learn something something. But then the linguist was was like blah blah blah, Wichtenstein. You know, the everything goes through language.\n\nSpeaker 1 | 30:24 - 30:37\nThat's the method of communication. That's, you know, that's the way words mean things are are the central thing. And and when we wanna talk about the laws of physics, we have to use language. And I sort of feel like he and Victor Scheide, like, that that was correct. Right?\n\nSpeaker 1 | 30:37 - 31:02\nThat's what's what or at least the path through AI suggest that that is a correct path. I'm I'm conceding now to Kyle. And if he's if he's listening, he's now a linguistics professor. This whole idea of reinforcement learning that kicked off the previous decades interested in AI, the the sort of grounding, I think, that was needed was was to to make things really work is through is through language because everything goes through language. Right?\n\nSpeaker 1 | 31:02 - 31:47\nAll the Internet, right, it's like it it incorporates the grounding of the real real world, all of our scientific knowledge, all of our mathematical knowledge, all of the human like, you know, the sum total basically of of human work is represented on the Internet in language. And then so having the model have a prior of language and being able to, like, think in think in language and then train on top of that, that seems like clearly the right the right thing to do and and, like, you know, seems also well well grounded in in a way that even before all this, somebody might have argued would would make sense. It's like an amazing prior to have, to to start with for for an intelligence because it's, like, very much based on us and our society. I have other disagreements with Rich Sutton, but if you want to poke at that.\n\nSpeaker 2 | 31:47 - 31:51\nYes, so just give us one or two quick ones.\n\nSpeaker 1 | 31:51 - 32:18\nI have a somewhat contrary intake that with the better lesson that it's not that scale is all you need. You need to also have have good ideas to to guide the scaling. There's there's like a deeper interplay than just scale things up. For for instance, if you were just trying to scale pre training, you wouldn't get anywhere near as far as also trying to scale RL on top of pre training, which is what we do now, and our models are much more powerful for, like, that very good idea, investing in that good idea.\n\nSpeaker 2 | 32:18 - 32:20\nAnd that the good ideas come from humans?\n\nSpeaker 1 | 32:20 - 32:41\nWell, maybe they'll come from AI in the future, but before we had AI, they they came from humans. I mean, scaling was also a good idea that came from from humans, but but there's, like, this this interplay of illicit new phenomena at scale. You try to understand those them at that scale, and then that points you at new directions, and then you develop new ideas, and then you try to apply scale on those ideas. So I think it's not just scale, scale, scale.\n\nSpeaker 2 | 32:41 - 33:03\nSince you mentioned test time compute, I think that's something that that still puzzles people, which is the the whole chain of thought, a thing which is so magical from a user perspective, whatever you can see. What actually happens during test time compute that creates those artifacts? What does the model actually do?\n\nSpeaker 1 | 33:03 - 33:36\nI I think it does what what you see it do. We lightly rewrite it or summarize it, but it it just it just produces tokens. And those tokens are like a running thought process just like you you might have, or or maybe it's more akin to if you're solving math problem, the the scratch pad, the collection of notes that that that you have, but it it just keeps generating. The cool thing about generating is that, you know, it it it's a a forward pass the model, so we're using a bunch of computation. So we're we're you know, it's a way of leveraging a lot more computation on a problem than than you would before.\n\nSpeaker 1 | 33:36 - 34:24\nSo my colleague, Noam Brown likes to talk about the Riemann hypothesis a lot. And you know, wouldn't you want to have a model that runs for years that that can resolve, resolve that prove that if you present it and you want to produce an answer, then it only has the number of flops in in a single forward pass to produce one one token of its forced answer right away. But if it gets to answer after think, you know, after a long time, can it can re reuse its weights, you know, produce a final answer that is a function of a much, much larger amount of computation and the, like, the natural way it thinks is in language. It's a language model. And so that's sort of the this key insight that that you can cause it to do better just by producing a thought process in in in token space in in language.\n\nSpeaker 1 | 34:24 - 34:47\nAnd this was known before RL, the the idea that if you asked the model if you gave a model examples of of thinking things out, it would do this before it produced a final answer. Or if you just told it that, then it would then it would do this sort of thing. Right? Going back to this SFT versus supervised learning versus reinforcement learning analogy that I gave earlier, like, there's a lot of examples on the Internet of people thinking for a long time. And so, like, it's not completely useless.\n\nSpeaker 1 | 34:47 - 34:50\nIt can channel that a bit, but RL really, like, brings that out.\n\nSpeaker 2 | 34:50 - 35:10\nWhat happens during test and compute is is RL related or created? Because that that's effectively what you described earlier when you were defining RL. The model goes in one direction, decides maybe that's not a fruitful one, backtracks, tries something else. Is that correct or not?\n\nSpeaker 1 | 35:10 - 35:40\nI think maybe the result of the RL process is that the model can then think at test time, and that's why we have these dials or various companies have labs have reasoning effort dials. Right? So so you now created a model that will produce a bunch of tokens before it outputs a final answer. And, like, causing that to be good is what RL is doing or one of the things RL is doing. And so the output of of doing RL training is the ability to have a model that thinks.\n\nSpeaker 2 | 35:40 - 36:03\nSo one of the key questions in the field is, whether you can expand and generalize the success, that LLM systems have had in particular in coding and now math, but like domains where you can sort of verify whether the model comes up with is correct or not. What is your view on that? And perhaps start by explaining what a verifiable reward is.\n\nSpeaker 1 | 36:04 - 36:43\nSo a verifiable reward is is is, in principle, a reward that that that can't be hacked. So it's a if the if it's a math problem and the answer is an integer, you just string match the integer, and and then you verify that it that it did it solved the problem correctly. That that abstraction has all sorts of problems with it, but unverify problem with an that can't be verified is is this a good piece of creative writing? That that that's there's not a something you can sort of string match against, right, that involves questions of taste and maybe different people ask differently. So maybe it's a distributional kind of thing.\n\nSpeaker 1 | 36:43 - 36:47\nAnd so there's there's clearly a big gap between those those two things.\n\nSpeaker 2 | 36:47 - 37:01\nSo do you think there is a path for RL to be truly effective at domains without referable rewards? So, you know, consulting, banking, legal, I mean, clearly, there's tremendous progress in those domains, but, like, what what is happening?\n\nSpeaker 1 | 37:01 - 37:09\nI definitely think OpenAI will have amazing products that will be relevant in those domains, and some amount of RL will play a role in there.\n\nSpeaker 2 | 37:09 - 37:23\nDoes RL generalize, meaning that as you train it against more and more domains, becomes disproportionately good at learning the next domain?\n\nSpeaker 1 | 37:23 - 38:00\nI mean, we wanna make a model that is generally intelligent and push that intelligence as far as possible. And to do that, we want to make everything part of the distribution. And then we also want to make it robust in cases where it encounters things that it was not in the distribution. If RL is part of that process, then, you know, like but, like, I think there's a vague sense, as I was trying to say earlier, is that there's a lot of things that are very fuzzy, but the you know, clearly, the question of generalization in AI is is is this important central one. And there's a bunch of examples, I think, that support that the processes can do this.\n\nSpeaker 2 | 38:00 - 38:32\nSo going back to your physics roots, a lot of what we just described about, this interplay between, pretraining and RL and, you know, all the various bits that we described. Those are clearly pretty complex systems, and, you, were trained in a discipline that is all about studying complex systems. What can physics teach us about how to understand those those AI systems that we're currently building?\n\nSpeaker 1 | 38:32 - 39:13\nI think there's a lot of lot of angles to answering that question. I think the Maybe most interesting one or the most relevant one to how we work currently, and maybe this is a contrarian take, is that the way to think about scaling and and say scaling laws is not small to big, but big to small. So and and I'll get to why physics really matters for this in a second. When when you have, you know, you have the existence of some really big AI system and some weird things happen, and they didn't happen at the small scale. And so we say, like, oh, this whatever emerged at scale.\n\nSpeaker 1 | 39:13 - 39:25\nRight? There sometimes people use the word grokking, or there's something discontinuous about the scaling sequence. And so it's or the scaling law is broken. These are things that people might say. But I think I reject that entirely.\n\nSpeaker 1 | 39:25 - 39:34\nI think you it means that you didn't understand something about what you were scaling up. Maybe even going back to the reasoning thing. Like, I don't know if this is true. This is a cartoon. I wasn't at OpenAI at the time.\n\nSpeaker 1 | 39:34 - 40:07\nBut if you imagine trying to, like, get small models to to reason, you know, g p d one, g p d two, g p d three, and then g p d four to they get cartoon. You might say like, oh, this emerged at scale, and it doesn't happen for the small models. You you know, the I I I reject that. Instead, there's some phenomena that's really exciting that we discovered, like reasoning or, you know, maybe something bad, like, you know, like your model blew up and your earlier models didn't blow up. And your job is to then figure out how to restore smoothness to the scaling sequence.\n\nSpeaker 1 | 40:07 - 40:37\nGo back and make smaller and simpler models or or simpler toy examples such that the the whole thing is smooth. And if you can do that, if you can figure out what to put into the small thing, then then you understand the thing. And then and then you can you can move forward. This is exactly what we do in theoretical physics. There's the standard model, which is, you know, I have a textbook behind me, the description of all the forces except gravity would take even in compact notation, like the entire entire page.\n\nSpeaker 1 | 40:37 - 40:48\nIt's it's like completely gross. There's, you know, a lot of different particles. Why? You know, I who knows? Some of them, there's reasons for, but they're doing all sorts of different different things cancel whatever.\n\nSpeaker 1 | 40:48 - 41:18\nYou know, this just happens to be the universe that we live in. But you don't need all of that to to like, study pieces of it to like, study electromagnetism, you forget about everything else. Or if you want to study the Higgs phenomenon, you know, which gives mass to some particles, you can study a simplified version of that. And so what we do, and I think one of the key moves in, at least in my training in physics is to take really complicated systems. This often gets talked about as physicists just study spherical cows.\n\nSpeaker 1 | 41:18 - 41:36\nAnd and I think that that, like, kind of misses the point. Like, you you study if if the spherical cow is sufficient to describe the thing that you care about, then you did a good job. And if not, you did a bad job. You don't try to retreat to a setting that's simple enough where you can make pro where you can, like, calculate something. You try to retreat to the setting that's simple enough that contains the thing that you care about.\n\nSpeaker 1 | 41:36 - 41:56\nAnd then you you have no idea whether you can make progress there or not. But once you did, you sort of understand what the problem is. And you and that's that's like a lot of the work in in physics. And I and the same thing is true in AI. You have these crazy, huge systems that have all sorts of interesting phenomena, and and, you know, if you think about it the right way, they don't grok.\n\nSpeaker 1 | 41:56 - 41:57\nThere's just this nice continuity.\n\nSpeaker 2 | 41:57 - 42:08\nDo you think there could be an equivalent in AI to thermodynamics, meaning, you know, a compact theory that predicts behavior without tracking every individual bit?\n\nSpeaker 1 | 42:08 - 42:50\nYeah, Kaplan Mechanelich's OpenAI scaling laws work originally is is a version of this where you throw away, you know, all you know about the network is how many parameters it is and how how much you've how much data you've trained it on it, and you you can predict, like, the the final loss. I think the the missing piece is going from all the individual weights and biases and and how does that add up to the scaling law. I have some very, like, initial work with and there's some other initial work about, like, trying to bridge that connection. But, like, I think that's that's the missing piece, like, sort of statistical mechanics to thermodynamics of how do we like, how do these things emerge? But there's definitely a lot of useful effective descriptions of how these systems behave.\n\nSpeaker 1 | 42:51 - 43:08\nI think the other part of your question is, like, is it is enough to characterize everything that we care about. Right? There's probably a lot there's a lot that we care about other than just the final loss function. And so there's there's more thermodynamics to be worked out in addition to, like, how does the thermodynamics arise from the microscopic description.\n\nSpeaker 2 | 43:08 - 43:26\nSo at at that conference a year ago, you you jokingly, predicted the nine years to Einstein level AI. What do you think, all jokes aside, we are on that on that spectrum of, just, AI, creating scientific discovery. I mean, that's where we started the conversation and curious about where this is going.\n\nSpeaker 1 | 43:27 - 44:18\nThe joke maybe it's helpful to deconstruct a joke as as as it always is, but the the joke was that taking the doubling time for the amount of work a system can do autonomously and figuring out how long it would take us to get to a system that can think eight years on its own. Because Einstein spent eight years discovering general relativity, and I projected that out and it was, like, nine years from last year. So that that, like, something I I hate making predictions, but I'm pretty sure something will break before that. I I mean, in in general, we're not just gonna, like, set up a system and let it think autonomously for eight years, if anything, because, like, the systems eight years after will be so much more powerful that it probably doesn't make sense to let a system think for a certain amount. You know, there's this amount of time it takes for the system to improve.\n\nSpeaker 1 | 44:18 - 45:13\nThen there's the amount of time it's thinking and like, probably when those cross, like, all these scaling laws are going to to break in in in certain ways. I do think that the kind of thing that that I was trying to talk about about, like, how we as physicists approach problems, that the structure and flavor of that is maybe different than here's, like, a very well defined thing and go and do a calculation, which is like what these Erdos problems are. I think probably we'll need to have some ideas to bridge from from one to the other. I don't think it's it's not obvious whether it has to be a discontinuous thing or or or smoothing, but, know, there's part of the scientific process, I think that the models haven't been imbued with yet. And I'm sure people are thinking about how to how to how to do that, you know, like what trying to get to what is the right question as opposed to, here's a well defined thing and go calculate, and some of that involves research taste.\n\nSpeaker 1 | 45:13 - 45:16\nThat's not an easy, easily verifiable thing.\n\nSpeaker 2 | 45:16 - 45:22\nIs that what would convince you that AI is doing genuine original science?\n\nSpeaker 1 | 45:22 - 45:51\nNo, I'm convinced, and I think we're going to like, like, this is clearly I think the the unit distance problem is a is a is a great example. And unlike the also just being able to take a position that is contrary and think for an extremely long amount of time, explore lots of different options, and bring to bear the full weight of disparate fields, like, where something you know, it's very unlikely to find a human that has the exact set of skills to solve some of these problems. Right? That's a huge that's a huge thing.\n\nSpeaker 2 | 45:51 - 46:02\nHow far do you think we are from AI research actually automating itself? Not not just AI researchers using AI, but, like, AI autonomously building AI.\n\nSpeaker 1 | 46:02 - 46:41\nYeah, I think it's again, one of these smooth things where we're like, it's already doing pieces of it now, it'll do more in the future. And there's, I know there's strong versions of this that that people like to think about, but, know, I'm not sure that we'll see like a really sharp phase transition versus just more and more pieces of, you know, right now a lot of coding that would take people weeks can be done very efficiently with models. So like some of these math discovery problems, there's also versions of this where for engineering, model, the models are playing a more central role. And so I think that will just, there'll just be more of that. I think that there's a kind of scientific thinking that, that humans still seem to be very useful for doing.\n\nSpeaker 1 | 46:41 - 47:08\nAnd, you know, I don't wanna make specific predictions about when or how. I can imagine, like, it's you don't wanna be caught on record saying the models won't be good at something because you'll you'll definitely be wrong. Or maybe I I should say that, and then the models will be good that at immediately. And so I should pick the things that I want the models to do and say that they'll never do that. I think it's also just hard to make predictions, because I think the way in which people made predictions before, like the actual ways things shook out often are are not in that direction.\n\nSpeaker 1 | 47:08 - 47:41\nAnd so, know, it's it's another sort of credit assignment thing. Like if you have this long chain of things that has to happen for whatever happened, then anything that breaks that chain means your prediction, like it's just it's just way off. And so but in the, you know, in the I can make a very long distance prediction, you know, for the next six months, like, I think we'll see more of these sorts of math and science breakthroughs. And obviously, we'll turn this sort of thing on on AI itself, and the models will get a lot more powerful. And that'll be fun, you could think about, you know, that you could do science of AI and have it feel like doing doing physics.\n\nSpeaker 1 | 47:41 - 48:18\nAnd that's true. Another really exciting thing is that, like, entered physics thinking that I would, you know, when you first start learning a field, and maybe you want to commit to it, at least the perspective I had is that, oh, by the time I get to the end, I'll know all the answers, right? All the all the fundamental questions, obviously, like this is a journey, and at the end of the journey, it'll resolve. And then, I don't know, maybe it was in grad school or maybe when I switched to AI, I realized, oh, like, some of these questions will stay open maybe forever. Maybe I'll never get to learn the answers, you know, watching older colleagues as well start to retire and and realize that they may not get to learn the answers.\n\nSpeaker 1 | 48:18 - 48:35\nBut I feel really excited that that, you know, we will get to really answer a lot of fundamental questions in in the field of science that that we care about with with the aid or maybe the models being the driving force. And so that, yeah, that that's just really thrilling.\n\nSpeaker 2 | 48:35 - 48:43\nWell, that feels like a wonderful place to live it. Dan, you gave us plenty to ponder. Really appreciate your spending time with us today. Thank you.\n\nSpeaker 1 | 48:43 - 48:44\nThanks for inviting me. It was a pleasure.\n\nSpeaker 2 | 48:46 - 49:04\nHi. It's Matt Turk again. Thanks for listening to this episode of the MAD podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode. This really helps us build a podcast and get great guests.\n\nSpeaker 2 | 49:04 - 49:05\nThanks, and see you on the next episode."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2066705614454337663",
+            "text": "guys \n\ngoblingate was 1.5 months ago https://t.co/5R9y0wqfPf",
+            "createdAt": "2026-06-16T02:13:10.000Z",
+            "url": "https://x.com/swyx/status/2066705614454337663",
+            "likes": 120,
+            "retweets": 1,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2066673191783665722",
+            "text": "And coming to the Web in another week or so!",
+            "createdAt": "2026-06-16T00:04:20.000Z",
+            "url": "https://x.com/joshwoodward/status/2066673191783665722",
+            "likes": 61,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066673011554435450",
+            "text": "Our mic icon just got way better on Android and iOS! This is HUGE for non-English speakers.\n\n+ now 70+ languages\n+ mix languages freely\n+ don't have to change language settings\n+ still doesn't interrupt you :) https://t.co/KQuUyC52fl",
+            "createdAt": "2026-06-16T00:03:37.000Z",
+            "url": "https://x.com/joshwoodward/status/2066673011554435450",
+            "likes": 702,
+            "retweets": 49,
+            "replies": 73,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066664862671921259",
+            "text": "Want unreleased @GeminiApp features before anyone else? Love breaking, testing, and shaping new tech?\n\nWe're opening a limited number of slots for power users to join the Gemini Trusted Tester program.\n\nSign up here: https://t.co/kSsRsavJPv https://t.co/6sxYCb8S0y",
+            "createdAt": "2026-06-15T23:31:14.000Z",
+            "url": "https://x.com/joshwoodward/status/2066664862671921259",
+            "likes": 897,
+            "retweets": 77,
+            "replies": 249,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "tweets": [
+          {
+            "id": "2066756347438469602",
+            "text": "I have to give @cursor_ai credit for planning the best dinner that was Michelin quality.",
+            "createdAt": "2026-06-16T05:34:46.000Z",
+            "url": "https://x.com/petergyang/status/2066756347438469602",
+            "likes": 14,
+            "retweets": 0,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066753125197967653",
+            "text": "Codex browser use is so good that it almost makes me forget APIs are even needed",
+            "createdAt": "2026-06-16T05:21:58.000Z",
+            "url": "https://x.com/petergyang/status/2066753125197967653",
+            "likes": 72,
+            "retweets": 1,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066752332197716285",
+            "text": "1) What https://t.co/UX2vVhspvD",
+            "createdAt": "2026-06-16T05:18:49.000Z",
+            "url": "https://x.com/petergyang/status/2066752332197716285",
+            "likes": 183,
+            "retweets": 6,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2066533806694080898",
+            "text": "Whichever lobbyist made this happen is an absolute legend https://t.co/tiElSlwPMj",
+            "createdAt": "2026-06-15T14:50:28.000Z",
+            "url": "https://x.com/thenanyu/status/2066533806694080898",
+            "likes": 26,
+            "retweets": 2,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2066700847187140655",
+            "text": "Who needs Fable when you can have Mistral’s Le Chaton Fat",
+            "createdAt": "2026-06-16T01:54:14.000Z",
+            "url": "https://x.com/amasad/status/2066700847187140655",
+            "likes": 1044,
+            "retweets": 45,
+            "replies": 78,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066683949129330817",
+            "text": "I absolutely love Replit’s domain-specific agents:\n\n- growth agent surfacing SEO issues\n- security agent surfacing potential vulnerabilities\n\nMy favorite thing is: select all, fix with Agent. https://t.co/7TrK2UpNXQ",
+            "createdAt": "2026-06-16T00:47:05.000Z",
+            "url": "https://x.com/amasad/status/2066683949129330817",
+            "likes": 134,
+            "retweets": 5,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066557465991557491",
+            "text": "Touch grass…. AND build things. At the same time https://t.co/mpRp8P0XCM",
+            "createdAt": "2026-06-15T16:24:29.000Z",
+            "url": "https://x.com/amasad/status/2066557465991557491",
+            "likes": 93,
+            "retweets": 5,
+            "replies": 19,
+            "isQuote": true,
+            "quotedTweetId": "2066529449416278165"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2066567117562868009",
+            "text": "v0 commits to shipping the best skills by default. \n\nOur goal is to give you the equivalent of a @vercel product engineer like @shuding and @shadcn on each prompt.\n\nBut you can also now grab any skill from https://t.co/pYz1Gn97jD or add your team’s private set. https://t.co/s2tHUBYNC4",
+            "createdAt": "2026-06-15T17:02:50.000Z",
+            "url": "https://x.com/rauchg/status/2066567117562868009",
+            "likes": 163,
+            "retweets": 12,
+            "replies": 19,
+            "isQuote": true,
+            "quotedTweetId": "2066555389622284288"
+          },
+          {
+            "id": "2066556235961237826",
+            "text": "A sandbox\nA function\nA server\nA build \n\nAre you getting it!? These are all expressions of the same underlying compute infrastructure.\n\nWith tweaks to load balancing, concurrency, persistence, overcommit…\n\n2026 is the year serverless and servers finally converge. With no gotchas",
+            "createdAt": "2026-06-15T16:19:36.000Z",
+            "url": "https://x.com/rauchg/status/2066556235961237826",
+            "likes": 468,
+            "retweets": 12,
+            "replies": 41,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066553521978097921",
+            "text": "One of our most requested features, longer Vercel function runtime, is here.\n\nWhat looks like an innocent tweak of a constant… is actually the conclusion a multi-year compute platform investment.\n\nBuilds, Sandbox, and now Functions run on our homegrown microVM-based Fluid compute infrastructure.\n\nThis investment has enabled innovations like function multi-concurrency, Active CPU pricing, and Secure Compute for private connectivity to existing cloud workloads… with lots more to come, in fact, in the coming days and weeks 😎",
+            "createdAt": "2026-06-15T16:08:49.000Z",
+            "url": "https://x.com/rauchg/status/2066553521978097921",
+            "likes": 509,
+            "retweets": 12,
+            "replies": 45,
+            "isQuote": true,
+            "quotedTweetId": "2066550425550209310"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2066735879213994434",
+            "text": "Key post that gives a bit of insight into what the future of AI could look like.\n\n“The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming increasingly customizable. The companies that win won't necessarily be the ones with the biggest models. They'll be the ones that turn intelligence into something uniquely their own.”\n\nThe ability to combine your unique data, workflows, and a layer that can route intelligence to whatever model best performs the task is clearly the future.",
+            "createdAt": "2026-06-16T04:13:26.000Z",
+            "url": "https://x.com/levie/status/2066735879213994434",
+            "likes": 178,
+            "retweets": 23,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2066403957824688462"
+          },
+          {
+            "id": "2066554018953146689",
+            "text": "It’s very easy to say “we need an FDA for AI” or some equivalent government agency. Well this is what that would look like.\n\nThe capabilities of AI models have near infinite permutations. It’s going to be very hard have a purely objective set of metrics that can be universally applied before every model release, without extended back and forth, research, and debate between model labs, academics, and the government. \n\nNow, imagine this same process with every country that you’re doing business with, globally, for every single model release. Add in a backlog of dozens of AI model releases, and you can quickly see how in the limit this will dramatically slow down all AI progress. \n\nThis is why we need to primarily focus on regulating the applied uses of AI, where the risk actually shows up.",
+            "createdAt": "2026-06-15T16:10:47.000Z",
+            "url": "https://x.com/levie/status/2066554018953146689",
+            "likes": 151,
+            "retweets": 18,
+            "replies": 37,
+            "isQuote": true,
+            "quotedTweetId": "2066495053221286271"
+          },
+          {
+            "id": "2066526720480690221",
+            "text": "Open source going to win big https://t.co/qYcpy56OmT",
+            "createdAt": "2026-06-15T14:22:19.000Z",
+            "url": "https://x.com/levie/status/2066526720480690221",
+            "likes": 413,
+            "retweets": 28,
+            "replies": 48,
+            "isQuote": true,
+            "quotedTweetId": "2066505250606022876"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2066728979978244355",
+            "text": "Attention is all you need https://t.co/PbSruYTMXZ https://t.co/q9GYL5kq9v",
+            "createdAt": "2026-06-16T03:46:01.000Z",
+            "url": "https://x.com/garrytan/status/2066728979978244355",
+            "likes": 456,
+            "retweets": 39,
+            "replies": 32,
+            "isQuote": true,
+            "quotedTweetId": "2066543765825945842"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2066587619132146164",
+            "text": "Key lesson: don't ignore your DMs on LinkedIn (he got recruited to the national Cabo Verde team via a couple of LinkedIn messages)\n\nProbably some lessons for B2B sales as well https://t.co/ovEtx6J1Td",
+            "createdAt": "2026-06-15T18:24:18.000Z",
+            "url": "https://x.com/mattturck/status/2066587619132146164",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2066586691347841172"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2066601470678749270",
+            "text": "This is great UX, so intuitive https://t.co/w4iqTafSF2",
+            "createdAt": "2026-06-15T19:19:20.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066601470678749270",
+            "likes": 15,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2065494112669966660"
+          },
+          {
+            "id": "2066579717285957692",
+            "text": "I just reached 70k followers on X 🙏🏼 \n\nX is where I learn in public &amp; build in public. I've learned so much and met so many wonder people here\n\nIf you're curious about how I grew my followers while being completely authentic, read my article below https://t.co/01IIgDs9yL https://t.co/pI8h5ImOda",
+            "createdAt": "2026-06-15T17:52:54.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066579717285957692",
+            "likes": 168,
+            "retweets": 4,
+            "replies": 33,
+            "isQuote": true,
+            "quotedTweetId": "2035758067116359902"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2066701833964531736",
+            "text": "I now know 32 VCs who have moved back to operating in the last 12 months.. everyone from associates to GPs. \n\nMaybe it’s this way all the time and I’m just noticing it, but the pace seems to be accelerating. And they seem much much happier? \n\nFrom a professional perspective, it makes sense especially if you are junior. You get to work directly with customers and work as a team. A lot more autonomy than having to pander to GPs. \n\nFrom a compensation perspective too, why wait for carry for 13 years when you can have a chance of liquidity a lot sooner. \n\nAs someone who had been operating for a while but loving venture rn, I completely get the trade. To the remaining players, see you on the field 🫡",
+            "createdAt": "2026-06-16T01:58:09.000Z",
+            "url": "https://x.com/nikunj/status/2066701833964531736",
+            "likes": 95,
+            "retweets": 0,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2066471737068232835",
+            "text": "Wanted to buy a new Mac Studio for San Francisco.\nWe don’t even know how to make these anymore. https://t.co/WH1vRjDDHK",
+            "createdAt": "2026-06-15T10:43:49.000Z",
+            "url": "https://x.com/steipete/status/2066471737068232835",
+            "likes": 1443,
+            "retweets": 23,
+            "replies": 116,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066458424041251244",
+            "text": "IS THIS A LOOP",
+            "createdAt": "2026-06-15T09:50:55.000Z",
+            "url": "https://x.com/steipete/status/2066458424041251244",
+            "likes": 45,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066457262571360396",
+            "text": "Whenever you create an issue on one of oure open source projects, @clawsweeper will review it, and *if* it fits the VISION.md file, will pick it up and create+autoreview a PR.\n\ne.g.: https://t.co/Q4xOh8RFVp",
+            "createdAt": "2026-06-15T09:46:18.000Z",
+            "url": "https://x.com/steipete/status/2066457262571360396",
+            "likes": 261,
+            "retweets": 16,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+        "url": "https://claude.com/blog/new-in-claude-managed-agents",
+        "publishedAt": "May 06, 2026",
+        "author": "",
+        "description": "",
+        "content": "Today we&#x27;re launching dreaming in Claude Managed Agents as a research preview. Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve. We&#x27;re also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering. Build self-improving agents with dreaming Dreaming is a scheduled process that reviews your agent sessions and memory stores, extracts patterns, and curates memories so your agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land. Dreaming surfaces patterns that a single agent can’t see on its own, including recurring mistakes, workflows that agents converge on, and preferences shared across a team. It also restructures memory so it stays high-signal as it evolves. This is especially useful for long-running work and multiagent orchestration. Together, memory and dreaming form a robust memory system for self-improving agents. Memory lets each agent capture what it learns as it works . Dreaming refines that memory between sessions , pulling shared learnings across agents and keeping it up-to-date. Dreaming is available in Managed Agents on the Claude Platform; developers can request access here . Deliver better outcomes With outcomes , you write a rubric describing what success looks like and the agent works toward it. A separate grader evaluates the output against your criteria in its own context window, so it isn&#x27;t influenced by the agent&#x27;s reasoning. When something isn&#x27;t right, the grader pinpoints what needs to change and the agent takes another pass. Agents do their best work when they know what \"good\" looks like. For example, a structural framework, a presentation standard, or a set of requirements that need to be met. With outcomes, agents can check their work against that bar and self-correct until the output is good enough, without a human needing to review each attempt. Outcomes is particularly useful for tasks that require attention to detail and exhaustive coverage. It also works for subjective quality, like whether copy matches a brand voice or a design follows visual guidelines. In testing, outcomes improved task success by up to 10 points over a standard prompting loop, with the largest gains on the hardest problems. Outcomes also improved file generation quality, with +8.4% task success on docx and +10.1% on pptx in our internal benchmarks. You can also now define an outcome, let the agent run, and get notified by a webhook when it&#x27;s done. Handle complex tasks with multiple agents When there is too much work for a single agent to do well, multiagent orchestration lets a lead agent break the job into pieces and delegate each one to a specialist with its own model, prompt, and tools. For example, a lead agent can run an investigation while subagents fan out through deploy history, error logs, metrics, and support tickets. These specialists work in parallel on a shared filesystem and contribute to the lead agent&#x27;s overall context. The lead agent can check back in with other agents mid-workflow because events are persistent and every agent remembers what it&#x27;s done. You can also trace every step in the Claude Console : which agent did what, in what order, and why, giving you full visibility into how your task was delegated and executed. What teams are building Teams are using dreaming, outcomes, and multiagent orchestration to ship agents that verify their own work, learn across sessions, and parallelize complex jobs: Harvey uses Managed Agents to coordinate complex legal work like long-form drafting and document creation. With dreaming, their agents remember what they learned between sessions, including filetype workarounds and tool-specific patterns. Completion rates went up ~6x in their tests. Netflix&#x27;s platform team built an analysis agent that processes logs from hundreds of builds across different sources. With changes that affect thousands of applications, what matters is finding the issues that recur across many of them. Multiagent orchestration lets the agent analyze batches in parallel and surface only the patterns worth acting on. Spiral by Every is using multiagent orchestration and outcomes to power the writing agent behind their new API and CLI. The lead agent runs on Haiku : it fields incoming requests, poses quick follow-up questions when needed, then delegates the drafting to subagents running on Opus . When a user asks for multiple drafts, the subagents run in parallel. Writing quality is Spiral&#x27;s core value, so they use outcomes to enforce it. Each draft is scored against a rubric of Every&#x27;s editorial principles and the user&#x27;s voice, both pulled from memory. Only drafts that clear the bar are returned. Wisedocs built a document quality check agent on Managed Agents, using outcomes to grade each review against their internal guidelines. Reviews now run 50% faster, while staying aligned with their team&#x27;s standards."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 12,
+      "totalTweets": 25,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-06-16T08:20:57.835Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    },
+    "errors": [
+      "Podcast feed problem: Podcast: Transcript error for \"Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+}
