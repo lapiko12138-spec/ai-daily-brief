@@ -1,0 +1,586 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-18T13:54:30.030905+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 16,
+    "totalTweets": 34,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-06-17T08:13:23.213Z"
+  },
+  "digest_generated_at": "2026-06-18T05:54:29.942Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-18T05:54:29.942Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "Training Data",
+        "title": "Simulating Humans at Scale: Simile's Joon Sung Park",
+        "guid": "e2c76d2e-68ea-11f1-b835-0fa4c8d306ac",
+        "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
+        "publishedAt": "2026-06-16T09:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:35\nI am somebody who is quite inspired by science fiction. And when you read science fiction that covers societies that have progressed far enough in its technological maturity, you always see two pillars. You have some version of AGI, and you have some version of simulations that really help guide the society. I do see an opportunity today to really take the first crack at building the simulation. I would not have said that even five years ago, but that is a conviction that we have built up over the years as we're going deep into this research.\n\nSpeaker 2 | 00:52 - 01:04\nToday, we're delighted to have June, founder and CEO of Simile. Simile is building an applied AI lab simulating human behavior and societies. And I'm very excited to have you here to discuss what you're building.\n\nSpeaker 1 | 01:04 - 01:05\nSame here. Thanks for having me.\n\nSpeaker 2 | 01:05 - 01:13\nOkay. Take me back to April 2023, Stanford, California, specifically Smallville, Stanford, California. What was that?\n\nSpeaker 1 | 01:13 - 02:10\nSo Smallville was a project that we were running at Stanford, where the idea was that we made this observation that large language models can now encode a lot of human behavior that is embedded in its training data from the web and social media and so forth, that if you sort of prove at the right angle, you can actually get a lot of microbehaviors out of these models. So given a very specific demonstration or description of a situation, what would person X do, and it would actually generate really interesting behaviors? We found that to be so interesting, and we found that to be the ingredient that we had been waiting for for creating really complex agentic behaviors. So Smallpit actually was an experiment where we decided that if we push this as far as possible, what would a society that is created by these agents look like? So we basically created generative agents that is paired with generative AI model with memory, planning, and reflection to basically create this lived experience of agents living in this small town.\n\nSpeaker 1 | 02:10 - 02:29\nSo Smallville was basically a game town of 25 agents living in it. Individual agents had a description of persona, but they would actually wake up the morning, do their routines, go to work, actually have relationships, sort of like people would, and they would actually have emergent phenomena, like having parties and so forth. So that was the experiment that we ran.\n\nSpeaker 2 | 02:29 - 02:33\nWhat was the most surprising things to come out of the experiment?\n\nSpeaker 1 | 02:34 - 03:06\nSo, one of the surprising things was, so the experiment, the simulation itself actually sets place the day before Valentine's Day. So you actually see these agents, one of the agents actually thinking, Well, I run a cafe, so she's a cafe owner. Her name's Isabella. She goes and thinks, It would be great if I can do a Valentine's Day party where we invite a lot of friends, customers. So you actually see her on the day before Valentine's Day going around, actually gathering materials for the party, actually telling our customers, Hey, we're going to have this party.\n\nSpeaker 1 | 03:06 - 03:14\nPlease come. And on the day of Valentine's, you actually see this immersion party that actually gets formed with all these agents coming to the baseplate cafeteria.\n\nSpeaker 2 | 03:14 - 03:15\nDid anyone not get invited?\n\nSpeaker 1 | 03:15 - 03:32\nWell, some of the people did get the invitation, but they forgot. That's one thing that did happen. Some of the agents did not explicitly get invited, but we had one agent who got the invite, Klaus, who decided to ask his crush out on a date. So he would actually bring in the date. They would actually have a party at this cafe.\n\nSpeaker 1 | 03:32 - 03:33\nSo quite surreal.\n\nSpeaker 2 | 03:33 - 03:45\nSo how'd you end up building's model in the first place? Like, you studying kind of human psychology and social behavior, or was the this coming customer back, or was it coming from the technology out?\n\nSpeaker 1 | 03:45 - 04:04\nSo my particular team has been excited about simulations, and we saw the vision of simulation failure early on. So my career as a researcher at Stanford really started back in 2020. That was the year when GPT-three was about to come out. It wasn't quite there yet, but it was just about to come out. We started to get its first demos.\n\nSpeaker 1 | 04:04 - 04:55\nAnd my first year, we wrote this paper called Opportunities and Risks of Foundation Model, alongside many of the Stanford researchers, and was led by one of my co founders, Percy Liang, who is now the head of the Center for Foundation Model at Stanford. And when we were writing that, the part that I was really focused on was, well, here's a new class of models that we have not seen in the past, that these models that can be very generalizable in ways we didn't quite have in the past. And I got into thinking, well, if we can imagine the kind of interaction we can create with these models, what would that be? And many of my colleagues back then were surprised that these agents or these models can do classification or simple generation, and that was really incredible to see because these models didn't really know or wasn't really taught to do that. But the part that was surprising to me wasn't that these models can do that, because from interaction perspective, we've known how to do this for a long time.\n\nSpeaker 1 | 04:55 - 05:43\nThe interesting part was, well, these models can actually encode human behavior. What does that mean if we were to push this as far as possible? So part of the tradition that come from research included what we call social computing. And social computing within human computer interaction really has to do with this idea of how can we build a better technological platform that would enable social interactions and collaboration. One of the most difficult challenges of building a social platform is not necessarily testing the UI UX of the system, but it's more about when you have tens of people, millions of people, and down the line billions of people, how do all these people come together to create the emerging phenomenon that's both good and bad, and how can we design for a scale?\n\nSpeaker 1 | 05:44 - 06:20\nAnd so far, we didn't really have a tool that would enable us to test for that. The only way we test it today is you basically field test it. You release your prototype, see what happens, and sometimes it actually comes at a real cost. Obviously, it's high cost in terms of human hours and the time it takes, but at the same time, if you have a bad design, imagine you have a feed on social media that is more likely to propagate certain emotion that is negative, then obviously that is something that we want to avoid, but this now gets tested in the in the field. So we wanted to see whether we can actually create a simulation that would actually let you test for this.\n\nSpeaker 1 | 06:20 - 06:48\nSo 2022, this was actually a year before generative agents, we worked on a paper called Social Simulacra, which actually really was the precursor to the agent paper that we ended up writing. The core thesis was, imagine you're building a subreddit. You're a designer on a subreddit. You want to see what people might do in the subreddit, which is surprisingly hard task, even for practice designers. And we basically decided, hey, we have this model, seems unique, let's use this model to create simulations of the entire subreddit.\n\nSpeaker 1 | 06:49 - 07:30\nSo you define the goal, you define the moderation strategies, and you populate it with thousands of, back then we didn't call them agents, but we call them personas, but populated with thousands of personas. This is basically 22 version Mode Book, which is quite interesting that it actually came back, and when we saw that, we actually got a lot of really important insights out of this. What are the good behaviors? We actually stimulated a community where the entire idea was for people to discuss with each other the places to sightsee in Pittsburgh. And all of a sudden, you start to see these personas actually collaborate to actually discuss, Hey, XYZ places are amazing, do you want to actually go to a trip together?\n\nSpeaker 1 | 07:30 - 07:57\nAnd actually plan those trips live in the simulator subreddit. So that's how we got excited. So we saw the vision and the excitement and the potential applications fairly early on, but then the work that we had to do was then demonstrating how can we go beyond simple personas to create complex agents that actually can think over time, because we want to simulate the longitudinal aspect of our society, and then actually validating that these simulations are actually accurate in practice.\n\nSpeaker 2 | 07:57 - 08:08\nWas there a point of model evolution at which you felt like, Okay, we're there. The models are good enough for us to actually have a faithful representation of human society.\n\nSpeaker 1 | 08:08 - 08:27\nSo, GPT-three, when it came out, and Social Simulacra was built with GPT-three, and it was very janky. It didn't do any instruction tuning. It did not follow your instructions. So just to have it to listen to you and do what you want it to do, you had to do some weird tricks with prompting and so forth. But you could actually see the promise.\n\nSpeaker 1 | 08:27 - 08:56\nThe model actually have encoded a lot of human behavior, and you could actually see the trajectory. And when we had the generative agents paper, it wasn't quite JBT, but we now had instruction tuning, so we could actually build much more complex agents that can reason about its memory. That wasn't really possible when we did social simulacra. And since then, of course, the models have improved. So where we are today is the models at its foundation level have reached a point where we can actually imagine building these kind of applications.\n\nSpeaker 1 | 08:57 - 09:24\nNow the part that actually I do think, however, that's quite interesting here, today, if you look at many of the large language model companies, whether it's OpenAI, Anthropic, and many of the new labs that are getting formed, the models they are creating are models that I would consider to be their north star to be something that is similar to, let's build a superintelligent machines. These machines are meant to be rational, and these machines are supposed to be really amazing at technical problems that have an objective answer.\n\nSpeaker 2 | 09:25 - 09:29\nSo maybe that's not even the best simulation of true human society then.\n\nSpeaker 1 | 09:29 - 10:02\nTurns out, people are irrational. We have a lot of subjective values, preferences and tastes. So you actually start to see divergence in model size going up and the performance in its ability to predict and simulate human behavior. So we have sort of plateaued with current modelling paradigm, our ability to really simulate humans. So it is sort of at the starting good foundational level, but to make it really amazing, we do need the next frontier that is more geared towards actually modelling people's diversity.\n\nSpeaker 2 | 10:02 - 10:10\nVery interesting. At what point did he realise that, you know, what you did with Smallville could become a company?\n\nSpeaker 1 | 10:10 - 10:44\nRight. So, again, the promise of application was something that I was very much inspired by early on by simulation with social simulacra and so forth. But the part that I realized over time is research and a company have very different function. Research is an amazing vehicle if you want to basically do breadth first search. You are in a lab surrounded by a really smart set of people, and each of our each of the researchers own a small piece of thesis, and they go explore some of those thesis blossoming to amazing research product.\n\nSpeaker 1 | 10:45 - 11:01\nBut we're not necessarily known for finishing our job. We're not usually the one to bring that research impact to the real world. Company is a machine for depth first search. You have a conviction on an area. You find a hill that you want to climb.\n\nSpeaker 1 | 11:01 - 11:45\nThis is the vehicle that let you put together resources and an amazing group of people to go after a singular vision without hesitation. And we got that conviction, I would say, about half a year after generative agents. After the original generative agents paper, we got so much inbound interest initially from actually social scientists who wanted to run their experiments and all the r c RCTs on our platform. Then very soon after, many of the Fortune 500 companies who saw this demo and their board members and CEOs who sometimes visit Stanford saw that, and they started asking, well, we go run all these surveys and experiments, and there's so many research questions about the market that we cannot answer today. Can we run that in simulation?\n\nSpeaker 1 | 11:45 - 12:24\nThat started to really intrigue me because that showed a clear line towards a real world impact for research, which is not always the case that we have that kind of opportunity. So that is when we decided we actually want to validate the simulations are accurate. So we went out and actually created simulations of 1,000 people of The US population. We demonstrated that using our architecture and the models, we can actually predict people's behaviors 85% as accurately as people replicate their own. When we saw that, we thought, okay, this is something that we feel comfortable providing to our users as a platform for assimilating their really important decisions.\n\nSpeaker 1 | 12:24 - 12:42\nSo that's when the cofounders, myself, Percy, as well as Michael Bernstein, was a researcher and my adviser at Stanford. Both of them were actually my advisers. So the three of us have been working together for five years, and now at this point, a similarly six years. But that's when we got together to have the initial conversation of, Can this be a company?\n\nSpeaker 2 | 12:42 - 12:58\nGot it. Amazing. Maybe walk me through a customer engagement end to end today. Like, who's a canonical customer and which department? And they come to you, what are they asking you, and what product or service do you deliver to them?\n\nSpeaker 1 | 12:58 - 13:39\nRight. So maybe an example that I can give to make this concrete. So CVS has been partnering with Simuli for the past, I would say, nearly half a year, and they've been an amazing partner. The way we initially got in touch with, so our main buyer at CVS is the lead, is a senior VP who leads human insights. And the original story there was he he basically read my paper that validated the agent simulations and thought, We have to bring this to CVS because today we are bottlenecked by the number of questions we can field test, and we are also bottlenecked by truly the physics of human society.\n\nSpeaker 1 | 13:39 - 14:24\nIt's one thing to ask surveys and experiments, totally different thing if down the line you actually want to simulate the entire market and actually map out all the second order impact of the decisions you suggest to your leadership. So he's been looking around for that solution, and his cousin happened to know me and basically told our buyer, Sri, that the authors of the paper are actually looking to start something. So that's how we got connected. And in this particular engagement, usually the way this goes is our customers are very much used to working with polling companies or panel companies today. And there they go and basically ask these companies, x y z are the populations that we are interested in better understanding.\n\nSpeaker 1 | 14:24 - 15:00\nCan we go run a research study of these topics? That initial stage looks very similar for a simile. So our buyers come and they tell us, we want to better understand XYZ population. Then SIMILI goes out, and we have, through our partnership with vendors, we have a strategic partnership now with GALIP, for instance, who is a pooling and panel company, where we go out, work with our vendors to actually reach out to real humans. So these simulations are grounded in real data, but reach out to those people, collect data that we believe are efficient and generalizable about that person.\n\nSpeaker 1 | 15:00 - 15:26\nSo imagine you fifteen minutes, what are the magical questions you can answer or you can ask these people during that time? We collect that data, use that data to create agents or simulations of these people that can basically be used to answer a large number of questions that goes way beyond the original domain. We load that onto our platform, and it's basically a SaaS product. Our customers come and they can basically ask any questions about the group of people of their interest.\n\nSpeaker 2 | 15:26 - 15:39\nSo interesting. It reminds me of, in autonomous vehicles, you you go and collect a bunch of data from the road and then you're able to augment it with simulation. Is this a similar concept or are there big differences to what you're doing here?\n\nSpeaker 1 | 15:39 - 16:10\nIt is similar concept in the sense that, of course, the self driving vehicles, you want to create model that is based on real world physics, but you want to create a model that is generalizable beyond your training data. It needs to be generalizable in two different locations with different weather conditions, very similar concept, where what we want to create is we want to reach out to real people, and for these people, want to understand something fundamental about these people in a way that we can encode into the model.\n\nSpeaker 2 | 16:11 - 16:37\nI would have thought that the large language models would be such a good representation of the whole world that you could almost narrow it down. You could tell, Claude, you are a 34 year old woman living in Bicoastal Metropolitan Area, and it would be able to have a faithful representation. So I'm actually surprised that you go out to Gallup. Maybe can you just explain why you have to go out and collect any real world data at all?\n\nSpeaker 1 | 16:37 - 16:53\nYeah. One of the big questions here is the question around say do gap. There are things that people say, and then there are things that people actually do. And the gap, there is real. And a lot of the large language models are trained on attitudinal data.\n\nSpeaker 1 | 16:53 - 17:25\nFundamentally, it is the things that people have said online that does cover a large quantity of its training data. So one of the things that Simuli's simulation platform does is actually closing that gap. So a lot of the data that we end up collecting, by nature, are behavioral. It also includes data that actually goes into literally questions like, Just tell me the story of your life. Turns out, if we understand the person's story of your life, the kind of data you get from it is what we consider to be the long tail information about this person.\n\nSpeaker 1 | 17:25 - 17:51\nIt's not about what you've done in this particular moment. It's not about very broad questions like what's your view on politics. It's about where you grew up, what were some of the difficult decisions you had to make in life. And what's interesting about this data is it's an amazing way to build a translational layer between attitudes and behavior. So we combine these kind of data sets, but fundamentally, that's the gap that we want to close.\n\nSpeaker 2 | 17:51 - 17:53\nWhat sort of behavioral data do you have?\n\nSpeaker 1 | 17:53 - 18:25\nSo SIMILI does run a lot of experiments. So kind of models that we have trained, for instance, we have a huge repo of RCTs, so randomized control trials that were run-in social scientific context, that were run around pricing studies. So one of the models that we are training is basically the foundation model of human behavior in quite a literal sense. We have all the behavioral signals from RCTs. Can we actually encode that into the model so that the end outcome is a model that can basically predict the results of any RCTs.\n\nSpeaker 1 | 18:25 - 19:07\nAt the same time, one of the conversations that we keep on having with our customers that we're very excited by is our customers then come in, see that potential, and their mind goes to, Wow, we have 90,000,000 customers, let's say, here at CVS. How can we leverage this kind of data to create better simulations? So there's also a conversation around how can we, in a responsible and ethical way, leverage existing data that is also in house for our customers, then use that to create augmented version of Simulis model. So that, of course, is going to be more fine tuned, specific to the population of these customers, but that's the kind of data that we will be leveraging.\n\nSpeaker 2 | 19:07 - 19:14\nI see. And are you doing these interviews typically by voice? Is it a survey that you fill out? Like, what's the modality?\n\nSpeaker 1 | 19:14 - 19:36\nSo it's a huge breadth. Or the quick answer here is it's both. Interviews are fantastic if you want to get the long tail information about people. So we actually do, in the original study that I conducted back in 2024, we'd literally ask a question, Tell me the story of your life. Now, the way we do it is we are training our own model.\n\nSpeaker 1 | 19:36 - 20:17\nSo it's a reinforcement learning loop, but basically imagine the objective function here is how can you spend the minimum amount of time to get the maximum amount of visibility about this person? So that is one of the things that we do. So basically training an interviewer that is not really asking for factual information or an experience about a particular platform, but just what are the life story that people have that can be used to train our own model for these agents. And then for the more factual or sort of more discrete choices, choice questions, surveys, so forth, these are also very efficient. These are time and data efficient because people can fill out many of the questions in short period of time.\n\nSpeaker 1 | 20:17 - 20:27\nSo for those, we actually do leverage them. For instance, if you want to just have a broad understanding of people's viewpoints on certain topics, certain policies, and things like that.\n\nSpeaker 2 | 20:27 - 20:37\nYou describe yourself as an applied AI lab. How do you think about where you want to build your own models versus where you want to rely on other existing models?\n\nSpeaker 1 | 20:37 - 21:33\nSo in terms of building our own model, really the core thesis here is there is an amazing model to be built that really uncoats the diversity of people's values, preferences, and taste in ways that simply a rational model cannot do. So one way I actually pose this, we're sort of building so imagine the current today's model are akin to the CPU of intelligence unit. It's a single model trained on amazingly rational data that is amazing at solving very complex objective questions. Simile's model is much more akin to developing something that is close closer to the GPU of the intelligence unit, where the idea here is we don't actually need a model that is superhuman at Simile. In fact, we want a model that's as human as possible, but we want to make sure that these models at the sort of individual subunits can represent the real viewpoints of different subpopulations.\n\nSpeaker 1 | 21:34 - 21:50\nSo where we see that gap, that's when we go develop our own model, but at the same time, we do leverage frontier models, for instance, as a way to coordinate the research. Frontier models are amazing at coming up with a research plan, so that's where those models actually do get leveraged.\n\nSpeaker 2 | 21:50 - 22:02\nVery interesting. Are people typically coming to you with questions around new product launches, you know, how they should be marketing their companies, pricing, all of the above.\n\nSpeaker 1 | 22:02 - 22:23\nSo it is all of the above. Our customer journey usually does, however, start with very concrete use cases and problems they are trying to solve. Concept testing is a big one. It's also a very straightforward one. So they have a new concept, new product idea, new market message they want to test, and they want to hear from their users what they would think about x y z.\n\nSpeaker 1 | 22:24 - 22:58\nThis is one way for them to quickly test those ideas. And then the promise they quickly see is, well, right now, we're very much in the practice of testing five to 10 different ideas at nodes, but what does it look like for us to test instantly thousand different ideas across thousand different subpopulations? That's the initial vision they see. Then we really get into the nitty gritty details of, well, where does simulation go from here? They then pretty soon start asking, well, can this be used to do product testing, but not just simply submitting an image?\n\nSpeaker 1 | 22:58 - 23:28\nBut imagine basically asking these agents, go experience this product for ten minutes and tell us about what you experienced, what you saw. So you're basically adding temporal dimension. Then you go into things like multi agent simulation. Some of our customers very routinely actually ask us to simulate their earnings call. This is actually a use case that both surprised me at first, but this is also surprisingly a common ask because of course the CEOs and board members always need to think about, hey, how are going to design our earnings call?\n\nSpeaker 1 | 23:28 - 23:34\nHow would the audience react? So that is something that we also do, and this is very much multi agent simulation.\n\nSpeaker 2 | 23:34 - 24:05\nIt seems like there's so many use cases that could potentially be tested once you have a simulated customer population. I'm curious, the value of research and testing in SIEM versus just like, let's say you have a new product concept that you want to test. Why not just go run a thousand Facebook ads and you actually get the click through rates on this stuff? Isn't that real world data almost more useful than the simulated data on how people might behave that you then correct for with your own models?\n\nSpeaker 1 | 24:05 - 24:44\nSo it's a great question. And I think to some extent, here the answer has to do with initially scale, and then down the line, truly the new capability that comes because you can simulate the interactions. The scale question here is actually quite straightforward, where, yes, you can absolutely run Facebook ads and Facebook testing, but the kind of experiments that you can run-in simulation is actual behavior simulation at scale. Right? So you can basically pull in any number of users, doesn't even have to be bounded by the number of population that's available on Facebook, and it's also much more representative because only certain groups of people will actually respond to the online experiments.\n\nSpeaker 1 | 24:44 - 25:20\nBut similarly, the model that we are creating, one of the key promises is that it is representative. We do the hard work of actually getting the representative set of people and then collecting the data that would actually represent them properly. So the scale representativeness is something that many of our users do not have easy access to. This is actually one of the common ask also that we do get or common sort of pain points that we have heard, where the question that many of these people have isn't about what questions do we ask these people, but it's about, in the first place, how can we get to the population that we're excited to talk to? That's a huge bottleneck.\n\nSpeaker 1 | 25:21 - 26:08\nThen down the line, you can actually really start to imagine, and this is something that our customers and some of the most forward looking customers are now going into, which is what are all the downstream implications of the decisions that you make? It's not just about whether imagine you have this particular product, do you like it or do you not like it? Would you pay for this, not pay for this? It's not necessarily just that initial questions that we want to answer and finish, but we want to understand, imagine you're a car company, you launched an electric vehicle in this market, maybe the electric vehicle does really, really well, so we can help you do concept testing around marketing and the product around the electric vehicle, But what does that do to the perception of, let's say, non electric vehicle? Does it change the market perception?\n\nSpeaker 1 | 26:08 - 26:31\nThen what does it mean for the rest of the product line? And how do you balance those kind of second order impact of your decision in a way that is more evidence based? Today, there's no way to test for this. You can run this in simulation. So really going beyond simply asking one question at a time, but then to think about what are the long term implications of your decisions is something that our customers are quite excited by.\n\nSpeaker 2 | 26:31 - 26:47\nI'd love to understand how you think about how predictive your model is in actually simulating real human behavior. I imagine you have lot of evals on this. I guess, what is your North Star metric? How do you guys do on that? And what do you think is the theoretical limit?\n\nSpeaker 1 | 26:47 - 27:19\nIt's a great question. So theoretical limit, and let me just start from there, certainly does exist in the sense that humans are genuinely, there's a lot of randomness, that if you ask me the same question, I'll actually answer the question slightly differently. There is something in that degree of randomness in human behaviour. However, there's a lot of gains in performance that we can have even today in the way we are predicting people. So the measurement that we do is so at the level of population, we measure the distribution of responses if it is more quantitative.\n\nSpeaker 1 | 27:19 - 27:57\nSo we actually measure total various distance, which basically shows how close are the distributions of the ground truth versus the simulated information. And that is a metric that we run across all the use cases that our customers have, and we have certain threshold that we believe is good enough for decision making. So a TVD of, let's say, less than 0.15, we believe, is actually quite strong evidence for making decision. So that is a north star state that we want to hit for this class of use cases that are more quantitative, that's more question and answers. This also does cover RCTs, which is many of the core use cases our customers have.\n\nSpeaker 1 | 27:58 - 28:10\nNow, there's actually a really interesting question to ask around, well, what about multi agent simulation? What about all the downstream implications that we're going to be simulating? What does the evaluation of those look like?\n\nSpeaker 2 | 28:10 - 28:22\nYeah, and then do daisy chain errors as you kind of If this one is 85% accurate and then this agent is telling another agent something, they're Do you accumulate errors as you go towards multi agent?\n\nSpeaker 1 | 28:22 - 28:39\nExactly. And one of the core thesis here is we basically see two categories of simulations. One simulation is what I would consider to be simulations that converge. The other categories of simulations are the simulations that diverge. And sometimes they actually coexist, and it's really about what research questions do you have.\n\nSpeaker 1 | 28:39 - 29:14\nQuestions that converge doesn't actually matter if you have a little bit of error. Now, the error cannot be obviously so dramatic that it sort of is completely detached from reality, but you actually are okay even if the errors do compound over time because the pool towards the convergence is strong enough that you'll actually understand where everything would fall. A good example here actually is if you simulate a network of people, then that network will always have a hub that gets formed. This is what sort of network scientists would call the skill free network, for instance. This is actually what powered Google too.\n\nSpeaker 1 | 29:14 - 29:43\nOne of the core observation of PageRank was it doesn't matter how these networks actually get formulated. You actually see some web pages that get exponentially more links that are attached to it. This is a very fundamental behavior in humans. That we also see in simulated networks, and that convergence always happens as long as you are replicating human behavior with certain threshold accuracy. Now there are then questions that generally do diverge.\n\nSpeaker 1 | 29:43 - 30:13\nIt's like your classical questions like, was World War I inevitable or was it not? And there, it is sometimes difficult to run the same simulation over time and get the same exact outcome. Imagine you're running a This is not something that necessarily simile right now is going into, but imagine you're running a simulation of an election. Will the same person win the election every time? There are a lot of downstream implications of every single decision that does happen, so it does diverge.\n\nSpeaker 1 | 30:14 - 30:35\nThere, the core evaluation is around confidence. So imagine you run the simulation 100 times. How many of those times do the results come out to be x? And how can we actually use that to basically create a bootstrap resampling to calculate the confidence around the simulations? Those are some of the questions that we do ask.\n\nSpeaker 1 | 30:35 - 30:54\nAnd a huge part of this also, of the power of simulation, is then to show when it diverges, to show the diversity of possible outcomes so that people can actually look, understand the cause or mechanism of how we got to those outcomes, and prepare for those features. So those are some of the implications of divergence in simulations.\n\nSpeaker 2 | 30:55 - 31:07\nAre there any mathematical descriptions of like why something would converge or diverge? Like, I'm imagining if you have like an average function, maybe you converge, and then if it's like a, you know, you're splitting outcomes to binary, then you might maybe diverge, but Yeah.\n\nSpeaker 1 | 31:08 - 31:45\nSo the intuition I think is close, and technically this is also a research topic. So similarly, as a company where we do go deep into this research topic, in the sense that I see simulation as a field as akin to developing your day one of inferential statistics. You know, inferential statistics scientists actually had to do a lot of discussion and research over time to decide that P less than 0.05 is actually evidence that is strong enough for science. Similarly, it's working on setting the same kind of threshold and standards for the rest of the field. So those are the intuition.\n\nSpeaker 1 | 31:45 - 31:56\nI think that's exactly the right intuition in terms of actually how to make a robust mathematical equation around what's going to happen when, it is a real research frontier for simulations.\n\nSpeaker 2 | 31:56 - 32:22\nThank you for being nice about my vibe mathing. I'm curious, you know, it seems like So there's a lot of Fortune 500s coming to you. I'm wondering whether there are, you know, non existing corporate use cases that might you know, there are, like, great mysteries of our society that might become solved. And for example, I'm wondering about economics, you know, central bank decisions. Oftentimes, like, personally believe in that macro, nobody knows nothing.\n\nSpeaker 2 | 32:23 - 32:52\nAnd oftentimes, lot of the issues come about from human psychology. So to me, macroeconomics is a function of simulating human behavior at scale. I'm thinking even in the venture capital use case, we often debate internally, does value accrue to this company or not? You could run the simulation of all the different layers of the AI stack and almost figure out where durability and value accrues. You had a kind of perfect simulator of human behavior.\n\nSpeaker 2 | 32:53 - 33:02\nThere's so much more you could do than serving the Fortune 500. Do you agree with that? And then if so, are you serving governments, know, the like?\n\nSpeaker 1 | 33:03 - 33:22\nYeah. So it's interesting. When we were still researching in this area, the way I actually got back then my advisors, Michael and Percy, excited about this was I basically told them, Look, we do this right. There's a Nobel Prize to be won there. And I truly believe that.\n\nSpeaker 1 | 33:22 - 34:10\nAnd it's also not surprising in that your classical economics simulations, things like agent based models, that really pioneered our understanding of back in the day, the kind of topics they studied was, how does segregation happen? What are the cause or mechanism for segregation? So scholars like Thomas Schelling would actually build agent based models that are extremely simple and rudimentary, but that showed something deep about human macro behaviors. And he, of course, went on to win a Nobel Prize. I see the same opportunity here, but in an augmented way, where back in the day, the agent based models were very much deterministic in some sense, where you basically, in this simulation of, let's say, like, motor segregation from, like, thirty years ago, individual agent was simply red dot or blue dot.\n\nSpeaker 1 | 34:11 - 34:43\nAnd every game iteration, they would look around its corner, see how many of its neighbors are of the same color. And if that threshold goes below certain threshold, then they will decide to move to a new location. That was it. But now we can actually create real agents that replicate the full richness of individuals and run the same kind of simulations. So the kind of questions that we can ask that goes beyond simply the commercial use cases, for instance, in context of macroeconomics, actually, the questions that I actually did get asked from economists were things like, When does bank fraud happen?\n\nSpeaker 1 | 34:44 - 35:02\nOr questions like climate change. One of the sort of core blocker of climate, like solving that issue, is the collective action problem of many nations. Can we actually simulate that? Or What are the signals of a democracy that is about to collapse? Can we understand the origin story of the monetary system?\n\nSpeaker 1 | 35:03 - 35:34\nThese are the kind of simulations that I do believe ought to be the North Star State of this field. And it is sort of interesting to imagine, like, what that would actually look like in practice, right, because these would involve very large scale simulations with many agents interacting with each other. I do see a future where, today, this is something not the case. Today, a simulation is quick and fast to run. But what about simulation that takes actually $100,000,000 to run once and could take many months to run?\n\nSpeaker 1 | 35:35 - 35:44\nBut when we run it, it solves one of the fundamental questions of our society. That I do think is genuinely a very exciting possibility for this field. I agree.\n\nSpeaker 2 | 35:44 - 35:58\nI'm even thinking like politics, for example, could be forever changed. Today everyone has an agenda of how they say some policy change will impact things. Well, why don't we just run the simulation?\n\nSpeaker 1 | 35:58 - 36:05\nAnd understand all the downstream implications and not just what's going to happen this year, but what does it mean in the next five to ten years.\n\nSpeaker 2 | 36:05 - 36:14\nExactly. Fascinating. I was gonna close by asking you what makes you excited about the future? Is it what we just talked about or is it something else?\n\nSpeaker 1 | 36:14 - 37:05\nI am somebody who is quite inspired by science fiction, and when you read science fiction that covers societies that have progressed far enough in its technological maturity, you always see two pillars. You have some version of AGI, and you have some version of simulations that really help guide the society. I do see an opportunity today to really take the first crack at building the simulation. I would not have said that even five years ago, but that is the conviction that we have built up over the years as we are going deep into this research. And what's exciting is there's a clear use case today that can serve our users, but then there's a lot of innovation that is yet to come that I do think will build up to actually building simulator that's akin to discern human society.\n\nSpeaker 1 | 37:05 - 37:39\nAnd one of the things that one of my co founder, Percy, sometimes say is you look at the greatest scientific innovation, they often start from an amazing measurement. Hubble telescope really changed the trajectory of how we understand the universe. Simulation can be that for human society. So the thing that does excite me, there's a lot of focus on natural sciences, but how can simulation really unlock our understanding of humanity and social sciences, and how can we actually use it to make our society be a better place? That's exciting.\n\nSpeaker 2 | 37:40 - 38:05\nTotally. I remember reading somebody was excited about, you know, there was a small but breathtaking chance that the field of economics, as we know it, may actually become solved by simulation. And I'd extend that not just to be economics, but kind of everything that deals with human behavior and social sciences, which ultimately is everything around us. Truly. Wonderful.\n\nSpeaker 2 | 38:05 - 38:12\nThank you so much for joining today and sharing the story of both Smallville and what you're now up to at SIMI. I really enjoyed the conversation.\n\nSpeaker 1 | 38:12 - 38:13\nSame here. Thank you for having me."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2067057648617538037",
+            "text": "@WorkOS @mattpocockuk @zackproser also doing great. AIE audience LOVES the workos content, they are doing something right https://t.co/nLZTQyAk1i",
+            "createdAt": "2026-06-17T01:32:02.000Z",
+            "url": "https://x.com/swyx/status/2067057648617538037",
+            "likes": 3,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067023688906822020",
+            "text": "@TomasReimers @cursor_ai full info https://t.co/R8Mp5Iemfn",
+            "createdAt": "2026-06-16T23:17:05.000Z",
+            "url": "https://x.com/swyx/status/2067023688906822020",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067012220832329782"
+          },
+          {
+            "id": "2066937943139479618",
+            "text": "@TomasReimers @cursor_ai *github competitor fml",
+            "createdAt": "2026-06-16T17:36:22.000Z",
+            "url": "https://x.com/swyx/status/2066937943139479618",
+            "likes": 48,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2067025851829330076",
+            "text": "🇧🇷World-changing AI companies are coming from Brazil.\n\nThat’s why we’ve officially expanded our Google AI Futures Fund to Brazil, partnering with venture capital leader Monashees to launch the Gama Fund.\n\nWe’re looking for an elite cohort of deep tech founders and will offer:\n\n- Early access to Google DeepMind models\n- Up to $2M in co-investment\n- $350k in Google Cloud & Gemini credits\n- Direct co-development with Google engineers at our new IPT Open campus hub\n\nApply today: https://t.co/8sv9seJLdB",
+            "createdAt": "2026-06-16T23:25:41.000Z",
+            "url": "https://x.com/joshwoodward/status/2067025851829330076",
+            "likes": 351,
+            "retweets": 32,
+            "replies": 23,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2067064381855187231",
+            "text": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise? https://t.co/LilIl4XkJF",
+            "createdAt": "2026-06-17T01:58:47.000Z",
+            "url": "https://x.com/thsottiaux/status/2067064381855187231",
+            "likes": 1223,
+            "retweets": 15,
+            "replies": 106,
+            "isQuote": true,
+            "quotedTweetId": "2066916479438930166"
+          },
+          {
+            "id": "2066956441173323943",
+            "text": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans. https://t.co/vx3Jb7YT6K",
+            "createdAt": "2026-06-16T18:49:52.000Z",
+            "url": "https://x.com/thsottiaux/status/2066956441173323943",
+            "likes": 5799,
+            "retweets": 243,
+            "replies": 576,
+            "isQuote": true,
+            "quotedTweetId": "2066865154902380796"
+          },
+          {
+            "id": "2066865154902380796",
+            "text": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
+            "createdAt": "2026-06-16T12:47:08.000Z",
+            "url": "https://x.com/thsottiaux/status/2066865154902380796",
+            "likes": 3628,
+            "retweets": 107,
+            "replies": 549,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "tweets": [
+          {
+            "id": "2067056979974160749",
+            "text": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed to save Fable's advice too before it got restricted 🥲\n\n📌 Subscribe to get the tutorial tmr: https://t.co/MbOfeFUJbn https://t.co/bYW7tP4v0l",
+            "createdAt": "2026-06-17T01:29:22.000Z",
+            "url": "https://x.com/petergyang/status/2067056979974160749",
+            "likes": 78,
+            "retweets": 4,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2065446074228290007"
+          },
+          {
+            "id": "2067047343971848201",
+            "text": "Honestly I don't want to be a hater but I feel like this is what happens when nobody internally wants to tell the CEO no. \n\nMaybe this thing will blow our socks off? https://t.co/PRD3LeNy03",
+            "createdAt": "2026-06-17T00:51:05.000Z",
+            "url": "https://x.com/petergyang/status/2067047343971848201",
+            "likes": 280,
+            "retweets": 13,
+            "replies": 62,
+            "isQuote": true,
+            "quotedTweetId": "2066967928495640729"
+          },
+          {
+            "id": "2066975504973050077",
+            "text": "Damn not again. Is every company with 1,000+ people going to do this 😭 https://t.co/Mg3wk7ZYT6",
+            "createdAt": "2026-06-16T20:05:37.000Z",
+            "url": "https://x.com/petergyang/status/2066975504973050077",
+            "likes": 204,
+            "retweets": 4,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2066828553199464933"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2067090477434966396",
+            "text": "over the last century, we’ve treated the intellect as a defining human trait and under-invested   in other aspects that make us uniquely human, such as self-awareness, intuition, compassion and kindness. \n\nthe next few years will force us to rethink this. https://t.co/4iE3kAMauP",
+            "createdAt": "2026-06-17T03:42:29.000Z",
+            "url": "https://x.com/realmadhuguru/status/2067090477434966396",
+            "likes": 7,
+            "retweets": 2,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067054217521766516"
+          },
+          {
+            "id": "2066935654500671499",
+            "text": "The real prize in the SpaceX-Cursor deal is the agentic harness that will become the core for automating all knowledge work at scale.\n\nHere’s what SpaceX is getting:\n\n1. Production-grade agentic harness  -planning, context management, tool use, iteration, verification, memory, error recovery. \nAny product experience can be completely redesigned in an AI-native way with this harness.\n\n2. Expertise on the full AI stack - model, evals, harness, application layer.\n\n3. End to end product lifecycle focus: product strategy -> user journeys -> GTM. Everything optimized for one job: helping software engineers build.\n\nVery few companies do even one of these well. Cursor brings all three.",
+            "createdAt": "2026-06-16T17:27:16.000Z",
+            "url": "https://x.com/realmadhuguru/status/2066935654500671499",
+            "likes": 44,
+            "retweets": 4,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2066873915717136548"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2067021344341098670",
+            "text": "Slack now renders HTML attachments instead of just showing it as text 😭🙏 https://t.co/rHoAChwRyv",
+            "createdAt": "2026-06-16T23:07:46.000Z",
+            "url": "https://x.com/trq212/status/2067021344341098670",
+            "likes": 2513,
+            "retweets": 43,
+            "replies": 118,
+            "isQuote": true,
+            "quotedTweetId": "2021408820556407128"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2066956074360426622",
+            "text": "Databricks partner of the year! https://t.co/pdxBVKE6M2",
+            "createdAt": "2026-06-16T18:48:24.000Z",
+            "url": "https://x.com/amasad/status/2066956074360426622",
+            "likes": 155,
+            "retweets": 6,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2066900858785104094"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2067137678772937000",
+            "text": "Quick one to set the stage:\n\n☑️ 30 minute function invocations\n🆕 24 hour sandbox lifetimes https://t.co/r69vntZpbf",
+            "createdAt": "2026-06-17T06:50:02.000Z",
+            "url": "https://x.com/rauchg/status/2067137678772937000",
+            "likes": 81,
+            "retweets": 3,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2067133920836005901"
+          },
+          {
+            "id": "2067106499449565265",
+            "text": "It’s time to ship",
+            "createdAt": "2026-06-17T04:46:09.000Z",
+            "url": "https://x.com/rauchg/status/2067106499449565265",
+            "likes": 295,
+            "retweets": 15,
+            "replies": 40,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067098826830164310",
+            "text": "This aged well 😂 iykyk https://t.co/d9ncX1aP2X",
+            "createdAt": "2026-06-17T04:15:39.000Z",
+            "url": "https://x.com/rauchg/status/2067098826830164310",
+            "likes": 190,
+            "retweets": 5,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2066430626245349475"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2067070918300664161",
+            "text": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or 6 months behind, or if they fall behind by years. \n\nThe answer to this will determine how the chip stack plays out, where inference can be run, what sovereign AI looks like, what happens at the applied AI layer, what the margin structure looks like in AI, how much companies can afford to spend on AI, and more.\n\nAt the moment the open weights players appear to be holding up at keeping close to frontier levels of capability. Will be fun to see how this plays out.",
+            "createdAt": "2026-06-17T02:24:45.000Z",
+            "url": "https://x.com/levie/status/2067070918300664161",
+            "likes": 206,
+            "retweets": 13,
+            "replies": 25,
+            "isQuote": true,
+            "quotedTweetId": "2066938937344495629"
+          },
+          {
+            "id": "2066908002809221496",
+            "text": "The Cursor deal is symbolically quite significant. It was effectively the first mega success in the applied layer of AI. \n\nThey firmly proved out the value proposition of having a deep domain focus, the role you play as a model router, when to lean into frontier models vs. when to train your own, and the role of applied AI GTM and distribution to make sure you’re actually taking advantage of the market opportunity. \n\nEvery aspect of their business was tuned to carve out ground and keep doubling down in a highly competitive space. This is really the first at scale template for how to execute this playbook.",
+            "createdAt": "2026-06-16T15:37:23.000Z",
+            "url": "https://x.com/levie/status/2066908002809221496",
+            "likes": 736,
+            "retweets": 38,
+            "replies": 46,
+            "isQuote": true,
+            "quotedTweetId": "2066894493111242852"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2067138928864555222",
+            "text": "https://t.co/vozY3udGoP https://t.co/GSUZuCoER1",
+            "createdAt": "2026-06-17T06:55:00.000Z",
+            "url": "https://x.com/ryolu_/status/2067138928864555222",
+            "likes": 104,
+            "retweets": 5,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2067056938391920640"
+          },
+          {
+            "id": "2067124871226929526",
+            "text": "the crazy thing about Cursor mobile\nis @rikcreation coded most of the real thing with Cursor, as a “designer”\n\ntitles don’t mean shit.\nyou can just build. https://t.co/UYOoUYf0t0",
+            "createdAt": "2026-06-17T05:59:09.000Z",
+            "url": "https://x.com/ryolu_/status/2067124871226929526",
+            "likes": 204,
+            "retweets": 11,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2067006990715388241"
+          },
+          {
+            "id": "2066902677905461579",
+            "text": "crazy idea: what if X, Cursor, were the same thing? https://t.co/nUgSVT3i6J",
+            "createdAt": "2026-06-16T15:16:14.000Z",
+            "url": "https://x.com/ryolu_/status/2066902677905461579",
+            "likes": 2195,
+            "retweets": 47,
+            "replies": 210,
+            "isQuote": true,
+            "quotedTweetId": "2066875698346954891"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2067101655934591154",
+            "text": "9Mothers is one of those technologies whose impact is immediately obvious to warfighters https://t.co/Aqnl9d84ky",
+            "createdAt": "2026-06-17T04:26:54.000Z",
+            "url": "https://x.com/garrytan/status/2067101655934591154",
+            "likes": 74,
+            "retweets": 5,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2067074226478293188"
+          },
+          {
+            "id": "2067101283493040518",
+            "text": "You’ll never achieve anything if you are afraid of being cringe\n\nThen again this is from someone trying to use looksmaxxing to achieve outsize return, good luck with that https://t.co/azxDnN4YMf",
+            "createdAt": "2026-06-17T04:25:25.000Z",
+            "url": "https://x.com/garrytan/status/2067101283493040518",
+            "likes": 588,
+            "retweets": 16,
+            "replies": 56,
+            "isQuote": true,
+            "quotedTweetId": "2067066405728797035"
+          },
+          {
+            "id": "2067100549775032702",
+            "text": "Which leads to… Bowen’s differentiation of self\n\nLow differentiation = highly reactive to others' emotional cues, loses self in relationships, can't hold boundaries under pressure — collapses into \"we-ness\" (everyone must feel the same or the bond feels threatened).\n\nTwo flavors of the same disease: chameleons (adjust themselves to please, fusion mode) and bullies (force others to conform, the asshole mode). Both are undifferentiated. The self-abandoner and the asshole are the same person.\n\nThe fix is the same: lower the chronic anxiety, raise the capacity to stay a separate self in contact.",
+            "createdAt": "2026-06-17T04:22:30.000Z",
+            "url": "https://x.com/garrytan/status/2067100549775032702",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2066875878731100668",
+            "text": "FirstMark Guilds Summit swag wins https://t.co/hD1yMKqiaR",
+            "createdAt": "2026-06-16T13:29:44.000Z",
+            "url": "https://x.com/mattturck/status/2066875878731100668",
+            "likes": 19,
+            "retweets": 2,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2066994434953421226",
+            "text": "You don’t have to chase the cool thing. Do whatever you’re already doing so well that it becomes the cool thing.\n\nThe cool thing is rarely cool when it starts. It becomes cool because someone went deep on something everyone else thought was too small.",
+            "createdAt": "2026-06-16T21:20:50.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066994434953421226",
+            "likes": 162,
+            "retweets": 17,
+            "replies": 32,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066936706281206165",
+            "text": "Every other product right now is \"an AI agent that does everything in your work & life & integrates with everything.\" \n\nCool, that's just Claude/Codex. \n\nIf you want me to use your thing instead, it needs an opinion & a soul. Build small & sharp, not big & generic.\n\nDoing everything means doing nothing. Speaking to everybody means speaking to nobody.",
+            "createdAt": "2026-06-16T17:31:27.000Z",
+            "url": "https://x.com/zarazhangrui/status/2066936706281206165",
+            "likes": 158,
+            "retweets": 11,
+            "replies": 48,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2066966270197805331",
+            "text": "Vibes at Cursor Compile were immaculate. Also getting a custom mechanical keyboard is a new kind of swag ceiling for conferences ⌨️ https://t.co/RXq9qLvXJJ",
+            "createdAt": "2026-06-16T19:28:55.000Z",
+            "url": "https://x.com/nikunj/status/2066966270197805331",
+            "likes": 139,
+            "retweets": 6,
+            "replies": 12,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066905445974102384",
+            "text": "Be in the judgement (data) path or the token path. Today’s @cursor_ai acquisition sets the path for more application companies. Congrats to all my friends 🥳 https://t.co/wCKIwElVji",
+            "createdAt": "2026-06-16T15:27:14.000Z",
+            "url": "https://x.com/nikunj/status/2066905445974102384",
+            "likes": 23,
+            "retweets": 2,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2065559895450288611"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2066988174849749303",
+            "text": "I think this is quite likely https://t.co/duB1OtqSIj",
+            "createdAt": "2026-06-16T20:55:58.000Z",
+            "url": "https://x.com/danshipper/status/2066988174849749303",
+            "likes": 134,
+            "retweets": 14,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2066970358545043614"
+          },
+          {
+            "id": "2066914130863473048",
+            "text": "just switched off of Atlas Browser and back onto Dia\n\ni've been having so many weird bugs with atlas, and doesn't feel like it's improving",
+            "createdAt": "2026-06-16T16:01:44.000Z",
+            "url": "https://x.com/danshipper/status/2066914130863473048",
+            "likes": 72,
+            "retweets": 1,
+            "replies": 24,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2066915805476827629",
+            "text": "Apply to SPC if you'd like to join us https://t.co/Dcd8nkNcLR",
+            "createdAt": "2026-06-16T16:08:24.000Z",
+            "url": "https://x.com/adityaag/status/2066915805476827629",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2066915803610370098",
+            "text": "You didn't miss this one. @RamaswmySridhar is dropping by @southpkcommons next week.\n\nHe grew Google's ad business from $1.5B to $ 100B+. \n\nNow he's running Snowflake through the AI shift. https://t.co/xOCxkftsvo",
+            "createdAt": "2026-06-16T16:08:23.000Z",
+            "url": "https://x.com/adityaag/status/2066915803610370098",
+            "likes": 38,
+            "retweets": 5,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "publishedAt": "Jun 08, 2026",
+        "author": "",
+        "description": "",
+        "content": "Today we&#x27;re releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple&#x27;s Foundation Models framework to call Claude for more complex workflows. Apple’s Foundation Models framework gives developers access to tap into models natively from Swift. It is very easy to use and can return typed Swift values through guided generation in as few as three lines of code. Developers can use this to tap into Apple’s on-device models for fast, local tasks like summarization or extraction. Developers can now use Apple’s Foundation Models framework to hand off to Claude when a request calls for multi-step reasoning, code generation, and more. Claude can also search the web for current information and execute code for data analysis. Stream Claude&#x27;s response back into the same view. Because Apple&#x27;s framework returns typed Swift values from @Generable annotations, developers arrive at the Claude API call with clean inputs instead of raw user text. What this unlocks The Foundation Models framework already powers a range of intelligent on-device features — journaling apps that surface personalized prompts, document apps that summarize contracts, learning apps that explain a concept at a student&#x27;s level. Adding Claude extends each of those patterns. A journaling app can generate daily prompts on-device, then ask Claude to find threads across months of entries. A study app can define a term on-device, then hand off to Claude when the student follows up with \"why does this matter for everything else we&#x27;ve covered?\" It&#x27;s one experience for the user, backed by the right model for each step. Getting started Claude support with the Foundation Models framework will be available tomorrow and works through Apple&#x27;s Foundation Models framework on iOS 27, iPadOS 27, macOS 27, and visionOS 27, and watch OS 27. Add it to your project, sign in with an Anthropic API key, and pass typed outputs from Apple&#x27;s on-device pass into a Claude request — the package handles streaming, tool calls, and structured responses back into your SwiftUI view."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 16,
+      "totalTweets": 34,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-06-17T08:13:23.213Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
