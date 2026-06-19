@@ -1,0 +1,624 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-19T14:17:37.243822+08:00",
+  "events_count": 10,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 16,
+    "totalTweets": 38,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-06-18T08:02:21.763Z"
+  },
+  "digest_generated_at": "2026-06-19T06:17:37.107Z",
+  "skill_errors": [
+    "Podcast feed problem: Podcast: Transcript error for \"🔬 The Self-Driving Lab — Joseph Krause, Radical AI\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+  ],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-19T06:17:37.107Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+        "guid": "a7d1fb70-81db-44be-92b8-e46db37a1532",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-06-17T15:58:16.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:36\nHi, I'm Mike Taylor. I'm the head of tech consulting at Every, and I sat down with Kyle Daigle, the COO of GitHub, and talked to him about what is happening on the front lines of coding agents. We have 17,000,000 poll requests coming in every month to GitHub now, it's growing exponentially and that puts them at the forefront of what's happening in this new economy. We talked about how that affects their users as well as how this affects open source maintainers and we covered a topic which is dear to everyone's hearts. How do I stop my $200 a month coding agent subscription from ballooning into a $2,000 a month usage limit?\n\nSpeaker 1 | 00:36 - 00:45\nIn this interview, did something a little bit different, which is I told Kyle I had made an AI clone of him to practice the interview, and he revealed something surprising in return. Here's the conversation.\n\nSpeaker 2 | 01:00 - 01:11\nEvery is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Go to every.to/ subscribe today.\n\nSpeaker 1 | 01:11 - 01:15\nHey, Carl. Thanks for spending some time with me at the conference. Yeah. Of course. Yeah.\n\nSpeaker 1 | 01:15 - 01:27\nIt was good to meet you as well in the the day before. And Yep. I feel like we already kind of covered a few of these questions, but I think it'll be good to you know, for the wider audience so they can understand what's going on here. Absolutely. Yeah.\n\nSpeaker 1 | 01:27 - 01:46\nSo first thing I think is we were talking about is really interesting is that the demographics of the customer are changing, right? Like a lot of people who previously would maybe never use GitHub or never used developer products before are now using them. So how has that changed the way that you decide the product road map?\n\nSpeaker 3 | 01:46 - 02:06\nYeah. Yeah. I mean, you know, I think, for GitHub in particular, we've always really had this really expansive view of what a developer is. I started as a developer before I would have ever called myself a dev, you know, where I was just like writing code, it was just for me and I went personally like a completely different career path. I didn't go to school for computer science.\n\nSpeaker 3 | 02:07 - 02:50\nI was going to art school. I wrote code to pay for art school, which was a very silly, decision as an adult now, I guess. But, like, at then, you know, that sort of journey of just, like, I can create tools with the team and deliver them to people who can have that same experience of like, just wanna build an app that's for me or for my family, maybe as a startup, maybe as a business. We very much have like serious developer tools, know, like all the largest businesses are using GitHub. But when I look at something like the GitHub Copilot app, I see just as many, you know, developers that are using AI every day, running multiple projects, like, all all kinds of agent sessions at the same time.\n\nSpeaker 3 | 02:51 - 03:26\nAnd I see, you know, our legal team at GitHub using the GitHub Copilot app or the finance team, or I was meeting with a customer today and they were saying the same thing. A lot of the folks that, you know, the industry would call knowledge workers or just, you know, non by trade developers are using these tools to build little apps or assets for them. And so while our focus is very much on developers, I think we wanna make it easier for people to choose to try to, you know, write some code, and make sure there's always an on ramp into, you know, writing some software now with, you know, things like the GitHub Copilot app.\n\nSpeaker 1 | 03:26 - 03:38\nYeah. And then how do you deal with the or how do you help developers deal with the burden of all of that extra you know, there's a flood of PRs now, open source maintainers I talked to are, like, drowning. Yeah. How do you how do you like, what what needs to happen to help them?\n\nSpeaker 3 | 03:38 - 04:13\nYeah. I mean, I think for all developers, we're, you know, building tools like the Copilot code review. It's now agentic, so it finds a lot more novel vulnerabilities, and you can just, like, comment and the, you know, the agent will take that on and go implement the change if you want to. So I think that code review step is, in some ways, like, overlooked as a really great way to get PRs to a place that are much more easily reviewed. I think that the AgenTic merge in the app is another place where we see a lot of times internally and in the community, you know, you may comment on something.\n\nSpeaker 3 | 04:13 - 04:32\nYou that might have a code review, and you might go through and get it almost all the way there, but then there's all those, like, manual steps just to finish processing the PR. Mhmm. Instead, I can go in and set exactly what I want to allow, you know, GitHub Copilot to do and say, okay. Now go merge this PR and wait for CI and wait for policies and all of that. I think that's a big part.\n\nSpeaker 3 | 04:32 - 05:05\nOn the open source side, it's a unique set of needs because you don't control who's, you know, sending everything in, or you haven't really historically. And that's been really where we've been focusing is giving maintainers more tools to decide, well, do you want to accept all of these PRs? Like, who do you want to accept them from? You know, how much work do you need to do to kinda prove that you're going to contribute something that is gonna be meaningful to this project? And that's something that we wanna provide tools to open source maintainers, but really leave them in control.\n\nSpeaker 3 | 05:05 - 05:31\nEvery community is choosing a slightly different way to approach the problem. And for GitHub, we've always wanted to leave that in their hands, like give them tools and enable them. But if a standard comes out of that or most are using a certain practice, we'll lock that in. But we don't really ever wanna be the first to create a standard or an approach. Like, I think, you know, Michel Hashimoto, shared, like, the vouch system that they use.\n\nSpeaker 3 | 05:31 - 05:55\nAnd I was getting questions like, well, why aren't you roll this out to everybody? But there's just as many communities that don't want to use that system because they have their own ideas of how it should work. And so for now, we're focusing on the the building blocks of controls for maintainers. And then as we all are kinda learning together and as maintainers send feedback in, we'll, you know, we'll cement an entire system if one emerges.\n\nSpeaker 1 | 05:55 - 06:12\nYeah. And I feel like you have a front row seat to this, like, new agent economy where, you know, I think you said public on Twitter that you've had more pull requests submitted Yep. And, like, per month than you did all last year. Like, how how are those stats exploding?\n\nSpeaker 3 | 06:12 - 06:31\nYeah. I mean I mean, we're seeing way more activity on GitHub. You know, we've always been talking about our users, you know, for for many, many years and that growth. But this year, we're seeing, obviously, the growth of developers having agents Yeah. Building with them.\n\nSpeaker 3 | 06:32 - 06:50\nAnd so last year, in October at GitHub universe, we shared, you know, there's a billion commits on GitHub for the full year. We're on track to be 14,000,000,000 if the growth is linear this year, which it would not be. You know? In March, you know, there were 17,000,000 pull requests that were created by agents. Yeah.\n\nSpeaker 3 | 06:50 - 06:52\nThat's just the agent pull requests.\n\nSpeaker 1 | 06:52 - 06:52\nOkay. Yeah.\n\nSpeaker 3 | 06:52 - 07:06\nAnd so there's so much more code being created. And I think at times everyone goes like, oh, this is all just like slop. This is all just code that's being pushed up, but and no one cares. It's not, like, really true.\n\nSpeaker 1 | 07:06 - 07:06\nMhmm.\n\nSpeaker 3 | 07:06 - 08:01\nWe're all just actually getting to the point where we're no longer in the super early adoption. We're definitely not at the peak, but we're climbing that hill, you know, to see what can we build when it's not just Kyle building, but it's Kyle and one, two, to end, you know, agents, that are using my skills, using, my resources, using my context, and so on and so forth. And so, like, we're, you know, investing heavily in preparing for the next wave of growth because it doesn't seem to be kind of like growing and plateauing. It's just gonna continue to grow because no matter where you're, you know, building or what tools you're using to build, all of that code ends up on GitHub, you know, and or that's where you're sharing it with the world, or that's where you're collaborating in a PR. And so we need to be able to support everyone's, you know, sort of agent moment, and not just, you know, GitHub Copilot.\n\nSpeaker 1 | 08:01 - 08:14\nYeah. Yeah. And how does the business model change? Because I think freemium makes sense, you know, in a human centered world where we go to bed, but the agents are still working while we're asleep now. So does that change, like, to usage based?\n\nSpeaker 1 | 08:14 - 08:18\nLike, is that you see that kind of where things are going? Yeah.\n\nSpeaker 3 | 08:18 - 08:57\nI mean, like, I don't think we know, like, yet, ultimately. Like, I think, know, we very much right now, like, Kyle's gonna have a license or Kyle's using githubdot, .com for free, and we've always had, you know, API, rate limits, you know, and, like, things like that. And that's usually where folks are seeing this, you know, the agent back pressure, I think. I think the goal is that if you want to be able to do way more, if you want to be able to, like Peter Steinberger says, you know, 150 agents are doing everything all at once, you know, That's great. We want to be able to enable that to you, but at the same time, I want you to have a great core GitHub experience, you know.\n\nSpeaker 3 | 08:57 - 09:13\nAnd at the very least, there's some amount of agent, usage as part of that that, is necessary, you know. I need similar to how we, way way way back, right, you'd have free public repos, but you didn't have free private repos. Yes. You know? And then we said, okay.\n\nSpeaker 3 | 09:13 - 09:43\nWell, actually, like, it's fair for an individual to have some code that they don't wanna put out into the world, and we'll give you free private repos, you know, to allow you to do that. So GitHub's always evolving as the industry and community does, but we're always sort of focused on, I need to make sure you, the dev, have what you need to be successful, you know, and then work with enterprises, you know, to make sure they have what they need to do at scale, which is usually a little bit different than what, you know, an individual dev is doing.\n\nSpeaker 1 | 09:43 - 09:52\nYeah. Yeah. And I guess the business model pricing kind of that all leads back into, like, the wider Microsoft orbit. And because you have a dual role now. Right?\n\nSpeaker 1 | 09:52 - 10:00\nYep. Partial responsibility for the wider kind of marketing org. So do you wanna talk me through how that's changed and how you prioritize between those two?\n\nSpeaker 3 | 10:00 - 10:24\nYeah. I mean, so, I've been at GitHub for a very long time, thirteen years. And, you know, as a developer myself and leading engineering teams for a lot of that time. And I think what's always been unique about GitHub is we really, really focus on the dev. Like, we're building tools for the developers and the fact that people, like enterprises are buying them is awesome, and that's definitely great.\n\nSpeaker 3 | 10:25 - 11:19\nBut we're not building for the buyers, we're building for the developers. And a 100%. And so, in this, and that's, like, been my focus as the COO of GitHub, which I continue to do. And then now as the chief marketing officer of developer for Microsoft, my goal is to look across all of Microsoft's tooling, their developer tools, their technology that they're bringing to developers, and making sure that we're bringing, like, holistic solutions that you can use that are, like, authentic, you know, to developer experiences. And at events like this where, you know, we've taken a very different approach to build this year, We're in San Francisco first off, like, the vibe is a bit different than, you know, the conference hall, setup, you know, really focused on can I go to a session, can I use the thing, I don't wanna be pitched on a thing, I have to be able to use it, Expo Hall, kinda so on and so forth?\n\nSpeaker 3 | 11:20 - 11:31\nIt's really bringing that expertise and, you know, love and focus on the developer that GitHub's always had to have, even broader impact, throughout, all of Microsoft.\n\nSpeaker 1 | 11:31 - 11:36\nYeah. And, did I hear you say that, this is the first build that you've had external contributors and speaker?\n\nSpeaker 3 | 11:36 - 11:55\nBuild that, I think, by intention, we focused on having, you know, speakers, you know, from the community Yeah. Like, in these primary sessions. You know? That includes, you know, in the keynote, we had a bunch of folks like Peter. You know, there's sessions, from, you know, Swix and others as well.\n\nSpeaker 3 | 11:56 - 12:19\nI think that it's important. Like, software development is a team sport. You know, it seems silly to think that there's any one company, one group inclusive of GitHub and Microsoft and everyone that can just answer every single question. That's not how software gets made. You know, we're all at least using open source and we're building on the backs of these giant open source projects.\n\nSpeaker 3 | 12:19 - 12:43\nLet's invite people in that can help tell their part of the story together because I deeply believe that that's what developers want. I know that's what I want. You know? I know that's what my friends that are developers want. And when we look at the events and we hear the feedback, they're excited to see people from Microsoft, from GitHub, and then, oh, I get to see this outside perspective at this event.\n\nSpeaker 3 | 12:43 - 12:45\nIt's really it's really meaningful. Yeah.\n\nSpeaker 1 | 12:45 - 12:49\nThat makes sense. And it's a very competitive market. Right? Sure. Yeah.\n\nSpeaker 1 | 12:49 - 13:00\nLike, you know, the the most competitive market probably. Maybe the last competitive market. I'm not sure. But but, like, how how do you differentiate in all of that given the the pace of change is so quick?\n\nSpeaker 3 | 13:00 - 13:30\nYeah. I mean, I think we continue to focus, on our roots, which was, you know, we care a lot about, like, developer choice. It's always been true. We care about building for builders and enabling builders. And so I think we're in a moment that's, like, really interesting because we've, went from an era of, you know, having a ton of APIs, all this access to a little bit of, like, an unintentional walled garden setup, you know, where, like, you get a kind of affinity.\n\nSpeaker 3 | 13:30 - 13:52\nSometimes I'll say it's like a little bit of a mousetrap. Yeah. You know? And then you realize, oh, this thing's really interesting over here, and then I have to oh, I have to go learn a new thing or a new tool or a new account. And I think for us, we always want to enable developers that are building with GitHub to go use these other tools, and we'll partner with everyone to make that as simple as is possible.\n\nSpeaker 3 | 13:52 - 14:36\nAnd while I think that, you know, there's, there's other folks that are doing, you know, similar things, I think the the ability to do that across the entirety of building software and not just the cogen side or not just, you know, the collaboration review side, but across everything is a real, you know, superpower of ours. And so, you know, I think you'll see us invest in our own tech. Like, we talked about the new, Microsoft AI models, you know, that we'll continue to bring to developers. We're also continuing to partner with Anthropic and OpenAI and Google and kinda anyone who's bringing a model to market or a coding agent to market. We'll partner with you and we'll both let you bring that to us or we'll omit it through GitHub and GitHub Copilot.\n\nSpeaker 3 | 14:36 - 14:50\nYeah. That choice is core. And that's something that I don't think we'll, ever, you know, like, back down on. Because if we do, developers will still choose. They'll just be stuck in another kind of mousetrap.\n\nSpeaker 3 | 14:52 - 14:55\nAnd we don't, you know, we don't want the world of software to be like that.\n\nSpeaker 1 | 14:55 - 15:18\nYeah. Yeah. Yeah. And, how do you like, when you're making the decisions internally, like there was a new cycle recently about how cloud code cancel licenses are being canceled. And like, how do you make the trade off between dogfooding your own products, like using the new models you made or using the GitHub Copilot app desktop app versus like, you know, using like letting developers kind of experiment with other tools?\n\nSpeaker 3 | 15:18 - 15:39\nYeah. I mean, we all are using a variety of tools because otherwise you lose track, you know, or you kind of you're too interested in your own own work. Yeah. So like for me, you know, I've been a daily driver of a MacBook for for many many years. I use Windows PCs on the weekends when I play video games.\n\nSpeaker 3 | 15:39 - 16:05\nAnd I got this role and I have my Mac, I have my PC, and I have my Almarquee Linux box so I can make sure that every weekend I code most Saturdays. I do my kids sports activities in the morning. And then in the afternoon I'm coding and I'm swapping between the boxes because I wanna understand like, okay, what's that experience? You know? The GitHub Copilot app, I only use on Windows because I wanna make sure that developers who are on Windows also deserve great apps.\n\nSpeaker 3 | 16:05 - 16:16\nYou know? It's not just the audience that's on a Mac, for example. And that's true across our teams, especially like when we're looking at, okay, what about the coding agents? What about the harnesses? What about the desktop apps?\n\nSpeaker 3 | 16:16 - 16:30\nWhat about memory management? What about, you know, everything? We have this really great culture of just, you know, experimentation. Everyone is building and using these tools. Well, obviously, we're putting most of our energy into our own tools.\n\nSpeaker 3 | 16:30 - 16:58\nIt's such a blind spot that I think, it's happened to GitHub in the past where, like, when you're doing something and you're doing it well, you really laser focus and that's what every piece of startup energy says. Right? It's like look down and just keep moving, keep moving fast. And I think that's myopic. You know, I think that while I can't spend every day using every tool, when something comes out, I wanna know why this is really great.\n\nSpeaker 3 | 16:58 - 17:18\nWhy are people having a great experience with this? Not, not only so I can understand, but so I can figure out, okay, well, for our goals, for our goal of developer choice, I don't need this. Like, I wanna focus over here, but I wanna know why a dev would pick these tools. And the same thing goes, you know, the same thing goes for, our teams.\n\nSpeaker 1 | 17:18 - 17:24\nYeah. And how do you how do you filter? Because, obviously, lot of these ideas are relatively short lived. Yeah. Yeah.\n\nSpeaker 1 | 17:24 - 17:27\nEnterprise the product development cycles are longer lived. Yes. How do you decide?\n\nSpeaker 3 | 17:27 - 17:45\nYeah. I think that, like, right now we're in a moment where we're really looking at the, like, the short term in capturing the ability to have a multitude of, you know, agent sessions. This idea of just, you know because that that that seems quite clear. You know, everyone's doing it. How can we cement it?\n\nSpeaker 3 | 17:45 - 18:30\nBut it seems clear on the longer term path. Models are gonna continue to get better. The prices of tokens, like token economics is gonna be a bigger, bigger factor in, like, what models everyone's using. And I do strongly believe that we're not very far off from having serious, the serious ability to use, you know, something above a small language model on a local device, you know, to be able to do some of our work. And so if I assume that I have all this optionality when it comes to tokens, you know, effectively, The thing that I think seems to be true from the beginning to OpenClaw to now is this idea of, like, personalization or mine or context or fine tuning with context or, like, you know, memory.\n\nSpeaker 3 | 18:30 - 18:55\nAll of these ideas seem to be a a truth that's been there since, you know, ChatGPT came out or GitHub Copilot came out. Yeah. And there's experiments, but not a long term, like, vision, I think, for this, like, across the industry. So I think it's a good example of, like, where I need to get you to use agents incredibly well, a lot of them. Because, like, if you're if you're into using agents, you're not just gonna be staring at a single agent working.\n\nSpeaker 3 | 18:55 - 19:14\nBut that's not gonna give you a long term great experience. Using an agent that you feel like is completing a thought for you, will give you that great experience, especially if you did not have to personally codify that thought to your agent. Always remember that I insert things.\n\nSpeaker 1 | 19:14 - 19:14\nThat's a lot of work.\n\nSpeaker 3 | 19:14 - 19:33\nYeah. A 100%. Like, it it should be able to intuit that or potentially, again, like, you know, post trainer fine tune or frontier tune like a model on that deeply understands me and how I'm using the work. Yeah. That is that is kinda how we're looking at it.\n\nSpeaker 3 | 19:33 - 19:39\nIt's like sometimes it's short term, and sometimes we gotta take a bunch of bites of the apple or a bunch of attempts at the long term\n\nSpeaker 1 | 19:39 - 19:39\nYeah.\n\nSpeaker 3 | 19:39 - 19:43\nTo get to something really tangible Yeah. To help us move forward.\n\nSpeaker 1 | 19:43 - 19:58\nCool. And I I heard the term hill climbing like a 100 times yesterday. And and I'm a big proponent of that because, you know, experiment experiments with DSpy, order research, a few others. Can you talk a little bit about how that's become a big focus?\n\nSpeaker 3 | 19:58 - 20:59\nYeah. I mean, you know, I think, you know, Satya and Mustafa will talk about it, a fair bit and Jacob too, leading the copilot group. The biggest thing that we've kind of learned is we need to use the, you know, the use of the tools as a core way to improve the underlying use of the models, our own models, etcetera, in just the evals that are necessary to ensure that we're actually improving from things like, you know, using the thumbs up, thumbs down data that comes in to using, like, whether you're accepting it and how much you're accepting. You know, all of that data is enormous to create a that magical type of experience that's not you just for you, but for everyone. And so every week, we're talking about the hill climbing results, know, we're looking at the data, we're looking at the improvement, we're looking at both the hard measures and the soft measures because sometimes the hard measures and evals and rubrics will show that we've made an improvement but like user sentiment will crash.\n\nSpeaker 3 | 20:59 - 21:02\nYeah. You know? Even with the same latency and performance.\n\nSpeaker 1 | 21:02 - 21:03\nYeah. It's overfitting, basically.\n\nSpeaker 3 | 21:03 - 21:44\nA 100%. And so, like, being able to being able to really do that loop incredibly quickly Mhmm. And then I think the main goal is giving everyone one of these hill climbing machines and not have you have to do it the kinda hard way that we've all been doing it, but particularly if you're, you know, in an enterprise and you are using m three six five. We know so much about that data or we could know so much about that data because of all the assets, the documents, the chats. And so being able to, you know, turn on something like Frontier tuning and using on the you know, using a MAI thinking one as the the base model.\n\nSpeaker 3 | 21:44 - 21:57\nIt shows real results without having to do all that extra work. And it's been interesting because when I first heard about this, I'll be honest, like, I was like, this is like a magic parlor trick. Yeah. You know, that is not gonna be It can't really work. Yeah.\n\nSpeaker 3 | 21:57 - 22:06\nYou know? And I think the reality is that sometimes, where the alpha is. It's like where it feels like this is too simple to work. Mhmm. You know?\n\nSpeaker 3 | 22:06 - 22:27\nYou know, we all have all this data and what are we gonna do with it? We have to do all this effort to make it work. But I think so much has come down the pipe to allow us to just use the data and improve. Look at the workflow and improve and just keep doing the hill climbing. That's why I think we say it so much is that it's not these moonshots or like a hill climb.\n\nSpeaker 3 | 22:27 - 22:40\nIt is just climb, climb, improve, new eval improve, new data improve, and just keep going to get to the point where, you know, we're able to launch these models, seven models, for ourselves Yeah. And then, you know, allow customers to use the same, or similar, you know, tooling to do it.\n\nSpeaker 1 | 22:41 - 22:47\nIs that the answer to stopping the $200 subscription becoming a $2,000 subscription?\n\nSpeaker 3 | 22:47 - 23:15\nI mean, like, I think that the, you know, $200 subscription to $2,000 is really gonna be not only, you know, making these models or, you know, frontier tuning these models so they way they know you better, but I also think it's really, really gonna be about how can we, particularly for developers, you know, help you automatically choose the models and potentially either have, a model in that step.\n\nSpeaker 1 | 23:15 - 23:16\nLike the model router and A 100%.\n\nSpeaker 3 | 23:16 - 23:27\nYeah. Exactly. Like the, you know, auto model router with task intent and GitHub. Microsoft Foundry has a model router as well that can do this, use sort of at an API level. Yep.\n\nSpeaker 3 | 23:27 - 24:00\nThe more and more that we can help you, you know, tell us a bit of, like, where your bars are, Like, this is an incredibly hard problem, and I'm willing to go all the way to the top. Or I don't I just kinda wanna sit, you know, here, and let us help choose the models. Because there's a lot of times where a lot of the reasons why tokens are expensive is because we're all going and choosing our model of the day or week or hour, you know, and those models are incredibly expensive. But my train of thought is slipping in and out of a hard problem to an like a simple problem. Yeah.\n\nSpeaker 3 | 24:00 - 24:13\nI I personally, I feel like I'll, you know, I'll get an agent to do, like, an enormous amount of work, then there's always that last step that is, a smallish thing, you know, like, oh, I don't actually, like, change all the naming of this to this.\n\nSpeaker 1 | 24:13 - 24:14\nYeah. And that's, like Don't need\n\nSpeaker 3 | 24:14 - 24:26\na a find and replace. You know what I mean? But but am I gonna actually go and, like, oh, I wanna save tokens right now, so I'm gonna go off a four eight or five five and down to Haiku or something, you know? Probably not. Yeah.\n\nSpeaker 3 | 24:26 - 24:28\nBut the tools could.\n\nSpeaker 4 | 24:28 - 24:28\nYeah.\n\nSpeaker 3 | 24:28 - 24:42\nAnd I think that will really help us, particularly in the enterprise, but even for, you know, individual developers and, you know, folks that are building, like, automations and using their Copilot, you know, SDK Yeah. To power that. It'll it'll help them too.\n\nSpeaker 1 | 24:42 - 24:44\nI did something a little bit weird.\n\nSpeaker 3 | 24:44 - 24:44\nI hope\n\nSpeaker 1 | 24:44 - 24:53\nyou don't find it creepy, but I I made a AI version of you to practice this interview. No way. Yeah. And it's actually been pretty spot on so far, and, hopefully, you think the questions have been good.\n\nSpeaker 3 | 24:53 - 24:56\nAnd that's they've been great. But now I wanna see what AI Kyle said.\n\nSpeaker 1 | 24:57 - 25:02\nAnd, yeah, it's just in the terminal. I didn't have, like I didn't go the full whack and make a video thing,\n\nSpeaker 3 | 25:02 - 25:02\nbut But I'm\n\nSpeaker 1 | 25:03 - 25:10\nbut I found it immensely useful. I like I I just wanted to ask, like, what other, like, weird things are you seeing people do internally or externally?\n\nSpeaker 3 | 25:10 - 25:45\nOh, man. So, like, it's so funny that you say that because I, I do a very similar thing where, like, I I, I have both, like, via the app and then I have a claw that can't talk to work stuff, you know, just so I have, like, separation of estate, where I spend a lot of time having it read everything I write and say. Like, this interview will get fed into it ultimately. Yep. And every day, I get a, like, a comms report that's not like what Kyle said, but like, Kyle, you keep saying this.\n\nSpeaker 3 | 25:45 - 25:56\nYeah. Okay. This isn't super clear. Mhmm. Like, you know, based on how you speak, because I I find that I write and speak in, like, a very particular way that I, like, I wanna use a lot of metaphors.\n\nSpeaker 3 | 25:56 - 26:17\nAnd so it'll just give me examples of metaphors that are clear. Yeah. I find that the, like, self improvement loop as a human Mhmm. From these agents to be incredibly powerful. We used to talk about it way back with Huebot at GitHub, like, chat ops, and we used to say, like, humans are way more willing to take critical feedback from robots than other humans.\n\nSpeaker 3 | 26:17 - 26:35\nIt's less threatening. A 100%. And so when my open claw that I affectionately named Baxter, you know, tells me how terrible I did in something, like Yeah. I feel way better going, tell me why. And then ensure that when I'm writing emails, when I'm writing a script, or I'm reviewing details that you're giving me that feedback.\n\nSpeaker 3 | 26:35 - 26:59\nSo a lot of my agent loop is really about me and less about like the software side. I still have all those tools too, know, but it's always looking backwards. It's going okay the last seven days I'm gonna read all Kyle's emails, Slack messages, know, and then give me feedback. And then look back at what the agent told me to do, did Kyle do it, and go back seven days. That loop is, like, super, super, super powerful.\n\nSpeaker 3 | 26:59 - 27:09\nAnd I think honestly, like the type of personal consumer experience that I want out of AI, you know, to be able to tune these tools that way.\n\nSpeaker 1 | 27:09 - 27:13\nYeah. We need to recursively self improve as well. A 100%. Yeah. Thanks so much,\n\nSpeaker 3 | 27:13 - 27:15\nI appreciate it. Yeah. Yeah. Yeah.\n\nSpeaker 1 | 27:15 - 27:15\nEnjoyed that.\n\nSpeaker 4 | 27:23 - 27:40\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.\n\nSpeaker 4 | 27:40 - 28:00\nEvery episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.\n\nSpeaker 4 | 28:00 - 28:06\nAnd now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2067512137405350067",
+            "text": "@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr best review from a cancer survivor x tech realist https://t.co/SjOAkpX2U4",
+            "createdAt": "2026-06-18T07:38:00.000Z",
+            "url": "https://x.com/swyx/status/2067512137405350067",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067471250159448305"
+          },
+          {
+            "id": "2067511309609115657",
+            "text": "@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr another SUPER fun highlight of my evening was telling @zoink how we are using @polymarket prediction markets to gauge the implied value of our july 1 @aiDotEngineer  world cup suite being a team USA game\nhttps://t.co/gwg3eLtwI1",
+            "createdAt": "2026-06-18T07:34:43.000Z",
+            "url": "https://x.com/swyx/status/2067511309609115657",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067495676972540343",
+            "text": "@midjourney @Scobleizer @bryan_johnson @DavidSHolz @iScienceLuvr paper https://t.co/Zl7ihLAFZn",
+            "createdAt": "2026-06-18T06:32:36.000Z",
+            "url": "https://x.com/swyx/status/2067495676972540343",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067384062910832812"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2067337173699850487",
+            "text": "Co-create: one of the key @GoogleLabs values.\n\nIt looks like this, thanks Voltage team! https://t.co/L90dHl9VQh",
+            "createdAt": "2026-06-17T20:02:46.000Z",
+            "url": "https://x.com/joshwoodward/status/2067337173699850487",
+            "likes": 73,
+            "retweets": 5,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067336761190363137"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2067399435009622521",
+            "text": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy https://t.co/eORoaKb3pL",
+            "createdAt": "2026-06-18T00:10:10.000Z",
+            "url": "https://x.com/thsottiaux/status/2067399435009622521",
+            "likes": 5551,
+            "retweets": 276,
+            "replies": 701,
+            "isQuote": true,
+            "quotedTweetId": "2067364445593170007"
+          },
+          {
+            "id": "2067181377028538431",
+            "text": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
+            "createdAt": "2026-06-17T09:43:41.000Z",
+            "url": "https://x.com/thsottiaux/status/2067181377028538431",
+            "likes": 6133,
+            "retweets": 616,
+            "replies": 434,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+        "tweets": [
+          {
+            "id": "2067472851444420715",
+            "text": "Watched Mortal Kombat 2 and it was terrible. The Furious has set the bar too high for action movies.",
+            "createdAt": "2026-06-18T05:01:54.000Z",
+            "url": "https://x.com/petergyang/status/2067472851444420715",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067441631100596436",
+            "text": "Guys are you telling me that /goal build me an amazing game doesn’t work? 🤣",
+            "createdAt": "2026-06-18T02:57:50.000Z",
+            "url": "https://x.com/petergyang/status/2067441631100596436",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067407099496464393",
+            "text": "Video is now live! Watch here: https://t.co/0VPeCoLfSw",
+            "createdAt": "2026-06-18T00:40:37.000Z",
+            "url": "https://x.com/petergyang/status/2067407099496464393",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2067327901666521478",
+            "text": "like, pg talks about taste and wears cargo shorts, he's clearly not talking about taste in pants",
+            "createdAt": "2026-06-17T19:25:55.000Z",
+            "url": "https://x.com/thenanyu/status/2067327901666521478",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067327619897446721",
+            "text": "\"taste\" is not just taste in aesthetics, the same way \"design\" is not just visual design. feels like half the conversations on the subject are people talking past each other because of this distinction",
+            "createdAt": "2026-06-17T19:24:48.000Z",
+            "url": "https://x.com/thenanyu/status/2067327619897446721",
+            "likes": 36,
+            "retweets": 3,
+            "replies": 10,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2067386053980266542",
+            "text": "Was so fun interviewing Spike Jones! https://t.co/EVkl1bH8so",
+            "createdAt": "2026-06-17T23:17:00.000Z",
+            "url": "https://x.com/amasad/status/2067386053980266542",
+            "likes": 44,
+            "retweets": 2,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2067382830292676805"
+          },
+          {
+            "id": "2067363904183783833",
+            "text": "Design with Claude, Ship with Replit https://t.co/zY1RSyubKT",
+            "createdAt": "2026-06-17T21:48:59.000Z",
+            "url": "https://x.com/amasad/status/2067363904183783833",
+            "likes": 300,
+            "retweets": 12,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2067328501003497684"
+          },
+          {
+            "id": "2067363597110391230",
+            "text": "Vibecon https://t.co/5MFsYh7X4Z",
+            "createdAt": "2026-06-17T21:47:45.000Z",
+            "url": "https://x.com/amasad/status/2067363597110391230",
+            "likes": 105,
+            "retweets": 0,
+            "replies": 10,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2067369305826574587",
+            "text": "https://t.co/ZciGmJ8SAP",
+            "createdAt": "2026-06-17T22:10:27.000Z",
+            "url": "https://x.com/rauchg/status/2067369305826574587",
+            "likes": 189,
+            "retweets": 4,
+            "replies": 9,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067274101702406554",
+            "text": "(Part of) the wonderful team that made Vercel SHIP London possible 🫶 https://t.co/X0BWDRSdDp",
+            "createdAt": "2026-06-17T15:52:08.000Z",
+            "url": "https://x.com/rauchg/status/2067274101702406554",
+            "likes": 677,
+            "retweets": 11,
+            "replies": 50,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067242482190979186",
+            "text": "React    →  https://t.co/a4QDSs9wxd\nNext.js  →  https://t.co/nDDXqUmgw5\n\n@aisdk is more relevant than ever, given the intense model competition landscape. Just today, GLM 5.2, an open model, surpassed Opus 4.8 in our Next.js Evals (https://t.co/aporqgIfIh) 🤯\n\nBut the world needs a practical solution for how to build and deploy agents. Just like React needed Next.js to solve the task of building an actual web application. And that's eve.",
+            "createdAt": "2026-06-17T13:46:29.000Z",
+            "url": "https://x.com/rauchg/status/2067242482190979186",
+            "likes": 1050,
+            "retweets": 67,
+            "replies": 55,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2067455756795039957",
+            "text": "The past couple months we may be witnessing what the Applied AI layer will look like at scale. Despite some of the initial critique that this would just be a thin layer on the LLM, it’s turning out that actually driving agentic workflows in an enterprise is far more complex. And anywhere there’s complexity you generally gain a moat and value over time.\n\nHere are a few of the components that appear to make up the playbook based on the examples we’re collectively seeing in coding, legal, healthcare, customer support, financial services and other fields:\n\n* Build the features that bridge the gap between the intelligence and the workflow. Some workflows can be automated by simply going to a general purpose interface, but others need tuned interfaces and features tied to the work they’re augmenting or automating. They need features that are specific to capturing the kind of data that’s needed as context for the agent. And they need a variety of bespoke tools for the agent to use, and unique interfaces for the human-in-the-loop UX. Going far deeper than just presenting the output tokens is clearly critical, and the more depth there is here definitionally the more sustaining value.\n\n* Act as the model router balancing frontier intelligence with cheaper models. A natural advantage that any model neutral platform has is that it can naturally (in a business model-aligned way) leverage whatever level of intelligence is necessary for the workflows they’re automating to get done. There are plenty of scenarios where you need GPT-5.5 or Fable level capability, and also lots of workloads where a more efficient closed or open weights do the trick. Only the companies that have deep evals on specific tasks across all models, and the ability business model wise to leverage them, are in a great position.\n\n* Drive the actual implementation and change management via FDE or equivalent. A big reason the applied layer works at scale is that most enterprises need some degree of help and support with change management in implementing agents for their workflows. Data has to be cleaned up and moved to modern systems, processes have to be re-engineered and documented, workflows have to be evaled, SLAs have to get achieved, and so on. All of this is going to be unique for every type of process that gets implemented, which means the companies that have expertise in a given domain and come with all the relevant best practices will be in a strong position.\n\n* Implement domain specific GTM that creates expertise in that field. Beyond FDEs the companies that can build sales and GTM motions aligned to their domains also have a natural advantage. Most IT and line of business leaders have too many things to do in any given day; so if you’re not on their agenda, likely someone else is. Depending on the industry, there are entirely different sets of language you use, ways of working through security and compliance, regulatory controls you have to support, industry events that companies convene at, different system integrator and consulting partners you need to work with, and so on. The more generalized this gets the less you can speak the customers language, which is where the applied layer has a leg up.\n\nA final note. There remains a view that a lot of this is all mitigated by model intelligence alone, and the bitter lesson solves all of this in the limit. That’s possibly true, but enterprises need help changing *today*. And many aspects of how to bring intelligence to real world work don’t only depend on the axis of the pure capability of the model, so most of what you’re doing now to win ends up being important no matter how good the models get.",
+            "createdAt": "2026-06-18T03:53:58.000Z",
+            "url": "https://x.com/levie/status/2067455756795039957",
+            "likes": 241,
+            "retweets": 20,
+            "replies": 36,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2067366749411176831",
+            "text": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour\n\nFrontier AI-coding daily actives, mid-2026: 5M devs \nFully-loaded cost: $90/hr \n\nWork routed to Fable in 48 hours: 17.8%\nFable is on average ~15% more productive \n\nEffective throughput loss per dev = 17.8% × 15% ≈ 2.7% of output\n\n2.7% × $90/hr = ~$2.40/dev/hr × 5M devs = $12M per working hour",
+            "createdAt": "2026-06-17T22:00:17.000Z",
+            "url": "https://x.com/garrytan/status/2067366749411176831",
+            "likes": 594,
+            "retweets": 22,
+            "replies": 98,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067308407603048774",
+            "text": "I think you still need both, but the main lede is: technical founders now have access to business thinking\n\nBusiness founders now have access to technical thinking\n\nNet net: more startups that actually work, period https://t.co/Kd3iRxQrtE",
+            "createdAt": "2026-06-17T18:08:27.000Z",
+            "url": "https://x.com/garrytan/status/2067308407603048774",
+            "likes": 293,
+            "retweets": 19,
+            "replies": 40,
+            "isQuote": true,
+            "quotedTweetId": "2066605189130486264"
+          },
+          {
+            "id": "2067260431597723825",
+            "text": "We don’t care what your age is\n\nWe care if you can build with craft and care\n\nAnd if you can make something people want https://t.co/iCv9svn4VD",
+            "createdAt": "2026-06-17T14:57:49.000Z",
+            "url": "https://x.com/garrytan/status/2067260431597723825",
+            "likes": 680,
+            "retweets": 24,
+            "replies": 63,
+            "isQuote": true,
+            "quotedTweetId": "2067241907646771654"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2067423674689638652",
+            "text": "Don't use AI for writing until you develop your own taste and voice\n\nUsing AI to write isn't inherently bad. The danger is using AI to write before you've developed your taste for what is good content. If the AI produces slop, you won't even recognize it as slop\n\nRead a lot to figure out what good looks like. Write a lot to know what your voice sounds like. Only then, use AI to help you write, but make sure it actually sounds like you",
+            "createdAt": "2026-06-18T01:46:29.000Z",
+            "url": "https://x.com/zarazhangrui/status/2067423674689638652",
+            "likes": 158,
+            "retweets": 7,
+            "replies": 41,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067313780724551853",
+            "text": "The thing about vibe coded personal apps:\n\nBuilding the thing takes a day. Finding out if you'll actually use it takes a week. Most of my dead projects worked fine. I just never opened them.\n\nMost products are built for a person who doesn't exist. Someone who remembers to open the app, clicks the right button, does step 1, 2, 3 every day. Real humans are lazy & forgetful. Build for that person instead",
+            "createdAt": "2026-06-17T18:29:48.000Z",
+            "url": "https://x.com/zarazhangrui/status/2067313780724551853",
+            "likes": 134,
+            "retweets": 6,
+            "replies": 33,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2067399657639285150",
+            "text": "Why am I so against tranches? \n\nBecause it f*cks the next employee that joins. I was an early employee at four startups. My 409A would be so high. \n\nAnd why am I being subject to the ridiculous valuation that the lead preferred investor didn’t pay. \n\nYes market is going to market and this will keep happening. My only agenda is to let that next employee that joins to not be duped into the FMV of their options.",
+            "createdAt": "2026-06-18T00:11:03.000Z",
+            "url": "https://x.com/nikunj/status/2067399657639285150",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067397092981772501",
+            "text": "Spotting a tranched round is so simple in today’s market..\n\nIf someone raises xxM $ at under 10% dilution of the published valuation, you can safely bet it was a tranched round. \n\nThis is obviously true for seed/A but sadly seeing weird tranches at the B too!",
+            "createdAt": "2026-06-18T00:00:52.000Z",
+            "url": "https://x.com/nikunj/status/2067397092981772501",
+            "likes": 54,
+            "retweets": 0,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067378464773292066",
+            "text": "The next 12 months we are going to see some incredible emerging manager's come out with their debut funds.. \n\nThese are NOT household names today, but will be in the next decade. \n\nEach one has intense founder love, unique lens on the world and hustle like no one else!",
+            "createdAt": "2026-06-17T22:46:50.000Z",
+            "url": "https://x.com/nikunj/status/2067378464773292066",
+            "likes": 89,
+            "retweets": 4,
+            "replies": 12,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2067431311317352809",
+            "text": "sci-fi vibes intensify https://t.co/4Y4iakN3vv",
+            "createdAt": "2026-06-18T02:16:50.000Z",
+            "url": "https://x.com/steipete/status/2067431311317352809",
+            "likes": 1124,
+            "retweets": 39,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2067421950314688759"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2067386395283345808",
+            "text": "@every @ninklefitz i wrote \"against explanations\" in 2023 about how AI might change the sciences...extremely pumped to see the prospect of so much progress so fast\n\nhttps://t.co/kHiw3WpOMd",
+            "createdAt": "2026-06-17T23:18:21.000Z",
+            "url": "https://x.com/danshipper/status/2067386395283345808",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067386342661624055",
+            "text": "we @every make investments every so often in founders building things in AI who we think are excellent\n\n@ninklefitz is one of those founders—and i am also a huge fan of tacit's mission and approach https://t.co/Hn9B8bWf8l",
+            "createdAt": "2026-06-17T23:18:08.000Z",
+            "url": "https://x.com/danshipper/status/2067386342661624055",
+            "likes": 71,
+            "retweets": 3,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2067361830826356786"
+          },
+          {
+            "id": "2067293009964630081",
+            "text": "@hammer_mt @github @kdaigle YouTube: https://t.co/SFX4wwc2rf\nSpotify: https://t.co/X01KaoY5cC",
+            "createdAt": "2026-06-17T17:07:16.000Z",
+            "url": "https://x.com/danshipper/status/2067293009964630081",
+            "likes": 2,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2067306245942317426",
+            "text": "Apply to SPC https://t.co/xWaXyqC7Rj",
+            "createdAt": "2026-06-17T17:59:52.000Z",
+            "url": "https://x.com/adityaag/status/2067306245942317426",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067306244390428893",
+            "text": "Read through all of the questions https://t.co/iT8yVX5SMg",
+            "createdAt": "2026-06-17T17:59:52.000Z",
+            "url": "https://x.com/adityaag/status/2067306244390428893",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067306242825949398",
+            "text": "The questions SPC members explore signal where the frontier is heading next. https://t.co/3bvAEkvMpP",
+            "createdAt": "2026-06-17T17:59:51.000Z",
+            "url": "https://x.com/adityaag/status/2067306242825949398",
+            "likes": 11,
+            "retweets": 3,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2067284458579911013"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2067427678529974740",
+            "text": "We offer no explanation as to why Noams are so good at AI; we attribute their success, as all else, to divine benevolence. https://t.co/QQ93UCF4ok",
+            "createdAt": "2026-06-18T02:02:24.000Z",
+            "url": "https://x.com/sama/status/2067427678529974740",
+            "likes": 4618,
+            "retweets": 160,
+            "replies": 257,
+            "isQuote": true,
+            "quotedTweetId": "2067402274662744465"
+          },
+          {
+            "id": "2067427421083652131",
+            "text": "noam is one of the people I have most wanted to work with since the very beginning of openai.\n\nonly took 10 years.\n\ni think it will be worth the wait! https://t.co/Hj2fjCywjv",
+            "createdAt": "2026-06-18T02:01:22.000Z",
+            "url": "https://x.com/sama/status/2067427421083652131",
+            "likes": 5101,
+            "retweets": 147,
+            "replies": 252,
+            "isQuote": true,
+            "quotedTweetId": "2067400851438932297"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2067325894268428560",
+            "text": "Claude Design is in beta on all paid plans, on web and desktop. Give it a try: https://t.co/C9iewmyMQs",
+            "createdAt": "2026-06-17T19:17:56.000Z",
+            "url": "https://x.com/claudeai/status/2067325894268428560",
+            "likes": 351,
+            "retweets": 16,
+            "replies": 32,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067325893001826552",
+            "text": "Claude Design and Claude Code work together in both directions (rolling out today). Hand a design off to build, or start in Claude Code and sync design projects from your terminal.\n\nExport to PDF and PowerPoint, or send your work to more of the tools you already use.",
+            "createdAt": "2026-06-17T19:17:56.000Z",
+            "url": "https://x.com/claudeai/status/2067325893001826552",
+            "likes": 311,
+            "retweets": 11,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2067325891781226581",
+            "text": "The redesigned editor is steadier for daily work. New layout controls let you drag, resize, and align elements directly on the canvas.",
+            "createdAt": "2026-06-17T19:17:56.000Z",
+            "url": "https://x.com/claudeai/status/2067325891781226581",
+            "likes": 318,
+            "retweets": 9,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 16,
+      "totalTweets": 38,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-06-18T08:02:21.763Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    },
+    "errors": [
+      "Podcast feed problem: Podcast: Transcript error for \"🔬 The Self-Driving Lab — Joseph Krause, Radical AI\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+}
