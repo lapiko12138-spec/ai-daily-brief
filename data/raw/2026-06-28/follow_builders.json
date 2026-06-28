@@ -1,0 +1,567 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-06-28T13:16:21.677914+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 15,
+    "totalTweets": 34,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-06-27T07:23:53.714Z"
+  },
+  "digest_generated_at": "2026-06-28T05:16:21.509Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-06-28T05:16:21.509Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+        "guid": "32e4b7a0-7118-11f1-a100-bf8895cb33ba",
+        "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+        "publishedAt": "2026-06-26T10:13:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:13\nWith GBT three, you couldn't scale test time compute. Like, if you gave it a budget of $10,000,000 and said, okay. Well, let's see what GBT three can do. It really can't do that much. The precarious frameworks and responsible scaling policies, they don't really account for the amount of test time compute.\n\nSpeaker 1 | 00:13 - 00:32\nThey just say, okay. Well, what's the capability of the model? The problem is we're in a world now where the capability of the model is a function of how much money you put into it, basically. If you give it a budget of $10,000, it can do a lot more than what it can do with a budget of $10. Give it a budget of $10,000,000, it can do even At what budget should you evaluate these models?\n\nSpeaker 1 | 00:32 - 00:36\nThe policies that exist today don't really address that question.\n\nSpeaker 2 | 00:43 - 01:03\nHi, listeners. I'm Sarah Gore, and welcome back to No Priors. Today, I'm here with Noam Brown, one of our godfathers of AI reasoning. We talk about the broken state of evaluations, very large scale test time compute, how he thinks about recursive self improvement, and what's next on the horizon for competition at the frontier. Welcome.\n\nSpeaker 2 | 01:03 - 01:05\nNoam, I'm so excited to have you back.\n\nSpeaker 1 | 01:05 - 01:06\nThat's great to be back. Yeah.\n\nSpeaker 2 | 01:06 - 01:21\nYou are our first guest. I'm very proud of my taste in friends and researchers for the pod, given, you know, how important, you know, inference time scaling has become to the industry. You should be proud too, having actually pioneered\n\nSpeaker 1 | 01:21 - 01:23\nit. Played apart, yeah, among many others.\n\nSpeaker 2 | 01:24 - 01:37\nYou just wrote this essay that really resonated about large scale test time compute and why the industry is not evaluating these models as robustly as it should be. What was the motivation for it?\n\nSpeaker 1 | 01:37 - 02:08\nYeah. The motivation was we released 5.5, and the initial reaction was kinda skepticism that it was a substantially better model. This to be fair, that only lasted for a few hours before people had some time to play around with it and and try it out themselves, and they saw that it was actually substantially better. But I think a lot of the skepticism came from the benchmark grid that was published. Basically, whenever a new model is released, there's this benchmark grid where they show all these different benchmarks on on the x axis and then the performance of different models on the y axis, and you can just, like, compare different models.\n\nSpeaker 1 | 02:08 - 02:28\nIt's like a single number for a model on a single benchmark. And if you look on paper at the difference between, like, five point five and five point four or or other models, it wasn't it was an improvement, but it wasn't a huge improvement. It was only a few percentage points on some benchmarks. So people looked at that, and they were skeptical that it was actually a better model. Once they played around with it, the story changed.\n\nSpeaker 1 | 02:28 - 02:53\nI think the reason why it doesn't show up as so much better on the benchmarks is because the benchmarks are being presented the benchmark results are being presented in the wrong way. They're not controlling for the amount of test on compute that is being used on that benchmark question. It turned out that 5.5 is just much more efficient with its thinking. If you run it at max settings, 5.4 is thinking for a lot longer. It takes longer to get back a response than 5.5.\n\nSpeaker 1 | 02:54 - 03:12\nAnd once you control for the amount of thinking time, actually, you can see that 5.5 is a substantial jump over 5.4. That is, I think, people's day to day experience with it. And then when I mention this to people, the reaction the typical question I get is like, okay. Well, why not just have 5.5 think for as long as 5.4? And the question is like, well, how long should they think for?\n\nSpeaker 1 | 03:12 - 03:31\nTypically, the response I get is, well, until the performance plateaus. Right? This is at some point where the performance on the benchmark is gonna plateau, and you just evaluate to that point. The thing is, the point at which it plateaus is actually really far out these days. I mean, if it's true in g p d three land back in 2022, models couldn't really think productively for that long, and so you could just run them until they plateau.\n\nSpeaker 1 | 03:31 - 03:52\nIt's not that far away. But what we're seeing today with the modern models is that 5.5 and other models can think for if you scaffold them reasonably well, can think for weeks even, before having performance plateau on some of these benchmarks. And so the point at which they plateau is simply too far out to reasonably test.\n\nSpeaker 2 | 03:52 - 04:00\nWe all need to actually reinforce either, like, a patience limit or a budget limit from a token perspective now, and that wasn't true a few years ago.\n\nSpeaker 1 | 04:00 - 04:19\nExactly. And so I think the proper way to and so my claim is the proper way to evaluate the models now is you either have some kind of budget for the benchmark, whether it's tokens or cost or time or whatever, or you plot the performance as a function of the amount of test time compute that's going into the model. And then it becomes much more clear how to compare the performance between these different models.\n\nSpeaker 2 | 04:20 - 04:40\nGiven the model evaluation cycle and the fact that performance does not asymptote for many tasks over quite a long period of time, what do you do about that issue, the fact that some of the evals that you would want to run are both beyond the scope of budget or time that's reasonable given the current model release cycle?\n\nSpeaker 1 | 04:40 - 05:04\nI mean, I think for things like cyber, we've seen, and actually the AISI in their evaluations has shown that the models continue to improve at a 100,000,000 tokens. You know, if you run them for a 100,000,000 tokens, they're still improving at beyond that point. Mhmm. And that can take a very long time to run. But you also do see that, like, the performance is is it's not just, like, a discontinuous jump.\n\nSpeaker 1 | 05:04 - 05:25\nIt's actually, like, you can see the slope of improvement over those 100,000,000 tokens. And so you you could probably do some kind of evaluation up to a certain budget and then just say, okay. Well, this is what we project the performance to look like. And I think this this there hasn't been a lot of research on this yet. I actually think this would be a great paper to publish if there's any academics out there looking for something to research.\n\nSpeaker 1 | 05:25 - 05:34\nCan you predict what the performance looks like at an inference budget of, let's say, $10,000, only using inference budgets up to 10 or 100 or 10 or $100?\n\nSpeaker 2 | 05:34 - 05:42\nSo maybe an orthogonal question for you. Do you think users are systematically, like, not thinking long enough with their models about problems?\n\nSpeaker 1 | 05:42 - 05:44\nWhat do you mean by not thinking long enough?\n\nSpeaker 2 | 05:44 - 06:08\nIf you can build an agent or control the amount of test time compute being used, like, there's what is done by the model itself, and there's what the user can do. Do you think that, you know, the industry is using test time compute an optimal amount, way undershooting it, or it's, you know, it's a problem in the models where they just need to be able to do that thinking faster?\n\nSpeaker 1 | 06:08 - 06:32\nI I think it depends on the problem. I think this idea that the models, you just let them think for a week or whatever, then they respond. It's it sounds nice, and, yes, the benchmarks look great, but it's not very practical when working because, like, okay, you ask the model a question, then you sit there for a week waiting for it to come back to you. Mhmm. I think what people have have found most effective is to kind of, like, iterate quickly with the models.\n\nSpeaker 1 | 06:32 - 06:46\nAnd so the thinking time, I think, needs to be flexible. When it makes sense to respond quickly to the user, it should respond quickly. And then when it makes sense to think for a long time and the user wants it to think for a long time, then it makes sense to think for a long time. I think people have been striking the right balance given what they have to deal with right now.\n\nSpeaker 2 | 06:47 - 07:02\nHow would you characterize know, there's a lot of talk about benchmark maxing and the ability to gain different benchmarks. What would you characterize the, like, landscape of benchmarks as today? And then do you have, like, favorites that you think are more indicative of capability than others?\n\nSpeaker 1 | 07:03 - 07:41\nSo the benchmark maxing thing is also motivation for for writing an essay that I think it's really easy to show you can do much better than previous benchmarks or or previous previous models on benchmarks by just, for example, scaffolding a bunch of models together. So if you say, okay. Well, we're going to instead of just running this model once, we're gonna run it five times and take the best of the five responses or, like, ask a judge which one it it thinks is best, then you can get much higher scores than that model. And so it's really easy to make something that looks a lot better on paper but is actually not better once you control for the amount of test time compute. That is one thing that I'm worried about when it comes to benchmark maxing.\n\nSpeaker 1 | 07:41 - 08:10\nI mean, it, like it's it's a little misleading is the only concern that I have. And then as far as, like, the benchmarks themselves, I think there is always a risk of, like, just optimizing for the benchmark. And I've I've certainly encouraged my team, and I think at OpenAI, we're pretty good about not trying to optimize for for specific benchmarks. But once you put out a benchmark, it's there's it's always at risk of just being optimized for. And I think one way to one way to address that is to keep held out private sets that isn't publicly available.\n\nSpeaker 2 | 08:10 - 08:30\nThe most popular fallback advice for, you know, figure out if a model is significantly better or not is to just play with it for a while. Do you have anything more sophisticated than that that you suggest people do? Like, do you create your own set of new evaluations each time besides private holdback at OpenAI?\n\nSpeaker 1 | 08:30 - 08:34\nI think everybody has their own set of questions that they like to ask the model whenever it comes out.\n\nSpeaker 2 | 08:34 - 08:34\nMhmm.\n\nSpeaker 1 | 08:34 - 09:04\nFor me lately, it's been I I use them to make poker bots and see how good they can make a poker bot. I think it's a nice eval because there is very little open source code for making poker bots. And there's a lot of published essay there's a lot of published papers on it, but you really have to reason through everything. And it's, like it requires a lot of just reasoning and iteration and, like, a lot of small gotchas that I can kind of I've already worked through myself, so I can see where the models fail along the way. They've gotten really good at it now.\n\nSpeaker 2 | 09:04 - 09:15\nCan you describe perhaps, like, with your poker bot creation, like, how reasoning might have progressed in model releases for you guys over a few releases?\n\nSpeaker 1 | 09:15 - 09:30\nYeah. When the early models were really bad at it. Like, they could not basically do anything. And then 5.2, I was able to work with it to make a reverse solver. So that's, like, the final stage Mhmm.\n\nSpeaker 1 | 09:30 - 09:48\nOf poker. And that itself was, I thought, really impressive. I I had to work with it a little bit, but I was actually really impressed because I was able to make the reverse solver probably about five times faster than I would have alone. There were a couple things that I got tripped up on. Blockers was always a big, big issue.\n\nSpeaker 1 | 09:48 - 10:08\nBut overall, like, you know, with a with a bit of gentle steering, it just kind of like I I kinda felt like a grad student where, okay, they would run into issues, but at least, like, I would know what those issues were and know how to fix it. And I could just make suggestions, and it would go off and then do it. And then pretty quickly, would actually come back with something really good. Mhmm. And then especially the optimization, thought was very impressive.\n\nSpeaker 1 | 10:08 - 10:40\nIt was able to make it, like, 10 times faster than what I was able to do because it was just able to optimize the code so well. The downsides with 5.2 is I felt like it was gaslighting me a lot, and I always had to be very careful checking it and making sure, like, okay. Is it actually doing what it said it did? Are there any things that are, like, glaring issues that it's not recognizing or it's just pretending aren't issues? I remember there was, like, one point where for one of the models I was playing around with it, not 5.2, I kind of, like, as a as a unit test, I told it, okay.\n\nSpeaker 1 | 10:40 - 10:51\nWell, let's say I have a $100 in the pot, and I fold. How much am I losing? And the model said $92. And I was like, that's crazy. I I have a $100 in the pot, I just fold it.\n\nSpeaker 1 | 10:51 - 10:55\nHow do I not lose a $100? And it said, oh, you know, it's 92. It's close to a 100. It's fine. It's no big deal.\n\nSpeaker 1 | 10:55 - 11:06\nAnd I was like, clearly, this is a problem. Right? So the models did have this problem where they would gaslight you a lot. Mhmm. But once we got to 5.5, I actually thought it was way better.\n\nSpeaker 1 | 11:06 - 11:25\nIt was able to basically do a zero shot. And in fact, I've been working on just doing a full scale poker solver, and it it's basically able to do the whole thing with some gentle steering from me. And I wouldn't be surprised if, six months or a year from now, the model is able to do zero shot an entire poker solver, basically my entire PhD thesis, in one go.\n\nSpeaker 2 | 11:26 - 11:49\nLet's talk about the larger implications of needing to evaluate these models relative to, let's say, speed of their reasoning or efficiency versus token volume, right, or dollar budget or whatever your scaler is. Can you describe some of the larger implications in your essay, including around safety evaluations?\n\nSpeaker 1 | 11:49 - 12:08\nYeah. The safety evaluations thing, it's it's a bit of an inconvenient truth thing where okay. So I guess for background, a lot of the all of the labs have these things called either responsible scaling policies, preparedness frameworks. They go by various names. But the idea is that whenever a model's released, they go through a series of evaluations to measure, are there dangerous capabilities?\n\nSpeaker 1 | 12:09 - 12:23\nCould these models do things that we're we we wouldn't want, a bad actor to do? And if the model isn't very capable, then it's no big deal. But if it is very capable, if it could be used, for example, to make bioweapons, then you want to put in mitigations against that.\n\nSpeaker 2 | 12:23 - 12:24\nMhmm.\n\nSpeaker 1 | 12:24 - 12:41\nBut the question is, okay. Well, how do you evaluate whether the model is capable of that? And they have, like, various protocols about, like, how they do these evaluations. But a lot of these frameworks were developed around the era of ChatGPT, either before or after, when test time compute scaling was not really as much of a thing. Mhmm.\n\nSpeaker 1 | 12:41 - 12:59\nAnd it made sense. Like, with GPT three, you couldn't scale test time compute. Like, if you gave it a budget of $10,000,000 and said, okay. Well, let's see what g p t three can do, it really can't do that much more than what you could do with, like, $10 or $1. The preparedness frameworks and responsible scaling policies, they don't really account for the amount of test time compute.\n\nSpeaker 1 | 12:59 - 13:08\nThey just say, okay. Well, what's the capability of the model? The problem is we're in a world now where the capability of the model is a function of how much money you put into it, basically.\n\nSpeaker 2 | 13:08 - 13:08\nMhmm.\n\nSpeaker 1 | 13:08 - 13:25\nIf you give it a budget of $10,000, it can do a lot more than what it can do with a budget of $10. If you give it a budget of $10,000,000, it could do even more. And so at what budget should you evaluate these models? The policies that exist today don't really address that question.\n\nSpeaker 2 | 13:25 - 13:25\nMhmm.\n\nSpeaker 1 | 13:25 - 13:50\nSome do some do better than others, but for the most part, this is not really a factor that's being heavily considered. Now whether it should be released anyway, I don't I don't wanna wade into this question. I think there's, you know, there's arguments on both sides. But I think the important thing to recognize is that this is a question that is not being we're we're just kind of, like, you know, pretending that this issue doesn't exist, and I think it's important to just, you know, one way or the other account for it.\n\nSpeaker 2 | 13:50 - 14:16\nYeah. It was the mirror image of the capability question of if the models can continue to do more and more without asymptoting on some tasks at very large budgets, then they should also be able to do so for tasks we don't want them to do as a society. Right? And so testing for that and what budget is allocated, it also seems out of sync from the model release cycle itself. Right?\n\nSpeaker 2 | 14:16 - 14:43\nThere's been this acceleration of, you know, you get a new model every sometimes few days and weeks at this point versus six months. And you have a line in the essay where you say, like, the the only way to truly evaluate an agent on some very long running task might be to run it for a year, and that's gonna be true of both, like, useful and negative tasks. Right? And so how do you think about that versus the model release cycle?\n\nSpeaker 1 | 14:44 - 14:53\nYeah. This this is also an interesting dynamic where, basically, as the models have become stronger, they've they're more they're better able to operate over longer horizons.\n\nSpeaker 2 | 14:53 - 14:54\nMhmm.\n\nSpeaker 1 | 14:54 - 15:12\nSo, again, with g p d three, if you wanted to run it for, you know, a week, there's really not much you could do to scaffold it into something useful that could actually run for a week. But we're seeing now with the most recent models that you can actually scaffold, for example, 5.5 into doing a series of experiments that can run for weeks, for months.\n\nSpeaker 2 | 15:12 - 15:19\nHave you given your poker solver task, like, infinite budget yet?\n\nSpeaker 1 | 15:19 - 15:27\nI haven't really scaffolded something together where I just tell it, like, okay, just run this for for weeks. I think I could it I I Until it has\n\nSpeaker 2 | 15:27 - 15:28\nsome types.\n\nSpeaker 1 | 15:28 - 16:04\nCould probably give it slash goal and just, like, yeah, tell it to go nuts. But I I think at this point, it could 100% do the reverse solver if I just give it slash goal. I don't think it's at the level yet where it could do, like, the full poker solver if I gave it just slash goal and told it, yeah, go go run for a month. But we're going to pretty soon be at that point where I I probably could just tell it, like, yeah, go work on this for a month, and then come back to me with a a full, complete PokerSolver that's state of the art. And the problem is if you want to evaluate the capabilities of a model, what it can do after running for a month, the only way to be fully sure is to actually run it for a month.\n\nSpeaker 1 | 16:04 - 16:33\nAnd if you wanna know after six months, the only way to know fully is to run it for six months. Now there I'll I'll get to, like, things we could do to address that a little bit later, but, like, it's important to recognize that the model release cycle is look. We're releasing new models, like, every two or three months at this point. And so a model comes out, it takes two or three months to push it to its limits, and then you have another model come out. And so nobody actually knows what the ceiling of capabilities are for these models because nobody's actually run them for long enough to really tell.\n\nSpeaker 1 | 16:33 - 17:02\nWhen slash goal came out, for example, I mean, people started running things that it took over a week for it to finish, and so people actually didn't realize that this was a big deal until after a week, until a week after it was released. Mhmm. I think that's gonna be more and more true. You know, the implications of that are, I think, pretty interesting because what do the labs do to, like, fully evaluate their models before they're released? It's actually very difficult because, yeah, you would have to the only way to to really do the evaluations is then delay the model release cycle.\n\nSpeaker 1 | 17:03 - 17:06\nAnd, you know, there's a lot of competitive pressure right now to not do that.\n\nSpeaker 2 | 17:06 - 17:14\nDo you think there's, like, exciting latent capability in the models that are already released that people have not fully explored given timeline?\n\nSpeaker 1 | 17:14 - 17:44\nI think absolutely. I think actually a really great example is the Erdos unit distance problem. So for the viewers that don't know, like, we used an internal model at OpenAI a few weeks ago to disprove the unit Erdos unit distance conjecture. Now I'm not a mathematician, but this seems like it was a a pretty big deal. The in the math community, it was, like, the first first problem that a lot of mathematicians had really spent a lot of time on, and the model was able to do something that they weren't able to do and do it in a way that was actually interesting and useful for mathematicians.\n\nSpeaker 1 | 17:44 - 17:59\nHonestly, it did it at a budget that was dirt cheap. I mean, we didn't put a lot of effort into this. We just we trained a new model, and we were just curious what it could do, and we ran it through some problems. And this one, at a pretty low budget, it was like, oh, yeah. I think I have a disproof, and then we were able to verify that, yeah, that disproof is correct.\n\nSpeaker 1 | 18:00 - 18:16\nAfter we announced the results, a bunch of people found that you could get the answer out of 5.5 as well. If now it's not as simple as just asking 5.5, hey. Here's the neural unit distance conjecture. What's the disprove? You had to scaffold it a bit.\n\nSpeaker 1 | 18:16 - 18:29\nYou had to, like, steer it a bit. And so somebody found, okay. You asked 5.5. List a bunch of ways that you could tackle this problem. And then for it it lists one of the paths that are actually promising to get to the disprove.\n\nSpeaker 1 | 18:29 - 18:54\nAnd then it you tell it, like, okay. Explore this some more. And then if you do this enough times, it actually ends up arriving at the disprove. Now what this means is you could, in principle, ask 5.5 to you know, as as a general purpose scaffold, list a bunch of different strategies, and then for each strategy, tell it to investigate that strategy. And then it would probably be able to arrive at the disprove with a general purpose scaffold.\n\nSpeaker 1 | 18:54 - 19:18\nNow that scaffold would be very expensive. I mean, it would probably cost I I just ballpark, like, a thousand to 10 to a $100,000. But it would be possible, and it would have been possible for somebody to disprove the Erdosia to disc distance conjecture before we did using a general purpose model. And nobody had explored sufficiently, well, happens if I put a $100,000 worth of compute into 5.5? What could it do?\n\nSpeaker 1 | 19:18 - 19:21\nAnd the answer is, yeah, you probably could get stuff like that out of it.\n\nSpeaker 2 | 19:21 - 19:24\nSo people should be experimenting more with the current generation in terms of\n\nSpeaker 1 | 19:24 - 19:42\nWell, this is, I think, an interesting question of, is it worth it to experiment with because, again, the model release cycle is every every couple months, we put out a new model that's even more powerful. And so the cost of disproving the air to ocean at distance congestion drops by, like, 10 or a 100 x with every model release cycle, probably, in some cases, more.\n\nSpeaker 2 | 19:42 - 19:48\nSo You've seen the meme that's like, oh, alright. Like, why why bother doing any engineering work when I should just wait for the next\n\nSpeaker 1 | 19:48 - 19:55\nmodel release? On vacation and come back two months later, and then it's, you know, a thousand times cheaper. So agree with that? I Is that\n\nSpeaker 2 | 19:55 - 19:58\nwhat you're doing right now at OpenAI, just waiting for the next model release?\n\nSpeaker 1 | 19:58 - 20:12\nI think I I mean, I will say we're in we're in a period where progress is very fast, and, like, yeah, the models are becoming more capable. I I can say, like, at OpenAI, one of the things that we're we're actively not doing look. We have a lot of mathematicians. We have a lot of physicists. People are very excited about what these models can do right now Mhmm.\n\nSpeaker 1 | 20:12 - 20:58\nEspecially, you know, the internal models. We are trying to encourage people to not spend all their time just, like, going through all the mathematical open problems, physics problems, and just seeing pushing the models to their limits to see what they can prove or disprove Because we really think the focus should be on how do we make even more capable models, how can we get them get them out safely to the world as quickly as possible so that all the scientists in the world can use these models to solve the problems themselves. So, yeah, in some sense, we are thinking about this that, yes, it's really tempting to just put all of our efforts into scaling up these models and see what they can do with their limits right now, but really the focus should be on how do we use these models to make even more powerful models, even more capable models that can do everything much more cost effectively.\n\nSpeaker 2 | 20:59 - 21:23\nWhat is changing about the direction or allocation of resources for research in your mind given your beliefs about this very large scale the impact of very large scale test time compute? How does this interact with the idea of recursive self improvement, for example, where, you know, it's a dominant idea for how, you know, any lab gets to the best capability model.\n\nSpeaker 1 | 21:23 - 21:32\nSo one thing I should clarify, I don't think we're at the point where, okay, you just give it an arbitrary an an extremely high inference budget, and it's just it's just super intelligent across the board.\n\nSpeaker 2 | 21:32 - 21:33\nSlash goal\n\nSpeaker 1 | 21:33 - 21:37\nYeah. Baseline. Okay. G p d seven or whatever and then, like, yeah, just go nuts.\n\nSpeaker 2 | 21:37 - 21:39\nWhat's between us and there then?\n\nSpeaker 1 | 21:39 - 22:08\nI think having played around with the model so okay. So first of all, there are some benchmarks where the models will just not improve if they have more inference budget. So I think a lot of factual retrieval kind of questions fall into this category of if you ask a person when was Abraham Lincoln born and they don't know the date, they could sit there. They could think about it for a week. If they if they don't have access to a computer or something, they're not gonna be able to do better answering that question if they thought about it for a week compared to five seconds.\n\nSpeaker 1 | 22:09 - 22:38\nSame with the model. If you actually, interestingly enough, if you give the model these kinds of, like, factual retrieval questions and you give them a little bit of time to think, they do actually do But if you give them a week, they're not suddenly gonna do better at remembering dates. There are so there's some benchmarks where they clearly improve with more test time compute, and there's some where they don't. I think on the other extreme, there are benchmarks where they kind of obviously will keep improving limit without limit with more test time compute. So the example I like to point to is sudoku.\n\nSpeaker 1 | 22:39 - 23:07\nIf you it's there's a really simple strategy to solving sudoku, which is just try a bunch of different random numbers and then see if it fits the criteria, if it if it matches all the constraints. And if it doesn't, just try a different random combination of numbers. And, clearly, with enough time, you will be able to solve any Sudoku puzzle with this strategy. You can kind of trivially see, like, okay, any model could keep doing better and better if it was just given more test compute. So you have and and all the benchmarks kind of exist somewhere between these two extremes.\n\nSpeaker 1 | 23:07 - 23:39\nThe models are not at the level where if you just give them enough test time compute, they will be able to do all of our jobs just because, yeah, there's some benchmarks where they will not improve. There are some things where they they will not improve. One thing I see for research in particular is they don't have very good research taste right now, and so I think they're actually a very good complement to researchers, especially, you know, I've found, like, I've found that I've been much more effective by using these models, but they're not able to fully replace the whole research cycle. Now does that change with time? Probably.\n\nSpeaker 1 | 23:39 - 23:51\nI mean, I think the models are getting better across the board. Some some things are getting better faster than others, but they're not at the point where they're fully replacing researchers with just enough test time compute.\n\nSpeaker 2 | 23:51 - 23:59\nCan you give an example or two of, like, asking the model to do a research task for just like this? Is a terrible idea.\n\nSpeaker 1 | 23:59 - 24:36\nI mean, I I think going back to my poker solver example, I was really impressed with the model's ability to optimize the algorithms that I had developed in my in my PhD. It was honestly it it was it was shocking to see how inefficient I was, in retrospect, and they were able to make it, like, you know, 1,000 x faster. And then I was like, okay. Can you come up with an algorithm that is better than the algorithms that I came up with or that anybody else came up with? You and go ahead and, like, look at all the published work and synthesize that and then try to come up with something novel, and it it's not able to do it.\n\nSpeaker 1 | 24:36 - 24:52\nAnd I can give it a lot of time, it's it's still not able to do it. Now it's possible that if I scaffolded something and, like, kind of constrained it a bit more, that maybe it could eventually come up with something better, but it would take a lot of it's not just as simple as saying, okay. Please come up with a better algorithm.\n\nSpeaker 2 | 24:52 - 24:54\nAnd how do you think that that gets improved?\n\nSpeaker 1 | 24:55 - 25:17\nWhat I've seen is with every model release cycle, it does get better at this sort of thing. It's still it's still bad in my opinion, but it it's not as bad as it used to be. And I wouldn't be surprised if at some point same thing with coding, same thing with math, where there's just, like, this inflection point where suddenly it's actually good enough to be useful. I wouldn't be surprised if we encounter that point for research tastes as well.\n\nSpeaker 2 | 25:18 - 25:23\nEven that, what do you like, what is your framing of RSI today? Like, how should we think about it?\n\nSpeaker 1 | 25:24 - 25:51\nThe models are definitely accelerating what researchers can do inside the labs. But I think they are accelerating some things and not other things. And currently, we're at the point where, okay, if something goes a 100 x faster, you get bottlenecked by the things that don't go a 100 x faster. Over time, the things that we're getting bottlenecked on are going to shrink, and and there will be, I think, a kind of a gradual takeoff in that respect. But it's more about transforming right now, it's more about transforming what researchers do rather than fully replacing the researchers.\n\nSpeaker 2 | 25:52 - 25:57\nSo that actually implies that you don't think we're close to a very fast takeoff right now.\n\nSpeaker 1 | 25:58 - 26:38\nI think fast takeoff is relative. Things are moving very fast, but I think there is this hypothesis that you could have basically an overnight intelligence explosion where the models discover some kind of breakthrough to make themselves smarter, and then that leads to more breakthroughs that make themselves even smarter immediately. And you have, basically, in an instance, the model's just, you know, becoming very superhuman across the board in in moments. And I don't think we're headed to that world largely because of the fact that the models rely so much on large scale test on compute in order to achieve their greatest intelligence. If you if it requires so much test on compute to unlock the full capabilities of the model, then that means you're bottlenecked by time.\n\nSpeaker 1 | 26:40 - 27:05\nThings can only go so fast because the models need to run for long enough to actually do something really, really powerful. Time itself becomes a bottleneck to what we can do. And I I think that is the case right now for a lot of the labs that, ultimately, I think the biggest bottleneck for all of us is time. And that's why all the researchers are working so intensely right now. It's it's just so many so many hours per week are being put into this because we all see what the overhang is.\n\nSpeaker 1 | 27:05 - 27:09\nWe see what the capabilities are, and we're just bottlenecked by how quickly can we do things.\n\nSpeaker 2 | 27:10 - 27:17\nWhat do you think is on the frontier that is less explored now? Like, we've talked about multi agent before.\n\nSpeaker 1 | 27:17 - 27:41\nI think multi agent is quite explored. I think there's sufficient scale? I think there's a lot more that could be done, but it's also one of the things that's that's hard to do at small a lot of research is hard to do at small scale. I think multi agent in particular, it really requires in order to fully unlock the capabilities, think requires, like, frontier models. I think we've seen some pretty interesting multi agent scaffolds.\n\nSpeaker 1 | 27:41 - 28:11\nI think, they're able to do a lot, but I think it's really just scratching the surface of what it will be able to do. I mean, one way that I think about it is if if you look at human civilization, it's not that humans have become smarter over it's not that they evolved to become smarter over, you know, the past fifty thousand years. It's that humans are able to do a lot more today than they were back in caveman times because there have been billions of humans thinking for a long time and building off of each other's accumulated knowledge.\n\nSpeaker 2 | 28:11 - 28:15\nWe have, like, very good retrieval and scaffolding versus fifty thousand years ago.\n\nSpeaker 1 | 28:15 - 28:36\nIt's not even I wouldn't even call it a scaffold. This is, like this is a very, like, organic emergent property of just, like, humans being able to accumulate knowledge, share it, and build off of it. We're not seeing that with AI models today. They kind of they're they're born into a world for and they exist for a very short context window, and then they just, like, disappear. Mhmm.\n\nSpeaker 1 | 28:36 - 29:00\nAnd, yeah, there are things that you can kinda do to, like, continue them, but it's very limited. I do think eventually we will and we're starting to see, like, signs that we're entering a world where they can coordinate on a large scale. I think MoltBook and Openclaw, when they first came out, I think it was obviously a bit overhyped, but they were an indication of where things could go in the future. And I do think that eventually we get to that kind of world.\n\nSpeaker 2 | 29:01 - 29:04\nOf some sort of coordinated compounding state.\n\nSpeaker 1 | 29:04 - 29:11\nYeah. The ability of the models to to share knowledge on a more global level and be able to build on that knowledge productively.\n\nSpeaker 2 | 29:11 - 29:47\nGiven this set of beliefs and your work, like, how would you characterize just competition at the frontier between the three kingdoms, if there is no overnight takeoff. It's just researchers grinding away, trying to make good high taste algorithmic and investment decisions about where to go, and then compute allocation, and then policy decisions, and eval decisions. It feels like slightly more grounded than I support I suppose, like racing towards some immediate hard takeoff that nobody can catch you on.\n\nSpeaker 1 | 29:47 - 30:14\nI think the competition is very intense right now. I do think the models that exist today are accelerating what researchers at the Frontier Labs can do. There's obviously, like I said, limits to that right now, but the ability to use the models to improve the the model research is a real thing, and it's it it is like an amplifying force. I think that will continue to be true. I think they'll become more true over time.\n\nSpeaker 1 | 30:14 - 30:42\nOne thing that I am comforted by is I think all the researchers at the frontier labs I all the frontier labs, I think, recognize what is at stake and what these models like, what what the what the risks are. And that's something that I I find comforting that I think everybody really understands. Like, okay. This is a pretty serious thing, and it can lead to really great things or it can lead to really bad things. And, yes, there's a competitive dynamic between the labs, but, like, we can also try to figure out how we all get to the positive outcomes rather than the very negative outcomes.\n\nSpeaker 2 | 30:43 - 31:03\nI I think, you know, I'd be remiss to ask just because you have been right very early for a long time on the importance of test time compute and reasoning as a framework. Like, are there ways in which you use the models that you should you would encourage others to? Right? Is it just goal everything? I think for a\n\nSpeaker 1 | 31:03 - 31:33\nlot of people, they worked I mean, this is probably not even true for your audience necessarily, but there's a lot of people that experimented with AI back in, like, 2023 and felt like they couldn't trust the outputs and then don't use it for really high stakes decisions. And, actually, I think the models have progressed to a point where they are very good for these kinds of things. I mean, I asked them tax advice, or I bought a condo recently, and I was asking it for advice. I'm like, okay. Well, what's all the paperwork that I have to fill out, and, like, how do how do I what does it all mean?\n\nSpeaker 1 | 31:33 - 31:35\nIt's actually really good for these kinds of questions.\n\nSpeaker 2 | 31:35 - 31:36\nMhmm.\n\nSpeaker 1 | 31:36 - 31:50\nSo I use it day to day for for a lot of this kind of stuff, and I think they're at a point now where they've actually been at a point for a while now where I feel like I can just trust the outputs, arguably more than I could trust the output from from a human person. An expert\n\nSpeaker 2 | 31:50 - 32:04\nhuman. Yeah. Okay. I have two two final questions for you. One is, is there something you think that the rest of the research community doesn't agree with you on or doesn't understand the importance of quite yet?\n\nSpeaker 1 | 32:05 - 32:07\nOh, this is such a good question. I wish I had time to think about this ahead of time.\n\nSpeaker 2 | 32:07 - 32:15\nYou can you can just hang out with me and think about it. Yeah. Is it weird to be, like, consensus now? You're a bit salty three years ago when you're like, why don't people understand how important this is?\n\nSpeaker 1 | 32:15 - 32:21\nI still I still feel like it's not consensus, though, because, like, you know, people still don't publish the benchmarks this way.\n\nSpeaker 2 | 32:21 - 32:22\nOh, that's true. Yeah.\n\nSpeaker 1 | 32:23 - 32:27\nYeah. That's actually why I wrote like inertia. That's kinda yeah. But that's kinda why I wrote the essay. I was just like, look.\n\nSpeaker 1 | 32:27 - 32:42\nI mean, we can talk about this, but, like, yeah, the part of the motivation is, like, I would talk to researchers about we it makes sense to show the benchmarks with an x axis. Whether it's tokens or cost or time, there there should be an x axis. And everybody would say, like, yeah. That makes sense. We should do that.\n\nSpeaker 1 | 32:42 - 32:43\nBut\n\nSpeaker 2 | 32:43 - 32:47\nBut they're not acting with the importance of, like, a good heart. Like, this is we have to measure the correct thing.\n\nSpeaker 1 | 32:47 - 32:58\nWell, really, their response is people expect us to to publish the Grid. Mhmm. And then well, okay. Well, why do people expect the Grid to be published? Because everybody publishes the Grid.\n\nSpeaker 1 | 32:58 - 33:28\nAnd so you kind of end up in this this bad equilibrium where everybody kind of knows that it's a bad equilibrium, but, like, nobody wants to break out. And I I felt like, okay. Well, if I just hopefully come out and say, like, look, guys, let's all recognize that we're in a bad equilibrium, and let's move to this different equilibrium where we're we're plotting things with an x axis, that hopefully that can no. Next time there's a model release, a company can feel comfortable not publishing the grid, at least not at the very front, the top line, and, we can have a more productive evaluation of these models.\n\nSpeaker 2 | 33:29 - 34:13\nThen a last question for you. How do you think about companies across all of these specialized domains who feel the value that they have is essentially like the routing layer, the choice layer of, you know, my goal is composed of a bunch of discrete tasks. Some require more intelligence and less. And within my job as a vendor is to solve that problem or achieve the optimal outcome with taking into account the budget constraints. And so I will manage, like, the parallelization and how how much inference do you spend on it from what model.\n\nSpeaker 2 | 34:14 - 34:30\nBecause I I think the the FrontierLab point of view is that that routing happens both within the you know, behind the API, behind the application, and then some of it in the model itself. And that's pieces of that are clearly being externalized in all these applications.\n\nSpeaker 1 | 34:30 - 34:46\nYeah. I do I do think this is related to the fact that, like, benchmarks should be evaluated with an x axis of tokens or cost. I I have seen some evals recently that show, like, okay. Well, with with a routing layer, you can achieve much better performance Mhmm. By basically doing consensus among the models.\n\nSpeaker 1 | 34:46 - 35:02\nYeah. And, like, I definitely believe that if you do consensus among the models, that you're gonna achieve better performance than any individual model. But it's important to ask, like, are you gonna do better than having that model basically think for longer? Like, once you control for the amount of test time compute, is it is it actually still doing better? Mhmm.\n\nSpeaker 1 | 35:02 - 35:04\nThat's that's the question that you want to figure out.\n\nSpeaker 2 | 35:04 - 35:15\nOkay. That's very principle of you, which is like, yes, routing is fine, but it's all subject to the same budget question. Yep. Right. If you put it on the same scaler, then you can make an optimal decision, and I think maybe I win.\n\nSpeaker 1 | 35:15 - 35:33\nMhmm. I I I don't even know necessarily that I I would believe that the routing does better, but then there's still a question of, is it gonna do significantly better? Is it very fragile? Is it reflective of real world use cases compared to benchmarks? Because, like, one issue you could run into is that you could optimize for certain benchmarks with the routing, and then show, like, oh, yeah.\n\nSpeaker 1 | 35:33 - 35:49\nWe see there's big improvement on these benchmarks. But in real world use cases, it actually ends up not being a significant improvement. So I I would say, at the very least, like, I would say, you wanna control for test on compute, and then you also wanna have all the same skepticism about benchmarks that you would normally have.\n\nSpeaker 2 | 35:50 - 35:57\nAwesome. Noam, thanks so much, and and for being on the mission, for, breaking us out of this false equilibrium.\n\nSpeaker 1 | 35:57 - 35:58\nYeah. It's great to be back.\n\nSpeaker 2 | 36:00 - 36:16\nFind us on Twitter nopriorspod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at nopriors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2070748857441362056",
+            "text": "minor milestone in the growth of swyx inc:\n\nwe took over my new media lab today\n\nit will be the new home for engineer-creatives in san francisco; a third place to make; a finishing school for technical storytellers; a place to inspire the inspirational.\n\nto our complete surprise; it came with a datacenter rack randomly set up and wired up! need advice on what to put in this thing. @alexocheema halp",
+            "createdAt": "2026-06-27T05:59:34.000Z",
+            "url": "https://x.com/swyx/status/2070748857441362056",
+            "likes": 72,
+            "retweets": 2,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070606851377672675",
+            "text": "we have been scaling without slop by working with aligned domain experts to add coverage \n\nwith both oai and ant launching multi-billion dollar services arms, it’s clear that FDE is one of the most in demand disciplines on earth, but I have never done the job\n\nit’s been an absolute pleasure working with Basil on our first ever AI FDE miniconference!\n\nsee at https://t.co/STlx7OsWbr  next week",
+            "createdAt": "2026-06-26T20:35:18.000Z",
+            "url": "https://x.com/swyx/status/2070606851377672675",
+            "likes": 46,
+            "retweets": 2,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2070601709752144086"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2070653282440405046",
+            "text": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe have applied some mitigations, but our investigation hasn't shown users being impacted at large. We are continuing to monitor the situation. https://t.co/rLJrQdI1ks",
+            "createdAt": "2026-06-26T23:39:48.000Z",
+            "url": "https://x.com/thsottiaux/status/2070653282440405046",
+            "likes": 4072,
+            "retweets": 208,
+            "replies": 458,
+            "isQuote": true,
+            "quotedTweetId": "2070553131503776175"
+          },
+          {
+            "id": "2070557504673861667",
+            "text": "https://t.co/YtAD0ATH4r",
+            "createdAt": "2026-06-26T17:19:12.000Z",
+            "url": "https://x.com/thsottiaux/status/2070557504673861667",
+            "likes": 255,
+            "retweets": 2,
+            "replies": 29,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070557098342232321",
+            "text": "https://t.co/UCQ12NEtF3",
+            "createdAt": "2026-06-26T17:17:35.000Z",
+            "url": "https://x.com/thsottiaux/status/2070557098342232321",
+            "likes": 394,
+            "retweets": 10,
+            "replies": 34,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2070633838146134219",
+            "text": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US companies adopt the same open source models because they're good enough and much cheaper\n4. We start gating access to frontier models\n\nWhat next? US companies innovate less? Open source models become more attractive?",
+            "createdAt": "2026-06-26T22:22:32.000Z",
+            "url": "https://x.com/petergyang/status/2070633838146134219",
+            "likes": 597,
+            "retweets": 19,
+            "replies": 111,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070568705365577990",
+            "text": "From what I'm seeing, alot of the money has moved to services (with some software bundled), not software.\n\nPeople want outcomes, not tools. \n\nIt's feels really hard to build a pure-play software company that's more valuable to people or companies than just using Codex/Claude Code with a bunch of personal skills and agents.\n\nThoughts?",
+            "createdAt": "2026-06-26T18:03:43.000Z",
+            "url": "https://x.com/petergyang/status/2070568705365577990",
+            "likes": 115,
+            "retweets": 9,
+            "replies": 25,
+            "isQuote": true,
+            "quotedTweetId": "2070179913647485344"
+          },
+          {
+            "id": "2070545325497221248",
+            "text": "Small things I wish Claude Code had:\n\n1. Bring back ability to steer conversations while Claude is working\n\n2. Make mobile remote control for all threads on by default\n\n3. The shortcut keys seem only accessible if you have the sub-menu open? Consider supporting \"cmd + key\" so we can hotkey to different threads with the keyboard. If I hold down cmd I should see all the shortcuts in the UI.\n\n4. Let me drag and drop to re-arrange my projects on left nav",
+            "createdAt": "2026-06-26T16:30:49.000Z",
+            "url": "https://x.com/petergyang/status/2070545325497221248",
+            "likes": 92,
+            "retweets": 4,
+            "replies": 27,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2070658852421345517",
+            "text": "Patient zero https://t.co/zpAhbXtrWz",
+            "createdAt": "2026-06-27T00:01:56.000Z",
+            "url": "https://x.com/thenanyu/status/2070658852421345517",
+            "likes": 1,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2070654234102534500"
+          },
+          {
+            "id": "2070656642597658709",
+            "text": "Socks don’t have to match. It’s cuter that way anyway https://t.co/4ISWH7alpj",
+            "createdAt": "2026-06-26T23:53:09.000Z",
+            "url": "https://x.com/thenanyu/status/2070656642597658709",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2070521759754014780"
+          },
+          {
+            "id": "2070656348488937889",
+            "text": "Secret level 6: there’s a problem, but it’s not worth solving, so leave it alone. \n\nThis is why org with a ton of level 1s can win. They don’t get distracted by side quests https://t.co/fRGy1NC9oT",
+            "createdAt": "2026-06-26T23:51:59.000Z",
+            "url": "https://x.com/thenanyu/status/2070656348488937889",
+            "likes": 129,
+            "retweets": 4,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2070194343034360004"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2070613405237432766",
+            "text": "split screen is one of my fave claude code on desktop features! https://t.co/4ZQZjBnmvL",
+            "createdAt": "2026-06-26T21:01:20.000Z",
+            "url": "https://x.com/_catwu/status/2070613405237432766",
+            "likes": 268,
+            "retweets": 10,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2070578451854291178"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2070676383135834334",
+            "text": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output.\n\nBut agents are also complex distributed systems. They involve multiple steps of computation across functions and sandboxes, touching dozens of API services that can go down, rate limit you, etc.\n\nNailing down observability out of the box for https://t.co/nDDXqUmOlD on Vercel was a key priority for the team, and the feedback so far has been 🔥↓",
+            "createdAt": "2026-06-27T01:11:35.000Z",
+            "url": "https://x.com/rauchg/status/2070676383135834334",
+            "likes": 270,
+            "retweets": 8,
+            "replies": 37,
+            "isQuote": true,
+            "quotedTweetId": "2070658599458914812"
+          },
+          {
+            "id": "2070627995803668518",
+            "text": "I made a @hyperframes_ video of how I found out this morning https://t.co/yyMlGJgIfS",
+            "createdAt": "2026-06-26T21:59:19.000Z",
+            "url": "https://x.com/rauchg/status/2070627995803668518",
+            "likes": 68,
+            "retweets": 4,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070567538040422712",
+            "text": "The UI for AI is here. It's @shadcn https://t.co/bzgEEKO9Az",
+            "createdAt": "2026-06-26T17:59:05.000Z",
+            "url": "https://x.com/rauchg/status/2070567538040422712",
+            "likes": 1738,
+            "retweets": 38,
+            "replies": 55,
+            "isQuote": true,
+            "quotedTweetId": "2070561306038653247"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2070682290464919874",
+            "text": "Step one complete https://t.co/DWDBwkahrH",
+            "createdAt": "2026-06-27T01:35:04.000Z",
+            "url": "https://x.com/levie/status/2070682290464919874",
+            "likes": 140,
+            "retweets": 2,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2070665903440871779"
+          },
+          {
+            "id": "2070563281916620895",
+            "text": "GPT-5.6 is real and looks very strong. Going to be very strong for knowledge worker tasks that require heavy tool use and long running agents doing work. We're not hitting any walls in AI progress right now. https://t.co/5Apn3VzmkY https://t.co/LGpfF8ANcT",
+            "createdAt": "2026-06-26T17:42:10.000Z",
+            "url": "https://x.com/levie/status/2070563281916620895",
+            "likes": 239,
+            "retweets": 18,
+            "replies": 38,
+            "isQuote": true,
+            "quotedTweetId": "2070555272230384038"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2070699046939820223",
+            "text": "This is honestly no way to release a model and continued development and release this way is a solid way to salt the ground and kill all innovation by small startups https://t.co/tUjxFSunVI",
+            "createdAt": "2026-06-27T02:41:39.000Z",
+            "url": "https://x.com/garrytan/status/2070699046939820223",
+            "likes": 586,
+            "retweets": 56,
+            "replies": 71,
+            "isQuote": true,
+            "quotedTweetId": "2070649677784191321"
+          },
+          {
+            "id": "2070494207102595495",
+            "text": "Don’t be a mid startup\n\nIt’s true https://t.co/SPC4y73HJQ",
+            "createdAt": "2026-06-26T13:07:41.000Z",
+            "url": "https://x.com/garrytan/status/2070494207102595495",
+            "likes": 1378,
+            "retweets": 75,
+            "replies": 77,
+            "isQuote": true,
+            "quotedTweetId": "2070261939452690564"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2070597806025314608",
+            "text": "World Cup scoring strategies:\n\nArgentina: pass the ball to Messi\n\nPortugal: pass the ball to Ronaldo\n\nEngland: pass the ball to Kane \n\nSpain: pass the ball to Lamal\n\nFrance: pass the ball to Mbappé or Dembélé or Olise or Doué or Barcola or Cherki or Thuram or",
+            "createdAt": "2026-06-26T19:59:21.000Z",
+            "url": "https://x.com/mattturck/status/2070597806025314608",
+            "likes": 22903,
+            "retweets": 1706,
+            "replies": 120,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070591757151080593",
+            "text": "For once, this tweet aged well 😯",
+            "createdAt": "2026-06-26T19:35:19.000Z",
+            "url": "https://x.com/mattturck/status/2070591757151080593",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070586263292223987",
+            "text": "If Dembélé is now fully confident, on top of everything else the team has going on, good luck to all the other nations",
+            "createdAt": "2026-06-26T19:13:29.000Z",
+            "url": "https://x.com/mattturck/status/2070586263292223987",
+            "likes": 52,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2070735964788658598",
+            "text": "https://t.co/lvBzTBeMhO",
+            "createdAt": "2026-06-27T05:08:21.000Z",
+            "url": "https://x.com/zarazhangrui/status/2070735964788658598",
+            "likes": 88,
+            "retweets": 7,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070589563429691698",
+            "text": "\"You do not need God to write your emails\" https://t.co/wisy8LNck0",
+            "createdAt": "2026-06-26T19:26:36.000Z",
+            "url": "https://x.com/zarazhangrui/status/2070589563429691698",
+            "likes": 93,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2070214403576959008"
+          },
+          {
+            "id": "2070584764315402405",
+            "text": "Btw I used Borumi to create this video, and it's genuinely the most underrated video recording/editing tool out there\n\nIt's like Screen Studio + Descript + CapCut all in one\n\nIt's so underrated; they don't even have an X account I can tag https://t.co/dqohk7MJwT",
+            "createdAt": "2026-06-26T19:07:32.000Z",
+            "url": "https://x.com/zarazhangrui/status/2070584764315402405",
+            "likes": 212,
+            "retweets": 11,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2069311440692072481"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2070649602953576825",
+            "text": "Now that the dust is settled, what’s really funny to me about the taste commentary is it’s coming from a LOT of people who never have built anything..\n\nYou can’t achieve (or refine) taste without being in the arena. \n\nIt’s like a chef cooking and expecting their first dish to be good on the first go. \n\nBut, when you give it a 100 iterations and maybe cook a 100 dishes, then the 101st one has imbued all the lessons from those 10,000 iterations. \n\nBut, if you over fit without much variation, then people get tired of it since well they want something new as well. \n\nThe best people are able to learn, imbue and innovate by breaking patterns consistently. \n\nIt’ll be interesting to see how AI does the same - and unlike most people I think it has a fair shot at actually building taste. \n\nEnd rant.",
+            "createdAt": "2026-06-26T23:25:10.000Z",
+            "url": "https://x.com/nikunj/status/2070649602953576825",
+            "likes": 40,
+            "retweets": 3,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070532689392980369",
+            "text": "Written for the seed founder who’s building something really important in a not-so-hot category..\n\nI see you 🙏 https://t.co/Tx14uW5JeR",
+            "createdAt": "2026-06-26T15:40:36.000Z",
+            "url": "https://x.com/nikunj/status/2070532689392980369",
+            "likes": 137,
+            "retweets": 4,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2070268106564587840"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2070626638887555227",
+            "text": "I love how Apple notarization breaks multiple times a year until I manually log in and accept some new legal agreements.",
+            "createdAt": "2026-06-26T21:53:55.000Z",
+            "url": "https://x.com/steipete/status/2070626638887555227",
+            "likes": 947,
+            "retweets": 8,
+            "replies": 66,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2070554247301591163",
+            "text": "full blog post here: https://t.co/B0PvzibY63",
+            "createdAt": "2026-06-26T17:06:16.000Z",
+            "url": "https://x.com/danshipper/status/2070554247301591163",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070554118146412979",
+            "text": "BREAKING: OpenAI announced GPT-5.6 Sol!\n\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for releasing frontier models with advanced capabilities.\n\nI understand and applaud the need for some government oversight in making American infrastructure resilient to cyberattacks and other potential new threats from the misuse of these models. However, I also strongly believe that widespread democratic access to frontier models is absolutely necessary to our country’s leading position in the AI race. It’s also critical for allowing American workers to keep pace with the new skills they need to be productive in this era.\n\nA world where advanced models are locked up only for use by the employees of AI giants and a select few companies is one where ambitious students, independent builders, and working professionals are denied the tools they need to learn, create, and compete to their fullest potential.\n\nAlso, speaking for @every and the community of developers and writers who share early access with us: Our job is to test these tools early so that we can prepare Americans for how to use them to their fullest extent. If we lose access, we lose the ability to do that important job well.\n\nThankfully, both OpenAI and the government seem to be working to make broad access available soon.\n\nWe’ll be ready to vibe check when that happens :)",
+            "createdAt": "2026-06-26T17:05:45.000Z",
+            "url": "https://x.com/danshipper/status/2070554118146412979",
+            "likes": 231,
+            "retweets": 13,
+            "replies": 32,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2070621064271688021",
+            "text": "An interesting side effect of AI is that I have zero tolerance for shallow interactions with humans.\n\nI really deep connection and depth in my relationships. More ways to do that are so valuable.\n\nAnd for everything else: give me agents.\n\nI suspect our world will become both smaller and more rich in it's relationship depth.",
+            "createdAt": "2026-06-26T21:31:46.000Z",
+            "url": "https://x.com/adityaag/status/2070621064271688021",
+            "likes": 67,
+            "retweets": 5,
+            "replies": 11,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2070614769678393846",
+            "text": "not quite all-you-can-eat tokens, but we are working on it",
+            "createdAt": "2026-06-26T21:06:45.000Z",
+            "url": "https://x.com/sama/status/2070614769678393846",
+            "likes": 753,
+            "retweets": 23,
+            "replies": 103,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2070614666288795703",
+            "text": "team cooked, spicily https://t.co/yLb6nqrus6",
+            "createdAt": "2026-06-26T21:06:21.000Z",
+            "url": "https://x.com/sama/status/2070614666288795703",
+            "likes": 2753,
+            "retweets": 76,
+            "replies": 201,
+            "isQuote": true,
+            "quotedTweetId": "2069770172802773292"
+          },
+          {
+            "id": "2070612055225483692",
+            "text": "in other news, we updated the 5.5 instant model used in chatgpt this week.\n\ni like its vibes.",
+            "createdAt": "2026-06-26T20:55:58.000Z",
+            "url": "https://x.com/sama/status/2070612055225483692",
+            "likes": 4164,
+            "retweets": 79,
+            "replies": 389,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 15,
+      "totalTweets": 34,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-06-27T07:23:53.714Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
