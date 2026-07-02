@@ -1,0 +1,627 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-02T12:56:24.057211+08:00",
+  "events_count": 11,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 17,
+    "totalTweets": 38,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-07-01T07:49:10.368Z"
+  },
+  "digest_generated_at": "2026-07-02T04:56:23.991Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-02T04:56:23.991Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "Training Data",
+        "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+        "guid": "fb9d2daa-719d-11f1-9e13-9f44da352371",
+        "url": "https://www.youtube.com/watch?v=f6D_aiy8qyU",
+        "publishedAt": "2026-06-30T09:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:24\nI think it's really fun inside of Semi Analysis because we have 90 people, and a big chunk of them are technologist engineers across the whole supply chain, and then a big chunk is people who are formerly at hedge funds. And you see these arguments, people are like, Oh, that doesn't matter. Someone's like, well, but cost? And then the engineer's like, no, no, no, but this technology is the coolest. And you see this organically fight it out, and we're pretty informal.\n\nSpeaker 1 | 00:24 - 00:27\nAnd given the fact that I was a former moderator, you can imagine what\n\nSpeaker 2 | 00:28 - 00:28\nWell, you're\n\nSpeaker 1 | 00:28 - 00:32\nenjoying it. You don't wrestle with a pig because a pig enjoys it.\n\nSpeaker 2 | 00:50 - 01:04\nWe're here in the semi analysis office with Dylan Patel. I'm Sean from Sequoia. My partner Sonja Huang. It's pretty insane what you've done. Semi semis five years ago were not very sexy in the West.\n\nSpeaker 2 | 01:04 - 01:27\nThey were sexy in the East, but, people here in the West had kind of forgotten about them. You did not forget about them, though. You went very long. You created probably the premier research company in the space that's been educating the world in in, know, state of the art from very technical details to supply chain, you know, to the bigger picture. There's rumors that semi analysis recently passed $100,000,000 of revenue.\n\nSpeaker 2 | 01:27 - 01:30\nI don't know how accurate those are, but whatever the numbers are, you guys are crushing.\n\nSpeaker 1 | 01:30 - 01:33\nIt's as accurate as the information is. You\n\nSpeaker 2 | 01:34 - 01:47\nnever know. There's also rumors that you might start a venture fund. Like, you know, I hear all the time in the ecosystem, people wanting, you know, affiliation with semi analysis. You've built this trusted brand. And so whatever you do, it's working.\n\nSpeaker 2 | 01:47 - 01:58\nThis is clearly like just the beginning of the journey for you. Congratulations on all of that. But how did this happen? Like, how did you first question is, like, what is the background? How did you kind of get to where you are now?\n\nSpeaker 1 | 01:58 - 02:33\nWell, when I was a young boy and, you know, coming out of the womb, so, so, okay, so I grew up in like a small business. My parents had a motel, we lived in the motel, we later had a gas station, so I was selling I joke a lot of times the first neural network I trained was racially and visually profiling people based on when they entered the gas station which cigarette to pick. Basically the cigarettes were all extruded across the top, and I was too short to actually reach them, and technically it wasn't legal to sell cigarettes at that age, but whatever. I had to move the step stool over to the right place.\n\nSpeaker 2 | 02:33 - 02:37\nI started working my first job before it was legal too, so it was a good experience.\n\nSpeaker 1 | 02:37 - 03:06\nWell, didn't get paid, right? It's a family business. Same. Have our motel, and then across the street was our gas station, so sometimes someone would walk in, and so if an old white lady with curly hair walked in, I'd move the ladder or the step stool over to where the camels are. And if you know, in a different age, demographic, profession, race, etc, I would move the step stool over, and I joke this is the first neural network I trained, because if I waited for them to tell me I'd have to move it over and then I'd step up versus just being ready.\n\nSpeaker 1 | 03:06 - 03:29\nMenthols versus 100 slips and all these things. I joke this is the first neural network I trained, but I grew up in family businesses, lived in a motel, and it all really goes back to when I was like you know, it was my eighth birthday. My birthday is in May, and it was April when the Xbox three sixty was announced. For my birthday, I didn't ask for the Xbox or I didn't ask for a birthday gift. My parents asked what I wanted.\n\nSpeaker 1 | 03:30 - 03:56\nI asked for it for Christmas. We celebrated Christmas, but there was no way, at least at the time I thought there was no way they would ask, would give me the Xbox three sixty for Christmas, and so I asked for my birthday tab for Christmas. Anyways, Christmas comes around, I get it. Fast forward a couple months, my cousin who lives in Alabama, they also lived in a motel, was going to come over for spring break, for his spring break, and we were going to just hang out at my house, and he's in between me and my older brother and age. Brother's a bit more jockey, so he didn't really care too much about the Xbox.\n\nSpeaker 1 | 03:56 - 04:08\nHe played sometimes, but didn't really care. But my cousin, you know, I wanted him to think I was cool, right? Know, so I bragged many times on the phone. Was like, yeah, got an Xbox. And then the Xbox broke.\n\nSpeaker 1 | 04:08 - 04:39\nThere was something there was a hardware defect called the red ring of death. But long story short, I had to open it up and short the temperature sensor, and it fixed it. But there was many other tricks I tried first, then none of them worked. And so that's sort of how I got into hardware, is like open Pandora's box. By the time I was 12, I was on these forums a lot, reading, posting a lot, and this was around the time when Reddit ate all other forms, so I became a moderator of Android and Apple and Google, as well as hardware, looking at Intel, NVIDIA, AMD and all these other forms.\n\nSpeaker 1 | 04:39 - 05:33\nWas building a PC, all these forms I was watching, reading, posting a lot, but some of them I was moderating a lot. Watching smartphones develop from very simple to speed racing to being technologically more advanced than PCs in many ways architecturally, same with GPUs, just tracking and watching that, reading every comment, always having the economic tinge because I grew up in a small business. So I was always looking at the economics. There was a time where all the neck beards on the internet loved AMD GPUs, and I personally had bought an AMD GPU too because price performance, but then when it came down to what's technically better, I'd always be like, no, no, NVIDIA's better because they use a smaller chip to get better performance at better power efficiencies and their margins better. So I would always talk about how NVIDIA's margins were better than than AMD's in the GPU landscape, and so I very focused 12 at the time?\n\nSpeaker 1 | 05:33 - 05:39\nI started moderating when I was 12, but this is all through my teenage tweenage and high school years. Right? Do you\n\nSpeaker 3 | 05:39 - 05:41\nhave any other weird hobbies, or was it just semis?\n\nSpeaker 1 | 05:42 - 05:48\nI played a ton of Starcraft at one point, was grandmaster on the North American ladder. Oh, I'm serious. So\n\nSpeaker 3 | 05:49 - 05:50\nyou've gotten just obsessively good at multiple things?\n\nSpeaker 1 | 05:51 - 06:08\nMean, obsession is good. How were your grades? They were decent. I would say I had mostly As, but they're classes that I thought were really boring or I just didn't enjoy. Spanish, I got not the greatest grades.\n\nSpeaker 1 | 06:10 - 06:16\nBut it was like, I speak fluent Spanish by the way, so it's really dumb. It's just sort of a\n\nSpeaker 2 | 06:16 - 06:18\nsimple Maybe that's why you didn't get a good grade.\n\nSpeaker 1 | 06:18 - 06:19\nI didn't learn\n\nSpeaker 2 | 06:19 - 06:20\nSpanish till later to be\n\nSpeaker 1 | 06:20 - 06:33\nfair. My grades were fine. They were fine enough for Asian parents. I was better than most of school, but, you know, it wasn't like, you know, try hard maxing for like, you know, all As.\n\nSpeaker 3 | 06:33 - 06:42\nOkay. So you're very much a student of the Internet then. This is how you, how you develop this expertise. At what point did you decide to start seminalysis and what's been the biggest surprise since starting the company?\n\nSpeaker 1 | 06:42 - 07:15\nYeah, so I went to school, I got a few degrees in stuff that wasn't related to semiconductors. I was a quant for two years at a small quant risk firm. And then basically there was a culmination of events that happened. One was that I got screwed out of a bonus, I had made my company many millions of revenue, of risk free revenue, because I exploited a risk thing in the market, I think well over $10,000,000 and then someone else took credit for my work and all this sort of stuff. But eventually, I did get right sized, but I lost a social contract with the company I was working with.\n\nSpeaker 1 | 07:15 - 07:37\nMy grandparents grew up in the motel with us. They lived with us, and so very close to them. My grandmother got dementia, and she forgot who I was, and she fell down some stairs and had a tragic accident and passed away. All of that happened in early twenty twenty. Additionally, there were some girl things, and so there's a few things that happened that made me kind of very sad.\n\nSpeaker 1 | 07:40 - 07:56\nSo all of those things sort of culminated, then COVID happened, and my brother's like, dude, just come stay with me. He lived in Nashville, I came and stayed with him in Nashville. We were like, Oh, lockdowns will be a few weeks. You can stay with me while they happen, then you can go back home. Famous last words: lockdowns lasted much longer.\n\nSpeaker 1 | 07:57 - 08:13\nLiving with my brother for a few months was sort of like, Okay, I didn't know what I was doing. I was now at my brother's home. Everything was his rules. Him and his fiance at the time, now wife, were there. I basically had to tiptoe around, I didn't care about my job, so I was posting even more than normal.\n\nSpeaker 1 | 08:13 - 08:35\nI'd always been posting a lot on the internet. I'd always been trading stocks a lot, but I made a lot of money shorting COVID and longing COVID and all this stuff. Semiconductor shortages happened around then too. Anyways, I was very much obsessed with posting and things like that, and eventually around that time someone, again, into an argument with someone on the internet, they doxxed me. They publicly revealed my identity for my anonymous account.\n\nSpeaker 1 | 08:36 - 08:52\nAt the time I was like, Oh no, I was scared. I stopped posting for three weeks, and I was like, What am I doing? Why do I care? So then I just started posting under blogs and stuff as well. I made a real blog, Semi Analysis, and on my 20 birthday I posted two blogs.\n\nSpeaker 1 | 08:52 - 09:07\nThen from there it was not a newsletter, but I got so much traction. Now, instead of posting an anonymous name, there's a real name. I put a lot more effort into those two posts than I usually did. Instead of shit posting on the internet, was real effort into the blog. You can actually go back and read those if you want.\n\nSpeaker 1 | 09:07 - 09:32\nThey're not that great, but they were good for the time. They were the best stuff you could find on the internet about semis. And I just kept posting, posting, posting. I started getting a lot of consulting business. You know, 2020 I also sort of, I was crashing out, didn't know what I wanted to do, so I packed everything up, or sort of I took my truck, I bought a tent that fits on the back of the tent truck, bought an air mattress, whatever, and drove around all these national parks all around America.\n\nSpeaker 1 | 09:33 - 09:56\nThree or four days of the week I'd stay in a random motel where I negotiated the price to be $30 a night for a room, and I would work on somebody else's stuff, and then on the weekends I'd read books, oftentimes read textbooks while in some random national park or hiking and listen to audiobooks about semiconductors, about AI, about all the things that I cared a lot about, and got way more educated over these six months where I'm just going to every national park. Then the whole\n\nSpeaker 2 | 09:56 - 09:57\ntime I was posting\n\nSpeaker 1 | 10:01 - 10:02\nwas like, Dylan, what the fuck are you doing?\n\nSpeaker 2 | 10:02 - 10:05\nPre Starlink or the very early days of Starlink?\n\nSpeaker 1 | 10:05 - 10:29\nPre Starlink, Pre Starlink. Yeah, so it was very much like, what are you doing? I travel around LATAM again for a year, initially with my friend and then with my ex for about a year. Then go then '22, twenty three, '24, end of twenty one, '22, '23, and '24, I'm still completely homeless since mid-twenty twenty. But I'm traveling around to every conference in the world.\n\nSpeaker 1 | 10:29 - 10:52\nI go to 40 plus conferences a year. No matter where in the supply chain it is, I'm like, oh, that looks interesting, I guess I'll go to that. And I went to one conference, wow, this is amazing. You get to talk to the experts, and they're going to talk to you, and then you're so excited, and in the case of semiconductors everyone's a boomer, so it's great to, they don't see young people who are excited about it, so they're really happy to tell stuff. I have to\n\nSpeaker 2 | 10:52 - 11:05\nask on this, Was there a part of the supply chain or one of these conferences that particularly changed your view of the semi world or that you felt then or feel now is particularly underrated?\n\nSpeaker 1 | 11:05 - 11:23\nI think the trade shows and conferences range really widely. Obviously, the ones I have the most fun at include NeurIPS. Why is that? Because it's 20,000 AI researchers, and they're generally in my distribution of age range, so it's a lot of fun. They're also leading AI researchers, and it's a of fun, and you learn a lot.\n\nSpeaker 1 | 11:23 - 11:50\nThere's also a of parties. Then it ranges all the way to, there's a random chemical conference in Japan where it's 300 Japanese dudes, it's 20 guys from ASML, 20 guys from TSMC, 20 guys from Intel, and those are the only people who speak English. Everyone else speaks only Japanese, and you're like, I guess they're still pretty interesting and fun. I think one thing that I have a skill set of is I'm able to bond with anyone regardless of their background and who they are. I'm able to talk to them, find something interesting to talk about.\n\nSpeaker 1 | 11:50 - 12:25\nOftentimes it's the tech stuff, but it's And so I think the most interesting conferences are oftentimes the really big ones, because that's where the biggest stuff is happening. But I think the niches that are really, really exciting is SPIE. So there's IEEE, which is international electrical engineering something, and then there's SPIE, which is another ecosystem. SPIE conferences are super, super deep in details. Every single one that I went to, especially SPI Advanced Lithography or SPI Photomask, I went to them the first time, I didn't even understand 90% of what I heard.\n\nSpeaker 1 | 12:25 - 12:36\nAnd then I read, read, read, read. Made some contacts, of course. And the next time I went, I understood half of what I went to. Third time I went, I understood 75 of what I went to. Even now I went and I was like, I still don't understand everything that's going on.\n\nSpeaker 1 | 12:36 - 13:08\nWhereas you go to NeurIPS, a couple of times you can understand, okay, what's neurosymbolic reasoning? Okay, what's this, what's that? You can kind of get a mapping of what everything is pretty quickly, but some parts of the supply chain are so arcane and so deep and so technical, it takes a lot of times for you to even understand what's happening on everything, for every research paper. It doesn't necessarily mean you didn't You go to a conference for a few reasons. You understand the research, you understand But it's all the research that's being published, but what you really care about is understanding how does that research intersect with technology.\n\nSpeaker 1 | 13:08 - 13:28\nAlso, how does that research differ from what's there today? And none of these research papers tell you what's happening today. Then you just ask people, you build contacts, you learn, and then you learn about the supply chain, and oh, this company supplies this company, even though it's not publicly stated anywhere, or you learn that this chemical costs about this much, and a tool uses about this much. You learn\n\nSpeaker 2 | 13:28 - 13:40\nthe horror stories of this chemical had a shortage and it totally threw off this part of the supply chain, and then it turns out there's only three companies in the world that make that chemical.\n\nSpeaker 1 | 13:41 - 14:01\nMy favorite one is I learned a Japanese guy at that specific Japanese conference that I went to where almost no one spoke English, in very broken English he told me about how his father worked in this industry in the 1980s that the only factory in the world that built this chemical burned down, and that caused memory prices to double or triple. I was like, wow, not too different from today.\n\nSpeaker 2 | 14:02 - 14:04\nNot at all. It's crazy.\n\nSpeaker 3 | 14:04 - 14:10\nInference, going to be the biggest market on earth, biggest market beyond earth. Agree or disagree?\n\nSpeaker 1 | 14:12 - 14:34\nMean, obviously use of tokens is going be the biggest market, and the value that's created from tokens is going be the biggest market. But I think tokenomics, sort of the use of tokens, of AI is the most important thing that's happening, and inference, whether it's open models or closed models, will be one of the biggest markets in the world. Much bigger than oil, I think, much bigger than many other parts. Inference of AI will be many percentage points of the GDP.\n\nSpeaker 3 | 14:35 - 14:47\nWhat you've done with Inference X is industry standard. Maybe say a word on why you started it, what it does, and what do people misunderstand about performance benchmarking and inference?\n\nSpeaker 1 | 14:49 - 15:29\nTo zoom back, semi analysis, we do a lot of stuff that's like, a lot of it is research for institutional clients and our subscription based products, but a lot of it is also like, hey, this would just be cool to figure out. Let's figure out how to figure it out and just post it publicly, and that begets more and more scale. So we've done this with a lot of GPU benchmarking and testing and training performance and inference performance, but ultimately we saw inference benchmarking was like point in time, you test it and you take some time and you release it, and it's slow and outdated. Because models change all the time. Feel like every week there's a new model, whether it's a Chinese model or today, Meetos five, Fable dropped, and new models are coming out all the time.\n\nSpeaker 1 | 15:30 - 15:58\nOn the software layer, PyTorch, VLM, SGLANG, new drivers, new something drops. In fact, the update cycle for most of these libraries is twice a week, so you basically have the software updating all the time and therefore performance changing. New inference optimizations are coming out, and those get updated. So I feel like it's a relentless breakthrough after breakthrough after breakthrough that keeps driving efficiency and cost down, which is why we've seen model costs drop for equivalent quality by 60x a year. It's incredible.\n\nSpeaker 1 | 16:00 - 16:13\nBut to stay on top of that, you can't have point in time benchmarking. You need to have benchmarks be living and breathing, I. E. Running on the latest hardware, on the latest models. And so we embarked on a project and we got a lot of buy in from the ecosystem.\n\nSpeaker 1 | 16:13 - 16:50\nThis was only possible because we had enough aura with some of the ecosystem where we were able to get CoreWeave and Crusoe and Nebius and Oracle and Microsoft and Amazon and Google and OpenAI to contribute to us, compute, and then we were able to work with SGLang and VLM and now RadixArc and InfraAct, which are the private companies who are sort of leading those efforts, the open source efforts, to collaborate with us. Were able to get NVIDIA and AMD and Google and Amazon now, because we're adding TPUs and Tranium, to collaborate. Now we've got all these people collaborating. We've got over $50,000,000 of hardware donated to us. Once we launch TPUs and training, it'll actually be over $100,000,000 of hardware.\n\nSpeaker 1 | 16:51 - 17:24\nMaybe about like 15 different chip types, all running these benchmarks every single day on all the latest model. Right? The best model for Moonshot, the best model from Alibaba, the best model from There's about five different Chinese models, the best open source models, the best Chinese labs there. We run benchmarks on their models every day, and then also the best US open source models, GPTOS, Neutron, etcetera. So we're running these benchmarks every day in an automated fashion, and they run on these these servers that are dedicated to us for inference benchmarking, and we sweep across so many different configurations and optimization types.\n\nSpeaker 1 | 17:24 - 17:55\nAnd then what it creates is and all the results are public and all the configurations are public, so now we have the Pareto optimal curve. Because a lot of times when people are comparing inference performance, they're like taking a suboptimal curve or point for someone else and comparing it to their optimal one. It's like, well, yeah, I can stick. If I drove a Porsche versus some race car driver, obviously I'd drive it slower. The same thing with inference benchmarking, and so what we did is we created open source, basically containers for the optimal points across every point on the interactivity, I.\n\nSpeaker 1 | 17:55 - 18:12\nE. How fast is it responding to me versus batch size, I. E. How many users am I simultaneously serving curve. And so now anyone who wants the optimal point can just go to InferenceX, download it, and run that as the optimal point, and they can check every day if they want, or they can even auto download the most optimal point for that model, and their inference performance will be near peak.\n\nSpeaker 3 | 18:12 - 18:18\nIs that curve like the most important curve in your opinion? The throughput and our activity curve Yeah, is the most important\n\nSpeaker 1 | 18:18 - 19:08\nI think most things in hardware, infrastructure, model, application layer, everything is downstream of that curve. Is it something that needs to be super, super fast, super low latency, and I don't really care about the cost, I make batch size very low, and I use techniques like speculative decoding or multi token prediction heavily, and there's so many possible techniques there? Or is it something where actually I'm batch processing a ton of documents, and I don't really care about all these things, I don't use these techniques that actually are worse on cost efficiency, but help you with speed for an individual user, because I just want to pack a bunch of users. I don't care if the document takes all night to process, right? And right now the way we treat AI infrastructure is it's like one size fits all, but over time we're going get to the point where there's stuff where you have batch workloads or you need instant response, and there's the whole curve that's going to matter for users.\n\nSpeaker 1 | 19:08 - 19:16\nSo we see this with Anthropic. Cloud Code fast mode costs way more than regular mode. And same with OpenAI's priority queue thing.\n\nSpeaker 3 | 19:17 - 19:20\nSorry, dumb question. How does cost factor into the start?\n\nSpeaker 1 | 19:20 - 19:25\nLet's say, imagine an example, I have a batch size of 100,\n\nSpeaker 3 | 19:25 - 19:25\nand\n\nSpeaker 1 | 19:25 - 19:45\nI can do 10 tokens per second per user. So in total I'm doing 1,000 tokens per second off of that one piece of compute. That's one side of the curve, super slow, 10 tokens per second. The other side is I have 500 tokens per second, but I only have one user. So, maybe two fifty tokens per second, one user.\n\nSpeaker 1 | 19:45 - 20:17\nAnd then there's points on the middle that are more freudal optimal. The average person actually wants like 50 or 100 tokens a second, and maybe the number of users I can batch together. So the curve is, okay, a thousand tokens total per second, or two fifty tokens total per second depending on how many users I batch, and there's a curve in the middle. And so ultimately some workloads will actually want the four x cost decrease, because the same unit of hardware can do a thousand versus two fifty. And some users, I'll pay four x more because I don't care about the price, I care about time, because the person using the tokens is expensive.\n\nSpeaker 1 | 20:17 - 20:20\nYeah. Or the feedback loop that I have here is is is expensive. If you\n\nSpeaker 2 | 20:20 - 20:30\nhad to guess, you choose the time frame, ten years or fifteen years, what percent of inference compete do think will happen in space? It could be 0%, 50%\n\nSpeaker 3 | 20:30 - 20:31\nSean can pay\n\nSpeaker 2 | 20:31 - 20:34\n99%. Like This is a tough one.\n\nSpeaker 1 | 20:35 - 20:35\nChoose the\n\nSpeaker 2 | 20:35 - 20:37\ntime frame, like, whatever time frame\n\nSpeaker 3 | 20:37 - 20:37\nand you\n\nSpeaker 1 | 20:38 - 21:05\nI think the non consensus, or at least against SpaceX thing, I love SpaceX by the way, I totally would buy the IPO if I could buy stocks. Advice. Thank you, thank you, not investment advice from Sequain. I don't think that space data centers will really matter in the next three to five years. With that said, I think in twenty years, I think the vast majority of compute will be going in space.\n\nSpeaker 1 | 21:07 - 21:09\nAnd so the real factor there is sort of\n\nSpeaker 2 | 21:09 - 21:10\nwhat's the cost? It's a time frame.\n\nSpeaker 1 | 21:10 - 21:25\nIt's a time frame, it's the cost of building power on terrestrial land, how much power are you going to be able to do on terrestrial land. And I think obviously my views of where inference, how many gigawatts or terawatts are devoted to inference is a crazy curve for me personally. What's\n\nSpeaker 3 | 21:25 - 21:27\nyour forecast? How many gigawatts?\n\nSpeaker 1 | 21:28 - 21:56\nThink by 2030, just OpenAI and Anthropic will have over 100 gigawatts combined, and then you'll add Meta and Google and so on and so forth. A humongous amount of compute that will be dedicated to inference, and by 2040 it will be terrawatts. Curve of productivity that we're going to get, and so inference deployments is going be huge. If you look at 2040, I think probably more than half of the incremental compute will be going in space. But if you look 2030, I think it's sub-one percent.\n\nSpeaker 3 | 21:56 - 22:09\nDo you think intelligence per watt has been increasing? Then it seems like there's still a giant gap between where we are, intelligence per watt, versus human biology. Do you think we are to close that gap, and if so, where is that game going to come from?\n\nSpeaker 1 | 22:09 - 22:34\nYeah, think it often depends on what you're doing too, right? Like a TI-eighty four is way more intelligence per watt in terms of doing math than us. That's like 30 years old, so obviously this is a dumb, dumb General intelligence. Yeah, but general intelligence wise, one of the things Inference X does is we also measure the power and cost of all of this hardware, and so we offer not just throughput versus interactivity, we offer cost versus interactivity. We offer power versus interactivity.\n\nSpeaker 1 | 22:34 - 23:06\nAnd so as far as has intelligence per watt been increasing, I mentioned it's been a 60x cost decrease for same benchmark level. We've also seen the same on intelligence per watt. It's not been exactly 60x, it's been closer to 40x. Some of the efficiencies are non power ways, but there's been a humongous improvement in intelligence per watt on an annual basis, at least so far this year, last year, year before, year before, and I expect that to continue. As far as where we are from the human brain, we're many orders of magnitude away.\n\nSpeaker 1 | 23:06 - 23:17\nThankfully, it doesn't really matter. We can devote a lot of power to computers, much easier to power computers than human brains, like with sickness, disease, and food preferences. Sleep. Exactly.\n\nSpeaker 2 | 23:18 - 24:07\nLet me just ask one more question on the general theme. In my opinion, in terms of intelligence per watt or intelligence per dollar, any of these metrics, I think there are three levels of input. You can get hardware improvements where the hardware is more efficient. You can get low level systems optimizations like kernel level improvements, matrix multiplication libraries, things like that, or you can get high level, model level, algorithmic improvements at the highest level. To me, it seems like in the last three years, most of the gains have come from hardware level and some from the model level.\n\nSpeaker 2 | 24:10 - 24:17\nDo you agree with that? Do you think that's what it will look like in the future? Do you think there's a bunch of juice to squeeze in the kernel level?\n\nSpeaker 1 | 24:18 - 24:47\nSean, I completely disagree with you. Great, that's why I asked you the question. Think one way is to look at it as these three different layers, and in that sense, from Hopper to Blackwell, which is all we've had over the last three years, roughly 30x improvement on DeepSeek, on the most optimized deployment, which you can see on InferenceX there's about a 30x improvement. But over the last three years, we've had way more improvement intelligence per watt. A lot of that coming from the model layer, right?\n\nSpeaker 1 | 24:47 - 25:12\nIf you look back three years, it's GPT-four. Now it's maybe like quen, one of the smaller quen models that's like 27B parameters total and 2,000,000,000 active is way better. And so you've got this huge improvement on model layer, you've got this pretty sizable improvement on hardware, but it's that co design layer, and I think that's what's important. If you look at the architecture of any of these models, but DeepSeek is the most famous one, at least, that's public and people have seen it.\n\nSpeaker 2 | 25:12 - 25:18\nDeepSeek got huge efficiency gains from co optimization, kernel level, optimizing memory, something\n\nSpeaker 1 | 25:18 - 26:05\nlike Yes, think it's like kernels of course, but it's actually you build the hardware architecture for the chip. So if you look at the shapes of all the experts in DeepSeek, V3, they were all optimized for Hopper. And if you look at for V4, they're optimized for Blackwell and Huawei's chip. And what's interesting is despite the fact that TPUs are objectively an amazing chip, you know, and and they run all of DeepMind and they do all the training, for Anthropic as well, on the pretraining side at least, TPUs suck at running DeepSeq, but they are really, really great at running other kinds of models that don't run well on NVIDIA. There is some level of such deep optimization that has been done, whether it be shapes, network IO, patterns, how you do the collectives, how you do things around, you know, the the arithmetic intensity of the attention mechanism.\n\nSpeaker 1 | 26:05 - 26:15\nAll these different things are co optimized between the model and the and the and the hardware and the infra software in between, and it's it's hard to say you can disentangle the game Do you\n\nSpeaker 2 | 26:15 - 26:27\nthink that, like, understanding is that China has done this a lot better than the West the last few years, and the deep sea was one of the first models to really do this stuff.\n\nSpeaker 1 | 26:27 - 26:47\nI don't necessarily think so. Think it's more so that the West doesn't tell people what they do. OpenAI didn't tell people that GP4.0 was how sparse it was, what the shape, size was, all these things. But GP4.0 is roughly the same size, slightly smaller than DeepSeek v3, and four point came out a little bit earlier, right, if I recall correctly.\n\nSpeaker 2 | 26:47 - 26:57\nIs your view that all three of these things have been happening simultaneously at roughly the same rate, and the biggest gains are when you just co optimize\n\nSpeaker 1 | 26:57 - 28:08\nthe I would say there's been more gains on the model layer than on the software infrastructure layer and the hardware layer, but there's been innovations on every layer, and really the biggest gain and the beauty of the best labs is when they co optimize all three. That's what when Anthropic even though they use many different kinds of hardware, they don't really inference too much on TPUs, they mostly train on TPUs, they inference a lot on Trainium and GPUs, and GPUs are like a jack of all trades, but they've optimized their hardware, they've optimized their model, they've optimized everything so they can do that, whereas OpenAI, prior models were optimized for Hopper more, now they're more optimized for Blackwell, and you step forward through time. Labs, and the same with Google, they've optimized, Gemini two was really optimized for the TPU v6e, or Gemini three was, and then Gemini, the next Gemini that's coming out is really optimized for TPU v7. And so a lot of these things are being co optimized, and actually when you pull that model and put it running on the old hardware, it's really not that great. And so I think a lot of this co optimization is the most important thing.\n\nSpeaker 1 | 28:08 - 28:58\nIt's called software hardware co design, and that's what's really exciting about sort of what I think my day to day is, great, you get to look at one layer, there's all these innovations happening here. There's all these innovations happening on every layer. The real breakthrough innovation is when you leapfrog a few layers, you co optimize and co design them, and now all of a sudden you've taken what could have been a 2x here, 2x here, 2x here, and instead of being multiplicative to 8x, it's actually 100x, because you've optimized across all three layers. And so that's what's really exciting about what you see at the labs, what you see at a company like Nvidia, who's not co optimizing on the model layer per se, but a little bit from the model layer all the way downstream to, you know, silicon, or you look at a company like TSMC, they're co optimizing not just, you know, fabrication, but all the way from the components and the consumables and the tools all the way upstream to what the designs their chips are the customers are telling is this co optimization across many layers of\n\nSpeaker 2 | 28:58 - 29:06\nthe abstraction stack. There will always be bottlenecks somewhere in that optimization, though they're lagging behind and then need to get pulled forward.\n\nSpeaker 1 | 29:08 - 29:09\nAnd band aids\n\nSpeaker 2 | 29:09 - 29:37\nto cover that. If you had to predict what are at any level of the stack, it can be literally anywhere, what are some of the bottlenecks you're tracking most acutely the next year? And not necessarily in the supply chain, not in scale, but in terms of the actual I think it can be in the supply chain too, but just like, is it memory improvements, is it that scaling up?\n\nSpeaker 1 | 29:37 - 30:19\nMemory is an easy one that everyone's talked about, but I'm not going to talk about from a supply chain angle, I'm talking about from a technology angle. Memory capacity and bandwidth have been improving very slowly. The NAND cell was invented like twenty five years ago, the DRAM cell was invented like forty years ago, and there's been no major breakthrough in cell, like what a NAND cell is, obviously NAND is a very simple gate, or DRAM cell. There is stuff that could come down the pipeline that could be hugely innovative, but even over the last five years, all we've really done is make the HBM more stacks faster. But actually there's new innovations coming in the next few years where instead of stacking the HBM separately from the chip, you stack the memory directly on the chip, that makes your bandwidth explode.\n\nSpeaker 1 | 30:20 - 30:48\nAnd so there's interesting companies in that space and interesting POCs that companies are trying to do there. I think memory bandwidth is one of the biggest. Another one is for the history of silicon, basically over the last two decades at least, how many watts a chip is can be easily predicted just by looking at it for a data center or desktop chip. It peaks off at one watt per millimeter squared. And so if a chip is 100 millimeter squared, generally the power consumption is around 100 or a little bit less.\n\nSpeaker 1 | 30:49 - 31:29\nAnd if you look at the newest NVIDIA silicon, newest TPU silicon, it's still on that range of one watt per millimeter squared, so chips are now getting to 1,400 watts, next generation is 2,000 watts for NVIDIA. With Rubin and such, you move forward to Rubin Ultra, it's going be 4,000 watts or something like that. But really, there's increasing amount of silicon. What's exciting is we're now finally doing things, and it's in development right now, where you actually can pump the amount of power into the silicon to be way more, more than one watt per millimeter squared, and now that all of a sudden means you need less silicon. Obviously it's running at higher power and it's less efficient in some cases, but you reduce the amount of silicon and you're able to overcome\n\nSpeaker 3 | 31:29 - 31:30\nWhat are your only thermal issues?\n\nSpeaker 1 | 31:31 - 32:03\nThermal issues, there's electrical interference issues, there's all sorts of different issues that crop up, that's why it's a hard engineering problem. That's why we've stuck at about one. What's exciting is the world is trying to change these things. I think, interesting, in a different part of the supply chain, people talk about energy is hard, and we have energy bottlenecks, and it's like, yeah, but there's actually very simple solutions one could think of. Take the millions of diesel engines for trucks that The US has the capacity to make.\n\nSpeaker 1 | 32:03 - 32:40\nYou can very trivially convert them to be used for gas in the assembly line, and then stick them up to an electrical motor, like back driving it so the electrical motor generates electricity rather than the electrical motor causing the rotation of the wheel, for example, but doing it the opposite direction, and now you've generated electricity by pumping gas into something that The US can make millions of. And then, okay, well that sounds like a pain in the ass to service, right, because now you have to have hundreds of these on a data center site. Well actually you can just pull people out of car mechanic shops and have them run around and repair truck engines. Actually, it's actually pretty trivial to, I don't want say it's trivial, I couldn't do it.\n\nSpeaker 2 | 32:41 - 32:57\nI think you're making a really good point, which is that because the West wasn't really thinking about semiconductor and even hardware more broadly in the last twenty, thirty years, we didn't have much innovation, we didn't have the best minds thinking about how to improve\n\nSpeaker 1 | 32:57 - 33:00\nthese things. Why would you want to go work in hardware where you can use Produce you\n\nSpeaker 2 | 33:00 - 33:02\nmake ads, sell ads. Exactly.\n\nSpeaker 3 | 33:03 - 33:07\nOkay, I'm dying to ask, NVIDIA versus TPU, what are your thoughts?\n\nSpeaker 1 | 33:08 - 33:34\nI think everyone wants to pick one or the other for this, but it's really a function of, look, look two years from now, Google is going to make 10 plus million TPUs through their supply chain, and Nvidia is going to make many more tens of millions of GPUs, and both are going to be $100 billion Google's going be 100 of TPU created a year, and Nvidia will be $500 plus or whatever it is. I'm not making a specific estimate. It's not\n\nSpeaker 2 | 33:34 - 33:37\na revenue forecast, this is just a thought experiment. Research\n\nSpeaker 3 | 33:37 - 33:38\nis We've even media trends so\n\nSpeaker 2 | 33:38 - 33:41\nAbsolutely, getting ready for the SpaceX idea.\n\nSpeaker 1 | 33:42 - 34:11\nAre you guys big in SpaceX? Yes, We're very lucky to be very large investors. Awesome, awesome. I would say, the case of Google TPUs versus NVIDIA GPUs, they both have points that are really in their favor. NVIDIA will be like, Oh, we have switches and we're general purpose, and TPUs will be like, Well, we're more optimized, we're actually more energy efficient, and our network is actually more optimized for certain types of network architectures.\n\nSpeaker 1 | 34:11 - 34:35\nSo you have these counterpoints that both would really get into, and I could with a straight face argue with you that GPUs are way better than TPUs, or TPUs are way better than GPUs, but it comes down to hardware software co So actually the way OpenAI's models are headed, it would be a terrible decision for them to use TPUs potentially. And the way that Anthropic and Google's models are headed, it's actually a terrible decision potentially for them to train with GPUs. Mean, be fine\n\nSpeaker 3 | 34:35 - 34:37\nI'm for them sorry, train what's the fundamental difference there?\n\nSpeaker 1 | 34:37 - 34:52\nThere's various things, right? Like the size of the matrix multiply unit is different, as a very simple thing. And therefore the shape of the matrix multiply you do, the attention mechanism you use, the way that attention mechanism is structured, the way the experts are structured.\n\nSpeaker 3 | 34:52 - 34:56\nSo OpenAI and Anthropic are converging to very different model architectures?\n\nSpeaker 1 | 34:56 - 35:22\nI think they're quite different model architectures in fact. OpenAI's are much more sparse and that has benefits, and then Anthropics are, they're still sparse but more dense in general, and that has different benefits. And there's many other things, network topology. Nvidia, all of their chips are connected to switches, NVLink switches. For Google, they have no switch, but what they've done is they've been able to, Nvidia, the NVLink can only connect 72 GPUs.\n\nSpeaker 1 | 35:22 - 35:48\nFor Google, their ICI can connect 8,000 chips at super high bandwidth, but you have to pass through other chips to get there because there's no switch. So there's trade offs there, there's positives and negatives, and that influences the model architecture. It's not necessarily that you should claim one is better than the other, because at the end of the day, how do you say that this is better than that when you can't measure them in isolation because it also extends up to the model layer, right?\n\nSpeaker 3 | 35:49 - 36:13\nBut I remember for a long time thinking, you know, one, the programmability of NVIDIA and then just CUDA as such a big moat. It seems to me that narrative has kind of changed, at least in my mind for the last three to six months. Like model companies no longer care about, if we have to write custom kernels for this other chip, so be it. We'll work with four or five chips if we have to. Claude and Codex are actually quite good at doing a lot of that optimization work.\n\nSpeaker 3 | 36:13 - 36:34\nAnd so it seems like some of the and then and then it's, you know, it's not like there's 10,000 model companies that are each, you know, each need programmability, there's on the order of tens, maybe, model companies. And so it seems to me that, like, if you, the fundamental premise of, tens of thousands of big customers that need CUDA compatibility, like, it seems that kind of thesis is changing in\n\nSpeaker 1 | 36:34 - 38:00\nthe last few Certainly the CUDA moat and software moat is at least partially disentangled because models are just great at coding and all software gets commoditized in that case. I do think there is some level of open source, and what people call the CUDA mode is not actually anything to do with CUDA, but it's like the fact that DeepSeek, Kimi, Zip2AI, and Alibaba, and Tencent, all these companies. Xiaomi had an awesome model recently. Their models are co designed for GPUs, and therefore if I want to run them on TPUs, actually, in some cases they don't run really well on TPUs. Now Google just has to create their own open source model ecosystem or open source models themselves, so they have the Gemma models, and so you end up with, that's not really CUDA as a moat, it's that the downstream product is more optimized for NVIDIA, and in these cases these companies are just open sourcing them, or Nemotron is just open sourcing it, and then the users of it, for example, the open, you know, the inference API providers, the RL companies that are trying to take open models and customize them for companies' business use cases, all these different companies are downstream of the fact that like, okay, I guess I need to use Nvidia, because the ecosystem uses Nvidia, even though I don't particularly care about writing CUDA kernels, because the models are great at that, but it's like the shape of like, well this expert, demod is this, and the hidden dimension, blah blah blah, is this, and so therefore it's better to run on Nvidia GPUs than it is on TPUs, and vice versa.\n\nSpeaker 1 | 38:00 - 38:19\nIf Google were to actually open source really good models, this would be the same thing. People would take their models and they'd be like, oh wow, these don't run that well on Nvidia GPUs. I should actually just rent TPUs or buy TPUs and do it on there. For small teams, you're going to want to use all the open source software like VLMSG laying, PyTorch, all that stuff. But the big labs, they don't necessarily need to use all that.\n\nSpeaker 1 | 38:19 - 38:46\nOpenAI forked PyTorch long ago, and, you know, Anthropic and all these other people don't necessarily rely heavily on the open source implementation of, you know, these things. They've forked things or built it on their own already, and so they don't need to rely on the open source, and therefore now it's more like, I'll choose the best hardware and I'll co design my model and infrastructure software through and through for that hardware that is the best and most cost efficient, and I'll have AI help me write all that software.\n\nSpeaker 3 | 38:46 - 38:47\nWhat do think of Cerberus?\n\nSpeaker 1 | 38:47 - 39:01\nI think Cerberus is a really innovative company. Think in some spots of the market they're really, really good. Very fast inference, I think that's a big market. We use fast mode almost exclusively at semi analysis.\n\nSpeaker 3 | 39:02 - 39:13\nBy the way, I love how disciplined you've been about accounting for, I don't know if that was one exhibit you did or if you do it consistently, but accounting for the dollars spent in the ROI on each task. Awesome analysis.\n\nSpeaker 1 | 39:13 - 39:36\nYeah, we do it pretty diligently, so thank you, that was the dark GDP article that we wrote. Also track everyone's token spend by day, and if someone's spiked up and said, What did you do? It's like, Okay, thank you for telling me that that seems worth it, cool, on with my day. I think fast mode is obviously worth a lot for high end tasks. I can just see so many different use cases where super fast tokens are worth it.\n\nSpeaker 1 | 39:37 - 40:32\nI can also see the flip side where there's a lot of use cases where super fast tokens aren't needed, therefore the market won't pay for them, and they'll use GPUs and TPUs instead. I think the big risk for Cerebras is I mostly think the best models are the ones that you want to use fast mode on, and small models you necessarily might not use fast mode on. I could see that being wrong with financial markets maybe or something like that, like a Jane Street high frequency trading or something like that, or medium frequency trading. Ultimately running really large models at really long context is very difficult on SRM based chips like Cerebras, like Grok, and so now it all of a sudden is like, what happens then if the models get too big? If OpenAI's model is not on the order of hundreds of billions of parameters or low trillion parameters, but it's actually 10 plus trillion parameters, now all of a sudden I don't think that will fit on Cerebris, then if that doesn't fit with a long context length, if you have a million context length, now that makes it really difficult to justify.\n\nSpeaker 1 | 40:33 - 40:52\nAnd so far we've seen the bulk of revenue and usage at the labs be on their best model. Even when the model price has gone up we've seen that. There's some data that shows that even though Fable just released today, they've had incredible amounts of people switch to Fable and Mythos, sort of that next tier model, even though it's way more expensive.\n\nSpeaker 3 | 40:53 - 40:57\nAnd that's volume by dollars totally, but was that volume by tokens?\n\nSpeaker 1 | 40:57 - 41:11\nOh yes, who cares about volume by tokens? About the dollars. Fair enough. I don't care that there's 200,000 Mini Coopers or Toyota Camrys sold if 4.15 s are 5x the ASP and they sell only half as much.\n\nSpeaker 3 | 41:12 - 41:13\nOkay, fair enough.\n\nSpeaker 1 | 41:13 - 41:18\nTherefore the most lucrative market is pickup trucks in America, mostly being facetious.\n\nSpeaker 2 | 41:19 - 41:32\nI do think this is one of the things that you've done so well and differentiates you from almost everyone else is that you care so much about the economics in addition to the technology, and I think very few people bridge those two things well\n\nSpeaker 1 | 41:32 - 42:05\nI the think it's really fun inside of semi analysis because we have 90 people, and a big chunk of them are technologists, engineers across the whole supply chain, and then a big chunk is people who are formerly at hedge funds, and you see these arguments, people are like, Oh, that doesn't matter, and someone's like, Well, but cost? And then the engineer's like, No, no, no, this technology is the coolest. You see this organically fight it out, and we're pretty informal, Given the fact that I was a former moderator, you can imagine what the You're enjoying it, sorry. Don't wrestle\n\nSpeaker 3 | 42:05 - 42:05\nwith a\n\nSpeaker 1 | 42:05 - 42:07\npig because a pig enjoys it, right? Exactly.\n\nSpeaker 2 | 42:07 - 42:28\nOn this topic, before I go into the next question, are there trigger topics in semis for you? If someone's which is such a meme, think this person must be a moron, if it's like, oh, memory is the bottleneck. It's true, but\n\nSpeaker 1 | 42:30 - 42:50\nthink moreover, the one that really gets me is people are like, AI has no ROI. It infuriates me, right? There's like, what's the ROI? Or denying model progress. There's these people that are like, models aren't getting better, they're not reasoning, they can't think, they're going to dead end and plateau, it's like, Bro, the line has been up and to the right in terms of capabilities this entire time.\n\nSpeaker 1 | 42:50 - 43:00\nAnd they're like, Look, this benchmark didn't improve. That's because it said 90%. At the new benchmarks, yeah, you saturated. Now they're skyrocketing. I think that's more so the issue and challenge.\n\nSpeaker 1 | 43:00 - 43:44\nThink semis are really complex, and I don't fault people for lacking understanding of it. I learn stuff every day about the semiconductor supply chain from people, and I've been studying it for arguably eighteen years since I started moderating the forums when I was 12. Arguably I've been studying it for that long, but even then, and it's like live, breathe, and that's all I care about, but there's so many layers of the abstraction stack. It's I learned about a new chemical that does $100,000,000,000 of sales yesterday, I'm like, Woah, didn't know this one existed and what process it did, but it's like you learn about things all the time. It's like, Okay, 100,000,000 seller sales in a couple $100,000,000,000 industries or whatever, but it's like\n\nSpeaker 2 | 43:44 - 43:45\nBut it's essential.\n\nSpeaker 1 | 43:45 - 44:00\nIt's essential, and it's like actually every chip requires it. It's like, wow, I guess there are a thousand process steps, it's like, yeah, semiconductors name every process step. It's like, no, come on. What I think is the most funny is when people have all the facts in front of them, and then they get the conclusion completely wrong.\n\nSpeaker 2 | 44:01 - 44:03\nThat happens in our job all the time too.\n\nSpeaker 1 | 44:03 - 44:10\nYeah, I think my attitude is not to be mad that you do that, it's to do it as fast as possible.\n\nSpeaker 2 | 44:10 - 44:32\nI think the industry, because AI is the most important thing in the world right now and there are so many near term bottlenecks, we talk a lot about the near term. Are there longer term things that you're really excited about, like say on the 10 We talked about orbital data centers, but like silicon photonics, you think they're underrated or overrated on a ten year timeframe? Are there other things on a ten year timeframe\n\nSpeaker 1 | 44:32 - 45:12\nare I space is super crazy awesome in the ten year timeframe for space data centers asteroids and all these things, which is super excited about the vision of SpaceX. Again, not investment in advice before you hop I think on the semiconductor side, tremendous market movements and tremendous things can happen just when things happen one year later or sooner. That's all technology that in terms of co package optics, everyone knows it's going to happen by the end of the decade. The debate is 'twenty seven, 'twenty eight, 'twenty nine, 2030, but at some point along there it's going to happen. I think the more interesting thing is there's companies like Did you guys invest in the Nim Rouse company?\n\nSpeaker 2 | 45:12 - 45:12\nWe did.\n\nSpeaker 1 | 45:12 - 45:23\nOkay, yeah. So I think he's trying to innovate on the silicon layer, on the software abstraction layer, and the model layer simultaneously. And he fully understands that it's not like we're a, going to do this in a\n\nSpeaker 2 | 45:23 - 45:24\nfew years. It's not a two year timeframe.\n\nSpeaker 1 | 45:24 - 45:45\nYeah, not a two year timeframe, it's a long term bet. Stuff like that is like, okay, we're going to bring potentially analog compute with energy based models and all this crazy shit all at once. It's like, that's exciting. Probably won't work, but that's exciting and I really And look it forward definitely won't work quickly. Yeah, definitely won't work quickly is what I should say.\n\nSpeaker 1 | 45:45 - 45:56\nI believe in Naveen, I met him very, I think he's one of the first people I met in the industry funnily enough, like in 2020 or 2021, actually 2020 guys.\n\nSpeaker 2 | 45:56 - 46:00\nIt says something about him, I think he's somewhat in my experience, he's always trying to\n\nSpeaker 1 | 46:00 - 46:02\nI baited him on the internet.\n\nSpeaker 2 | 46:03 - 46:07\nThat's concussion, he's always trying to help the younger generation, he's trying to identify talent.\n\nSpeaker 3 | 46:08 - 46:10\nHe was so ahead of his time with Mosaic. Remember getting pissed.\n\nSpeaker 1 | 46:10 - 46:24\nNo, he was twenty nineteen. I was still anonymous then actually. I baited him on the internet and he started replying and then I just took it to DMs and then took it to a call. And like, that was the first person who was like, really important that I talked to the entire semiconductor industry. That's funny.\n\nSpeaker 1 | 46:25 - 46:26\nBut yeah, sorry to\n\nSpeaker 3 | 46:26 - 46:36\ninterrupt. That's funny. What do you think is the end state of the ecosystem? Like, do you think every lab, every hyperscaler just has its own chips? Like Trainium seems like it's now working.\n\nSpeaker 3 | 46:36 - 46:44\nRight? So do you think we end up with every lab, every hyperscaler has its own chips, at least for inference, and then maybe for training you to Nvidia or whoever, or what do you think is the end state?\n\nSpeaker 1 | 46:44 - 47:19\nI think everyone will try and they won't stop trying. I think ultimately supply chains matter, what technology you can bring in matters, and more and more as the industry gets bigger supply chain diversification happens. Right now everyone's chip more or less looks the same, it's a big logic compute die in the center, and there's some HBM on the right and left, and on the top and bottom. Top side is networking, and then the bottom side is PCIe and other IO. And that is the exact same structure for Tranium TPU, Nvidia chips, and most of the startups.\n\nSpeaker 1 | 47:19 - 47:47\nNot Grok and Cerberus, those are doing weird shit, but that's cool. I think as you step forward, we're going get more bifurcation of hardware architecture and model architecture, and therefore people are going to co optimize them. Some of them will end up in local minimas. If this is gradient descent, people are trying to go to the most optimized solution, some people will race to a local minima. And then the question is how do you scoot back over to the absolute minima?\n\nSpeaker 1 | 47:47 - 48:21\nTo some extent, NVIDIA will always be more general purpose than anyone else's chip in general, at least on a parallel AI compute basis, because they have so many customers who care about different things, and who will always give them feedback in the design. The minimum will always be better than them, but is that minimum a local minimum? Like is the TPU or Trainium or Grok or Cerebras or whoever's design optimize awesomely for here, but in the end state actually you've to go over here, and so they're wrong. And maybe they're great for a little bit of time, but then they end up being wrong. That's the real question.\n\nSpeaker 1 | 48:22 - 48:54\nI think there will be a big market for general purpose AI compute, because you talk to people at labs, they don't even know what architecture they're going be doing in a year. They literally don't know what architecture they're going be doing in a year. They have bets, they have many research bets, that's this exciting thing, but they don't know where it's going. Generally they know what hardware they have and they're trying to co optimize, but ultimately if a new breakthrough happens on model architecture, it's like, you should replace the tension mechanism with something else, knows? Or all of a sudden something happens, the best hardware will change.\n\nSpeaker 1 | 48:54 - 49:24\nAnd therefore, are people going to make five year investments on hardware solely on an ASIC that is more specialized, or are they going to have some bucket of more general purpose compute? And so you see this with Google's paying $11 an hour per GPU to XAI for GPUs. That's insane. That's a very high amount of, obviously compute is limited so on and so forth, but it's very insane, but at the same time despite the fact that they have TPUs. So there's some questions there, like why do they do that?\n\nSpeaker 1 | 49:24 - 49:43\nGoogle actually has three different design programs for TPUs. They're making a TPU with Broadcom, that's a different architecture than a TPU with MediaTek, that's a different TPU than the architecture that is, I won't disclose, by research. But they're making different architectures. It's not just like, Oh, they're making TPUs with a couple of vendors, it's the same architecture. It's different architectures.\n\nSpeaker 1 | 49:44 - 50:05\nThe third one is a very different architecture from the first two. Think people recognize that the local minima can happen, and therefore, I think everyone will have their own ASIC program. I think everyone will deploy billions of dollars of their own ASICs, tens of billions of dollars. In the case of Google, hundreds of billions of dollars a year of their own ASICs. But ultimately, they're also going to have workloads that don't use TPUs.\n\nSpeaker 1 | 50:05 - 50:24\nSome of the Google bets that are not Gemini deepbind actually primarily use GPUs. They don't use TPUs. Some of them also primarily use TPUs. It's a bit of a broad thing, but maybe for drug discovery or for Waymo, you might not want to use TPUs. I don't say which one it is, but there's different architecture bets and different paths for AI.\n\nSpeaker 1 | 50:24 - 50:46\nAI for science may have different algorithmic patterns than general intelligence AGI models. And so I think we'll see diversity continue to proliferate. And because the market has gotten so big, niches will be carved out, and so that makes it possible for companies to have their niche and actually make money, even if the majority of the pie goes to Nvidia and TPU and Tranium.\n\nSpeaker 3 | 50:47 - 51:05\nOkay, love that. Can we talk about the data center build outs? Like, one, it seems like, I mean, by all accounts, if you look at the charts, like dollars per compute hour, we are in the middle of a crazy compute crunch. And it seems like it's both a demand and supply side crunch, right? Like demands for long rise agents skyrocketing supply, all these data center build outs are delayed.\n\nSpeaker 3 | 51:06 - 51:10\nDo you think this will run a compute crunch for the foreseeable future, or do you think it alleviates at some point?\n\nSpeaker 1 | 51:10 - 51:32\nYes, every quarter we're deploying vastly more compute than the prior quarter, and there's more data centers built than the prior quarter. This year there's going be 20 gigawatts, even accounting for the delays, and next year there's going to be more than 30 gigawatts accounting for the delays. Course delays happen on everything, right? Anything hardware can have a delay, that's just the reality of life. Are we going to have a compute crunch for the rest of our lives?\n\nSpeaker 1 | 51:32 - 52:18\nIt depends on what happens with models, but the TAM for Mythos, Mythos five, Fable five, is not just 2x that of Opus. The model is so much better and it can do so many more tasks that the TAM for it is way larger than that, And yet computing the world did not double in the last six months, from maybe seven or eight months since Opus 4.5 launched to now, huge 4.6, 4.7, 4.8 were improvements, but Fable and Meetos were a huge step function improvement. The world's compute did not double in that or quadruple or whatever in that same timeframe. But the demand for useful tasks that can be done by AI, the number of useful tasks and the value of them that can be done by AI has. And so now the question is, what happens?\n\nSpeaker 1 | 52:18 - 52:57\nWell, obviously Anthropic in Q2 is profitable, their net income profitable, excluding stock based compensation. By And Q3 they may even be profitable including stock based compensation. That's how profitable they're getting, and their margins on an Opus token, at least Opus 4.8 token, is north of 80% for the API price. They've got a lot of deals where their total corporate gross margins gets clawed down a little bit because of how they do Bedrock deals and Vertex deals and things like that. But ultimately, their per token margin is so high, well then if you don't have the they have the capability to pay.\n\nSpeaker 1 | 52:57 - 53:41\nUltimately, every GPU they buy at an above market rate, know, they also bought GPUs at above market rate from SpaceX, which is below the rate of Google, but that's because they signed earlier. It's something that other companies, maybe a venture backed company or a company that's not really got positive margins, can't necessarily do. What is the cost benefit ratios like? Every GPU I rent, because I'm out of compute capacity, can immediately turn around and sell tokens on it, or every TPU or every trainee, I can immediately sell tokens on it at a positive margin, and if I'm running 75% gross margin, and I double the cost of the compute, it's fine, I'm still running 50% gross margin, and spinning up more compute nodes is not really necessarily a human requiring task for them if they're renting them. And so ultimately, it's like, well, NOI still goes up, right?\n\nSpeaker 1 | 53:41 - 53:46\nAnd so I'm going to rent GPUs at whatever price, at some level, whatever price I want to pay, I can pay.\n\nSpeaker 3 | 53:46 - 54:09\nI have almost the reverse question of, like, at some point does this compute build out go bump at night? Earlier today, think there was a tweet, like Crusoe publicly said one of their customers had asked to halt construction on one of their data center build outs. Like, it seems like everybody in the ecosystem is so levered right now to like, got to build, we got to build, we got to build. High leverage, high growth to me is like, makes me very, very nervous as an investor. Like Wait, hold on, high leverage, high growth\n\nSpeaker 1 | 54:09 - 54:23\nmeans small amount of equity has huge upside. You're not a debt investor. You're an equity investor. You've to go to the school with private equity, levered by outs of home REITs.\n\nSpeaker 2 | 54:26 - 54:28\nShe forgot the school, she's been at VC for too long.\n\nSpeaker 3 | 54:28 - 54:34\nNow I just do revenue multiples. Do you see any signs of that, are you worried about that?\n\nSpeaker 1 | 54:34 - 55:19\nI see what you mean, and that sort of goes back to the model point. Obviously if the model's expanding the total economic valuable work, that's sort of the dark GDP report that we did that you mentioned earlier, if the work that these models can do does not expand faster than the compute capacity, then that tide turns. And over the last six months that tide has been very much levered in the direction of models can do more work, or expanding their TAM of work they can do faster than the compute is increasing, and so prices go up. It's very possible that all of a sudden model progress stops. You talk to anyone at Anthropic or OpenAI, maybe they're drinking the Kool Aid, but you talk to basically all of them, they're like, no, no, model progress still go up.\n\nSpeaker 1 | 55:20 - 55:53\nUltimately, current methods could stall somewhere. I'm not sure where that would be. It seems like we have line of sight to model improvement, rapid model improvement, and in fact models are improving faster than they were six months ago or a year ago because there's, I would call it recursive self improvement, but basically the models are helping ride all the infra and launch the next model sooner and sooner and sooner. So you've got this pseudo recursive self improvement loop going, and so the models are getting better and better and better faster. But ultimately, capital is a big problem, which is why Google raised capital.\n\nSpeaker 1 | 55:53 - 55:57\nThey've got an ungodly amount of SpaceX, They own like 5% of the company?\n\nSpeaker 2 | 55:57 - 55:58\nI think a little more,\n\nSpeaker 1 | 55:58 - 56:00\nbut yeah. I think at one point they're like 10%.\n\nSpeaker 2 | 56:00 - 56:10\nMary Page invested a billion dollars at a $10,000,000,000 valuation, got 10% of the company, it got diluted, all this, but that was one of the greatest investments of all time. Good job, Larry.\n\nSpeaker 1 | 56:12 - 56:51\nThey know they have like a $100,000,000,000 in the bank that they can sell in nine months or whatever from the lockup, and they have all the gross profit they do, and yet they still modeled that and they were like, we need to raise capital. And so they did an offering, and it's like, that's insane. So that tells you how much they think they need to spend, but capital is really, Meta did announce that they're going do a raise, stock tanked, people don't like it, but all these companies are going to raise capital, whether it be debt or equity. At some point, money spigots will have slow down, but right now every GPU that Amazon adds, they're making higher revenue, every TPU or Trainium, whoever anyone adds, is making gross profit.\n\nSpeaker 2 | 56:52 - 57:36\nA little bit of a tip on this to turn it into a question for you, but as we talk about this, for me, the things going through my head that is almost an alternative hypothesis for the Crusoe example, I am going use an analogy in oil. In oil, Saudi Arabia has way lower cost per barrel to produce oil than a lot of other countries. There is also the purity of the oil. Saudi has generally very low contaminants in their oil, which makes refining easier, all of this. The question for me is, when you look at, for every gigawatt that is being put in the ground, call it the 20 gigawatts coming online today, how much homogeneity do you see in those gigawatts?\n\nSpeaker 2 | 57:38 - 58:18\nAnd you can tell me whatever metric you think is right, but are Google's gigawatts two times more valuable than, say, most neo clouds because they have optical switches and they have been doing it for a long time and they know how to do power smoothing. I think this could be the alternative hypothesis that some of the people that are good at building data centers, they should just do it to the max because there's so much demand and there's so much better than it. Then maybe we are starting to see the early signs of the people that are not as good at it kind of getting hit a little. I don't know the reality, am just curious how should we think about it.\n\nSpeaker 1 | 58:18 - 58:42\nSo far, there are metrics for this, right? Tranium sells at sub $10,000,000,000 per gigawatt rental rate to Anthropic and to OpenAI. GPUs, at least before the craziness of the last six months, usually went around 12 to $13,000,000,000 per gigawatt. So the rental rate, and this is from a Neo Cloud versus Amazon even, and now when Amazon sells GPUs they'd also be 13 or so.\n\nSpeaker 2 | 58:42 - 58:52\nAnd my understanding of that also is that Amazon subsidized that a little bit, so that I actually think the numbers were even I think the describer was even more extreme.\n\nSpeaker 1 | 58:52 - 58:56\nIt's less than 10, but there was some weird Basically, much\n\nSpeaker 2 | 58:57 - 59:19\nLook, my understanding, Anthropic played a big role in making Tranium useful in terms of writing all the libraries, etc. Everything I hear is that Tranium is really freaking good hardware and it's getting way better, and obviously Anthropic is now using it a lot. Hopefully we would see that price go up per\n\nSpeaker 1 | 59:19 - 1:00:15\nThe deal they did was actually there was a floor mechanism, and if it didn't do well it would be cheaper than to the point where it's cancelable, and if it did really well the price is kind of higher. Effectively, less than 10 is where Tranium shakes out at, whereas GPUs, I mean, the SpaceX deal again was like 25 or something crazy, billion dollars per gigawatt, or $25,000,000 per megawatt a year rental rate with Google. I was like, that's a crazy divergence. Now obviously if Amazon was selling Tranium today it'd probably be more expensive than 10 because of the compute shortages, but you do see this already in the sense of with data centers, oftentimes the rental price of a data center if you're doing colocation, not compute in there, but just power, here's the data center, you price it generally on a dollars per kilowatt per month. And so they used to be $60 per kilowatt hour per month, and now you see things transacting at anywhere from like 120 to 160.\n\nSpeaker 1 | 1:00:17 - 1:00:57\nBut different quality data centers, this actually I've seen data centers go as high as 200 when the customer is not such a great credit rating and then the data center is a pretty good one. And I've seen stuff go as low as 100 still, or in India go as low as 80 because the grid's not reliable, the internet connection's not great, and it's a pretty mid data center, but at least it's a data center. So you see this huge discrepancy there already. In the case of data center construction, usually the pitfalls, they just fail. There's a lot of people who have failed, you'll claim they're like four guys, they're like, Yeah, I bought some turbines, I put the money down for them, I'm going build a data center, and then they get delayed, delayed, delayed, fail.\n\nSpeaker 1 | 1:00:57 - 1:01:53\nSo you have to probability wait, time wait, time lag of the teams that suck versus don't. Our data center model does that. We track every data center and try to do this for every single one based on equipment that they're using and all these things. One of the things you mentioned about Google is in a gigawatt data center, they actually put 1.5 gigawatts of hardware, and because they have such understanding all the way from workload to they're able to slosh the power around, and so instead of constantly a gigawatt of compute, which typically runs at 60 or 70% utilization in terms of power consumption, not utilization of the hardware, someone's always renting it, they're now running it at like that 60 to 70% means it's at a gigawatt, and you're using the full gigawatt. You see people doing deals with, including Google, with utilities, where they're like, oh, well I know this grid can sustainably take a gigawatt, but except for three days of the year, you can actually do two gigawatts, so give me two gigawatts and then just tell me to turn And so they'll do that.\n\nSpeaker 1 | 1:01:53 - 1:02:35\nAnd so these sorts of tricks, and then you need to have supreme management of workload, backup power, all these things, generators on-site to figure out how to actually keep it two gigawatts sustainably. When people do this, they're able to charge more, whether it be I'm actually selling two gigawatts despite only having one gigawatt because of those three days I'm able to deal with via battery, gas, etc, or I figured out how to build power on-site, now I have a gigawatt where no one else does, and so I'm able to do it quickly. It's not necessarily transacting for a higher price, it's that I'm selling more gigawatts. And sometimes there are levers where you're selling more gigawatts, each gigawatt is selling at a different price. I think it's more on the data center and energy layer, it's more about just having it versus not, and then that being delayed or not.\n\nSpeaker 1 | 1:02:35 - 1:03:03\nIt's more binary. But on the compute side, I do think there's a lot more interesting work there. A gigawatt given to Anthropic is objectively worth more revenue than a gigawatt given to OpenAI, and it seems that both of them could sell every gigawatt that they have right now, given rate limit problems and token max limit and all these sorts of things at OpenAI and Anthropic, especially since Codex 5.5 came out, it's much better. And then likewise, if you gave a gigawatt to SpaceX, they'd turn\n\nSpeaker 2 | 1:03:03 - 1:03:24\nMy into guess, my suspicion, is that they probably make better use of the hardware than most people. Think people underestimate how much networking experience they have from Starlink in particular and also how much power management experience they have\n\nSpeaker 1 | 1:03:24 - 1:03:27\nfrom Tesla. People like Brett Mao are incredible.\n\nSpeaker 2 | 1:03:29 - 1:03:37\nFor me that's actually probably the thing that might I don't actually know the answer, but I think that might be missing from the analysis a lot people are doing.\n\nSpeaker 1 | 1:03:37 - 1:04:05\nI think it's also the fact that when CoreWeave builds a gigawatt, even though their GPU compute is objectively better than Amazon or Google or Microsoft's in terms of performance, we've tested the performance and reliability. The problem is Google sells it six months before they have it up, and they need to turn around and take that paper that they signed to get debt with that credit backing and then turn around so they can actually pay for the PO that they've already issued, you know, for the order that they've already issued. Whereas SpaceX was like, no. No. No.\n\nSpeaker 1 | 1:04:05 - 1:04:15\nThis is running now. Buy it. Right? And it's it's a it's a big discrepancy when you have a balance sheet to do that versus not, and that also helps your revenue per megawatt be much higher.\n\nSpeaker 3 | 1:04:15 - 1:04:29\nWhy does the Neo Cloud opportunity even exist? Because if you had asked me five years ago, I would have said the hyperscalers are going own this. And you mentioned just now CoreWait has better performance than the hyperscalers. Why does this opportunity exist maybe at the macro level and then in the execution level?\n\nSpeaker 1 | 1:04:29 - 1:04:53\nYeah, so in 2023 I wrote a report that had Amazon really hate me. It was called Amazon Cloud Crisis. I talked about how Amazon was the best cloud because they had their Nitro NICs, which offered tenant isolation. All the hypervisor ran on the NIC, and then you could sell all the cores. And they had custom SSDs that they made, they'd buy the raw NAND, and they'd have lower cost because they'd buy the raw NAND and build their own SSDs.\n\nSpeaker 1 | 1:04:54 - 1:05:32\nThey had their custom Graviton CPUs, and that drove down cost per core, and so they had all these things that enabled them to sell more cores, have better security, good networking, but this was all for the traditional CPU, better storage, the traditional cloud world. But in the AI cloud, lot of this stuff hurt performance, These Nitro NICs were bad for performance, still are worse performance, although they've caught up a lot because they've had a couple iterations to improve them, but they're still worse for performance. A lot of the security stuff doesn't matter because it's not like I'm time splicing users or splicing a socket into many users. Like no one rents a single GPU in an eight GPU server. No one rents a single GPU in a 72 GPU rack.\n\nSpeaker 1 | 1:05:33 - 1:06:00\nThey rent the whole rack, and in fact they write many of the racks. And so and then and then there's no, like, oh, I rent for six hours and I give it back. It's everyone has these long term contracts. So the mechanics of the GPU rental market meant that a lot of the expertise of the hyperscalers fell away, and a lot of the expertise that they did have were actually some of them were detrimental. Network performance for Google and Amazon, they had custom networks that were better for traditional CPU and for the stuff that they were doing, but actually worse for AI.\n\nSpeaker 1 | 1:06:02 - 1:06:44\nAnd then in other cases it's like, Microsoft would save money by building their own data centers, but their data center teams were not actually that great, and so when it was predictable building it was fine, but when it came time to double your forecast for the year, it's like they fell on their face, and they had to go get a bunch of Neo Cloud capacity. So performance, think time to market is another one. These massive organizations, no one's getting rich from building this data center faster. But you look at Crusoe for example, Chase and all the other people at the team, I was going name some people at the team, I'd rather die. All these people are getting rich if they fucking deliver this compute faster.\n\nSpeaker 1 | 1:06:44 - 1:06:49\nThey're they're hyper levered equity owners. And they're also all coming\n\nSpeaker 2 | 1:06:49 - 1:06:52\nfrom Bitcoin, and you're not supposed to say that.\n\nSpeaker 1 | 1:06:52 - 1:06:56\nI mean a lot of the data center, like their main data center guy came from Microsoft. I don't know, I'm just\n\nSpeaker 2 | 1:06:56 - 1:07:04\nteasing, but it's like you learn a lot when you're in a very high fluctuation market.\n\nSpeaker 3 | 1:07:05 - 1:07:07\nElse do you think was Jensen playing 4D chess?\n\nSpeaker 1 | 1:07:07 - 1:07:32\nJensen absolutely hates a world where all the hyperscalers have all the power. There's a reason he's blowing money on random AI labs that I don't even know if it makes sense to, but he's blowing money and pumping them up and going to everyone around the world and saying, You should invest in this company, because he wants to create a multipolar world. That's why he loves Chinese labs, because he wants to create a multi polar world. A world where open, anthropic and Google models are the only models is one in which he's screwed. Yep.\n\nSpeaker 1 | 1:07:32 - 1:08:21\nRight? A world in which the hyperscalers are the only ones building compute is one he's screwed in. And so, of course he needs to point the allocation gun at Neo Clouds, help backstop their clusters, do anything and everything, because while today a GPU sold to Crusoe and a GPU sold to CoreWave and a GPU sold to Google and Amazon are all the same price for him, five years from now, Crusoe and CoreWeave existing means Google TPU will be weaker, and means Amazon Trainium will be weaker. And more inference being done with non closed source model labs is better for him. So I think the Neo Cloud ecosystem is, it's these people that are wild west, these Neo Labs as well, a lot of them have investments from Nvidia, it's the wild west, some will fail, many will fail, but some will emerge as really great teams.\n\nSpeaker 1 | 1:08:21 - 1:08:29\nWhether it be Oddly, Crusoe, who's a bunch of crypto guys who then started building data centers and doing flared gas stuff, or CoreWeave, who initially was a bunch\n\nSpeaker 2 | 1:08:29 - 1:08:31\nof were also, and then they were doing\n\nSpeaker 1 | 1:08:31 - 1:08:38\nbig crypto guys, but then they built, there were a lot of people who didn't bubble up like them. Started around the same time, just failed.\n\nSpeaker 2 | 1:08:40 - 1:08:44\nI got to say both those teams are phenomenal. They deserve a lot of credit, and that's your point.\n\nSpeaker 1 | 1:08:45 - 1:09:13\nYeah, my point is it's like you throw a bunch of bait into the water and the best fish will figure out and survive, sort of the same way with the NeoClouds, he hopes the NeoLabs as well. We'll see if any of the NeoLabs really bubble up, but Thinking Machines has a few $100,000,000 of ARR. That's pretty impressive, even though they've had, in the media it's like, Oh, they've lost all this talent. But Tinker is doing a few $100,000,000 of ARR. That's pretty impressive for out of the gate, a product that's less than six months old or whatever.\n\nSpeaker 1 | 1:09:14 - 1:09:19\nWe hope the same happens to other NeoLabs, and so he wants a multi polar role.\n\nSpeaker 2 | 1:09:20 - 1:09:41\nTruly, congratulations on the success. Thank you. The last thing I'll say is I've seen a little bit of this. I think the public, they can probably tell from listening to you how hard you work, but it's clear you've just been working your ass off for more than a decade, it, you know, led to the last few years of being in the right place, right time. But, like, it's unbelievable what you've accomplished, and I know it's just the beginning.\n\nSpeaker 1 | 1:09:41 - 1:09:42\nThank you so much.\n\nSpeaker 2 | 1:09:42 - 1:09:42\nThank you for doing\n\nSpeaker 1 | 1:09:42 - 1:09:43\nthis. Awesome."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2072048730581405800",
+            "text": "very successful first poster sessions day at AIEWF, thanks to @heathercmiller and @ACM_President for the support!!\n\ntomorrow: Poaster sessions! submit your hottest tweets to @vibhuuuus for printing!\n\nspotted: left shark https://t.co/nv2I2l00Oe https://t.co/F7Ax9r5UK6",
+            "createdAt": "2026-06-30T20:04:48.000Z",
+            "url": "https://x.com/swyx/status/2072048730581405800",
+            "likes": 40,
+            "retweets": 4,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2068868526291718334"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2072105851457019944",
+            "text": "Agree https://t.co/HOYbxpkYwX",
+            "createdAt": "2026-06-30T23:51:47.000Z",
+            "url": "https://x.com/bcherny/status/2072105851457019944",
+            "likes": 797,
+            "retweets": 9,
+            "replies": 27,
+            "isQuote": true,
+            "quotedTweetId": "2072024792056909935"
+          },
+          {
+            "id": "2072000214634742243",
+            "text": "You asked, we listened. Claude Desktop on Linux is here!\n\nDownload link: https://t.co/gjgHZvbKyi https://t.co/O3P6B3fuGk",
+            "createdAt": "2026-06-30T16:52:01.000Z",
+            "url": "https://x.com/bcherny/status/2072000214634742243",
+            "likes": 3503,
+            "retweets": 196,
+            "replies": 298,
+            "isQuote": true,
+            "quotedTweetId": "2071988881717871065"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2072165346476511583",
+            "text": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available? https://t.co/nU5J9p9KsC",
+            "createdAt": "2026-07-01T03:48:12.000Z",
+            "url": "https://x.com/petergyang/status/2072165346476511583",
+            "likes": 379,
+            "retweets": 6,
+            "replies": 72,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072159132908695772",
+            "text": "btw I have no idea if it's coming out midnight or not",
+            "createdAt": "2026-07-01T03:23:30.000Z",
+            "url": "https://x.com/petergyang/status/2072159132908695772",
+            "likes": 6,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072111311396438410",
+            "text": "Setting an alarm at midnight to get Fable to fix all my projects 😅 https://t.co/LUuH9x8vl3",
+            "createdAt": "2026-07-01T00:13:29.000Z",
+            "url": "https://x.com/petergyang/status/2072111311396438410",
+            "likes": 136,
+            "retweets": 0,
+            "replies": 27,
+            "isQuote": true,
+            "quotedTweetId": "2072106151890809341"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2072003481779478848",
+            "text": "tru tru\n\nhttps://t.co/GCmvVpSNHq",
+            "createdAt": "2026-06-30T17:05:00.000Z",
+            "url": "https://x.com/thenanyu/status/2072003481779478848",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2072002798410142167"
+          },
+          {
+            "id": "2071973229070033322",
+            "text": "The definition of “distillation” is interesting. Going by this logic, the entirety of Cursor’s training data was distilled from Claude in the early days https://t.co/V08OTUG9QA",
+            "createdAt": "2026-06-30T15:04:47.000Z",
+            "url": "https://x.com/thenanyu/status/2071973229070033322",
+            "likes": 47,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2071925094520078723"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2071970221477470694",
+            "text": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking. A decade of frameworks, “agile” and metric obsession has led to constraint-first, incremental thinking.\n\nI used to combat this on my teams by asking them to  imagine we had tech from 100 yrs in the future, the experiences it would enable and working backward from that. the ideas would always be far more creative.\n\nthe funny thing is, that technology from the future is here.\n\ngo build that magical thing!",
+            "createdAt": "2026-06-30T14:52:50.000Z",
+            "url": "https://x.com/realmadhuguru/status/2071970221477470694",
+            "likes": 56,
+            "retweets": 4,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2072202267563082180",
+            "text": "making some last minute changes to my deck- see you tomorrow at AIE! https://t.co/rhxcTGRnTh https://t.co/gGElhLW1Zw",
+            "createdAt": "2026-07-01T06:14:54.000Z",
+            "url": "https://x.com/trq212/status/2072202267563082180",
+            "likes": 467,
+            "retweets": 12,
+            "replies": 46,
+            "isQuote": true,
+            "quotedTweetId": "2067737883545596368"
+          },
+          {
+            "id": "2072185566695977161",
+            "text": "And as we say in our blog, we're continuing to refine these safeguards to better distinguish genuine misuse from legitimate requests and reduce false positives.",
+            "createdAt": "2026-07-01T05:08:33.000Z",
+            "url": "https://x.com/trq212/status/2072185566695977161",
+            "likes": 203,
+            "retweets": 2,
+            "replies": 23,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072185565076988326",
+            "text": "Have seen some questions about the updated classifiers and wanted to clarify.\n\nAs with the original classifiers, a small fraction of routine coding and debugging tasks will be flagged and fall back to Opus. \n\nWe're excited for guys to get access back tomorrow. https://t.co/qPzfqVy65Y",
+            "createdAt": "2026-07-01T05:08:32.000Z",
+            "url": "https://x.com/trq212/status/2072185565076988326",
+            "likes": 1350,
+            "retweets": 88,
+            "replies": 346,
+            "isQuote": true,
+            "quotedTweetId": "2072163884430229756"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2071992670394765407",
+            "text": "World’s first subway hackathon! https://t.co/uRTezD2dak",
+            "createdAt": "2026-06-30T16:22:03.000Z",
+            "url": "https://x.com/amasad/status/2071992670394765407",
+            "likes": 156,
+            "retweets": 3,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2071703803045257342"
+          },
+          {
+            "id": "2071992110132117740",
+            "text": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference. https://t.co/KluYZIZATE",
+            "createdAt": "2026-06-30T16:19:49.000Z",
+            "url": "https://x.com/amasad/status/2071992110132117740",
+            "likes": 1419,
+            "retweets": 75,
+            "replies": 45,
+            "isQuote": true,
+            "quotedTweetId": "2071972062202343590"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2072123264843886709",
+            "text": "At dinner, tech executive is relaying his company’s @vercel feedback, and then his 12-year-old son’s @vercel feedback 😁 \n\nVercel is for everyone.",
+            "createdAt": "2026-07-01T01:00:59.000Z",
+            "url": "https://x.com/rauchg/status/2072123264843886709",
+            "likes": 540,
+            "retweets": 2,
+            "replies": 41,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072044844965400589",
+            "text": "So great to get to work with @tobi and the wonderful @shopify team.\n\nExcited to push the agentic web forward. https://t.co/2dke1MwSDS",
+            "createdAt": "2026-06-30T19:49:22.000Z",
+            "url": "https://x.com/rauchg/status/2072044844965400589",
+            "likes": 264,
+            "retweets": 9,
+            "replies": 23,
+            "isQuote": true,
+            "quotedTweetId": "2072041488012439803"
+          },
+          {
+            "id": "2071966055308607765",
+            "text": "Vercel Services\n\nYou can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel project.\n\ntl:dr;\n▪️ You can run all locally with 𝚟𝚌 𝚍𝚎𝚟 \n▪️ Deploy and rollback all at once\n▪️ Observe, monitor, debug together\n▪️ Internal networking",
+            "createdAt": "2026-06-30T14:36:17.000Z",
+            "url": "https://x.com/rauchg/status/2071966055308607765",
+            "likes": 1046,
+            "retweets": 31,
+            "replies": 76,
+            "isQuote": true,
+            "quotedTweetId": "2071951670058324353"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2072172275017879829",
+            "text": "Things seem to be ending up in a better spot with Fable, and presumably GPT-5.6 next. What we have now is the initial precedent for what frontier model releases (or at least those that have significant coding and cyber capabilities) could look like going forward. This would presumably apply to bio and other categories of risk that have been identified by AI safety groups. \n\nFrom the Anthropic post:\n\n“3. A shared industry framework. Although we have reached a constructive resolution, these events have made clear that the industry needs a consistent way to assess and fix potential “jailbreaks” of AI models (techniques that bypass a model’s safeguards).2 A shared standard for judging the severity of a given jailbreak would help AI developers triage new findings as they arise, launch highly-capable models with greater safety, and communicate the level of risk consistently to government and industry partners. Together with Amazon, Microsoft, Google, and other Glasswing partners, we’ve started to develop such a framework, and we outline it below.\n\n4. Deeper government collaboration. We’re also strengthening our level of collaboration with the US government on new pre-release testing, information sharing, and research collaboration. We describe this deeper collaboration in the final section.”\n\nIt’s been a messy process to get here, but at least there’s some semblance of a framework that could be practical. The only note of caution here would be that there’s a lot of subjectivity that goes into various risks and their actual levels of exploitability in practice. We’re likely going to be living with a framework that requires heavy judgment and back and forth between labs and the government for major releases.\n\nThe best we can hope for is that this is a relatively efficient process, and hopefully has ways of being sped up for incremental version updates in models. It would be a bad outcome if every release after this level of threshold of capability required the same review process, and we don’t get the same rate of breakthroughs we’ve been seeing.",
+            "createdAt": "2026-07-01T04:15:44.000Z",
+            "url": "https://x.com/levie/status/2072172275017879829",
+            "likes": 58,
+            "retweets": 3,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2072163884430229756"
+          },
+          {
+            "id": "2072046374045249671",
+            "text": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end.\n\nSonnet 5 holds frontier-class quality on complex multi-step work and pulls ahead of Sonnet 4.6 in several core enterprise domains like Energy (+4.7pp), Retail (+4.4pp), and Professional Services (+2.6pp), and other spaces where unstructured data is heavily complex.\n\nHere are a few examples of wins compared to Sonnet 4.6 to get a sense of some of the more advanced reasoning capabilities in Sonnet 5:\n\n* Financing due diligence: It computed the company's liquidity and leverage ratios from the raw balance sheet, and caught that the source report's own stated debt-to-equity figure understated the leverage, flagging all three loan covenants as violated, not just the ones the document admitted.\n\n* Overhaul cost analysis: It scoped \"total cost\" to the company's own KPI definitions, correctly separating out Lost Production Cost because the guidance said to track it separately rather than naively summing every number on the sheet. It also caught and handled a broken reference cell in the spreadsheet.\n\n* SKU revenue analysis: On segmented sales data, it computed each product's contribution against the correct subcategory denominator, sidestepping the easy mistake of dividing by the category total, and flagged why no Pet-category SKU cracked the top 9.\n\nSonnet 5 will be available in the Box AI Studio shortly for customers to build custom agents with.",
+            "createdAt": "2026-06-30T19:55:26.000Z",
+            "url": "https://x.com/levie/status/2072046374045249671",
+            "likes": 137,
+            "retweets": 6,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2072017450611142835"
+          },
+          {
+            "id": "2071992799109824562",
+            "text": "More data is showing the opposite of what many people expected with AI adoption and jobs. Ramp found that the more AI adoption a company has the more their headcount grows.\n\nAt Box, we recently did a survey of 1,600+ mid and large sized companies, and the findings were similar. 58% of respondents expected headcount to rise over the next three years. Interestingly, that figure climbs to 79% among the most mature adopters of AI. The more advanced AI adopters expected to grow their headcount at a greater rate in the future than others.\n\nOf course it's true that the companies that can afford to adopt AI the most are also the ones that likely are seeing growth in their business, leading to more headcount. So the point of the story isn't necessarily that by adopting AI you will inherently grow. \n\n*But* the most important takeaway is that the opposite is not proving out. The fears a couple years ago would have been that the companies adopting AI the most would be hiring fewer people. \n\nBut in reality this is what actually you should expect to happen. If a company can get more customers because they use AI in sales for account or market intelligence, they hire more sales people not fewer. If you can build way more software than before, you end up hiring more engineers because the projects get bigger and you take on more. And so on.",
+            "createdAt": "2026-06-30T16:22:33.000Z",
+            "url": "https://x.com/levie/status/2071992799109824562",
+            "likes": 234,
+            "retweets": 48,
+            "replies": 43,
+            "isQuote": true,
+            "quotedTweetId": "2071919757209502205"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2072100337478160856",
+            "text": "We want a California that works. https://t.co/W2MkJEtPAY",
+            "createdAt": "2026-06-30T23:29:52.000Z",
+            "url": "https://x.com/garrytan/status/2072100337478160856",
+            "likes": 185,
+            "retweets": 7,
+            "replies": 23,
+            "isQuote": true,
+            "quotedTweetId": "2072053126207516806"
+          },
+          {
+            "id": "2071910876496757145",
+            "text": "Gbrain is mostly useful at 10,000+ markdown files in your personal brain or company brain https://t.co/ifVPMxILhY",
+            "createdAt": "2026-06-30T10:57:01.000Z",
+            "url": "https://x.com/garrytan/status/2071910876496757145",
+            "likes": 728,
+            "retweets": 52,
+            "replies": 57,
+            "isQuote": true,
+            "quotedTweetId": "2071890884040499660"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2072088791393669144",
+            "text": "LE DICTATEUR #fraswe https://t.co/bS8ulCu9lG",
+            "createdAt": "2026-06-30T22:44:00.000Z",
+            "url": "https://x.com/mattturck/status/2072088791393669144",
+            "likes": 85,
+            "retweets": 3,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2072197929138602079",
+            "text": "\"Taste isn’t valuable because it’s impossible to copy. Taste is valuable exactly because it defines what everyone else chooses to copy.\" https://t.co/kDs4ibnvbL",
+            "createdAt": "2026-07-01T05:57:40.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072197929138602079",
+            "likes": 57,
+            "retweets": 7,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2070665127331037290"
+          },
+          {
+            "id": "2072145334428680365",
+            "text": "How can someone be THIS early https://t.co/3LN79FPJ28",
+            "createdAt": "2026-07-01T02:28:40.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072145334428680365",
+            "likes": 117,
+            "retweets": 6,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "1693980424379457876"
+          },
+          {
+            "id": "2072120868042641686",
+            "text": "https://t.co/En3GgSh3Eu",
+            "createdAt": "2026-07-01T00:51:27.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072120868042641686",
+            "likes": 6,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2072111272859246943",
+            "text": "Ok a day early. This is coming tomorrow!",
+            "createdAt": "2026-07-01T00:13:20.000Z",
+            "url": "https://x.com/nikunj/status/2072111272859246943",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072106393256218883",
+            "text": "Every developer in SF right now running back to their desks post AIEWF after they heard Fable 5 is coming back.. https://t.co/HsCFU0Usz7",
+            "createdAt": "2026-06-30T23:53:56.000Z",
+            "url": "https://x.com/nikunj/status/2072106393256218883",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2072183656739983397",
+            "text": "🙃 https://t.co/zTXNISaICx",
+            "createdAt": "2026-07-01T05:00:57.000Z",
+            "url": "https://x.com/steipete/status/2072183656739983397",
+            "likes": 124,
+            "retweets": 4,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072144627474579925",
+            "text": "Price per token != cost per task https://t.co/dxuXgri7nD",
+            "createdAt": "2026-07-01T02:25:52.000Z",
+            "url": "https://x.com/steipete/status/2072144627474579925",
+            "likes": 1072,
+            "retweets": 34,
+            "replies": 54,
+            "isQuote": true,
+            "quotedTweetId": "2072071305281540338"
+          },
+          {
+            "id": "2072143124496097302",
+            "text": "Apparently we didn't talk enough about  w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet! See ya there! https://t.co/A9mc4pKPC4",
+            "createdAt": "2026-07-01T02:19:54.000Z",
+            "url": "https://x.com/steipete/status/2072143124496097302",
+            "likes": 212,
+            "retweets": 16,
+            "replies": 21,
+            "isQuote": true,
+            "quotedTweetId": "2071731280178508255"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2072106715286225313",
+            "text": "LETS FUCKIN GO https://t.co/V11siBIHyo",
+            "createdAt": "2026-06-30T23:55:13.000Z",
+            "url": "https://x.com/danshipper/status/2072106715286225313",
+            "likes": 173,
+            "retweets": 2,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2072106151890809341"
+          },
+          {
+            "id": "2072099953254584462",
+            "text": "me, on a vacation in mexico, hearing that fable might be coming back tonight https://t.co/OHp0diROKl",
+            "createdAt": "2026-06-30T23:28:21.000Z",
+            "url": "https://x.com/danshipper/status/2072099953254584462",
+            "likes": 39,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072094163378622823",
+            "text": "if this happens im livestreaming and ripping tokens from my vacation in cabo tonight https://t.co/6jJZx8mOp2",
+            "createdAt": "2026-06-30T23:05:20.000Z",
+            "url": "https://x.com/danshipper/status/2072094163378622823",
+            "likes": 150,
+            "retweets": 2,
+            "replies": 16,
+            "isQuote": true,
+            "quotedTweetId": "2072082423949525348"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2071983952894837062",
+            "text": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+            "createdAt": "2026-06-30T15:47:24.000Z",
+            "url": "https://x.com/adityaag/status/2071983952894837062",
+            "likes": 284,
+            "retweets": 28,
+            "replies": 36,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2072017457057853480",
+            "text": "Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users.\n\nIt's live across all Claude apps and the Claude Platform today, with introductory pricing through August 31: https://t.co/4nNWO80Er7",
+            "createdAt": "2026-06-30T18:00:32.000Z",
+            "url": "https://x.com/claudeai/status/2072017457057853480",
+            "likes": 2060,
+            "retweets": 82,
+            "replies": 79,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072017455833100494",
+            "text": "Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an attractive price point.",
+            "createdAt": "2026-06-30T18:00:32.000Z",
+            "url": "https://x.com/claudeai/status/2072017455833100494",
+            "likes": 2227,
+            "retweets": 46,
+            "replies": 36,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072017452335087996",
+            "text": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work.\n\nIts performance is close to Opus 4.8, at lower prices. https://t.co/VOISbk14Lk",
+            "createdAt": "2026-06-30T18:00:31.000Z",
+            "url": "https://x.com/claudeai/status/2072017452335087996",
+            "likes": 4607,
+            "retweets": 339,
+            "replies": 142,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 17,
+      "totalTweets": 38,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-07-01T07:49:10.368Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
