@@ -1,0 +1,594 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-03T12:40:13.463708+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 17,
+    "totalTweets": 35,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-07-02T07:27:19.511Z"
+  },
+  "digest_generated_at": "2026-07-03T04:40:13.437Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-03T04:40:13.437Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "The AI Workflows Behind Every's Consulting Team",
+        "guid": "3a41b0c9-9f64-41b5-b88e-6b3dfce609b5",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-07-01T15:57:56.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:10\nYou go and teach executives and other people at big companies how to use AI. And so I think what you're doing is a good window into how great operators and executives are starting to use this stuff.\n\nSpeaker 2 | 00:10 - 00:16\nWhat Codex helped me do was basically create kind of like an operating system. My email knows what's going on\n\nSpeaker 1 | 00:16 - 00:16\nMhmm.\n\nSpeaker 2 | 00:16 - 00:27\nMore than I do. I'm just so bullish on all of the administrative tasks that will suddenly kind of like be taken care of because now we have this sort of like super alien tool that can support on those things.\n\nSpeaker 1 | 00:27 - 01:03\nKnowledge work now is turning into something like gardening, where when you're gardening, you're creating the conditions for the growth to happen, but you're not like making the plant with your hands. Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Go to every. Tosubscribe today.\n\nSpeaker 1 | 01:03 - 01:05\nNatalia, welcome to the show.\n\nSpeaker 2 | 01:05 - 01:06\nThanks, Dan. Good to be back.\n\nSpeaker 1 | 01:06 - 01:12\nSo for people who missed your last episode, you are our head of consulting at Every.\n\nSpeaker 2 | 01:12 - 01:13\nThat's right.\n\nSpeaker 1 | 01:13 - 01:22\nYou are also the manager of Claudi, consulting's AI agent employee, which was, who was the star of our last episode together.\n\nSpeaker 2 | 01:22 - 01:23\nMhmm.\n\nSpeaker 1 | 01:23 - 02:18\nAnd I wanted to bring you on because I feel like every couple months things shift so radically. And for me, you're one of the, like, bellwethers of how things are changing because you're an early adopter yourself, and you go and teach executives and other people at big companies how to use AI. And so I think what you're doing is a good, window into how, like, really great operators and executives are starting to use this stuff. So the last time we chatted, Claudie, which is the the internal AI employee agent that we built to basically help to run the consulting business, to, you know, send out sales proposals and manage the CRM and all that kind of stuff. Claudia was, like, this nascent thing that Mitesh, who's our senior, AI engineer, like, sort of, what's what's the word for it?\n\nSpeaker 1 | 02:18 - 02:36\nHe was, he was sort of, like, wizard avozing it in the background, like, making it work, minute by minute. And but I feel like now Claudia is, like, actually working. Like, the the model releases over the last couple months have have dramatically changed how much she's able to do. So give us an update on Claudie. How are things going there?\n\nSpeaker 2 | 02:36 - 03:10\nYou know, it's it's funny with the speed of AI. Claudie it feels like Claudie is, like, just not novel. You know, it's Claudie is an agent that does work for us every day. And Claudia has its own LinkedIn and Twitter feed and you know, manages our dashboards and you know, has a trust battery now that's new. So, you know, it's running on a loop to sort of like self evaluate performance and to improve itself given the feedback that we give it.\n\nSpeaker 2 | 03:10 - 03:13\nAnd Claudie's thriving, I guess.\n\nSpeaker 1 | 03:13 - 03:28\nOne of the things that's interesting is you hired Claudie to do operations stuff, but you're also now hiring an operations person. So what have you learned about the uses and limits of these sorts of internal agents for stuff that you might want to hire a human for?\n\nSpeaker 2 | 03:29 - 03:55\nYeah, you know, it's really interesting. Think, you know, as we've all been using AI more, I think the thing that we keep coming back to is that AI is really good at executing against a standard operating procedure. And Claudia is exceptional at that. But Claudia still needs two things. One is it needs constant oversight and management to make sure that it's doing those things really well, actually.\n\nSpeaker 2 | 03:55 - 04:20\nSo you know, the sort of question of like taste and you know, reaching for excellence still requires direction and sort of managerial support, which, you know, can be quite tedious and time consuming. So there's still quite a bit of time involved there. And, and two is when you are working with people, you know, as much as I love working with Claudie, I want to interface with people, right? And I find that\n\nSpeaker 1 | 04:20 - 04:25\nI can't really relate, but I, I see I see why someone might feel that way.\n\nSpeaker 2 | 04:27 - 04:52\nAnd the reality is that, you know, while we do have all of these rich dashboards and all of this data that Claudia is populating, we need we need someone to surface what is interesting about that data, what the signals are, and to help lead those conversations. And so actually, I suspect that we will continue to expand the team to build on the data and information that Claudi surfaces so that we can actually do interesting things with it.\n\nSpeaker 1 | 04:53 - 05:20\nOne of the big things that you went through recently, which I think is super relevant to anyone inside of a big org or anyone running a software company, is you actually bought a CRM. And previously, it was all cloudy, glued together with Google Sheets, and I think there's this whole narrative running around. I think, honestly, SaaS docs are back, so maybe the narrative is a little bit less present than it used to. But it's still on people's minds. It's like, are you just gonna vibe code all SaaS?\n\nSpeaker 1 | 05:20 - 05:41\nYou know, like, Fable currently is banned, but I'm sure it will be back. Maybe it's even back by the time this episode comes out. But, like, if Fable can just one shot a c CMS, like, why would you use one? But you you you have the ability to make your own CMS, and we have enough resources internally for us to vibe code one, but you decided not to. Yeah.\n\nSpeaker 1 | 05:41 - 05:47\nOr you decided to move off the the sort of homemade one onto a professional one. So why would you do that?\n\nSpeaker 2 | 05:47 - 05:59\nYeah. So despite my hopes and aspirations that I could do all of the things and, you know, become an engineer and maintain all of these engineering products that\n\nSpeaker 1 | 05:59 - 06:01\nI've This one I can't relate to this one.\n\nSpeaker 2 | 06:04 - 06:25\nIt turns out there are actually private and public companies whose entire business it is to do these things really well. And sometimes these like very specific things really well. So, you know, we you know, I vibe coded a CRM tool that allowed us to manage our sort of like sales pipeline for a while.\n\nSpeaker 1 | 06:25 - 06:33\nAnd It was managing in Google Sheets. So it was like Claude Claudia was the was the glue between what was going on in Slack and the meetings and Google Sheets.\n\nSpeaker 2 | 06:33 - 07:04\nYeah, exactly. So basically, Claudia had access to was able to read my email, was able to read our meeting note takers notes, was able to digest kind of like an inbound leads that came and then would track this all in a Google Sheet. And then, you know, eventually that became a database that we were managing. And these things just require maintenance, right? In order for the data quality to be good enough that you can do interesting things with it, you need to, you know, almost like Klaviyo need to be on top of the quality of the data.\n\nSpeaker 2 | 07:04 - 07:33\nAnd so, it turns out, this is Atiyo's entire business. And so, know, think one of the challenges with AI, I certainly have is that in, you know, in the era of AI, you can build anything. I think I even said this in the last podcast. The question is, should you build and maintain whatever you actually build? And I think in this case, and probably in other use cases, also rolled out Asana for our project management system.\n\nSpeaker 2 | 07:33 - 07:49\nI think we're able to do the scale of the work that we are able to do because of Atio, because of Asana, and because of Claudie managing all of that information is much greater than if we didn't have those tools. But now we just have less burden on the team to maintain that.\n\nSpeaker 1 | 07:49 - 08:07\nYou give me like a concrete example? Because in my head, I'm like, well, CMS is just it's just like customer records and then and that's just a spreadsheet. So you should just be able to, like, have Claudia do everything. So can you give me, like, a deeper dive into what specific kinds of things came up that were harder than you expected?\n\nSpeaker 2 | 08:07 - 08:28\nYeah. So, you know, so yeah, totally. Like if you let's talk about maybe like a traditional sort of like sales pipeline lead, right? So there's the they come in as an inbound, you have these sales logic rules where like certain things need to happen in order for them to move further down the pipeline until they are a converted client. And sometimes those things happen very quickly.\n\nSpeaker 2 | 08:28 - 09:18\nSometimes they happen over a longer period of time. With my human brain, I think I can kind of track what's going on over like a two to three month period and then any conversations that are taking place outside of that. And after a certain amount of volume, I just can't quite track with with with a tool like ATIO, it has access to all of the things that Claudia had access to, but it has really robust logic so that it can basically track the movement of a deal over the course of the pipeline. And it can kind of flag it to me in different ways in a way that I would have had to supervise Claudie to do and was not Claudie was just like not inherently set up for it. It could do that if I spent more time training it to do that.\n\nSpeaker 2 | 09:19 - 09:23\nBut it's it's ultimately, like, you know, sort of like a a reward pay payoff thing.\n\nSpeaker 1 | 09:23 - 09:50\nI think one of the things that's unintuitive about software is real software is a compilation. It's like a logical machine that that compiles thousands and thousands of little logical rules to that that you wouldn't expect you would need beforehand. And and and the whole job of the company and the engineers is to, like, gather all the rules that are needed and then put it into the system. And when something it changed the rules.\n\nSpeaker 2 | 09:50 - 09:50\nYeah.\n\nSpeaker 1 | 09:51 - 10:02\nAnd AI is very good at working around that kind of deterministic system and writing it, but it's not gonna one shot all the rules that you're gonna need.\n\nSpeaker 2 | 10:02 - 10:22\nYeah. Needless to say, I've become a really big fan of PRDs. Yeah. And actually scoping what I'm building, which I, you know, I think I've improved in both scoping and building higher quality things, and also making that decision earlier of whether it's going to be worth it for us to just invest in a tool versus for us to build it out.\n\nSpeaker 1 | 10:22 - 10:45\nYeah. Think a good metaphor is I'm sorry. I'm just like my brain is just cycling on the difference between software and language models. But a good metaphor is software is a little bit like your bones in your body, and a language model is a little bit like your brain and your ligaments. So it, like, if you didn't have any bones, there would be no structure, and you'd be, like, just sort of a flopping jellyfish on the floor.\n\nSpeaker 1 | 10:46 - 11:08\nBut, but if you didn't have your brain and your nervous system and, ligaments, you'd just be sort of a pile of sticks. And I think that's that's a good way for software and language model. That's that's how they sort of start to work together. And, of course, language models can grow bones, which is interesting. That's maybe a bit different from the way we're set up, but growing bones well is complicated, and a whole body plan is very complicated.\n\nSpeaker 1 | 11:08 - 11:35\nSo but but you said something earlier that I think is is really interesting and I wanna push on, which is I see you going from not technical to, like, building stuff. And I feel like there's you tell me if I'm wrong, but I feel like there's been a sort of step change for what you can build and what you can attempt over the last like month or two. Do you feel like that's right? And if so, tell me more.\n\nSpeaker 2 | 11:35 - 12:05\nYeah, 100%. I would say the other, you know, kind of like riffing on Claudia a little bit and the evolution of how I work with Claudia and also how I work with other tools. Codex has been maybe the single greatest I have to you know I have to confess on the podcast that Dan did tell me to download Codex maybe every day. He saw me for weeks.\n\nSpeaker 1 | 12:05 - 12:07\nI'm very annoying about things I think are good.\n\nSpeaker 2 | 12:10 - 12:34\nAnd and I think you have something that don't have as much of, which is the sort of like fearlessness when it comes to trying out a new AI product. And I think I still have a little bit of like, you know, like, okay, like now I have to figure out this whole other thing. And like, I love quad code and, you know, I'm very comfortable in like, you know, these like folder structures and file systems that I've created. Codecs has been life changing, right? Totally life.\n\nSpeaker 2 | 12:34 - 12:34\nSo thank you.\n\nSpeaker 1 | 12:34 - 12:35\nOf course.\n\nSpeaker 2 | 12:35 - 12:38\nThank you for your persistent follow-up thoughts.\n\nSpeaker 1 | 12:38 - 12:49\nAnytime. Happy to be annoying anytime. Tell me why it's been life changing, especially coming someone coming from Cloud Code or the co work universe. What were your expectations going in? What was it like?\n\nSpeaker 1 | 12:49 - 12:52\nAnd then how has it changed what you're able to do?\n\nSpeaker 2 | 12:52 - 13:39\nIt really feels like Codex. I think you've said this before Codex, you know, looked at the things that weren't quite working with clot code, and then it just fixed it, you know, when it launched the product. And so for me having a nontechnical background, having the terminal and the browser directly in the chat interface and just having such a powerful model like 5.5 that, you know, I you could just feel the compute, know, like it just wants to do hard work. It's just so powerful, know, like I think before I feel like over the past year I've gone through this transition of you know, wanting to become more technical and trying to parse you know, what are the things that are worth learning in order for me to do the things that I want to build. You know, I think generally, I'm I love learning.\n\nSpeaker 2 | 13:39 - 13:41\nI'm an ambitious learner. And You\n\nSpeaker 1 | 13:41 - 13:59\nare really. That's what something that people should know is like, are the the most curious learner I think I know. Like, you spend your weekends, like, having Clotter or or Codex, like, build you these, like, big learning guides that you just, like, read end to end about anything that you're thinking about. And I love it. I think it's amazing.\n\nSpeaker 1 | 13:59 - 14:04\nAnd it's a superpower because AI lets you do more of it, and it, like, helps you use it better.\n\nSpeaker 2 | 14:05 - 14:09\nIt's a I think it is a superpower, and sometimes it feels a little bit like a vice.\n\nSpeaker 1 | 14:09 - 14:16\nYeah. Yeah. Yeah. Like, do I need to know the history of bookshelves from first principles? Yes.\n\nSpeaker 1 | 14:16 - 14:17\nI feel like that's something you would look up.\n\nSpeaker 2 | 14:17 - 14:45\nI would like to know that. Yes. I would like to know that. But you know, with Codex, I feel like the truth is that I have to I don't have to think so much about things like the file systems and the folder structures and you know, how the scripts are set up and it just works. And so I think I have to focus a little bit less on, you know, architecting things well, which is very much a skill and something that our engineers do extremely well.\n\nSpeaker 2 | 14:45 - 14:52\nAnd, you know, just kind of like trusting it to make good decisions and actually build solutions for me, which is really what I want.\n\nSpeaker 1 | 14:52 - 14:56\nSo can you show us some of your some of your Codex workflows?\n\nSpeaker 2 | 14:56 - 15:26\nYes. Okay. Let's see. We'll start with let me share my screen here. We'll start in Codex with I mean, we're talking about learning so I have to show you my my guiltiest pleasure, which is, you know, the my favorite skill I've ever built, it was originally a prompt, you know, maybe six months ago, and it codifies the way that I like to learn things, which is, you know, what is the history of these this particular topic?\n\nSpeaker 2 | 15:26 - 15:46\nWhat are the first principles that guide sort of like the physics of this topic? And then how did we get to where we are today? And sort of like, what are the variables in the marketplace around this topic? And you know, that is how I spend my weekends is like reading these guides. And sometimes I don't have, know, twelve hours on a Saturday to just kind of read through these guides.\n\nSpeaker 2 | 15:46 - 16:18\nAnd so instead, I make little cartoons that just summarize what I'm seeing and what I'm learning. So this started out, if you can see my screen here, this started out by actually a prompt that Nitesh, one of the engineers on our team built based on Claudie, who we all know works on the consulting team, the agent on the consulting team. And Claudie basically kind of like can teach principles and and kind of like anything coming from this learning So\n\nSpeaker 1 | 16:18 - 16:25\ngo back up to the top. Yeah. So tell me, like, what what were you trying to learn and how did this this get made?\n\nSpeaker 2 | 16:25 - 17:21\nSo in this case, you know, one of the things that I well, one of the sad things maybe that has happened over the past six months is that as I've spent more and more twelve hour periods in front of my computer, I have prioritized my physical health less and so I'm trying to learn about basically like what I need to know to improve physical education is what I'm looking for. And what I need to know in order to make more strategic sort of like workout decisions. And so I asked Claudia to make a guide to explain again like what is the history of like physical education like how did we find ourselves situation where we have to do specific types of like, you know, mobility and workouts? And like basically like what do I need to know to make good decisions around how to spend my time, you know, on this particular topic? So, Claudia, know, here explains, you know, how we got to where we are, know, basically like work workouts as a topic, as an idea emerged about two hundred years ago.\n\nSpeaker 2 | 17:21 - 17:22\nReally? Yeah.\n\nSpeaker 1 | 17:22 - 17:25\nThat's actually earlier than I would have expected.\n\nSpeaker 2 | 17:25 - 17:25\nEarlier?\n\nSpeaker 1 | 17:25 - 17:30\nYeah. Because I figured, you know, even like a hundred years ago, we were still doing a lot of physical labor.\n\nSpeaker 2 | 17:31 - 17:49\nI think you're right. Yeah, you're right. I mean, it really became a thing during the Industrial Revolution, of course, as people were spending more time in factories. And so, you know, with my learning skill, I could read all about that. But with the, you know, this is a Codex OpenAI thing with the visual models that Codex has which are so powerful and just so, so good.\n\nSpeaker 2 | 17:49 - 18:37\nWe could just make it a cartoon and you know, this is something that I could scroll through on the subway or on a walk or having coffee it's What did you learn? And so it takes these really complex concepts. I mean, one of the things that I learned that was really interesting was basically, you know, anatomy, which I did not learn a ton of in school and was really helpful to learn about. And actually one of the most interesting things that I really enjoyed from this particular zine, or kind of like set of cartoons was learning about the time scales with which different sort of parts of your anatomy get strong so muscles get strong faster than ligaments get strong faster than you know bones of course. And so like thinking about progression in, in, in sort of like physical strength as something that's happening across your body from from your bones to your brain.\n\nSpeaker 2 | 18:37 - 18:38\nYeah, there you go.\n\nSpeaker 1 | 18:38 - 18:38\nYeah.\n\nSpeaker 2 | 18:38 - 18:45\nSo this is this is one like very fun example, something that I will just kind of like do on on the go.\n\nSpeaker 1 | 18:45 - 19:12\nYou already know how AI is changing how everyday work gets done, how much ground you can cover, and how fast a team can scale. To stay ahead, you need tools that give you a competitive advantage built for this new era. Adio is the CRM for the agent native world. It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale. With agents and automations for every job, Adio orchestrates your work around the clock.\n\nSpeaker 1 | 19:12 - 19:30\nWe use it internally at every, and we love it. It's built to handle the scale of your workloads. It's extensible with an API and MCP access, and is built with infrastructure to keep up with your most ambitious agents. It's loved by high growth startups like Granola, Modal, WhisperFlow, and Every. Adio runs the work behind every win.\n\nSpeaker 1 | 19:30 - 19:40\nThat's Adio, the agentic CRM. Go to adio.com/every and get 15% off your first year. That's adio.com/every. And now back to the episode.\n\nSpeaker 2 | 19:40 - 19:44\nDiving into codecs, I, you know, I will share First\n\nSpeaker 1 | 19:44 - 19:47\nof how do you how do you organize your codex?\n\nSpeaker 2 | 19:47 - 19:47\nOkay.\n\nSpeaker 1 | 19:47 - 19:51\nSo you have a bunch of different projects. What are the so you don't use pinned? Or do you you do use pinned?\n\nSpeaker 2 | 19:51 - 20:07\nI I only use pinned for my email triage, which is the app that you so generously gifted me this year. And and and so the email triage is the only thing that I really pin everything else. I just kind of like work in. Okay. You're you're a Codex pin\n\nSpeaker 1 | 20:08 - 20:26\nI'm a big pin guy because I I find that I lose stuff otherwise. Like, I don't have a project for everything, and so it it just, like, it is just all the work I'm doing is just all pinned. But this is interesting. So you have a project for every sales strategy, your dad, NZQ epistemology. Incredible.\n\nSpeaker 1 | 20:26 - 20:31\nTell tell tell me more. I\n\nSpeaker 2 | 20:32 - 20:48\nI these are my learning class. I don't know what to tell you. Really, suddenly really excited about, you know, how Aristotle like, you know, came up with So logistic systems and how we use them today, we definitely don't need to go into that.\n\nSpeaker 1 | 20:49 - 20:50\nIt's incredible, we actually need to.\n\nSpeaker 2 | 20:52 - 21:36\nI've been spending too much time around you. So no, I basically just, you know, store organized my codex as I organize sort of like my my projects so it does feel like it you know this, this is a thing that I think Codex does really well that you had to do some sort of like mental organization in Claude code which is you know in Claude code I spent a bunch of time really understanding file systems and would always have the Finder open to understand where things were being saved and what was really being created. In Codecs, that's all happening in a really visual way. And so I feel like there's just a little bit less of a mental load that I have to take. But I just basically work in whatever project I am prioritizing that day.\n\nSpeaker 1 | 21:36 - 21:57\nOkay. Got it. And show us email triage because I've done a video on email triage the way that I use inbox sweep or now we're calling it tend. And this looks like you're you're still using the original, but I think you've made some some of your own custom modifications, which is another thing that I love. Like, I built an open source app that lets you turn your emails into cards and will blur anything out that you don't want people to see.\n\nSpeaker 1 | 21:58 - 22:09\nBut this looks different from the app that I made. So so tell me about tell me about how you use it, how you do your email now, how it has changed things for you, and then what what modifications you made.\n\nSpeaker 2 | 22:09 - 22:31\nYeah. So when in v one of oh, thank you. In v one of the app that you shared with me, you know, it was obviously very custom to you and it had kind of like these buttons in order to archive or send emails. There's a few things that I need to do in my inbox. I'm either delegating something, I am tracking it in Asana.\n\nSpeaker 2 | 22:32 - 23:18\nAnd then we work with clients that have hundreds of employees and we need to track what is going on across the different teams that we're working to support. And so there's a lot of sort of, there's a big mental load when I'm triaging my inbox. And I basically created kind of like a second brain in my updated version of the inbox because my email can do, my email app can do a few things. So we can maybe we'll blur out any of this that we shouldn't be here. But as an example, my inbox was trained on sort of like this like ghost writer that I built, you know, think about a year ago was like one of the first sort of skills or prompts that I that I built for myself.\n\nSpeaker 2 | 23:18 - 23:44\nSo it's trained on you know 150 emails that I the most recent 150 emails that I've sent, and it understands all the different contexts in which I need to communicate. And so now it is overlaid on my inbox, it has all of the context of the work that I'm doing across all of prospective clients, existing clients. It drafts a note in my voice. And there's a few things that I can do. One is I can approve to send it so I could just click that button and it'll get sent.\n\nSpeaker 2 | 23:45 - 24:03\nWe'd ask to rewrite it. This is one of the great original buttons that you had in your app. We could just archive it if we don't want to reply to it. We could archive it, maybe this is something that I don't need to reply to, but it needs to go into kind of like its own markdown file. So every client that I work with has its own markdown file.\n\nSpeaker 2 | 24:03 - 24:26\nAnd basically at this point, my email knows what's going on more than I do. So whatever it's drafting, it's probably slightly more accurate than what I would have come up with. So sometimes again, I don't need to reply, someone else might reply, but I do want that context to go into the markdown file. If I click the task button, it'll become an Asana task as well. I can click a few of these things.\n\nSpeaker 2 | 24:26 - 24:45\nIt can kind of just go into spam. And then, you know, this is kind of like a save action here. So this is the kind of thing that's just so insane because you can build an app for yourself on the go, right? Like I was realizing I need to triage my inbox and send stuff to different places.\n\nSpeaker 1 | 24:45 - 24:45\nYeah.\n\nSpeaker 2 | 24:45 - 24:51\nAnd I could just ask Codex to build a button that made that integration and then keep using it on the go.\n\nSpeaker 1 | 24:51 - 25:01\nI remember we were sitting in the office on like a Sunday and you were like making this extremely complex flowchart. Do you have that? Can you show the flowchart? Because that was a moment where I was like, holy shit. She gets it.\n\nSpeaker 1 | 25:04 - 25:06\nBring up the flowchart. We wanna see it.\n\nSpeaker 2 | 25:07 - 25:14\nLet me let me see if I can pull up the flowchart. So, you know, what you're seeing here at a high level is\n\nSpeaker 1 | 25:14 - 25:15\nCan we\n\nSpeaker 2 | 25:15 - 25:27\ngive it a little more? Yeah, sure. Go for it. A high level, you know, this is sort of a just like a sales pipeline management flowchart. And so this is the kind of thing that Ateo just does really well, right?\n\nSpeaker 2 | 25:27 - 25:33\nYou kind of like import the logic and then it could help you, you know, manage your pipeline at scale.\n\nSpeaker 1 | 25:33 - 25:35\nOh, is this for your email or is it for Ateo?\n\nSpeaker 2 | 25:36 - 26:02\nSo this is for Ateo but this is the same logic that I need to use when I am triaging my email. So actually it goes to both places. And so when, you know, when we get an inbound and it comes to my email, depending on, you know, whether it is a fit for the work that we do, there are different kinds of emails that need to be sent. And then obviously that advances as the conversation evolves. So this is basically the logic that enables me to do this.\n\nSpeaker 2 | 26:02 - 26:03\nAnd it's the same logic that enables Codex\n\nSpeaker 1 | 26:03 - 26:06\nto And did you like you made this and then how do you feed it into Codex?\n\nSpeaker 2 | 26:07 - 26:10\nI PDF ed it and shared it with Codecs.\n\nSpeaker 1 | 26:10 - 26:25\nSo, like okay. One one thing that's really interesting about this is what's really hot right now is loops. And everyone's saying loops, but no one knows what loops are. This is an example of a loop. And the way to think about loops is I've been using this metaphor a lot.\n\nSpeaker 1 | 26:27 - 26:53\nPreviously, knowledge work, whether it was code or, you know, writing or email or whatever, it was sort of it was very similar to sculpting where when you're sculpting, every single thing that happens on the sculpture is something that you did with your hands. I think that knowledge work now is turning into something like gardening, where when you're gardening, you're creating the conditions for the growth to happen, but you're not, like, making the plant with your hands.\n\nSpeaker 2 | 26:53 - 26:54\nYeah.\n\nSpeaker 1 | 26:54 - 27:26\nAnd that's what a loop is, is instead of doing any individual email, you are doing you're building the system that does your emails for you, and you're intervening at different parts of the process. Like, one of things we talk about a lot is the human sandwich at the beginning and at the end to, you know, to say, this is this is maybe worth my time, and then I'm refining the draft or something like that. And you're and you're trying to compound it. So you you you create a flowchart. You do your email with with that flowchart that that that represents a loop.\n\nSpeaker 1 | 27:26 - 27:32\nAnd then every time you're done, you can, like, compound learnings back into the system so that it gets better over time.\n\nSpeaker 2 | 27:31 - 27:32\nRight.\n\nSpeaker 1 | 27:32 - 27:32\nYeah.\n\nSpeaker 2 | 27:32 - 27:58\nI mean I think this really is just an evolution of the model manager analogy that you shared you know what four years ago, which is you know we are going from using these systems effectively as individual contributors right where we are asking them to do like this one thing really well or a small set of things really well to create a system which is something that a good manager does when they have a big team that they need to help operate.\n\nSpeaker 1 | 27:58 - 28:07\nCouldn't be me. Could not be me. But I'm glad that you're able to do that.\n\nSpeaker 2 | 28:10 - 28:18\nBut it's the same thing right it's like you need to create the conditions to help people succeed. And similarly, you need to create that shared context for AI.\n\nSpeaker 1 | 28:19 - 28:23\nOkay. So is there are there more things on your email have to show us?\n\nSpeaker 2 | 28:23 - 28:28\nI think that would be it on the email app. There's a bunch of other things that I'm doing in Codex that I can share.\n\nSpeaker 1 | 28:28 - 28:44\nShow us some more show us some more stuff because, again, like there's just just the email itself, I think is life changing. Like, it's been life changing for you, you get a lot of emails, I get a lot of emails, I think we're both getting through our emails way faster than we ever have before. Yeah, which is crazy. So what else?\n\nSpeaker 2 | 28:44 - 29:36\nWhat else? So I can also share, know, maybe on the personal side, I could share a little bit of my so maybe I'll anecdotally I can share my best loop that I've ever run is when we were setting up Atio. I basically had this moment where we're working with this really fantastic team who is helping us sort of like organize the logic of the CRM. And you know, they asked me to enrich the information based on like some context of what had happened on the calls and what had happened in the emails. And my favorite loop that I've run so far on Codex is I just gave Codex a goal which was to set up my CRM, you know, to accurately reflect what had happened in my conversations and in my inbox for each one of the hundreds of conversations, know, clients and prospective clients that we've had.\n\nSpeaker 2 | 29:36 - 30:18\nAnd, you know, I gave it a more of a robust you know kind of prompt and direction in order to do that. And, know, I think like six hours later, I went to sleep and six hours later, it was complete, I woke up to effectively a CRM that was fully set up and had done, I think what would have been like weeks of work that otherwise I would have had to do. That was actually only possible because of the fake jam, you know, because of this logic, it could make good decisions make good calls with the shared context that you know we had we had created, and it's just one of those like moments of joy and delight with AI where I wake up and my quality of life has improved as a result of this loop.\n\nSpeaker 1 | 30:18 - 30:52\nGuess before we move on from this, you do a lot of consulting. We do a lot of consulting with executives at big companies, at tech companies, at hedge funds, at PE firms. We do a lot of training training of those people, training of their teams, all that kind of stuff, trying to trying to help organizations like to get get more AI pulled like this and to do work like this. So what is the takeaway for someone like that who's listening about a workflow like this and how they should think about whether and how to start incorporating some of this into their work workday?\n\nSpeaker 2 | 30:53 - 31:34\nI think my first tip would be to start with the systems that you have already. So if you are already managing a big team, and you have, you know, KPIs and shared goals and OKRs that you're tracking, the same architecture or system that you're using to guide your team give to AI provide to AI if that is something your company allows. And then think about what are the tasks that you want your people to focus on and to do right. So at the end of the day, only I can get on calls and have productive conversations with our clients. Mike Taylor on my team did recently tell me he cloned me.\n\nSpeaker 2 | 31:38 - 31:41\nRemember me as the original version of the talk.\n\nSpeaker 1 | 31:42 - 31:45\nHow do we know that you're not already a clone? Like I just I don't actually know.\n\nSpeaker 2 | 31:45 - 32:14\nWe'll never know. I might be a hallucination. So yeah, you know, start with that shared sort of context, that shared infrastructure. Think about what are the things that you want only your people to do and then start with small tasks. I think the single biggest mistake that, you know, I often still ambitiously make and also see our clients make is you want to just remake the whole thing, you want to be AI pilled, be AI forward, just be an AI first organization.\n\nSpeaker 2 | 32:14 - 32:41\nAnd so often that just means you need to standardize and write down how you do a single thing really well. And if you do that and you do the next you know task and define what that looks like and when it's done really well. You can end up with these more complex systems that can do sophisticated work for you. But the work at its baseline, it's it's not particularly sexy. It's, you know, just you having to, like, read a markdown file or, like, a very simple set of instructions and starting there.\n\nSpeaker 1 | 32:41 - 33:08\nAnd so what was I gonna say? So if if you're one of those people and and you wanna try something like this workflow, by the time this video is out, by the time this podcast is out, we will have an open source version of Tend, the email sweep app that that Natalia just showed. We'll put a link in the description. You can just throw it into Codex. Or honestly, you could throw this video into Codex and Codex will just watch it and then just make something that works like it but for you.\n\nSpeaker 1 | 33:08 - 33:14\nBut let's keep going. I wanna I wanna do some more I know you have some some, like, personal projects and other things that you wanted to share.\n\nSpeaker 2 | 33:14 - 33:46\nSure. I will share, you know, on I'm personally fascinated by the role that AI will have on how we run our lives. You know, I think you know, I don't know if this is your experience but certainly my experience is that there's just so much that needs to get done. And so many of those things are administrative tasks that I just can't find you know kind of like time in the day to do. And so one of the most recent things that I asked Codex to do and so I gave it a goal to basically create an app that triages my dad's care.\n\nSpeaker 2 | 33:46 - 34:27\nMy dad works with, he's 81, he's the best, he works with multiple nurses who support his care. And there's just a lot of health things that need to be triaged, right? Medical appointments, follow ups from recent procedures, WhatsApp threads for me, you know, with the nurses, with my family. And so what Codex helped me do was basically create a kind of like an operating system for how as a family we could triage my dad's care. I had this long, this is a thirteen hour project that Codex worked on to basically like help go from like a prototype to creating a full app that could help us with my dad's care.\n\nSpeaker 2 | 34:27 - 34:59\nAnd I'll pull up the site here. It's now a live Apple. Alright, so what we're seeing here is, you know, now the portal that my family shares for tracking, you know, what is going on with kind of like my dad's latest and greatest in his health. And so you know we get Google Form reports from the multiple nurses that support him. And then we also have a WhatsApp thread of like you know many sort of like casual updates of how an appointment went or how his dosage on a certain medicine is going.\n\nSpeaker 2 | 34:59 - 35:36\nAnd so what I have here is just a top line like here's the latest. I'm Colombian so usually this is happening in Spanish but sometimes if it's the middle of the day and I need to know what's going on, I will just toggle it and it'll just give it to me in English so that I can digest it a little bit faster. But really what we have is just like this one central place where instead of having to dig through all of these different threads and sources of information Codex has just made it really easily easy to digest all of that information in a single place and to allow us to support my dad and what we can do best, which is to be present and loving as his family.\n\nSpeaker 1 | 35:36 - 35:41\nAnd your other family members are also accessing this? Are they also accessing it with Codex? Or how does that work?\n\nSpeaker 2 | 35:41 - 36:15\nNo, so this is just a this is a password protected website that we we use and share. The nurses have a version of it so that they can also see what the other nurses have been working on. So there's kind of continuity in care. And you'll love this, Dan. There is a tracker for the different things that each one of us is responsible for and should be following up on, right, which are things that you know, we all have personal busy lives that we need to do and, you know, based on what's going on in our conversations, these things will get either highlighted as things that have not been resolved, or they will just be completed and kind of grayed out.\n\nSpeaker 2 | 36:15 - 36:17\nSo this has been\n\nSpeaker 1 | 36:17 - 36:27\nWhat do the nurses think? Are they just like, what the fuck is this? This is the most organized family I've ever run into? Like, what what are they thinking? Do they like it?\n\nSpeaker 2 | 36:28 - 36:43\nYou know, it's funny, like I think like a really good tool is not about the tool I think the nurses just feel like we are more proactive in showing up around the topics that they need help with. Right. So I I think for them, it's just we've just been better partners to them.\n\nSpeaker 1 | 36:43 - 37:15\nI love it. It's just one of those things where this is so obviously useful and good for you and your family and for people, and I think that gets missed so often when we talk about AI is great at coding and stuff like that. And it's like, actually, yeah, it is. And you can use it to do stuff like this. And people don't realize they they don't realize that they can do that and how available it is and how applicable it is to, like, all of the tasks and all of the stuff that we have to do, whether it's caring for a family member or anything else in our lives, that it sort of takes takes a little bit off your plate.\n\nSpeaker 2 | 37:15 - 37:39\nYeah, definitely. I mean, I think I'm just so bullish on women using AI and all of the administrative tasks that will suddenly kind of like be taken care of because now we have this sort of like super alien tool that can support on those things. I know Claire has talked about that, Claire Vaux, who we love, and The Cut recently ran a, you know, a big piece on, you know, how moms are using agents to do something similar. So really excited about that space.\n\nSpeaker 1 | 37:39 - 38:10\nSo I I know, like, one of the one of the other things that's that's happening for you is not only you're you're building these apps, but you're building artifacts that help you we talked about this a little bit, art of like, that help you learn stuff, for example, or just generally, like, navigate the world. I think people think of AI as being oh, yeah. I guess it can generate text documents, like slop text documents, but I think you're using it in a way that helps with rich information transfer that I think is really important. Can you show us some stuff?\n\nSpeaker 2 | 38:10 - 38:43\nYeah, sure. So maybe one example of that, I love Claude artifacts, they're just so cool and powerful. One example of that recently is from a trip that I took my mom on to New Orleans. So of course, the thing that I was most excited to learn about was the pump system that New Orleans uses, which is just incredible engineering. And the kind of thing that I just, I don't have time to, you know, do a deep research sort of into.\n\nSpeaker 2 | 38:43 - 39:21\nAnd so what I did going into this, it was jazz fest when we were going over the weekend. And so I created, you know, basically these artifacts on the go as I would come across things that I was interested in seeing or learning about and, you know, would basically kind of give us guides in Spanish so that we could both share in you know, what was interesting to us as we were walking around the city. It would also, actually it was French Quarter Fest, not Jazz Fest. The Jazz Fest was the week after. What it would do is, you know, it basically, I asked it to read through my Spotify playlists to get a sense of what kind of music I liked.\n\nSpeaker 2 | 39:21 - 39:24\nAnd then to look at the lineup that we had for French Oh, my\n\nSpeaker 1 | 39:25 - 39:26\ngod. That's so cool.\n\nSpeaker 2 | 39:26 - 39:35\nAnd then to basically just like select which bands it thought we were most likely to want to see. So I\n\nSpeaker 1 | 39:35 - 39:35\nwould do.\n\nSpeaker 2 | 39:35 - 39:57\nIt was amazing. It was great, you know, it's just like, know, the Timba and the Salsa, you know, bands were the ones that were highlighted. And so we could really use our time optimally so that we could kind of go and explore New Orleans. And then when we were showing up for French Quarter Fest, we could kind of go and see the bands that would most resonate with us, Love it. Which just feels like a really a really fun use of of AI.\n\nSpeaker 1 | 39:57 - 40:19\nIncredible. I love getting to talk to you. I always learn something when we chat. And if you want this kind of thinking inside of your organization, Natalia runs our consulting. So if you if you wanna get this out into your executive team, into your product teams, into your engineering teams, reach out every.to/consulting.\n\nSpeaker 1 | 40:19 - 40:22\nAnd Natalia, we'll have to do this again in a couple months.\n\nSpeaker 2 | 40:22 - 40:24\nYeah. We will. Alright. Thanks for having me, Dan.\n\nSpeaker 1 | 40:24 - 40:24\nThank you.\n\nSpeaker 3 | 40:32 - 40:49\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.\n\nSpeaker 3 | 40:49 - 41:09\nEvery episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.\n\nSpeaker 3 | 41:09 - 41:14\nAnd now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2072562702703046855",
+            "text": "for what it's worth, i only invite double-length track keynotes when I'm very sure that both speaker and content deserve it. Today, @chrmanning and @abshkbh did double duty at AIE and by all accounts* people loved the opportunity to go deeper on sandboxing and world models. Look at this insane room - and the online audience is going to be >1000x this!!\n\n*i unfortunately have to do show duties so rely on secondhand accounts",
+            "createdAt": "2026-07-02T06:07:09.000Z",
+            "url": "https://x.com/swyx/status/2072562702703046855",
+            "likes": 30,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "1930131675633033241"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2072410623380468190",
+            "text": "It's happening https://t.co/PtS0ZoYL09",
+            "createdAt": "2026-07-01T20:02:50.000Z",
+            "url": "https://x.com/thsottiaux/status/2072410623380468190",
+            "likes": 1471,
+            "retweets": 35,
+            "replies": 176,
+            "isQuote": true,
+            "quotedTweetId": "2072406923660648757"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2072525669704384612",
+            "text": "As someone still trying to learn how to read code this is great! Installing the explain-diff skill asap https://t.co/lChjp2D7kS",
+            "createdAt": "2026-07-02T03:39:59.000Z",
+            "url": "https://x.com/petergyang/status/2072525669704384612",
+            "likes": 59,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2072522251300409556"
+          },
+          {
+            "id": "2072470191511113732",
+            "text": "Here's my Fable 5 vibe check:\n\nIt's still really ****ing good. \n\nThis is a step function above any other model. Hope GPT 5.6 can match. https://t.co/p9N7cG86QW",
+            "createdAt": "2026-07-01T23:59:32.000Z",
+            "url": "https://x.com/petergyang/status/2072470191511113732",
+            "likes": 36,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2072458983886205333"
+          },
+          {
+            "id": "2072458983886205333",
+            "text": "Claude Fable 5 is finally back, but you only have until July 7 to use it on your Claude subscription.\n\nI made a new tutorial walking through 5 use cases worth trying Fable on:\n\n→ Find Fable-worthy work\n→ Get life and business advice\n→ Make projects ship-ready\n→ Plan the next big thing\n→ Refactor your project or codebase\n\nAs usual, it’s no BS, and I show you Fable’s actual output.\n\n📌 Watch now: https://t.co/XElMEV3FwK",
+            "createdAt": "2026-07-01T23:15:00.000Z",
+            "url": "https://x.com/petergyang/status/2072458983886205333",
+            "likes": 75,
+            "retweets": 4,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2072366310416425053",
+            "text": "HTML mentioned https://t.co/lWYyfXjmWS",
+            "createdAt": "2026-07-01T17:06:45.000Z",
+            "url": "https://x.com/trq212/status/2072366310416425053",
+            "likes": 1497,
+            "retweets": 34,
+            "replies": 81,
+            "isQuote": true,
+            "quotedTweetId": "2072354853821755822"
+          },
+          {
+            "id": "2072360902964511171",
+            "text": "hello from AI engineer! https://t.co/J8sFn5pbyC",
+            "createdAt": "2026-07-01T16:45:16.000Z",
+            "url": "https://x.com/trq212/status/2072360902964511171",
+            "likes": 1705,
+            "retweets": 12,
+            "replies": 93,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "bio": "Google’s home for our latest AI tools and experiments.",
+        "tweets": [
+          {
+            "id": "2072417166952136789",
+            "text": "Every good chord progression needs a resolution. 🎹\n\nTo focus on building @GoogleFlowMusic - our tool for creating, sharing, and remixing original music - we will be saying a fond farewell to MusicFX and MusicFX DJ on July 31, 2026.\n\nThese early experiments pushed the boundaries of AI for real-time music creation, and we're taking everything we learned from them to provide a long-term home for musical projects.\n\nKeep jamming at https://t.co/3XMUc2pkzU 🎵",
+            "createdAt": "2026-07-01T20:28:50.000Z",
+            "url": "https://x.com/GoogleLabs/status/2072417166952136789",
+            "likes": 191,
+            "retweets": 16,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2072385092824260748",
+            "text": "Now that building is easy, we’ve been increasingly focused on getting entrepreneurs to market, helping them reach their first customer and first dollar.\n\nWhop is one of the best places on the internet to monetize your creations — and now you can sell your Replit apps on there. https://t.co/lEGZGn51Wg",
+            "createdAt": "2026-07-01T18:21:23.000Z",
+            "url": "https://x.com/amasad/status/2072385092824260748",
+            "likes": 498,
+            "retweets": 32,
+            "replies": 27,
+            "isQuote": true,
+            "quotedTweetId": "2072334668804796923"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2072463961597878762",
+            "text": "I really enjoyed using 𝚙𝚘𝚛𝚝𝚕𝚎𝚜𝚜 by @ctatedev – http was a non-starter for local wp development!",
+            "createdAt": "2026-07-01T23:34:47.000Z",
+            "url": "https://x.com/rauchg/status/2072463961597878762",
+            "likes": 19,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072463293654942090",
+            "text": "WordPress on @vercel Fluid with Active CPU from a single 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎.𝚟𝚎𝚛𝚌𝚎𝚕. MySQL on @planetscale. 30s deployments incl. \"𝚍𝚘𝚌𝚔𝚎𝚛 𝚋𝚞𝚒𝚕𝚍\" in the cloud. Just one command: 𝚗̶𝚘̶𝚠̶ 𝚟𝚎𝚛𝚌𝚎𝚕. https://t.co/q1X5ZOFVIx",
+            "createdAt": "2026-07-01T23:32:08.000Z",
+            "url": "https://x.com/rauchg/status/2072463293654942090",
+            "likes": 379,
+            "retweets": 22,
+            "replies": 43,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072398926175404250",
+            "text": "Agents love to check their work before they push. \n\nYou probably see it in the form of 𝚗𝚘𝚍𝚎 --𝚌𝚑𝚎𝚌𝚔, 𝚝𝚜𝚌 --𝚗𝚘𝙴𝚖𝚒𝚝, 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍, etc all over your agent sessions.\n\nWe’re now shipping the dry-run step for agentic deployments, minimizing costs and risk. https://t.co/HpOXSROT3X",
+            "createdAt": "2026-07-01T19:16:21.000Z",
+            "url": "https://x.com/rauchg/status/2072398926175404250",
+            "likes": 240,
+            "retweets": 4,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2072396789333024857"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "bio": "Research @AnthropicAI. Opinions are my own!",
+        "tweets": [
+          {
+            "id": "2072404717490360727",
+            "text": "Welcome back to the world Fable!! https://t.co/krcdkuYId8",
+            "createdAt": "2026-07-01T19:39:22.000Z",
+            "url": "https://x.com/alexalbert__/status/2072404717490360727",
+            "likes": 508,
+            "retweets": 9,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2072402636813607381"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2072519377371459836",
+            "text": "If you’ve ever wondered why we will need 100X more AI inference in the future, and  what it’s going to be driven by, this is another good example. \n\nDevin pushes forward an idea of agentic mapreduce, which means we’ll now have swarms of agents that are processing large amounts of data (code) to handle tasks that humans never could have done before.\n\n“Devin maps relevant signals across the repo, fans out focused agents over bounded shards, reduces their findings into one report, then verifies serious vulnerabilities in isolated sandboxes before marking them confirmed.”\n\nIn this case it’s code security, but there are tons of other use-cases in code and knowledge work. We see this at Box with customers that want to process and understand millions of documents for risk, insights, relationships, and more. This will play out in pharma, banking, and many other industries across all forms of unstructured data.\n\nAs an aside, these types of capabilities are generally only possible when you can deploy a variety of models (both the frontier and lower cost) because of the sheer amount of tokens that go into these use-cases. This is going to be a major value proposition for the applied AI layer.",
+            "createdAt": "2026-07-02T03:14:59.000Z",
+            "url": "https://x.com/levie/status/2072519377371459836",
+            "likes": 149,
+            "retweets": 15,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2072368168182432109"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2072461457195950446",
+            "text": "https://t.co/gTrjV7mcxf https://t.co/7r4wY0VvO0",
+            "createdAt": "2026-07-01T23:24:50.000Z",
+            "url": "https://x.com/garrytan/status/2072461457195950446",
+            "likes": 1243,
+            "retweets": 72,
+            "replies": 48,
+            "isQuote": true,
+            "quotedTweetId": "2072391685401645482"
+          },
+          {
+            "id": "2072402517397573717",
+            "text": "Most underreported story in all of tech https://t.co/IfhGLmHwuL",
+            "createdAt": "2026-07-01T19:30:38.000Z",
+            "url": "https://x.com/garrytan/status/2072402517397573717",
+            "likes": 1637,
+            "retweets": 250,
+            "replies": 60,
+            "isQuote": true,
+            "quotedTweetId": "2072391681987563870"
+          },
+          {
+            "id": "2072331451270606933",
+            "text": "Mega get, head of UC Berkeley EECS omg\n\nAnthropic is on a tear https://t.co/6lTQhG7BIo",
+            "createdAt": "2026-07-01T14:48:14.000Z",
+            "url": "https://x.com/garrytan/status/2072331451270606933",
+            "likes": 2428,
+            "retweets": 75,
+            "replies": 50,
+            "isQuote": true,
+            "quotedTweetId": "2072322757908664728"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2072462125474181623",
+            "text": "The year is 2026 and the hot IPO brands right now are AOL, Evernote, Vimeo and Lime scooters",
+            "createdAt": "2026-07-01T23:27:29.000Z",
+            "url": "https://x.com/mattturck/status/2072462125474181623",
+            "likes": 24,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072419592354529712",
+            "text": "Fascinated by Lime going public - in an age where AI gets all the attention, how does a scooter company with $1B in debt pull off a successful IPO literally after expressing \"substantial doubt\" that they might not even survive the year?\n\n* Impressive financial engineering - the IPO paid off the toxic loans and converted the rest to equity, so the slate is clean\n\n* Uber owns 22% of Lime and refers riders directly to Lime, so obviously a great backstop and partner\n\n* They've actually been FCF positive for 3 consecutive years with revenue growing nearly 30% YoY\n\n* Something about being the last man standing and surviging the micromobility bloodbath (RIP Bird).  Never give up!",
+            "createdAt": "2026-07-01T20:38:29.000Z",
+            "url": "https://x.com/mattturck/status/2072419592354529712",
+            "likes": 58,
+            "retweets": 2,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2072391971721884073",
+            "text": "PSA: You can change Codex's model to GLM https://t.co/G3RQfWiS4j https://t.co/BeGZABjgTQ",
+            "createdAt": "2026-07-01T18:48:43.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072391971721884073",
+            "likes": 128,
+            "retweets": 6,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2067181377028538431"
+          },
+          {
+            "id": "2072384777785888875",
+            "text": "Full video on YouTube: https://t.co/FVBCFHXAqK",
+            "createdAt": "2026-07-01T18:20:08.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072384777785888875",
+            "likes": 5,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072381929366987087",
+            "text": "HOW TO BUILD A SKILL\nYou don't START with a skill. You END with a skill.\nBuilding the skill is the last step of your workflow, not the first step https://t.co/ngvvnml9uQ https://t.co/dqohk7MJwT",
+            "createdAt": "2026-07-01T18:08:49.000Z",
+            "url": "https://x.com/zarazhangrui/status/2072381929366987087",
+            "likes": 152,
+            "retweets": 10,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2069311440692072481"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2072522778327371819",
+            "text": "Murica 🇺🇸⚽️ https://t.co/BWsqCu22Dw",
+            "createdAt": "2026-07-02T03:28:30.000Z",
+            "url": "https://x.com/nikunj/status/2072522778327371819",
+            "likes": 32,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072406317617262753",
+            "text": "Fable is back https://t.co/ceX26h5PcT",
+            "createdAt": "2026-07-01T19:45:44.000Z",
+            "url": "https://x.com/nikunj/status/2072406317617262753",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072344802570756121",
+            "text": "The talent vortex of @OpenAI and @AnthropicAI is only getting crazier.. in the last 2 months, four personal friends have left VERY established roles to join the labs. \n\nThe dual draw of building one of the most consequential companies plus it being pre-IPO and getting liquidity is just too hard to pass up. \n\nThis means having strong conviction and MASSIVE ambition if you choose to do it on your own.\n\nMy only counter to Xavi’s position will be that most VCs actually won’t make a lot of money.. at least life changing money. Some of them have actually deflected to the labs knowing this. Like any role the best ones will thrive and survive!",
+            "createdAt": "2026-07-01T15:41:17.000Z",
+            "url": "https://x.com/nikunj/status/2072344802570756121",
+            "likes": 139,
+            "retweets": 1,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2072013553591103637"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2072532278476148881",
+            "text": "Never thought I give @Steve_Yegge a shoutout. He was just early, like most visionaries. Now everyone is building factories.",
+            "createdAt": "2026-07-02T04:06:15.000Z",
+            "url": "https://x.com/steipete/status/2072532278476148881",
+            "likes": 292,
+            "retweets": 7,
+            "replies": 24,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072475858435276840",
+            "text": "I’m looking for a semi-private hack space for a few days in SF for me and some of the OpenClaw maintainers. We need to cook. DM leads my way 🙏🦞",
+            "createdAt": "2026-07-02T00:22:04.000Z",
+            "url": "https://x.com/steipete/status/2072475858435276840",
+            "likes": 513,
+            "retweets": 14,
+            "replies": 66,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072447453622882338",
+            "text": "How did I ever function without AI? \ncc chefcook @theo https://t.co/G0LJNvA3Kb",
+            "createdAt": "2026-07-01T22:29:11.000Z",
+            "url": "https://x.com/steipete/status/2072447453622882338",
+            "likes": 381,
+            "retweets": 3,
+            "replies": 29,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2072436587665797518",
+            "text": "IVE BEEN MEANING TO DO THIS\n\nSO COOL https://t.co/eFxAG4GdYi",
+            "createdAt": "2026-07-01T21:46:01.000Z",
+            "url": "https://x.com/danshipper/status/2072436587665797518",
+            "likes": 292,
+            "retweets": 4,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2072351019913171442"
+          },
+          {
+            "id": "2072402843819212906",
+            "text": "LET'S RIP FABLE TOKENS FROM THE JACUZZI https://t.co/denvBof2Yp",
+            "createdAt": "2026-07-01T19:31:56.000Z",
+            "url": "https://x.com/danshipper/status/2072402843819212906",
+            "likes": 26,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072402230041272669",
+            "text": "FABLE IS BACK!!! https://t.co/H7fsnFZQVV",
+            "createdAt": "2026-07-01T19:29:29.000Z",
+            "url": "https://x.com/danshipper/status/2072402230041272669",
+            "likes": 155,
+            "retweets": 4,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2072449611550380526",
+            "text": "Every once in a while, I meet a very very smart but default-pessimistic person in SF. They are often from the growthy/wall-street part of the world.\n\nAnd my first thought is: \"Why would you want to be in this city? We run on optimism. Are you here to be a contrarian in your sadness?\"",
+            "createdAt": "2026-07-01T22:37:46.000Z",
+            "url": "https://x.com/adityaag/status/2072449611550380526",
+            "likes": 264,
+            "retweets": 9,
+            "replies": 27,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2072402642836615273",
+            "text": "Read the Fable 5 blog post here: https://t.co/iQymY0jQvY",
+            "createdAt": "2026-07-01T19:31:08.000Z",
+            "url": "https://x.com/claudeai/status/2072402642836615273",
+            "likes": 715,
+            "retweets": 48,
+            "replies": 72,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072402640907162072",
+            "text": "If one of your requests is mistakenly flagged in Claude Code, run /feedback to file a report. On https://t.co/XSKiQaAUU9 and Cowork, you can share feedback through the thumbs buttons. \n\nThis feedback helps us further tune these classifiers and reduce false positives over time.",
+            "createdAt": "2026-07-01T19:31:07.000Z",
+            "url": "https://x.com/claudeai/status/2072402640907162072",
+            "likes": 717,
+            "retweets": 35,
+            "replies": 45,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2072402639644766602",
+            "text": "All paid plans with usage included can access Fable 5 through July 7. You can use Fable 5 up to 50% of your weekly usage limit, after which you can switch to another model for the remainder of your usage. You can also continue using Fable via usage credits.\n\nMore here: https://t.co/5reBCfXAqy",
+            "createdAt": "2026-07-01T19:31:07.000Z",
+            "url": "https://x.com/claudeai/status/2072402639644766602",
+            "likes": 1068,
+            "retweets": 66,
+            "replies": 175,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 17,
+      "totalTweets": 35,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-07-02T07:27:19.511Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
