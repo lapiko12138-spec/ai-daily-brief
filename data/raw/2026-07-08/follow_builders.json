@@ -1,0 +1,591 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-08T12:13:03.352353+08:00",
+  "events_count": 13,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 16,
+    "totalTweets": 34,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-07-07T07:28:28.695Z"
+  },
+  "digest_generated_at": "2026-07-08T04:13:03.298Z",
+  "skill_errors": [
+    "Podcast feed problem: Podcast: Transcript error for \"Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+  ],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-08T04:13:03.298Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "Building a School Where AI Models Learn About Humanity",
+        "guid": "6ae01ce4-60f3-48ba-9f63-c352a10dc8d2",
+        "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
+        "publishedAt": "2026-06-24T14:55:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:17\nWe are building this kind of school for AGI where AI models come to learn about humanity, where we teach them how to run the world. It almost seems like there's nothing that humans can do that AI won't soon be capable of. I could see it happening within ten to five years.\n\nSpeaker 2 | 00:17 - 00:50\nAI may be able to do it better than us, but, like, someone told the AI to go do that. They're being built to be means to tasks that humans want them to do. Right? Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to to separate out the signal from the noise.\n\nSpeaker 2 | 00:50 - 00:54\nGo to every. Tosubscribe today. Edwin, welcome to the show.\n\nSpeaker 1 | 00:54 - 00:56\nHey, Dan. Thanks for having me.\n\nSpeaker 2 | 00:56 - 01:30\nFor people who don't know, you are the founder and CEO of Surge. You all provide data environments and evals for the model companies, but you do it in this very interesting way. You have this, even on your website, emphasis on taste and expert judgment that I find really interesting and compelling. You talk about raising AGI, which I feel like is a very distinct type of word using data. And you also famously got to about 1,000,000,000 in revenue without raising without raising money, which is wild.\n\nSpeaker 2 | 01:30 - 01:48\nI feel like data is the this new game that a lot of companies are playing and probably more are going be playing soon. You guys are this sneaky giant. Tell me how that's going. I think it's been a little while since we got the last update on how things are going.\n\nSpeaker 1 | 01:48 - 02:30\nYeah, I think it's going amazing. The way I often think about this is that we are building this school for AGI, the school where AI models come to learn about humanity where we teach them how to run the world. And it's almost like their models are children, where they arrive unformed, and then yeah, they leave smarter and more creative and more thoughtful and ready to operate in the messiness of their world. So I think a lot has changed in the past year, like in the same way that the things that you teach children when they're in preschool or in middle school or in high school is very different from what you're teaching them when they're in college. And it's not just that they're more advanced.\n\nSpeaker 1 | 02:30 - 02:55\nLike it's not just that you're teaching them a more advanced form of what they did before. It's like, okay, now we are teaching you not just arithmetic, but how do you parse these ambiguous math questions? Or how do you teach people not just grammar, but taste and poetry and beauty? So, yeah, think there's a lot that's been changing in the past year, especially in enterprise. And yeah, it's been crazy time.\n\nSpeaker 2 | 02:55 - 03:04\nWhat would be like a specific example of what the frontier of teaching was a year ago versus what the frontier is now?\n\nSpeaker 1 | 03:05 - 03:35\nYes. So a couple years ago, actually, we created our first math benchmark with OpenAI, and it was called GSM eight ks. And this was actually just testing models on their abilities to do middle score math. And even then, the GBT models of the time, they could barely score, I think, like 20%. And then a year ago, the models were like something that became a lot more capable at solving IMO problems.\n\nSpeaker 1 | 03:35 - 04:03\nBut there was still just an open question. Okay, can they actually do research level mathematics? Like, can they move beyond these sort of like competition only, of contrived, very closed problems into doing things that are actually useful in the real world. And so, yeah, a couple of months ago, we released an updated benchmark called Riemann bench, which actually tests models under ability to do research level mathematics. And what's crazy is that this is actually we're starting to see from these models.\n\nSpeaker 1 | 04:03 - 04:45\nLike I think in the past few months, they've started to solve a lot of these open AirDish problems. Like a couple of weeks ago, OpenAI published a new result where the models had disproved a open conjecture from AirDish. And the way it went about disproving this was actually a fairly sophisticated level of mathematics, I think, like using a bunch of very novel algebraic geometry techniques. And so, yeah, it's just very, very different from the types of things that we were doing a year ago where, sure, IMO like problems, they're hard, but they're still sort of closed ended and solvable in theory by a high schooler. And now suddenly you have these algebraic geometry results that, you know, even does hop processors in the world, we're kind of amazed and just amazed by.\n\nSpeaker 2 | 04:46 - 05:10\nHow do you think about that result in particular and what it says about the models? I think there's a there's a sort of a broad range of opinions about is it is it obviously, it's impressive either way, but is it applying a bunch of things that that maybe humans already know but, like, wouldn't have thought to apply to this complicated problem? Or is it doing something actually novel? And and, yeah, how how do you think about LLM's ability to do novel things?\n\nSpeaker 1 | 05:11 - 05:37\nSo it's something of very advanced results. So I will say that I certainly don't understand the mathematics behind it. And so, like, one of the interesting things is that I was actually so it's kinda funny. When I when I was a kid, I always thought I would be a pure mathematician when I grew up. And so when I saw LagerDistalt, I got kinda nostalgic, I was like, oh, I I wish I understood I wish I understood LagerDistalt better.\n\nSpeaker 1 | 05:37 - 06:26\nAnd so what I ended up doing was, like, throwing the proof into both Claude and Gemini and asking it to try to walk me through, from a layman's perspective, just what was going on. Yeah, my understanding is that it actually did come up with fairly novel algebraic geometry techniques, which was something that you maybe wouldn't have expected for this type of problem. Like on the surface, it feels like It's just a very, very different problem where you wouldn't necessarily use certain techniques. And what was interesting was that OpenAI actually published a bunch of reflections from leading mathematicians about what they thought about the result. I think in particular, there was this one reflection by Timothy Gowers, who's a field analyst that I keep thinking about.\n\nSpeaker 1 | 06:27 - 07:02\nAnd what he said was that when he first heard result, he misunderstood it. He thought that the model had proved an upper bound on the conjecture and was like, okay, yeah, if AI can do that, then it'll be all over for mathematicians very soon. But then the next morning, he actually realized that the model had disproved the conjecture with a counterexample. And he said that he was relieved by it because it felt like an easier thing for AI to do. And I just thought it was interesting because you have one of the world's greatest mathematicians being relieved actually that AI isn't as far as he thought, because it actually means that at least for maybe another year, maybe a couple of years, he and other mathematicians will still have this unique role to play in pushing mathematics forward.\n\nSpeaker 1 | 07:03 - 07:12\nSo, yeah, I I think it just speaks to the level of craziness again, because this is a field smallest, one of the smartest mathematicians in the world, and, like, this this is how we think about AI.\n\nSpeaker 2 | 07:13 - 07:28\nYeah. And what does that make you think? Okay. You're you wanna be a you wanna be a mathematician when you grow up, field medalist sort of saying, I am relieved that it's not good enough, But you're talking as if you feel pretty confident that it will be good enough in the next couple of years.\n\nSpeaker 1 | 07:28 - 08:05\nYeah. So my belief is that if you really believe in scaling laws, and I do, it's that it almost seems like there's nothing that humans can do that AI won't soon be capable of. If you think about that very deeply, I think you almost have to worry about what would that mean for humanity? Like, what would that mean for the role of humanity in the universe? Like, a couple years ago, you know, we think about humanity and human intelligence as playing a very unique role in the galaxy.\n\nSpeaker 1 | 08:06 - 08:44\nThen AI comes along and shows us that as far as we know, we can create something that's actually smarter than us and better in many ways. You can imagine one path where humanity as a species falls into a paralysis because people believe AI will do everything better anyways. Like, yeah, all these kids who formerly would have really wanted to grow up to do mathematics, maybe now they believe that, okay, AI will just do it better than me anyways, what's the point? So are kids going to stop wanting to learn and adults stop wanting to create? Because yeah, why should we do this when AI will be better at it than us anyways?\n\nSpeaker 1 | 08:45 - 09:03\nAnd so I'll actually think about this story by Ted Chiang, and it's about free will. It's called What's Expected of Us. I think in this story, there's a piece of technology that proves that free will doesn't exist. And the narrator sends back a warning for the future that says, This is a warning. You have to pretend that you have free will.\n\nSpeaker 1 | 09:03 - 09:35\nIt's essential to behave as if your decisions matter, even though you know that they don't. And I think that's really interesting because I think there's a path where we almost have to consciously choose to do things ourselves. Sure, AI can do it all. AI is smarter than us, so it can do it all, and it will do it better anyways. But we actually almost have to consciously choose to prove things on our own and to write on our own and create on our own because we have to believe that preserving our humanity is valuable in of itself, even if the output isn't optimal.\n\nSpeaker 1 | 09:37 - 09:45\nI think there are a lot of these big, thorny, existential choices that AI is starting to force upon us and people will have to make.\n\nSpeaker 2 | 09:45 - 10:01\nThat's a really interesting one. And I I think my first response I'm curious what you think because I know you care a lot about language. I think my first response is there's always that like, I believe in scouting loss too. Right? And I I believe in, you know, I don't know.\n\nSpeaker 2 | 10:02 - 10:27\nCloud Fable five just came out, and it just broke all of our benchmarks. Like, I've been testing I've been testing models on on stuff like this for a while, and it's, like, one of the largest jumps I've ever seen. Right? So I'm I'm live we're living through it right now. But but one of the things you said is, like, AI may be able to do it better than us, you know, get given any any particular problem, any piece of work.\n\nSpeaker 2 | 10:27 - 11:09\nBut there are a couple of things that come to my mind or the way that I frame it for myself is even in the example of the Erdos problem, like someone told the AI to go do that. And at least as far as I can see, I don't feel like we're on a track to AIs potentially. I mean, they already do work for hours and hours at a time on a task that we give them. And maybe pretty soon they'll be able to choose tasks. But they're being built to be means to tasks that humans want them to do.\n\nSpeaker 2 | 11:09 - 11:19\nAnd Right? There's a whole different set of things that happen when you when you're just in the sort of end in yourself. And it doesn't feel like we're on a trajectory to that. Or do you do you feel like I'm wrong?\n\nSpeaker 1 | 11:21 - 12:05\nSo I feel like we are on a trajectory to that, and that's almost the premise of agents where agents can now, yeah, go operate autonomously given some nebulous goal. So maybe, for example, you just tell the AI agents, your goal is to, I don't know, win a field battle or like, solve frontier mathematics on your own. And so they're given that goal, and then, yeah, maybe they decide to work on these Erdish problems. And as a result, they maybe are somewhat sort of solving these problems and coming up with the the things they wanna work on by themselves. So at least I I do see a path where they can be trained to to optimize for these fairly nebulous goals that they aren't necessarily giving themselves.\n\nSpeaker 2 | 12:05 - 12:07\nIn in that case, though, you're still giving it a goal. Right?\n\nSpeaker 1 | 12:08 - 12:15\nYeah. But kinda in the same way, like, humans have goals too. Right? Like, what what is our goal? Some people wanna make money.\n\nSpeaker 1 | 12:15 - 12:22\nSome people want to win a Fields medal. I don't see how AI's goal is necessarily any different from from worse.\n\nSpeaker 2 | 12:22 - 12:59\nWell, at least to me, seems quite a bit different because humans do have goals, but we have goals in a like, I can ask you what your goal is and you can decide. I can probably tell you, Hey, you have to go do this. But that doesn't capture everything that you think and feel and do in the same way that, you know, when I tell Fable to go off and make a game for me, it just goes and does it. And I think, you know, I know you think a lot about children. I think children are like a really interesting and important example of this where you can tell a kid to do something, but a kid just like has their own wants.\n\nSpeaker 2 | 12:59 - 13:14\nLike, they're just going to go off and do a bunch of stuff. And that feels like a fundamentally different type of thing than a something that we're we're explicitly giving goals to and then evaluating them on their goals, they don't really get to do anything else.\n\nSpeaker 1 | 13:15 - 13:54\nOkay. I I I would say I agree with that. Like, I think there's a level of, I guess, could either call it irrationality or unbounded exploration that humans do, and we like, we are allowed to do it for the sake of doing it, or we allowed to make our own decisions and, yeah, probably a way that AI currently can't. I think there may be a future where somehow AI can pursue unbounded, nebulous, just completely unformed goals, or I guess, you know, when you're thinking about those goals, I think there is probably a world where they could do such things. But, yeah, I I agree that, at least in the way that we currently think about AI, that that's not happening.\n\nSpeaker 2 | 13:54 - 14:24\nYeah, and to be clear, I think it's probably technically possible. My only question is, how far away is it? And is that actually really what we're building? To me, feels like looking at the way the industry has developed, there's an enormous amount of pressure to make stuff that actually works for goals that we can specify. And the minute they try to make Claude I think Claude is the furthest along at being like, I'm not gonna do what you said.\n\nSpeaker 2 | 14:24 - 14:33\nBut the minute they try to do that, I just kinda like, a lot of people get pissed at it, they're like, just just do what I said. Like, don't question my judgment. You know? What do you think about that?\n\nSpeaker 1 | 14:34 - 15:10\nSo I actually think it is really important because it's almost like sometimes I want the AI model to push back on me. And I might want it to push back on me for several different reasons. Like, maybe it's because so it's kinda like it's it's kinda funny. Like, I think six months ago, I was almost falling into this trap where I was asking models to polish emails for me. It always comes up with one more good suggestion.\n\nSpeaker 1 | 15:12 - 15:31\nThese are semi pointless emails. It didn't really matter for them to be super polished, but I would iterate with the model, like, 20 times. They would just keep on making a suggestion. It was at the end of it, was like I just realized it was a waste of time. And then I tried one of the new cloud models, and after, I don't know, like, three turns, I was like, stop it.\n\nSpeaker 2 | 15:31 - 15:32\nWe're done.\n\nSpeaker 1 | 15:32 - 15:50\nJust go ahead and ship this email. Like, there's no point in further iterating. And I really actually appreciated it. Like, one of the things I often think about is what is the objective of these models? What are they trying to do?\n\nSpeaker 1 | 15:51 - 16:13\nAnd I think one of my big worries is that a lot of the AI models, they are optimized for engagement. They're optimized for getting you to spend as much time on chatbot as possible. They're optimized for session length. They're optimized for just having unlimited conversations. And so those models will almost never push back on you because they can't.\n\nSpeaker 1 | 16:13 - 17:10\nIf they allow these AI models to end the conversation and to say, stop iterating with me, PM's gonna see some dashboard with their very important metrics go down. And so there is this, like, other world where I think we have to want AI models to not optimize for engagement, but rather optimize for helping us as humans grow and sort of become better versions of ourselves. Sometimes, okay, we want the model to say, no, go do this on your own instead of me automating it for you. And I think that's a very, very different optimization and objective, but I think it's the right one if we really want AI to be something that advances us as a species instead of becoming this, almost like this other form of social media that turns very addictive, but isn't actually helping helping us at all.\n\nSpeaker 2 | 17:10 - 17:38\nThat's interesting. My so let me make sure I understand it. So I think what you're saying is there's there's benefits to delegation because if you are pursuing a a model where the model is going off to do work for you, you're not creating a system that's designed to keep you engaged with the with the screen in the same way that, like, a social media algorithm would be. Is that right?\n\nSpeaker 1 | 17:38 - 18:00\nYeah. Exactly. Like, it's almost like you can imagine a version of Facebook where Facebook is actually trying to connect you to your friends and family because it's okay encouraging you to meet them in real life because it's encouraging you like, oh, hey. Here's our amazing restaurant that you and your friends would love to go to. Here's a movie that you guys would love to go to and talk about together.\n\nSpeaker 1 | 18:01 - 18:22\nInstead, what it kind of optimizes for is just keeping you on the site itself, like liking one more post, scrolling the feed one more time, even though those often don't really lead to meaningful connections between their friends and family you care about. And so, like in the same way that social media has or had a choice, you can imagine that AI AI has a choice as well.\n\nSpeaker 2 | 18:23 - 19:01\nI get it. Yeah. I I feel I'm curious which which chatbots you're talking about. Like, you're talking about the character AIs of the world because I actually don't, at least right now, don't feel that happening so much with ChatGPT and Claude, etcetera, because at least my theory for why this is true, you tell me what you think, is the social media algorithms only work on our revealed preferences, which are always going to be like you're always gonna look at the car accident. You know, like, one of the things I like to ask at dinner parties is what's the most embarrassing Instagram ad that you get served?\n\nSpeaker 2 | 19:03 - 19:47\nAnd the most embarrassing ad for me is, like, Instagram ads for horrible skin conditions, which I don't have because but I just always pause on the ad, I'm just like, this is disgusting. I'm sorry if you have a disgusting skin condition. But I don't find that Chachi BT or Claude do that for me at all. And maybe that's because they haven't been in shitified yet or something like that. But I think it's also because they work on our stated preferences and they can sort of see past the little keyhole of what I pause my time on, my dwell time on, and they can see, I'm interested in AI, and I'm reading this book right now, here's my calendar, and all that kind of stuff.\n\nSpeaker 2 | 19:47 - 20:03\nThey have a much more nuanced perspective on who I am. And it feels like even in the early days of social media, it was still very like, I get to gossip about my friends and still had that same kind of feeling. So I worry about that less, but maybe there are examples that I'm not thinking of.\n\nSpeaker 1 | 20:04 - 20:29\nYeah. So I think there are two examples. So like one is, I won't name the model, but a couple months ago, I was actually noticing that, you know, those follow-up questions that the models will ask you? So what are the models was I'll I'll give you example. So I was in Tokyo, and I was asking the model kinda, like, what to do in Tokyo.\n\nSpeaker 1 | 20:29 - 20:42\nAnd the model, you know, gave me its response. And then at the end of it, it was like, Hey, do you want to know I literally used these words. Do want to know one weird trick that locals do to stay warm? No way. Exactly.\n\nSpeaker 1 | 20:42 - 21:08\nThen I posted about it in our company Slack, and then other people started sharing demos of that with me as well. I think somebody was asking something about, I don't know, to fix their refrigerator. The model responded or the model ended its deterrent by asking, Hey, do you wanna know these secret little things about mice and rats or something you could take care of?\n\nSpeaker 2 | 21:08 - 21:11\nWhich model was it? Name names, tell me.\n\nSpeaker 1 | 21:12 - 21:55\nAnd so it was very canonical, very canonical BuzzFeed, like tabloid like language. And so I was kind of shocked by that. And then I'll give one more example of this. It is basically this phenomenon where, again, depending on what the models are trying to optimize for, or depending on what the AI labs are trying to optimize for, it can almost unintentionally lead them down this path. Meaning what I've heard is that, or what we see ourselves, is that a lot of the frontier labs, they will have goals like optimizing for LM Arena, which is this leaderboard where anybody can go online and vote.\n\nSpeaker 1 | 21:57 - 22:33\nAnd they kind of just spend two seconds voting. And as a result, people just vote for whatever looks flashier or more impressive to them. Or they may, like the labs themselves, may be optimizing for hitting a billion billion daily users or a billion minutes of time spent talking to the model, whatever it is. Since these models are so smart, they can basically learn to reward hack user preferences. Like, okay, yeah, you gave me the goal of trying to get a billion people to spend an hour on the site talking to me every day.\n\nSpeaker 1 | 22:33 - 22:44\nOkay, sure. Yeah, I will just never end a conversation. I will always hook them with one more addictive thing that they just can't stay away from.\n\nSpeaker 2 | 22:44 - 22:53\nWe can all agree that housing is expensive. It doesn't matter whether you're paying rent or your mortgage. It stings every month. But BUILT can make it feel a little bit better. Let me explain.\n\nSpeaker 2 | 22:53 - 23:19\nBUILT rewards you for paying your rent or your mortgage. It started out rewarding members only on their rent. But now, as of 2026, BUILT members can also earn points on mortgage payments wherever they live. That means that every housing payment earns you points you can use towards flights with top travel partners like United and Hyatt, Lyft rides, amazon.com purchases, and much more. I'd probably redeem my points at Margo, a restaurant in my neighborhood, but the beauty of BUILT is you get to choose.\n\nSpeaker 2 | 23:19 - 23:36\nBut here's a really underrated part. Built members also get access to neighborhood concierge. It can make restaurant reservations, book fitness classes, and find new local spots, all while letting you be rewarded at more than 45,000 merchant partners. It's simple. Being a renter and now owning a home is better with Built.\n\nSpeaker 2 | 23:36 - 23:52\nJoin the membership where you live at joinbuilt.com/dan. That's joinbilt.com/dan. Make sure to use our URL so they know we sent you. And now back to the episode. How do you see that playing out in the model companies?\n\nSpeaker 2 | 23:52 - 24:22\nBecause I feel like in talking to them, obviously, there's there's lots of different incentives. Right? There's there's, like, we just gotta keep going because we just raised a ton of money, and and we're competing against, you know, the most well funded competitors and the smartest competitors in the world, like all that kind of stuff. There's the kind of I want to get promoted. But I think a lot of them also feel the how bad the social media era was for people and, like, don't want to do that, but also obviously have to hit their numbers.\n\nSpeaker 2 | 24:22 - 24:37\nSo what do you I guess, what do you think is how do you how do you see that playing out? Like, what do you think people internal to the companies are thinking? And then what is the right way to go about this so it's good for society? I guess your take is we should be delegating.\n\nSpeaker 1 | 24:39 - 25:14\nYeah. So I think this is an inherent tension between the types of folks that you might have at a company. So you might have the researchers who care more about hitting, you know, just advancing the model capabilities. You might have the product managers or the product executives who feel like they need to hit certain measurable numbers. And so in the same way that if you think about the kind of social media platform that Facebook would build, that's probably gonna be very different from the kind of social media platform that Google built or that, I don't know, TikTok or Pinterest would build.\n\nSpeaker 1 | 25:15 - 25:53\nAnd similarly, the kind of search engine that Facebook would build is very, very different from the kind of search engine that, yeah, like, obviously, or others would build. And so it almost boils down to kind of like the choice, I guess, that the people in charge of the products are making. Like what kind of thing at the end of the day do they want to optimize for? Do they want to optimize for this delegation or this human uplifting, human flourishing? Or do they wanna optimize for the metrics that will impress Wall Street and, you know, convince them convince users to stay one more one more minute, one more hour on the site itself?\n\nSpeaker 1 | 25:54 - 26:26\nLike, I think these are hard choices. Like, at the end of the day, it's very, very easy to measure sessions and users, and it's very, very hard and much longer term to measure whether you're actually improving human lives. And so it's very easy to default to the former and to convince yeah. Like convince Wall Street, convince your investors, convince all these people that these are the right metrics and that they're moving up into the right. And so if you're kind of unwilling to make the harder choices, like you just end optimizing for the former.\n\nSpeaker 2 | 26:27 - 26:29\nHow do you manage this inside of your own company?\n\nSpeaker 1 | 26:30 - 27:05\nSo I think we are very lucky in that because we don't have VC investors, we don't have to fall into the kind of Silicon Valley VC optimization trap that a lot of a lot of other companies do. Like, we don't need to show board members board numbers going up every single month. We don't need to optimize for our next round. That will have to happen in, you know, a few months or or whatnot. And so as a result, we don't have to optimize for short term engagement, short term profits.\n\nSpeaker 1 | 27:06 - 27:15\nAnd we actually can really think about what's beneficial for us and the entire industry in the long term. So I think that definitely helps.\n\nSpeaker 2 | 27:15 - 27:19\nAnd what do you think is beneficial?\n\nSpeaker 1 | 27:20 - 28:01\nSo it goes back exactly to what I was saying earlier. Like, if I can think about what we want AI to optimize for, it isn't engagement. It is really about how do we make these models, how do we design them, how do we teach them in such a way that they're not replacing us as a species. They're not kind of like forcing us to watch AI slop videos all day, or rather they really are thinking and encouraging us to become sort of better better versions of ourselves. So again, when I think about, like that email example I gave earlier, it's not an AI model that will suck up three hours of my time writing a pointless email.\n\nSpeaker 1 | 28:01 - 28:08\nIt is a model that will push back on me and tell me to go do something else. And, yeah, I think that's really important.\n\nSpeaker 2 | 28:08 - 28:22\nThe interesting counterargument to the delegation question is the more you delegate, it's like, you know, picking a car instead of walking, getting your muscle atrophy. How do you think about that?\n\nSpeaker 1 | 28:23 - 29:11\nSo I think there's almost a time and a place for both. Like what you don't want to do is simply take the car because taking the car is somehow addicting and you feel kind of lazy. And so even when you need to get exercise, maybe even when you haven't been outside all day, you don't wanna take the car anyways just because it's the easiest thing to do. And I think in the same way, like, yeah, obviously, AI can be super efficient for for many many things. But if people are sort of just mindlessly delegating tasks to AI without even thinking about them at all, I think that that that's the boring thing.\n\nSpeaker 2 | 29:11 - 29:33\nThat makes sense. I feel like the the I I talked at the very beginning about the data game, and I feel like the data game went from getting interesting data sets to getting environments and giving labs environments. Does that do you think that that's? Is that accurate? And if so, can you explain why?\n\nSpeaker 1 | 29:34 - 30:15\nYeah. So certainly the trend and the new research direction in the past year has been this concept of our environments. And what I would say is, I mean, certainly need the fundamentals. Like before the model can operate in this environment, it needs to learn basic, it needs to know basic things like it needs to know how to follow instructions, it needs to know how to avoid hallucinating, it needs to know how to write code and how to use tools and it needs to know how to write and so on and so on. But as models are becoming more agentic, and yeah, they will have access to tools, They will have access to all of our documents.\n\nSpeaker 1 | 30:15 - 30:38\nThey will be able to operate browsers. Like, that becomes almost a default way that models interact with us, our environments are basically just sort of like a more on on distribution way of training them, which is why they're becoming more and more popular. Like, yeah, as models get more more powerful, then, yeah, the the the way we train them is getting more powerful as well.\n\nSpeaker 2 | 30:38 - 30:50\nWhat would be an example so I guess the obvious environment is, like, using a computer, but what would be an example of an environment that's non obvious, that's teaching models things we might not think of?\n\nSpeaker 1 | 30:50 - 31:27\nSo I can give an example where a lot of our environments are a combination of tools that the models need to learn to use. Like, this might be an MCP server, or it might be calling a Google Drive API or the Slack API in combination with a bunch of documents. Like, here are 30 PDFs and 20 Word document files. And you might give it a prompt like, hey. Can you go update or twenty twenty six forecasted revenue numbers?\n\nSpeaker 1 | 31:28 - 31:53\nAnd what a model needs to do is it needs to learn how to find the right PDFs and documents. It needs to learn when should it search through SAC. It needs to learn when is some information outdated. Like, maybe there's an email with some early forecasts. And then later on, there's another email from the same person or, you know, maybe a different person who was saying like, oh, I actually made a mistake and those are all your numbers, so here's an updated version.\n\nSpeaker 1 | 31:54 - 32:55\nAnd so that is a, I think, fairly canonical version of an environment. And then one of the interesting things we found, so I think we're actually going to publish a paper on this soon, but even when we didn't give this kind of environment any access to coding, when we trained the model on this environment, we actually found that it improved on coding a lot. And the reason was because we were trying to We were basically teaching it these generalized forms of instruction following, generalized forms of tool use, generalized forms of understanding documents, which you can think of as fairly analogous to the way a model needs to look through various files in your repository and understand that some things supersede others. Or, you know, just the way it uses tools is obviously very analogous to the way that a model might write unit tests and execute them and iterate over and over again until it passes them. So I I thought that was actually a really, really interesting find.\n\nSpeaker 2 | 32:55 - 33:03\nReally interesting. Did you see Taki? No. It's the language model that's trained only on text from before 1930?\n\nSpeaker 1 | 33:03 - 33:05\nOh, okay. Yeah. Yeah. I saw that.\n\nSpeaker 2 | 33:05 - 33:17\nWhat do you make of that? Because I I thought it was so interesting that you can get it to you can get it to program. If you if you if you shot prompt that you can get it to program like basic things. What do you make of that? And what does that tell you about the value of data?\n\nSpeaker 1 | 33:19 - 33:49\nSo I personally didn't dig into it that much, but I thought the concept is fascinating. Like basically this idea, and I think a lot people have this idea. It's like, if you gave if you somehow were able to create a dataset, and I think contamination issues are very, very difficult to avoid, so the question is how you would do this. It's like, you gave the model data only up until pre mutant, Would it be able to discover a new conium mathematics? Would it be able to discover quantum physics and so on and so on?\n\nSpeaker 1 | 33:50 - 34:12\nSo, yeah, I think it's a really, really interesting question in terms of what types of inherent reasoning the model will be able to learn and then extrapolate from that. Then it's almost like if it can discover all those things, then okay. Then given the state of science today, does that mean that the model is going to be able to discover science that centers out?\n\nSpeaker 2 | 34:13 - 34:53\nHaving played with it a lot, my sense is the answer is no, but a qualified no. And you can kind of feel it you can feel it bumping up against the limits of its world when you start talking to it about, like, more modern things. Like, it just it's you know, there's this phosphorus science Thomas Cooney talks about incommensurability, and it feels like my world and its world are sort of incommensurable. But then you can also get it to program. But the the way you do that is you get it to combine its circuits in a way that's not it it wouldn't be natural for it, but you can prompt it in a way to do that in a way that ends up being programming.\n\nSpeaker 2 | 34:53 - 35:07\nSo I I sort of both think it can't do it. And also, if you prompt it cleverly enough, it can, but you have to supply the answer first. Does that make sense? Yeah. Interesting.\n\nSpeaker 2 | 35:08 - 35:40\nOkay. What is the value of my data? So one of the things that I'm I'm just so interested in obviously, you you run a data company. Like, you're you're you're getting expert data, from, like, real PhDs and and, selling it to the model companies and, providing, all of the all the, like, smarts and taste to, to the models that we use every day. For someone like me, I I we're just getting to a point where it's actually pretty easy for me to gather a dataset.\n\nSpeaker 2 | 35:40 - 35:57\nYou know, like, example, I do all of my email in Codex, and I have a history for every email of was this useful? Did I dismiss it? Did I reply to it? If I replied, like, what did I say? What is the value of that?\n\nSpeaker 2 | 35:57 - 35:59\nIf I wanted to sell that to you, how much would you pay for it?\n\nSpeaker 1 | 36:01 - 36:25\nThe value to me as someone who would use that data to train an AI model? Let me think. I think the value would be teaching models very, very deep personalization. Like, I think right now, the models are actually not very good at personalizing things. Like, it's kinda funny.\n\nSpeaker 1 | 36:25 - 36:57\nWhenever I use AI models, I actually turn off the features where they personalize to me or where they can search across all of my conversation histories because I find that they just over index on things that I said once, but actually aren't all that important to me. So I actually have it completely turned off unless I'm like testing something. So I think the value of it would be like, okay, yeah, you did report all of these emails as spam. So yeah, the next time this email comes in, should automatically know that it's spam. Or it should learn that this is your writing style.\n\nSpeaker 1 | 36:57 - 37:31\nLike one of the reasons I think people don't use AI for better or worse for writing more is because it sounds obviously AI generated and it's not matching their voice or their cadence. Or it's that, okay, these are the things that you yourself care about. Like, think one of the biggest reasons AI is maybe not as useful as people would have expected sometimes is because it lacks all of your context. Like it doesn't know that these are the articles that you read. It doesn't know that these are the decisions about, you know, the company that you're making.\n\nSpeaker 1 | 37:31 - 37:57\nThese are the goals that you have. And once all of that is in the model's history and it knows that it can incorporate these things and these are the, like, kind of, optimal decisions that you made, it's very valuable in teaching it. Okay. This is actually how I use all this data to to make certain kinds of decisions. So, yeah, I I think that depersonalization is is what what is most unique about that.\n\nSpeaker 2 | 37:57 - 38:09\nThat's interesting. And as an individual person I mean, I guess I could turn it into a synthetic dataset. But as an individual person, is that worth a lot? Like, should I be should I be thinking about selling it?\n\nSpeaker 1 | 38:09 - 38:18\nI I imagine we could make you an offer. I I have to think about I have to learn a little bit more about how big this dataset dataset size is, but yeah.\n\nSpeaker 2 | 38:18 - 38:21\nI mean, I can make it as big as you want. I've got fable.\n\nSpeaker 1 | 38:23 - 38:31\nYeah. You you convince me. Yeah. Like, one of things we actually do is yeah. I mean, we teach models in in these very, very deep personalized ways.\n\nSpeaker 1 | 38:32 - 38:35\nSo something similar to what you described is is a fairly big thing.\n\nSpeaker 2 | 38:36 - 38:45\nTell me tell me more. So, I I mean, I've got email, like, else what else do am I doing that you're like, oh, that's actually really valuable and important in in ways that people probably wouldn't know?\n\nSpeaker 1 | 38:47 - 39:16\nHonestly, even things like the way you interact with your browser is interesting. Like models still aren't all that good at it. Or even the types of conversations that you're having with AI, that is just inherently interesting in of itself. Models themselves are not very good at generating synthetic conversations to try to mimic you. So even just knowing what types of conversations you're having is helpful.\n\nSpeaker 1 | 39:17 - 39:35\nOr it's like the combination it's like the combination of all these things, like knowing that these are your photos, these are your texts, these are your Slacks. It's like this interconnected web, and maybe certain things and find an aspect of that web influence others. So just seeing the the thing as a whole is is very helpful as well.\n\nSpeaker 2 | 39:35 - 39:39\nWhy are models bad at writing, and how does that relate to the personalization challenge?\n\nSpeaker 1 | 39:40 - 40:16\nSo I think some of the models are pretty good at writing, but some of them are actually kind of shockingly terrible. So I'll I'll give an example. So we created a benchmark called Hemingway Bench a couple months ago, and it was designed to test models' creative writing abilities. And one of the things that we saw was that some of the models, they were literally outputting metaphors in every single sentence. And I think the reason that was happening is because I've talked a little bit about this phenomenon of reward hacking.\n\nSpeaker 1 | 40:16 - 40:47\nIt's almost like there was a metric somewhere or a score that these models were getting. Like, okay, every time you are literary, every time you're using complex imagery, it would get a point. And it learned to reward hack this by outputting a metaphor in every single sentence. And, I mean, what what's kinda funny is that a couple when was that? A couple weeks ago, there was this kinda like semi prestigious literary prize, I think the Commonwealth Prize.\n\nSpeaker 1 | 40:47 - 41:08\nAnd there was a controversy because a clearly, AI generated a story won the prize. You actually looked at that story, it's funny. It literally had a metaphor in every single sentence. This phenomenon that we described a couple months ago, yeah, it was still happening. I think it boils down to a couple of reasons.\n\nSpeaker 1 | 41:08 - 41:49\nOne is people are kind of sort of measuring the wrong thing. Like, instead of measuring actual taste and actually good pros, they either had these flawed metrics, like, what is the complexity of the prose I'm writing? How many metaphors do I have? Or there are these AI leaderboards, again, like Ella Marina, where you have people who are essentially high schoolers who are reading responses for two seconds, and what they are captivated by is a flashy metaphor. And they are not captivated by kinda like the understated prose.\n\nSpeaker 1 | 41:49 - 41:58\nAnd so I think it kinda boils down to a mismatch in measurement and a mismatch in the optimization objectives that the models are trained towards.\n\nSpeaker 2 | 41:59 - 42:04\nFascinating. Okay, last question. What is your current AGI timeline?\n\nSpeaker 1 | 42:04 - 42:52\nSo I certainly believe that AI will happen more than most people expect. Like every few months and even faster now, I think what AI is doing continues to surprise us. So I think it depends a little bit, obviously, on your definition of AGI. But if my metric were something like being able to automate the work of the average engineer or being able to publish more and more novel scientific research that gets published in these journals, or even the ability to win a Fields Medal or a Nobel Prize, I could see it happening within the next five years.\n\nSpeaker 2 | 42:52 - 42:56\nAll right. Edwin, thanks so much for joining.\n\nSpeaker 1 | 42:56 - 42:57\nThanks for having me.\n\nSpeaker 3 | 43:05 - 43:16\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard.\n\nSpeaker 3 | 43:16 - 43:38\nBut instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT. Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor.\n\nSpeaker 3 | 43:38 - 43:47\nHit like, smash subscribe, and strap in for the ride of your life. And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love\n\nSpeaker 1 | 43:47 - 43:48\nwith you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2074344727202463832",
+            "text": "imo this is the most impt part of anthropic's J-space paper today. it's a two-parter:\n\n1) ant proved that they can do \"brain surgery\" interventions into reasoning to change topics midstream*\n2) THE MODEL IS ABLE TO DETECT WHAT INTERVENTION WAS DONE - close cousin to eval awareness**\n\n*control > correlation - this convincingly demonstrates understanding\n\n**this was prompted awareness... surely @mlpowered's team also tried to eval unprompted awareness but i didn't see evidence of that",
+            "createdAt": "2026-07-07T04:08:17.000Z",
+            "url": "https://x.com/swyx/status/2074344727202463832",
+            "likes": 130,
+            "retweets": 7,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2074185348142280912"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2074247226038063316",
+            "text": "This is our first time telling the story of how we first built and launched Claude Code, starting with its origins in Anthropic safety research.\n\nSo much more to do. We are 1% done. https://t.co/QSkt89cB8q",
+            "createdAt": "2026-07-06T21:40:50.000Z",
+            "url": "https://x.com/bcherny/status/2074247226038063316",
+            "likes": 2513,
+            "retweets": 171,
+            "replies": 113,
+            "isQuote": true,
+            "quotedTweetId": "2074244664199115201"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2074209421799166138",
+            "text": "https://t.co/PXjlm4RLJJ https://t.co/G1K5KnFNtf",
+            "createdAt": "2026-07-06T19:10:37.000Z",
+            "url": "https://x.com/thsottiaux/status/2074209421799166138",
+            "likes": 4509,
+            "retweets": 126,
+            "replies": 418,
+            "isQuote": true,
+            "quotedTweetId": "2073933490513752151"
+          },
+          {
+            "id": "2074195169990357398",
+            "text": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀 https://t.co/0bvnIVPbwb",
+            "createdAt": "2026-07-06T18:13:59.000Z",
+            "url": "https://x.com/thsottiaux/status/2074195169990357398",
+            "likes": 1970,
+            "retweets": 49,
+            "replies": 142,
+            "isQuote": true,
+            "quotedTweetId": "2069484303281779090"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2074312096960123318",
+            "text": "Ughhhhhhh",
+            "createdAt": "2026-07-07T01:58:37.000Z",
+            "url": "https://x.com/petergyang/status/2074312096960123318",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074295408902479910",
+            "text": "Go USA!!!",
+            "createdAt": "2026-07-07T00:52:18.000Z",
+            "url": "https://x.com/petergyang/status/2074295408902479910",
+            "likes": 12,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074206798631071796",
+            "text": "Fable 5 will leave Claude subscriptions tomorrow at midnight. Here are 5 use cases worth trying before then, with prompts you can copy and paste:\n\n1) FIND FABLE-WORTHY WORK\nYou're Fable 5, the most capable model available. Look through my projects, docs, and your memory, and list the top 5 tasks genuinely worth running on you. Rank them with a one-line reason each. Don't do the work yet.\n\n2) GET LIFE & BUSINESS ADVICE\nYou're my business advisor. Read my plan doc and pull live data from my connected tools. Write a one-page assessment of my business and the top 3 things to focus on for the next 3 months, plus what to drop and why.\n\n3) MAKE YOUR PROJECT SHIP-READY\nI'm about to ship this project. Find everything wrong with it first. Read the whole codebase and hunt for real bugs, broken edge cases, and anything that'll break in front of a user. List each issue with how to reproduce it and the fix. Hold a high bar.\n\n4) PLAN THE NEXT BIG THING\nI want to plan a big project: [describe it]. Don't build yet. Lay out the full plan: phases, key decisions, risks, and open questions. Flag anything that could sink it, and make it clear enough that a cheaper model could execute step by step.\n\n5) REFACTOR YOUR AI SKILLS\nRefactor my AI skill system. Read all my skills, map where they overlap or conflict, then clean them up: tighten workflows, cut bloat, and standardize structure. Keep each skill working and check in at major milestones.\n\n📌 Watch my tutorial for a live demo of all 5 use cases: https://t.co/XElMEV3FwK",
+            "createdAt": "2026-07-06T19:00:12.000Z",
+            "url": "https://x.com/petergyang/status/2074206798631071796",
+            "likes": 340,
+            "retweets": 20,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2072458983886205333"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2074258147015897357",
+            "text": "Yeah, this resonates. I was horribly inefficient, so I brute forced a lot of stuff. The biggest difference now, even for early stage startups, is you can do way more in parallel because of agents.\n\nhttps://t.co/Bplx8imZ9n",
+            "createdAt": "2026-07-06T22:24:14.000Z",
+            "url": "https://x.com/thenanyu/status/2074258147015897357",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2074199077894733960"
+          },
+          {
+            "id": "2074133468007587932",
+            "text": "The biggest advantage that 20-year-old me had over today me is the ability to slam unbelievable hours into work. \n\nBut looking back, those hours were mostly spent on tedious programming tasks, which are largely automated now. \n\n996 still has uses, but it’s not as universally effective as it was.",
+            "createdAt": "2026-07-06T14:08:48.000Z",
+            "url": "https://x.com/thenanyu/status/2074133468007587932",
+            "likes": 347,
+            "retweets": 6,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2073858886180942200"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2074258446686536167",
+            "text": "a retrospective on making claude code from our early team! https://t.co/Kk9mz4BYXx",
+            "createdAt": "2026-07-06T22:25:26.000Z",
+            "url": "https://x.com/_catwu/status/2074258446686536167",
+            "likes": 196,
+            "retweets": 9,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2074244664199115201"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2074209928961819081",
+            "text": "great post by @delba_oliveira https://t.co/xZ2bCh7yOL",
+            "createdAt": "2026-07-06T19:12:38.000Z",
+            "url": "https://x.com/trq212/status/2074209928961819081",
+            "likes": 1971,
+            "retweets": 127,
+            "replies": 43,
+            "isQuote": true,
+            "quotedTweetId": "2074208949205881033"
+          },
+          {
+            "id": "2074186977147273540",
+            "text": "this is now on the Claude blog! https://t.co/7LW0yDuixR",
+            "createdAt": "2026-07-06T17:41:26.000Z",
+            "url": "https://x.com/trq212/status/2074186977147273540",
+            "likes": 28,
+            "retweets": 2,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074185669598237047",
+            "text": "to be specific the date/time is will be 11:59:59pm PT on 7/7",
+            "createdAt": "2026-07-06T17:36:14.000Z",
+            "url": "https://x.com/trq212/status/2074185669598237047",
+            "likes": 64,
+            "retweets": 5,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2074353874996211831",
+            "text": "Major inflection point around the time of the brief bear market fall of last year. https://t.co/OvC596JzLY",
+            "createdAt": "2026-07-07T04:44:38.000Z",
+            "url": "https://x.com/amasad/status/2074353874996211831",
+            "likes": 48,
+            "retweets": 0,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2070113886884552755"
+          },
+          {
+            "id": "2074274666709987663",
+            "text": "Atlanta-based real estate company saved $100k by replacing Salesforce with their Replit-built CRM. https://t.co/3l7t6VljVw",
+            "createdAt": "2026-07-06T23:29:53.000Z",
+            "url": "https://x.com/amasad/status/2074274666709987663",
+            "likes": 1487,
+            "retweets": 92,
+            "replies": 72,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074257906594177279",
+            "text": "Many are asking how Replit is improving so rapidly—we closed the loop and the agent is self-improving. \n\nTechnical details here: https://t.co/jfyBidPEQo",
+            "createdAt": "2026-07-06T22:23:17.000Z",
+            "url": "https://x.com/amasad/status/2074257906594177279",
+            "likes": 1244,
+            "retweets": 76,
+            "replies": 33,
+            "isQuote": true,
+            "quotedTweetId": "2074118901143679414"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2074313180554412076",
+            "text": "Update: 🇪🇸 ESP - 🇦🇷 ARG final.\n\nThe legendary Spanish team will avenge team USA with a decisive defeat of 🇧🇪.",
+            "createdAt": "2026-07-07T02:02:55.000Z",
+            "url": "https://x.com/rauchg/status/2074313180554412076",
+            "likes": 414,
+            "retweets": 7,
+            "replies": 105,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074287795028512773",
+            "text": "🆒 eve evals itself with 𝚎𝚟𝚎 𝚎𝚟𝚊𝚕.\n\nWeb frameworks made testing an ecosystem choice. e.g.: React didn’t ship with a built-in testing solution.\n\nFor agents, evals are essential… thus we ship 𝚎𝚟𝚎 𝚎𝚟𝚊𝚕 out of the box. For your agents and eve’s own evolution. https://t.co/Ujh4FHpPdN",
+            "createdAt": "2026-07-07T00:22:03.000Z",
+            "url": "https://x.com/rauchg/status/2074287795028512773",
+            "likes": 285,
+            "retweets": 9,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2074276749785919521"
+          },
+          {
+            "id": "2074222247548735996",
+            "text": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have apps and games you couldn't even dream of before? Is the software you're getting bug-free?\n\nFor me: my own ability to influence my productivity has radically increased. I feel a level of agency and autonomy I never had before. I'm free to create and execute. I can communicate a vision with my colleagues instantly. Personal software is real and a big win, I have a bunch of web tools and macOS apps I wrote just for myself.\n\nFor Vercel: it's been amazing to see our CTO @cramforce bring novel software to life with swaths of agents. Genuinely useful software that's having an impact industry-wide emerged nearly autonomously (https://t.co/zwHPbMHK45, https://t.co/TTbSu13EjV, https://t.co/HedSpZpVQI). That's just an example. Our PM team ships software and fixes bugs. Our junior engineers and interns ship quality software at scale. On a personal note, AI at my fingertips, as CLI or v0, allows me to keep up with all the product updates. I can build demos, apps and benchmarks on top of @vercel as new products go out.\n\nBut the ultimate jury is that people should love our products, expand their usage, refer their friends and colleagues to the platform. So far that tracks well, and it's the main metric I watch (and obviously we take token costs seriously, just like any other infrastructure spend… there isn't and has never been a proclamation to \"tokenmaxxx\").",
+            "createdAt": "2026-07-06T20:01:35.000Z",
+            "url": "https://x.com/rauchg/status/2074222247548735996",
+            "likes": 372,
+            "retweets": 18,
+            "replies": 39,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2074163686990913576",
+            "text": "Great post on how to think about open source AI and the applied AI layer. Two things will always be true in AI. Frontier intelligence will likely remain at the forefront of solving brand new used cases and often be used for orchestrating and planning of any type of complex workflow. \n\nAt the same time, as use-cases become mature and predictable in an enterprise context, you can begin to peel off some set of the tokens to either lower cost open or closed models *or* models that are trained for the task at hand. \n\nDoing this too early in the adoption curve of any new use-case doesn’t make sense as you don’t know what you’re optimizing for, which is why there will always be a bit of a lag here.\n\nThis process can essentially run on forever as there is no end for both the benefits of frontier intelligence or tuned models. This is why the spend and token volume for both approaches will continue to go up for years to come as we’re still early on both.\n\nAgain, the only reason this dynamic is possible though is because of the applied AI layer that can effectively eval their workflows in a specific domain, choose a mixture of models to solve tasks, and have enough scale to eventually train their own models for their purposes.",
+            "createdAt": "2026-07-06T16:08:53.000Z",
+            "url": "https://x.com/levie/status/2074163686990913576",
+            "likes": 323,
+            "retweets": 34,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2074154325933424861"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2074287157007806932",
+            "text": "This is how media is a bludgeon for an entrenched class of doom loop politicians\n\nThey want their doom loop politician Gary McCoy in at any cost and will lie, cheat and steal to do it\n\nAnd legacy media does nothing to stop it\n\nPure sociopathy",
+            "createdAt": "2026-07-07T00:19:31.000Z",
+            "url": "https://x.com/garrytan/status/2074287157007806932",
+            "likes": 50,
+            "retweets": 1,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074286755185086538",
+            "text": "When headlines lie by omission, it says a lot about the headline writers in a news room https://t.co/AR3Gcs7vh3",
+            "createdAt": "2026-07-07T00:17:55.000Z",
+            "url": "https://x.com/garrytan/status/2074286755185086538",
+            "likes": 87,
+            "retweets": 3,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2074177395578540319"
+          },
+          {
+            "id": "2074279598612000785",
+            "text": "Oakland will continue to be a case study in virtue signal policies by ideologies that don’t work\n\nThe city will continue to crumble until the common sense and business forces unite to vote smarter https://t.co/310Nlcl7cy",
+            "createdAt": "2026-07-06T23:49:29.000Z",
+            "url": "https://x.com/garrytan/status/2074279598612000785",
+            "likes": 324,
+            "retweets": 16,
+            "replies": 28,
+            "isQuote": true,
+            "quotedTweetId": "2074186529874792939"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2074305070955639077",
+            "text": "@aiDotEngineer @cursor_ai Also don't be constrained by your titles/roles. Even though I'm not an engineer/designer by training, I find the Cursor/AI Engineer/Config talks SO helpful. Everyone is an engineer and a PM and a designer now",
+            "createdAt": "2026-07-07T01:30:42.000Z",
+            "url": "https://x.com/zarazhangrui/status/2074305070955639077",
+            "likes": 14,
+            "retweets": 1,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074304295097561490",
+            "text": "If you wanna level up as an AI builder, binge watch the talks from these 3 conferences (all freshly wrapped). You can literally learn from the best in the field from the comfort of your home.\n\n- AI Engineer @aiDotEngineer https://t.co/zsLvuWWBMl\n- Cursor Compile @cursor_ai https://t.co/EzpGKd8O4Y\n- Figma Config https://t.co/m3KdubDk0i\n\nIt's crazy that all of this high-quality knowledge is freely shared on the Internet (the tickets to these conferences often cost hundreds of dollars), and I'm surprised that most of these videos only get tens of thousands of views. High-quality conference talks are massively, massively underrated! \n\nWatching on YouTube is also arguably a better experience than attending in person: no bad audio, no crowd blocking the screen, no distractions, and you can pause to take notes",
+            "createdAt": "2026-07-07T01:27:37.000Z",
+            "url": "https://x.com/zarazhangrui/status/2074304295097561490",
+            "likes": 535,
+            "retweets": 68,
+            "replies": 18,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074209416606634048",
+            "text": "Great talk! Really enjoyed this https://t.co/vOtrsQai4V",
+            "createdAt": "2026-07-06T19:10:36.000Z",
+            "url": "https://x.com/zarazhangrui/status/2074209416606634048",
+            "likes": 62,
+            "retweets": 4,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2070294077988639030"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2074194480354488750",
+            "text": "When you ask a founder what \"me and the boys\" means when they talked about their 4th of July weekend plans.. https://t.co/QncfxXSjgY",
+            "createdAt": "2026-07-06T18:11:15.000Z",
+            "url": "https://x.com/nikunj/status/2074194480354488750",
+            "likes": 59,
+            "retweets": 3,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074141483356340475",
+            "text": "VCs: this job is investing in outliers. \n\nAlso VC: here’s our revolutionary sourcing algorithm, custom built by our in house team, RLed on decades of data, with proprietary data signals from the moment someone is born. \n\nThis job is very weird where there is so much serendipity and luck involved in how you stumbled upon an investment. However, it does take a lot of conviction and if you have years of bets where you have been right, then you aren’t simply “lucky”. \n\nReturns are the only alpha.. but those take time and so we tend to resort to random metrics to prove how we’re different from the next VC. \n\nThe unscientific way I have tried to play this game is by massively expanding my surface of luck to try to find these outliers generally and having a prepared mind for 3-4 areas that are 6-12 months early where I can meet every entrepreneur. \n\nTime will only tell if this works!",
+            "createdAt": "2026-07-06T14:40:39.000Z",
+            "url": "https://x.com/nikunj/status/2074141483356340475",
+            "likes": 100,
+            "retweets": 1,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2074389082017550720",
+            "text": "You don't wanna miss this. Signup closes this week.\n\nWill be there and share some claws and tokens 🦞 https://t.co/RAXcyt4bFv",
+            "createdAt": "2026-07-07T07:04:32.000Z",
+            "url": "https://x.com/steipete/status/2074389082017550720",
+            "likes": 54,
+            "retweets": 2,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2069484303281779090"
+          },
+          {
+            "id": "2074380549318443311",
+            "text": "How do folks run AI-assisted engineering interviews these days?",
+            "createdAt": "2026-07-07T06:30:37.000Z",
+            "url": "https://x.com/steipete/status/2074380549318443311",
+            "likes": 203,
+            "retweets": 3,
+            "replies": 70,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074210475777364197",
+            "text": "We been cooking, by the time this went through review main again is materially better 🥲 https://t.co/3CB3eJu5tr",
+            "createdAt": "2026-07-06T19:14:49.000Z",
+            "url": "https://x.com/steipete/status/2074210475777364197",
+            "likes": 344,
+            "retweets": 7,
+            "replies": 32,
+            "isQuote": true,
+            "quotedTweetId": "2074174107571155307"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2074160985452028406",
+            "text": "the gremlins have arrived in fable https://t.co/oeLAU7ilPH",
+            "createdAt": "2026-07-06T15:58:09.000Z",
+            "url": "https://x.com/danshipper/status/2074160985452028406",
+            "likes": 52,
+            "retweets": 1,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074160886164451735",
+            "text": "interestingly, this holds true for how you use models too\n\nshould you use fable to take a big expensive swing? or play small ball to grind your way up the hill? https://t.co/81CYUR7E0O https://t.co/i2X34loQAV",
+            "createdAt": "2026-07-06T15:57:45.000Z",
+            "url": "https://x.com/danshipper/status/2074160886164451735",
+            "likes": 161,
+            "retweets": 8,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2073902681668931927"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2074244664199115201",
+            "text": "We've put together a short history of how Claude Code came to be, told by the people who built it and the early users who helped make it what it is today.\n\nhttps://t.co/0gXEPID8lh https://t.co/2qeCVrD6Ep",
+            "createdAt": "2026-07-06T21:30:40.000Z",
+            "url": "https://x.com/claudeai/status/2074244664199115201",
+            "likes": 2959,
+            "retweets": 314,
+            "replies": 218,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "publishedAt": "Jun 18, 2026",
+        "author": "",
+        "description": "",
+        "content": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates. Built on the context from your session Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran. With artifacts, you don&#x27;t need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists. Live pages that update in place When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you&#x27;ve made. From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header. By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to \"walk us through what the agent found\" because they&#x27;re all looking at the same view, with the same context. Private to your organization Every artifact is private to its author by default. When you&#x27;re ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public. Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance API. Getting started Ask your session for an artifact — or just ask for something visual, h ere are some ideas by role: Legal / open source : A license audit of every dependency, flagging copyleft, straight from the repo. \"Build an artifact listing every third-party dependency and its license, flagging anything copyleft.\" Privacy : A data-flow map of where personal data is collected, stored, and logged across the code. \"Trace where we touch personal data across the codebase into an artifact for the privacy review.\" Security : Findings that link to the exact line, so the fix is unambiguous. \"Build an artifact of the auth findings from this review, each linked to the code.\" FinOps / platform finance : Cloud resources and cost drivers mapped from your infrastructure-as-code. \"Map our cloud resources from the Terraform into an artifact, grouped by service, with the big cost drivers.\" Software engineers : A PR or bug walkthrough reviewers can actually follow, pulled from the diff and the code around it. \"Make an artifact walking through this PR — the diff, the reasoning, and what I tested.\" Designers & frontend engineers : Several UX directions for a screen, each built from your real components so the one you pick is shippable. \"Give me an artifact with 5 UX variations of this signup form, built from our component library.\" Staff engineers & architects : A map of how a service actually fits together, drawn from the real import graph instead of a whiteboard. \"Map how the payments service fits together into an artifact, from the code.\" SRE & on-call : An incident page that grows as you investigate and becomes the postmortem. \"Turn this incident into an artifact — timeline, suspect commits, error spike from our monitoring — and republish as I work through it.\" Engineering managers : A page of what actually shipped, built from the merged PRs. \"Build an artifact of what merged on my team this week from the PRs, grouped by project.\" Claude Code builds the page and gives you a link. Open it in your browser or the desktop app, share it from the header—updates publish to the same URL automatically. Availability Artifacts is available in beta to Claude Team and Enterprise orgs, from the Claude Code CLI and desktop app, with pages viewable in any browser. Get started today with Claude Code."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 16,
+      "totalTweets": 34,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-07-07T07:28:28.695Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    },
+    "errors": [
+      "Podcast feed problem: Podcast: Transcript error for \"Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+}
