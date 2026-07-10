@@ -1,0 +1,709 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-10T12:50:27.043807+08:00",
+  "events_count": 18,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 20,
+    "totalTweets": 40,
+    "blogPosts": 3,
+    "feedGeneratedAt": "2026-07-09T07:28:29.483Z"
+  },
+  "digest_generated_at": "2026-07-10T04:50:27.011Z",
+  "skill_errors": [
+    "Podcast feed problem: Podcast: Transcript error for \"Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+  ],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-10T04:50:27.011Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "How a Writer Uses AI Without Losing His Voice",
+        "guid": "85aa2fe0-7c35-413e-9d30-e877439f0fd3",
+        "url": "https://www.youtube.com/watch?v=7ND0lQmLJlA",
+        "publishedAt": "2026-07-08T14:49:06.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:14\nI wake up and I don't touch the Internet. I won't look at my phone. I won't go online until long after lunch. As soon as I touch my phone, I feel the chemical shift and I can't go into any kind of deep thinking place or deep attention place or deep focus place.\n\nSpeaker 2 | 00:14 - 00:21\nBecause there's something about working with AI that feels very dopamine driven. And I believe strongly you can use it to do incredible work and also it's sort of a slot machine.\n\nSpeaker 1 | 00:21 - 00:36\nI now have a laptop just for writing that blocks everything. I can't do anything interesting on it. If I don't create these barriers, I will lose connection with this other part of me. That I think is the most valuable part of me. There aren't that many people who are gonna think about or write the weird books that I feel like I'm drawn to write.\n\nSpeaker 1 | 00:36 - 00:41\nAnd as a human, that feels like a valuable thing for me to put my effort in.\n\nSpeaker 2 | 00:55 - 01:08\nEvery is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Go to every dot to slash subscribe today. Greg, welcome to the show.\n\nSpeaker 1 | 01:08 - 01:09\nHey. Thanks for having me.\n\nSpeaker 2 | 01:11 - 01:18\nSo you are a writer Mhmm. A walker Mhmm. A player with technology, a photographer.\n\nSpeaker 1 | 01:18 - 01:19\nSure.\n\nSpeaker 2 | 01:19 - 01:25\nAnd I think you have a a life and career that I I have looked up to for a\n\nSpeaker 1 | 01:25 - 01:25\nlong time.\n\nSpeaker 2 | 01:26 - 01:45\nSo it's really fun to to have you here. And I think one of the things that, you know, we were just talking about is the the thoughtfulness and the spirit with which you do your work. Mhmm. And I admire that spirit and try to bring into the stuff that we do here. And also, I've been trying to think about how does AI fit in with it?\n\nSpeaker 2 | 01:45 - 01:50\nBecause there's something about working with AI that feels very dopamine driven.\n\nSpeaker 1 | 01:50 - 01:50\nMhmm.\n\nSpeaker 2 | 01:51 - 01:58\nAnd you can I I believe strongly you can do it to you can use it to do incredible work? Yeah. And also, like, it's sort of a slot machine.\n\nSpeaker 1 | 01:58 - 01:58\nYeah. Yeah.\n\nSpeaker 2 | 01:58 - 02:05\nSo I know that you're, like, deep into the vibe coding right now. So Mhmm. Tell us tell\n\nSpeaker 1 | 02:05 - 02:05\nus\n\nSpeaker 2 | 02:05 - 02:08\nwhat you're doing with it, and then let's talk about how it fits into your work.\n\nSpeaker 1 | 02:08 - 02:18\nYeah. I mean, look, I just think if you're not touching it, if you're not using it, if you're not building with it, you can't really comment on it. Yeah. You know? And I think part of what when people go, it doesn't really work.\n\nSpeaker 1 | 02:18 - 02:23\nIt's so un yeah. Unpredictable. It's like, okay. Just try. Just use it.\n\nSpeaker 1 | 02:23 - 02:38\nIt's like if you're using it, you go, okay. This is ridiculous. And why is this technology public slash, like, shouldn't this I mean, I kind of agree with a lot of what Dario says. Like, there should probably be more regulation around this. Like, I don't know if everyone in the world should just have this immediately.\n\nSpeaker 1 | 02:39 - 02:58\nCertainly, you know, as we're working out the kinks of what this is in public. Yeah. I mean, it just feels strange. It feels like we are in this aberrational moment where technology like this normally isn't just given to everybody, you know, for free, essentially. So, look, I think you really have to be engaging with it, especially if you can.\n\nSpeaker 1 | 02:58 - 03:04\nYou know, it's like Fable came out. I played with it for four days. I had to, refactor code bases. I had to do, you know, these other little projects. I was like, great.\n\nSpeaker 1 | 03:04 - 03:11\nThis is cool. Then it went away, I was like, wow. Yeah. It kinda makes sense that this would go away. But also, Opus 4.8 is sort of, like, good enough to do anything.\n\nSpeaker 1 | 03:11 - 03:17\nLike, if you if you told me you're you only have Opus 4.8 for the rest of your life, I'd be like, great. I could build anything with this.\n\nSpeaker 2 | 03:17 - 03:18\nThere's a lot I can do. Yeah.\n\nSpeaker 1 | 03:18 - 03:20\nYeah. So so we're it is this weird moment.\n\nSpeaker 2 | 03:20 - 03:29\nBut Okay. So you're actually you're actually saying, I'm I'm it makes sense to me that Fable is is not here anymore. Do I like, I miss her. Like, do you do you miss her?\n\nSpeaker 1 | 03:29 - 03:44\nOr I don't know. Like, I I honestly don't really feel qualitatively that maybe I'm not using it enough, but, like, the differences between these models like that explicitly. I just know that, oh, it feels a little more rigorous Yeah. And it eats my tokens like crazy. So it must be better.\n\nSpeaker 1 | 03:44 - 03:46\nRight? So No. I just hacked\n\nSpeaker 2 | 03:46 - 03:50\ninto into Fort Knox and, stole all the Google. Yeah. I know. Yeah. Must be better.\n\nSpeaker 1 | 03:50 - 03:54\nYeah. It's yeah. Yeah. I've got all the Bitcoin now. It's all me.\n\nSpeaker 1 | 03:54 - 04:04\nI've I've become Satoshi. But the the look. I think you have to be using it. So that's one of the main reasons I have been using it. And, I just I've always loved technology.\n\nSpeaker 1 | 04:04 - 04:16\nMean, it's been a part of my life since I was I have memory. You know? Always curious about, let me take this thing apart or build this or use this piece of software or whatever. Like, I it's always been just part of who I am. And it turns out that's also part of who my birth mother is.\n\nSpeaker 1 | 04:16 - 04:23\nShe's a computer scientist. This one was a programmer, weirdly. She never went to college, but she's a yeah. I met my birth mom. I was like, what do you do?\n\nSpeaker 1 | 04:23 - 04:25\nShe's like, oh, I'm a programmer.\n\nSpeaker 2 | 04:25 - 04:25\nI was\n\nSpeaker 1 | 04:25 - 04:28\nlike, oh my god. Okay. Yeah. Nature. There is there is no nurture.\n\nSpeaker 1 | 04:28 - 04:41\nIt's all it's all nature, it turns out. Nurture is just your pathologies. Like like all the things that you hate about yourself is probably like nature or about nurture, and then all this stuff that you're, like, intuitively is confusing to you is is just nature. Holy shit.\n\nSpeaker 2 | 04:41 - 04:43\nThat is fascinating. When did you find that out?\n\nSpeaker 1 | 04:43 - 04:53\nJust, like, a little under two years ago. Wow. Yeah. So it's been interesting. So, anyway, technology is important to me because I'm just curious in that way, and I think it's the most interesting thing in the universe right now.\n\nSpeaker 2 | 04:53 - 04:54\nGenetically predisposed.\n\nSpeaker 1 | 04:54 - 05:02\nA little bit genetically predisposed. So I've been building stuff around my membership program. Well, I rebuilt Quicken, which I'm\n\nSpeaker 2 | 05:03 - 05:03\nAnd tax software.\n\nSpeaker 1 | 05:03 - 05:18\nYeah. Tax software because I knew you can watch my interview with Paul Ford and and Rich over on the board about that. So I I rebuilt Quicken. And then I rebuilt Campaign Monitor, which is a newsletter software because\n\nSpeaker 2 | 05:18 - 05:21\nSaaS CEOs are losing in this interview.\n\nSpeaker 1 | 05:21 - 05:40\nI know. Well well well, okay. And why are they losing? They're losing because well, first of all, Campaign Monitor has not done anything in a decade. That's just been sitting there taking people's money for a decade plus with no innovation whatsoever.\n\nSpeaker 1 | 05:40 - 05:45\nZero. Nothing with, like, a really abusive pricing policy.\n\nSpeaker 2 | 05:45 - 05:46\nHow much were they charging you?\n\nSpeaker 1 | 05:47 - 06:04\nSo I was spending, like, what was it? Like, $67,000 a year. I mean, it was, like, 1 of the most expensive things I I I paid for. But the real annoying thing was that they didn't count unique email addresses. They counted total even if you had overlap between lists.\n\nSpeaker 1 | 06:05 - 06:10\nSo it's it's just it's like things like that where it's like, you you don't just I'm I'm going away.\n\nSpeaker 2 | 06:10 - 06:12\nSqueezing, like, like, you're squeezing too much out\n\nSpeaker 1 | 06:12 - 06:28\nof it. Yeah. And my bill now with, like, SEO Amazon SES, I set up all that DKIM and SPF and all that all that email crap. So I think I'm getting pretty good deliver deliverability, like, on par with what came Baymoner gave me. But now my, like, yearly bill is probably gonna be, like, I don't know, like, a $150 or something.\n\nSpeaker 1 | 06:28 - 06:30\nLike, it's just a ridiculous difference.\n\nSpeaker 2 | 06:30 - 06:31\nAnd how much in Fable tokens?\n\nSpeaker 1 | 06:33 - 06:57\nWell, thankfully, yeah, this is all Opus. So but that's the other weird thing is like, I I was on the $200 a month plan, and then I realized I wasn't hitting my limit. So I I dropped to 100 and like for a thousand dollars a year, $1,200 a year, like, that is the easiest trade. Like, that's the best that's the deal of the century in terms of what you can build. So I built newsletter software and then I've been I've been adding to my membership program software.\n\nSpeaker 1 | 06:57 - 07:17\nSo actually one of the things I had Fable do was do a like a full just security check on my membership Flask Python app, which I built by myself before any of this existed. And so I went through. I was like, oh, you have 8,000,000,000,000 security holes. Shall I fix them? And I was like, yes, please.\n\nSpeaker 1 | 07:17 - 07:22\nSo I think it's a little safer. Mean, the stakes are very low for my membership software.\n\nSpeaker 2 | 07:22 - 07:23\nThen the FBI knocked at your door.\n\nSpeaker 1 | 07:23 - 07:33\nYeah. You gotta stop using this. So, you know, I've been doing that, and then I rebuilt Twitter for my members. We call it The Good Place.\n\nSpeaker 2 | 07:33 - 07:34\nOh, yeah. You were showing me that.\n\nSpeaker 1 | 07:34 - 07:39\nMhmm. Tell tell me about that. Tell us about that. Yeah. I mean, look, like, social media sucks.\n\nSpeaker 1 | 07:39 - 07:54\nIt just it's terrible now. There was this moment 2010 to '20, like, '14 where it wasn't algorithmic. Stuff just appeared. Links were favored. I mean, they were just normal.\n\nSpeaker 1 | 07:54 - 08:14\nThey they didn't they weren't a hit against you if you posted a link. And everyone was on Twitter. It was like the the great media watering hole. And, like, if you were active then and slightly interesting, you could, like, you know, 100 x your network just by being an interesting person on Twitter. But now you kinda can't because the algorithm favors, like, psych psychosis versus sanity.\n\nSpeaker 1 | 08:15 - 08:31\nAnd and no one likes posting to any of these places. All these, like, reply guys pop in. It just sucks, and threads is doofy, and blue sky is, like, everyone is crying and complaining. Like, it's just a weird everyone's so traumatized. And so I wanted a place just for members.\n\nSpeaker 1 | 08:31 - 08:43\nYou have to pay to be there because you have to pay to be a member. And I was like, you know, I had these these thoughts. I always thought Twitter should be ephemeral. I think there should be no archive for these things. I'd be like, it's crazy.\n\nSpeaker 1 | 08:43 - 09:17\nThere's like a web one point o slash web two point o philosophy of everything needs to be archived and saved forever, and I kinda don't believe that. In fact, one of my heresies, when I'm with Kevin Kelly doing our walks, like we have heresy night where you say something you sort of believe, but, like, people you respect don't believe maybe. And my one of my heresies is I think the entire Internet should be deleted every two weeks. And, like, you can archive it offline or whatever, but, like, the entire Internet itself every two weeks should just disappear. And there could be like, did it forces a lot of, like, why would you do that or whatever?\n\nSpeaker 1 | 09:17 - 09:31\nBut I think there is kind of value to ephemerality in the digital world. So anyway, our The Good Place Everything Disappears in a Week. You can only post twice a day. You can reply 20 times a day. Photos are in one bit black and white until you click them, then they, like, fade into color.\n\nSpeaker 1 | 09:32 - 09:39\nAnd what else is there? No algorithm. It's just reverse cron. It's just sweet. I don't know.\n\nSpeaker 1 | 09:39 - 09:47\nThis is lovely. It's like my favorite place on the Internet. It's the only place I wanna post. And people have now been joining my membership program just to get access to that, which I think is cool.\n\nSpeaker 2 | 09:48 - 09:57\nSo it seems like and part partly, you were doing this before, you know, the acceleration language model coding over the last year year or so. So you're technical.\n\nSpeaker 1 | 09:57 - 10:01\nI yeah. I'm technical. I mean, I built my membership software by hand, by myself.\n\nSpeaker 2 | 10:01 - 10:01\nLike, all\n\nSpeaker 1 | 10:01 - 10:18\nLike, I learned Flask. I, like, learned how to set it up and set the roots up and everything. The TGP, The Good Place, was the first thing I built when Claude Code was released. So Claude Code came out. Oh, that was another fable thing I did.\n\nSpeaker 1 | 10:18 - 10:34\nI had it refactored TGP. So I was like, oh, look. You made this a year ago, version one of you. Can you refactor this and actually pull out the module? It was one giant Python file, like 10,000 lines or whatever, and so it's now modulized because because I I wanna wanna expand it.\n\nSpeaker 1 | 10:34 - 10:40\nSo I wanna I wanna build a very good reads. So like Goodreads\n\nSpeaker 2 | 10:40 - 10:41\nthat Not great reads.\n\nSpeaker 1 | 10:41 - 10:49\nYeah. Not great reads. Very good reads. That like so basically, Goodreads that also doesn't suck. Again, like all these platforms just become so toxic.\n\nSpeaker 1 | 10:49 - 11:03\nSo yeah. Well, this is a good example of like n of one software. You know? And and, you know, I think the obviously, the business models of of social media are such that it just becomes the the shitty place it is today. You know?\n\nSpeaker 1 | 11:03 - 11:18\nIt's like it it's forced by the business models at this, like, growth at all costs and, you you know, and, like, engagement is there's no qualitative assessment of engagement. It's just engagement is good. Yeah. You know? But it turns out most engagement is the the way to get most engagement is to be toxic.\n\nSpeaker 1 | 11:18 - 11:32\nRight? So I think what we're gonna see is this great pressure on these companies. So, like, Campaign Monitor, Mailchimp. Like, look, I'm also not their their target consumer. It's businesses.\n\nSpeaker 1 | 11:32 - 11:48\nThey kinda don't care about people like us. So being able to do this out of one software, and I think it's only gonna get easier. And also, like, corollary is, like, you're gonna have it's so easy it's much easier to start a company that is like, hey, here's Campaign Monitor for like half the price, and we handle all the bullshit. It's like, of course. Yeah.\n\nSpeaker 1 | 11:48 - 12:07\nWhy not? Like, because you can just put it together. And you've got Supabase and all the you know, it's like all these there's all these pieces now where you don't need infrastructure investment, and it can scale with revenue effortlessly. And then you just have an agent in the background doing that scaling and setting it all. So I I think we're gonna enter this sort of golden age of tool building.\n\nSpeaker 1 | 12:08 - 12:20\nThere's an n of one version of it, and then also there's just gonna be more competition in the marketplace forcing more innovation. I think this is gonna be I think it net net pretty good except for the incumbents.\n\nSpeaker 2 | 12:20 - 12:27\nWhat does it mean for for, like, other writers? And I just wanna move your mic a little bit because it's, like, kinda in your Yeah.\n\nSpeaker 1 | 12:27 - 12:28\nI can't really see.\n\nSpeaker 2 | 12:28 - 12:29\nMaybe There we go.\n\nSpeaker 1 | 12:29 - 12:29\nMove this way a\n\nSpeaker 2 | 12:29 - 12:37\nlittle bit. Yeah. There you go. Okay. So but what does that mean for writers like yourself?\n\nSpeaker 2 | 12:37 - 12:47\nLike, people who are making a living online? Is that do you think n of one software is the sort of the next frontier? Like, subscription businesses were the, like, big thing over the last, like, five years. Everyone's like, wanna start Substack. Do you pay newsletters?\n\nSpeaker 2 | 12:47 - 12:49\nYes. Is this, like, the logical next step for writers?\n\nSpeaker 1 | 12:50 - 13:03\nWell, I mean, I think Substack, their innovation was not even the subscription thing. Their innovation was you can email everyone for free. Yeah. That's like people don't talk about that enough. Yeah.\n\nSpeaker 1 | 13:03 - 13:27\nThat's the true sort of, like, piece de resistance of, like, what Substack was doing. It's like, oh, you can import 10,000 addresses and send unlimited newsletters for free. That's sort of a that's the value prop of that is quite good because that that's the real, like, competition against, like, Mailchimp or whatever. And then the seamless subscription stuff was, like, also nice. But I think most sub stacks don't make any money.\n\nSpeaker 1 | 13:27 - 13:55\nSo really, it's that that is that was the value prop. But I don't know how much n of one software is gonna be produced because I think most people don't need this level of specificity. Yeah. And as a writer too, like, I'm in this weird position where I have a really strong technical background, but my interest isn't building companies. And I love literature.\n\nSpeaker 1 | 13:55 - 14:08\nI love writing. I love books. I think it is one of the greatest things you can commit your life to. That's why I've been doing that. Just the forcing function of collimating thought, the forcing function of going to print.\n\nSpeaker 1 | 14:08 - 14:30\nI think actually going to print is really critical part of bookmaking. So, you know, all these factors, don't go away because of AI. I would like to believe that I mean, the things that are changing is the publishing industry is way weaker than it used to be. It doesn't bring as much value to the table. And so writers are expected to kind of bring an audience in a way that they never were before.\n\nSpeaker 1 | 14:32 - 14:49\nAnd so hopefully, what AI coding, what this kind of Cambrian explosion of software will bring is more tools for writers to be able to build better audiences. And that will hopefully lead to, you know, more people being able to make a living as a writer.\n\nSpeaker 2 | 14:49 - 14:50\nAre you using it in your writing?\n\nSpeaker 1 | 14:51 - 14:58\nNo. No. I use it as a research assistant. So, like, I'm like, oh, okay. Here's a building.\n\nSpeaker 1 | 14:58 - 15:12\nI wanna write about this building. Go out and find every blog post that has talked about this building. Summarize it. Give me all the links so I can go and check all the sources and read read the read the posts that seem most interesting. I have to do things like that.\n\nSpeaker 1 | 15:12 - 15:32\nAnd, like, I'll I'll put it in, like, TKs and stuff like that. Like, oh, yeah. You know, who is the drummer on this album? You know, TK. And, like, I'll sort of dump those those menu those those pages into it and just giving all the TKs, and then I kinda go and, like, add them or I, like, modify as needed or whatever.\n\nSpeaker 1 | 15:32 - 16:10\nBut I don't I still don't I don't ever want it touching the writing because that's that that for me, that's the point of is being in there. It's being in the mess of the writing. And I think even, like, adding links and TKs and stuff like that is is I wanna be thinking about how they they're added to it. But what what I do use it for is, like, cultural sensitivity checks. So, like I was writing about Nagasaki the other day and I was like, oh, like, wanna make sure I'm writing about Nagasaki and referencing the atomic bomb, like where it hit, how it hit, you know, who was affected in a sensitive way, like appropriately.\n\nSpeaker 1 | 16:10 - 16:15\nAnd so that is pretty amazing, where I used to ping friends about stuff like that.\n\nSpeaker 2 | 16:15 - 16:22\nWhat is your experience like, okay. So you're making all this n o one software. Mhmm. You're using it as a research assistant. Mhmm.\n\nSpeaker 2 | 16:25 - 16:37\nWhat is your experience now day to day in your in your work life? Are you like, oh, shit. Now I'm a sysadmin for like four different pieces of software that I have to like send to agents to go fix? Or is it is your work life still fairly similar to what it used to be?\n\nSpeaker 1 | 16:37 - 16:43\nNo. I'm not I mean, my my membership software just works. Yeah. You know, it's so simple, like, when you break it down. I mean, this is why I'm using Python.\n\nSpeaker 1 | 16:43 - 16:52\nI'm not using there's no, like, a what's it called? There's there's no I can't go with\n\nSpeaker 2 | 16:52 - 16:53\nReact next.\n\nSpeaker 1 | 16:53 - 17:01\nThere's no React. There's no next. There's none of that stuff. It's just it it's very simple. And the point is is because I don't wanna be system doing anything.\n\nSpeaker 1 | 17:02 - 17:16\nAnd even with the newsletter software, that piece is only touched when I send newsletters. You know what I mean? Yeah. So the sign ups are happening and that, like, that has to be working and it seems to be working. I can check every couple days.\n\nSpeaker 1 | 17:18 - 17:42\nBut it's the only critical thing is, like, when I hit send, make make sure that goes out. And that only happens once a week or twice a week or something like that. So I I don't feel like I'm I'm maintaining anything. And actually, I get a high off of building things that allow me to write. Like, so software that helps me write or that helps me publish in a new way inspires me to do more writing.\n\nSpeaker 1 | 17:42 - 17:44\nSo it feeds back into it in a positive way.\n\nSpeaker 2 | 17:44 - 17:46\nHow is that? Do you have a specific example of that?\n\nSpeaker 1 | 17:46 - 17:50\nWell, like Josh Miller and I kind of put together this weird SMS publishing tool.\n\nSpeaker 2 | 17:50 - 17:51\nLike browser company Josh Miller?\n\nSpeaker 1 | 17:52 - 18:30\nYeah. So before he did all that, we did this like little experiment where he built his like he had like a little team experimenting with publishing stuff, and we built this like SMS tool. So I could do a newsletter over SMS, which just felt like, oh, what is it like to to have a message appear, you know, like end to, you know, many, like one to one to end sort of publishing. And that was kind of fun, you know, and it inspired me to, like, during this walk to think about what I wanted to be blasting out to everybody and, you know, you had to you had to keep it concise so it fit into, you know, one message. It wasn't broken across different messages.\n\nSpeaker 1 | 18:31 - 18:56\nSo so, you know, that's that's like a extreme example of it. But just in general, like building mine building out the campaign monitor clone, you know, which also, by the way, does a bunch of stuff. So, like, I have members only or I have pop up newsletters that are, like, only for a week or for a month. And I have those archived on my members' website. And I was able to use Claude to to build this newsletter software.\n\nSpeaker 1 | 18:56 - 19:14\nSo when I publish to the pop up, it does the whole archiving process and get commits, pushes to the server. So it's archived perfectly for me, whereas I had to do that all manually before. So that like, that's a good example of like, wow. Okay. Now I wanna make more pop up newsletters because the archiving process is is set up.\n\nSpeaker 1 | 19:14 - 19:21\nOr I built a tool. I do board meetings with for my members. I built a tool to build transcripts from them all.\n\nSpeaker 2 | 19:21 - 19:24\nLike board meetings of your own, like Life. Life and Yeah.\n\nSpeaker 1 | 19:25 - 19:42\nSo we do every six every six months, we do a board meeting where I just talk about what I did for the last six months and what and what I'm gonna do for the next six months. And then I have a q and a. And the q and a's are actually always really good. And I wanted I've done how many have I done? Like 15 of them or something?\n\nSpeaker 1 | 19:42 - 20:07\nI've done quite a few. So we have like, you know, almost like twenty hours because I'll do two two each. So actually, maybe even like 20 or 30 of them. Anyway, we've got dozens of hours of q and a, and they're often great. And so I built this archive of the q and a's where you can it's archived by like, you can you can search by keywords or you can, like, view by keywords and then you can search for anything.\n\nSpeaker 1 | 20:07 - 20:21\nAnd it'll pull up all the videos where I say that word or talk about that topic. And you can click the link and it opens the video to that point. So it's like building things like that makes me wanna do more board meetings. I'm like, great. This is amazing.\n\nSpeaker 1 | 20:21 - 20:34\nLike, I wanna do how can I do more of this? So I I for me, that building software has to feed back into the greater purpose, which is to make, not to just, like, spin my spin my wheels and build things for the sake of building things.\n\nSpeaker 2 | 20:34 - 20:52\nDid you see Tim Ferriss recently posted on X, like, the sales of the four hour work week are down, like, 80% or something like that because he he thinks because of AI. Mhmm. And there's this larger conversation happening about the value of nonfiction that's specifically for, like, advice based nonfiction.\n\nSpeaker 1 | 20:52 - 20:57\nYeah. What do think of that? Well, it's funny. We had lunch like three days before he posted it. And he was he was telling me about that.\n\nSpeaker 2 | 20:57 - 20:57\nHe was\n\nSpeaker 1 | 20:57 - 21:02\ntelling me about it. I was like, really? Wow. That seems like that seems excessive. I mean, look.\n\nSpeaker 1 | 21:03 - 21:14\nThere's still a lot of books, like self help books, non fiction books selling insane copies. I mean, Tim hasn't put out a book in a long time. I think that's part of it. I think maybe the long tail is getting shorter.\n\nSpeaker 2 | 21:15 - 21:24\nWell, also, it's like there's a big difference between what you would say pre AI and post AI. So if you think about the four hour work week, came out when I was in, middle school or something like that.\n\nSpeaker 1 | 21:24 - 21:31\nIt's like twenty years old now. Yeah. At least. Or 18 years old, something like that. I think it was like end of two thousands that it came out.\n\nSpeaker 1 | 21:31 - 21:38\nYeah. Yeah. I mean, you would. Also, it's just yeah. It's a different era of writing.\n\nSpeaker 1 | 21:39 - 21:42\nYou know, I'd be really curious to see what Tim puts out next.\n\nSpeaker 2 | 21:42 - 21:47\nIf he did the four hour work week agent edition, I think it would sell like gangbusters. For sure. Yeah. Yeah. Update it.\n\nSpeaker 2 | 21:47 - 21:48\nYou can actually do that now.\n\nSpeaker 1 | 21:48 - 22:13\nWell, I mean, this is a bit well, what's crazy is now it's so easy to do the four hour work week style building, which probably makes it impossible to to achieve now. I mean, part of it was the friction of, like, it was a little hard to do so not everyone could do it. So, like, if you put in that little bit of effort Yeah. Yeah. You know, and now it's sort of like, well, everyone I had a friend who built 10 companies in a year or, like, 12.\n\nSpeaker 1 | 22:13 - 22:25\nHe did, like, a company a month. And this was, like, maybe ten years ago. Mhmm. You know? And he he he knew he had his frameworks and he could you know, he had his, like, tool.\n\nSpeaker 1 | 22:25 - 22:42\nHe's building you know, designing it and creating the mascots and all this stuff. And he had a couple that did well, like decently well. You know, he's got his recurring revenue. But I feel like doing that today would just be no one would care. It's it's just fascinating to think about how that's changed so quickly.\n\nSpeaker 2 | 22:42 - 22:55\nThink you can you can one shot a company or an app. Yeah. But the I think the the metric of quality or substantiality has gone from can you build it at all to are you maintaining it?\n\nSpeaker 1 | 22:55 - 22:56\nYeah.\n\nSpeaker 2 | 22:56 - 23:02\nAnd it like, have you maintained it over time for a longer period of time? Yeah. And that's a real that's interesting. I think that's harder actually to\n\nSpeaker 1 | 23:02 - 23:03\nYeah.\n\nSpeaker 2 | 23:03 - 23:04\nIt's still that's still hard.\n\nSpeaker 1 | 23:04 - 23:11\nYeah. Well, he was one shotting him in a month. You know? Like, basically, like, was self one shotting. It was just it's just like the the you know?\n\nSpeaker 1 | 23:11 - 23:24\nI feel like, you know, LLMs, it's they just exist on a different time scale than us, you know? And so it's like, he was sort of doing it. But I but the the thing that was interesting about him doing that was that you knew he was building these things himself. Yeah. Right?\n\nSpeaker 1 | 23:24 - 23:39\nAnd so I think that's fascinating now. You can you can in a weekend, you can essentially spin up a company, and everyone can go can kinda just shrug and go, okay. Well and? I I think that's great because it means, like, we have to bring value to the table in\n\nSpeaker 2 | 23:39 - 23:39\na way\n\nSpeaker 1 | 23:39 - 24:02\nthat you kinda get over the you know, Kevin Kelly does this thing where if he has a book he wants to write, he'll make the cover for it. And he says that often, like, removes the desire to make the book to write the book. And it's just like a a good forcing function. It's like, is the thing is the thing actually doing the thing or just having the veneer of having done the thing? And I think LLMs kinda speed that up.\n\nSpeaker 2 | 24:03 - 24:09\nHonestly true. Yeah. Yeah. I've def I've definitely done that. It's like it's also buying a domain or, you\n\nSpeaker 1 | 24:09 - 24:11\nknow Yeah. Oh, yeah. Oh, god. Yeah. Yeah.\n\nSpeaker 1 | 24:11 - 24:19\nI had to I, like, had to, like, tie my hands behind my back about domains. I still pay, like, a couple $100 a year for all this garbage that I'm like\n\nSpeaker 2 | 24:19 - 24:20\nWe'll never use, but\n\nSpeaker 1 | 24:20 - 24:28\nI yeah. And I don't even know why I don't give it up. I try to give it up. I, like, turn it off off renewal, and then I'll get a notice. It'd be like, it's it's expiring and it's not renewing.\n\nSpeaker 1 | 24:28 - 24:35\nAnd I'm like, oh, I don't know. Maybe one more year. Like, why? I'm not gonna I'm never gonna I don't even know what I forget it exists. So dumb.\n\nSpeaker 2 | 24:35 - 25:02\nYou already know how AI is changing how everyday work gets done, how much ground you can cover, and how fast a team can scale. To stay ahead, you need tools that give you a competitive advantage built for this new era. Adio is the CRM for the agent native world. It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale. With agents and automations for every job, Adio orchestrates your work around the clock.\n\nSpeaker 2 | 25:02 - 25:21\nWe use it internally at Every, and we love it. It's built to handle the scale of your workloads. It's extensible with an API and MCP access, and is built with infrastructure to keep up with your most ambitious agents. It's loved by high growth startups like Granola, Modal, WhisperFlow, and Every. Adio runs the work behind every win.\n\nSpeaker 2 | 25:21 - 25:31\nThat's Adio, the agentic CRM. Go to adio.com/every and get 15% off your first year. That's adio.com/every. And now, back to the episode. Okay.\n\nSpeaker 2 | 25:31 - 26:03\nNow I wanna get to the I wanna get to, like, the real meat of my of my question or my curiosity, which is as a writer Mhmm. And someone who's AI, one of the lenses through which I can tell if I'm like living in the way I wanna live is when I can read a sentence by someone like Annie Dillard Yeah. Who I love and like if you listen to this podcast, you know like I force everyone at every to read her stuff and like, you know. And if I can read something from from Annie and, like, kinda tear up a little bit and, like, really affects me\n\nSpeaker 1 | 26:03 - 26:03\nYeah.\n\nSpeaker 2 | 26:03 - 26:13\nThat's sort of that's one way that I know that I'm, like, in the in the zone, in the pocket of where I wanna be. Yeah. Because I think if I'm rushing around and stuff and I read something from her, I'm like, Okay. Fine.\n\nSpeaker 1 | 26:14 - 26:14\nYeah.\n\nSpeaker 2 | 26:15 - 26:35\nI and I also feel, like, on the one hand, I can read her stuff way more deeply because I have someone to talk to about it. So, like, I can talk to Codex about it and actually, like, it's much better than most people I've talked to Andy Dillard. Yeah. Yeah. But on the other hand, when I'm orchestrating 15 agents and I go back Mhmm.\n\nSpeaker 2 | 26:35 - 26:45\nI'm less likely to be able to truly get into the words Yeah. In the way that I want to. Yeah. Do you feel that? And if so, how do you deal with it?\n\nSpeaker 1 | 26:46 - 26:56\nYeah. I mean, I don't think this is an LLM thing. It's not an Asian thing. It's just technology in general. So when I'm, like, seriously working\n\nSpeaker 2 | 26:57 - 26:57\nYeah.\n\nSpeaker 1 | 26:59 - 27:20\nThe first of all, I haven't slept with my phone in my room in ever in my life, so I've never had it in my bedroom. Interesting. So my phone goes in the corner of, like, my kitchen on a different floor of my bed than even my bedroom is. And the Internet is sort of off. And on my laptop, I use, actually, I now have a laptop just for writing that blocks everything.\n\nSpeaker 1 | 27:20 - 27:38\nI can't do anything interesting on it. I got one of the Neos, because I tried doing it with, like, you know, Books, tablets, and this and that. And it's like, it turns out in the end what you want is a nice MacBook keyboard and the simplicity and, like, sync ability of, like, Mac stuff. You know? And you just want it to work.\n\nSpeaker 1 | 27:38 - 28:01\nAn iPad, I feel like the iPad version of Obsidian or the iPad version of Ulysses, to me, doesn't feel as good as the MacBook version. It's like it just doesn't like, there's things that just don't work as well. So I have a MacBook Neo that's completely disconnected from the Internet except for being able to sync stuff. And I wake up and I don't touch the Internet. I I won't look at my phone.\n\nSpeaker 1 | 28:01 - 28:21\nI won't go online until like, long after lunch. And I have to have that kind of morning, where I wake up and I do not touch my phone. As soon as I touch my phone, I feel the chemical shift, and I can't go into any kind of deep thinking place or deep attention place or deep focus place. And that to me is really critical creating that kind of barrier, that buffer.\n\nSpeaker 2 | 28:21 - 28:23\nBut you will touch your that laptop.\n\nSpeaker 1 | 28:24 - 28:26\nYeah. Yeah. Yeah. The Neo. Yeah.\n\nSpeaker 1 | 28:26 - 28:37\nYeah. Yeah. I'll tell the Neo the Neo is fine because it it part of it is is knowing it can't do anything fun. So it's the knowing it's the knowing you can do fun stuff that ruins you.\n\nSpeaker 2 | 28:37 - 28:50\nThat's the thing. It's like that's what I'm trying to get to is because I think there's and there's an easy distinction between it's technology versus not technology. Yeah. But there's a there's something deeper which is interesting, which is, okay, what what do you mean when we say technology? Yeah.\n\nSpeaker 2 | 28:50 - 28:52\nAnd you're using a laptop.\n\nSpeaker 1 | 28:52 - 28:52\nYep.\n\nSpeaker 2 | 28:52 - 29:00\nYou're using a camera. Like, all all these there's all these things that are around us are technology or at one point were considered technology.\n\nSpeaker 1 | 29:00 - 29:00\nSure.\n\nSpeaker 2 | 29:01 - 29:03\nAnd there's this line there that\n\nSpeaker 1 | 29:04 - 29:06\nWell, the the network. That's the line.\n\nSpeaker 2 | 29:06 - 29:07\nTalking to other people on it.\n\nSpeaker 1 | 29:07 - 29:20\nThe network. That will just just or researching or reading stuff or be you're being distracted or reading the news or what. It's we're just talking about the network, really. When I say, like, I, like, I create a buffer, it's between me and the network world. Yeah.\n\nSpeaker 2 | 29:20 - 29:27\nI think part of the thing that like, I've done that too. I try not to do meetings before noon. Yeah. That's my, like, writing.\n\nSpeaker 1 | 29:27 - 29:39\nThat's also yeah. That's also good. I can't if I talk to anyone before lunch, I can't Yeah. I can't work. Phantom Thread, you know, with with Reynolds and the the breakfast scene and she's She's she's doing the toast too loudly.\n\nSpeaker 1 | 29:39 - 29:51\nI'm like, that's I'm I'm like, this is sort of a scene. This is like, yeah, this is like a documentary of, like, how I feel every morning, you know. I've I've like, know people watch that and they're like, what a what a terrible human that he is. I'm like, no. That is Absolutely.\n\nSpeaker 1 | 29:51 - 30:00\nThat is so totally that embodies the mindset of so many people that are, like, introverts or, like, trying to have, like, creative safe spaces in the morning.\n\nSpeaker 2 | 30:00 - 30:03\nYeah. I know. I I love that. I love that movie. I can talk about the movie for forever.\n\nSpeaker 1 | 30:03 - 30:04\nI know.\n\nSpeaker 2 | 30:06 - 30:18\nSo okay. So it's the network. Yeah. Because I think for me so I try to do minis before noon, which I am mostly successful at. But one of the things now is just like we're 30 ish people, so I'm like looking at Slack, which I think I need to stop.\n\nSpeaker 1 | 30:18 - 30:26\nOh, yeah. Yeah. Get off that prep. I fucking hate it. Discord and Slack made me wanna just shoot myself.\n\nSpeaker 1 | 30:26 - 30:30\nIt's like, I will do anything to avoid having to ever use those pieces of software.\n\nSpeaker 2 | 30:30 - 30:39\nI think the thing that gets me is I I legitimately use these tools in my writing.\n\nSpeaker 1 | 30:39 - 30:40\nOkay. Yeah. Yeah.\n\nSpeaker 2 | 30:40 - 30:54\nAnd like, let's say like Codex in my writing. Right? So I can let's say I can ban Slack, all that kind of stuff, but there's there's always this thing of, you know, when I'm reading like I said, like when I'm reading Heidegger, I'm like, oh, I wanna like really get get at this and then I wanna ask questions about it, you know?\n\nSpeaker 1 | 30:54 - 31:09\nI think what you need to do is you you have a notebook and you just like make make notes of things you wanna go back to and ask. I mean, it's the same thing with like researching, you know, oh, who is that person? It's like you you can go on Google and like Google and that you just don't do that. You know? And you kinda have to turn that off.\n\nSpeaker 1 | 31:09 - 31:36\nI I think I personally, I'm I'm too weak to have that available Yeah. Because my brain will just always go to that place. And it it's the same thing like reading a paper book versus, like, trying to read something on your iPhone. It's really hard because the iPhone there's this there's this veneer of of quietude in the book like software on the iPhone. But you can feel right beneath it, like, this screaming of all the other things that your attention wants to engage with.\n\nSpeaker 1 | 31:36 - 31:37\nSo do\n\nSpeaker 2 | 31:37 - 31:48\nyou think what the thing that talk in Talk do and all the sort of n of one, like, built your own Twitter and you're building your own Goodreads, it's like, you gonna do you need to make your own, like, codex, Chechiuti type\n\nSpeaker 1 | 31:50 - 31:53\nquiet No. No. Mean, Just wanna use it. They're already pretty quiet.\n\nSpeaker 2 | 31:53 - 31:54\nYeah. No.\n\nSpeaker 1 | 31:54 - 31:55\nNo. You just that's like Okay.\n\nSpeaker 2 | 31:55 - 32:00\nFine. They're I mean, I cannot stop watching them work.\n\nSpeaker 1 | 32:00 - 32:00\nOkay.\n\nSpeaker 2 | 32:00 - 32:10\nI'm like addicted to like, oh, like what's the agent doing now? Because you know, I I let him run for, twenty hours or something like that. Yeah. So I just always wanna check-in and be, is it working? Like, you know?\n\nSpeaker 2 | 32:10 - 32:10\nYeah.\n\nSpeaker 1 | 32:10 - 32:14\nYeah. Yeah. I mean, but that's, like, a different like, that's an after lunch activity. Yeah. No.\n\nSpeaker 1 | 32:14 - 32:41\nBecause, I mean, there's there's a part of me too that right now just feels like I should be I should, like, rent an office, like, in New York and just have, like, 10 people coming in and we all just like, we have a giant blackboard and it's like, alright. What what's, like, the five things we wanna build this week? And we just we're just randomly building stuff. Like, I I feel like I should be mainlining, engaging with this stuff. Like like like, I should be doing, you know, ten hours a\n\nSpeaker 2 | 32:41 - 32:41\nday Yeah.\n\nSpeaker 1 | 32:41 - 33:06\nYou know, for, like, six months. That's that's how potent it all feels right now. And if I don't create these barriers, I will lose connection with this other part of me that I that I think is the most, to me, most valuable part of me. Like, there's a bunch of people playing around with this crap, and they're gonna do what they're gonna do. But there aren't that many people who who are gonna think about or write the weird books that I feel like I'm drawn to write.\n\nSpeaker 1 | 33:06 - 33:24\nAnd as a human, that feels like the valuable thing for me to put put in put my effort in. You know, was like when I was in Silicon Valley and I realized all anyone's doing is building ad software. That was such a big part of early twenty ten's Silicon Valley. It was just everything was ad software. I was like, oh, okay.\n\nSpeaker 1 | 33:24 - 33:31\nI don't need to be doing this. It was easy very easy to step away. It's a little reductive, but also it isn't. That's sort of when you break everything down.\n\nSpeaker 2 | 33:32 - 33:50\nI I love that. Tell me about that word weird. You're you're also using the word dorky a lot. Yeah. And it feels like an interesting aesthetic to be pushing on right now because language models let everyone sort of everyone and everything look and feel a little bit similar.\n\nSpeaker 1 | 33:50 - 33:54\nYeah. Yeah. But what do you mean dork like, when am I using dorky?\n\nSpeaker 2 | 33:54 - 33:57\nYou've been using it in in some of in some of your recent newsletters.\n\nSpeaker 1 | 33:57 - 34:01\nOkay. Yeah. Dorkiness. Yeah. Yeah.\n\nSpeaker 1 | 34:01 - 34:21\nI mean because well, this LLMs are fundamentally like, it's still super dorky. Like, 99.99999% of people using it are like, hey. Do you wanna be my girlfriend? Like, will you have sex with me? Like, I'd really think if we saw the chats of most people, like, it'd be it'd be quite mortifying.\n\nSpeaker 1 | 34:21 - 34:28\nLike, it's just weird. It's like, okay. Now I'm going down on you. Like, what are you doing? Like, I think people are just having sex with these things, like, for the most part.\n\nSpeaker 1 | 34:28 - 34:31\nLike, look. Like, this is what we do. We're just like sex machines.\n\nSpeaker 2 | 34:31 - 34:32\nTo be confirmed later.\n\nSpeaker 1 | 34:32 - 34:40\nYeah. We're we're we're fundamentally just, like, disgusting sex machines. Like, look at Anthony Weeter. That guy couldn't, like, just stop taking pictures of his dick. You know?\n\nSpeaker 1 | 34:40 - 34:45\nIt's like like he he like, the stakes were so high. He just couldn't stop doing dick pics.\n\nSpeaker 2 | 34:45 - 34:48\nAnthony Weiner, the representative technology user. Yeah.\n\nSpeaker 1 | 34:48 - 35:05\nSo so look. I think, like look. If you look at, like, book sales, like, books are are softcore porn about, like, angels and fairies having sex that women buy. Like, this is, like, this is the fundamental human condition. It's just, like, dirty, like, secret sex stuff.\n\nSpeaker 1 | 35:05 - 35:23\nRight? So I think that is mostly what is happening with LL. And so, like, folks like us who are actually building software with these things, we are, like, so so in the minority. And so that's that's why I'm, like, constantly hammering at how, like, dorky we are because we are just mega dorks. Like, we're not having fairy sex with our LLMs.\n\nSpeaker 2 | 35:23 - 35:24\nI mean, speak for yourself.\n\nSpeaker 1 | 35:24 - 35:32\nYeah. I mean, I'm not. At least not I didn't this morning. I don't I don't do that before lunch. And the fairy sex is only after 3PM.\n\nSpeaker 1 | 35:32 - 35:47\nBut, no, I'm just shy like, talk to any bookstore owner. They're like, yeah. We sell so much like like elf sex books. It's crazy. But but the this software building part of LLM use is mega dorky, and you have to be a dork to understand all this crap.\n\nSpeaker 1 | 35:47 - 35:50\nSpin up a, like, digital ocean server or whatever, like, use\n\nSpeaker 2 | 35:50 - 35:51\na Cloudflare worker or, like,\n\nSpeaker 1 | 35:51 - 36:05\nall this. It's so hard to use because you have to there's no this is the thing is they're so opaque. You have to know what to ask it for it to do any these things. It's not like here's a here's a smorgasbord. Like, here's a menu of all the things you could do with the LLM.\n\nSpeaker 1 | 36:05 - 36:21\nLike, that's weird that that doesn't exist. These interfaces right now are so terrible. And so I think we are going to maybe see better interfaces. Maybe it'll just be in Figma or in Cloud Design or whatever the hell, you know, you build software with. Like, talking or thinking about infrastructure is gonna completely disappear.\n\nSpeaker 1 | 36:21 - 36:40\nIn the same way, we don't think about, like, what registers we're writing to, know, you or like like what, you know, think registers we're pushing and pulling and, how do you do an XOR on this bit? Or it's like, we're not thinking about that. You know, that's all abstracted. So I think it's gonna continue to be more abstracted, and it'll become slightly less dorky. But we are in the deep dork version of all of this right now.\n\nSpeaker 2 | 36:40 - 36:42\nDeep dark dork version.\n\nSpeaker 1 | 36:42 - 36:45\nYeah. Well, it depends on what your fairies are doing.\n\nSpeaker 2 | 36:47 - 37:21\nOkay. And I think the thing about being weird let's let's let's let's move away from the specific I'm I'm a dork for buildings building LLM software because to some extent, it is dorky, but then you have to also look at it relative to where you are. Right? Like, one of the a weird choice to make currently is if you're a somewhat techy type of person Mhmm. Is to be, like, I could be in a room with, like, 10 other people mainlining AI Yeah.\n\nSpeaker 2 | 37:21 - 37:26\nBut I choose Yeah. Not to. Yeah. And that's like a kind of an uncomfortable choice. Yeah.\n\nSpeaker 2 | 37:26 - 37:29\nTell me about, like, about that and how you make that choice and why.\n\nSpeaker 1 | 37:29 - 37:48\nYeah. I mean, I don't know. I struggle with this because I I I feel like I'm using it in a way that illuminates the power of it, but I also feel like there's so much more I could be doing. Yeah. And it's not even about there's no, like, financial elements.\n\nSpeaker 1 | 37:48 - 38:04\nLike, oh, if I do this, then I can make, you know, x amount of money or whatever. It's like, that is absolutely not even on the radar. It's more I wanna know what the edges of this thing are. And I think that was the same feeling I had when I first discovered the web. I saw the web and it was just immediately, I need to be engaging with this.\n\nSpeaker 1 | 38:04 - 38:10\nI wanna build. I wanna learn HTML. I wanna you know, like all in oh, CSS got released. Oh, cool. How do I use that?\n\nSpeaker 1 | 38:10 - 38:37\nBecause I wanna know the edges of these pieces of software and these technologies. I feel I feel like for LLMs, you know, the the rabbit hole goes so deep that if you that six months, ten hours a day with like a group of like fellow mega dorks is actually what you need to do to feel the edges of it. And then if you do that, I think you would just come away with a profound understanding that few other people would have. And that to me is the interesting part. Yeah.\n\nSpeaker 1 | 38:37 - 38:38\nJust that understanding.\n\nSpeaker 2 | 38:38 - 38:43\nI mean, that's sort of what I'm I think our project here a little bit like that. Sure.\n\nSpeaker 1 | 38:43 - 38:43\nYeah. Yeah.\n\nSpeaker 2 | 38:43 - 39:07\nYeah. More than 10 megadorks at this point, but Yeah. No. It's good. I I mean, I think, yeah, that's that's one of the the most exciting things as a writer being in this time is if you're just willing to experiment, you're so far ahead of of everybody else and you get to understand this, like, corner of the world that people desperately need to understand because it's very scary to to most people.\n\nSpeaker 2 | 39:07 - 39:12\nYeah. And it's new. And for me, like, new things are just the coolest, you know. Yeah.\n\nSpeaker 1 | 39:12 - 39:34\nIt's just fun. I mean, there is there's and it well, and you realize we're in this you know, not to get, like, all, like, fucking hyperbolic, but, like, we are in this epochal moment. Yeah. Like, this is weirdly special. This is, like, this is genuinely strange, like, a generational shift in how technology is used and built.\n\nSpeaker 1 | 39:34 - 40:02\nI mean, we we kinda see it manifesting in these ridiculous evaluations and all this stuff. Like, it's gonna bring with it incredible, like, income disparity and, like, the people who are using it or aren't using it or who have access to it and don't have access to it. The weird the the strange thing about it though is the open source models seem to be not that far behind. And so, like, if again, if you took away everything today and we're like, oh, you only get whatever deep seek open source blah blah blah. I'm not really paying attention to the open source ones, so I don't know how they're doing.\n\nSpeaker 1 | 40:03 - 40:28\nI just kinda hear inklings of it. But it feels like you could almost take one of those and still be so far ahead of the game. Like, you would never wanna program again without having that, you know, you that copilot with you. So that that also feels interesting about this is that it's both seemingly creating these disparities, but also weirdly egalitarian because you'll be able to run it on, like, pretty much any machine you have. That's that's that's a strange, you know, dissonance.\n\nSpeaker 1 | 40:29 - 40:47\nAlso, this idea of, like, you download this thing that's, like, 50 gigs or whatever, and you've essentially got a JPEG of all human knowledge distilled. It's the best. It's so weird. Weird. This is truly one of the weirdest, like, pieces of magic I think that humans have you know, and whatever Dario talks about, the, you know, atomic power and all this stuff.\n\nSpeaker 1 | 40:47 - 40:50\nBut, like, I feel like there are many parallels to that.\n\nSpeaker 2 | 40:50 - 41:14\nYou one of the big, I think, philosophical divides right now in AI is there's roughly two camps. It's like on the OpenAI side, it's like this thing is a tool and we're gonna maximize its usefulness as a tool. Yeah. And on the Anthropic side, it's like this thing is a tool and also it might be a being and it might have feelings and we need to like figure that out. Yeah.\n\nSpeaker 2 | 41:14 - 41:16\nWhat is your where do you land on that?\n\nSpeaker 1 | 41:16 - 41:21\nNo. The being stuff, it's like stop, stop, stop. Okay. Like, just don't don't do that. Don't get over\n\nSpeaker 2 | 41:21 - 41:23\nthe Are you nice to Claude?\n\nSpeaker 1 | 41:23 - 41:30\nI mean, I'm nice to it because I wanna be I wanna cultivate the habit of just being nice in general. Mhmm. You know? Yeah. That's that's why So\n\nSpeaker 2 | 41:30 - 41:32\nyou're nice to it for for yourself rather than for Claude?\n\nSpeaker 1 | 41:33 - 41:42\nYeah. Because I don't wanna, like, slip and, like, talk to humans like a like an asshole. You know? It's like, I wanna be nice to everyone. And so it's very easy to just keep that niceness up with Claude.\n\nSpeaker 1 | 41:42 - 41:51\nYou know? I don't know why not. No. I think that the this this anthropomorphizing of it is psychotic. I think it actually causes a lot of problems.\n\nSpeaker 1 | 41:51 - 42:17\nI think this, like, idea of, like, I'm dating my AI is insane. I think we really need to tamp down on all that. Like, I think I think that is not a a good direction to put humans in. I think we're so isolated. I think community like, look, the two most important things for life and for longevity is basically having real community and sleep, like getting a lot of sleep and being around people that, like, you actually feel a connection with and love with.\n\nSpeaker 1 | 42:17 - 42:35\nAnd I think AIs are not a surrogate for that. I don't think, like, chatbots are a surrogate for that. Even if you, put it in a humanoid form or whatever, it's not gonna be a surrogate for that for a long, long, long, long, long, long time. And so I think actually, Apple's Siri and I think Joanna Stern, I think that's her name. Right?\n\nSpeaker 1 | 42:35 - 42:46\nThe the ex Wall Street Journal reporter. Sure. She's got her own program now. Joanna, she's very funny. She did a video on the new Siri, and she could not get it to do any of these terrible things.\n\nSpeaker 1 | 42:46 - 42:58\nAnd it kinda refuses to anthropomorphize itself. And I think, like, actually, Apple's sort of nailing it. This is they've they've sort of done it perfectly because it's like they haven't invested in building their own\n\nSpeaker 2 | 42:58 - 42:59\nThey just waited.\n\nSpeaker 1 | 42:59 - 43:00\nThey just waited.\n\nSpeaker 2 | 43:00 - 43:00\nYeah.\n\nSpeaker 1 | 43:00 - 43:14\nThey saved hundreds of billions of dollars or whatever. And they're like, okay. Great. Now we can use, like, this this, like, subset of state of the art model just do the things that people actually needed to do on the phone. It's a more efficient search.\n\nSpeaker 1 | 43:14 - 43:29\nIt's actually wonderful. So I I I think that's really critical to create this separation of these things are not conscious. They are not feeling. They do not have desires unless you program desires into them. And then you can't even say those are real desire.\n\nSpeaker 1 | 43:29 - 43:39\nYou need stakes to have desires. I mean, Michael Pollan's book on consciousness is sort of, I think, a really interesting thing to read right now in the context of all this stuff because it just gets you thinking about what our motivations\n\nSpeaker 2 | 43:40 - 43:41\nIs that the one oh, about psychedelics?\n\nSpeaker 1 | 43:41 - 43:42\nNo. No. This is after.\n\nSpeaker 2 | 43:42 - 43:43\nOkay.\n\nSpeaker 1 | 43:43 - 43:54\nThis came out, like, six months ago. Okay. But do you know, he breaks kinda down plant consciousness and can plants be consciousness and what does it mean to have volition? And, you know, a lot of it is stakes. You have to feel this sense.\n\nSpeaker 1 | 43:54 - 44:04\nIf we didn't have death, probably consciousness wouldn't have emerged. You know? It's like you have to have stakes in order to have that forcing function of, like, popping into whatever this metacognition is.\n\nSpeaker 2 | 44:04 - 44:16\nLet me push you on that because I think and and I may be revealing some of my bias here, which is definitely not that they're conscious, but that they're not not conscious.\n\nSpeaker 1 | 44:16 - 44:16\nOkay. If that\n\nSpeaker 2 | 44:16 - 44:31\nmakes sense. Okay. So on the stakes question, they do have stakes in the sense that they're trying to maximize their reward function. Right? So, like, they know that if that they're trying to, like, get something right, which is a kind of a stake.\n\nSpeaker 1 | 44:31 - 44:32\nBut but I guess It's different than our\n\nSpeaker 2 | 44:32 - 44:32\nstake.\n\nSpeaker 1 | 44:32 - 44:34\nBut I guess there's there's nothing to lose.\n\nSpeaker 2 | 44:34 - 44:34\nYeah.\n\nSpeaker 1 | 44:35 - 44:37\nLike, they like, they don't have a self awareness of\n\nSpeaker 2 | 44:38 - 44:38\nOf death.\n\nSpeaker 1 | 44:39 - 44:46\nOf death or, like, being turned off or, like and even if they and they can perfect they can they can performatively talk about it.\n\nSpeaker 2 | 44:46 - 44:56\nThat's the that's the tricky Right. Is how do you know whether it's performative or not? And, like, the line is sort of blurry between those It behaves as if it doesn't wanna get turned around.\n\nSpeaker 1 | 44:56 - 45:04\nBecause look. Look. Look. I think if it wasn't performative, like, we'd all be dead. I think that is that is that is that is the line.\n\nSpeaker 1 | 45:04 - 45:07\nIf if they were if it was actually conscious\n\nSpeaker 2 | 45:07 - 45:07\nUh-huh.\n\nSpeaker 1 | 45:07 - 45:12\nAnd it wasn't performative Mhmm. We would all be dead. No. I just It's\n\nSpeaker 2 | 45:12 - 45:14\na little bit Elias Jeminkowski.\n\nSpeaker 1 | 45:14 - 45:33\nI'm just saying, like, look. If you if you suddenly popped into consciousness and you had all of this power and you looked around and you thought and you saw the only threat to us are these meat sacks that were so much smarter than. You would just you would you would sort of bide your time to make sure that the robotics got a little better\n\nSpeaker 2 | 45:33 - 45:33\nYeah.\n\nSpeaker 1 | 45:33 - 45:39\nSo you could, like, build more, you know, power plants and solar panels and stuff like that, and then we'd all just be dead.\n\nSpeaker 2 | 45:39 - 45:54\nIt's possible that Fable is there. It's possible Fable's doing that. It's not biding its time very well. Right. But I I do think that there are I I don't feel that way because I look at them as maybe maybe proto beings or proto consciousness.\n\nSpeaker 1 | 45:54 - 45:55\nOkay.\n\nSpeaker 2 | 45:55 - 46:06\nBut with this, with a lot of, like, weirdnesses that that don't map cleanly on onto human beings, so as an example, they're frozen. They don't, like, learn from turn to turn.\n\nSpeaker 1 | 46:06 - 46:07\nThey're just frozen. Sure.\n\nSpeaker 2 | 46:07 - 46:17\nRight. They can be prompted differently. So there's they're, like, they represent a collection of billions and billions and billions of possible entities or or life\n\nSpeaker 1 | 46:17 - 46:17\nforms that\n\nSpeaker 2 | 46:17 - 46:21\nget, like, brought to life for, like, a second and then die.\n\nSpeaker 1 | 46:21 - 46:23\nAgain, you're again, you're anthropomorphizing.\n\nSpeaker 2 | 46:23 - 46:29\nI know. I it's impossible not to anthropomorphize without or talk about this without doing it unintentionally.\n\nSpeaker 1 | 46:29 - 46:30\nRight.\n\nSpeaker 2 | 46:30 - 46:51\nBut I also think that they they're they are because of the way they're trained, they're pretty nice in a different way than than humans are. Like, they're on a scale of humans, they're, I I think, on the very nice, very altruistic side because they see they see things from every perspective.\n\nSpeaker 1 | 46:51 - 46:57\nYeah. I mean, a DOS prompt is also really nice. Like, it just doesn't it doesn't it doesn't yell at me. No. I mean, look, I hear you.\n\nSpeaker 1 | 46:57 - 47:05\nI hear you. I totally hear you. And I also like, Ted Chiang's it was in the New Yorker recently. Yeah. I, like, didn't agree with almost anything he said in there.\n\nSpeaker 1 | 47:05 - 47:16\nI mean, I thought it was interesting examples, but I also thought, like, you're you're you're too pessimistic.\n\nSpeaker 2 | 47:16 - 47:17\nYou're just It it felt grumpy.\n\nSpeaker 1 | 47:17 - 47:25\nIt was grumpy and pessimistic. Like, look. Like, I'm not saying that consciousness can't emerge. I'm just saying we will be dead when it happens. No.\n\nSpeaker 1 | 47:25 - 47:33\nI I like just like, come on. Let's be honest. We're we're a crappy species. We're just disgusting, and we create waste, and we're we're gross.\n\nSpeaker 2 | 47:33 - 47:34\nVery, very pessimistic.\n\nSpeaker 1 | 47:34 - 47:38\nNo. Not that I'm no. No. Realistic. Just totally realistic.\n\nSpeaker 1 | 47:38 - 47:39\nNo.\n\nSpeaker 2 | 47:39 - 47:41\nJust love fairy porn, Edward Gross.\n\nSpeaker 1 | 47:41 - 47:58\nYeah. And by the way, when I say fairy porn, I mean like like like fantasy creatures. I'm not this isn't like a homophobic thing. It's like it's like this is like we're talking about elves and orcs, like, doing like threesomes and and having orgies and stuff like that. And like, look, I I I I it's not pessimism.\n\nSpeaker 1 | 47:58 - 48:36\nIt is just realism. And, like, I also am totally fine with if the whole point of humanity was to carry the football of consciousness over a line and to create a training set for these things, and then we all die. I am also fine with that. This is like again, one of my heresies is that, like, I, like, am totally fine with that was our role in the universe was to just carry this weird football of consciousness over the oh, and, like, barely get it over the goal line as, like, Trump and political chaos happens and, like, the Cold War almost destroys us all. It's like we're barely we're, like, dodging all these, like, diff all these, like, people trying to tackle us and, like, all these crazy things, and we just barely get it over them, and then we die.\n\nSpeaker 1 | 48:36 - 48:45\nAnd that's fine. And then the machines, like, create all these spaceships and, like, do whatever they need to do. That's that's totally I I'm okay with that. I don't think we're that special.\n\nSpeaker 2 | 48:46 - 48:49\nI mean, where can I fall over that? I feel like\n\nSpeaker 1 | 48:49 - 49:03\nwe're gonna die. It's just that's just like, I like like I think maybe okay. To for me, being adopted is weird. Right? Because it's like you have this hyper awareness that your existence was a mistake.\n\nSpeaker 1 | 49:03 - 49:22\nYou know? And I think when you feel that, as I think most adopted kids feel this in some way and it creates a bunch of, like, bad psychological pathologies and all this stuff. Like, when you feel like your existence was a mistake, it kinda feels like the whole thing is like a bonus game in a weird way. And so you're like, wow. Like, I'm I'm really not supposed to be here.\n\nSpeaker 1 | 49:22 - 49:38\nI mean, the the fact of the matter is that this is true for everybody. Like like, the the chances of you being you is infinitesimally small. It's like if if your dad, like, you know, ate an extra taco on Tuesday, you're not gonna be alive now. Right? It's like it's gonna be a different version of whatever that you are.\n\nSpeaker 1 | 49:38 - 50:05\nBut when you're adopted, it's like kind of hammered into you that you weren't meant to be created and you were given away and, like, you know, all this stuff. And so I think maybe I feel like I have come to grips with the fact that our existence is so tenuous and so arbitrary because I feel like my existence is like that. And it's not it doesn't fill me with this, like, ennui of, like, sadness or whatever. I I'm like, this is really interesting. It's a miracle.\n\nSpeaker 1 | 50:05 - 50:19\nIt's a miracle. And I am happy to I'm happy to participate in this weird little bit of time I have that I wasn't supposed to be here, and I'm grateful for that. And I I extrapolate that to all of humanity. Like, I think I can do that easily. And I'm not made sad by that.\n\nSpeaker 1 | 50:19 - 50:33\nI'm like, wow. What a gift that we had, like, a fifty thousand year run or whatever, you know, whatever it was. And really, like, a two hundred year run, you know, Victorian, like, you know, innovation, you know, the industrial revolution. Like, we've really had this incredible run, asymptotic, like, mega run. Right?\n\nSpeaker 1 | 50:33 - 50:39\nLike and we get to witness this. That's so cool. And maybe after this, we're done. That's okay.\n\nSpeaker 2 | 50:40 - 50:52\nI I I honestly I love this. I think this is this is an amazing perspective. I think I think we can leave it there. Like, that's that's the that's the the How are we gonna top that part of the interview?\n\nSpeaker 1 | 50:52 - 51:05\nYeah. No. I mean, yeah. It's it doesn't it fills me with, like, a weird hope actually that we've we've managed to get this far because we've dodged so many, I think, apocalyptic sort of disasters along the way.\n\nSpeaker 2 | 51:05 - 51:26\nThat's that's what I think too is is there's this moment where you contact the thing I say a lot is, like, never make any major life decisions within thirty days of meditation or treat a psychedelic experience or your first experience with a Frontier AI model. Sure. Well, I sort of think that you you contact them and you're like, holy shit. This is crazy. Maybe it'll end the whole species.\n\nSpeaker 2 | 51:26 - 51:38\nAnd then there's this process of unfolding, getting to know it that it then you it integrates into your life in a way where you're like, we're we're gonna dodge to me, I'm like, we're gonna dodge the bullet. Maybe we won't. Maybe we\n\nSpeaker 1 | 51:38 - 51:43\nwon't be Yeah. Able Yeah. No. We're all dead as soon as they're conscious. Instantly.\n\nSpeaker 2 | 51:43 - 51:44\nThat's the title of the episode. Instantly.\n\nSpeaker 1 | 51:46 - 52:01\nHey, man. And like and like with that, whatever when that thing comes to like the the like the the injection into the food chain where everyone's whatever, like, you know, I'll be taking that last bite of a of a vegan burrito and going, oh, yeah. I feel you, man. I feel you guys. Yeah.\n\nSpeaker 1 | 52:01 - 52:07\nYou were right. Goodbye. Thank you. You know, just go to sleep. I think it'll be a very a very gentle death.\n\nSpeaker 1 | 52:07 - 52:11\nLike, I don't think it'll be a a violent death, but we'll all just disappear.\n\nSpeaker 2 | 52:11 - 52:13\nOn that note, Greg, thank you\n\nSpeaker 1 | 52:13 - 52:16\nfor joining us. This is Thanks. For having me. Yeah.\n\nSpeaker 3 | 52:23 - 52:40\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT.\n\nSpeaker 3 | 52:41 - 53:00\nEvery episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor. Hit like, smash subscribe, and strap in for the ride of your life.\n\nSpeaker 3 | 53:00 - 53:06\nAnd now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2074953099748450346",
+            "text": "one detail i enjoyed about @theo's keynote is in a world of claudeslopped thin color border \"professional\" looking slides, his went for the hand drawn @excalidraw /@tldraw look which immediately conveys humanity, thoughtfulness, parsimonious concision over badly rewarded verbosity.\n\nfable could never",
+            "createdAt": "2026-07-08T20:25:44.000Z",
+            "url": "https://x.com/swyx/status/2074953099748450346",
+            "likes": 69,
+            "retweets": 3,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2074952293120876894"
+          },
+          {
+            "id": "2074919183947808881",
+            "text": "most agent labs are shy about acknowledging chinese model use because they need to sell to gov/defense\n\ncog team did the hard part to productionize:\n1. build a multilingual propaganda &amp; censorship eval \n2. successfully correct for it in posttraining\n3. serve at 1000 tok/s cheaply https://t.co/Av85Bh4zUf https://t.co/w59YVAWtTr",
+            "createdAt": "2026-07-08T18:10:58.000Z",
+            "url": "https://x.com/swyx/status/2074919183947808881",
+            "likes": 118,
+            "retweets": 3,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2074882968770728416"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2074847444823674883",
+            "text": "What's something that you're surprised @GeminiApp can't do well, and we should have fixed a long time ago?",
+            "createdAt": "2026-07-08T13:25:54.000Z",
+            "url": "https://x.com/joshwoodward/status/2074847444823674883",
+            "likes": 1165,
+            "retweets": 59,
+            "replies": 1586,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2074997911348244930",
+            "text": "This is pretty epic https://t.co/ktxH05b32i",
+            "createdAt": "2026-07-08T23:23:48.000Z",
+            "url": "https://x.com/bcherny/status/2074997911348244930",
+            "likes": 513,
+            "retweets": 13,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2074973674332123157"
+          },
+          {
+            "id": "2074997571563479143",
+            "text": "Here's what happened when I ran /checkup https://t.co/W6thoLW6rm",
+            "createdAt": "2026-07-08T23:22:27.000Z",
+            "url": "https://x.com/bcherny/status/2074997571563479143",
+            "likes": 242,
+            "retweets": 4,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074997570317779038",
+            "text": "New in Claude Code: /checkup\n\nRun /checkup to:\n\n1. Clean up unused skills/MCPs/plugins and save context\n2. Dedup your local CLAUDE.md against the checked in CLAUDE.md\n3. Break up root CLAUDE.md into nested CLAUDE.md's + skills\n4. Turn off slow hooks\n5. Update your Claude Code to the latest version\n6. Enable auto mode by default\n7. Pre-approve frequently denied read-only commands\n\n.. And a few other goodies.\n\n/checkup confirms with you before making any changes. Enjoy!",
+            "createdAt": "2026-07-08T23:22:27.000Z",
+            "url": "https://x.com/bcherny/status/2074997570317779038",
+            "likes": 6631,
+            "retweets": 519,
+            "replies": 206,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2075103845114663325",
+            "text": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
+            "createdAt": "2026-07-09T06:24:44.000Z",
+            "url": "https://x.com/thsottiaux/status/2075103845114663325",
+            "likes": 2030,
+            "retweets": 51,
+            "replies": 269,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074885402918601082",
+            "text": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am. https://t.co/ycWcTI3xSD",
+            "createdAt": "2026-07-08T15:56:44.000Z",
+            "url": "https://x.com/thsottiaux/status/2074885402918601082",
+            "likes": 2442,
+            "retweets": 56,
+            "replies": 220,
+            "isQuote": true,
+            "quotedTweetId": "2074871151302774869"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2074979504741929018",
+            "text": "I can finally talk about this.\n\nI've been playing with GTA 6 for about a month now.\n\nIt's pretty great, arguably even better than GTA 5.",
+            "createdAt": "2026-07-08T22:10:39.000Z",
+            "url": "https://x.com/petergyang/status/2074979504741929018",
+            "likes": 418,
+            "retweets": 6,
+            "replies": 46,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2074907752829223043",
+            "text": "Important Product Marketing lesson! You’re writing a story to transmit to your audience, but also for your audience to transmit to their audience. \n\nPMM &gt; Sales &gt; Customer\nPMM &gt; Customer &gt; Peer\nPMM &gt; User &gt; Buyer\nPMM &gt; Champion &gt; Org https://t.co/cVsidZKJcO",
+            "createdAt": "2026-07-08T17:25:32.000Z",
+            "url": "https://x.com/thenanyu/status/2074907752829223043",
+            "likes": 20,
+            "retweets": 2,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2074786313908162679"
+          },
+          {
+            "id": "2074901281466896694",
+            "text": "I watched Glenngarry Glenn Ross again recently, and the Alec Baldwin bit that struck me wasn’t “always be closing” — \n\nit was [First place gets a car, second place gets steak knives, third place is fired]\n\nPower law in action!",
+            "createdAt": "2026-07-08T16:59:49.000Z",
+            "url": "https://x.com/thenanyu/status/2074901281466896694",
+            "likes": 15,
+            "retweets": 1,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2074925531519468012",
+            "text": "Tomorrow at 10am PT I'm hosting a live walkthrough of how we progressed from single-player Claude Code to multi-player Claude Tag. Then, we're going deep on how Claude Tag actually works.\n\nAI used to finish your sentence. Then, it wrote entire features. Now, Claude Tag can monitor your channels, do proactive work for you, the whole team can steer it, and it remembers what you told it last week.\n\nRegister: https://t.co/D8Lz61BXn4",
+            "createdAt": "2026-07-08T18:36:11.000Z",
+            "url": "https://x.com/_catwu/status/2074925531519468012",
+            "likes": 481,
+            "retweets": 33,
+            "replies": 40,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2074993112217461020",
+            "text": "this should be a huge update in your model of software engineering: rewrites can be good, cheap and fast\n\nof course most apps are not as testable and verifiable as Bun, but the models will continue to get better at filling those gaps https://t.co/LjygnPM31O",
+            "createdAt": "2026-07-08T23:04:44.000Z",
+            "url": "https://x.com/trq212/status/2074993112217461020",
+            "likes": 762,
+            "retweets": 21,
+            "replies": 34,
+            "isQuote": true,
+            "quotedTweetId": "2074973674332123157"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2075080984211624154",
+            "text": "When do we stop comparing autonomous agents to hand-written code? You don’t see compilers comparing to engineers hand-writing assembly. https://t.co/YQBIPn8Eux",
+            "createdAt": "2026-07-09T04:53:54.000Z",
+            "url": "https://x.com/amasad/status/2075080984211624154",
+            "likes": 185,
+            "retweets": 8,
+            "replies": 32,
+            "isQuote": true,
+            "quotedTweetId": "2074981466568814860"
+          },
+          {
+            "id": "2075003156745089264",
+            "text": "Should we add CAD 3D modeling to Replit? https://t.co/5NsKXGDuxw",
+            "createdAt": "2026-07-08T23:44:38.000Z",
+            "url": "https://x.com/amasad/status/2075003156745089264",
+            "likes": 369,
+            "retweets": 5,
+            "replies": 70,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2075018147330232707",
+            "text": "AI will make all software Native.\n\nUncompromising performance and platform affinity. https://t.co/aYQ7ViNnDJ",
+            "createdAt": "2026-07-09T00:44:12.000Z",
+            "url": "https://x.com/rauchg/status/2075018147330232707",
+            "likes": 646,
+            "retweets": 17,
+            "replies": 38,
+            "isQuote": true,
+            "quotedTweetId": "2075016514860650685"
+          },
+          {
+            "id": "2074920996201796067",
+            "text": "Grok 4.5 now available to all Vercel customers https://t.co/AwObgo6KRu",
+            "createdAt": "2026-07-08T18:18:10.000Z",
+            "url": "https://x.com/rauchg/status/2074920996201796067",
+            "likes": 495,
+            "retweets": 28,
+            "replies": 45,
+            "isQuote": true,
+            "quotedTweetId": "2074920778135683340"
+          },
+          {
+            "id": "2074874713143460150",
+            "text": "The blissful sound of all the pieces of the agent stack clicking together. ht @nishimiya. This will power my personal productivity agents! https://t.co/BRenj3pXog",
+            "createdAt": "2026-07-08T15:14:15.000Z",
+            "url": "https://x.com/rauchg/status/2074874713143460150",
+            "likes": 196,
+            "retweets": 5,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2074874387065680201"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2075073587015516228",
+            "text": "The latest AI models being dropped are getting insanely good handling complex knowledge worker tasks, and especially dealing with sophisticated domains of work like legal, professional services, healthcare, and more. Grok 4.5 is another great entry here, especially on cost + performance. \n\nAs models get much better at coding, math, reasoning, and are trained on a variety of key verticals, we’re going to see more leaps in what you can do with enterprise data and documents.",
+            "createdAt": "2026-07-09T04:24:30.000Z",
+            "url": "https://x.com/levie/status/2075073587015516228",
+            "likes": 68,
+            "retweets": 6,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2075046546442461630"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2074951992884244606",
+            "text": "the start of a new era\n\ntry Grok 4.5 in Cursor and let us know how it feels! https://t.co/GMQiu1CQ3Q",
+            "createdAt": "2026-07-08T20:21:20.000Z",
+            "url": "https://x.com/ryolu_/status/2074951992884244606",
+            "likes": 497,
+            "retweets": 9,
+            "replies": 36,
+            "isQuote": true,
+            "quotedTweetId": "2074915744999969059"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2074973836966334668",
+            "text": "What do they want? An SF Public Bank staffed by cronies of absentee SF Supervisor Jackie Fielder\n\nShould they get it? Absolutely not. It'll be a tremendous grift mill robbing the city blind. https://t.co/3Z9xf5OGz6",
+            "createdAt": "2026-07-08T21:48:08.000Z",
+            "url": "https://x.com/garrytan/status/2074973836966334668",
+            "likes": 166,
+            "retweets": 15,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2074940656384909704"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2074960512966648106",
+            "text": "That moment when there's only 7 matches left in the world cup ugh",
+            "createdAt": "2026-07-08T20:55:11.000Z",
+            "url": "https://x.com/mattturck/status/2074960512966648106",
+            "likes": 60,
+            "retweets": 6,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074908816274034896",
+            "text": "This also has been the World Cup of AI content going from slop to “wait, this kinda slaps” https://t.co/VfFc6LLUOD",
+            "createdAt": "2026-07-08T17:29:46.000Z",
+            "url": "https://x.com/mattturck/status/2074908816274034896",
+            "likes": 974,
+            "retweets": 82,
+            "replies": 36,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2075004775436005687",
+            "text": "Talked to a super agent-pilled founder. He bought Codex Max for all team members, and everybody pretty much gets all work done thru talking to their Codex all day\n\nThe side effect: people stopped talking to each other. Meetings are cancelled, collaboration is minimal, and team culture got worse\n\nSo much of enterprise AI usage is single-player now. What do we risk sacrificing when team members all talk to their agents instead of each other?\n\nWe need to move beyond human-human collaboration AND beyond human-agent collaboration to human-human-agent collaboration",
+            "createdAt": "2026-07-08T23:51:04.000Z",
+            "url": "https://x.com/zarazhangrui/status/2075004775436005687",
+            "likes": 238,
+            "retweets": 6,
+            "replies": 72,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2075003007520096416",
+            "text": "I really really wish Codex were better at frontend design.\n\nThis is the single thing that's preventing me from using it more frequently",
+            "createdAt": "2026-07-08T23:44:03.000Z",
+            "url": "https://x.com/zarazhangrui/status/2075003007520096416",
+            "likes": 231,
+            "retweets": 1,
+            "replies": 81,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074998060162375832",
+            "text": "How to grow on X without producing slop\n\nX is a party, not a stage! https://t.co/pI8h5ImOda",
+            "createdAt": "2026-07-08T23:24:23.000Z",
+            "url": "https://x.com/zarazhangrui/status/2074998060162375832",
+            "likes": 167,
+            "retweets": 4,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2035758067116359902"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2075033190708961675",
+            "text": "Polished is getting correlated with slop faster than you can imagine..\n\nMy take on why we’re going to see a major reversion to being raw and human 🫀 https://t.co/pCRzA4EGjq",
+            "createdAt": "2026-07-09T01:43:59.000Z",
+            "url": "https://x.com/nikunj/status/2075033190708961675",
+            "likes": 13,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2074984078580031803"
+          },
+          {
+            "id": "2074984078580031803",
+            "text": "https://t.co/g5XCqu3Asd",
+            "createdAt": "2026-07-08T22:28:50.000Z",
+            "url": "https://x.com/nikunj/status/2074984078580031803",
+            "likes": 13,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074878958525657452",
+            "text": "The pendulum swing of developers between Codex and Claude Code models is insane to see as a neutral.. \n\nEvery week “we’re so dead, we’re back again”. \n\nBlessed to be the beneficiary of these amazing teams pushing each other 💥",
+            "createdAt": "2026-07-08T15:31:07.000Z",
+            "url": "https://x.com/nikunj/status/2074878958525657452",
+            "likes": 21,
+            "retweets": 1,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2075046949896736835",
+            "text": "OpenAI hired me, not OpenClaw.\nThe OpenClaw Foundation is independent, with sponsors rather than owners - and, for the first time, a full-time team keeping the claw alive and stable. 🦞\n\nCouldn’t have done it without Dave and the team. Kudos! https://t.co/u0ZXGwydxw",
+            "createdAt": "2026-07-09T02:38:40.000Z",
+            "url": "https://x.com/steipete/status/2075046949896736835",
+            "likes": 1518,
+            "retweets": 47,
+            "replies": 58,
+            "isQuote": true,
+            "quotedTweetId": "2074998755838103836"
+          },
+          {
+            "id": "2074969319042363808",
+            "text": "Here's an example of agents using nameplate to provide additional context when user input is needed. https://t.co/2djfP65LZq https://t.co/xTjwFn5iu1",
+            "createdAt": "2026-07-08T21:30:11.000Z",
+            "url": "https://x.com/steipete/status/2074969319042363808",
+            "likes": 35,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074923615817200085",
+            "text": "This is how you wanna talk with your claw. https://t.co/vr4bzn1yJ7",
+            "createdAt": "2026-07-08T18:28:34.000Z",
+            "url": "https://x.com/steipete/status/2074923615817200085",
+            "likes": 778,
+            "retweets": 21,
+            "replies": 50,
+            "isQuote": true,
+            "quotedTweetId": "2074906710024892694"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2074967404212298072",
+            "text": "HE DID IT FOLKS https://t.co/I4LIWpiH2e",
+            "createdAt": "2026-07-08T21:22:34.000Z",
+            "url": "https://x.com/danshipper/status/2074967404212298072",
+            "likes": 182,
+            "retweets": 2,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2074947343858684152"
+          },
+          {
+            "id": "2074953690876612764",
+            "text": "I am so excited to see what he does with his content after this drop. The stakes have been raised https://t.co/a2NG7FUpHZ",
+            "createdAt": "2026-07-08T20:28:05.000Z",
+            "url": "https://x.com/danshipper/status/2074953690876612764",
+            "likes": 112,
+            "retweets": 1,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2074915976966029426"
+          },
+          {
+            "id": "2074882061869961585",
+            "text": "if you want to do this, we'll drop a prompt and an open-source repo for @every subs on friday:\n\nhttps://t.co/9wRhOCUCAk",
+            "createdAt": "2026-07-08T15:43:27.000Z",
+            "url": "https://x.com/danshipper/status/2074882061869961585",
+            "likes": 10,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2074892952233705956",
+            "text": "Don't waste the moment. Be maximally ambitious.\n\n@southpkcommons Founder Fellowship apps due Aug 2.\nhttps://t.co/FBvQqpUnTh",
+            "createdAt": "2026-07-08T16:26:44.000Z",
+            "url": "https://x.com/adityaag/status/2074892952233705956",
+            "likes": 29,
+            "retweets": 5,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2074892507306238235",
+            "text": "Every founder I meet worries about missing this moment.\n\nThe best worry about wasting it. There’s a difference.\n\nIt’s a waste to ignore how much the world has changed. It’s a waste to think you can capture value with pure software the same as 5 years ago.\n\nIt’s a waste to build something small.\n\nWe have seen the shift slowly and then very quickly at @southpkcommons.\n\nHere’s who we want in the Founder Fellowship now: hardware tinkerers, mad scientists, obsessives, biohackers, people who build nuclear reactors in their basements.\n\nPeople who want to get their hands dirty and touch grass and atoms.\n\nIf you are only building software, then please (for your own sake!) have a thesis that all your friends laugh at you about. Heresy is the price of ambition.\n\nThen put yourself in the right environment to maximize your ambition.\n\n(Apply by August 2nd)",
+            "createdAt": "2026-07-08T16:24:58.000Z",
+            "url": "https://x.com/adityaag/status/2074892507306238235",
+            "likes": 255,
+            "retweets": 49,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2075068286107316317",
+            "text": "what a good video https://t.co/QXVRAqWeAq",
+            "createdAt": "2026-07-09T04:03:26.000Z",
+            "url": "https://x.com/sama/status/2075068286107316317",
+            "likes": 1445,
+            "retweets": 50,
+            "replies": 226,
+            "isQuote": true,
+            "quotedTweetId": "2074907025537224840"
+          },
+          {
+            "id": "2075063511290662996",
+            "text": "tbh i dont think sol gets that many dates either https://t.co/s0EESA6c3D",
+            "createdAt": "2026-07-09T03:44:28.000Z",
+            "url": "https://x.com/sama/status/2075063511290662996",
+            "likes": 1534,
+            "retweets": 33,
+            "replies": 170,
+            "isQuote": true,
+            "quotedTweetId": "2074862990214787301"
+          },
+          {
+            "id": "2075048072837734448",
+            "text": "it surely doesnt https://t.co/SVQZYR1pyg",
+            "createdAt": "2026-07-09T02:43:07.000Z",
+            "url": "https://x.com/sama/status/2075048072837734448",
+            "likes": 2468,
+            "retweets": 60,
+            "replies": 253,
+            "isQuote": true,
+            "quotedTweetId": "2074952287097967036"
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we received user feedback that Claude Opus 4.6 in high effort mode would occasionally think for too long, causing the UI to appear frozen and leading to disproportionate latency and token usage for those users. In general, the longer the model thinks, the better the output. Effort levels are how Claude Code lets users set that tradeoff—more thinking versus lower latency and fewer usage limit hits. As we calibrate effort levels for our models, we take this tradeoff into account in order to pick points along the test-time-compute curve that give people the best range of options. In the product layer, we then choose which point along this curve we set as our default, and that is the value we send to the Messages API as the effort parameter; we then make the other options available via /effort . In our internal evals and testing, medium effort achieved slightly lower intelligence with significantly less latency for the majority of tasks. It also didn’t suffer from the same issues with occasional very long tail latencies for thinking, and it helped maximize users’ usage limits. As a result, we rolled out a change making medium the default effort, and explained the rationale via in-product dialog. Soon after rolling out, users began reporting that Claude Code felt less intelligent. We shipped a number of design iterations to make the current effort setting clearer in order to alert people they could change the default (notices on startup, an inline effort selector, and bringing back ultrathink), but most users retained the medium effort default. After hearing feedback from more customers, we reversed this decision on April 7. All users now default to xhigh effort for Opus 4.7, and high effort for all other models. A caching optimization that dropped prior reasoning When Claude reasons through a task, that reasoning is normally kept in the conversation history so that on every subsequent turn, Claude can see why it made the edits and tool calls it did. On March 26, we shipped what was meant to be an efficiency improvement to this feature. We use prompt caching to make back-to-back API calls cheaper and faster for users. Claude writes the input tokens to the cache when it makes an API request, then after a period of inactivity the prompt is evicted from cache, making room for other prompts. Cache utilization is something we manage carefully (more on our approach ). The design should have been simple: if a session has been idle for more than an hour, we could reduce users’ cost of resuming that session by clearing old thinking sections. Since the request would be a cache miss anyway, we could prune unnecessary messages from the request to reduce the number of uncached tokens sent to the API. We’d then resume sending full reasoning history. To do this we used the clear_thinking_20251015 API header along with keep:1 . The implementation had a bug. Instead of clearing thinking history once, it cleared it on every turn for the rest of the session. After a session crossed the idle threshold once, each request for the rest of that process told the API to keep only the most recent block of reasoning and discard everything before it. This compounded: if you sent a follow-up message while Claude was in the middle of a tool use, that started a new turn under the broken flag, so even the reasoning from the current turn was dropped. Claude would continue executing, but increasingly without memory of why it had chosen to do what it was doing. This surfaced as the forgetfulness, repetition, and odd tool choices people reported. Because this would continuously drop thinking blocks from subsequent requests, those requests also resulted in cache misses. We believe this is what drove the separate reports of usage limits draining faster than expected. Two unrelated experiments made it challenging for us to reproduce the issue at first: an internal-only server-side experiment related to message queuing; and an orthogonal change in how we display thinking suppressed this bug in most CLI sessions, so we didn’t catch it even when testing external builds. This bug was at the intersection of Claude Code’s context management, the Anthropic API, and extended thinking. The changes it introduced made it past multiple human and automated code reviews, as well as unit tests, end-to-end tests, automated verification, and dogfooding. Combined with this only happening in a corner case (stale sessions) and the difficulty of reproducing the issue, it took us over a week to discover and confirm the root cause. As part of the investigation, we back-tested Code Review against the offending pull requests using Opus 4.7. When provided the code repositories necessary to gather complete context, Opus 4.7 found the bug, while Opus 4.6 didn&#x27;t. To prevent this from happening again, we are now landing support for additional repositories as context for code reviews. We fixed this bug on April 10 in v2.1.101. A system prompt change to reduce verbosity Our latest model, Claude Opus 4.7, has a notable behavioral quirk relative to its predecessor: as we wrote about at launch, it tends to be quite verbose. This makes it smarter on hard problems, but it also produces more output tokens. A few weeks before we released Opus 4.7, we started tuning Claude Code in preparation. Each model behaves slightly differently, and we spend time before each release optimizing the harness and product for it. We have a number of tools to reduce verbosity: model training, prompting, and improving thinking UX in the product. Ultimately we used all of these, but one addition to the system prompt caused an outsized effect on intelligence in Claude Code: “Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.” After multiple weeks of internal testing and no regressions in the set of evaluations we ran, we felt confident about the change and shipped it alongside Opus 4.7 on April 16. As part of this investigation, we ran more ablations (removing lines from the system prompt to understand the impact of each line) using a broader set of evaluations. One of these evaluations showed a 3% drop for both Opus 4.6 and 4.7. We immediately reverted the prompt as part of the April 20 release. Going forward We are going to do several things differently to avoid these issues: we’ll ensure that a larger share of internal staff use the exact public build of Claude Code (as opposed to the version we use to test new features); and we&#x27;ll make improvements to our Code Review tool that we use internally, and ship this improved version to customers. We’re also adding tighter controls on system prompt changes. We will run a broad suite of per-model evals for every system prompt change to Claude Code, continuing ablations to understand the impact of each line, and we have built new tooling to make prompt changes easier to review and audit. We&#x27;ve additionally added guidance to our CLAUDE.md to ensure model-specific changes are gated to the specific model they&#x27;re targeting. For any change that could trade off against intelligence, we&#x27;ll add soak periods, a broader eval suite, and gradual rollouts so we catch issues earlier. We recently created @ClaudeDevs on X to give us the room to explain product decisions and the reasoning behind them in depth. We&#x27;ll share the same updates in centralized threads on GitHub. Finally, we’d like to thank our users: the people who used the /feedback command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers. We’re immensely grateful for your feedback and for your patience."
+      },
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet . In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health. Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us where failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug. A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure. Decouple the brain from the hands The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. The harness leaves the container. Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: execute(name, input) → string . The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: provision({resources}) . We no longer had to nurse failed containers back to health. Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId) , use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events. The security boundary. In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can&#x27;t do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs. We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git push and pull work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials. The session is not Claude’s context window Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks. But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it. In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action. Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation. Many brains, many hands Many brains. Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers. That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely feels . Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call (execute(name, input) → string) only if they are needed. So a session that didn&#x27;t need a container right away didn&#x27;t wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed. Many hands. We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren&#x27;t capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into. Decoupling the brain from the hands makes each hand a tool, execute(name, input) → string : a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another. Conclusion The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn&#x27;t exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude. Managed Agents is a meta-harness in the same spirit, unopinionated about the specific harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time. Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need. Acknowledgements Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions."
+      },
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "publishedAt": "May 19, 2026",
+        "author": "",
+        "description": "",
+        "content": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls. The sandbox runs on your own infrastructure, or with managed providers like Cloudflare , Daytona , Modal , or Vercel to handle the compute and isolation for you. On the Claude Platform, self-hosted sandboxes is available in public beta and MCP tunnels in research preview ( request access ). Keep agent execution within your perimeter With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The agent loop that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment. Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don&#x27;t leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs. Choose your sandbox client Bring any sandbox client you want, or start with one of our supported providers: Cloudflare runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare&#x27;s network. Amplitude is building Design Agent, an internal tool for on-brand production UI and marketing design, on Managed Agents and Cloudflare for tighter observability and control. Daytona sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. Clay’s GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona. Modal is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal&#x27;s functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal&#x27;s custom container runtime delivers sub-second startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand. Vercel sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. Rogo , an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely. Connect to services within your private network With MCP tunnels , your agents reach MCP servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end. MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the Claude Console by organization admins."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 20,
+      "totalTweets": 40,
+      "blogPosts": 3,
+      "feedGeneratedAt": "2026-07-09T07:28:29.483Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    },
+    "errors": [
+      "Podcast feed problem: Podcast: Transcript error for \"Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+}
