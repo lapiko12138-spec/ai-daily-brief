@@ -1,0 +1,905 @@
+{
+  "date": "2026-07-12",
+  "title": "2026-07-12 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-07-12.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "ae6116a440e8ccc0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF 2. You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo 3. If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex b...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.",
+        "You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+        "If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day and tell me how it goes"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data i...",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.；You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "3ce452b62f072b98",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @adityaag",
+      "summary": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539",
+      "source_name": "Follow Builders / @adityaag",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aditya Agarwal: Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any mode...",
+      "source_context": "Follow Builders / @adityaag / X / @adityaag 的原始信息主要包括：Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "df8ba9d547e52109",
+      "title": "OpenAI 的企业 AI 信号值得关注",
+      "company": "OpenAI",
+      "product": "X / @sama",
+      "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capabilit... 2. \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\" https://t.co/n4J37XVqNM",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/sama/status/2076036901824532530",
+      "source_name": "Follow Builders / @sama",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!",
+        "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\""
+      ],
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "original_title": "Sam Altman: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was m...",
+      "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!；\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "868769b25da5680f",
+      "title": "Anthropic 的模型/产品能力有新变化",
+      "company": "Anthropic",
+      "product": "X / @petergyang",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y 2. My process for a new project this weekend: -&gt; Use Fable to build plan.html with design guidelines -&gt; Use Claude Design to make components + screens -&gt; Get gpt 5.6 to build",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/petergyang/status/2076050876314300478",
+      "source_name": "Follow Builders / @petergyang",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?",
+        "My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build"
+      ],
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "original_title": "Peter Yang: This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.c...",
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?；My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "2ebecdd4e151c083",
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are...",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "source_url": "https://x.com/levie/status/2075963779599466894",
+      "source_name": "Follow Builders / @levie",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are"
+      ],
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "original_title": "Aaron Levie: This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "ae6116a440e8ccc0",
+        "date": "2026-07-12",
+        "title": "Thibault Sottiaux: New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data i...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF 2. You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo 3. If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex b...",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+        "published_at": "2026-07-12T05:22:04+08:00",
+        "fetched_at": "2026-07-12T12:24:06.349943+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2076054439140720719\", \"text\": \"New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF\", \"createdAt\": \"2026-07-11T21:22:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076054439140720719\", \"likes\": 2488, \"retweets\": 69, \"replies\": 228, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076021263945039876\", \"text\": \"You know it's a good model when you grow more in 1 day than last two weeks combined.\\n\\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo\", \"createdAt\": \"2026-07-11T19:10:14.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076021263945039876\", \"likes\": 2785, \"retweets\": 75, \"replies\": 375, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075961345351307739\", \"text\": \"If you were using Codex before, two things to do\\n\\n1. Keep using Codex. It is for you\\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\\n\\nand tell me how it goes\", \"createdAt\": \"2026-07-11T15:12:08.000Z\", \"url\": \"https://x.com/thsottiaux/status/2075961345351307739\", \"likes\": 3713, \"retweets\": 107, \"replies\": 737, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076054439140720719\", \"text\": \"New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF\", \"createdAt\": \"2026-07-11T21:22:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076054439140720719\", \"likes\": 2488, \"retweets\": 69, \"replies\": 228, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076021263945039876\", \"text\": \"You know it's a good model when you grow more in 1 day than last two weeks combined.\\n\\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo\", \"createdAt\": \"2026-07-11T19:10:14.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076021263945039876\", \"likes\": 2785, \"retweets\": 75, \"replies\": 375, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075961345351307739\", \"text\": \"If you were using Codex before, two things to do\\n\\n1. Keep using Codex. It is for you\\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\\n\\nand tell me how it goes\", \"createdAt\": \"2026-07-11T15:12:08.000Z\", \"url\": \"https://x.com/thsottiaux/status/2075961345351307739\", \"likes\": 3713, \"retweets\": 107, \"replies\": 737, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2076021263945039876",
+            "credibility": "community"
+          },
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2075961345351307739",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data i...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.",
+          "You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+          "If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day and tell me how it goes"
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.；You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "df8ba9d547e52109",
+        "date": "2026-07-12",
+        "title": "Sam Altman: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was m...",
+        "title_zh": "OpenAI 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capabilit... 2. \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\" https://t.co/n4J37XVqNM",
+        "company": "OpenAI",
+        "product": "X / @sama",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "企业服务"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @sama",
+        "source_url": "https://x.com/sama/status/2076036901824532530",
+        "published_at": "2026-07-12T04:12:22+08:00",
+        "fetched_at": "2026-07-12T12:24:06.353283+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Sam Altman\", \"handle\": \"sama\", \"bio\": \"AI is cool i guess\", \"tweets\": [{\"id\": \"2076036901824532530\", \"text\": \"so far at least, i'm pretty sure AI has been net job-creating.\\n\\nthis was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact.\\n\\nit is possible this direction keeps going!\", \"createdAt\": \"2026-07-11T20:12:22.000Z\", \"url\": \"https://x.com/sama/status/2076036901824532530\", \"likes\": 7437, \"retweets\": 280, \"replies\": 1223, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076034163418014199\", \"text\": \"whoa https://t.co/JogchHWDm2\", \"createdAt\": \"2026-07-11T20:01:30.000Z\", \"url\": \"https://x.com/sama/status/2076034163418014199\", \"likes\": 1645, \"retweets\": 41, \"replies\": 216, \"isQuote\": true, \"quotedTweetId\": \"2076021263945039876\"}, {\"id\": \"2075985056846451123\", \"text\": \"\\\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\\\" https://t.co/n4J37XVqNM\", \"createdAt\": \"2026-07-11T16:46:22.000Z\", \"url\": \"https://x.com/sama/status/2075985056846451123\", \"likes\": 4061, \"retweets\": 234, \"replies\": 334, \"isQuote\": true, \"quotedTweetId\": \"2075689779937833302\"}]}, \"tweets\": [{\"id\": \"2076036901824532530\", \"text\": \"so far at least, i'm pretty sure AI has been net job-creating.\\n\\nthis was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact.\\n\\nit is possible this direction keeps going!\", \"createdAt\": \"2026-07-11T20:12:22.000Z\", \"url\": \"https://x.com/sama/status/2076036901824532530\", \"likes\": 7437, \"retweets\": 280, \"replies\": 1223, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075985056846451123\", \"text\": \"\\\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\\\" https://t.co/n4J37XVqNM\", \"createdAt\": \"2026-07-11T16:46:22.000Z\", \"url\": \"https://x.com/sama/status/2075985056846451123\", \"likes\": 4061, \"retweets\": 234, \"replies\": 334, \"isQuote\": true, \"quotedTweetId\": \"2075689779937833302\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@sama",
+            "source_url": "https://x.com/sama/status/2075985056846451123",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Sam Altman: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was m...",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!",
+          "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\""
+        ],
+        "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!；\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "868769b25da5680f",
+        "date": "2026-07-12",
+        "title": "Peter Yang: This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.c...",
+        "title_zh": "Anthropic 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y 2. My process for a new project this weekend: -&gt; Use Fable to build plan.html with design guidelines -&gt; Use Claude Design to make components + screens -&gt; Get gpt 5.6 to build",
+        "company": "Anthropic",
+        "product": "X / @petergyang",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "论文研究"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2076050876314300478",
+        "published_at": "2026-07-12T05:07:54+08:00",
+        "fetched_at": "2026-07-12T12:24:06.351509+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2076112137475506378\", \"text\": \"Go Argentina!! 🇦🇷\", \"createdAt\": \"2026-07-12T01:11:20.000Z\", \"url\": \"https://x.com/petergyang/status/2076112137475506378\", \"likes\": 2, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076050876314300478\", \"text\": \"This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y\", \"createdAt\": \"2026-07-11T21:07:54.000Z\", \"url\": \"https://x.com/petergyang/status/2076050876314300478\", \"likes\": 18, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2075672492312768683\"}, {\"id\": \"2075999617666445714\", \"text\": \"My process for a new project this weekend:\\n\\n-&gt; Use Fable to build plan.html with design guidelines\\n-&gt; Use Claude Design to make components + screens\\n-&gt; Get gpt 5.6 to build\", \"createdAt\": \"2026-07-11T17:44:13.000Z\", \"url\": \"https://x.com/petergyang/status/2075999617666445714\", \"likes\": 144, \"retweets\": 3, \"replies\": 22, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076050876314300478\", \"text\": \"This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y\", \"createdAt\": \"2026-07-11T21:07:54.000Z\", \"url\": \"https://x.com/petergyang/status/2076050876314300478\", \"likes\": 18, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2075672492312768683\"}, {\"id\": \"2075999617666445714\", \"text\": \"My process for a new project this weekend:\\n\\n-&gt; Use Fable to build plan.html with design guidelines\\n-&gt; Use Claude Design to make components + screens\\n-&gt; Get gpt 5.6 to build\", \"createdAt\": \"2026-07-11T17:44:13.000Z\", \"url\": \"https://x.com/petergyang/status/2075999617666445714\", \"likes\": 144, \"retweets\": 3, \"replies\": 22, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2075999617666445714",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.c...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?",
+          "My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build"
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?；My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "3ce452b62f072b98",
+        "date": "2026-07-12",
+        "title": "Aditya Agarwal: Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any mode...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full...",
+        "company": "Builder Ecosystem",
+        "product": "X / @adityaag",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "企业服务",
+          "生态合作"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @adityaag",
+        "source_url": "https://x.com/adityaag/status/2076047290083733539",
+        "published_at": "2026-07-12T04:53:39+08:00",
+        "fetched_at": "2026-07-12T12:24:06.353006+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aditya Agarwal\", \"handle\": \"adityaag\", \"bio\": \"General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad\", \"tweets\": [{\"id\": \"2076084443920683119\", \"text\": \"Halfs --&gt; Quarters\\nFreeflow --&gt; VAR\\nPlayer and Coach Reviews --&gt; Coming Soon\\n\\nThe World Cup 2048 will be brought to you by FIFA-NFL.\", \"createdAt\": \"2026-07-11T23:21:17.000Z\", \"url\": \"https://x.com/adityaag/status/2076084443920683119\", \"likes\": 7, \"retweets\": 0, \"replies\": 0, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076047290083733539\", \"text\": \"Everything in AI moves so fast.\\n\\nWe are going to get here:\\n- Run all the agents in the cloud\\n- Choose any model (frontier, OSS, Chinese, American)\\n- Choose any harness\\n- Have full tracing\\n- Have recursive improvement loops\\n\\nI know it will be there but can it happen already?\", \"createdAt\": \"2026-07-11T20:53:39.000Z\", \"url\": \"https://x.com/adityaag/status/2076047290083733539\", \"likes\": 80, \"retweets\": 6, \"replies\": 16, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076047290083733539\", \"text\": \"Everything in AI moves so fast.\\n\\nWe are going to get here:\\n- Run all the agents in the cloud\\n- Choose any model (frontier, OSS, Chinese, American)\\n- Choose any harness\\n- Have full tracing\\n- Have recursive improvement loops\\n\\nI know it will be there but can it happen already?\", \"createdAt\": \"2026-07-11T20:53:39.000Z\", \"url\": \"https://x.com/adityaag/status/2076047290083733539\", \"likes\": 80, \"retweets\": 6, \"replies\": 16, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aditya Agarwal: Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any mode...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?"
+        ],
+        "source_context": "Follow Builders / @adityaag / X / @adityaag 的原始信息主要包括：Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "2ebecdd4e151c083",
+        "date": "2026-07-12",
+        "title": "Aaron Levie: This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about...",
+        "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "产品功能",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "企业服务"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2075963779599466894",
+        "published_at": "2026-07-11T23:21:49+08:00",
+        "fetched_at": "2026-07-12T12:24:06.351862+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2075963779599466894\", \"text\": \"This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are about what AI transformation looks like in an organization.\\n\\nIt’s fundamentally about changing the underlying workflow or business process. As we move from chat tools to agents, those agents actually have to be deployed against workflows, which usually span multiple functions in an org. This is a different way of deploying AI than solely rolling it out to end users. It takes much more work upfront, but the results are the things that actually drive significant ROI. \\n\\n“Software asks the employee to adopt a tool, but infrastructure changes the operating layer underneath the employee. The employee should still know what happened, and the process owner should still be able to pause the workflow, change a rule, approve an exception, or pull a person back in when needed. But the value should not depend on someone remembering to use the AI every day.”\\n\\nThe winners of this will be the platforms that can be deployed for specific workflows and business processes with a deep domain expertise. The playbook will often heavily require FDE support, change management, getting data well organized, be able to have comprehensive evals for the workflows, and much more to get right.\", \"createdAt\": \"2026-07-11T15:21:49.000Z\", \"url\": \"https://x.com/levie/status/2075963779599466894\", \"likes\": 510, \"retweets\": 76, \"replies\": 42, \"isQuote\": true, \"quotedTweetId\": \"2075696599242821979\"}]}, \"tweets\": [{\"id\": \"2075963779599466894\", \"text\": \"This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are about what AI transformation looks like in an organization.\\n\\nIt’s fundamentally about changing the underlying workflow or business process. As we move from chat tools to agents, those agents actually have to be deployed against workflows, which usually span multiple functions in an org. This is a different way of deploying AI than solely rolling it out to end users. It takes much more work upfront, but the results are the things that actually drive significant ROI. \\n\\n“Software asks the employee to adopt a tool, but infrastructure changes the operating layer underneath the employee. The employee should still know what happened, and the process owner should still be able to pause the workflow, change a rule, approve an exception, or pull a person back in when needed. But the value should not depend on someone remembering to use the AI every day.”\\n\\nThe winners of this will be the platforms that can be deployed for specific workflows and business processes with a deep domain expertise. The...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+        "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about...",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "d4fe8490b5ac2fe1",
+        "date": "2026-07-12",
+        "title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "title_zh": "Podcasts / Interviews 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay。转录摘要线索：Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their...",
+        "company": "Podcasts / Interviews",
+        "product": "The MAD Podcast with Matt Turck",
+        "category": "Agent",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "Agent"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+        "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "published_at": "2026-07-09T19:30:01+08:00",
+        "fetched_at": "2026-07-12T12:24:06.356426+08:00",
+        "raw_text": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it? And those are actually all legitimate concerns. And it's not Emily permissioning an agent to buy on her behalf. It's Emily has an agent who's tasked with running a business, and that includes buying some things and selling some things and making some profits. Speaker 1 | 00:41 - 00:45 And that'll be the world that I would like to be talking about twelve months from now. Speaker 2 | 00:45 - 00:58 Hi. I'm Matt Turk. Welcome back to the Matt podcast. Today, I'm excited to be joined again by Emily Sense, head of data and AI at Stripe. The rise of agentic commerce has only accelerated since Emily and I talked about it last year. Speaker 2 | 00:58 - 01:40 And in this conversation, we go deep on the economic stack for AI agents, how agents buy and sell on your behalf, why per seat pricing is breaking, token monetization, token theft, which Emily calls the most under discussed topic in all of AI, and finally, whether agents may eventually run entire businesses on their own. Please enjoy my conversation with the always excellent Emily Sense. All right, so welcome back. You and I chatted about a year ago and the theme of the discussion we had was all about the rise of organic commerce. Keeping in mind that obviously this is a long term trend that's going to take a while to play out. Speaker 2 | 01:40 - 01:49 I'm curious about what you've observed over the last twelve months. What has become reality and what is yet to be built? Speaker 1 | 01:49 - 02:14 Yeah. I mean, a year ago, we were talking about agents as buyers in a pretty hypothetical way. I think that the canonical experiences, the consumer experiences, for example, weren't defined. We were largely reasoning kind of from first principles about what this might look like. Fast forward a year, as you know, like, still early innings, still a lot to do, but we have actual infrastructure deployed. Speaker 1 | 02:14 - 02:37 We have real companies building on it. We have real patterns to learn from. And to be clear, like, the the shape of how this unfolds has become more clear and it's going to continue to evolve. So specifically, what we've come to believe is there's a full spectrum of how agentic commerce plays out. And that's actually really important for businesses in how they think about it. Speaker 1 | 02:37 - 03:08 So at one end, and this is where our machine payments protocol lives, but basically, have...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials.",
+          "And the scale of this actually shocked me when I looked at the data.",
+          "So more than one in six signups at AI companies are this kind of abuse.",
+          "When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it?"
+        ],
+        "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials.；And the scale of this actually shocked me when I looked at the data.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "ae6116a440e8ccc0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "3ce452b62f072b98",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539",
+      "source_name": "Follow Builders / @adityaag",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "df8ba9d547e52109",
+      "title": "OpenAI 的企业 AI 信号值得关注",
+      "company": "OpenAI",
+      "source_url": "https://x.com/sama/status/2076036901824532530",
+      "source_name": "Follow Builders / @sama",
+      "problem_solved": "主要围绕模型能力、可用范围或产品化入口做增强。",
+      "industry_signal": "行业信号是模型能力继续被包装成云服务、企业 API 和可采购方案。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议从云服务销售视角记录它面向什么客户问题、如何定价、如何集成。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "ae6116a440e8ccc0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "3ce452b62f072b98",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "d4fe8490b5ac2fe1",
+      "title": "Podcasts / Interviews 相关 Agent 动态值得跟踪",
+      "company": "Podcasts / Interviews",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "media"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF 2. You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo 3. If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex b...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @adityaag",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @sama",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capabilit... 2. \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\" https://t.co/n4J37XVqNM",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/sama/status/2076036901824532530"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y 2. My process for a new project this weekend: -&gt; Use Fable to build plan.html with design guidelines -&gt; Use Claude Design to make components + screens -&gt; Get gpt 5.6 to build",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/petergyang/status/2076050876314300478"
+    },
+    {
+      "company": "Podcasts / Interviews",
+      "model_product": "The MAD Podcast with Matt Turck",
+      "before": "信息不足",
+      "after": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay。转录摘要线索：Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their...",
+      "change_type": "Builder 访谈, Podcast, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "OpenAI 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "OpenAI 的企业 AI 信号值得关注",
+      "source_url": "https://x.com/sama/status/2076036901824532530"
+    },
+    {
+      "insight": "云厂商的 AI 更新，本质上是在把模型能力变成企业可采购的解决方案。",
+      "explanation": "这对云服务销售、企业集成和行业方案理解尤其重要。",
+      "source_title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "source_url": "https://x.com/levie/status/2075963779599466894"
+    }
+  ],
+  "actions": [
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 的企业 AI 信号值得关注",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/sama/status/2076036901824532530",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "Anthropic 的模型/产品能力有新变化",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/petergyang/status/2076050876314300478",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2075963779599466894",
+      "reason": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。"
+    }
+  ],
+  "events": [
+    {
+      "id": "ae6116a440e8ccc0",
+      "date": "2026-07-12",
+      "title": "Thibault Sottiaux: New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data i...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF 2. You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo 3. If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex b...",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2076054439140720719",
+      "published_at": "2026-07-12T05:22:04+08:00",
+      "fetched_at": "2026-07-12T12:24:06.349943+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2076054439140720719\", \"text\": \"New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF\", \"createdAt\": \"2026-07-11T21:22:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076054439140720719\", \"likes\": 2488, \"retweets\": 69, \"replies\": 228, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076021263945039876\", \"text\": \"You know it's a good model when you grow more in 1 day than last two weeks combined.\\n\\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo\", \"createdAt\": \"2026-07-11T19:10:14.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076021263945039876\", \"likes\": 2785, \"retweets\": 75, \"replies\": 375, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075961345351307739\", \"text\": \"If you were using Codex before, two things to do\\n\\n1. Keep using Codex. It is for you\\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\\n\\nand tell me how it goes\", \"createdAt\": \"2026-07-11T15:12:08.000Z\", \"url\": \"https://x.com/thsottiaux/status/2075961345351307739\", \"likes\": 3713, \"retweets\": 107, \"replies\": 737, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076054439140720719\", \"text\": \"New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF\", \"createdAt\": \"2026-07-11T21:22:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076054439140720719\", \"likes\": 2488, \"retweets\": 69, \"replies\": 228, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076021263945039876\", \"text\": \"You know it's a good model when you grow more in 1 day than last two weeks combined.\\n\\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo\", \"createdAt\": \"2026-07-11T19:10:14.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076021263945039876\", \"likes\": 2785, \"retweets\": 75, \"replies\": 375, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075961345351307739\", \"text\": \"If you were using Codex before, two things to do\\n\\n1. Keep using Codex. It is for you\\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\\n\\nand tell me how it goes\", \"createdAt\": \"2026-07-11T15:12:08.000Z\", \"url\": \"https://x.com/thsottiaux/status/2075961345351307739\", \"likes\": 3713, \"retweets\": 107, \"replies\": 737, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2076021263945039876",
+          "credibility": "community"
+        },
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2075961345351307739",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data i...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.",
+        "You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+        "If you were using Codex before, two things to do 1. Keep using Codex. It is for you 2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day and tell me how it goes"
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful.；You know it's a good model when you grow more in 1 day than last two weeks combined. Install the desktop app from and give it a go!",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "3ce452b62f072b98",
+      "date": "2026-07-12",
+      "title": "Aditya Agarwal: Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any mode...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full...",
+      "company": "Builder Ecosystem",
+      "product": "X / @adityaag",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "企业服务",
+        "生态合作"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @adityaag",
+      "source_url": "https://x.com/adityaag/status/2076047290083733539",
+      "published_at": "2026-07-12T04:53:39+08:00",
+      "fetched_at": "2026-07-12T12:24:06.353006+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aditya Agarwal\", \"handle\": \"adityaag\", \"bio\": \"General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad\", \"tweets\": [{\"id\": \"2076084443920683119\", \"text\": \"Halfs --&gt; Quarters\\nFreeflow --&gt; VAR\\nPlayer and Coach Reviews --&gt; Coming Soon\\n\\nThe World Cup 2048 will be brought to you by FIFA-NFL.\", \"createdAt\": \"2026-07-11T23:21:17.000Z\", \"url\": \"https://x.com/adityaag/status/2076084443920683119\", \"likes\": 7, \"retweets\": 0, \"replies\": 0, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076047290083733539\", \"text\": \"Everything in AI moves so fast.\\n\\nWe are going to get here:\\n- Run all the agents in the cloud\\n- Choose any model (frontier, OSS, Chinese, American)\\n- Choose any harness\\n- Have full tracing\\n- Have recursive improvement loops\\n\\nI know it will be there but can it happen already?\", \"createdAt\": \"2026-07-11T20:53:39.000Z\", \"url\": \"https://x.com/adityaag/status/2076047290083733539\", \"likes\": 80, \"retweets\": 6, \"replies\": 16, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076047290083733539\", \"text\": \"Everything in AI moves so fast.\\n\\nWe are going to get here:\\n- Run all the agents in the cloud\\n- Choose any model (frontier, OSS, Chinese, American)\\n- Choose any harness\\n- Have full tracing\\n- Have recursive improvement loops\\n\\nI know it will be there but can it happen already?\", \"createdAt\": \"2026-07-11T20:53:39.000Z\", \"url\": \"https://x.com/adityaag/status/2076047290083733539\", \"likes\": 80, \"retweets\": 6, \"replies\": 16, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aditya Agarwal: Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any mode...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?"
+      ],
+      "source_context": "Follow Builders / @adityaag / X / @adityaag 的原始信息主要包括：Everything in AI moves so fast. We are going to get here: - Run all the agents in the cloud - Choose any model (frontier, OSS, Chinese, American) - Choose any harness - Have full tracing - Have recursive improvement loops I know it will be there but can it happen already?",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "df8ba9d547e52109",
+      "date": "2026-07-12",
+      "title": "Sam Altman: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was m...",
+      "title_zh": "OpenAI 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capabilit... 2. \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\" https://t.co/n4J37XVqNM",
+      "company": "OpenAI",
+      "product": "X / @sama",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "企业服务"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @sama",
+      "source_url": "https://x.com/sama/status/2076036901824532530",
+      "published_at": "2026-07-12T04:12:22+08:00",
+      "fetched_at": "2026-07-12T12:24:06.353283+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Sam Altman\", \"handle\": \"sama\", \"bio\": \"AI is cool i guess\", \"tweets\": [{\"id\": \"2076036901824532530\", \"text\": \"so far at least, i'm pretty sure AI has been net job-creating.\\n\\nthis was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact.\\n\\nit is possible this direction keeps going!\", \"createdAt\": \"2026-07-11T20:12:22.000Z\", \"url\": \"https://x.com/sama/status/2076036901824532530\", \"likes\": 7437, \"retweets\": 280, \"replies\": 1223, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076034163418014199\", \"text\": \"whoa https://t.co/JogchHWDm2\", \"createdAt\": \"2026-07-11T20:01:30.000Z\", \"url\": \"https://x.com/sama/status/2076034163418014199\", \"likes\": 1645, \"retweets\": 41, \"replies\": 216, \"isQuote\": true, \"quotedTweetId\": \"2076021263945039876\"}, {\"id\": \"2075985056846451123\", \"text\": \"\\\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\\\" https://t.co/n4J37XVqNM\", \"createdAt\": \"2026-07-11T16:46:22.000Z\", \"url\": \"https://x.com/sama/status/2075985056846451123\", \"likes\": 4061, \"retweets\": 234, \"replies\": 334, \"isQuote\": true, \"quotedTweetId\": \"2075689779937833302\"}]}, \"tweets\": [{\"id\": \"2076036901824532530\", \"text\": \"so far at least, i'm pretty sure AI has been net job-creating.\\n\\nthis was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact.\\n\\nit is possible this direction keeps going!\", \"createdAt\": \"2026-07-11T20:12:22.000Z\", \"url\": \"https://x.com/sama/status/2076036901824532530\", \"likes\": 7437, \"retweets\": 280, \"replies\": 1223, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075985056846451123\", \"text\": \"\\\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\\\" https://t.co/n4J37XVqNM\", \"createdAt\": \"2026-07-11T16:46:22.000Z\", \"url\": \"https://x.com/sama/status/2075985056846451123\", \"likes\": 4061, \"retweets\": 234, \"replies\": 334, \"isQuote\": true, \"quotedTweetId\": \"2075689779937833302\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@sama",
+          "source_url": "https://x.com/sama/status/2075985056846451123",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Sam Altman: so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was m...",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!",
+        "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\""
+      ],
+      "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：so far at least, i'm pretty sure AI has been net job-creating. this was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact. it is possible this direction keeps going!；\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "868769b25da5680f",
+      "date": "2026-07-12",
+      "title": "Peter Yang: This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.c...",
+      "title_zh": "Anthropic 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y 2. My process for a new project this weekend: -&gt; Use Fable to build plan.html with design guidelines -&gt; Use Claude Design to make components + screens -&gt; Get gpt 5.6 to build",
+      "company": "Anthropic",
+      "product": "X / @petergyang",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "论文研究"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2076050876314300478",
+      "published_at": "2026-07-12T05:07:54+08:00",
+      "fetched_at": "2026-07-12T12:24:06.351509+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2076112137475506378\", \"text\": \"Go Argentina!! 🇦🇷\", \"createdAt\": \"2026-07-12T01:11:20.000Z\", \"url\": \"https://x.com/petergyang/status/2076112137475506378\", \"likes\": 2, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076050876314300478\", \"text\": \"This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y\", \"createdAt\": \"2026-07-11T21:07:54.000Z\", \"url\": \"https://x.com/petergyang/status/2076050876314300478\", \"likes\": 18, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2075672492312768683\"}, {\"id\": \"2075999617666445714\", \"text\": \"My process for a new project this weekend:\\n\\n-&gt; Use Fable to build plan.html with design guidelines\\n-&gt; Use Claude Design to make components + screens\\n-&gt; Get gpt 5.6 to build\", \"createdAt\": \"2026-07-11T17:44:13.000Z\", \"url\": \"https://x.com/petergyang/status/2075999617666445714\", \"likes\": 144, \"retweets\": 3, \"replies\": 22, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2076050876314300478\", \"text\": \"This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.co/Lj4eIDjq3Y\", \"createdAt\": \"2026-07-11T21:07:54.000Z\", \"url\": \"https://x.com/petergyang/status/2076050876314300478\", \"likes\": 18, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2075672492312768683\"}, {\"id\": \"2075999617666445714\", \"text\": \"My process for a new project this weekend:\\n\\n-&gt; Use Fable to build plan.html with design guidelines\\n-&gt; Use Claude Design to make components + screens\\n-&gt; Get gpt 5.6 to build\", \"createdAt\": \"2026-07-11T17:44:13.000Z\", \"url\": \"https://x.com/petergyang/status/2075999617666445714\", \"likes\": 144, \"retweets\": 3, \"replies\": 22, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2075999617666445714",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste? https://t.c...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?",
+        "My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build"
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?；My process for a new project this weekend: -> Use Fable to build plan.html with design guidelines -> Use Claude Design to make components + screens -> Get gpt 5.6 to build",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "2ebecdd4e151c083",
+      "date": "2026-07-12",
+      "title": "Aaron Levie: This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about...",
+      "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "产品功能",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "企业服务"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2075963779599466894",
+      "published_at": "2026-07-11T23:21:49+08:00",
+      "fetched_at": "2026-07-12T12:24:06.351862+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2075963779599466894\", \"text\": \"This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are about what AI transformation looks like in an organization.\\n\\nIt’s fundamentally about changing the underlying workflow or business process. As we move from chat tools to agents, those agents actually have to be deployed against workflows, which usually span multiple functions in an org. This is a different way of deploying AI than solely rolling it out to end users. It takes much more work upfront, but the results are the things that actually drive significant ROI. \\n\\n“Software asks the employee to adopt a tool, but infrastructure changes the operating layer underneath the employee. The employee should still know what happened, and the process owner should still be able to pause the workflow, change a rule, approve an exception, or pull a person back in when needed. But the value should not depend on someone remembering to use the AI every day.”\\n\\nThe winners of this will be the platforms that can be deployed for specific workflows and business processes with a deep domain expertise. The playbook will often heavily require FDE support, change management, getting data well organized, be able to have comprehensive evals for the workflows, and much more to get right.\", \"createdAt\": \"2026-07-11T15:21:49.000Z\", \"url\": \"https://x.com/levie/status/2075963779599466894\", \"likes\": 510, \"retweets\": 76, \"replies\": 42, \"isQuote\": true, \"quotedTweetId\": \"2075696599242821979\"}]}, \"tweets\": [{\"id\": \"2075963779599466894\", \"text\": \"This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are about what AI transformation looks like in an organization.\\n\\nIt’s fundamentally about changing the underlying workflow or business process. As we move from chat tools to agents, those agents actually have to be deployed against workflows, which usually span multiple functions in an org. This is a different way of deploying AI than solely rolling it out to end users. It takes much more work upfront, but the results are the things that actually drive significant ROI. \\n\\n“Software asks the employee to adopt a tool, but infrastructure changes the operating layer underneath the employee. The employee should still know what happened, and the process owner should still be able to pause the workflow, change a rule, approve an exception, or pull a person back in when needed. But the value should not depend on someone remembering to use the AI every day.”\\n\\nThe winners of this will be the platforms that can be deployed for specific workflows and business processes with a deep domain expertise. The...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about...",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "d4fe8490b5ac2fe1",
+      "date": "2026-07-12",
+      "title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "title_zh": "Podcasts / Interviews 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay。转录摘要线索：Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their...",
+      "company": "Podcasts / Interviews",
+      "product": "The MAD Podcast with Matt Turck",
+      "category": "Agent",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "Agent"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "published_at": "2026-07-09T19:30:01+08:00",
+      "fetched_at": "2026-07-12T12:24:06.356426+08:00",
+      "raw_text": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it? And those are actually all legitimate concerns. And it's not Emily permissioning an agent to buy on her behalf. It's Emily has an agent who's tasked with running a business, and that includes buying some things and selling some things and making some profits. Speaker 1 | 00:41 - 00:45 And that'll be the world that I would like to be talking about twelve months from now. Speaker 2 | 00:45 - 00:58 Hi. I'm Matt Turk. Welcome back to the Matt podcast. Today, I'm excited to be joined again by Emily Sense, head of data and AI at Stripe. The rise of agentic commerce has only accelerated since Emily and I talked about it last year. Speaker 2 | 00:58 - 01:40 And in this conversation, we go deep on the economic stack for AI agents, how agents buy and sell on your behalf, why per seat pricing is breaking, token monetization, token theft, which Emily calls the most under discussed topic in all of AI, and finally, whether agents may eventually run entire businesses on their own. Please enjoy my conversation with the always excellent Emily Sense. All right, so welcome back. You and I chatted about a year ago and the theme of the discussion we had was all about the rise of organic commerce. Keeping in mind that obviously this is a long term trend that's going to take a while to play out. Speaker 2 | 01:40 - 01:49 I'm curious about what you've observed over the last twelve months. What has become reality and what is yet to be built? Speaker 1 | 01:49 - 02:14 Yeah. I mean, a year ago, we were talking about agents as buyers in a pretty hypothetical way. I think that the canonical experiences, the consumer experiences, for example, weren't defined. We were largely reasoning kind of from first principles about what this might look like. Fast forward a year, as you know, like, still early innings, still a lot to do, but we have actual infrastructure deployed. Speaker 1 | 02:14 - 02:37 We have real companies building on it. We have real patterns to learn from. And to be clear, like, the the shape of how this unfolds has become more clear and it's going to continue to evolve. So specifically, what we've come to believe is there's a full spectrum of how agentic commerce plays out. And that's actually really important for businesses in how they think about it. Speaker 1 | 02:37 - 03:08 So at one end, and this is where our machine payments protocol lives, but basically, have...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials.",
+        "And the scale of this actually shocked me when I looked at the data.",
+        "So more than one in six signups at AI companies are this kind of abuse.",
+        "When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it?"
+      ],
+      "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials.；And the scale of this actually shocked me when I looked at the data.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 6,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 6,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-07-12T12:24:06.375361+08:00"
+  }
+}
