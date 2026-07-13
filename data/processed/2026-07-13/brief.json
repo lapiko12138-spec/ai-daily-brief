@@ -1,0 +1,761 @@
+{
+  "date": "2026-07-13",
+  "title": "2026-07-13 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-07-13.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "999358df7b3d1dc0",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @swyx",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the con...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/swyx/status/2076155833428431012",
+      "source_name": "Follow Builders / @swyx",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Swyx: if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you...",
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "361faeac1fd924f9",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev... 2. If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?",
+        "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5...."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: At different times you complained about speed, code slop, frontend quality, ... With each release we improve...",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?；If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5....",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "14484e8efa7822ff",
+      "title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "company": "Builder Ecosystem",
+      "product": "X / @sama",
+      "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/sama/status/2075983427019612242",
+      "source_name": "Follow Builders / @sama",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again"
+      ],
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "original_title": "Sam Altman: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most rel...",
+      "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ba0a9355f6c8c153",
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost...",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "source_url": "https://x.com/levie/status/2076116544980214164",
+      "source_name": "Follow Builders / @levie",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i..."
+      ],
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "original_title": "Aaron Levie: The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job po...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "3648e3213a6c89c6",
+      "title": "Podcasts / Interviews 的企业 AI 信号值得关注",
+      "company": "Podcasts / Interviews",
+      "product": "No Priors",
+      "summary": "Follow Builders 收录了 No Priors 的一期播客：Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel。转录摘要线索：Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It'...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "source_name": "Follow Builders / No Priors",
+      "importance": "Medium",
+      "credibility": "media",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "There is no such thing as somewhere you're gonna be protected against innovation.",
+        "Today, we have a competitive advantage on areas.",
+        "The only one to win long term is to continue to develop new services, new ways to do things.",
+        "If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital."
+      ],
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "original_title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "source_context": "Follow Builders / No Priors 的原始信息主要包括：There is no such thing as somewhere you're gonna be protected against innovation.；Today, we have a competitive advantage on areas.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "361faeac1fd924f9",
+        "date": "2026-07-13",
+        "title": "Thibault Sottiaux: At different times you complained about speed, code slop, frontend quality, ... With each release we improve...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev... 2. If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining...",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+        "published_at": "2026-07-12T11:24:45+08:00",
+        "fetched_at": "2026-07-13T12:29:07.397372+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2076145711922696371\", \"text\": \"At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is \\n\\n✅Fast and token efficient\\n✅Hardcore at back-end dev\\n✅Great at front-end\\n✅Does not use useEffect everywhere \\n\\nWhat is next?\", \"createdAt\": \"2026-07-12T03:24:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076145711922696371\", \"likes\": 2557, \"retweets\": 55, \"replies\": 805, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076119366647894371\", \"text\": \"If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\\n\\nStep 1: Install CLIProxyAPI\\nStep 2: Connect\\nStep 3: Define following alias and enjoy claudex\\n\\n```\\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\\\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\\\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\\\\nENABLE_TOOL_SEARCH=false \\\\\\nclaude --model gpt-5.6-sol'\\n```\\n\\nIf this gets blocked, I owe you a reset.\", \"createdAt\": \"2026-07-12T01:40:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076119366647894371\", \"likes\": 3871, \"retweets\": 243, \"replies\": 315, \"isQuote\": true, \"quotedTweetId\": \"2076114415368482854\"}]}, \"tweets\": [{\"id\": \"2076145711922696371\", \"text\": \"At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is \\n\\n✅Fast and token efficient\\n✅Hardcore at back-end dev\\n✅Great at front-end\\n✅Does not use useEffect everywhere \\n\\nWhat is next?\", \"createdAt\": \"2026-07-12T03:24:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076145711922696371\", \"likes\": 2557, \"retweets\": 55, \"replies\": 805, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076119366647894371\", \"text\": \"If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\\n\\nStep 1: Install CLIProxyAPI\\nStep 2: Connect\\nStep 3: Define following alias and enjoy claudex\\n\\n```\\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\\\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\\\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\\\\nENABLE_TOOL_SEARCH=false \\\\\\nclaude --model gpt-5.6-sol'\\n```\\n\\nIf this gets blocked, I owe you a reset.\", \"createdAt\": \"2026-07-12T01:40:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076119366647894371\", \"likes\": 3871, \"retweets\": 243, \"replies\": 315, \"isQuote\": true, \"quotedTweetId\": \"2076114415368482854\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2076119366647894371",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: At different times you complained about speed, code slop, frontend quality, ... With each release we improve...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?",
+          "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5...."
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?；If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5....",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "999358df7b3d1dc0",
+        "date": "2026-07-13",
+        "title": "Swyx: if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the con...",
+        "company": "Builder Ecosystem",
+        "product": "X / @swyx",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @swyx",
+        "source_url": "https://x.com/swyx/status/2076155833428431012",
+        "published_at": "2026-07-12T12:04:58+08:00",
+        "fetched_at": "2026-07-13T12:29:07.396627+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @dxtipshq \\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2076155833428431012\", \"text\": \"if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of:\\n\\n- humans who can wield coding agents well*\\n- coding agents breaking containment to all other knowledge work\\n\\nas the efficiency of labor goes up/unit cost of knowledge work goes broadly down, the demand for total work and better knowledge goes up, not down.\\n\\nwhat happened to coding isnt the exception; it’s the herald.\\n\\n*aka AI Engineers\", \"createdAt\": \"2026-07-12T04:04:58.000Z\", \"url\": \"https://x.com/swyx/status/2076155833428431012\", \"likes\": 143, \"retweets\": 9, \"replies\": 28, \"isQuote\": true, \"quotedTweetId\": \"2076036901824532530\"}]}, \"tweets\": [{\"id\": \"2076155833428431012\", \"text\": \"if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of:\\n\\n- humans who can wield coding agents well*\\n- coding agents breaking containment to all other knowledge work\\n\\nas the efficiency of labor goes up/unit cost of knowledge work goes broadly down, the demand for total work and better knowledge goes up, not down.\\n\\nwhat happened to coding isnt the exception; it’s the herald.\\n\\n*aka AI Engineers\", \"createdAt\": \"2026-07-12T04:04:58.000Z\", \"url\": \"https://x.com/swyx/status/2076155833428431012\", \"likes\": 143, \"retweets\": 9, \"replies\": 28, \"isQuote\": true, \"quotedTweetId\": \"2076036901824532530\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Swyx: if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo..."
+        ],
+        "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "14484e8efa7822ff",
+        "date": "2026-07-13",
+        "title": "Sam Altman: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most rel...",
+        "title_zh": "Builder Ecosystem 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+        "company": "Builder Ecosystem",
+        "product": "X / @sama",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "论文研究"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @sama",
+        "source_url": "https://x.com/sama/status/2075983427019612242",
+        "published_at": "2026-07-12T00:39:53+08:00",
+        "fetched_at": "2026-07-13T12:29:07.399997+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Sam Altman\", \"handle\": \"sama\", \"bio\": \"AI is cool i guess\", \"tweets\": [{\"id\": \"2075983427019612242\", \"text\": \"there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again\", \"createdAt\": \"2026-07-11T16:39:53.000Z\", \"url\": \"https://x.com/sama/status/2075983427019612242\", \"likes\": 49330, \"retweets\": 2330, \"replies\": 3404, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075982820322025788\", \"text\": \"30% of the cost was on fable at these levels of usage? https://t.co/KzFoHj7cB4\", \"createdAt\": \"2026-07-11T16:37:28.000Z\", \"url\": \"https://x.com/sama/status/2075982820322025788\", \"likes\": 9734, \"retweets\": 225, \"replies\": 388, \"isQuote\": true, \"quotedTweetId\": \"2075963734745342361\"}]}, \"tweets\": [{\"id\": \"2075983427019612242\", \"text\": \"there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again\", \"createdAt\": \"2026-07-11T16:39:53.000Z\", \"url\": \"https://x.com/sama/status/2075983427019612242\", \"likes\": 49330, \"retweets\": 2330, \"replies\": 3404, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Sam Altman: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most rel...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again"
+        ],
+        "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "ba0a9355f6c8c153",
+        "date": "2026-07-13",
+        "title": "Aaron Levie: The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job po...",
+        "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "企业服务",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "价格变化",
+          "企业服务"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2076116544980214164",
+        "published_at": "2026-07-12T09:28:51+08:00",
+        "fetched_at": "2026-07-13T12:29:07.399078+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2076116544980214164\", \"text\": \"The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields.\\n\\nWhy is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing it in knowledge work.\\n\\nBecause software now is much lower to cost per unit, people want way more of it. So we start to use software for all new things and people and companies light up more software projects than ever before. \\n\\nBut because the job itself is not fully automated (and likely won’t be for as far out as we can see), you still need people that understand these systems to maintain the code, decide what to build, run it over the long run, update it, and more. That all requires people to do work. \\n\\nThe same thing is going to happen in many other fields as well as we bring down the cost of production of previously extremely scarce areas of work. Agents will cause more abundance than replacement.\", \"createdAt\": \"2026-07-12T01:28:51.000Z\", \"url\": \"https://x.com/levie/status/2076116544980214164\", \"likes\": 193, \"retweets\": 20, \"replies\": 31, \"isQuote\": true, \"quotedTweetId\": \"2075762741881770383\"}]}, \"tweets\": [{\"id\": \"2076116544980214164\", \"text\": \"The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields.\\n\\nWhy is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing it in knowledge work.\\n\\nBecause software now is much lower to cost per unit, people want way more of it. So we start to use software for all new things and people and companies light up more software projects than ever before. \\n\\nBut because the job itself is not fully automated (and likely won’t be for as far out as we can see), you still need people that understand these systems to maintain the code, decide what to build, run it over the long run, update it, and more. That all requires people to do work. \\n\\nThe same thing is going to happen in many other fields as well as we bring down the cost of production of previously extremely scarce areas of work. Agents will cause more abundance than replacement.\", \"createdAt\": \"2026-07-12T01:28:51.000Z\", \"url\": \"https://x.com/levie/status/2076116544980214164\", \"likes\": 193, \"retweets\": 20, \"replies\": 31, \"isQuote\": true, \"quotedTweetId\": \"2075762741881770383\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+        "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job po...",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i..."
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i...",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "3648e3213a6c89c6",
+        "date": "2026-07-13",
+        "title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+        "title_zh": "Podcasts / Interviews 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 收录了 No Priors 的一期播客：Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel。转录摘要线索：Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It'...",
+        "company": "Podcasts / Interviews",
+        "product": "No Priors",
+        "category": "模型更新",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "模型更新",
+          "企业服务"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / No Priors",
+        "source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+        "published_at": "2026-07-09T18:00:00+08:00",
+        "fetched_at": "2026-07-13T12:29:07.401521+08:00",
+        "raw_text": "Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It's so much more complex. Complex. If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital. Speaker 2 | 00:43 - 01:16 Today on our priors, we're talking with Glenn Fogel, the CEO of Booking Holdings, a twenty something year veteran of the company who joined when it was just Priceline and worth a few $100,000,000 in the year 2000 and has since helped grow it to a $100,000,000,000 plus company with multiple massive assets across travel that are now being used in the AI era. We will talk about a variety of topics with Glenn that span everything from, the growth and changes that have happened in bookings over time, as well as his own career and perspective on AI. So, Glenn, thank you so much for joining us today. Speaker 1 | 01:16 - 01:18 Well, thank you very much for having me. Speaker 2 | 01:18 - 01:37 Yeah. So you've had a really interesting career. You know, you went to Wharton, you went to Harvard Law. Along the way, you worked in, I think, the MIS program at Morgan Stanley. I'd love to just hear a little bit about your early background and how that led you eventually to booking.com and eventually Booking Holdings. Speaker 1 | 01:37 - 02:00 Sure. I can do that. So real short, I came out of work with Green Finance, and now I end up at the back office in MIS. My first job is putting tapes on a drive in a data center of IBM thirty eighty fours and the discs that went and and the tape drives and put the put the tapes on on the drive. That's where I started. Speaker 1 | 02:00 - 02:15 There's an operator. Actually, being an operator of a mainframe, very different. Nothing that you prepared for that in college for that. And I then become you become a developer, and you but I basically learned that this is not a career for me. I should do something else. Speaker 1 | 02:15 - 02:41 And all the people I knew, undergrad and were and were going off to investment bank and made all this money, and I thought, fuck. Try to do that, but you can't go. I've now gone down one shoot, and you can't just jump out of that one to go become an investment banker. So I said, oh, I I agree to finance warrant, Harvard let me into law school, so I'll do that because that's another route. I did that, and I end up getting a job on Wall Street as a banker. Speaker 1 | 02:41 - 03:04 I did that for till '95 till 1995. And then the bank was bought by another bank, a...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "There is no such thing as somewhere you're gonna be protected against innovation.",
+          "Today, we have a competitive advantage on areas.",
+          "The only one to win long term is to continue to develop new services, new ways to do things.",
+          "If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital."
+        ],
+        "source_context": "Follow Builders / No Priors 的原始信息主要包括：There is no such thing as somewhere you're gonna be protected against innovation.；Today, we have a competitive advantage on areas.",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "999358df7b3d1dc0",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/swyx/status/2076155833428431012",
+      "source_name": "Follow Builders / @swyx",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "361faeac1fd924f9",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "14484e8efa7822ff",
+      "title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/sama/status/2075983427019612242",
+      "source_name": "Follow Builders / @sama",
+      "problem_solved": "主要围绕模型能力、可用范围或产品化入口做增强。",
+      "industry_signal": "行业信号仍需结合后续官方细节、开发者反馈和竞品动作确认。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "personal_takeaway": "建议保留官方链接，后续和同类公司更新放在一起比较。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "999358df7b3d1dc0",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/swyx/status/2076155833428431012",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "361faeac1fd924f9",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @swyx",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the con...",
+      "change_type": "Builder 观点, X, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/swyx/status/2076155833428431012"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev... 2. If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @sama",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/sama/status/2075983427019612242"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost...",
+      "change_type": "Builder 观点, X, 价格变化",
+      "developer_impact": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2076116544980214164"
+    },
+    {
+      "company": "Podcasts / Interviews",
+      "model_product": "No Priors",
+      "before": "信息不足",
+      "after": "Follow Builders 收录了 No Priors 的一期播客：Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel。转录摘要线索：Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It'...",
+      "change_type": "Builder 访谈, Podcast, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/swyx/status/2076155833428431012"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "source_url": "https://x.com/sama/status/2075983427019612242"
+    },
+    {
+      "insight": "云厂商的 AI 更新，本质上是在把模型能力变成企业可采购的解决方案。",
+      "explanation": "这对云服务销售、企业集成和行业方案理解尤其重要。",
+      "source_title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "source_url": "https://x.com/levie/status/2076116544980214164"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/swyx/status/2076155833428431012",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/sama/status/2075983427019612242",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2076116544980214164",
+      "reason": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。"
+    },
+    {
+      "title": "Podcasts / Interviews 的企业 AI 信号值得关注",
+      "action": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    }
+  ],
+  "events": [
+    {
+      "id": "999358df7b3d1dc0",
+      "date": "2026-07-13",
+      "title": "Swyx: if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the con...",
+      "company": "Builder Ecosystem",
+      "product": "X / @swyx",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @swyx",
+      "source_url": "https://x.com/swyx/status/2076155833428431012",
+      "published_at": "2026-07-12T12:04:58+08:00",
+      "fetched_at": "2026-07-13T12:29:07.396627+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @dxtipshq \\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2076155833428431012\", \"text\": \"if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of:\\n\\n- humans who can wield coding agents well*\\n- coding agents breaking containment to all other knowledge work\\n\\nas the efficiency of labor goes up/unit cost of knowledge work goes broadly down, the demand for total work and better knowledge goes up, not down.\\n\\nwhat happened to coding isnt the exception; it’s the herald.\\n\\n*aka AI Engineers\", \"createdAt\": \"2026-07-12T04:04:58.000Z\", \"url\": \"https://x.com/swyx/status/2076155833428431012\", \"likes\": 143, \"retweets\": 9, \"replies\": 28, \"isQuote\": true, \"quotedTweetId\": \"2076036901824532530\"}]}, \"tweets\": [{\"id\": \"2076155833428431012\", \"text\": \"if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of:\\n\\n- humans who can wield coding agents well*\\n- coding agents breaking containment to all other knowledge work\\n\\nas the efficiency of labor goes up/unit cost of knowledge work goes broadly down, the demand for total work and better knowledge goes up, not down.\\n\\nwhat happened to coding isnt the exception; it’s the herald.\\n\\n*aka AI Engineers\", \"createdAt\": \"2026-07-12T04:04:58.000Z\", \"url\": \"https://x.com/swyx/status/2076155833428431012\", \"likes\": 143, \"retweets\": 9, \"replies\": 28, \"isQuote\": true, \"quotedTweetId\": \"2076036901824532530\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Swyx: if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo..."
+      ],
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：if you only learned about jevons paradox primarily wrt software demand in the age of agentic engineering, you may not have fully internalized jevons parodox’s impact under the conditions of: - humans who can wield coding agents well* - coding agents breaking containment to all other knowledge work as the efficiency of labor goes up/unit cost of knowledge wo...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "361faeac1fd924f9",
+      "date": "2026-07-13",
+      "title": "Thibault Sottiaux: At different times you complained about speed, code slop, frontend quality, ... With each release we improve...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev... 2. If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining...",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "published_at": "2026-07-12T11:24:45+08:00",
+      "fetched_at": "2026-07-13T12:29:07.397372+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2076145711922696371\", \"text\": \"At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is \\n\\n✅Fast and token efficient\\n✅Hardcore at back-end dev\\n✅Great at front-end\\n✅Does not use useEffect everywhere \\n\\nWhat is next?\", \"createdAt\": \"2026-07-12T03:24:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076145711922696371\", \"likes\": 2557, \"retweets\": 55, \"replies\": 805, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076119366647894371\", \"text\": \"If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\\n\\nStep 1: Install CLIProxyAPI\\nStep 2: Connect\\nStep 3: Define following alias and enjoy claudex\\n\\n```\\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\\\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\\\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\\\\nENABLE_TOOL_SEARCH=false \\\\\\nclaude --model gpt-5.6-sol'\\n```\\n\\nIf this gets blocked, I owe you a reset.\", \"createdAt\": \"2026-07-12T01:40:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076119366647894371\", \"likes\": 3871, \"retweets\": 243, \"replies\": 315, \"isQuote\": true, \"quotedTweetId\": \"2076114415368482854\"}]}, \"tweets\": [{\"id\": \"2076145711922696371\", \"text\": \"At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is \\n\\n✅Fast and token efficient\\n✅Hardcore at back-end dev\\n✅Great at front-end\\n✅Does not use useEffect everywhere \\n\\nWhat is next?\", \"createdAt\": \"2026-07-12T03:24:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076145711922696371\", \"likes\": 2557, \"retweets\": 55, \"replies\": 805, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2076119366647894371\", \"text\": \"If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\\n\\nStep 1: Install CLIProxyAPI\\nStep 2: Connect\\nStep 3: Define following alias and enjoy claudex\\n\\n```\\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\\\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\\\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\\\\nENABLE_TOOL_SEARCH=false \\\\\\nclaude --model gpt-5.6-sol'\\n```\\n\\nIf this gets blocked, I owe you a reset.\", \"createdAt\": \"2026-07-12T01:40:04.000Z\", \"url\": \"https://x.com/thsottiaux/status/2076119366647894371\", \"likes\": 3871, \"retweets\": 243, \"replies\": 315, \"isQuote\": true, \"quotedTweetId\": \"2076114415368482854\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2076119366647894371",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: At different times you complained about speed, code slop, frontend quality, ... With each release we improve...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?",
+        "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5...."
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is ✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere What is next?；If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done. Step 1: Install CLIProxyAPI Step 2: Connect Step 3: Define following alias and enjoy claudex ``` alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5....",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "14484e8efa7822ff",
+      "date": "2026-07-13",
+      "title": "Sam Altman: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most rel...",
+      "title_zh": "Builder Ecosystem 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Sam Altman（@sama） 在 X 上的最新动态。简介：AI is cool i guess。要点：1. there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+      "company": "Builder Ecosystem",
+      "product": "X / @sama",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "论文研究"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @sama",
+      "source_url": "https://x.com/sama/status/2075983427019612242",
+      "published_at": "2026-07-12T00:39:53+08:00",
+      "fetched_at": "2026-07-13T12:29:07.399997+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Sam Altman\", \"handle\": \"sama\", \"bio\": \"AI is cool i guess\", \"tweets\": [{\"id\": \"2075983427019612242\", \"text\": \"there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again\", \"createdAt\": \"2026-07-11T16:39:53.000Z\", \"url\": \"https://x.com/sama/status/2075983427019612242\", \"likes\": 49330, \"retweets\": 2330, \"replies\": 3404, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2075982820322025788\", \"text\": \"30% of the cost was on fable at these levels of usage? https://t.co/KzFoHj7cB4\", \"createdAt\": \"2026-07-11T16:37:28.000Z\", \"url\": \"https://x.com/sama/status/2075982820322025788\", \"likes\": 9734, \"retweets\": 225, \"replies\": 388, \"isQuote\": true, \"quotedTweetId\": \"2075963734745342361\"}]}, \"tweets\": [{\"id\": \"2075983427019612242\", \"text\": \"there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again\", \"createdAt\": \"2026-07-11T16:39:53.000Z\", \"url\": \"https://x.com/sama/status/2075983427019612242\", \"likes\": 49330, \"retweets\": 2330, \"replies\": 3404, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Sam Altman: there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most rel...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again"
+      ],
+      "source_context": "Follow Builders / @sama / X / @sama 的原始信息主要包括：there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ba0a9355f6c8c153",
+      "date": "2026-07-13",
+      "title": "Aaron Levie: The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job po...",
+      "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "企业服务",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "价格变化",
+        "企业服务"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2076116544980214164",
+      "published_at": "2026-07-12T09:28:51+08:00",
+      "fetched_at": "2026-07-13T12:29:07.399078+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2076116544980214164\", \"text\": \"The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields.\\n\\nWhy is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing it in knowledge work.\\n\\nBecause software now is much lower to cost per unit, people want way more of it. So we start to use software for all new things and people and companies light up more software projects than ever before. \\n\\nBut because the job itself is not fully automated (and likely won’t be for as far out as we can see), you still need people that understand these systems to maintain the code, decide what to build, run it over the long run, update it, and more. That all requires people to do work. \\n\\nThe same thing is going to happen in many other fields as well as we bring down the cost of production of previously extremely scarce areas of work. Agents will cause more abundance than replacement.\", \"createdAt\": \"2026-07-12T01:28:51.000Z\", \"url\": \"https://x.com/levie/status/2076116544980214164\", \"likes\": 193, \"retweets\": 20, \"replies\": 31, \"isQuote\": true, \"quotedTweetId\": \"2075762741881770383\"}]}, \"tweets\": [{\"id\": \"2076116544980214164\", \"text\": \"The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields.\\n\\nWhy is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing it in knowledge work.\\n\\nBecause software now is much lower to cost per unit, people want way more of it. So we start to use software for all new things and people and companies light up more software projects than ever before. \\n\\nBut because the job itself is not fully automated (and likely won’t be for as far out as we can see), you still need people that understand these systems to maintain the code, decide what to build, run it over the long run, update it, and more. That all requires people to do work. \\n\\nThe same thing is going to happen in many other fields as well as we bring down the cost of production of previously extremely scarce areas of work. Agents will cause more abundance than replacement.\", \"createdAt\": \"2026-07-12T01:28:51.000Z\", \"url\": \"https://x.com/levie/status/2076116544980214164\", \"likes\": 193, \"retweets\": 20, \"replies\": 31, \"isQuote\": true, \"quotedTweetId\": \"2075762741881770383\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job po...",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i..."
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：The job that AI was supposed to replace is experiencing the opposite of the expected outcome. Software job postings are outpacing other fields. Why is that? If you lower the cost of production of something that has lots of use cases, people want more things produced. We’ve seen this play out in the industrial world constantly, and now we’re finally seeing i...",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "3648e3213a6c89c6",
+      "date": "2026-07-13",
+      "title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "title_zh": "Podcasts / Interviews 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 收录了 No Priors 的一期播客：Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel。转录摘要线索：Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It'...",
+      "company": "Podcasts / Interviews",
+      "product": "No Priors",
+      "category": "模型更新",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "模型更新",
+        "企业服务"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / No Priors",
+      "source_url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "published_at": "2026-07-09T18:00:00+08:00",
+      "fetched_at": "2026-07-13T12:29:07.401521+08:00",
+      "raw_text": "Speaker 1 | 00:00 - 00:13 There is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. Speaker 1 | 00:13 - 00:24 The only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting? Speaker 1 | 00:24 - 00:36 It's so much more complex. Complex. If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital. Speaker 2 | 00:43 - 01:16 Today on our priors, we're talking with Glenn Fogel, the CEO of Booking Holdings, a twenty something year veteran of the company who joined when it was just Priceline and worth a few $100,000,000 in the year 2000 and has since helped grow it to a $100,000,000,000 plus company with multiple massive assets across travel that are now being used in the AI era. We will talk about a variety of topics with Glenn that span everything from, the growth and changes that have happened in bookings over time, as well as his own career and perspective on AI. So, Glenn, thank you so much for joining us today. Speaker 1 | 01:16 - 01:18 Well, thank you very much for having me. Speaker 2 | 01:18 - 01:37 Yeah. So you've had a really interesting career. You know, you went to Wharton, you went to Harvard Law. Along the way, you worked in, I think, the MIS program at Morgan Stanley. I'd love to just hear a little bit about your early background and how that led you eventually to booking.com and eventually Booking Holdings. Speaker 1 | 01:37 - 02:00 Sure. I can do that. So real short, I came out of work with Green Finance, and now I end up at the back office in MIS. My first job is putting tapes on a drive in a data center of IBM thirty eighty fours and the discs that went and and the tape drives and put the put the tapes on on the drive. That's where I started. Speaker 1 | 02:00 - 02:15 There's an operator. Actually, being an operator of a mainframe, very different. Nothing that you prepared for that in college for that. And I then become you become a developer, and you but I basically learned that this is not a career for me. I should do something else. Speaker 1 | 02:15 - 02:41 And all the people I knew, undergrad and were and were going off to investment bank and made all this money, and I thought, fuck. Try to do that, but you can't go. I've now gone down one shoot, and you can't just jump out of that one to go become an investment banker. So I said, oh, I I agree to finance warrant, Harvard let me into law school, so I'll do that because that's another route. I did that, and I end up getting a job on Wall Street as a banker. Speaker 1 | 02:41 - 03:04 I did that for till '95 till 1995. And then the bank was bought by another bank, a...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "There is no such thing as somewhere you're gonna be protected against innovation.",
+        "Today, we have a competitive advantage on areas.",
+        "The only one to win long term is to continue to develop new services, new ways to do things.",
+        "If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital."
+      ],
+      "source_context": "Follow Builders / No Priors 的原始信息主要包括：There is no such thing as somewhere you're gonna be protected against innovation.；Today, we have a competitive advantage on areas.",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 5,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 5,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-07-13T12:29:07.412689+08:00"
+  }
+}
