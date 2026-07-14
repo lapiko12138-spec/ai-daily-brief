@@ -1,0 +1,1052 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-14 每日 AI Builders 简讯</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfbfa;
+      --panel: #ffffff;
+      --panel-soft: #f7f6f3;
+      --text: #2f3437;
+      --muted: #6f7378;
+      --line: #e6e4df;
+      --accent: #ff4fd8;
+      --accent-2: #00a7f7;
+      --accent-3: #f2c200;
+      --accent-soft: #fff0fb;
+      --blue-soft: #e5f4ff;
+      --yellow-soft: #fff5ce;
+      --green: #16845b;
+      --green-soft: #ddf7eb;
+      --red: #d12f6a;
+      --red-soft: #ffe7f1;
+      --gray-soft: #f1f1ef;
+      --shadow: 0 1px 2px rgba(15, 15, 15, 0.04), 0 8px 24px rgba(15, 15, 15, 0.04);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #171717;
+        --panel: #202020;
+        --panel-soft: #292827;
+        --text: #ededeb;
+        --muted: #aaa7a1;
+        --line: #393836;
+        --accent: #ff6edf;
+        --accent-2: #35c7ff;
+        --accent-3: #ffd84d;
+        --accent-soft: #402035;
+        --blue-soft: #183243;
+        --yellow-soft: #3d3517;
+        --green: #73e0ad;
+        --green-soft: #17362a;
+        --red: #ff7bac;
+        --red-soft: #442232;
+        --gray-soft: #2f2f2e;
+        --shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.68;
+      letter-spacing: 0;
+    }
+    a { color: #c01899; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (prefers-color-scheme: dark) { a { color: var(--accent); } }
+    .page { max-width: 1160px; margin: 0 auto; padding: 28px 20px 56px; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: end;
+      padding: 26px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.08; font-weight: 780; }
+    h2 { font-size: 23px; line-height: 1.25; font-weight: 760; }
+    h3 { font-size: 18px; line-height: 1.38; font-weight: 730; }
+    .subtitle { color: var(--muted); margin-top: 10px; max-width: 780px; }
+    .date-pill {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: var(--muted);
+      background: var(--panel);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.85fr);
+      gap: 14px;
+      margin: 18px 0 8px;
+      align-items: stretch;
+    }
+    .lead-idea, .metrics-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .lead-idea {
+      padding: 18px;
+      border-left: 5px solid var(--accent);
+    }
+    .lead-label {
+      display: inline-flex;
+      width: fit-content;
+      color: #8a196f;
+      background: var(--accent-soft);
+      border-radius: 5px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 720;
+      margin-bottom: 10px;
+    }
+    .lead-idea p { margin-top: 8px; color: var(--muted); }
+    .metrics-panel {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      overflow: hidden;
+      background: var(--line);
+    }
+    .metric {
+      background: var(--panel);
+      padding: 14px;
+      min-height: 84px;
+    }
+    .metric strong { display: block; font-size: 25px; line-height: 1.1; color: var(--accent-2); }
+    .metric span { color: var(--muted); font-size: 13px; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: color-mix(in srgb, var(--bg) 94%, transparent);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+      margin: 0 0 28px;
+      padding: 10px max(20px, calc((100vw - 1160px) / 2 + 20px));
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    nav a {
+      display: inline-flex;
+      margin-right: 12px;
+      color: var(--muted);
+      border-radius: 5px;
+      padding: 4px 7px;
+      font-size: 14px;
+    }
+    nav a:hover { background: var(--panel-soft); color: var(--text); text-decoration: none; }
+    section { margin: 34px 0; }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .section-note { color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .stack { display: grid; gap: 12px; }
+    .view-card, .analysis-card, .tool-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .view-card {
+      padding: 16px;
+      border-top: 4px solid var(--accent);
+    }
+    .view-card:nth-child(2n) { border-top-color: var(--accent-2); }
+    .view-card:nth-child(3n) { border-top-color: var(--accent-3); }
+    .view-title {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: start;
+    }
+    .view-title h3 { overflow-wrap: anywhere; }
+    .viewpoint {
+      margin-top: 12px;
+      padding: 12px;
+      background: color-mix(in srgb, var(--accent-soft) 52%, var(--panel));
+      border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line));
+      border-radius: 6px;
+      font-weight: 650;
+    }
+    .why { margin-top: 10px; color: var(--muted); }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 11px 0 0;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 5px;
+      padding: 3px 8px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+    .badge-high { color: var(--red); background: var(--red-soft); }
+    .badge-medium { color: #946200; background: var(--yellow-soft); }
+    .badge-low { color: var(--muted); background: var(--gray-soft); }
+    .badge-official, .badge-media { color: var(--green); background: var(--green-soft); }
+    .badge-community { color: #946200; background: var(--yellow-soft); }
+    .badge-unverified, .badge-conflicting { color: var(--red); background: var(--red-soft); }
+    .tag { color: var(--muted); background: var(--gray-soft); }
+    details.expand {
+      margin-top: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+    }
+    details.expand > summary {
+      cursor: pointer;
+      color: #c01899;
+      font-weight: 720;
+      list-style-position: inside;
+    }
+    .evidence {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+    .evidence li { margin: 7px 0; }
+    .source-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .source-context {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .reader-takeaway {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 6px;
+      background: color-mix(in srgb, var(--blue-soft) 72%, var(--panel));
+    }
+    .original {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+    .company-block {
+      padding-top: 18px;
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+    .company-block:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+    .event-detail {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .event-detail > summary {
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      padding: 14px 16px;
+      list-style: none;
+    }
+    .event-detail > summary::-webkit-details-marker { display: none; }
+    .event-detail > summary::after {
+      content: "展开";
+      color: var(--muted);
+      font-size: 13px;
+      align-self: start;
+    }
+    .event-detail[open] > summary::after { content: "收起"; }
+    .event-summary-title { display: grid; gap: 6px; }
+    .event-summary-title p { color: var(--muted); }
+    .event-body {
+      padding: 0 16px 16px;
+      border-top: 1px solid var(--line);
+    }
+    .analysis-card, .tool-card { padding: 16px; }
+    .analysis-card dl {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 8px 14px;
+      margin: 12px 0 0;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th { color: var(--muted); background: var(--panel-soft); font-weight: 720; }
+    tr:last-child td { border-bottom: 0; }
+    .table-wrap { overflow-x: auto; }
+    .empty {
+      color: var(--muted);
+      background: var(--panel-soft);
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+      margin-top: 34px;
+      font-size: 14px;
+    }
+    @media (max-width: 860px) {
+      header, .dashboard { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      .view-title, .event-detail > summary { grid-template-columns: 1fr; }
+      .analysis-card dl { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <h1>2026-07-14 每日 AI Builders 简讯</h1>
+        <p class="subtitle">中文观点优先。每条信息先给出我该记住的核心判断，再展开看原文证据、来源和不确定性。</p>
+      </div>
+      <div class="date-pill">2026-07-14</div>
+    </header>
+
+    <div class="dashboard">
+      <div class="lead-idea">
+        <span class="lead-label">今天的主线</span>
+        <h2>Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。</h2>
+        <p>今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。</p>
+      </div>
+      <div class="metrics-panel">
+        <div class="metric"><strong>10</strong><span>结构化信息</span></div>
+        <div class="metric"><strong>10</strong><span>可溯源</span></div>
+        <div class="metric"><strong>0</strong><span>待核实</span></div>
+        <div class="metric"><strong>0</strong><span>抓取失败</span></div>
+      </div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#summary">核心观点</a>
+    <a href="#feed">完整信息流</a>
+    <a href="#deep">重点分析</a>
+    <a href="#agents">Agent 工具</a>
+    <a href="#models">模型/API</a>
+    <a href="#manual">手动日报</a>
+    <a href="#cognition">认知沉淀</a>
+    <a href="#actions">行动建议</a>
+  </nav>
+
+  <main class="page">
+    <section id="summary">
+      <div class="section-head">
+        <h2>今日核心观点</h2>
+        <span class="section-note">先读这里，判断今天是否值得深挖</span>
+      </div>
+      <div class="grid">
+        <article class="view-card">
+          <div class="view-title">
+            <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+            <span class="badge badge-high">高优先级</span>
+          </div>
+          <p class="viewpoint">核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+          <div class="meta">
+            <span class="badge badge-community">Builder 原帖</span>
+            <span class="badge tag">OpenAI / X / @thsottiaux</span>
+          </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            <ol class="evidence">
+              <li>Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 S</li>
+              <li>Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model</li>
+            </ol>
+<p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p><p class="source-context">Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 S；Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model</p><p class="original">原始标题 / 原帖：Thibault Sottiaux: Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizatio...</p>            <div class="source-line">
+<a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">打开原始来源</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>            </div>
+          </details>
+        </article>
+        <article class="view-card">
+          <div class="view-title">
+            <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+            <span class="badge badge-high">高优先级</span>
+          </div>
+          <p class="viewpoint">核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+          <div class="meta">
+            <span class="badge badge-community">Builder 原帖</span>
+            <span class="badge tag">Builder Ecosystem / X / @nikunj</span>
+          </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            <ol class="evidence">
+              <li>What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subagents looping things for them.. But when I ask them “what” and for “whom” are they building, very few can give me a straight answer. Shows that even in this insane AI era, simplicity and direction are still ridiculously important. So before you let yo...</li>
+            </ol>
+<p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p><p class="source-context">Follow Builders / @nikunj / X / @nikunj 的原始信息主要包括：What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subagents looping things for them.. But when I ask them “what” and for “whom” are they building, very few can give me a straight answer. Shows that even in this insane AI era, simplicity and direction are still ridiculously important. So before you let yo...</p><p class="original">原始标题 / 原帖：Nikunj Kothari: What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subag...</p>            <div class="source-line">
+<a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">打开原始来源</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>            </div>
+          </details>
+        </article>
+        <article class="view-card">
+          <div class="view-title">
+            <h3>OpenAI 生态出现一条值得记录的信号</h3>
+            <span class="badge badge-high">高优先级</span>
+          </div>
+          <p class="viewpoint">这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。</p>
+          <p class="why">这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。</p>
+          <div class="meta">
+            <span class="badge badge-community">Builder 原帖</span>
+            <span class="badge tag">OpenAI / X / @sama</span>
+          </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            <ol class="evidence">
+              <li>i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the coolest thing a special gift from the openai archives.</li>
+            </ol>
+<p class="reader-takeaway">我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。</p><p class="source-context">Follow Builders / @sama / X / @sama 的原始信息主要包括：i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the coolest thing a special gift from the openai archives.</p><p class="original">原始标题 / 原帖：Sam Altman: i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the cooles...</p>            <div class="source-line">
+<a href="https://x.com/sama/status/2076398253332140410" target="_blank" rel="noopener">打开原始来源</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>            </div>
+          </details>
+        </article>
+        <article class="view-card">
+          <div class="view-title">
+            <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+            <span class="badge badge-high">高优先级</span>
+          </div>
+          <p class="viewpoint">核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+          <div class="meta">
+            <span class="badge badge-community">Builder 原帖</span>
+            <span class="badge tag">Builder Ecosystem / X / @rauchg</span>
+          </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            <ol class="evidence">
+              <li>Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don&#39;t outsource your brain.</li>
+            </ol>
+<p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p><p class="source-context">Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don&#39;t outsource your brain.</p><p class="original">原始标题 / 原帖：Guillermo Rauch: Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent A...</p>            <div class="source-line">
+<a href="https://x.com/rauchg/status/2076364176252191222" target="_blank" rel="noopener">打开原始来源</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>            </div>
+          </details>
+        </article>
+        <article class="view-card">
+          <div class="view-title">
+            <h3>Anthropic 相关 Agent 动态值得跟踪</h3>
+            <span class="badge badge-high">高优先级</span>
+          </div>
+          <p class="viewpoint">核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+          <div class="meta">
+            <span class="badge badge-community">Builder 原帖</span>
+            <span class="badge tag">Anthropic / X / @claudeai</span>
+          </div>
+          <details class="expand">
+            <summary>展开：原文证据与我的判断</summary>
+            <ol class="evidence">
+              <li>As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. More details here:</li>
+              <li>We&#39;re extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</li>
+            </ol>
+<p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p><p class="source-context">Follow Builders / @claudeai / X / @claudeai 的原始信息主要包括：As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. More details here:；We&#39;re extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</p><p class="original">原始标题 / 原帖：Claude: As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using F...</p>            <div class="source-line">
+<a href="https://x.com/claudeai/status/2076351401006154204" target="_blank" rel="noopener">打开原始来源</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="feed">
+      <div class="section-head">
+        <h2>完整信息流</h2>
+        <span class="section-note">默认收起，展开看原文要点</span>
+      </div>
+        <div class="company-block">
+          <h3>OpenAI</h3>
+          <div class="stack">
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">模型更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">开发者工具</span><span class="badge tag">算力/基础设施</span>                </div>
+                <ol class="evidence">
+                  <li>Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 S</li>
+                  <li>Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 S；Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model</p>
+                <p class="original">原始标题 / 原帖：Thibault Sottiaux: Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizatio...</p>
+                <div class="source-line">
+                  <span>X / @thsottiaux</span>
+<span>2026-07-13T10:33:19+08:00</span><a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">Follow Builders / @thsottiaux</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>OpenAI 生态出现一条值得记录的信号</h3>
+                  <p>这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span>                </div>
+                <ol class="evidence">
+                  <li>i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the coolest thing a special gift from the openai archives.</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。</p>
+                <p class="source-context">Follow Builders / @sama / X / @sama 的原始信息主要包括：i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the coolest thing a special gift from the openai archives.</p>
+                <p class="original">原始标题 / 原帖：Sam Altman: i&#39;d love to see interesting things people have built with 5.6 sol. i will send the person who made the cooles...</p>
+                <div class="source-line">
+                  <span>X / @sama</span>
+<span>2026-07-13T04:08:15+08:00</span><a href="https://x.com/sama/status/2076398253332140410" target="_blank" rel="noopener">Follow Builders / @sama</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">开发者工具</span>                </div>
+                <ol class="evidence">
+                  <li>Try &#34;meeting transcript as PRD&#34;, it&#39;s amazing I discuss a feature&#39;s implementation with a colleague, send transcript to Codex, and it builds the prototype as we discussed. The meeting is the prompt</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @zarazhangrui / X / @zarazhangrui 的原始信息主要包括：Try &#34;meeting transcript as PRD&#34;, it&#39;s amazing I discuss a feature&#39;s implementation with a colleague, send transcript to Codex, and it builds the prototype as we discussed. The meeting is the prompt</p>
+                <p class="original">原始标题 / 原帖：Zara Zhang: Try &#34;meeting transcript as PRD&#34;, it&#39;s amazing I discuss a feature&#39;s implementation with a colleague, send tra...</p>
+                <div class="source-line">
+                  <span>X / @zarazhangrui</span>
+<span>2026-07-12T21:38:43+08:00</span><a href="https://x.com/zarazhangrui/status/2076300222884626754" target="_blank" rel="noopener">Follow Builders / @zarazhangrui</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>OpenAI 的模型/产品能力有新变化</h3>
+                  <p>核心信号是模型能力继续被包装进用户可感知的产品入口。</p>
+                </div>
+                <span class="badge badge-medium">中优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">模型更新</span>                </div>
+                <ol class="evidence">
+                  <li>Seeing this quite often today. My wild guess is 90%+ of people are using GPT 5.6 Sol and &lt;10% are using Terra or Luna.</li>
+                  <li>Anthropic makes great models too but I don&#39;t understand why they communicate like this. I think they need to engage the community more directly like what OpenAI is doing.</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。</p>
+                <p class="source-context">Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Seeing this quite often today. My wild guess is 90%+ of people are using GPT 5.6 Sol and &lt;10% are using Terra or Luna.；Anthropic makes great models too but I don&#39;t understand why they communicate like this. I think they need to engage the community more directly like what OpenAI is doing.</p>
+                <p class="original">原始标题 / 原帖：Peter Yang: Seeing this quite often today. My wild guess is 90%+ of people are using GPT 5.6 Sol and &amp;lt;10% are using Te...</p>
+                <div class="source-line">
+                  <span>X / @petergyang</span>
+<span>2026-07-13T12:11:45+08:00</span><a href="https://x.com/petergyang/status/2076519927843000448" target="_blank" rel="noopener">Follow Builders / @petergyang</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Anthropic</h3>
+          <div class="stack">
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Anthropic 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span><span class="badge tag">开发者工具</span>                </div>
+                <ol class="evidence">
+                  <li>As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. More details here:</li>
+                  <li>We&#39;re extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @claudeai / X / @claudeai 的原始信息主要包括：As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. More details here:；We&#39;re extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</p>
+                <p class="original">原始标题 / 原帖：Claude: As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using F...</p>
+                <div class="source-line">
+                  <span>X / @claudeai</span>
+<span>2026-07-13T01:02:05+08:00</span><a href="https://x.com/claudeai/status/2076351401006154204" target="_blank" rel="noopener">Follow Builders / @claudeai</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="company-block">
+          <h3>Builder Ecosystem</h3>
+          <div class="stack">
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">Agent</span><span class="badge tag">生态合作</span>                </div>
+                <ol class="evidence">
+                  <li>What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subagents looping things for them.. But when I ask them “what” and for “whom” are they building, very few can give me a straight answer. Shows that even in this insane AI era, simplicity and direction are still ridiculously important. So before you let yo...</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @nikunj / X / @nikunj 的原始信息主要包括：What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subagents looping things for them.. But when I ask them “what” and for “whom” are they building, very few can give me a straight answer. Shows that even in this insane AI era, simplicity and direction are still ridiculously important. So before you let yo...</p>
+                <p class="original">原始标题 / 原帖：Nikunj Kothari: What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subag...</p>
+                <div class="source-line">
+                  <span>X / @nikunj</span>
+<span>2026-07-13T08:09:09+08:00</span><a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">Follow Builders / @nikunj</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">模型更新</span><span class="badge tag">API 更新</span><span class="badge tag">Agent</span><span class="badge tag">开发者工具</span><span class="badge tag">企业服务</span><span class="badge tag">算力/基础设施</span>                </div>
+                <ol class="evidence">
+                  <li>Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don&#39;t outsource your brain.</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don&#39;t outsource your brain.</p>
+                <p class="original">原始标题 / 原帖：Guillermo Rauch: Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent A...</p>
+                <div class="source-line">
+                  <span>X / @rauchg</span>
+<span>2026-07-13T01:52:51+08:00</span><a href="https://x.com/rauchg/status/2076364176252191222" target="_blank" rel="noopener">Follow Builders / @rauchg</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">Agent</span><span class="badge tag">企业服务</span>                </div>
+                <ol class="evidence">
+                  <li>One of the key architectural questions of the 21st century in business will be how you maximize your corporate IP in the form of decisions, insights, workflow patterns, and best practices in a world where so much intelligence is packed into AI models. One might think these questions could just get bitter lessoned out of existence, but in reality they become...</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @levie / X / @levie 的原始信息主要包括：One of the key architectural questions of the 21st century in business will be how you maximize your corporate IP in the form of decisions, insights, workflow patterns, and best practices in a world where so much intelligence is packed into AI models. One might think these questions could just get bitter lessoned out of existence, but in reality they become...</p>
+                <p class="original">原始标题 / 原帖：Aaron Levie: One of the key architectural questions of the 21st century in business will be how you maximize your corporat...</p>
+                <div class="source-line">
+                  <span>X / @levie</span>
+<span>2026-07-13T00:10:17+08:00</span><a href="https://x.com/levie/status/2076338364635287637" target="_blank" rel="noopener">Follow Builders / @levie</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+                  <p>核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。</p>
+                </div>
+                <span class="badge badge-high">高优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">产品功能</span><span class="badge tag">Agent</span>                </div>
+                <ol class="evidence">
+                  <li>me when they say anyone can now build apps with an agentic coding tool</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。</p>
+                <p class="source-context">Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：me when they say anyone can now build apps with an agentic coding tool</p>
+                <p class="original">原始标题 / 原帖：Matt Turck: me when they say anyone can now build apps with an agentic coding tool https://t.co/PtL1Mu0yS0</p>
+                <div class="source-line">
+                  <span>X / @mattturck</span>
+<span>2026-07-12T22:24:35+08:00</span><a href="https://x.com/mattturck/status/2076311766049374598" target="_blank" rel="noopener">Follow Builders / @mattturck</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <div class="event-summary-title">
+                  <h3>Builder Ecosystem 的模型/产品能力有新变化</h3>
+                  <p>核心信号是模型能力继续被包装进用户可感知的产品入口。</p>
+                </div>
+                <span class="badge badge-medium">中优先级</span>
+              </summary>
+              <div class="event-body">
+                <div class="meta">
+                  <span class="badge badge-community">Builder 原帖</span>
+<span class="badge tag">Builder 观点</span><span class="badge tag">X</span><span class="badge tag">模型更新</span><span class="badge tag">论文研究</span><span class="badge tag">算力/基础设施</span>                </div>
+                <ol class="evidence">
+                  <li>Fun to see Replit&#39;s computer use model play against my new chess engine</li>
+                  <li>Vibe Research Fine-tuning a Qwen-8b model to play chess on Replit. Running 3 parallel branches with different experiments and making real progress. It&#39;s amazing how far models have come in their ability to do ML (they used to be really bad at it). So now someone with good intuition to guide the process could do interesting ML work, even if they have never d...</li>
+                </ol>
+                <p class="reader-takeaway">我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。</p>
+                <p class="source-context">Follow Builders / @amasad / X / @amasad 的原始信息主要包括：Fun to see Replit&#39;s computer use model play against my new chess engine；Vibe Research Fine-tuning a Qwen-8b model to play chess on Replit. Running 3 parallel branches with different experiments and making real progress. It&#39;s amazing how far models have come in their ability to do ML (they used to be really bad at it). So now someone with good intuition to guide the process could do interesting ML work, even if they have never d...</p>
+                <p class="original">原始标题 / 原帖：Amjad Masad: Fun to see Replit&#39;s computer use model play against my new chess engine https://t.co/SQmN4NamlR https://t.co/...</p>
+                <div class="source-line">
+                  <span>X / @amasad</span>
+<span>2026-07-13T01:23:54+08:00</span><a href="https://x.com/amasad/status/2076356893736673507" target="_blank" rel="noopener">Follow Builders / @amasad</a><span>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</span>                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+    </section>
+
+    <section id="deep">
+      <div class="section-head">
+        <h2>重点分析</h2>
+        <span class="section-note">从产品、竞争和商业化角度拆解</span>
+      </div>
+      <div class="stack">
+        <article class="analysis-card">
+          <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+          <div class="source-line">
+            <span>OpenAI</span>
+<a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">Follow Builders / @thsottiaux</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>主要解决从模型回答到任务执行之间的工作流连接问题。</dd>
+            <dt>行业信号</dt><dd>行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。</dd>
+            <dt>商业化影响</dt><dd>可能推动从单点工具采购走向端到端工作流方案。</dd>
+            <dt>我的认知积累</dt><dd>建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。</dd>
+            <dt>不确定性</dt><dd>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</dd>
+          </dl>
+        </article>
+        <article class="analysis-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <div class="source-line">
+            <span>Builder Ecosystem</span>
+<a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">Follow Builders / @nikunj</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>主要解决从模型回答到任务执行之间的工作流连接问题。</dd>
+            <dt>行业信号</dt><dd>行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。</dd>
+            <dt>商业化影响</dt><dd>可能推动从单点工具采购走向端到端工作流方案。</dd>
+            <dt>我的认知积累</dt><dd>建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。</dd>
+            <dt>不确定性</dt><dd>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</dd>
+          </dl>
+        </article>
+        <article class="analysis-card">
+          <h3>OpenAI 生态出现一条值得记录的信号</h3>
+          <div class="source-line">
+            <span>OpenAI</span>
+<a href="https://x.com/sama/status/2076398253332140410" target="_blank" rel="noopener">Follow Builders / @sama</a>          </div>
+          <dl>
+            <dt>解决的问题</dt><dd>目前只能确认这是一个值得跟踪的 builder 或生态更新，具体问题需要继续看原文细节。</dd>
+            <dt>行业信号</dt><dd>行业信号仍需结合后续官方细节、开发者反馈和竞品动作确认。</dd>
+            <dt>竞争影响</dt><dd>对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。</dd>
+            <dt>用户影响</dt><dd>开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。</dd>
+            <dt>商业化影响</dt><dd>商业化影响暂时需要更多使用数据和客户场景验证。</dd>
+            <dt>我的认知积累</dt><dd>建议保留官方链接，后续和同类公司更新放在一起比较。</dd>
+            <dt>不确定性</dt><dd>这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="agents">
+      <div class="section-head">
+        <h2>Agent 与开发者工具</h2>
+        <span class="section-note">是否值得试用、适合什么场景</span>
+      </div>
+      <div class="grid">
+        <article class="tool-card">
+          <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/rauchg/status/2076364176252191222" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Anthropic 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/claudeai/status/2076351401006154204" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/levie/status/2076338364635287637" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/mattturck/status/2076311766049374598" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+          <div class="meta">
+            <span class="badge badge-high">高优先级</span>
+            <span class="badge badge-community">Builder 原帖</span>
+          </div>
+          <p class="viewpoint">可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。</p>
+          <p class="why">值得试用。适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。</p>
+          <p class="reader-takeaway">与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。</p>
+<div class="source-line"><a href="https://x.com/zarazhangrui/status/2076300222884626754" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+      </div>
+    </section>
+
+    <section id="models">
+      <div class="section-head">
+        <h2>模型能力与 API 变化</h2>
+        <span class="section-note">无法确认更新前后时保留“信息不足”</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>公司</th><th>模型/产品</th><th>更新前</th><th>更新后</th><th>变化类型</th><th>开发者影响</th><th>商业化影响</th><th>来源</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>OpenAI</td>
+              <td>X / @thsottiaux</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex &amp; ChatGPT @OpenAI。要点：1. Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 S... 2. Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.</td>
+              <td>Builder 观点, X, 模型更新</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Builder Ecosystem</td>
+              <td>X / @nikunj</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Nikunj Kothari（@nikunj） 在 X 上的最新动态。简介：partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian &amp; others. love @shimoleejhaveri + 👦👧。要点：1. What’s funny is I’ll meet so many people in SF who’ll claim they are tokenmaxxing and have all of these subagents looping things for them.. But when I ask them “what” and for “who...</td>
+              <td>Builder 观点, X, Agent</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Builder Ecosystem</td>
+              <td>X / @rauchg</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own...</td>
+              <td>Builder 观点, X, 模型更新</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://x.com/rauchg/status/2076364176252191222" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Anthropic</td>
+              <td>X / @claudeai</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Claude（@claudeai） 在 X 上的最新动态。简介：Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.。要点：1. As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working... 2. We&#39;re extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</td>
+              <td>Builder 观点, X, 模型更新</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://x.com/claudeai/status/2076351401006154204" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Builder Ecosystem</td>
+              <td>X / @levie</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. One of the key architectural questions of the 21st century in business will be how you maximize your corporate IP in the form of decisions, insights, workflow patterns, and best p...</td>
+              <td>Builder 观点, X, Agent</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能影响企业采购、云平台绑定和业务自动化方案设计。</td>
+              <td><a href="https://x.com/levie/status/2076338364635287637" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Builder Ecosystem</td>
+              <td>X / @mattturck</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. me when they say anyone can now build apps with an agentic coding tool https://t.co/PtL1Mu0yS0</td>
+              <td>Builder 观点, X, 产品功能</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://x.com/mattturck/status/2076311766049374598" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>X / @zarazhangrui</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Zara Zhang（@zarazhangrui） 在 X 上的最新动态。简介：Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w。要点：1. Try &#34;meeting transcript as PRD&#34;, it&#39;s amazing I discuss a feature&#39;s implementation with a colleague, send transcript to Codex, and it builds the prototype as we discussed. The mee...</td>
+              <td>Builder 观点, X, 产品功能</td>
+              <td>这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</td>
+              <td>可能推动从单点工具采购走向端到端工作流方案。</td>
+              <td><a href="https://x.com/zarazhangrui/status/2076300222884626754" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>X / @petergyang</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Seeing this quite often today. My wild guess is 90%+ of people are using GPT 5.6 Sol and &amp;lt;10% are using Terra or Luna. https://t.co/uiCunQ1sLK 2. Anthropic makes great models too but I don&#39;t understand why they communicate like this. I think they need to engage the community more directly like what OpenAI is doing. https://...</td>
+              <td>Builder 观点, X, 模型更新</td>
+              <td>这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://x.com/petergyang/status/2076519927843000448" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+            <tr>
+              <td>Builder Ecosystem</td>
+              <td>X / @amasad</td>
+              <td>信息不足</td>
+              <td>Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. Fun to see Replit&#39;s computer use model play against my new chess engine https://t.co/SQmN4NamlR https://t.co/INdb7rojHU 2. Vibe Research Fine-tuning a Qwen-8b model to play chess on Replit. Running 3 parallel branches with different experiments and making real progress. It&#39;s amazing how far models hav...</td>
+              <td>Builder 观点, X, 模型更新</td>
+              <td>这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。</td>
+              <td>商业化影响暂时需要更多使用数据和客户场景验证。</td>
+              <td><a href="https://x.com/amasad/status/2076356893736673507" target="_blank" rel="noopener">原文</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="manual">
+      <div class="section-head">
+        <h2>手动日报整理区</h2>
+        <span class="section-note">拆分、去重、可信度标记</span>
+      </div>
+      <div class="empty">未读取到当天手动日报。可放入 data/manual_input/2026-07-14.md 或 .txt。</div>
+    </section>
+
+    <section id="cognition">
+      <div class="section-head">
+        <h2>认知沉淀</h2>
+        <span class="section-note">把信息变成可复用判断</span>
+      </div>
+      <div class="stack">
+        <article class="tool-card">
+          <h3>Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。</h3>
+          <p class="why">今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。</p>
+<div class="source-line"><span>关联：OpenAI 相关 Agent 动态值得跟踪</span><a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>每日追踪的价值在于把零散更新沉淀成可复用的判断框架。</h3>
+          <p class="why">单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。</p>
+<div class="source-line"><span>关联：OpenAI 生态出现一条值得记录的信号</span><a href="https://x.com/sama/status/2076398253332140410" target="_blank" rel="noopener">来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。</h3>
+          <p class="why">只看 benchmark 容易低估产品入口和开发者生态的价值。</p>
+<div class="source-line"><span>关联：OpenAI 的模型/产品能力有新变化</span><a href="https://x.com/petergyang/status/2076519927843000448" target="_blank" rel="noopener">来源</a></div>        </article>
+      </div>
+    </section>
+
+    <section id="actions">
+      <div class="section-head">
+        <h2>行动建议</h2>
+        <span class="section-note">今天可以做什么</span>
+      </div>
+      <div class="grid">
+        <article class="tool-card">
+          <h3>OpenAI 相关 Agent 动态值得跟踪</h3>
+          <p class="viewpoint">打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+<div class="source-line"><a href="https://x.com/thsottiaux/status/2076495156757577895" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <p class="viewpoint">打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+<div class="source-line"><a href="https://x.com/nikunj/status/2076458876816540144" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>OpenAI 生态出现一条值得记录的信号</h3>
+          <p class="viewpoint">打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。</p>
+          <p class="why">这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。</p>
+<div class="source-line"><a href="https://x.com/sama/status/2076398253332140410" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Builder Ecosystem 相关 Agent 动态值得跟踪</h3>
+          <p class="viewpoint">打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+<div class="source-line"><a href="https://x.com/rauchg/status/2076364176252191222" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+        <article class="tool-card">
+          <h3>Anthropic 相关 Agent 动态值得跟踪</h3>
+          <p class="viewpoint">打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。</p>
+          <p class="why">这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。</p>
+<div class="source-line"><a href="https://x.com/claudeai/status/2076351401006154204" target="_blank" rel="noopener">打开原始来源</a></div>        </article>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>生成时间：2026-07-14T11:55:39.112838+08:00。观点标题是系统基于原始来源生成的中文阅读层；非官方信息会保留不确定性说明。</p>
+    </footer>
+  </main>
+</body>
+</html>
