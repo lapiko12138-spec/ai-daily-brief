@@ -1,0 +1,505 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-19T12:20:00.449526+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 13,
+    "totalTweets": 27,
+    "blogPosts": 3,
+    "feedGeneratedAt": "2026-07-18T06:57:24.723Z"
+  },
+  "digest_generated_at": "2026-07-19T04:20:00.322Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-19T04:20:00.322Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+        "guid": "b4412830-1477-401f-9df7-975c32f7cb7b",
+        "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+        "publishedAt": "2026-07-16T11:30:01.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:19\nAnytime you have thought you have enough compute, we can slow down. Always negatively surprises like, oh, we should not have slowed down. Demand far outstrips compute supply today. So anything we can bring online, we consume immediately. Our biggest worry is that still at the scale at which we are trying to get compute and build compute.\n\nSpeaker 1 | 00:19 - 00:30\nThe physical world does not move that fast. We do believe that the world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI. Encourages.\n\nSpeaker 2 | 00:30 - 00:42\nHi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Sachin Khalti, who holds what might be the most fascinating and relevant title in tech right now, head of industrial compute at OpenAI. Sachin has an incredible background.\n\nSpeaker 2 | 00:42 - 01:13\nHe was a professor at Stanford, a multi time founder, and most recently the CTO at Intel. Now he's leading what many are calling the largest infrastructure build out in human history. In this episode, we step away from the model layer and dive deep into compute and the physical reality of the AI boom. We talk about the staggering scale of the data centers being built. We get into the weeds on liquid cooled supercomputers, power grid constraints, the potential of nuclear MG, and OpenAI's move into custom silicon with Jalapeno.\n\nSpeaker 2 | 01:13 - 01:28\nWe also discussed the broadest target strategy and the slightly sapphire reality that AI is now beginning to help design its own chips. It is a fantastic look behind the curtain at what it actually takes to power the future of intelligence. Please enjoy my conversation with Sachin Cotti.\n\nSpeaker 3 | 01:30 - 01:42\nRight, Sachin, welcome. Excited to do this. We are recording this on the sidelines of the RACE conference in Paris. So thank you for braving the heat. It's another heat wave here.\n\nSpeaker 1 | 01:42 - 01:44\nThank you. Great to be here. Great to be here.\n\nSpeaker 3 | 01:44 - 02:12\nTo start, some people describe what's currently happening in the world of compute data centers as the largest infrastructure build out in history, bigger than the highway, bigger than railroads. And I'm I'm curious, one, if you agree, and and two, what it feels like on from the inside. Like, what's how do you view what you currently building at OpenAI?\n\nSpeaker 1 | 02:12 - 02:49\nIt definitely feels like one of the largest things humanity has ever built effectively. Definitely bigger than many of the things that I've heard of. I'm not old enough to have experienced the highway build out, but no, it's feels exactly like what it sounds like. I'm in the belly of the beast, so to speak. Every day is we are making decisions beyond compute that historically from my previous role, for example, at Intel, we probably take months to make, given the magnitude of those decisions.\n\nSpeaker 1 | 02:49 - 03:03\nBut the demand is so insatiable that, and it is growing so rapidly that we have to move very quickly. So, it's an intense time, but it's probably the most exciting thing an engineer would want to be part of.\n\nSpeaker 3 | 03:04 - 03:16\nYeah. And I read somewhere that OpenAI was planning on spending about 50,000,000,000 in compute this year. Is that is that still the rough number directionally? Directionally, that sounds about right. Yeah.\n\nSpeaker 3 | 03:16 - 03:29\nAnd the whole industry itself was gonna be 700,000,000,000 in compute spend this year as well. So like insane numbers, seems.\n\nSpeaker 1 | 03:29 - 03:41\nYeah. And it's probably continuing to grow, right? And a lot of build happening. So a lot of that is also going to translate to compute usage from people like us in a year or two.\n\nSpeaker 3 | 03:41 - 04:07\nIs the right way to think about this, that for OpenAI, it's a bit of a new world, right? There's obviously not quite a pivot because, obviously, the whole AI research is going, you know, full speed ahead. But, like, building a whole new business within the the the company, is that is that fair? Is that how people think about it? Because, obviously, building models is one thing, building data centers, it's a whole different world.\n\nSpeaker 1 | 04:07 - 04:29\nYeah, mean, I think OpenAI always has had a fundamental belief that computers are the foundation of everything. Compute is the foundation for intelligence. And the way we keep continuing to scale intelligence and distribute intelligence is by having compute. And so that has never been different. I've never always been the belief.\n\nSpeaker 1 | 04:29 - 04:54\nI think what's becoming clear is to build the kind of compute we need. And at this scale, we have to not just rely on getting compute from our partners. We increasingly have to take a much more active in building and getting that compute that we need. So, it does absolutely feel like a new muscle that we're building in the company.\n\nSpeaker 3 | 04:54 - 05:26\nAnd maybe to anchor the conversation from the beginning, it would actually be very helpful to talk about what a data center is in reality. So I think like everybody knows that data centers are being built. But, you know, gun to one's head, like, I'm not sure that everybody could say, well, what is actually being built? Because we've been building data centers as an industry for cloud for decades at this point. So what is fundamentally different and new about the data centers that we're building for AI today?\n\nSpeaker 1 | 05:27 - 06:00\nI think the biggest probably is the scale, right? So we are essentially building large supercomputers as we think about AI. And we build intelligence and deliver intelligence and models become more capable, we use it for more and more complex tasks. We need more and more bigger computers effectively. And so I think the best way to visualize data centers is giant factories that are turning electrons into tokens.\n\nSpeaker 1 | 06:01 - 06:25\nIt's a popular phrase nowadays, but it actually has a lot of a ring of truth to it. So how do we take power? How do we take those electrons and actually use it to power chips that effectively are delivering intelligence? And the way I visualize it is large football fields, liquid gold because these chips run really hot. The temperatures on these chips are very, very high.\n\nSpeaker 1 | 06:25 - 06:35\nAnd so you'll cool them with liquids, you can't cool them with air. So a lot of liquid cooled, basically refrigerators effectively that are sitting alongside the building.\n\nSpeaker 3 | 06:35 - 06:44\nAnd then on that topic while we're at it, the the cooling happens at the data center level or does it happen at the chip level or both?\n\nSpeaker 1 | 06:44 - 06:55\nBoth. Both. Right. So you need to cool the data halls, but you also need to need to cool the chips individually because it's not going to be enough to do one or the other. And you also have to cool the things that connect chips.\n\nSpeaker 1 | 06:55 - 07:10\nAnd so that's why you need cooling pretty much everywhere nowadays. Even the cables that are the transformers that distribute the power become too hot. So they also need to be cold. So everything that processes energy produces heat.\n\nSpeaker 3 | 07:10 - 07:21\nAnd isn't cooling technology that is being used as something that's well understood and is just getting deployed? Or is there like fundamental new things happening in cooling right now?\n\nSpeaker 1 | 07:21 - 07:49\nI think liquid cooling has been around for some time, but has never been deployed at this scale. Innovation is more around how to make it reliable, how to make it cheaper, more scalable. Right. So there's a lot of innovation around that. There's also a lot of new innovation, new kinds of liquids, new kinds of materials that can absorb heat better because anything that can improve the efficiency of heat transfer is very important for data centers.\n\nSpeaker 1 | 07:49 - 08:10\nSo we can then run the chips hotter, right? And there is a direct correlation between running a chip hotter and how powerful the computers. So the hotter the chip, the more memory bandwidth you get, the more flops you get. And so there's more there's a strong payoff. If you can cool well, that also means you can produce more intelligence.\n\nSpeaker 3 | 08:10 - 08:27\nAll right. So gigantic factories, lots of cooling. The other part that seems to me very critical to any discussion is power and energy. So how do how do that work starting at a high level? You do you connect to the grid?\n\nSpeaker 3 | 08:27 - 08:29\nDo you have your own power generation?\n\nSpeaker 1 | 08:29 - 08:59\nI think the early days, we all connected to the grid, and we still all would want to connect to the grid. At this point, we are beginning to hit and we are investing in generation infrastructure for the grid, transmission infrastructure for the grid. So whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid. In fact, we are investing in the grid to generate new power so that we can consume it for data centers.\n\nSpeaker 3 | 08:59 - 09:01\nWhat does that mean practically?\n\nSpeaker 1 | 09:01 - 09:24\nYou have a grid somewhere. Has a certain generation and distribution capability, certain number of megawatts. Obviously, data center shows up. If there was spare capacity, then of course, the data center can use it. But if there isn't spare capacity, then we have to new gas or solar or hydro generation infrastructure to the grid.\n\nSpeaker 1 | 09:24 - 10:02\nSo we are investing and funding that build out. And then you have to build transmission lines, invest in transformer substations to distribute that power. So wherever we are building data centers, we are funding the development of all of that infrastructure. And so that's one of the things that we do want to emphasize, which is this is infrastructure that would otherwise not have been funded, if not for these data centers. And one of the side benefits of this big data center build out is the grid infrastructure of America and the world for that matter is getting upgraded very quickly.\n\nSpeaker 1 | 10:02 - 10:28\nAnd so that's the power piece. So whenever we can do that, we do that and consume power from the grid. But it's also good citizens of the because we are improving the infrastructure for everyone, not just for data centers, but also for households. In some places, are beginning to hit the limits of how much grid power we can build and consume. And so there everyone's looking at behind the meter.\n\nSpeaker 1 | 10:28 - 10:43\nWe are also doing some beyond meter generation where we would have on-site power generation and distribution capability that does not come from the grid. But in fact, the data center becomes effectively self self sufficient Yep. In terms of power.\n\nSpeaker 3 | 10:43 - 10:46\nDoes gas turbines what what is it?\n\nSpeaker 1 | 10:46 - 11:03\nToday, it's gas turbines, especially in The US, because that's the most dense transportable form of energy and also the one that is quite widely available in The US. But there, are bottlenecked by the supply chain.\n\nSpeaker 3 | 11:03 - 11:20\nDo you think the the nuclear conversation is interesting? Mary recording this in France, which has a bunch of, you know, nuclear nuclear power generation. Nuclear systems have come back to the discussion in The US as well. Is it, like, something that you think about, anything is interesting? Absolutely.\n\nSpeaker 1 | 11:20 - 11:44\nIt can't come soon enough. Okay. I think it is the densest form of energy we can all produce and consume, and it also clean. So I think definitely would be a good source of massive, scalable energy for all data centers. Obviously, outside of France, the rest of the world has a lot of catching up to do and building this infrastructure.\n\nSpeaker 1 | 11:44 - 11:49\nBut I think it's gonna be play a very important role and data center.\n\nSpeaker 3 | 11:49 - 12:17\nOkay. So that's a great introduction on on on data centers. The the other interesting bit of news that you guys recently had is Jalapeno. Mhmm. So now in for OpenAI, in addition to being the application business, consumer and enterprise, and then being in the model AI research business, and then the compute and data center business, it seems that OpenAI is in the chip business, if that's fair.\n\nSpeaker 3 | 12:17 - 12:26\nSo, like, completely full stack, but I'm I'm I'm curious, and we'll we'll go into some details about a little later later. But, like, in terms of, like, overall strategy, where where does that fit?\n\nSpeaker 1 | 12:26 - 13:13\nAs we begin to as we serve a pretty big fraction of the world's population, AI usage is exploding, inference is obviously becoming a big fraction of our workload. Right? It's consuming a lot of compute. And one of the other realizations is because we know what is the workload exactly, what is the model we want to run, we can co design the hardware to be super efficient in delivering those models. And so the strategic piece of the Jalapeno is how do we take advantage of knowing what the end workload is, what the model itself is, and design chips that are very efficient in serving those models.\n\nSpeaker 1 | 13:13 - 13:38\nSo it really allows us to drive efficiency advantage, drive more tokens per watt. So the key metric that Jalapeno is optimizing is maximizing the number of tokens you can produce per watt. And because the world is constrained by power today, so the more tokens you can produce for the same number on on power, it's better for everyone. So we look at it as a very critical ingredient in scaling how we deliver intelligence to the world.\n\nSpeaker 3 | 13:38 - 14:15\nGreat. So I'll I'll come back to help you in in in a second. But you mentioned you just mentioned inference and, you know, it's such an interesting evolution as well. Without commenting on necessarily what's going on at OpenAI specifically, is inference equally big or much bigger than training these days in terms of, like, usage of compute as as as have we shifted from, you know, being those type of very heavy pre training runs as the major use case for compute to now just inference being the majority?\n\nSpeaker 1 | 14:16 - 14:38\nNo. Inference is a big, perhaps even the majority on compute. And I think one of the we don't like to make a distinction between training and inference because a lot of training is now inference. So when we train a new model, we are generating synthetic data, for example. That's inference.\n\nSpeaker 1 | 14:38 - 14:58\nWhen we train a new model, we are doing post training, and that's inference. When you train a model, you're doing test and compute. That's all inference. So when we say training, a lot of the compute actually is inference even in that phase of the work. So inference is a fundamental building.\n\nSpeaker 3 | 14:58 - 15:32\nYep. Obviously, I cannot resist asking the inevitable question around the potential risk of overbuilding, given the lag between demand and usage and how long it takes to build a data center. I think you mentioned somewhere that you were deliberately very paranoid about the problems ahead in the next three years. Very paranoid about the surprises ahead, which sounds like a very healthy approach. So how do you how do you think about that?\n\nSpeaker 3 | 15:33 - 15:41\nIs there any way to mitigate that, or is just, like, how do we play do, like, a deep belief that this is the future and, you know, we should all just go, go, go?\n\nSpeaker 1 | 15:41 - 15:55\nWe have deep conviction in scaling. Right? And history has borne us out. So effectively, Redmi, for example, has tracked compute. We tripled compute and we tripled revenue.\n\nSpeaker 1 | 15:55 - 16:13\nAnd we believe that's I mean, that continues to be true. Demand far outstrips compute supply today. So anything we can bring online, we consume immediately. So there's no compute that is going waste as for us at least. So I think that conviction has not changed whatsoever.\n\nSpeaker 1 | 16:13 - 16:47\nAnd if anything, we are seeing that scaling laws on research and training continue to hold. And, potentially, the pace at which we are doing research is accelerating, right, because of AI itself. So AI is doing a lot of AI research now. And so one of the subtle implications of that is his previously, our researchers used to run experiments, and they needed computer run experiments. But the number of experiments they could run was limited by the number of human researchers they had, which is a scarce resource on the world.\n\nSpeaker 1 | 16:47 - 17:08\nRight? There's not a lot of people who can do AI research. Now if AI itself can do AI research, the number of experiments we can run explodes, and therefore, the amount of compute you need from research also explodes. So we don't see a world where we will have immune to best compute for the foreseeable future. Right?\n\nSpeaker 1 | 17:08 - 17:17\nWhen I was referring to surprises, my worry is more on the downside of we are not able to actually build all the compute we want.\n\nSpeaker 3 | 17:17 - 17:19\nYeah. And and But this raises\n\nSpeaker 1 | 17:19 - 17:31\nthe other way. It's the other way for us. Right? Because that was consistently in the case. We anytime we have thought we have enough compute, we can slow down, always negatively surprises like, oh, shit.\n\nSpeaker 1 | 17:31 - 17:45\nWe should not have slowed down. Right? And so our biggest worry is that still. And at the scale at which we are trying to get compute and break compute, the physical world does not move that fast. Right?\n\nSpeaker 1 | 17:45 - 17:54\nPhysical supply chains, factories don't move that fast. Door cannot add capacity that fast. So for us, the surprise is more on that direction than the other direction.\n\nSpeaker 3 | 17:54 - 18:28\nVery fascinating. You alluded to communities a minute ago, and obviously, that's a that's a key debate. So curious about your perspective on a on a on a spectrum where, you know, on the one hand, one extreme, you'd say, well, the AI industry and computer industry has a PR problem, and there's no problem. It's just the problems that we cannot explain it well enough to the other extreme, actually, those communities have a point. Where do you think the reality is?\n\nSpeaker 1 | 18:28 - 19:01\nI think anytime there's new technology, which is as as revolutionary as this technology is, there is always disruption that's gonna happen. But, inevitably, we have learned this over history that this always leads to better outcomes for society. Right? And so how do we draw a line from where we are today to that outcome, right, and explain to the world why this is the trajectory we all need to be on? I mean, we it's our responsibility to do that.\n\nSpeaker 1 | 19:03 - 19:23\nOn the community side, there's a little bit of a local versus a global issue. Right? On the communities, I think data centers are, even today, a net positive to every community. Because we are building these data centers in rural areas of America, example, right, where there's nothing else that is being built. I'm this clear.\n\nSpeaker 1 | 19:23 - 19:47\nSo we show up in rural Texas. We build a data center that produces new property taxes sinks for the community, that funds schools, that funds hospitals. We show up, and we invest in new grid infrastructure, which otherwise would never happen because there's no demand. So there's a modernized grid that that AI can enjoy. Basically, we produce jobs.\n\nSpeaker 1 | 19:47 - 20:15\nNice. And and and so I think one of the things we are investing a lot in is explaining the local benefits every time we build a data center somewhere and making sure that it is well understood the kind of upside that decides. And data centers, once they are built, are essentially very clean citizens. Right? They don't produce any gases or toxic chemicals or anything.\n\nSpeaker 1 | 20:15 - 20:19\nRight? They're self contained. They just produce intelligence. Yeah.\n\nSpeaker 3 | 20:19 - 20:32\nThe typical question that comes up is water, and I think that's been debulked quite a bit by by research. But, what would maybe give us just color on how you all think about the the water machine?\n\nSpeaker 1 | 20:32 - 20:57\nThese are liquid cooled, and the liquid is recycled. So we do actually, the water consumption of a data center is shockingly small relative to household water consumption. So I think as you put it, it's been debugged. It's misperception that data centers consume a lot of water. It's anything they consume so little water for what they do, and all of that water is recycled.\n\nSpeaker 1 | 20:57 - 21:03\nSo we don't net consume new water. Once we get to a particular point, the water just gets recycled as they use the cold.\n\nSpeaker 3 | 21:03 - 21:13\nYeah. So all those stories of, like, brown water is they just don't make sense because the water at a data center happens in, like, a contained circuit.\n\nSpeaker 1 | 21:13 - 21:16\nRight? It's a closed loop. Yeah. It's a closed loop. It's a closed loop.\n\nSpeaker 3 | 21:16 - 21:30\nAnd by the way, you mentioned Texas and rural areas since we talked about data centers at the beginning of this conversation. Why do OpenAI and other companies pick rural areas? Like, how do you select a site for a data center?\n\nSpeaker 1 | 21:30 - 21:48\nSo many factors. So one is, of course, land, like plentiful land. Number two would be permitting. Like, can we build these things? And we wanna build these things such that they are not affecting any neighborhoods.\n\nSpeaker 1 | 21:48 - 21:59\nRight? So land that is somewhat removed is their ideal candidate. Course, access to power. Right? So a strong grid, strong gas, availability.\n\nSpeaker 1 | 21:59 - 22:11\nAll of those are important factors. And then four is labor. Right? So how quickly can you build these things? So availability of labor, construction labor, qualified electricians, bloggers, all this can be above.\n\nSpeaker 1 | 22:11 - 22:27\nSo all of those factors go into every single site selection decision. I know, obviously, Texas isn't popular because it fits a lot of these criteria, but it's not the only state. I mean, we have data centers all around the country in LA plus. Okay. Great.\n\nSpeaker 1 | 22:27 - 22:28\nWe're gonna go into all of\n\nSpeaker 3 | 22:28 - 23:00\nthis in in in more detail, but let let's talk about you a little bit and and and your journey. So you're the the head of industrial compute at OpenAI, which, by the way, to the beginning of this convention, the title industrial compute is is so I mean, such a perfect title, right, for the moment we're in. But what what does that mean? What what what is the role and how is this whole effort organized within OpenAI to the extent you can talk about it?\n\nSpeaker 1 | 23:00 - 23:14\nYeah. I I think think of it as my role and our team's role, rather, as how do we bring compute online at IndustryFK. Right? That's effectively what we tell me. That's the entire life cycle.\n\nSpeaker 1 | 23:14 - 23:27\nSo how do we find the ingredients that are going to compete? Land, power, shells, chips. How do we finance them? Right? So because these are massive dollars.\n\nSpeaker 1 | 23:27 - 23:43\nAnd so how do we make sure that we finance the grid infrastructure? How do you finance the construction of the pump shells? How do we finance the chips? Then it's about how do you operationalize all this? So how do you actually make sure these things happen on time?\n\nSpeaker 1 | 23:44 - 23:57\nThey stay up? How do you operationalize all of this infrastructure? So it's that entire life cycle. And then, of course, how do you actually use the compute? So a big part of my role is capacity allocation inside OpenAir.\n\nSpeaker 1 | 23:57 - 24:00\nSo it is always a scarce resource.\n\nSpeaker 3 | 24:00 - 24:03\nMakes sure you're a very popular guy. I am not very popular.\n\nSpeaker 1 | 24:04 - 24:39\nThere is always someone who is unhappy with whatever decisions he make. But, yeah, me, actually, our team provides the input to make the capacity allocation decisions. So we surface what are the different choice points, what are the what if questions on different allocation choices that we have. So capacity planning, and then, of course, using that to forecast how much capacity we need where. Because it's not just more compute, it's also where, what kind, what shape, what chip, what workload you wanna run there.\n\nSpeaker 1 | 24:39 - 24:53\nSo all of those are this team figures out kind of what should be the forecasting and planning, and that informs that closes the loop. And so that informs of where do I go find the next chunk of land and power and chips to put in there.\n\nSpeaker 3 | 24:53 - 25:10\nAnd, again, without getting into anything confidential, although, I guess, when you guys go public, all of this will be soon all of this will be public. But, like, is that thousands of people at this stage? I mean, is that a is is that a, like, multiple different teams, or do you guys gotta, like, outsource a bunch of things and works with a bunch of contractors?\n\nSpeaker 1 | 25:11 - 25:26\nIt's a portfolio approach. Right? So we are never going to be in a world where we outsource everything or build anything up source. Right? It's always gonna be a mix because that's the that's the reason that's the reasonable thing to do.\n\nSpeaker 1 | 25:26 - 25:46\nRight? So you don't want to put your rights in all all in one basket. So we will have hyperscalers probably providing a big chunk of a compute a majority of a compute. We will have new clouds, parts of our portfolio. We will be partnering with design build firms that can build the compute that we need.\n\nSpeaker 1 | 25:46 - 25:59\nAnd, of course, we will build some of it ourselves. And so we're always gonna have a portfolio approach because at the scale which we need, we will need to tap into all sources of compute. We can't just rely on one particular mechanism.\n\nSpeaker 3 | 25:59 - 26:12\nAnd your background, the default of this, so you are both a professor at Stanford and an entrepreneur or a founder or mostly an academic? Like, just walk us through your journey.\n\nSpeaker 1 | 26:12 - 26:28\nBit of all of the above. So but, yes, I'm at my heart, I'm an academic. So I've been a professor at Stanford since 2010. Recently What do you focus on there? I was a faculty in computer science and electrical engineering.\n\nSpeaker 3 | 26:29 - 26:31\nWith like, particular interest? Yeah.\n\nSpeaker 1 | 26:31 - 26:53\nMy area of research was networking. Headworking. So I already built networks, mobile, wireless networks other than the seven days until networks actually. But three, four years ago, I while I was at Stanford, I did a couple of startups. The last startup got acquired by VMware, and that's how I got to know Pat.\n\nSpeaker 1 | 26:53 - 27:19\nPat Dickens, Intel's CEO. I mean, that's how I ended up at Intel. Most before coming to OpenAI, I was at Intel's SOC team. And so I've kind of seen all the different things, academia, startups, corporate in Intel, and then, of course, a mix of all of the above in Oprior. Because they have a research lab, a startup, and a fast growing company all mixed into one at OpenAI.\n\nSpeaker 3 | 27:19 - 27:25\nYes. Is it what you what you said what what did you say yes to the job when the job came came up?\n\nSpeaker 1 | 27:25 - 27:41\nIt's actually what I just said. Yeah. That makes this so unique. And it's hard to find anywhere, right, because you always have to choose. But having a world class research environment coupled with the hardest technical problems.\n\nSpeaker 1 | 27:41 - 28:04\nWe are building the largest compute in the world. And so there are a lot of new problems that we need to solve, but also a fast growing business. So this biggest problem I I'd like problems that sit at the intersection of business, technology, and strategies. And so this is, like, very unique time in history and a unique role to some of which are very attractive, obviously.\n\nSpeaker 3 | 28:04 - 28:21\nVery cool. Alright. So going into a bit more specifics about OpenAI's compute strategy. So maybe let's summarize what you guys currently have. So I think there's some Microsoft.\n\nSpeaker 3 | 28:21 - 28:36\nYou did this big $20,000,000,000 deal with Cerberus. There's a bunch of things around this Stargate. Maybe just give us the lay of the land of what you currently have, and then we'll talk about what your question building next. We have compute\n\nSpeaker 1 | 28:36 - 28:55\nfrom effectively many sources. So Microsoft, obviously, the big partner, important partner. We also have compute, as we have announced, from AWS, ION, Google. So we have compute from all of the hyperscalers effectively. We also have compute from Corby, for example, so a Neo Cloud.\n\nSpeaker 1 | 28:55 - 29:37\nAnd then, of course, that chip partners are supplying now, like, Xeripas, and it's up directly producing compute for us. So I think that's the mix roughly today. As we go forward, obviously there'll be building on all of these relationships, but also looking at more options where we design the compute, the data center itself ourselves, or potentially even build the data center ourselves. So all of those are ways of scaling the amount of compute that we have. So I think coming back to my earlier answer, it's the answer always will probably be trite, but it's all of the above.\n\nSpeaker 1 | 29:37 - 29:38\nIt's all you know?\n\nSpeaker 3 | 29:38 - 29:41\nYeah. Yeah. No. No. That that's that's helpful.\n\nSpeaker 3 | 29:41 - 30:06\nAnd, you know, obviously, driver's education makes the sense in the world given the scarcity. And then it seems that Target has evolved. So from the what was gonna be a joint venture with Oracle and SoftBank to what now seems like it seems like it's more like an umbrella term for the big strategy these days. Is a fair way to describe it?\n\nSpeaker 1 | 30:07 - 30:21\nYeah. Yeah. I think we look at StarVirt as our compute strategy. Yep. And it is varying degrees of us designing or building the compute ourselves.\n\nSpeaker 1 | 30:22 - 30:54\nFor example, with Oracle, close partnership, We help them design. We help them with how we need to operate AI compute, which is, in fact, a very new kind of compute for us. We work with SoftBank Energy, which is public. We basically have co designed the Warm Shell with them, and they're executing on that Warm Shells. And we will be kind of figuring out how to operate our chips in these data centers ourselves, even the new chips.\n\nSpeaker 1 | 30:54 - 31:21\nSo Stargate to us is that umbrella strategy for across all of these different things. And think of it as an evolution that we continuously be on because it's never gonna be tomorrow when we wake up wake up and do only one kind of way of building compute. Yep. I think Stargate to us is a continuous way of learning how to scale compute, and they'll be adding on more and more capability later. Right?\n\nSpeaker 3 | 31:21 - 31:35\nAnd as part of that, there are data centers being built, right, like, like, Abilene, Texas. Yes. And so maybe walk us through that. What what is currently being built for for people to have some situational awareness?\n\nSpeaker 1 | 31:36 - 31:53\nWe obviously have a big partnership with Oracle. That's the Abilene Data Center. That's where, for example, we are training our newest models. So very excited about that. That's a very big GB Black Belt cluster for our needs.\n\nSpeaker 3 | 31:54 - 31:56\nSo that's up and running. It's up and running.\n\nSpeaker 1 | 31:56 - 32:12\nIt's been used for training the last two models more, actually. So it's a super threat. And you are seeing the results, You're seeing how quickly the models are becoming more capable. Yep. It's because of these kinds of compute.\n\nSpeaker 3 | 32:12 - 32:19\nYep. I think data centers are currently being built that are Yes. Good out there. Yeah.\n\nSpeaker 1 | 32:19 - 32:49\nYes. So Oracle is building a number of data centers, all of which are public, so across Michigan and Texas and other places. So these are coming online in the next couple of years as they get built and put whatever chips on that time training are the latest. But these are really meant to be very big clusters that allow us to do both our training, but also product inference kind of compete.\n\nSpeaker 3 | 32:49 - 32:56\nRight. But the way those deals are structured, the Oracle is the prime building those Oracle is the cloud.\n\nSpeaker 1 | 32:56 - 32:57\nIs the cloud. Company.\n\nSpeaker 3 | 32:58 - 33:09\nOf the tenant. Yes. Core tenant from the interesting. How does the for the stuff that you're building, how does the financing strategy work? I mean, obviously, you you you all raised what was it?\n\nSpeaker 3 | 33:09 - 33:27\n122,000,000,000. Was it the number recently? So there's no shortage of cash. Although, you know, given all those expenses, I don't know. But, you know, the COREs of the world are famous for being very strategic users of debts.\n\nSpeaker 3 | 33:27 - 33:31\nIs that part of their financing strategy as well? How do you how do you all think about it?\n\nSpeaker 1 | 33:31 - 33:55\nI mean, with all of these compute that we have today, we have amazing partners who actually are handling that for us. So Microsoft, Google, Amazon, Oracle are we are off the off take. So we are the tenants, as you put it. So we commit to consuming that compute, to buying that compute, whether it's online.\n\nSpeaker 3 | 33:55 - 34:12\nOh, so across the board, like everything, your because you're you're building stuff as well. So building the partners are building? Partners are building. And you're always the, across the board, the the tenants, not the owner at the Correct. Okay.\n\nSpeaker 3 | 34:12 - 34:31\nSo therefore, financing is outsourced to apartments. Okay. We talked about the jalapeno. Let's let's into a bit more detail there because in particular, it seems that you guys went incredibly quickly and designing it. I think I read somewhere in nine months from design to tip out.\n\nSpeaker 3 | 34:31 - 34:35\nSo maybe maybe walk us through that, and what was the reason it went so quick?\n\nSpeaker 1 | 34:35 - 34:49\nYes. It was incredibly quick. Nine months is very, very fast, probably the fastest I've seen in my career. I think several reasons. One is it it's a team.\n\nSpeaker 1 | 34:49 - 35:13\nIt's a strong team. They have many many the team have designed TPU chips at Google in the past, so very well experienced team. We have a great partner in Broadcom that has a very strong track record of delivering XPOS ASICs. So I think a strong partnership with Broadcom and and making this happen. Three, I think, an OpenAI unique point.\n\nSpeaker 1 | 35:15 - 35:59\nIn most chip companies or when you design chips, you don't know what you're designing it for because you're a vendor, the customer who eventually runs the workload is someone different. There's a unique advantage here of us knowing what the future models might look like, and therefore being able to short circuit a lot of the decisions you need to make, design decisions you need to make on the chip side. That's super helpful. And finally, increasingly, AI itself helping design and optimize the chip. That is usually the one that takes the longest time because human you're basically limited by how many human human much human time is there to process all this data and run the experiments, and we can do a lot of those iterations much faster With AI.\n\nSpeaker 1 | 35:59 - 36:00\nUsing AI.\n\nSpeaker 3 | 36:00 - 36:03\nYeah. So AI is building its own chips now?\n\nSpeaker 1 | 36:03 - 36:20\nYes. Yeah. I think that world is not very far. I mean, right now, is assisting in chip design, but we do believe that the world of Likertion is not that far where AI will design the systems it needs to train and run the next generation of AI.\n\nSpeaker 3 | 36:20 - 36:32\nAnd including chips? Including chips. Including chips. You also released a few weeks ago MRC, which is a networking protocol. Walk us through through that.\n\nSpeaker 3 | 36:32 - 36:34\nWhat is it, and why is it a big deal?\n\nSpeaker 1 | 36:34 - 37:15\nIt's a new networking protocol routing technology, if you will, to scale these really large cluster fabrics. So imagine you have a 100,000 GPUs. They need to be connected together. And when you're doing large training runs, they're constantly communicating with each other because these models are so large that the processing of the models is happening over the entire 100,000 GPU cluster, for example. And you can imagine imagine the number of links and switches and NIC cards that need to be there to connect all of these chips together.\n\nSpeaker 1 | 37:16 - 37:41\nAt this scale, failures are right? It happens all the time. You can't really even enumerate all the ways things could fare. So the strategy behind MRC is how do you design algorithms and protocols that can gracefully mask all these failures and make sure that the training workload does not get impacted. Right?\n\nSpeaker 1 | 37:41 - 37:55\nThey just the network is an abstracted system that the training job does not ever worry. It's always gonna be there. It's always gonna find a path even if a link fails. So it is all about reliability. It is all about availability.\n\nSpeaker 1 | 37:56 - 38:32\nSo how do we design protocols that contain the complexity of such a common such a big cluster and make sure that we don't get stopped because of failures which are very common in the system? So MRC is like a multipath spraying protocol where you can spray packets over multiple parts. So between any two chips, there are many, many routes to get there, kind of like between any two points in the city, there are many routes. So instead of picking just one route, we will we will send traffic across all of them, and whichever one succeeds, we take them. Right?\n\nSpeaker 1 | 38:32 - 38:46\nAnd so that way, even if any one of them fails, it's not a showstopper. So that's kind of the basic intuition behind it. It's obviously a lot more sophisticated than that. But doing this at scale and that speed is hard, and so that's why it's quite innovative.\n\nSpeaker 3 | 38:46 - 39:01\nWhat are the bottlenecks that you experience these days? So it seems like the nature of the bottleneck keeps changing in the compute industry. Obviously, people talk a lot about memory these days. Is that is that one of them, or what what else?\n\nSpeaker 1 | 39:01 - 39:25\nI think there are bottlenecks everywhere, to be honest, to the supply chain. So I don't think there's any one. Right? We have bottlenecks in the data center building itself around permitting, around availability of gas turbines, transformers. Those industries have historically have not added much capacity over the last decade or so Yep.\n\nSpeaker 1 | 39:25 - 39:34\nAnd they've suddenly experienced a demand shock. Yeah. And it takes years before you can add capacity to produce more turbines and transformers. So they're trying to quick catch up.\n\nSpeaker 3 | 39:34 - 39:45\nAnd to the jump thing that you that you mentioned earlier, is there, like, a shortage of, like, electricians and and my technical people, trade people that know how to build those things\n\nSpeaker 1 | 39:45 - 39:48\nat once? Or you're Absolutely. Yeah. Absolutely. So we That's\n\nSpeaker 3 | 39:48 - 39:55\nwhy we should all do as AI replaces knowledge work, should pick up electricians. No. I think\n\nSpeaker 1 | 39:55 - 40:29\nthere is definitely a shortage of electricians, plumbers, all kinds of tricks. You name it. So anything we can do to train more folks to be able to do those, there are very well paying jobs that lot of us, all of the hyperscalers, all of the labs would actively hire you for if you had the, like, conversations. So I think that is definitely a bottleneck. I I think they become an increasing bottleneck because we are all trying to build more and more, and we have a limited number of these these capabilities.\n\nSpeaker 3 | 40:29 - 40:42\nGreat. Let's talk for a minute about the the business side of things. Another thing you launched recently is in guaranteeing capacity Mhmm. For customers to lock in compute. That which is interesting.\n\nSpeaker 3 | 40:42 - 40:52\nRight? It almost feels like OpenAI is also becoming a utility company, providing computing to others. What what's the story behind that and the the strategy?\n\nSpeaker 1 | 40:52 - 41:04\nYeah. So guaranteed capacity is guaranteed tokens. Okay. Right? So we are effectively saying we will guarantee you a certain dollars worth of tokens of intelligence.\n\nSpeaker 1 | 41:05 - 41:19\nAnd, I mean, it makes sense. Right? So in a world where compute is a shortage, therefore tokens are always gonna be at a premium, and there's a shortage of tokens that we can produce given the limited compute that we have. And as this becomes a fundamental input to the enterprise. Right?\n\nSpeaker 1 | 41:19 - 41:40\nSo enterprises are going to need intelligence, more and more of it, to run. Right? And so this is a way of enterprises gaining assurance that the tokens of intelligence that they need will be there for them, and so they they don't have to take business risk. Right? And so I think it's it's good business hygiene.\n\nSpeaker 1 | 41:40 - 41:57\nIf you have a critical supply resource in every enterprise, intelligence is kind of the most important supply item, if you will. It makes business sense to make sure you secure that supply. And so that that's the demand we're trying to fulfill. You know? I know it's a new concept.\n\nSpeaker 1 | 41:57 - 42:08\nLike, what does it mean to have guaranteed capacity for the intelligence thing? But I think that's what intelligence is becoming. It is becoming a supply unit, not every digital enterprise.\n\nSpeaker 3 | 42:08 - 42:22\nRight. So maybe to end on the fun one, and you can answer either with your OpenAI hat on or or not. Data centers in space, is that is that is that exciting? Is that science fiction? Is that needed?\n\nSpeaker 3 | 42:23 - 42:28\nIs that something that people like to talk about just because it's cool, or where where where do you land?\n\nSpeaker 1 | 42:28 - 43:04\nFor for the geek in me and the engineer in me, it's definitely exciting. It's one of those things can be super cool to see a constellation of satellites producing compute. I actually think it is it will become feasible, right, as engineering problems to be solved, but they can be solved, with enough time and investment. Whether it is needed, I think there is room for orbital compute. I don't think it's gonna solve all the compute beats, but it's definitely going to be a component in the arsenal.\n\nSpeaker 1 | 43:04 - 43:28\nI think what we are waiting for is when does the economics of the launching satellite change and when does the economics of the hardware change? Because we need to get to a point where it's cheap to launch the hardware, And if something fails, it's cheap to throw it away. I think we can't go up and fix it, unlike on the ground. And so I think that inflection point hopefully happens soon, and at that time, it becomes wilder.\n\nSpeaker 3 | 43:28 - 43:32\nCorrect. Sachiv, it's been wonderful. Thank you so much for spending time with us. We appreciate it.\n\nSpeaker 1 | 43:32 - 43:34\nThank you. It's been great to have this chat.\n\nSpeaker 2 | 43:34 - 43:54\nHi. It's Matt Turk again. Thanks for listening to this episode of the MAD podcast. If you enjoyed it, we'd be very grateful if you would consider subscribing if you haven't already or leaving a positive review or comment on whichever platform you're watching this or listening to this episode from. This really helps us build a podcast and get great guests.\n\nSpeaker 2 | 43:54 - 43:55\nThanks and see you on the next episode!"
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2078364141878952242",
+            "text": "still true https://t.co/2eYqwze1Ae",
+            "createdAt": "2026-07-18T06:20:00.000Z",
+            "url": "https://x.com/swyx/status/2078364141878952242",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "1470788640846462979"
+          },
+          {
+            "id": "2078293998398263587",
+            "text": "alpha only gone when we all stop asking these level of questions and start discussion about on-policy autoaeo (does claude optimizing your aeo disproportionately work on claude?) vs generalizable aeo\n\nhttps://t.co/GrymTTqz6O",
+            "createdAt": "2026-07-18T01:41:16.000Z",
+            "url": "https://x.com/swyx/status/2078293998398263587",
+            "likes": 10,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2078253254652108806"
+          },
+          {
+            "id": "2078244735794413786",
+            "text": "btw if you havent set your {codex | claude | gemini | devin} automations to autoresearch how to improve your seo/aeo every week you are really truly missing out on free, should-be-commoditizing-but-weirdly-untapped alpha",
+            "createdAt": "2026-07-17T22:25:31.000Z",
+            "url": "https://x.com/swyx/status/2078244735794413786",
+            "likes": 1019,
+            "retweets": 24,
+            "replies": 51,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2078321266524881065",
+            "text": "And transitively might also have reset other rate limits out there. Let's see. You're welcome if so.",
+            "createdAt": "2026-07-18T03:29:37.000Z",
+            "url": "https://x.com/thsottiaux/status/2078321266524881065",
+            "likes": 1159,
+            "retweets": 29,
+            "replies": 111,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078320950488297917",
+            "text": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA https://t.co/3NwNqHG7TV",
+            "createdAt": "2026-07-18T03:28:22.000Z",
+            "url": "https://x.com/thsottiaux/status/2078320950488297917",
+            "likes": 9072,
+            "retweets": 606,
+            "replies": 1803,
+            "isQuote": true,
+            "quotedTweetId": "2078310751878647932"
+          },
+          {
+            "id": "2078310751878647932",
+            "text": "GPT-5.6 Sol confirmed to be an extremely good model https://t.co/nZaAnFhsPX",
+            "createdAt": "2026-07-18T02:47:51.000Z",
+            "url": "https://x.com/thsottiaux/status/2078310751878647932",
+            "likes": 10876,
+            "retweets": 432,
+            "replies": 765,
+            "isQuote": true,
+            "quotedTweetId": "2078302415804379218"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2078303748649320529",
+            "text": "Codex browser use has finally been defeated. https://t.co/qGAIvxtjnJ",
+            "createdAt": "2026-07-18T02:20:01.000Z",
+            "url": "https://x.com/petergyang/status/2078303748649320529",
+            "likes": 29,
+            "retweets": 1,
+            "replies": 12,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078293685238993072",
+            "text": "Legendary episode dropping this weekend featuring the one and only @trq212, who showed me his AI video workflows and much more.\n\n📌 Subscribe to get it on Sunday: https://t.co/744uInp9aE https://t.co/ZTh2IpXRnM",
+            "createdAt": "2026-07-18T01:40:02.000Z",
+            "url": "https://x.com/petergyang/status/2078293685238993072",
+            "likes": 33,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078276992470794531",
+            "text": "The reason I want this btw is spending an entire day staring at screens trying to manage agents fries my brain.\n\nMuch better to be walking around outside talking to the agents \"on the phone\" giving them work to do and having them update me on status via voice.\n\nCan't wait for the first lab to ship this.",
+            "createdAt": "2026-07-18T00:33:42.000Z",
+            "url": "https://x.com/petergyang/status/2078276992470794531",
+            "likes": 26,
+            "retweets": 2,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2077572198655754583"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2078210889778708744",
+            "text": "Why do you think kimi hurts Google?\n\nMany enterprises won’t consume Kimi directly. They’ll get it through Google Cloud because they still need enterprise guarantees - security, data residency, compliance and most importantly, chips.\n\nMoney out one pocket into the other.",
+            "createdAt": "2026-07-17T20:11:02.000Z",
+            "url": "https://x.com/realmadhuguru/status/2078210889778708744",
+            "likes": 85,
+            "retweets": 3,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078131628262752550",
+            "text": "The reason enterprises struggle to go beyond basic chat bots is the talent gap to build harnesses and evals.\n\n1. Evals: do you clearly understand your use cases and can you replicate that in the form of offline and online evals. Do the evals express your ambition and do they push the jagged frontier of the models? Do they help you pick the right models on the quality-cost-latency curve? \n\n2. Harness: do you have a system that manages routing, multiagency orchestration, context management, tool calling, memory that is independent of the models?\n\n3. Talent: do you have the talent to build this all out on the frontier? \nThis is the scarcest piece.",
+            "createdAt": "2026-07-17T14:56:04.000Z",
+            "url": "https://x.com/realmadhuguru/status/2078131628262752550",
+            "likes": 264,
+            "retweets": 22,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2077884950255370261"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2078189833445654714",
+            "text": "building prototypes of mockups, schemas, data models, proof of concepts, etc. is the best way to avoid spending tons of tokens before realizing you don't want the output https://t.co/BjYeXC7zfk",
+            "createdAt": "2026-07-17T18:47:21.000Z",
+            "url": "https://x.com/trq212/status/2078189833445654714",
+            "likes": 634,
+            "retweets": 32,
+            "replies": 59,
+            "isQuote": true,
+            "quotedTweetId": "2078154117441069227"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2078273728618877326",
+            "text": "This is a sick exploration of chess history.\n\nThe Replit community is ChessMaxxing https://t.co/JqBIq5WRct https://t.co/FyMdf7nIhS",
+            "createdAt": "2026-07-18T00:20:44.000Z",
+            "url": "https://x.com/amasad/status/2078273728618877326",
+            "likes": 94,
+            "retweets": 6,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2078246874390179859"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2078305023784620342",
+            "text": "🆓 Sandbox data for downloads.\nHappy Friday! Time to ship more agents https://t.co/xkRucYqs8I",
+            "createdAt": "2026-07-18T02:25:05.000Z",
+            "url": "https://x.com/rauchg/status/2078305023784620342",
+            "likes": 70,
+            "retweets": 5,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2078304260824187350"
+          },
+          {
+            "id": "2078299647689310270",
+            "text": "Ship like @shadcn https://t.co/J6YwECf2Wi",
+            "createdAt": "2026-07-18T02:03:43.000Z",
+            "url": "https://x.com/rauchg/status/2078299647689310270",
+            "likes": 193,
+            "retweets": 0,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2078145156524449952"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2078139206946459853",
+            "text": "This post is key. The cheaper AI gets, the more opportunity there is for the entire ecosystem  - especially including end-customers - to benefit.\n\nEverything is bottlenecked by being able to successfully and cost effectively deploy AI in real workloads. Any time we can lower the cost of AI, the total usage goes up. When that happens, the value accrues to all layers of the stack, as noted.\n\nThe only modification is I think as AI gets more efficient, demand even for the frontier closed models can go up too. You often need the strongest model possible for the orchestration of a task, then you can farm out work to cheaper or more tuned models for the bulk of tokens. \n\nThis efficiency gain can ironically lead to even more frontier spend in the process because you can cost effectively deploy AI against more tasks. The thing at most risk is margins, which is fair, and in general it seems that intelligence eventually should converge with the margins of the infrastructure stack.\n\nAnyway, super fun times to see competition play out to drive down the cost of AI.",
+            "createdAt": "2026-07-17T15:26:11.000Z",
+            "url": "https://x.com/levie/status/2078139206946459853",
+            "likes": 331,
+            "retweets": 36,
+            "replies": 45,
+            "isQuote": true,
+            "quotedTweetId": "2078110934740980193"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2078357435203695071",
+            "text": "Great video https://t.co/tGU8LfdzFQ",
+            "createdAt": "2026-07-18T05:53:21.000Z",
+            "url": "https://x.com/zarazhangrui/status/2078357435203695071",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2078091550178074732"
+          },
+          {
+            "id": "2078086930756202924",
+            "text": "Tip for building in public:\n\nIf making content feels like extra work, show the work already happening inside your product. A tiny screen recording, the first version, or the user behavior that changed your design. The reasoning matters more than production value.",
+            "createdAt": "2026-07-17T11:58:27.000Z",
+            "url": "https://x.com/zarazhangrui/status/2078086930756202924",
+            "likes": 206,
+            "retweets": 9,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078076500683997446",
+            "text": "Just a few years ago, many people were uncomfortable with recording meetings \n\nNow it’s just assumed that all business meetings are recorded (not for humans, but for agents)\n\nTechnology really changes culture",
+            "createdAt": "2026-07-17T11:17:01.000Z",
+            "url": "https://x.com/zarazhangrui/status/2078076500683997446",
+            "likes": 141,
+            "retweets": 8,
+            "replies": 15,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2078033435398897982",
+            "text": "Why is no one awake and on the streets, Dad?\n\nBecause it’s 5:32 am buddy 😴 https://t.co/qnPaaQTt3D",
+            "createdAt": "2026-07-17T08:25:53.000Z",
+            "url": "https://x.com/nikunj/status/2078033435398897982",
+            "likes": 143,
+            "retweets": 0,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2078318731785359634",
+            "text": "It's both amazing and painful to watch codex use browser + computer use to open Chrome, go to my PR, tap on comment and wrangle with the macOS picker - all TO UPLOAD AN IMAGE. GitHub has no API doesn't stop anyone.\n\nI let my codex run in VMs so they don't steal app focus. https://t.co/Dd5KzNs6E5",
+            "createdAt": "2026-07-18T03:19:33.000Z",
+            "url": "https://x.com/steipete/status/2078318731785359634",
+            "likes": 317,
+            "retweets": 9,
+            "replies": 48,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078277297791189132",
+            "text": "Are we still talking loops or did we shift to graphs yet?",
+            "createdAt": "2026-07-18T00:34:54.000Z",
+            "url": "https://x.com/steipete/status/2078277297791189132",
+            "likes": 2502,
+            "retweets": 94,
+            "replies": 475,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078264088644276598",
+            "text": "ya'all made me go crazy with codexbar icon customization issues, so I built an editor.\n(by me, I mean codex) https://t.co/edAthj1eZw",
+            "createdAt": "2026-07-17T23:42:25.000Z",
+            "url": "https://x.com/steipete/status/2078264088644276598",
+            "likes": 306,
+            "retweets": 7,
+            "replies": 23,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2078244242993164716",
+            "text": "this is cool:\n\nhttps://t.co/X4HEmFym68",
+            "createdAt": "2026-07-17T22:23:34.000Z",
+            "url": "https://x.com/sama/status/2078244242993164716",
+            "likes": 2028,
+            "retweets": 124,
+            "replies": 320,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.",
+        "tweets": [
+          {
+            "id": "2078302417100394737",
+            "text": "We know this has been frustrating, and we want to give you more certainty about what your plan includes. We are making access standard at 50% usage for the plans that use Fable most intensively.\n\nThank you for your patience over the past several weeks. We're continuing to invest in new capacity and will keep everyone updated as we do.",
+            "createdAt": "2026-07-18T02:14:43.000Z",
+            "url": "https://x.com/claudeai/status/2078302417100394737",
+            "likes": 3108,
+            "retweets": 121,
+            "replies": 169,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078302415804379218",
+            "text": "Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\n\nPro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.\n\nDemand for Fable has been challenging to predict, which is why we rolled it out to subscription plans in stages, extending access several times as we secured additional capacity.",
+            "createdAt": "2026-07-18T02:14:43.000Z",
+            "url": "https://x.com/claudeai/status/2078302415804379218",
+            "likes": 28134,
+            "retweets": 4023,
+            "replies": 2494,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2078189443878469950",
+            "text": "Explore more projects from the hackathon here: https://t.co/NTQ5I4RGby",
+            "createdAt": "2026-07-17T18:45:48.000Z",
+            "url": "https://x.com/claudeai/status/2078189443878469950",
+            "likes": 70,
+            "retweets": 5,
+            "replies": 18,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we received user feedback that Claude Opus 4.6 in high effort mode would occasionally think for too long, causing the UI to appear frozen and leading to disproportionate latency and token usage for those users. In general, the longer the model thinks, the better the output. Effort levels are how Claude Code lets users set that tradeoff—more thinking versus lower latency and fewer usage limit hits. As we calibrate effort levels for our models, we take this tradeoff into account in order to pick points along the test-time-compute curve that give people the best range of options. In the product layer, we then choose which point along this curve we set as our default, and that is the value we send to the Messages API as the effort parameter; we then make the other options available via /effort . In our internal evals and testing, medium effort achieved slightly lower intelligence with significantly less latency for the majority of tasks. It also didn’t suffer from the same issues with occasional very long tail latencies for thinking, and it helped maximize users’ usage limits. As a result, we rolled out a change making medium the default effort, and explained the rationale via in-product dialog. Soon after rolling out, users began reporting that Claude Code felt less intelligent. We shipped a number of design iterations to make the current effort setting clearer in order to alert people they could change the default (notices on startup, an inline effort selector, and bringing back ultrathink), but most users retained the medium effort default. After hearing feedback from more customers, we reversed this decision on April 7. All users now default to xhigh effort for Opus 4.7, and high effort for all other models. A caching optimization that dropped prior reasoning When Claude reasons through a task, that reasoning is normally kept in the conversation history so that on every subsequent turn, Claude can see why it made the edits and tool calls it did. On March 26, we shipped what was meant to be an efficiency improvement to this feature. We use prompt caching to make back-to-back API calls cheaper and faster for users. Claude writes the input tokens to the cache when it makes an API request, then after a period of inactivity the prompt is evicted from cache, making room for other prompts. Cache utilization is something we manage carefully (more on our approach ). The design should have been simple: if a session has been idle for more than an hour, we could reduce users’ cost of resuming that session by clearing old thinking sections. Since the request would be a cache miss anyway, we could prune unnecessary messages from the request to reduce the number of uncached tokens sent to the API. We’d then resume sending full reasoning history. To do this we used the clear_thinking_20251015 API header along with keep:1 . The implementation had a bug. Instead of clearing thinking history once, it cleared it on every turn for the rest of the session. After a session crossed the idle threshold once, each request for the rest of that process told the API to keep only the most recent block of reasoning and discard everything before it. This compounded: if you sent a follow-up message while Claude was in the middle of a tool use, that started a new turn under the broken flag, so even the reasoning from the current turn was dropped. Claude would continue executing, but increasingly without memory of why it had chosen to do what it was doing. This surfaced as the forgetfulness, repetition, and odd tool choices people reported. Because this would continuously drop thinking blocks from subsequent requests, those requests also resulted in cache misses. We believe this is what drove the separate reports of usage limits draining faster than expected. Two unrelated experiments made it challenging for us to reproduce the issue at first: an internal-only server-side experiment related to message queuing; and an orthogonal change in how we display thinking suppressed this bug in most CLI sessions, so we didn’t catch it even when testing external builds. This bug was at the intersection of Claude Code’s context management, the Anthropic API, and extended thinking. The changes it introduced made it past multiple human and automated code reviews, as well as unit tests, end-to-end tests, automated verification, and dogfooding. Combined with this only happening in a corner case (stale sessions) and the difficulty of reproducing the issue, it took us over a week to discover and confirm the root cause. As part of the investigation, we back-tested Code Review against the offending pull requests using Opus 4.7. When provided the code repositories necessary to gather complete context, Opus 4.7 found the bug, while Opus 4.6 didn&#x27;t. To prevent this from happening again, we are now landing support for additional repositories as context for code reviews. We fixed this bug on April 10 in v2.1.101. A system prompt change to reduce verbosity Our latest model, Claude Opus 4.7, has a notable behavioral quirk relative to its predecessor: as we wrote about at launch, it tends to be quite verbose. This makes it smarter on hard problems, but it also produces more output tokens. A few weeks before we released Opus 4.7, we started tuning Claude Code in preparation. Each model behaves slightly differently, and we spend time before each release optimizing the harness and product for it. We have a number of tools to reduce verbosity: model training, prompting, and improving thinking UX in the product. Ultimately we used all of these, but one addition to the system prompt caused an outsized effect on intelligence in Claude Code: “Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.” After multiple weeks of internal testing and no regressions in the set of evaluations we ran, we felt confident about the change and shipped it alongside Opus 4.7 on April 16. As part of this investigation, we ran more ablations (removing lines from the system prompt to understand the impact of each line) using a broader set of evaluations. One of these evaluations showed a 3% drop for both Opus 4.6 and 4.7. We immediately reverted the prompt as part of the April 20 release. Going forward We are going to do several things differently to avoid these issues: we’ll ensure that a larger share of internal staff use the exact public build of Claude Code (as opposed to the version we use to test new features); and we&#x27;ll make improvements to our Code Review tool that we use internally, and ship this improved version to customers. We’re also adding tighter controls on system prompt changes. We will run a broad suite of per-model evals for every system prompt change to Claude Code, continuing ablations to understand the impact of each line, and we have built new tooling to make prompt changes easier to review and audit. We&#x27;ve additionally added guidance to our CLAUDE.md to ensure model-specific changes are gated to the specific model they&#x27;re targeting. For any change that could trade off against intelligence, we&#x27;ll add soak periods, a broader eval suite, and gradual rollouts so we catch issues earlier. We recently created @ClaudeDevs on X to give us the room to explain product decisions and the reasoning behind them in depth. We&#x27;ll share the same updates in centralized threads on GitHub. Finally, we’d like to thank our users: the people who used the /feedback command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers. We’re immensely grateful for your feedback and for your patience."
+      },
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet . In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health. Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us where failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug. A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure. Decouple the brain from the hands The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. The harness leaves the container. Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: execute(name, input) → string . The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: provision({resources}) . We no longer had to nurse failed containers back to health. Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId) , use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events. The security boundary. In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can&#x27;t do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs. We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git push and pull work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials. The session is not Claude’s context window Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks. But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it. In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action. Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation. Many brains, many hands Many brains. Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers. That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely feels . Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call (execute(name, input) → string) only if they are needed. So a session that didn&#x27;t need a container right away didn&#x27;t wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed. Many hands. We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren&#x27;t capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into. Decoupling the brain from the hands makes each hand a tool, execute(name, input) → string : a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another. Conclusion The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn&#x27;t exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude. Managed Agents is a meta-harness in the same spirit, unopinionated about the specific harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time. Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need. Acknowledgements Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions."
+      },
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "publishedAt": "May 19, 2026",
+        "author": "",
+        "description": "",
+        "content": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls. The sandbox runs on your own infrastructure, or with managed providers like Cloudflare , Daytona , Modal , or Vercel to handle the compute and isolation for you. On the Claude Platform, self-hosted sandboxes is available in public beta and MCP tunnels in research preview ( request access ). Self-hosted sandboxes: keep agent execution within your perimeter A self-hosted sandbox lets a Claude Managed Agent execute tools on infrastructure you control or with a managed sandbox provider. Code execution, sensitive files, packages, services, and data stay within your enterprise perimeter, under your security and runtime controls. With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The agent loop that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment. Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don&#x27;t leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs. Choose your sandbox client Bring any sandbox client you want, or start with one of our supported providers: Cloudflare runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare&#x27;s network. Amplitude is building Design Agent, an internal tool for on-brand production UI and marketing design, on Managed Agents and Cloudflare for tighter observability and control. Daytona sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. Clay’s GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona. Modal is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal&#x27;s functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal&#x27;s custom container runtime delivers sub-second startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand. Vercel sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. Rogo , an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely. MCP tunnels: Connect to services within your private network MCP tunnels connect Claude Managed Agents to Model Context Protocol (MCP) servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end. MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the Claude Console by organization admins."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 13,
+      "totalTweets": 27,
+      "blogPosts": 3,
+      "feedGeneratedAt": "2026-07-18T06:57:24.723Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
