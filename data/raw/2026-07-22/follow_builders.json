@@ -1,0 +1,504 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-22T12:15:21.473006+08:00",
+  "events_count": 12,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 14,
+    "totalTweets": 29,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-07-21T07:10:35.704Z"
+  },
+  "digest_generated_at": "2026-07-22T04:15:21.451Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-22T04:15:21.451Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+        "guid": "18a5d0ce-73e6-11f1-80e0-175857be9792",
+        "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+        "publishedAt": "2026-07-09T10:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:13\nThere is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. Today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow.\n\nSpeaker 1 | 00:13 - 00:24\nThe only one to win long term is to continue to develop new services, new ways to do things. How can we do your business better? What do you need? Where you need more demand? Where are you hurting?\n\nSpeaker 1 | 00:24 - 00:36\nIt's so much more complex. Complex. If you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital.\n\nSpeaker 2 | 00:43 - 01:16\nToday on our priors, we're talking with Glenn Fogel, the CEO of Booking Holdings, a twenty something year veteran of the company who joined when it was just Priceline and worth a few $100,000,000 in the year 2000 and has since helped grow it to a $100,000,000,000 plus company with multiple massive assets across travel that are now being used in the AI era. We will talk about a variety of topics with Glenn that span everything from, the growth and changes that have happened in bookings over time, as well as his own career and perspective on AI. So, Glenn, thank you so much for joining us today.\n\nSpeaker 1 | 01:16 - 01:18\nWell, thank you very much for having me.\n\nSpeaker 2 | 01:18 - 01:37\nYeah. So you've had a really interesting career. You know, you went to Wharton, you went to Harvard Law. Along the way, you worked in, I think, the MIS program at Morgan Stanley. I'd love to just hear a little bit about your early background and how that led you eventually to booking.com and eventually Booking Holdings.\n\nSpeaker 1 | 01:37 - 02:00\nSure. I can do that. So real short, I came out of work with Green Finance, and now I end up at the back office in MIS. My first job is putting tapes on a drive in a data center of IBM thirty eighty fours and the discs that went and and the tape drives and put the put the tapes on on the drive. That's where I started.\n\nSpeaker 1 | 02:00 - 02:15\nThere's an operator. Actually, being an operator of a mainframe, very different. Nothing that you prepared for that in college for that. And I then become you become a developer, and you but I basically learned that this is not a career for me. I should do something else.\n\nSpeaker 1 | 02:15 - 02:41\nAnd all the people I knew, undergrad and were and were going off to investment bank and made all this money, and I thought, fuck. Try to do that, but you can't go. I've now gone down one shoot, and you can't just jump out of that one to go become an investment banker. So I said, oh, I I agree to finance warrant, Harvard let me into law school, so I'll do that because that's another route. I did that, and I end up getting a job on Wall Street as a banker.\n\nSpeaker 1 | 02:41 - 03:04\nI did that for till '95 till 1995. And then the bank was bought by another bank, and they fired all the bankers almost, not every bank. Fired most, including me, but not everybody because they fired everybody because they well, they fired everybody. But they didn't fire everybody. So you there was a there was actually some people were picked to stay.\n\nSpeaker 1 | 03:05 - 03:31\nThat was not one of them. That that's pretty bad. So a real good lesson, though, having been fired and knowing what it's like, that is something that I've kept with me throughout my career about how to do it right and how to do it wrong and understand what goes through the other person when you tell them that I'm sorry, but there's no longer a room for you here and this is not the place for you to be. And I I really learned that firsthand being on that side of the table. And so now I'm unemployed.\n\nSpeaker 1 | 03:31 - 03:50\nAnd my father had just died, not that long before this happened. My father's died, lost a job. My grandmother died, and he and the dog died, which was kind of sad. And I'm like, what do want to do with my life now? My young thirties, I'm alone, I'm saying no, whatever.\n\nSpeaker 1 | 03:50 - 04:03\nAnd I said, you know, I always wanted to write a book. So I start writing a book, I write a novel, I get it done, and now I'm going try and get it published. And it's not really self publishing, man. You weren't doing it on your own. You're trying to get some agent to pick it up.\n\nSpeaker 1 | 04:03 - 04:19\nAnd I was introduced to a woman as a a blind date girlfriend. And I think she was a lawyer, but I'm sorry. I don't know. They said, well, she used to work at Random House as an editor. I said, oh, I'm very interested in how you did the And so we have a date, and the book never gets published.\n\nSpeaker 1 | 04:19 - 04:35\nBut I do end up marrying her and have two great kids and has wonderful life. But while I was trying to get the book, you know, an agent to be interested in it, eventually, she said, you know, if this relationship's gonna go forward, you should get a job. I said, damn. Boy, I should. I didn't wanna go back to banking.\n\nSpeaker 1 | 04:35 - 04:46\nAnd I said, I don't know. And a friend of mine from law school was a senior type person at Morgan Stanley. And he I told him, look. Amy says I have to get a job. How do thought?\n\nSpeaker 1 | 04:46 - 04:54\nShe said, well, we have this trading position here that you could do. I never traded anything in my life. He said, don't worry. You'll be fine. It's like, okay.\n\nSpeaker 1 | 04:54 - 05:09\nSo I end up being head trader for a guy named Barton Bay. He's kind of a Wall Street legend and stuff. I do that for a number of years, but I just don't like it. It's not that ex it's just not for me. And that's when the Internet was really taking off that first real explosion.\n\nSpeaker 1 | 05:09 - 05:33\nYou know, the Internet boom. That's late nineties. So 1999, I started trying to interview, I think, well, I got some skills. But when I was an IT person, I got that. And I know a little bit about corporate development because being a trusted banker, and I started interviewing the only real company on the East Coast at the time of Internet, you know, abilities was Priceline.\n\nSpeaker 1 | 05:33 - 05:53\nAnd they had a job for corporate development. It was perfect. So I get an offer from them, but I said, wanna wait. I wanna wait till I get my bonus for 1999 when it gets paid at the February 2000. So I go and I get my bonus check out, ready to start, And that's when, of course, that's when the Nasdaq peaked.\n\nSpeaker 1 | 05:53 - 06:19\nThereby having gotten long Internet a week before when the Nasdaq peaked and stopped. And it it proved that I shouldn't be a trader having just Yeah. The wrong way. And, know, Priceline has its difficulties after that. Our stock went from where we were when we went public, we in a week or so, we were 30,000,000,000, which back then was real money and that meant something back then.\n\nSpeaker 1 | 06:19 - 06:36\nAnd by the time I joined I joined after the I you know, few months after the IPO, when I joined, we're probably down about 15,000,000,000. That's now, you know, February, March of 2,000. In nine months, our market cap is now down to just a couple of 100,000,000.\n\nSpeaker 2 | 06:36 - 06:37\nWow.\n\nSpeaker 1 | 06:37 - 06:49\nAnd our stock is now trading at a dollar a share. We're gonna get delisted because it's dropping below a dollar a share. But stick with it. We do a reverse split to make sure we don't get delisted. So it goes to $6 a share.\n\nSpeaker 1 | 06:49 - 07:07\nI stay, and I've been there twenty seven on my twenty seventh year. Wow. And we went from that that now reverse split $6. And in last summer, we came very close to $6,000 So over that Yeah. You know, a little more than a quarter of a century, up a thousand times.\n\nSpeaker 1 | 07:08 - 07:13\nAnd, you know, market cap was peaking around 180,000,000,000. Remember, it's a few 100,000,000.\n\nSpeaker 2 | 07:13 - 07:15\nYeah. It's amazing.\n\nSpeaker 1 | 07:15 - 07:26\nIt's been a good ride so far, but, of course, you never stop. Every day is a new adventure. Every day is you gotta a big headline in the Feet when I had an interview with them, I said, gotta fight for a customer every day.\n\nSpeaker 2 | 07:27 - 07:36\nHow do you think about this the lessons from that Internet era in terms of the current AI wave? Because we're seeing this massive shift in market cap.\n\nSpeaker 1 | 07:37 - 07:58\nYou think like this is a an explosion of new things, so all these would cover everything just like in the late nineties. The optimism of technologies. I thought everything was gonna be wonderful. But then you get a little bit of the backlash coming backlash then too. Now you I guess it's just it's just bigger than it was then.\n\nSpeaker 1 | 07:58 - 08:07\nThe numbers are much bigger. The issues at hand are much bigger, the pluses and the minuses. So but I do see a lot of parallels.\n\nSpeaker 2 | 08:07 - 08:37\nYeah. Because, you know, when I look at it right now, some companies clearly have enormous revenue bases. You know, OpenAI and Anthropic are rumored to have 30,000,000,000 to $50,000,000,000 in revenue run rate each. And, in parallel, see companies that are extremely highly valued, 10,000,000,000, etcetera, that don't necessarily have even revenue yet. And if you look at the Internet era, I think it was something like four fifty companies went public in 'ninety nine, four fifty went public in the first few months of 2000, maybe 500 went public before that.\n\nSpeaker 2 | 08:37 - 08:51\nSo you had 1,500 companies of which, what, two dozen are left at most? Maybe. The other fourteen eighty are gone. And so do you think the same thing will happen to the AI set of companies? Do you think something different will happen?\n\nSpeaker 2 | 08:51 - 08:56\nLike and those aren't IPOs, by the way. Those are the very strongest or perceived to be strongest companies. Right?\n\nSpeaker 1 | 08:56 - 09:25\nRight. Well, I I I wouldn't wanna even guess at what the ratio of success to failures will be this time around versus that time versus any other time when there was incredible boom. And, you know, if we go over the last hundred and fifty years, there always been these kind of springing further back. Yeah. Speculative booms that create tremendous innovation, people coming in just both money and people.\n\nSpeaker 1 | 09:26 - 09:37\nI mean, California, you know, the forty niners, I mean, everybody's running off to the hills to gold, and it was gonna rain. I'm sure there were a lot of companies selling axes and hammers.\n\nSpeaker 2 | 09:37 - 09:40\nYeah. Auto boom, same thing. We've seen\n\nSpeaker 1 | 09:40 - 09:54\nthis Exactly. And how many of So I don't know, but this is not new. And there'll be a great deal of disappointment. There'll be a lot of people who gonna lose a lot of money, of course. That's just the nature of how our economy is working.\n\nSpeaker 1 | 09:54 - 10:01\nWhen they're in speculative bubbles, that will bring all up, but that doesn't mean that there aren't a lot of companies. That's a real value it's gonna make.\n\nSpeaker 2 | 10:02 - 10:22\nHow do you think as a founder running a company or as a CEO, you should make the decision in terms of whether to keep going or whether to sell? It's kind of like, okay, Priceline is worth a couple $100,000,000, and the decision was made, we'll keep going no matter what. And there may or may not have been options in terms of exits. I have no idea. But in today's era, there's quite a few options in terms of exits.\n\nSpeaker 2 | 10:22 - 10:23\nShould people mainly be thinking about exiting\n\nSpeaker 1 | 10:23 - 10:24\nright now, do you think?\n\nSpeaker 2 | 10:24 - 10:26\nDo you think they should keep going?\n\nSpeaker 1 | 10:26 - 10:40\nYeah. I think that's right. I don't think we can give a general rule without knowing what the facts of that specific situation are. By the way, there were times early in the day where price would have been happy if somebody has made an offer. I mean, look.\n\nSpeaker 1 | 10:40 - 10:56\nYeah. Yeah. Offer. It really depends a lot on what the situation is, how confident is management and people who have put the money in that which there is going to be a vulture, and how concerned are you? What are you really trying to do?\n\nSpeaker 1 | 10:56 - 11:07\nAre trying to accomplish something? The goal is to actually make something that matters, or are you just here to make money? And nothing wrong with that. I'm not against that. So you gotta understand what is your motivation?\n\nSpeaker 1 | 11:07 - 11:23\nWhat are you trying to achieve? We have on average I don't know if you're American male, for the hell of a because I think that's what I've looked at. I have a seventy eight year expected lifespan when you're born. Of course, the longer you live, the higher you expect. Whatever it is, and how are you gonna spend those years?\n\nSpeaker 1 | 11:23 - 11:33\nWhat is important to you? What do you wanna do? What's the meaning to it? And I'll let the people who are actually involved in those situations. I would not I would not give them any general advice.\n\nSpeaker 2 | 11:33 - 12:02\nMakes sense. So, I mean, back to booking. You know, one of the categories that you all obviously are really crucial to is travel. And there's a number of the next gen sort of AI companies who've started experimenting with things like OpenAI, had, checkout and ChatGPT, and, you know, one of the main use cases was travel, and then they canceled that feature. And I think at the time, booking went up 8% on the news.\n\nSpeaker 2 | 12:02 - 12:08\nWhat what do you think didn't work there? What what do you think how do you think people should think about travel through the lens of AI?\n\nSpeaker 1 | 12:08 - 12:49\nSo I think we should back up a little bit so everybody understands what's going on here. So in any type of situation, you'll have people who are not that knowledgeable about the industry or about how, things actually happen in the business. And so from the outside, it looked rather easy to, oh, this will be easy. AI will take care of travel, and all the travel companies won't be worthwhile, won't be worth anything. And so and that was why companies like ourselves took a big hit as some of the new models were dropped that had a much better way of doing agent in commerce as it was perceived at the time.\n\nSpeaker 1 | 12:49 - 13:10\nAnd then when the when people make analysis, oh, we're not gonna do that, like when OpenAI said, we're not planning to be a merchant of record trying to or we're not even gonna keep in this app type of way of doing commerce. We're not doing it. Then people say, oh, well, I was wrong. I'm not gonna worry about it as much. It flips the other side.\n\nSpeaker 1 | 13:10 - 13:32\nThe truth is the way we look at AI is an incredible beneficial tool and a way for us to be able to do our mission easier, hopefully cheaper, and better for our customers. All business. What is the purpose of a business? A business is to do something of value to its customers. We have two kinds of customers.\n\nSpeaker 1 | 13:32 - 13:59\nWe've got travelers and we've got partners. Are in the middle of that for a marketplace. How can we do it better? AI, particularly AI using, large language models and other things like that can help make it a much more valuable method for people, travelers to get information they need to do what they wanna do and beneficial to our partners. That's the thing.\n\nSpeaker 1 | 13:59 - 14:08\nNow the idea of chat TV, you know, telling me no longer having one method. I mean, I wouldn't read too much into that one way or the other. Mhmm.\n\nSpeaker 2 | 14:08 - 14:20\nYeah. That makes sense. You know, it's interesting because I'm in the middle of Silicon Valley where people are very AGI pills. Right? People strongly believe that AI will drive all sorts of things, and in some cases, will.\n\nSpeaker 2 | 14:20 - 14:41\nAnd in some cases, it'll take longer. In some cases, it won't. You know, it reminds me a little bit of crypto where crypto was gonna solve everything, and it didn't, but it was very important for certain aspects of the financial system. And I think stablecoins and other things are increasingly viable there. On the AI side, what a lot of people are really moving towards is more agentic work, and that could be specific companies like Decagon having agents to do customer support.\n\nSpeaker 2 | 14:41 - 15:22\nBut it's also the larger platforms like OpenAI, Anthropic, Google, etcetera, providing increasingly self driven systems, codecs or Cloud Cowork or, you know, some of the things Gemini is doing. And one of the arguments people are making is that the nature of UI is going to change, and you're going to have agents doing transactions on your behalf and sourcing things like trips or figuring out your travel itinerary for you or buying or purchasing the actual different aspects of travel. A, do you think that's a correct vision of the world? And, b, do you think or how do you view that interacting with booking and what you all provide as a service?\n\nSpeaker 1 | 15:23 - 15:42\nSo again, we wanna reduce this to understanding what does the customer want. Many people with travel find it very frustrating. I know that. People that will travel find very frustrating. Trying to put together a complicated trip with family, let's say, multiple destinations, different things you wanna do.\n\nSpeaker 1 | 15:42 - 15:52\nIt's complex. It's pain. You start planning it, then you stop because it's just too much of a pain. And everybody would like something else. Many people would like something else to do it for them.\n\nSpeaker 1 | 15:53 - 16:14\nIn fact, that's why you'll find very wealthy people have travel concierge people who are actual human beings who really understand the needs of that customer, what they really like and not, and they will do a lot of the hard work for them. People aren't quite in that wealth zone. They'll have there's a partner or their spouse trying to it for them. I'll be perfectly honest. I'm exposing myself here, but I'll say it.\n\nSpeaker 1 | 16:14 - 16:29\nOkay? My wife and I sometimes argue about, okay. Who's gonna have to do all the travel planning for this trip? Because it can be frustrating, etcetera. Now with AI, the beauty is it's gonna make it so much easier, and it's doing it right now.\n\nSpeaker 1 | 16:29 - 16:56\nWe are doing it right now. And let's use that generic term. Let's call it an agent. So I can't wait until we, Booking Holdings in our companies, are offering up these personalized agents that are they know everything about you, everything you want, and able to do so much more for you than any human travel agent could ever do because the machine never forgets anything. The machine has an infinite amount of permutation.\n\nSpeaker 1 | 16:56 - 17:04\nIt rapidly look through and choose what is the best thing, and it can go down and then back up. That doesn't work. Why? This doesn't fit that well. Can come back with it.\n\nSpeaker 1 | 17:04 - 17:26\nNow, people always want some agency, so they make the decision themselves or at least confirm they want it. Most people aren't, for the most part, a complicated thing. They're going to want it to double check them, check them, whatever, which is different than say a business person says, gotta go from New York to Chicago. And, you know, your assistant, your human assistant, right now, is doing it for you. That's like an agent doing it for you.\n\nSpeaker 1 | 17:26 - 17:35\nHe knows what flight you need and all that. That's great. Yeah. But when it's complicated, you want that agency. So we at Booking Holdings, all our companies, we are doing that right now.\n\nSpeaker 1 | 17:35 - 17:59\nIn fact, if you go to Penny, which is Priceline's agentic AI system, and I just did it the other night. I put in a very complex need for a travel with the family where it was my wife and I, we wanna go up in front of the bus. I want the young adults who are adults, but don't think so. I want them in the back of the bus. They're starting.\n\nSpeaker 1 | 17:59 - 18:09\nSo I got two cabins now. There are one person has to go back to a different city. We're going to Europe. We're going to a city. We're not we're not actually doing the trip from that city where we're gonna land.\n\nSpeaker 1 | 18:09 - 18:19\nHow are gonna get from where we go? Should we have the hotel where we land and then travel the next day to the other city, or should we go that night? How are gonna do it? What restaurant? All the thing.\n\nSpeaker 1 | 18:19 - 18:39\nAnd I didn't on Priceline, Penny, and it was incredible. I also added another things. I told it that, by the way, I got a lot of frequent flyer miles. So should I be using my miles or should I use it cash and for which ones? And it was just beautiful how it went back and forth and asked me questions like, how many miles do you have with each airline that I'm giving it?\n\nSpeaker 1 | 18:39 - 18:56\nAnd then we're going through the flight part and how much of the cost. By the way, ended up, as I suspected, I'm using my miles for the upfront part for my wife and I. We're paying cash for the kids on our flights. We're going go to the hotel in the city that we landed. The next day, we're going to get a shelf.\n\nSpeaker 1 | 18:56 - 19:10\nWas wonderful. It was wonderful. And that's what we want even more so. Here's the real important thing is when things go wrong and things go wrong in travel, nobody's fault. Many times, weather, mechanics, it happens.\n\nSpeaker 1 | 19:10 - 19:24\nOkay? You wanna have that one point of contact that can everything because travel is like dominoes. One thing falls over, and it all starts falling over. And that's the beauty with AI being able to figure out being able to look ahead. What can we do?\n\nSpeaker 1 | 19:24 - 19:37\nMy goal is to have a system that actually we are able to predict well enough what the problem will be before it happens and suggest changing things. I have so many examples of this, but I see the future.\n\nSpeaker 2 | 19:37 - 20:14\nI guess at a sort of generic level, because your team on a call that we had prior said that Penny adoption, which again is this agentic tool that you've built for Priceline, has doubled every month for the past past few months. And it's generated a lift in conversion plus faster search, shorter path to booking, lower cancellation, higher customer success. So it seems like it's working in really interesting ways. Are there a common set of use cases that you think are most common for Penny? Are there you know, specific things that it doesn't do well that you just need the underlying models to get better for?\n\nSpeaker 2 | 20:14 - 20:14\nI'm a little bit curious though.\n\nSpeaker 1 | 20:14 - 20:36\nWell, the actual we just have some areas where we're we're coming out with some new things on it, but here's something really important. So when you ask me the questions, when you say it's so great, but you tell me it's not really doing much to, you know, the numbers. It doesn't really show up much in the numbers yet because it's still really, really small in terms of the absolute number. We ain't gotta talk scale here. You know, last year, we did a $186,000,000,000 worth of travel.\n\nSpeaker 1 | 20:37 - 20:51\nThat that's a lot of travel. You don't get over a billion room nights. So the actual numbers, so why? Well, part of it is we're not pushing it really fully. There's one of the issues that I always wanna think about is what's the cost of this?\n\nSpeaker 1 | 20:51 - 20:59\nAnd that's not so easy to understand. What is the cost? That's what's developing of running it. How many tokens are we consuming? Where?\n\nSpeaker 1 | 20:59 - 21:13\nWhere? Where? How many times are they coming back and forth or doing? Tell me how much was the cost of us getting that trip for that person, and what is our ROI going to be? Then the next thing is, well, what's the return long term?\n\nSpeaker 1 | 21:13 - 21:18\nDid it mean lifetime value? Did they come back? Are the loyalties up or what? How much? And will it change?\n\nSpeaker 1 | 21:18 - 21:30\nThese are things that we don't know yet that we're gonna have to do. We need to work on develop till we know. And by the way, the whole thing of token economics now, which model should we be using? For which purpose? And when?\n\nSpeaker 1 | 21:31 - 21:50\nAnd stuff. You know, obviously, you can get tokens a lot cheaper and certain parts to different models, and they're a lot cheaper. And that's something that we have to look at very closely too. So it is fascinating that we can do things that I I'm so thrilled that we do. Like, for example, things like using customer service right now.\n\nSpeaker 1 | 21:50 - 22:06\nCustomer service where we're using AI, it's it's great. It happens much faster. You you know, instead of having to staff your humans and at peak time, somebody's got to wait for somebody to pick up. We've all been in that line. In that queue, waiting for someone to pick up, and we hate it.\n\nSpeaker 1 | 22:06 - 22:36\nBut now with AI, the computer can pick it up. It's not a problem. And solve the problem even better and faster, than you never will have in the future. When you finally talk to a human, the human says, I'm sorry, you'll have to be on hold again while I get somebody else who can solve that problem, which you by then you wanna throttle somebody, AI will solve that problem. But here's the question again about that is sometimes though, you want to figure out because people want to talk to humans sometimes.\n\nSpeaker 1 | 22:36 - 22:49\nYou got to balance that because what you don't want to do is end up, yeah, you can do it all AI, but actually that's not what the customer wants. And in the end, it's always what's best for the customer.\n\nSpeaker 2 | 22:49 - 22:56\nYeah. That makes sense. And I I think you said on your q one call that customer service costs are already down about 10%. Well, we For reservation and\n\nSpeaker 1 | 22:56 - 23:10\nLet's booking security about 10 just go let's go this just this Our costs per customer service per contact are down. Mhmm. Mhmm. That's great. Customer satisfaction is up.\n\nSpeaker 1 | 23:10 - 23:23\nThat's even better. But we have to make sure that we are able to always recognize some customers want a human being and some customers are, you know, you're happy as could be just through AI.\n\nSpeaker 2 | 23:24 - 23:39\nYeah. That makes sense. I mean, I I think you also mentioned that you're investing something like $550,000,000 of cost savings into AI and platform on that on that same quarterly call. Where are you investing it, or where where are you putting the brunt of that, both capital and effort?\n\nSpeaker 1 | 23:39 - 24:03\nYeah. So we and and the amount we're investing is actually higher. We talked about 700,000,000 approximately this year is being invested, but it's in many, many different areas, just, you know, developing more AI. Though AI, there's definitely money going to, call it tech enablement, but there are different projects, different areas. I would not put that all into and say, oh, you're investing in techno old and and AI.\n\nSpeaker 1 | 24:03 - 24:14\nThat's not correct. There are lots of areas of investment. We talked to them on the call. That's not what's important is the idea that but you've got savings. You've got money.\n\nSpeaker 1 | 24:14 - 24:30\nYou've got cash flow. How much should you be putting in reinvesting in the company? How much should you be looking perhaps acquisitions? And how much should we handing back to shareholders? And that's always a balance, trying to figure out what's the right ratio, what is it.\n\nSpeaker 1 | 24:30 - 24:48\nIt really is the first thing is, do we believe investing in the company is gonna give a positive ROI that's sufficient to justify doing that? Or after that, are there acquisitions? And if you can't do either of those, then get the money back to the shareholders because they can then invest it better than you can. And that's what I've always believed in.\n\nSpeaker 2 | 24:48 - 24:57\nMhmm. Makes a lot of sense. And I think you you folks did something like a record 4,000,000,000 in q one in terms of buybacks and other sort of returns to investors.\n\nSpeaker 1 | 24:57 - 25:17\nYou know, I really am very proud of the fact that over the last, let's say, dozen years or so, we've bought back approximately 40% of the outstanding share. That's good. And we offer a dividend. We have a nice dividend. So in the fourth quarter, it was we bought back $3,600,000,000 worth of stock.\n\nSpeaker 1 | 25:17 - 26:01\nWe gave out approximately, you over 300,000,000 in a a dividend. And in addition, we also were paying for the taxes for the equity grants that vested in the know, paying the taxes to do it by withholding shares that part of the vest. That's another 300,000,000 or A lot of money making sure it's going back to the shareholders if we don't think that we can use it properly ourselves. That's I've I've been really and this got me from an investment banking background, maybe back then or maybe trading, where companies that just build up huge amounts of cash and they're not doing anything with it and they're not giving it back to their shareholders. I'm like, that doesn't seem like the right thing.\n\nSpeaker 2 | 26:01 - 26:28\nI think one last thing that you mentioned earlier, one thing that you mentioned earlier that I thought was really important is just the scale of your business. And I think it's at an enormous scale, and that's kind of underappreciated as an asset. And so as an example, you closed 2025 with what I believe is 8,600,000 alternative accommodation listings. So that's people listing homes or rooms or other things for rentals. It could be a variety of different types of of spots.\n\nSpeaker 2 | 26:28 - 26:48\nBut that creates a really interesting, I think, durable asset. So, you know, I feel like people overstate sometimes how AI is gonna transform certain businesses. It's obviously gonna be transforming everything. But there are also things that are very hard to build and that are very durable in the long run that if you have an agent that's gonna go and book an alternative accommodation with you because you have all them listed. Right?\n\nSpeaker 2 | 26:48 - 26:53\nYou have the marketplace built. Are there other aspects of your business that you view as especially durable going into this era?\n\nSpeaker 1 | 26:53 - 27:09\nSo on that one, it it it is a good point. I think you're right. I think it's underappreciated by some people. Probably, I'd say Americans. Because in the alternative accommodations area, obviously, a big player is someone who invested in very early Airbnb.\n\nSpeaker 1 | 27:09 - 27:45\nCongratulations your part. But a lot of people don't recognize that globally, when you look at our amount of listings and you look at Airbnb, it's not that different. And even more so is when you look at our total amount of transactions, our room night for an alternative company, you look at what, you see that we are approximately three quarters the size of Airbnb, and that's just our alternative accommodation. We're the whole much bigger hotel business on top of that. And and, you know, over the last five years, we've been growing for the last five years, we've grown faster than Airbnb in the alternative accommodation area.\n\nSpeaker 1 | 27:45 - 28:04\nWe do like to like. We've growing faster for the last five years. So it's a great product, great thing. It's going very well. Your question though, does that give us an advantage, so to speak, against somebody who comes in, all they're doing is creating a nice AI intensive type system and how are gonna get the connectivity to these players or not?\n\nSpeaker 1 | 28:04 - 28:22\nAnd I'll say, there is no such thing as a moat. There is no such thing as somewhere you're gonna be protected against innovation. And that's what I try and get across to the team. I've got 25,000 employees. I try and get this across to everybody that every day we've gotta be fighting.\n\nSpeaker 1 | 28:23 - 28:43\nAnd, yeah, today, we have a competitive advantage on areas. Absolutely. But those can go away tomorrow. The only way to wait the only window in the long term is to continue to develop new services, new ways to do things, come up with this agentic travel assistant that I want this university that will make it so much better. That's the only way.\n\nSpeaker 1 | 28:43 - 29:00\nWorking on the other side, by the way, also very important with the partner to ways that we're helping them a lot. Again, a lot of people understand the complexity involved. It's not just getting the inventory loaded into some database. Anybody can do that. That's nothing.\n\nSpeaker 1 | 29:00 - 29:12\nWe got thousands of people who are dealing with hotels and other property managers. How can we do your business better? What do you need? Where you need more demand? Where are you hurting?\n\nSpeaker 1 | 29:12 - 29:34\nWhat can we do in terms your systems better? It's so much more complex than I believe many other people who look at this industry from afar and work secondly. This is something really people don't understand. This is the regulatory framework around the world. Dealing with travel is a very highly regulated now it's not a bank.\n\nSpeaker 1 | 29:34 - 29:51\nOkay. Got it. And it's not an air claim, you know, airlines such that, or it's, you know, not drug discount, but it is very regulated. And it's complex and you've gotta meet it. And if you wanna be murky of record in travel, you gotta adhere to a whole bunch of rules, etcetera.\n\nSpeaker 1 | 29:51 - 30:18\nAnd by the way, around the world, much more than The US, around the world, those regulations are increasing. Or not saying so exponentially, but let's say they're increasing. That too is something that if you're big at scale, you can afford to deal with that. And if you think you're just gonna come in and do this business and knock away these very big players, I'd say you should really understand what the business is before you decide to commit your capital.\n\nSpeaker 2 | 30:19 - 30:31\nSo I guess if you reflect on life or you reflect on things looking forward because, I mean, you've had an incredible run. Right? And the run is by no means over. You know? You still have so much stuff you're working on and doing.\n\nSpeaker 1 | 30:31 - 30:35\nIn fact, I think we're just a good start. No. See, this is I tell you, mate.\n\nSpeaker 2 | 30:35 - 30:35\nYeah. Is the most\n\nSpeaker 1 | 30:35 - 30:41\nexciting time ever, ever because of the ability to build these new things.\n\nSpeaker 2 | 30:41 - 30:50\nYeah. I agree. I mean, I think this is a transformative moment- Totally. In terms of just technology and the world and society and everything else. And, you know, it's so exciting to be in the middle of all this.\n\nSpeaker 2 | 30:50 - 31:06\nAnd obviously, you all are playing a really prominent role in one aspect of that or a key aspect. You know, you joined Priceline to your point when it was in the hundreds of millions. The stock is now, you know, dollars 130,000,000,000 plus company. It was 180,000,000,000 earlier in the year. I'm sure it'll go back there over time given, you know, all the things we're working on.\n\nSpeaker 2 | 31:06 - 31:06\nFingers crossed.\n\nSpeaker 1 | 31:06 - 31:08\nIf we do what we're supposed to do.\n\nSpeaker 2 | 31:08 - 31:41\nHow do you think about just what you hope to accomplish more broadly in life? Or what is the right measure of a person of an outcome or of the next few years? I'm just sort of curious because we chatted very briefly earlier, and I felt like you're somebody who's thought deeply about more than just, you know, how will I drive bookings forward? Although, obviously, you think about that quite a bit. I'm just sort of curious, like, you know, what is the right measure in general that you're measuring yourself against or how are you thinking about the next couple of years?\n\nSpeaker 1 | 31:41 - 31:59\nYeah. Well, look, I'm very blessed. I've been very lucky in my life that I'm in a business where I could pretty much do what I'd like to do. And sometimes people ask me, why do you continue to do what you're doing? And I said, because I think part of this is doing something good.\n\nSpeaker 1 | 31:59 - 32:09\nAnd, yeah, we're not curing cancer. I know that. But I think that travel is a very important thing for a lot of people. It really adds to their their lives. You know, we can do it better.\n\nSpeaker 1 | 32:09 - 32:26\nLook. Our mission is to make it easier for everybody to experience the world, and I believe that does improve everybody. It improves the world by getting people to travel more, experience other cultures, other people, etcetera. And we can do it right and make it easier. That's great.\n\nSpeaker 1 | 32:26 - 32:35\nI wanna be part. I wanna help do that. I do believe that's adding something. And, that's part of the everybody needs to understand, I believe. Why are you doing what you're doing?\n\nSpeaker 1 | 32:35 - 32:44\nYou only get one life. You get one life now. Sometimes people don't have choices at all. That's the only job they have. They need to afford to be able to support their family.\n\nSpeaker 1 | 32:44 - 32:57\nI got that. Believe that. I know that. But for people who have a little bit of ability to choose, I'd say choose wisely. Choose wisely because you will not get that time back.\n\nSpeaker 1 | 32:58 - 33:38\nAnd some people have different ideas on what will they believe their life should be and that whatever it is, it's long term for going that path. That's great. My biggest fear too much is people who've taken paths that in the end, they're middle aged or later, and they're a little bit wistful about, gee, I wonder if I had done it next. And I'll be perfectly honest and well, hope not to many of my law school classmates, I hope, but I fear that too many of them, they chose going to law school because that was just kind of like a path. Then they became lawyers just because, you know, that's normally what you do when you come out of law school, couple of lawyers.\n\nSpeaker 1 | 33:38 - 33:57\nI didn't, but many people did. And then it paid really well and it was easy in their comfort zone. And then later in life, it was kind of like, gee, what did I do? And that's when I think everybody should really think hard about making sure you choose wisely.\n\nSpeaker 2 | 33:57 - 34:08\nYou know, one thing we've talked about quite a bit is the AI impact on jobs. And, you know, there's this claim jobs apocalypse and all these other things coming. Would love to hear your views on that and how you think about that.\n\nSpeaker 1 | 34:08 - 34:29\nSo it is really interesting. I mean, we take it in terms of the general sense of technology being job replacement. That's something that happened forever. We well, look at the way the agrarian societies went more towards urbanization as technology passed, industrial revolution. We can go through anything like that.\n\nSpeaker 1 | 34:29 - 35:00\nAnd so we know that happened. The issue that's really interesting though is the speed of the change. So if you look right now where we are, I've seen it happen over my time just this company. So at the beginning of the company, we were dealing at booking.com or we acquired booking.com. They were doing hotel reservations in over 40 languages, which meant all the content, All the scripts, everything was in 40 languages, and this customer service, 40 languages, all that.\n\nSpeaker 1 | 35:00 - 35:19\nIt's wonderful. And there were a lot of people involved with that because all the translation is now in the oh, it's it's, like, 2005. All the translations are being done by human beings. There's no machine translation at all at the time. And all those customer service human beings, we had to have people in all these 40 different languages and that.\n\nSpeaker 1 | 35:19 - 35:28\nThat was a big deal. Now now we have machine translations. All those jobs are gone. There's nobody doing anything. That's those all those jobs disappear.\n\nSpeaker 1 | 35:28 - 35:35\nSo what happened to those people? Where did they go? What are the tops are they now taking? What are they doing in sec? So that's an example where we see that happen in real time.\n\nSpeaker 1 | 35:35 - 36:11\nAnd now we have the issue not only of Apple, now the fear of, well, will I get a job coming out of university because all the jobs seem to be gone because what was necessary was an analyst at a financial department, a bank, or a corporation's job was not being done through basically AI. So the job started, what's going on, how's it going affect? Now we know also the other side, that new jobs aren't gonna be created. We all know that also by history. We're looking at the problem of this, the speed of job, well, disappearance and new job creation.\n\nSpeaker 1 | 36:11 - 36:41\nThose rates are not happening probably the same rate. And the second thing is, what about the people who are not able to make that change? So I think well, I always think about the typical person I think about is a 50 year old truck driver. And when the person who was making a very nice living and felt very good about himself because he or she is driving an 18 wheeler across The US and very responsible, helping contribute to a good job there. And now all of sudden, that's completely automated.\n\nSpeaker 1 | 36:42 - 36:49\nMhmm. You're out of a job. What are we gonna how are we gonna retrain that pro? What's that person? That person's gonna feel really bad.\n\nSpeaker 1 | 36:49 - 37:18\nAnd we've seen in society how these type of forced dislocations have caused problems in the past when you look at that. And I'm concerned that there's not enough thought being done about how are we going to deal with these changes if they happen too quickly or not. Society is whole, absolutely. It's always benefit from technology and creating and being able to do more things. But we have to how are we gonna deal with the flip side, the cost that come with it.\n\nSpeaker 2 | 37:18 - 37:22\nDo have a do have a specific viewpoint or proposal in terms of what we should be doing there?\n\nSpeaker 1 | 37:22 - 37:42\nWell, I'll tell you one thing that we do here at our company. One thing that we're always doing is trying to upskill people. I'd say every day, I'm talking with my head of the my CHR overhead of, you know, how can we do the best training? How can we get people so they are ready for the future? How do we get them so they are becoming AI literate?\n\nSpeaker 1 | 37:42 - 38:01\nIt's quite a word that these AI be able to do AI. And that's really important because even if we end up that we can't replace or retrain or put someone else, at least they are better skilled for a job somewhere else. And I feel a real obligation for that. Now that's that's our point. I think everybody should be thinking that way too.\n\nSpeaker 1 | 38:01 - 38:09\nIt's good for our company. It's a positive for our life for somebody to be able to use new tools in a better way. They're more productive. That's great. It's good.\n\nSpeaker 1 | 38:09 - 38:32\nBut it also helps them for their career. Now, sometimes I could see somebody in short term saying, I don't wanna spend the money for that. And it's not the right way to think about it. Now, we could have governments coming in with certain types of programs trying to come up with ways, but retraining by governments over the last fifty years really hasn't worked out so well. So I'm not sure that's the right way to go either.\n\nSpeaker 1 | 38:32 - 39:15\nBut I do believe this is something that I really would like to have more conversation about how to do it because I do I am concerned if we end up in a situation where people will start rejecting technology because of fear, that would end up being bad for us as a society, and by the way, other parts of world are not gonna have that problem, and they will be disadvantaged, I assure you, in China. They not having that same thing about, Oh, AI is bad, and we shouldn't do it. That is not what's happening there. So I really think we got to talk honesty and openly so we have the right conversation and do not end up on the bad side of people coming out and rejecting what actually are going to be good for society.\n\nSpeaker 2 | 39:15 - 39:28\nThat makes sense. Yeah. It's interesting too because I know that, I know at least one group that has rerun consumer surveys on AI because there's this claim right now that people are very negative on AI. And it turns out it depends on what the question you ask is.\n\nSpeaker 1 | 39:28 - 39:29\nIf you\n\nSpeaker 2 | 39:29 - 39:54\nask people, do you love using ChatGPT and Gemini and Claude and all that, they're like, we love it, we'll pay more for it, and it's wonderful, helping our lives in all these different ways or it's helping our kids with school or whatever it is. Then if you ask them, are you worried that AI will come and destroy your life and take your job and ruin your career? Then, of course, people are like, I don't like it. And so I think the the questions are being asked a certain way on purpose. And I think to your point, we need to be level headed and say, okay.\n\nSpeaker 2 | 39:55 - 40:09\nWhat's the real implication for different areas of the economy? How do we make sure that people benefit overall? And how do we make sure that people can participate? And that's very different from, you know, taking a pure doomer view or taking a pure sort of negative view on what's coming. So, you know, I appreciate your perspective on that.\n\nSpeaker 1 | 40:09 - 40:30\nYou're so right. Part of the problem is in a democracy, which we have, which I'm in favor of, you'll have people who are saying certain things because they're not missing what they believe, but people will give them a vote. And that's also problematic in any or in favor of democracy, but I'll be in favor of people to be a little bit more honest on what they're saying.\n\nSpeaker 2 | 40:30 - 40:31\nYeah. Yeah. Yeah. What's their real purpose? Yeah.\n\nSpeaker 2 | 40:31 - 40:39\n100%. Yeah. Thank you so much for joining today. Really appreciate, you know, you sharing your various views across all these topics. It's been really great chatting with you.\n\nSpeaker 1 | 40:39 - 40:44\nWell, thank you and congratulations on all things that you've accomplished. It's pretty impressive.\n\nSpeaker 3 | 40:47 - 41:03\nFind us on Twitter nopriorspod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at nopriors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2079438448956788964",
+            "text": "unironically this is happening right tf now https://t.co/8E0EI7Gq38 https://t.co/FxVx5B9jIi",
+            "createdAt": "2026-07-21T05:28:54.000Z",
+            "url": "https://x.com/swyx/status/2079438448956788964",
+            "likes": 35,
+            "retweets": 3,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2078346425621237935"
+          },
+          {
+            "id": "2079411861150429402",
+            "text": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction.\n\nan open secret of \"frontier\" model training is that even without training on test, you can basically cheat by training on test lookalikes, enabling you to goalseek almost any benchmark number you want.\n\nhowever when they are released open weights, 99% of the time the norm is that you do not get the datasets/rlenvs that would easily show you if someone was training on Temu Tbench, so there is plausible deniability. Alex and Omar discuss applying standard NLP distance metrics on hidden trajectories. There's no ultimate solution here, but they have some prelim explorations. It happens to support the finding that RLMs can generalize to unseen tasks that share latent structure observed in training.",
+            "createdAt": "2026-07-21T03:43:15.000Z",
+            "url": "https://x.com/swyx/status/2079411861150429402",
+            "likes": 62,
+            "retweets": 7,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2079203524395573442"
+          },
+          {
+            "id": "2079400293075452195",
+            "text": "https://t.co/74kfnYzuE9",
+            "createdAt": "2026-07-21T02:57:17.000Z",
+            "url": "https://x.com/swyx/status/2079400293075452195",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2077761996557275406"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2079355529101705264",
+            "text": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+            "createdAt": "2026-07-20T23:59:25.000Z",
+            "url": "https://x.com/thsottiaux/status/2079355529101705264",
+            "likes": 3672,
+            "retweets": 63,
+            "replies": 1310,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2079324894320603619",
+            "text": "1) What https://t.co/kHWwdn0ZQs",
+            "createdAt": "2026-07-20T21:57:41.000Z",
+            "url": "https://x.com/petergyang/status/2079324894320603619",
+            "likes": 52,
+            "retweets": 1,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079273815004303477",
+            "text": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+            "createdAt": "2026-07-20T18:34:43.000Z",
+            "url": "https://x.com/petergyang/status/2079273815004303477",
+            "likes": 1019,
+            "retweets": 65,
+            "replies": 71,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079257646939742542",
+            "text": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video shorts:\n\n“For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer.\n\nYou should have a separate verification agent read a rubric, review the short, and give feedback.\n\nWe call it self-preferential bias. When a model prefers its own output, it’s going to be more lenient at verifying it.”\n\n📌 Watch the full episode here: https://t.co/mMrt4D5qU7",
+            "createdAt": "2026-07-20T17:30:28.000Z",
+            "url": "https://x.com/petergyang/status/2079257646939742542",
+            "likes": 47,
+            "retweets": 5,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2078846124828545179"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2079387984852668780",
+            "text": "it's literally the greatest time ever to have product sense https://t.co/BkzV0sLwgP",
+            "createdAt": "2026-07-21T02:08:23.000Z",
+            "url": "https://x.com/realmadhuguru/status/2079387984852668780",
+            "likes": 100,
+            "retweets": 9,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2079290891915980938"
+          },
+          {
+            "id": "2079369965569003691",
+            "text": "The road to AGI is paved with economically valuable tasks.\n\nThat’s why enterprise AI is one of the most important frontiers. It’s where many of those tasks live.",
+            "createdAt": "2026-07-21T00:56:47.000Z",
+            "url": "https://x.com/realmadhuguru/status/2079369965569003691",
+            "likes": 24,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079227605031829700",
+            "text": "Four years post peak web3 and crypto tokenomics debates…\n\nturns out the tokenomics debate that matters is open vs closed weight, inference costs and model routing. https://t.co/THz3HEyx1d",
+            "createdAt": "2026-07-20T15:31:05.000Z",
+            "url": "https://x.com/realmadhuguru/status/2079227605031829700",
+            "likes": 4,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2079168867411386530"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2079105479125741675",
+            "text": "this was a bug that was only live for a few minutes, ran into it on my personal account while doing some late night coding though",
+            "createdAt": "2026-07-20T07:25:48.000Z",
+            "url": "https://x.com/trq212/status/2079105479125741675",
+            "likes": 124,
+            "retweets": 0,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2079421913089335677",
+            "text": "Tools https://t.co/b8MxIORFp2",
+            "createdAt": "2026-07-21T04:23:12.000Z",
+            "url": "https://x.com/amasad/status/2079421913089335677",
+            "likes": 91,
+            "retweets": 5,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2079235154485109114"
+          },
+          {
+            "id": "2079401256448340378",
+            "text": "“Being cancelled is a choice” turned out to be a nice sound bite. https://t.co/POBo82Kx6z",
+            "createdAt": "2026-07-21T03:01:07.000Z",
+            "url": "https://x.com/amasad/status/2079401256448340378",
+            "likes": 155,
+            "retweets": 10,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2079250292420571308"
+          },
+          {
+            "id": "2079282869063786541",
+            "text": "First physical product shipped by a coding agent? https://t.co/1PSIT9yvOT",
+            "createdAt": "2026-07-20T19:10:41.000Z",
+            "url": "https://x.com/amasad/status/2079282869063786541",
+            "likes": 270,
+            "retweets": 10,
+            "replies": 27,
+            "isQuote": true,
+            "quotedTweetId": "2079280388640489590"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2079274102129304026",
+            "text": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.",
+            "createdAt": "2026-07-20T18:35:51.000Z",
+            "url": "https://x.com/rauchg/status/2079274102129304026",
+            "likes": 4300,
+            "retweets": 400,
+            "replies": 328,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2079402164988895293",
+            "text": "Multi-model agentic systems clearly are the future. Great post by cursor. Their new research shows that a frontier model as a planner and orchestrator with a workhorse cheaper model can materially lower the cost of total tokens on a project, resulting in a 15X cost improvement.\n\n“Few moments in a large task genuinely require frontier intelligence, such as the original decomposition, the design decisions, and certain trade-offs. Once a frontier planner has collapsed the ambiguity into a detailed, explicit instruction, less expensive models simply have to follow it.”\n\nThis is increasingly becoming the core design pattern of complex agents, because the tokens used on large amounts of work on many tasks don’t require the same intelligence threshold as the planning step. By routing to different models based on where you are in the task, you get much greater efficiency overall. \n\nThis provides the template for where the applied layer in AI will differentiate. You can only drive this efficiency if you know the domain well and have the ability to work with multiple model tiers; companies that can do this will across coding, finance, legal, healthcare, life sciences, and other critical spaces will be in a strong position to get larger workloads that would otherwise be too expensive for the customer to deploy.",
+            "createdAt": "2026-07-21T03:04:44.000Z",
+            "url": "https://x.com/levie/status/2079402164988895293",
+            "likes": 206,
+            "retweets": 29,
+            "replies": 37,
+            "isQuote": true,
+            "quotedTweetId": "2079256614238814551"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2079369233218306285",
+            "text": "The asset seizure tax will only make California more impoverished\n\nSEIU-UHW should be ashamed of itself for the naked cash grab for their own personal benefit https://t.co/wfG9MyVpzc",
+            "createdAt": "2026-07-21T00:53:52.000Z",
+            "url": "https://x.com/garrytan/status/2079369233218306285",
+            "likes": 225,
+            "retweets": 16,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2079291287354921455"
+          },
+          {
+            "id": "2079240755135357356",
+            "text": "Compute rules everything around me CREAM https://t.co/LkOQBYaDfu",
+            "createdAt": "2026-07-20T16:23:21.000Z",
+            "url": "https://x.com/garrytan/status/2079240755135357356",
+            "likes": 216,
+            "retweets": 23,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2079233101453296021"
+          },
+          {
+            "id": "2079196804315521332",
+            "text": "Great reminder to stay frosty https://t.co/mJNqrKnYt5",
+            "createdAt": "2026-07-20T13:28:42.000Z",
+            "url": "https://x.com/garrytan/status/2079196804315521332",
+            "likes": 704,
+            "retweets": 27,
+            "replies": 26,
+            "isQuote": true,
+            "quotedTweetId": "2078917813100540221"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2079198838741458989",
+            "text": "OpenAI and Anthropic when a top free Chinese open source model drops  https://t.co/Dh3hjgv0y1",
+            "createdAt": "2026-07-20T13:36:47.000Z",
+            "url": "https://x.com/mattturck/status/2079198838741458989",
+            "likes": 70,
+            "retweets": 4,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2079409165424799889",
+            "text": "If I were to hire today, this is how I would structure the interview process:\n\nRound 1: in-person & no AI allowed; test domain expertise and knowledge on the fly\n\nRound 2: a project that must be done with AI (impossible to complete without AI). Candidate assessed not just on the result but also the chat transcript with agents",
+            "createdAt": "2026-07-21T03:32:33.000Z",
+            "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+            "likes": 154,
+            "retweets": 8,
+            "replies": 36,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079395028485488707",
+            "text": "Just reached 80k followers 🙏🏻\n\n“all signal no noise no slop no hacks and still finds a way to grow her audience” is what I do here https://t.co/pI8h5ImgnC",
+            "createdAt": "2026-07-21T02:36:22.000Z",
+            "url": "https://x.com/zarazhangrui/status/2079395028485488707",
+            "likes": 127,
+            "retweets": 3,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2035758067116359902"
+          },
+          {
+            "id": "2079225776545968166",
+            "text": "There are basically two kinds of companies now. The ones built before coding agents showed up, scrambling to retrofit. And the ones founded after. \n\nThe second type is different from day one:\n- Teams under ten people because they actually don't need more\n- Work organized by projects, not departments\n- Each person closes their own loop\n- Almost no internal meetings",
+            "createdAt": "2026-07-20T15:23:49.000Z",
+            "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+            "likes": 162,
+            "retweets": 13,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2079328912912355470",
+            "text": "Many founders in the last 18 months are going to realize that just because there are no “moats” in AI left anymore doesn’t mean “scale and capital” become your main moat.\n\nWe have seen this movie before.. all of us will benefit from reading a little bit of history.\n\nWebvan\nGroupon\nMySpace\nYahoo\nAltaVista\nBlockbuster\nNokia\n(zombiecorns of 2021)\n\nEach one was structurally and capital-wise in a very good position, but eventually got beat by a company with a much better unique insight. Or just collapsed under the weight of their own scale. \n\nThis is the needle founders have to thread: find a unique insight worth a 10+ year journey, while being prudent enough to not let capital & scale become a substitute for it.",
+            "createdAt": "2026-07-20T22:13:39.000Z",
+            "url": "https://x.com/nikunj/status/2079328912912355470",
+            "likes": 107,
+            "retweets": 5,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079211477127291350",
+            "text": "This VC to “fast growing startup” train is insane to watch.. another three people just this past week. \n\nI guess it’s similar to the IB/consultant to BizOps train I saw in 2012. \n\nTop title for this cohort? \n\nSpecial projects ⚡️ https://t.co/FqarRFC8Iw",
+            "createdAt": "2026-07-20T14:27:00.000Z",
+            "url": "https://x.com/nikunj/status/2079211477127291350",
+            "likes": 79,
+            "retweets": 0,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2066701833964531736"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2079338909801071021",
+            "text": "https://t.co/HfFp5SlucN",
+            "createdAt": "2026-07-20T22:53:23.000Z",
+            "url": "https://x.com/danshipper/status/2079338909801071021",
+            "likes": 68,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079331654359818503",
+            "text": "we’re hiring a senior engineer to help work on our agent @every \n\nmust love agents. dm if you’re interested (for now preferencing for people I know on here!) https://t.co/RNbNiBQVoL",
+            "createdAt": "2026-07-20T22:24:33.000Z",
+            "url": "https://x.com/danshipper/status/2079331654359818503",
+            "likes": 47,
+            "retweets": 5,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2079320969802400200",
+            "text": "guys I’m basically Brian Johnson https://t.co/vgDGWhxBlZ",
+            "createdAt": "2026-07-20T21:42:05.000Z",
+            "url": "https://x.com/danshipper/status/2079320969802400200",
+            "likes": 45,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2079207197020397933"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2079258683884917013",
+            "text": "it is good now! https://t.co/eiG0VDwrTe",
+            "createdAt": "2026-07-20T17:34:35.000Z",
+            "url": "https://x.com/sama/status/2079258683884917013",
+            "likes": 2820,
+            "retweets": 121,
+            "replies": 456,
+            "isQuote": true,
+            "quotedTweetId": "2079199143868960823"
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 14,
+      "totalTweets": 29,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-07-21T07:10:35.704Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
