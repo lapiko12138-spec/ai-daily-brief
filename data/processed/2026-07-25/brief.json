@@ -1,0 +1,1578 @@
+{
+  "date": "2026-07-25",
+  "title": "2026-07-25 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-07-25.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "844667711d7c2021",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Should we rename ChatGPT Work to ChatGPT Vibe? 2. Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now. https://t.co/nmim...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Should we rename ChatGPT Work to ChatGPT Vibe?；Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "663c18419f3a55aa",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @amasad",
+      "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY 2. Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/amasad/status/2080512523389005894",
+      "source_name": "Follow Builders / @amasad",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "My chess autoresearch agent got a PhD in modern LLM finetuning.",
+        "Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Amjad Masad: My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+      "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：My chess autoresearch agent got a PhD in modern LLM finetuning.；Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "04749ff85cee860b",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "product": "X / @swyx",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat... 2. one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/swyx/status/2080500752183960017",
+      "source_name": "Follow Builders / @swyx",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat",
+        "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Swyx: btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyabl...",
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat；one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "82e65570ff616b8b",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "product": "X / @realmadhuguru",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people. 2. Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agent...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/realmadhuguru/status/2080460579966501257",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.",
+        "Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Madhu Guru: Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of t...",
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.；Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "7e45cad7717d4e52",
+      "title": "Anthropic 的模型/产品能力有新变化",
+      "company": "Anthropic",
+      "product": "X / @claudeai",
+      "summary": "Follow Builders 记录到 Claude（@claudeai） 在 X 上的最新动态。简介：Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.。要点：1. Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your ema... 2. Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages. https...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/claudeai/status/2080376096873177300",
+      "source_name": "Follow Builders / @claudeai",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.",
+        "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages."
+      ],
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "original_title": "Claude: Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can...",
+      "source_context": "Follow Builders / @claudeai / X / @claudeai 的原始信息主要包括：Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.；Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "844667711d7c2021",
+        "date": "2026-07-25",
+        "title": "Thibault Sottiaux: Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Should we rename ChatGPT Work to ChatGPT Vibe? 2. Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now. https://t.co/nmim...",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+        "published_at": "2026-07-24T14:40:17+08:00",
+        "fetched_at": "2026-07-25T12:08:45.391543+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2080543574211666029\", \"text\": \"Should we rename ChatGPT Work to ChatGPT Vibe?\", \"createdAt\": \"2026-07-24T06:40:17.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080543574211666029\", \"likes\": 489, \"retweets\": 17, \"replies\": 488, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080537149204758689\", \"text\": \"From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.\", \"createdAt\": \"2026-07-24T06:14:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080537149204758689\", \"likes\": 1003, \"retweets\": 20, \"replies\": 312, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080408012515340394\", \"text\": \"Jarvis / Samantha / TARS / Etc\\n\\nTry it, and do your best work all while being away from that keyboard. Time to have fun!\\n\\nAvailable in the ChatGPT desktop app now. https://t.co/nmimzU5Jta\", \"createdAt\": \"2026-07-23T21:41:36.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080408012515340394\", \"likes\": 2810, \"retweets\": 115, \"replies\": 923, \"isQuote\": true, \"quotedTweetId\": \"2080378182469857576\"}]}, \"tweets\": [{\"id\": \"2080543574211666029\", \"text\": \"Should we rename ChatGPT Work to ChatGPT Vibe?\", \"createdAt\": \"2026-07-24T06:40:17.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080543574211666029\", \"likes\": 489, \"retweets\": 17, \"replies\": 488, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080408012515340394\", \"text\": \"Jarvis / Samantha / TARS / Etc\\n\\nTry it, and do your best work all while being away from that keyboard. Time to have fun!\\n\\nAvailable in the ChatGPT desktop app now. https://t.co/nmimzU5Jta\", \"createdAt\": \"2026-07-23T21:41:36.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080408012515340394\", \"likes\": 2810, \"retweets\": 115, \"replies\": 923, \"isQuote\": true, \"quotedTweetId\": \"2080378182469857576\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2080408012515340394",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Should we rename ChatGPT Work to ChatGPT Vibe?",
+          "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now."
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Should we rename ChatGPT Work to ChatGPT Vibe?；Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "b90b7b63d78bc171",
+        "date": "2026-07-25",
+        "title": "Peter Steinberger: We see that as well and added code paths that use the claude cli directly - hard to fight the system. https:/...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2",
+        "company": "OpenAI",
+        "product": "X / @steipete",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @steipete",
+        "source_url": "https://x.com/steipete/status/2080318789980201224",
+        "published_at": "2026-07-23T23:47:04+08:00",
+        "fetched_at": "2026-07-25T12:08:45.395017+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2080318789980201224\", \"text\": \"We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2\", \"createdAt\": \"2026-07-23T15:47:04.000Z\", \"url\": \"https://x.com/steipete/status/2080318789980201224\", \"likes\": 233, \"retweets\": 8, \"replies\": 21, \"isQuote\": true, \"quotedTweetId\": \"2073488508816151038\"}]}, \"tweets\": [{\"id\": \"2080318789980201224\", \"text\": \"We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2\", \"createdAt\": \"2026-07-23T15:47:04.000Z\", \"url\": \"https://x.com/steipete/status/2080318789980201224\", \"likes\": 233, \"retweets\": 8, \"replies\": 21, \"isQuote\": true, \"quotedTweetId\": \"2073488508816151038\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Steinberger: We see that as well and added code paths that use the claude cli directly - hard to fight the system. https:/...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "We see that as well and added code paths that use the claude cli directly - hard to fight the system."
+        ],
+        "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：We see that as well and added code paths that use the claude cli directly - hard to fight the system.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "813c656b9c5a4c44",
+        "date": "2026-07-25",
+        "title": "Peter Yang: The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking...",
+        "title_zh": "OpenAI 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥 2. Before and after with ChatGPT Voice https://t.co/kzNE5odHSy",
+        "company": "OpenAI",
+        "product": "X / @petergyang",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2080508139091427741",
+        "published_at": "2026-07-24T12:19:28+08:00",
+        "fetched_at": "2026-07-25T12:08:45.392011+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2080508139091427741\", \"text\": \"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥\", \"createdAt\": \"2026-07-24T04:19:28.000Z\", \"url\": \"https://x.com/petergyang/status/2080508139091427741\", \"likes\": 53, \"retweets\": 5, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505964936241226\", \"text\": \"Before and after with ChatGPT Voice https://t.co/kzNE5odHSy\", \"createdAt\": \"2026-07-24T04:10:50.000Z\", \"url\": \"https://x.com/petergyang/status/2080505964936241226\", \"likes\": 97, \"retweets\": 13, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505108216111303\", \"text\": \"More feedback:\\n\\n1. It should let me know when the other threads finish working if I have a bunch of threads going\\n\\n2. The Chinese pronounciation sounds bad 😅\", \"createdAt\": \"2026-07-24T04:07:26.000Z\", \"url\": \"https://x.com/petergyang/status/2080505108216111303\", \"likes\": 16, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080508139091427741\", \"text\": \"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥\", \"createdAt\": \"2026-07-24T04:19:28.000Z\", \"url\": \"https://x.com/petergyang/status/2080508139091427741\", \"likes\": 53, \"retweets\": 5, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505964936241226\", \"text\": \"Before and after with ChatGPT Voice https://t.co/kzNE5odHSy\", \"createdAt\": \"2026-07-24T04:10:50.000Z\", \"url\": \"https://x.com/petergyang/status/2080505964936241226\", \"likes\": 97, \"retweets\": 13, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2080505964936241226",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥",
+          "Before and after with ChatGPT Voice"
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥；Before and after with ChatGPT Voice",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "7e45cad7717d4e52",
+        "date": "2026-07-25",
+        "title": "Claude: Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can...",
+        "title_zh": "Anthropic 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Claude（@claudeai） 在 X 上的最新动态。简介：Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.。要点：1. Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your ema... 2. Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages. https...",
+        "company": "Anthropic",
+        "product": "X / @claudeai",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @claudeai",
+        "source_url": "https://x.com/claudeai/status/2080376096873177300",
+        "published_at": "2026-07-24T03:34:47+08:00",
+        "fetched_at": "2026-07-25T12:08:45.395479+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Claude\", \"handle\": \"claudeai\", \"bio\": \"Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.\", \"tweets\": [{\"id\": \"2080376099268169943\", \"text\": \"Voice mode also supports more languages, on every plan, including Spanish, French, Hindi, and Japanese.\\n\\nThe update is rolling out today in public beta on mobile, desktop, and web. Download the mobile app and tap the sound wave to start a conversation: https://t.co/hwPB3zlk0w\", \"createdAt\": \"2026-07-23T19:34:48.000Z\", \"url\": \"https://x.com/claudeai/status/2080376099268169943\", \"likes\": 659, \"retweets\": 31, \"replies\": 41, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376096873177300\", \"text\": \"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar. https://t.co/452G2ZZY1d\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376096873177300\", \"likes\": 793, \"retweets\": 35, \"replies\": 27, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376094939603366\", \"text\": \"Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation.\\n\\nTalk through the hard problems out loud, in many more languages. https://t.co/k0CWAGjLdK\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376094939603366\", \"likes\": 8895, \"retweets\": 590, \"replies\": 567, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080376096873177300\", \"text\": \"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar. https://t.co/452G2ZZY1d\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376096873177300\", \"likes\": 793, \"retweets\": 35, \"replies\": 27, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376094939603366\", \"text\": \"Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation.\\n\\nTalk through the hard problems out loud, in many more languages. https://t.co/k0CWAGjLdK\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376094939603366\", \"likes\": 8895, \"retweets\": 590, \"replies\": 567, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@claudeai",
+            "source_url": "https://x.com/claudeai/status/2080376094939603366",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Claude: Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.",
+          "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages."
+        ],
+        "source_context": "Follow Builders / @claudeai / X / @claudeai 的原始信息主要包括：Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.；Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages.",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Google / DeepMind": [
+      {
+        "id": "82e65570ff616b8b",
+        "date": "2026-07-25",
+        "title": "Madhu Guru: Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of t...",
+        "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people. 2. Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agent...",
+        "company": "Google / DeepMind",
+        "product": "X / @realmadhuguru",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "安全与合规"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @realmadhuguru",
+        "source_url": "https://x.com/realmadhuguru/status/2080460579966501257",
+        "published_at": "2026-07-24T09:10:30+08:00",
+        "fetched_at": "2026-07-25T12:08:45.392401+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2080460579966501257\", \"text\": \"Great builders understand the jagged frontier of AI models.\\n\\nGreat leaders understand the jagged frontier of their people.\", \"createdAt\": \"2026-07-24T01:10:30.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080460579966501257\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080315474093760714\", \"text\": \"Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. \\n\\nHow do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?\\n\\nOne employee can now spin up hundreds of agents. Those agents can spawn more agents.\\n\\nTraditionally, each employee has an identity, a role, permissions, and a lifecycle.\\n\\nDo agents inherit the spawning employee’s permissions? What’s their lifecycle - a task, a ticket, a week? Do child agents inherit the same permissions? How do you audit all of this?\", \"createdAt\": \"2026-07-23T15:33:54.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080315474093760714\", \"likes\": 23, \"retweets\": 1, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080460579966501257\", \"text\": \"Great builders understand the jagged frontier of AI models.\\n\\nGreat leaders understand the jagged frontier of their people.\", \"createdAt\": \"2026-07-24T01:10:30.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080460579966501257\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080315474093760714\", \"text\": \"Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. \\n\\nHow do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?\\n\\nOne employee can now spin up hundreds of agents. Those agents can spawn more agents.\\n\\nTraditionally, each employee has an identity, a role, permissions, and a lifecycle.\\n\\nDo agents inherit the spawning employee’s permissions? What’s their lifecycle - a task, a ticket, a week? Do child agents inherit the same permissions? How do you audit all of this?\", \"createdAt\": \"2026-07-23T15:33:54.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080315474093760714\", \"likes\": 23, \"retweets\": 1, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@realmadhuguru",
+            "source_url": "https://x.com/realmadhuguru/status/2080315474093760714",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Madhu Guru: Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of t...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.",
+          "Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona..."
+        ],
+        "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.；Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "GitHub": [
+      {
+        "id": "04749ff85cee860b",
+        "date": "2026-07-25",
+        "title": "Swyx: btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyabl...",
+        "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat... 2. one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin...",
+        "company": "GitHub",
+        "product": "X / @swyx",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @swyx",
+        "source_url": "https://x.com/swyx/status/2080500752183960017",
+        "published_at": "2026-07-24T11:50:07+08:00",
+        "fetched_at": "2026-07-25T12:08:45.390019+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @dxtipshq \\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2080500752183960017\", \"text\": \"btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\\n\\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap\", \"createdAt\": \"2026-07-24T03:50:07.000Z\", \"url\": \"https://x.com/swyx/status/2080500752183960017\", \"likes\": 42, \"retweets\": 0, \"replies\": 12, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080387171723137440\", \"text\": \"one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (like @eliebakouch) have been shouting out their excellent papers, but also they're among a rare few to actually expose their full eval dataset as well - beautifully published, with across 6 public benchmarks with 4 runs each and hundreds of turns per run. you can satisfy for yourself if they rewardhack. brilliant.\", \"createdAt\": \"2026-07-23T20:18:48.000Z\", \"url\": \"https://x.com/swyx/status/2080387171723137440\", \"likes\": 104, \"retweets\": 14, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2080367727621882222\"}]}, \"tweets\": [{\"id\": \"2080500752183960017\", \"text\": \"btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\\n\\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap\", \"createdAt\": \"2026-07-24T03:50:07.000Z\", \"url\": \"https://x.com/swyx/status/2080500752183960017\", \"likes\": 42, \"retweets\": 0, \"replies\": 12, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080387171723137440\", \"text\": \"one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (like @eliebakouch) have been shouting out their excellent papers, but also they're among a rare few to actually expose their full eval dataset as well - beautifully published, with across 6 public benchmarks with 4 runs each and hundreds of turns per run. you can satisfy for yourself if they rewardhack. brilliant.\", \"createdAt\": \"2026-07-23T20:18:48.000Z\", \"url\": \"https://x.com/swyx/status/2080387171723137440\", \"likes\": 104, \"retweets\": 14, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\":...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@swyx",
+            "source_url": "https://x.com/swyx/status/2080387171723137440",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Swyx: btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyabl...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat",
+          "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin"
+        ],
+        "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat；one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "663c18419f3a55aa",
+        "date": "2026-07-25",
+        "title": "Amjad Masad: My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY 2. Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's...",
+        "company": "Builder Ecosystem",
+        "product": "X / @amasad",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "论文研究"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @amasad",
+        "source_url": "https://x.com/amasad/status/2080512523389005894",
+        "published_at": "2026-07-24T12:36:54+08:00",
+        "fetched_at": "2026-07-25T12:08:45.392828+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2080513361301925957\", \"text\": \"Autoscale deployments, which is typically the most expensive of scaled apps is down 80%! https://t.co/5Thud2waXD https://t.co/mUJwAzV2Xu\", \"createdAt\": \"2026-07-24T04:40:14.000Z\", \"url\": \"https://x.com/amasad/status/2080513361301925957\", \"likes\": 92, \"retweets\": 6, \"replies\": 12, \"isQuote\": true, \"quotedTweetId\": \"2080339129506873501\"}, {\"id\": \"2080512523389005894\", \"text\": \"My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY\", \"createdAt\": \"2026-07-24T04:36:54.000Z\", \"url\": \"https://x.com/amasad/status/2080512523389005894\", \"likes\": 151, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080371567221944657\", \"text\": \"Viktor was able to disrupt the agency model and make a lot of money by using Replit.\\n\\nThen he figured: Why not automate the entire thing, not just the coding part?\\n\\nThe Agency: It's merely an agent loop...\\n\\nSo he asked our team for an MCP, and we built one and he's now built his autonomous agency.\", \"createdAt\": \"2026-07-23T19:16:47.000Z\", \"url\": \"https://x.com/amasad/status/2080371567221944657\", \"likes\": 284, \"retweets\": 15, \"replies\": 19, \"isQuote\": true, \"quotedTweetId\": \"2080328447323242896\"}]}, \"tweets\": [{\"id\": \"2080512523389005894\", \"text\": \"My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY\", \"createdAt\": \"2026-07-24T04:36:54.000Z\", \"url\": \"https://x.com/amasad/status/2080512523389005894\", \"likes\": 151, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080371567221944657\", \"text\": \"Viktor was able to disrupt the agency model and make a lot of money by using Replit.\\n\\nThen he figured: Why not automate the entire thing, not just the coding part?\\n\\nThe Agency: It's merely an agent loop...\\n\\nSo he asked our team for an MCP, and we built one and he's now built his autonomous agency.\", \"createdAt\": \"2026-07-23T19:16:47.000Z\", \"url\": \"https://x.com/amasad/status/2080371567221944657\", \"likes\": 284, \"retweets\": 15, \"replies\": 19, \"isQuote\": true, \"quotedTweetId\": \"2080328447323242896\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@amasad",
+            "source_url": "https://x.com/amasad/status/2080371567221944657",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Amjad Masad: My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "My chess autoresearch agent got a PhD in modern LLM finetuning.",
+          "Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency."
+        ],
+        "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：My chess autoresearch agent got a PhD in modern LLM finetuning.；Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "c8268c92e8286d68",
+        "date": "2026-07-25",
+        "title": "Aaron Levie: The best way to think about AI is as a force multiplier for the fields you already know about (or for the rat...",
+        "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no ex...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "企业服务",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "企业服务"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2080471989060559336",
+        "published_at": "2026-07-24T09:55:50+08:00",
+        "fetched_at": "2026-07-25T12:08:45.393358+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2080471989060559336\", \"text\": \"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \\n\\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\\n\\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\\n\\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future.\", \"createdAt\": \"2026-07-24T01:55:50.000Z\", \"url\": \"https://x.com/levie/status/2080471989060559336\", \"likes\": 154, \"retweets\": 18, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2080305033271230690\"}]}, \"tweets\": [{\"id\": \"2080471989060559336\", \"text\": \"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \\n\\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\\n\\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\\n\\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future.\", \"createdAt\": \"2026-07-24T01:55:50.000Z\", \"url\": \"https://x.com/levie/status/2080471989060559336\", \"likes\": 154, \"retweets\": 18, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2080305033271230690\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+        "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: The best way to think about AI is as a force multiplier for the fields you already know about (or for the rat...",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. What will happen is that the experts will get..."
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. What will happen is that the experts will get...",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "c49e5b9189f3703b",
+        "date": "2026-07-25",
+        "title": "Guillermo Rauch: Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH 2. 🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W",
+        "company": "Builder Ecosystem",
+        "product": "X / @rauchg",
+        "category": "开发者工具",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @rauchg",
+        "source_url": "https://x.com/rauchg/status/2080454509508387251",
+        "published_at": "2026-07-24T08:46:22+08:00",
+        "fetched_at": "2026-07-25T12:08:45.393081+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2080454509508387251\", \"text\": \"Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH\", \"createdAt\": \"2026-07-24T00:46:22.000Z\", \"url\": \"https://x.com/rauchg/status/2080454509508387251\", \"likes\": 134, \"retweets\": 4, \"replies\": 17, \"isQuote\": true, \"quotedTweetId\": \"2080452764732403974\"}, {\"id\": \"2080344136625049690\", \"text\": \"🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W\", \"createdAt\": \"2026-07-23T17:27:47.000Z\", \"url\": \"https://x.com/rauchg/status/2080344136625049690\", \"likes\": 174, \"retweets\": 5, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2080343888662077799\"}]}, \"tweets\": [{\"id\": \"2080454509508387251\", \"text\": \"Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH\", \"createdAt\": \"2026-07-24T00:46:22.000Z\", \"url\": \"https://x.com/rauchg/status/2080454509508387251\", \"likes\": 134, \"retweets\": 4, \"replies\": 17, \"isQuote\": true, \"quotedTweetId\": \"2080452764732403974\"}, {\"id\": \"2080344136625049690\", \"text\": \"🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W\", \"createdAt\": \"2026-07-23T17:27:47.000Z\", \"url\": \"https://x.com/rauchg/status/2080344136625049690\", \"likes\": 174, \"retweets\": 5, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2080343888662077799\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@rauchg",
+            "source_url": "https://x.com/rauchg/status/2080344136625049690",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Guillermo Rauch: Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Python code now starts 2x faster on Vercel. Automatically!",
+          "🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team."
+        ],
+        "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Python code now starts 2x faster on Vercel. Automatically!；🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "c01bb1d50a30b771",
+        "date": "2026-07-25",
+        "title": "Matt Turck: This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman...",
+        "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on... 2. My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:...",
+        "company": "Builder Ecosystem",
+        "product": "X / @mattturck",
+        "category": "产品功能",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "算力/基础设施"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @mattturck",
+        "source_url": "https://x.com/mattturck/status/2080333711640285549",
+        "published_at": "2026-07-24T00:46:22+08:00",
+        "fetched_at": "2026-07-25T12:08:45.394398+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2080451010439352711\", \"text\": \"VCs when a founder is raising for a profitable bootstrapped business instead of burning hundreds of millions on compute for a neo-lab https://t.co/YmF9a7BK5p\", \"createdAt\": \"2026-07-24T00:32:28.000Z\", \"url\": \"https://x.com/mattturck/status/2080451010439352711\", \"likes\": 26, \"retweets\": 3, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080333711640285549\", \"text\": \"This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on YouTube:\\n\\nhttps://t.co/iP21ZRHgpB\", \"createdAt\": \"2026-07-23T16:46:22.000Z\", \"url\": \"https://x.com/mattturck/status/2080333711640285549\", \"likes\": 5, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080333707483725876\", \"text\": \"My conversation with @andrewdfeldman, CEO of @cerebras. We started from \\\"what is a wafer?\\\" and built up to why the entire chip industry is reorganizing around inference speed.\\n\\n00:00 Cold open & Intro\\n01:31 Why speed became the AI bottleneck\\n02:32 Tokens per second per user, explained\\n03:16 AI’s broadband moment and the Netflix analogy\\n04:35 The AI chip landscape: GPUs, TPUs, Trainium, ASICs\\n06:36 What is an ASIC? \\n08:08 Nvidia, Groq, and the fast inference war\\n09:16 OpenAI, Broadcom, and specialized silicon\\n12:10 China, power, and sovereign AI infrastructure\\n15:05 Is the AI infrastructure boom a bubble?\\n18:56 The hidden bottlenecks: HBM, CoWoS, and 3nm\\n22:57 Why agents are creating CPU demand\\n25:36 Andrew’s path from SeaMicro to Cerebras\\n26:13 Why Cerebras bet on AI in 2016\\n31:14 SRAM vs. HBM: why inference is a memory problem\\n33:19 What wafer-scale computing actually means\\n34:28 The deep-tech “Everest” problem\\n36:07 The moment the first Cerebras system worked\\n36:49 Ringing the bell and surviving deep tech\\n39:08 How a giant chip handles failure\\n41:22 Why GPUs struggle with decode\\n42:17 Prefill vs. decode explained\\n44:01 The “100 HD movies” problem in AI inference\\n45:04 How fast inference changes RL and training 48:08 Reasoning models and why they cost more compute\\n50:08 Verification, guardrails, and small models checking big models\\n52:37 Multimodal AI and the path to video\\n53:51 Cerebras’ business model: hardware, cloud, API\\n55:14 OpenAI’s 750MW inference deal\\n55:36 Why data centers are measured in megawatts\\n58:01 AWS Trainium + Cerebras decode\\n59:29 Fast tokens as a cloud product\\n01:00:52 Is CUDA still a moat?\\n01:03:53 How TSMC helped Cerebras build the giant chip\\n01:07:41 Why nobody cared in 2020\\n01:08:15 Why chip supply chains are hard to diversify\\n01:09:54 Why today’s AI models will be the worst you ever use\\n01:10:38 What fast AI could do to SaaS\", \"createdAt\": \"2026-07-...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@mattturck",
+            "source_url": "https://x.com/mattturck/status/2080333707483725876",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Matt Turck: This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on",
+          "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:"
+        ],
+        "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on；My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "bde483395a25e00d",
+        "date": "2026-07-25",
+        "title": "The MAD Podcast with Matt Turck: The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+        "title_zh": "Podcasts / Interviews 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman。转录摘要线索：Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For AI world, big chips are undoubtedly the best way to go. There's no mode in inference. Speaker 1 | 00:21 - 00:36 It takes you eight keystrokes to move from a GPU to us in the cloud. We solved a problem that nobody...",
+        "company": "Podcasts / Interviews",
+        "product": "The MAD Podcast with Matt Turck",
+        "category": "企业服务",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "企业服务",
+          "算力/基础设施"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+        "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "published_at": "2026-07-23T19:30:00+08:00",
+        "fetched_at": "2026-07-25T12:08:45.397880+08:00",
+        "raw_text": "Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For AI world, big chips are undoubtedly the best way to go. There's no mode in inference. Speaker 1 | 00:21 - 00:36 It takes you eight keystrokes to move from a GPU to us in the cloud. We solved a problem that nobody in the history of computing solved, and we delivered it in 2020, and nobody cared. Nobody cared. Nobody bought it in. Nobody cared. Speaker 1 | 00:36 - 00:40 Everybody said we were crazy. It would never work. So then we built the next one. Speaker 2 | 00:40 - 01:02 Hi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Andrew Feldman, cofounder and CEO of Cerubrus, the company that built the largest chip in the history of computing and just pulled off the biggest semiconductor IPO of all time. Andrew has been everywhere talking about the headlines, the $20,000,000,000 plus OpenAI deal, the IPO, but this conversation is a bit different. Speaker 2 | 01:02 - 01:28 We started from what is a wafer and built up step by step, Why GPUs struggle with fast inference, the three shortages nobody talks about, the decade in the desert when nobody wanted this chip, and why Andrew believes that CUDA is no longer a moat for NVIDIA. If you want to actually understand the current chip landscape and how AI inference works at the silicon level, this episode is for you. Please enjoy this fantastic conversation with Andrew Feldman. Speaker 3 | 01:31 - 01:41 I thought a a fun place to start would be to talk about speed. So has speed become the dominant conversation for AI today? Speaker 1 | 01:41 - 01:59 Yeah. What happened, I think, was for a long time, AI was sort of a novelty. It was like a parlor trick. It was cool, but not useful. And what happened somewhere around the middle of twenty twenty five was the AI got smart enough such that people began to use it. Speaker 1 | 02:00 - 02:15 And we remember, we we we make AI with training, but we use it with inference. And suddenly people wanted to use it. And the minute you wanna use it, the minute it's productive, right, speed matters. Right? Fast tokens are more productive. Speaker 1 | 02:15 - 02:32 And so the conversation moved from everything else to how do we make our inference faster? How do we deliver tokens more quickly? Because those are more productive tokens. We get more done in less time, and, therefore, it's more valuable. Speaker 3 | 02:32 - 02:39 Great. And what what does speed mean? Is that is that a a question of token speed? Is that completion of the task? What what's the right metric? Speaker 3 | 02:39 - 02:40 Sure. Speaker 1 | 02:40 - 03:06 The right metric is tokens per second per user. That that's how fast you get the first token all the way through the last token in in your in your response. And it's true for queries from from chat, but it's als...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "The MAD Podcast with Matt Turck: The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "This is the largest chip built in the history of the computer industry.",
+          "And for AI, bigger chips process information more quickly, and therefore, you get answers in less time.",
+          "For AI world, big chips are undoubtedly the best way to go.",
+          "It takes you eight keystrokes to move from a GPU to us in the cloud."
+        ],
+        "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：This is the largest chip built in the history of the computer industry.；And for AI, bigger chips process information more quickly, and therefore, you get answers in less time.",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Blogs / Essays": [
+      {
+        "id": "22b20f6c53f5d042",
+        "date": "2026-07-25",
+        "title": "Claude Blog: Claude Code now supports artifacts",
+        "title_zh": "Blogs / Essays 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself o...",
+        "company": "Blogs / Essays",
+        "product": "Claude Blog",
+        "category": "模型更新",
+        "tags": [
+          "Blog",
+          "Builder 观点",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / Claude Blog",
+        "source_url": "https://claude.com/blog/artifacts-in-claude-code",
+        "published_at": "Jun 18, 2026",
+        "fetched_at": "2026-07-25T12:08:45.401192+08:00",
+        "raw_text": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates. Built on the context from your session Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran. With artifacts, you don&#x27;t need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists. Live pages that update in place When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you&#x27;ve made. From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header. By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to \"walk us through what the agent found\" because they&#x27;re all looking at the same view, with the same context. Private to your organization Every artifact is private to its author by default. When you&#x27;re ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public. Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance API. Getting started Ask your session for an artifact — or just ask for something visual, h ere are some ideas by role: Legal / open source : A license audit of every dependency, flagging copyleft, straight from the repo. \"Build an artifact listing every third-party dependency and its license,...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：这个方向的核心价值不在单次对话，而在把模型能力接入真实任务链路。",
+        "why_it_matters": "这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。",
+        "action_suggestion": "判断是否适合放入个人 Agent / 自动化工作流试用清单。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "blog",
+        "original_title": "Claude Blog: Claude Code now supports artifacts",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to re..."
+        ],
+        "source_context": "Follow Builders / Claude Blog 的原始信息主要包括：Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to re...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "844667711d7c2021",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "663c18419f3a55aa",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/amasad/status/2080512523389005894",
+      "source_name": "Follow Builders / @amasad",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "04749ff85cee860b",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "source_url": "https://x.com/swyx/status/2080500752183960017",
+      "source_name": "Follow Builders / @swyx",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 GitHub 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "844667711d7c2021",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "663c18419f3a55aa",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/amasad/status/2080512523389005894",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合检索增强、信息核查、研究型工作流和知识库问答。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "04749ff85cee860b",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "source_url": "https://x.com/swyx/status/2080500752183960017",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "82e65570ff616b8b",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "source_url": "https://x.com/realmadhuguru/status/2080460579966501257",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "b90b7b63d78bc171",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/steipete/status/2080318789980201224",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "22b20f6c53f5d042",
+      "title": "Blogs / Essays 相关 Agent 动态值得跟踪",
+      "company": "Blogs / Essays",
+      "source_url": "https://claude.com/blog/artifacts-in-claude-code",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "media"
+    },
+    {
+      "event_id": "c49e5b9189f3703b",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/rauchg/status/2080454509508387251",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Should we rename ChatGPT Work to ChatGPT Vibe? 2. Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now. https://t.co/nmim...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @amasad",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY 2. Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/amasad/status/2080512523389005894"
+    },
+    {
+      "company": "GitHub",
+      "model_product": "X / @swyx",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat... 2. one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/swyx/status/2080500752183960017"
+    },
+    {
+      "company": "Google / DeepMind",
+      "model_product": "X / @realmadhuguru",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people. 2. Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agent...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/realmadhuguru/status/2080460579966501257"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @claudeai",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Claude（@claudeai） 在 X 上的最新动态。简介：Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.。要点：1. Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your ema... 2. Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages. https...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/claudeai/status/2080376096873177300"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @steipete",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/steipete/status/2080318789980201224"
+    },
+    {
+      "company": "Blogs / Essays",
+      "model_product": "Claude Blog",
+      "before": "信息不足",
+      "after": "Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself o...",
+      "change_type": "Blog, Builder 观点, 模型更新",
+      "developer_impact": "这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://claude.com/blog/artifacts-in-claude-code"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥 2. Before and after with ChatGPT Voice https://t.co/kzNE5odHSy",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/petergyang/status/2080508139091427741"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "OpenAI 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "Anthropic 的模型/产品能力有新变化",
+      "source_url": "https://x.com/claudeai/status/2080376096873177300"
+    },
+    {
+      "insight": "云厂商的 AI 更新，本质上是在把模型能力变成企业可采购的解决方案。",
+      "explanation": "这对云服务销售、企业集成和行业方案理解尤其重要。",
+      "source_title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "source_url": "https://x.com/levie/status/2080471989060559336"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/mattturck/status/2080333711640285549"
+    }
+  ],
+  "actions": [
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/amasad/status/2080512523389005894",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/swyx/status/2080500752183960017",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/realmadhuguru/status/2080460579966501257",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 的模型/产品能力有新变化",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/claudeai/status/2080376096873177300",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    }
+  ],
+  "events": [
+    {
+      "id": "844667711d7c2021",
+      "date": "2026-07-25",
+      "title": "Thibault Sottiaux: Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Should we rename ChatGPT Work to ChatGPT Vibe? 2. Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now. https://t.co/nmim...",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "published_at": "2026-07-24T14:40:17+08:00",
+      "fetched_at": "2026-07-25T12:08:45.391543+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2080543574211666029\", \"text\": \"Should we rename ChatGPT Work to ChatGPT Vibe?\", \"createdAt\": \"2026-07-24T06:40:17.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080543574211666029\", \"likes\": 489, \"retweets\": 17, \"replies\": 488, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080537149204758689\", \"text\": \"From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.\", \"createdAt\": \"2026-07-24T06:14:45.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080537149204758689\", \"likes\": 1003, \"retweets\": 20, \"replies\": 312, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080408012515340394\", \"text\": \"Jarvis / Samantha / TARS / Etc\\n\\nTry it, and do your best work all while being away from that keyboard. Time to have fun!\\n\\nAvailable in the ChatGPT desktop app now. https://t.co/nmimzU5Jta\", \"createdAt\": \"2026-07-23T21:41:36.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080408012515340394\", \"likes\": 2810, \"retweets\": 115, \"replies\": 923, \"isQuote\": true, \"quotedTweetId\": \"2080378182469857576\"}]}, \"tweets\": [{\"id\": \"2080543574211666029\", \"text\": \"Should we rename ChatGPT Work to ChatGPT Vibe?\", \"createdAt\": \"2026-07-24T06:40:17.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080543574211666029\", \"likes\": 489, \"retweets\": 17, \"replies\": 488, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080408012515340394\", \"text\": \"Jarvis / Samantha / TARS / Etc\\n\\nTry it, and do your best work all while being away from that keyboard. Time to have fun!\\n\\nAvailable in the ChatGPT desktop app now. https://t.co/nmimzU5Jta\", \"createdAt\": \"2026-07-23T21:41:36.000Z\", \"url\": \"https://x.com/thsottiaux/status/2080408012515340394\", \"likes\": 2810, \"retweets\": 115, \"replies\": 923, \"isQuote\": true, \"quotedTweetId\": \"2080378182469857576\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2080408012515340394",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now."
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Should we rename ChatGPT Work to ChatGPT Vibe?；Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "663c18419f3a55aa",
+      "date": "2026-07-25",
+      "title": "Amjad Masad: My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY 2. Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's...",
+      "company": "Builder Ecosystem",
+      "product": "X / @amasad",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "论文研究"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @amasad",
+      "source_url": "https://x.com/amasad/status/2080512523389005894",
+      "published_at": "2026-07-24T12:36:54+08:00",
+      "fetched_at": "2026-07-25T12:08:45.392828+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2080513361301925957\", \"text\": \"Autoscale deployments, which is typically the most expensive of scaled apps is down 80%! https://t.co/5Thud2waXD https://t.co/mUJwAzV2Xu\", \"createdAt\": \"2026-07-24T04:40:14.000Z\", \"url\": \"https://x.com/amasad/status/2080513361301925957\", \"likes\": 92, \"retweets\": 6, \"replies\": 12, \"isQuote\": true, \"quotedTweetId\": \"2080339129506873501\"}, {\"id\": \"2080512523389005894\", \"text\": \"My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY\", \"createdAt\": \"2026-07-24T04:36:54.000Z\", \"url\": \"https://x.com/amasad/status/2080512523389005894\", \"likes\": 151, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080371567221944657\", \"text\": \"Viktor was able to disrupt the agency model and make a lot of money by using Replit.\\n\\nThen he figured: Why not automate the entire thing, not just the coding part?\\n\\nThe Agency: It's merely an agent loop...\\n\\nSo he asked our team for an MCP, and we built one and he's now built his autonomous agency.\", \"createdAt\": \"2026-07-23T19:16:47.000Z\", \"url\": \"https://x.com/amasad/status/2080371567221944657\", \"likes\": 284, \"retweets\": 15, \"replies\": 19, \"isQuote\": true, \"quotedTweetId\": \"2080328447323242896\"}]}, \"tweets\": [{\"id\": \"2080512523389005894\", \"text\": \"My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY\", \"createdAt\": \"2026-07-24T04:36:54.000Z\", \"url\": \"https://x.com/amasad/status/2080512523389005894\", \"likes\": 151, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080371567221944657\", \"text\": \"Viktor was able to disrupt the agency model and make a lot of money by using Replit.\\n\\nThen he figured: Why not automate the entire thing, not just the coding part?\\n\\nThe Agency: It's merely an agent loop...\\n\\nSo he asked our team for an MCP, and we built one and he's now built his autonomous agency.\", \"createdAt\": \"2026-07-23T19:16:47.000Z\", \"url\": \"https://x.com/amasad/status/2080371567221944657\", \"likes\": 284, \"retweets\": 15, \"replies\": 19, \"isQuote\": true, \"quotedTweetId\": \"2080328447323242896\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@amasad",
+          "source_url": "https://x.com/amasad/status/2080371567221944657",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Amjad Masad: My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "My chess autoresearch agent got a PhD in modern LLM finetuning.",
+        "Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency."
+      ],
+      "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：My chess autoresearch agent got a PhD in modern LLM finetuning.；Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "04749ff85cee860b",
+      "date": "2026-07-25",
+      "title": "Swyx: btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyabl...",
+      "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat... 2. one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin...",
+      "company": "GitHub",
+      "product": "X / @swyx",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @swyx",
+      "source_url": "https://x.com/swyx/status/2080500752183960017",
+      "published_at": "2026-07-24T11:50:07+08:00",
+      "fetched_at": "2026-07-25T12:08:45.390019+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @dxtipshq \\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2080500752183960017\", \"text\": \"btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\\n\\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap\", \"createdAt\": \"2026-07-24T03:50:07.000Z\", \"url\": \"https://x.com/swyx/status/2080500752183960017\", \"likes\": 42, \"retweets\": 0, \"replies\": 12, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080387171723137440\", \"text\": \"one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (like @eliebakouch) have been shouting out their excellent papers, but also they're among a rare few to actually expose their full eval dataset as well - beautifully published, with across 6 public benchmarks with 4 runs each and hundreds of turns per run. you can satisfy for yourself if they rewardhack. brilliant.\", \"createdAt\": \"2026-07-23T20:18:48.000Z\", \"url\": \"https://x.com/swyx/status/2080387171723137440\", \"likes\": 104, \"retweets\": 14, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2080367727621882222\"}]}, \"tweets\": [{\"id\": \"2080500752183960017\", \"text\": \"btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\\n\\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap\", \"createdAt\": \"2026-07-24T03:50:07.000Z\", \"url\": \"https://x.com/swyx/status/2080500752183960017\", \"likes\": 42, \"retweets\": 0, \"replies\": 12, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080387171723137440\", \"text\": \"one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (like @eliebakouch) have been shouting out their excellent papers, but also they're among a rare few to actually expose their full eval dataset as well - beautifully published, with across 6 public benchmarks with 4 runs each and hundreds of turns per run. you can satisfy for yourself if they rewardhack. brilliant.\", \"createdAt\": \"2026-07-23T20:18:48.000Z\", \"url\": \"https://x.com/swyx/status/2080387171723137440\", \"likes\": 104, \"retweets\": 14, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\":...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@swyx",
+          "source_url": "https://x.com/swyx/status/2080387171723137440",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Swyx: btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyabl...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat",
+        "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin"
+      ],
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for plat；one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thin",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "82e65570ff616b8b",
+      "date": "2026-07-25",
+      "title": "Madhu Guru: Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of t...",
+      "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people. 2. Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agent...",
+      "company": "Google / DeepMind",
+      "product": "X / @realmadhuguru",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "安全与合规"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "source_url": "https://x.com/realmadhuguru/status/2080460579966501257",
+      "published_at": "2026-07-24T09:10:30+08:00",
+      "fetched_at": "2026-07-25T12:08:45.392401+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2080460579966501257\", \"text\": \"Great builders understand the jagged frontier of AI models.\\n\\nGreat leaders understand the jagged frontier of their people.\", \"createdAt\": \"2026-07-24T01:10:30.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080460579966501257\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080315474093760714\", \"text\": \"Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. \\n\\nHow do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?\\n\\nOne employee can now spin up hundreds of agents. Those agents can spawn more agents.\\n\\nTraditionally, each employee has an identity, a role, permissions, and a lifecycle.\\n\\nDo agents inherit the spawning employee’s permissions? What’s their lifecycle - a task, a ticket, a week? Do child agents inherit the same permissions? How do you audit all of this?\", \"createdAt\": \"2026-07-23T15:33:54.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080315474093760714\", \"likes\": 23, \"retweets\": 1, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080460579966501257\", \"text\": \"Great builders understand the jagged frontier of AI models.\\n\\nGreat leaders understand the jagged frontier of their people.\", \"createdAt\": \"2026-07-24T01:10:30.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080460579966501257\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080315474093760714\", \"text\": \"Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. \\n\\nHow do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?\\n\\nOne employee can now spin up hundreds of agents. Those agents can spawn more agents.\\n\\nTraditionally, each employee has an identity, a role, permissions, and a lifecycle.\\n\\nDo agents inherit the spawning employee’s permissions? What’s their lifecycle - a task, a ticket, a week? Do child agents inherit the same permissions? How do you audit all of this?\", \"createdAt\": \"2026-07-23T15:33:54.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2080315474093760714\", \"likes\": 23, \"retweets\": 1, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@realmadhuguru",
+          "source_url": "https://x.com/realmadhuguru/status/2080315474093760714",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Madhu Guru: Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of t...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.",
+        "Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona..."
+      ],
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.；Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those agents can spawn more agents. Traditiona...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "7e45cad7717d4e52",
+      "date": "2026-07-25",
+      "title": "Claude: Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can...",
+      "title_zh": "Anthropic 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Claude（@claudeai） 在 X 上的最新动态。简介：Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.。要点：1. Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your ema... 2. Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages. https...",
+      "company": "Anthropic",
+      "product": "X / @claudeai",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @claudeai",
+      "source_url": "https://x.com/claudeai/status/2080376096873177300",
+      "published_at": "2026-07-24T03:34:47+08:00",
+      "fetched_at": "2026-07-25T12:08:45.395479+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Claude\", \"handle\": \"claudeai\", \"bio\": \"Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.\", \"tweets\": [{\"id\": \"2080376099268169943\", \"text\": \"Voice mode also supports more languages, on every plan, including Spanish, French, Hindi, and Japanese.\\n\\nThe update is rolling out today in public beta on mobile, desktop, and web. Download the mobile app and tap the sound wave to start a conversation: https://t.co/hwPB3zlk0w\", \"createdAt\": \"2026-07-23T19:34:48.000Z\", \"url\": \"https://x.com/claudeai/status/2080376099268169943\", \"likes\": 659, \"retweets\": 31, \"replies\": 41, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376096873177300\", \"text\": \"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar. https://t.co/452G2ZZY1d\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376096873177300\", \"likes\": 793, \"retweets\": 35, \"replies\": 27, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376094939603366\", \"text\": \"Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation.\\n\\nTalk through the hard problems out loud, in many more languages. https://t.co/k0CWAGjLdK\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376094939603366\", \"likes\": 8895, \"retweets\": 590, \"replies\": 567, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080376096873177300\", \"text\": \"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar. https://t.co/452G2ZZY1d\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376096873177300\", \"likes\": 793, \"retweets\": 35, \"replies\": 27, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080376094939603366\", \"text\": \"Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation.\\n\\nTalk through the hard problems out loud, in many more languages. https://t.co/k0CWAGjLdK\", \"createdAt\": \"2026-07-23T19:34:47.000Z\", \"url\": \"https://x.com/claudeai/status/2080376094939603366\", \"likes\": 8895, \"retweets\": 590, \"replies\": 567, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@claudeai",
+          "source_url": "https://x.com/claudeai/status/2080376094939603366",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Claude: Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.",
+        "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages."
+      ],
+      "source_context": "Follow Builders / @claudeai / X / @claudeai 的原始信息主要包括：Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.；Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages.",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "b90b7b63d78bc171",
+      "date": "2026-07-25",
+      "title": "Peter Steinberger: We see that as well and added code paths that use the claude cli directly - hard to fight the system. https:/...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2",
+      "company": "OpenAI",
+      "product": "X / @steipete",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @steipete",
+      "source_url": "https://x.com/steipete/status/2080318789980201224",
+      "published_at": "2026-07-23T23:47:04+08:00",
+      "fetched_at": "2026-07-25T12:08:45.395017+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2080318789980201224\", \"text\": \"We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2\", \"createdAt\": \"2026-07-23T15:47:04.000Z\", \"url\": \"https://x.com/steipete/status/2080318789980201224\", \"likes\": 233, \"retweets\": 8, \"replies\": 21, \"isQuote\": true, \"quotedTweetId\": \"2073488508816151038\"}]}, \"tweets\": [{\"id\": \"2080318789980201224\", \"text\": \"We see that as well and added code paths that use the claude cli directly - hard to fight the system. https://t.co/VM49zPSyk2\", \"createdAt\": \"2026-07-23T15:47:04.000Z\", \"url\": \"https://x.com/steipete/status/2080318789980201224\", \"likes\": 233, \"retweets\": 8, \"replies\": 21, \"isQuote\": true, \"quotedTweetId\": \"2073488508816151038\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Steinberger: We see that as well and added code paths that use the claude cli directly - hard to fight the system. https:/...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "We see that as well and added code paths that use the claude cli directly - hard to fight the system."
+      ],
+      "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：We see that as well and added code paths that use the claude cli directly - hard to fight the system.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "22b20f6c53f5d042",
+      "date": "2026-07-25",
+      "title": "Claude Blog: Claude Code now supports artifacts",
+      "title_zh": "Blogs / Essays 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself o...",
+      "company": "Blogs / Essays",
+      "product": "Claude Blog",
+      "category": "模型更新",
+      "tags": [
+        "Blog",
+        "Builder 观点",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / Claude Blog",
+      "source_url": "https://claude.com/blog/artifacts-in-claude-code",
+      "published_at": "Jun 18, 2026",
+      "fetched_at": "2026-07-25T12:08:45.401192+08:00",
+      "raw_text": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates. Built on the context from your session Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran. With artifacts, you don&#x27;t need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists. Live pages that update in place When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you&#x27;ve made. From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header. By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to \"walk us through what the agent found\" because they&#x27;re all looking at the same view, with the same context. Private to your organization Every artifact is private to its author by default. When you&#x27;re ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public. Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance API. Getting started Ask your session for an artifact — or just ask for something visual, h ere are some ideas by role: Legal / open source : A license audit of every dependency, flagging copyleft, straight from the repo. \"Build an artifact listing every third-party dependency and its license,...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：这个方向的核心价值不在单次对话，而在把模型能力接入真实任务链路。",
+      "why_it_matters": "这类更新关系到 AI 从回答工具走向可执行工作流的速度，值得观察实际可用性和生态绑定。",
+      "action_suggestion": "判断是否适合放入个人 Agent / 自动化工作流试用清单。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "blog",
+      "original_title": "Claude Blog: Claude Code now supports artifacts",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to re..."
+      ],
+      "source_context": "Follow Builders / Claude Blog 的原始信息主要包括：Follow Builders 收录了博客文章：Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to re...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "813c656b9c5a4c44",
+      "date": "2026-07-25",
+      "title": "Peter Yang: The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking...",
+      "title_zh": "OpenAI 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥 2. Before and after with ChatGPT Voice https://t.co/kzNE5odHSy",
+      "company": "OpenAI",
+      "product": "X / @petergyang",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2080508139091427741",
+      "published_at": "2026-07-24T12:19:28+08:00",
+      "fetched_at": "2026-07-25T12:08:45.392011+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2080508139091427741\", \"text\": \"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥\", \"createdAt\": \"2026-07-24T04:19:28.000Z\", \"url\": \"https://x.com/petergyang/status/2080508139091427741\", \"likes\": 53, \"retweets\": 5, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505964936241226\", \"text\": \"Before and after with ChatGPT Voice https://t.co/kzNE5odHSy\", \"createdAt\": \"2026-07-24T04:10:50.000Z\", \"url\": \"https://x.com/petergyang/status/2080505964936241226\", \"likes\": 97, \"retweets\": 13, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505108216111303\", \"text\": \"More feedback:\\n\\n1. It should let me know when the other threads finish working if I have a bunch of threads going\\n\\n2. The Chinese pronounciation sounds bad 😅\", \"createdAt\": \"2026-07-24T04:07:26.000Z\", \"url\": \"https://x.com/petergyang/status/2080505108216111303\", \"likes\": 16, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2080508139091427741\", \"text\": \"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥\", \"createdAt\": \"2026-07-24T04:19:28.000Z\", \"url\": \"https://x.com/petergyang/status/2080508139091427741\", \"likes\": 53, \"retweets\": 5, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080505964936241226\", \"text\": \"Before and after with ChatGPT Voice https://t.co/kzNE5odHSy\", \"createdAt\": \"2026-07-24T04:10:50.000Z\", \"url\": \"https://x.com/petergyang/status/2080505964936241226\", \"likes\": 97, \"retweets\": 13, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2080505964936241226",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥",
+        "Before and after with ChatGPT Voice"
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥；Before and after with ChatGPT Voice",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "c8268c92e8286d68",
+      "date": "2026-07-25",
+      "title": "Aaron Levie: The best way to think about AI is as a force multiplier for the fields you already know about (or for the rat...",
+      "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no ex...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "企业服务",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "企业服务"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2080471989060559336",
+      "published_at": "2026-07-24T09:55:50+08:00",
+      "fetched_at": "2026-07-25T12:08:45.393358+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2080471989060559336\", \"text\": \"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \\n\\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\\n\\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\\n\\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future.\", \"createdAt\": \"2026-07-24T01:55:50.000Z\", \"url\": \"https://x.com/levie/status/2080471989060559336\", \"likes\": 154, \"retweets\": 18, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2080305033271230690\"}]}, \"tweets\": [{\"id\": \"2080471989060559336\", \"text\": \"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \\n\\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\\n\\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\\n\\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future.\", \"createdAt\": \"2026-07-24T01:55:50.000Z\", \"url\": \"https://x.com/levie/status/2080471989060559336\", \"likes\": 154, \"retweets\": 18, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2080305033271230690\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: The best way to think about AI is as a force multiplier for the fields you already know about (or for the rat...",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. What will happen is that the experts will get..."
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. What will happen is that the experts will get...",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "c49e5b9189f3703b",
+      "date": "2026-07-25",
+      "title": "Guillermo Rauch: Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH 2. 🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W",
+      "company": "Builder Ecosystem",
+      "product": "X / @rauchg",
+      "category": "开发者工具",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @rauchg",
+      "source_url": "https://x.com/rauchg/status/2080454509508387251",
+      "published_at": "2026-07-24T08:46:22+08:00",
+      "fetched_at": "2026-07-25T12:08:45.393081+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2080454509508387251\", \"text\": \"Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH\", \"createdAt\": \"2026-07-24T00:46:22.000Z\", \"url\": \"https://x.com/rauchg/status/2080454509508387251\", \"likes\": 134, \"retweets\": 4, \"replies\": 17, \"isQuote\": true, \"quotedTweetId\": \"2080452764732403974\"}, {\"id\": \"2080344136625049690\", \"text\": \"🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W\", \"createdAt\": \"2026-07-23T17:27:47.000Z\", \"url\": \"https://x.com/rauchg/status/2080344136625049690\", \"likes\": 174, \"retweets\": 5, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2080343888662077799\"}]}, \"tweets\": [{\"id\": \"2080454509508387251\", \"text\": \"Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH\", \"createdAt\": \"2026-07-24T00:46:22.000Z\", \"url\": \"https://x.com/rauchg/status/2080454509508387251\", \"likes\": 134, \"retweets\": 4, \"replies\": 17, \"isQuote\": true, \"quotedTweetId\": \"2080452764732403974\"}, {\"id\": \"2080344136625049690\", \"text\": \"🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team. https://t.co/OWkksdt10W\", \"createdAt\": \"2026-07-23T17:27:47.000Z\", \"url\": \"https://x.com/rauchg/status/2080344136625049690\", \"likes\": 174, \"retweets\": 5, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2080343888662077799\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@rauchg",
+          "source_url": "https://x.com/rauchg/status/2080344136625049690",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Guillermo Rauch: Python code now starts 2x faster on Vercel. Automatically! https://t.co/Id8iH1hSwH",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Python code now starts 2x faster on Vercel. Automatically!",
+        "🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team."
+      ],
+      "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Python code now starts 2x faster on Vercel. Automatically!；🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "c01bb1d50a30b771",
+      "date": "2026-07-25",
+      "title": "Matt Turck: This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman...",
+      "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on... 2. My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:...",
+      "company": "Builder Ecosystem",
+      "product": "X / @mattturck",
+      "category": "产品功能",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "算力/基础设施"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @mattturck",
+      "source_url": "https://x.com/mattturck/status/2080333711640285549",
+      "published_at": "2026-07-24T00:46:22+08:00",
+      "fetched_at": "2026-07-25T12:08:45.394398+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2080451010439352711\", \"text\": \"VCs when a founder is raising for a profitable bootstrapped business instead of burning hundreds of millions on compute for a neo-lab https://t.co/YmF9a7BK5p\", \"createdAt\": \"2026-07-24T00:32:28.000Z\", \"url\": \"https://x.com/mattturck/status/2080451010439352711\", \"likes\": 26, \"retweets\": 3, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080333711640285549\", \"text\": \"This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on YouTube:\\n\\nhttps://t.co/iP21ZRHgpB\", \"createdAt\": \"2026-07-23T16:46:22.000Z\", \"url\": \"https://x.com/mattturck/status/2080333711640285549\", \"likes\": 5, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2080333707483725876\", \"text\": \"My conversation with @andrewdfeldman, CEO of @cerebras. We started from \\\"what is a wafer?\\\" and built up to why the entire chip industry is reorganizing around inference speed.\\n\\n00:00 Cold open & Intro\\n01:31 Why speed became the AI bottleneck\\n02:32 Tokens per second per user, explained\\n03:16 AI’s broadband moment and the Netflix analogy\\n04:35 The AI chip landscape: GPUs, TPUs, Trainium, ASICs\\n06:36 What is an ASIC? \\n08:08 Nvidia, Groq, and the fast inference war\\n09:16 OpenAI, Broadcom, and specialized silicon\\n12:10 China, power, and sovereign AI infrastructure\\n15:05 Is the AI infrastructure boom a bubble?\\n18:56 The hidden bottlenecks: HBM, CoWoS, and 3nm\\n22:57 Why agents are creating CPU demand\\n25:36 Andrew’s path from SeaMicro to Cerebras\\n26:13 Why Cerebras bet on AI in 2016\\n31:14 SRAM vs. HBM: why inference is a memory problem\\n33:19 What wafer-scale computing actually means\\n34:28 The deep-tech “Everest” problem\\n36:07 The moment the first Cerebras system worked\\n36:49 Ringing the bell and surviving deep tech\\n39:08 How a giant chip handles failure\\n41:22 Why GPUs struggle with decode\\n42:17 Prefill vs. decode explained\\n44:01 The “100 HD movies” problem in AI inference\\n45:04 How fast inference changes RL and training 48:08 Reasoning models and why they cost more compute\\n50:08 Verification, guardrails, and small models checking big models\\n52:37 Multimodal AI and the path to video\\n53:51 Cerebras’ business model: hardware, cloud, API\\n55:14 OpenAI’s 750MW inference deal\\n55:36 Why data centers are measured in megawatts\\n58:01 AWS Trainium + Cerebras decode\\n59:29 Fast tokens as a cloud product\\n01:00:52 Is CUDA still a moat?\\n01:03:53 How TSMC helped Cerebras build the giant chip\\n01:07:41 Why nobody cared in 2020\\n01:08:15 Why chip supply chains are hard to diversify\\n01:09:54 Why today’s AI models will be the worst you ever use\\n01:10:38 What fast AI could do to SaaS\", \"createdAt\": \"2026-07-...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@mattturck",
+          "source_url": "https://x.com/mattturck/status/2080333707483725876",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Matt Turck: This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on",
+        "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:"
+      ],
+      "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on；My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "bde483395a25e00d",
+      "date": "2026-07-25",
+      "title": "The MAD Podcast with Matt Turck: The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "title_zh": "Podcasts / Interviews 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman。转录摘要线索：Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For AI world, big chips are undoubtedly the best way to go. There's no mode in inference. Speaker 1 | 00:21 - 00:36 It takes you eight keystrokes to move from a GPU to us in the cloud. We solved a problem that nobody...",
+      "company": "Podcasts / Interviews",
+      "product": "The MAD Podcast with Matt Turck",
+      "category": "企业服务",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "企业服务",
+        "算力/基础设施"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "published_at": "2026-07-23T19:30:00+08:00",
+      "fetched_at": "2026-07-25T12:08:45.397880+08:00",
+      "raw_text": "Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For AI world, big chips are undoubtedly the best way to go. There's no mode in inference. Speaker 1 | 00:21 - 00:36 It takes you eight keystrokes to move from a GPU to us in the cloud. We solved a problem that nobody in the history of computing solved, and we delivered it in 2020, and nobody cared. Nobody cared. Nobody bought it in. Nobody cared. Speaker 1 | 00:36 - 00:40 Everybody said we were crazy. It would never work. So then we built the next one. Speaker 2 | 00:40 - 01:02 Hi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Andrew Feldman, cofounder and CEO of Cerubrus, the company that built the largest chip in the history of computing and just pulled off the biggest semiconductor IPO of all time. Andrew has been everywhere talking about the headlines, the $20,000,000,000 plus OpenAI deal, the IPO, but this conversation is a bit different. Speaker 2 | 01:02 - 01:28 We started from what is a wafer and built up step by step, Why GPUs struggle with fast inference, the three shortages nobody talks about, the decade in the desert when nobody wanted this chip, and why Andrew believes that CUDA is no longer a moat for NVIDIA. If you want to actually understand the current chip landscape and how AI inference works at the silicon level, this episode is for you. Please enjoy this fantastic conversation with Andrew Feldman. Speaker 3 | 01:31 - 01:41 I thought a a fun place to start would be to talk about speed. So has speed become the dominant conversation for AI today? Speaker 1 | 01:41 - 01:59 Yeah. What happened, I think, was for a long time, AI was sort of a novelty. It was like a parlor trick. It was cool, but not useful. And what happened somewhere around the middle of twenty twenty five was the AI got smart enough such that people began to use it. Speaker 1 | 02:00 - 02:15 And we remember, we we we make AI with training, but we use it with inference. And suddenly people wanted to use it. And the minute you wanna use it, the minute it's productive, right, speed matters. Right? Fast tokens are more productive. Speaker 1 | 02:15 - 02:32 And so the conversation moved from everything else to how do we make our inference faster? How do we deliver tokens more quickly? Because those are more productive tokens. We get more done in less time, and, therefore, it's more valuable. Speaker 3 | 02:32 - 02:39 Great. And what what does speed mean? Is that is that a a question of token speed? Is that completion of the task? What what's the right metric? Speaker 3 | 02:39 - 02:40 Sure. Speaker 1 | 02:40 - 03:06 The right metric is tokens per second per user. That that's how fast you get the first token all the way through the last token in in your in your response. And it's true for queries from from chat, but it's als...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "The MAD Podcast with Matt Turck: The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "This is the largest chip built in the history of the computer industry.",
+        "And for AI, bigger chips process information more quickly, and therefore, you get answers in less time.",
+        "For AI world, big chips are undoubtedly the best way to go.",
+        "It takes you eight keystrokes to move from a GPU to us in the cloud."
+      ],
+      "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：This is the largest chip built in the history of the computer industry.；And for AI, bigger chips process information more quickly, and therefore, you get answers in less time.",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 12,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 12,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-07-25T12:08:45.459149+08:00"
+  }
+}
