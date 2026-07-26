@@ -1,0 +1,780 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-26T12:24:03.539810+08:00",
+  "events_count": 16,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 21,
+    "totalTweets": 48,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-07-25T07:03:44.085Z"
+  },
+  "digest_generated_at": "2026-07-26T04:24:03.511Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-26T04:24:03.511Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+        "guid": "67540c92-8640-11f1-8f2a-e322343e668d",
+        "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA",
+        "publishedAt": "2026-07-23T10:00:00.000Z",
+        "transcript": "Speaker 1 | 00:05 - 00:34\nHi, listeners. Welcome back to No Priors. Today, I'm here with Andy Fang and Stanley Tang, cofounders at DoorDash. We talk about how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9,000,000 dashers and 3,000,000,000 deliveries a year. Welcome.\n\nSpeaker 1 | 00:34 - 00:52\nHandy, Stanley, thank you so much for being here. Really excited to talk to you about all the crazy stuff DoorDash is doing. I thought we could start with what's going on with agentic commerce at DoorDash. I feel like you have one of the largest rollouts of actually using AI to change what people consume. Yeah.\n\nSpeaker 1 | 00:52 - 00:54\nSo what was the backstory here?\n\nSpeaker 2 | 00:54 - 01:07\nI mean, it started a couple years ago, honestly, in terms of, like, our attempts to try to make a play here. It actually originally, we were bullish on voice as the modality.\n\nSpeaker 1 | 01:08 - 01:09\nAnd it ended up not being thing.\n\nSpeaker 2 | 01:09 - 01:51\nThat ended up not being the thing, but maybe it's will in the future, but it just that didn't really land. But the thing that was very interesting for us was just this natural conversational experience. And I think, know, what we've seen is just, like, people being able to, like, just, like, naturally just translate what's in their head into this interface versus trying to, like, do some research online and then or try to do some, like, keyword optimization stuff. Like, people just found it easier to search for things, either more nuanced kind of restaurant discovery searches or different tasks on the grocery side. And, yeah, we've just seen a lot of interesting traction that's upheld as we've expanded the rollout.\n\nSpeaker 1 | 01:51 - 01:56\nWhat are you seeing in terms of behavior change from the user side? Like, do I eat or buy differently?\n\nSpeaker 2 | 01:56 - 02:19\nYeah. So I would say on the restaurant side, we are seeing people 50% of trajectories of people using Ask DoorDash for restaurants. Restaurants. They're 50% of those trajectories are people ordering from places they've never ordered from before, which is huge because that's one of the hardest metrics historically for DoorDash for us to move, and so that's been big. And then another one is on the grocery side.\n\nSpeaker 2 | 02:19 - 02:35\nWe're seeing a lot higher basket sizes. Like, I would say, like, 40% larger basket sizes on grocery. And so people are like you know, they'll take a picture of what's in their fridge, and they'll say, hey. Help me stock up my fridge, Or they'll do meal planning with, like maybe they have some dietary constraints. Or they're like, hey.\n\nSpeaker 2 | 02:35 - 02:47\nI wanna, like, cook a pasta dinner this weekend with my family. Or even just like, hey. Help me reorder, like, my, you know, my usuals. And, like, that's a lot easier than tapping through the the traditional experience.\n\nSpeaker 1 | 02:47 - 02:58\nThat's wild. I've never thought of DoorDash as difficult to use, but, like, that suggests there's, like, actually latent demand that wasn't being served because you you it wasn't easy enough to, like, eat at new places.\n\nSpeaker 2 | 02:58 - 03:09\nCorrect. Yeah. And I think a lot of people on the restaurant side, it's like people build habits. Mhmm. But I think people also want some diversity in terms of, like, what they're eating.\n\nSpeaker 2 | 03:09 - 03:15\nYou know? And so we felt like this experience ended up being a natural way to allow people to express that.\n\nSpeaker 1 | 03:15 - 03:21\nOh, think about the social currency of, like, my friend Andy found a new, like, really good restaurant\n\nSpeaker 2 | 03:21 - 03:22\nfor me.\n\nSpeaker 1 | 03:22 - 03:25\nAndy's awesome. Right? So I feel like that's even a different way people look at DoorDash.\n\nSpeaker 2 | 03:25 - 03:31\nAnd, yeah, another thing that was an investment we made was actually, like, incorporating, like, world knowledge into the experience. So\n\nSpeaker 1 | 03:31 - 03:33\nso mean here? Things that\n\nSpeaker 2 | 03:33 - 03:49\nare going on with restaurants outside of DoorDash. So, like, you know, we'll see, hey. What's trending on the Internet or what's stuff that's not in the models, but stuff that people would find because, like, their knowledge cut off is too early. But maybe it's like, hey. What's trending online, or what are people talking about in various forums or whatever?\n\nSpeaker 2 | 03:49 - 03:58\nAnd kinda goes to your point of, like, hey. Like, kinda wanna eat what's cool. And so, like, that was something we tried to incorporate into the experience to make people trust it more.\n\nSpeaker 1 | 03:58 - 04:05\nHow do you think people will buy or think about restaurants differently in, like, five years from now?\n\nSpeaker 3 | 04:05 - 04:05\nI don't\n\nSpeaker 2 | 04:05 - 04:06\nknow about five years from now.\n\nSpeaker 1 | 04:06 - 04:09\nI realize it's just really hard in the age of AI. Like,\n\nSpeaker 2 | 04:09 - 04:09\nnext step\n\nSpeaker 1 | 04:09 - 04:10\nnext step.\n\nSpeaker 2 | 04:10 - 04:26\nSo for Ask DoorDash, I would say, to start with, maybe that's, like, the next couple months or so. I think it's making it easier for people to discover the experience and, like, figure out what do. Because I think it can be intimidating if you just see, like, hey. Like, there's, like, suggested queries that you can type, but, like, some people don't know what to start with. Mhmm.\n\nSpeaker 2 | 04:26 - 04:58\nSo figuring out how to experiment and take care with the user experience to kinda get people or encourage people to find use cases for it. I think if I think further out, then it's a little more speculative. But, you know, Stanley and I talk about this all the time. Like if someone were to create DoorDash today, like, I don't know, like, college kids in a garage trying to start DoorDash, I think it would look very Probably more agentic first. You know, one stat that I always like to think about nowadays is just like there's more agent traffic on the web than human traffic.\n\nSpeaker 2 | 04:58 - 05:08\nYou know? And so it's like, how do we have a DoorDash type experience that plays into that trend? And so, you know, I think there's some interesting speculations there, but hard to say.\n\nSpeaker 1 | 05:08 - 05:21\nWhat could my agent know about what I wanna eat or what I wanna buy from a grocery perspective? Like, help me understand, like, how you think about richer context or how to be smarter there.\n\nSpeaker 2 | 05:21 - 05:31\nSure. I mean, one cool example is someone's like, hey. For our office, it's like, I can just, like, have the like, one of the cameras on the pantry shelf. Mhmm. It's like, hey.\n\nSpeaker 2 | 05:31 - 05:38\nWhen the shelf starts to get empty, like, I can fire off, like, a query to DoorDash to, like, stock up my shelf.\n\nSpeaker 1 | 05:38 - 05:40\nYes. As a human being has care. Yes. Yeah. Yeah.\n\nSpeaker 2 | 05:40 - 05:56\nAnd so that was kinda like I mean, it's something we talk about more later, but, like, kind of our, like, early experimentation with our CLI is, like, that's kind of an example of, like, making a less friction for an agent to kind of, like, participate in that experience.\n\nSpeaker 1 | 05:56 - 05:59\nOkay. Well, while we're here talking about user needs\n\nSpeaker 2 | 05:59 - 05:59\nYeah.\n\nSpeaker 1 | 05:59 - 06:05\nI'm I've gotta be, like, a top percentile DoorDash consumer. I don't know. I'm you know? We're honored. Customers Lot at this point.\n\nSpeaker 1 | 06:06 - 06:14\nBut I host family dinner for, like, extended family every Sunday night. And, you know, we eat DoorDash because\n\nSpeaker 2 | 06:14 - 06:14\nI'm not gonna cook for\n\nSpeaker 1 | 06:14 - 06:25\nall these people every week. Or I can't all the time. And, like, I do the same thing every time, which is poll everyone, okay, who's coming?\n\nSpeaker 2 | 06:25 - 06:25\nOh, yeah.\n\nSpeaker 3 | 06:25 - 06:26\nYou know?\n\nSpeaker 1 | 06:26 - 06:31\nAnd then these people have these allergies and whatever else. And, like, does anybody feel like anything special?\n\nSpeaker 2 | 06:31 - 06:31\nYeah.\n\nSpeaker 1 | 06:31 - 06:36\nAnd then, you know, I order. Right. Right? And I'm like, I feel like I feel like that's all within the realm of possibility.\n\nSpeaker 2 | 06:36 - 06:37\nThat is definitely\n\nSpeaker 1 | 06:37 - 06:41\nwhat on autopilot for me. I show up. I hang out with my family. Everything's good.\n\nSpeaker 2 | 06:41 - 07:00\nThat is a use case that is I mean, I think us not exactly the same, but, like, a similar use case is, like, the office lunch ordering kinda thing. It's like, if you're the office manager, it's like, I don't wanna, like and then you gotta, like, hey. Make sure you ordered lunch at this time. Otherwise, it's not gonna show up. And it's like, again, everyone has their own, like, allergies or dietary preferences and stuff.\n\nSpeaker 1 | 07:00 - 07:25\nSo Stanley, you guys are doing whole bunch of things on the autonomy and robotics side as well. Like, you your clearly, your view of DoorDash as founders is broader and more ambitious than, I don't know, maybe just, like, the surface level view of it's a food delivery network or what whatever the first, you know, one liner for the company was. How long ago did the robotics efforts start?\n\nSpeaker 3 | 07:26 - 08:14\nYeah. We've actually been looking to robotics autonomy probably much longer than people thought, like, since 2018, actually, back when it wasn't obvious autonomy and robotics was gonna be a thing, but we felt like this was gonna be a technology that was gonna be transform formative to our space and potentially disruptive. And I think I that's nice about being a founder led company is, like, we are we get to think about kind of much more future speculative things that are on the horizon and and and constantly think about, like, how do we make sure we don't get disrupted by the next I think, like like Andy said, like, the next DoorDash that comes along is not gonna be someone that builds the exact same version of DoorDash or maybe with a better UI. Gonna be That\n\nSpeaker 2 | 08:14 - 08:15\nwould be dumb. Yeah. It's gonna be,\n\nSpeaker 3 | 08:15 - 08:36\nlike, something like, okay. Do we incorporate AI, agent to commerce, how to incorporate autonomy, robotics, drone deliveries, etcetera. And and I think I mean, fast forward, like, seven, eight years later, I think we're seeing everything starting to play out in AI in robotics, in autonomy, seeing waymo's happening. And I think, you know, we're we're glad that we we made that investment early on 2018.\n\nSpeaker 1 | 08:36 - 08:53\nThere's just amazing business. In 2018, it was, like, less amazing than it is today. I feel like that's a fair statement. Right? How do you think about, like, the timing and sequencing of these very long term bets and, like, just from a capital allocation perspective, like, when you can invest in these things?\n\nSpeaker 3 | 08:53 - 09:11\nYeah. I think it's it's probably the same with how we invest in a lot of things at DoorDash is everything start out as experiments. I mean, in a way, that's the that was the founding story behind DoorDash. DoorDash was a Stanford college dorm room experiment. It started out as a website called politoidelivery.com with eight PDF menus and a Google Voice phone number.\n\nSpeaker 3 | 09:11 - 09:29\nAnd it was only once we figured out, okay. There's something here. Let's turn this into company. And and and that's basically, we've kinda taken that philosophy throughout the past thirteen years, and and we've kinda applied it to autonomy as well, AI as well. I mean, when we first started in 2018, the intention wasn't, hey.\n\nSpeaker 3 | 09:29 - 09:42\nLet's go spin up this giant robotics program. Let's hire roboticists. Go build hardware. It was really we put together it was me and half an engineer's time. It was a skunkworks project.\n\nSpeaker 3 | 09:42 - 09:53\nIt was an experimentation to go, let's go explore, like, what's out there. Like, we don't even know what autonomy looks like, how robotics is gonna impact our space, but let's go explore. Let's go form partnerships. Let's go learn. Let's go experiment.\n\nSpeaker 3 | 09:54 - 10:09\nAnd and and and and I think in the beginning, the intention wasn't to build our own robot. Actually, we we didn't think we needed to build any of this technology ourselves. We thought, okay. We can just partner up with a bunch of folks. Like, you know, back then, we weren't you know, we didn't know anything about robotics.\n\nSpeaker 3 | 10:09 - 10:20\nThere's all these startups out there that have built robots and autonomy. Like, why don't we just work with them? We can essentially just be the platform. We'll build the APIs. We'll handle all the distribution, etcetera.\n\nSpeaker 3 | 10:21 - 10:44\nAnd we did that for about, actually, several years, actually. We worked with everyone in in in the space, everyone from the sidewalk robot players all the way up to the the robotaxi players. I'll say there's three things we learned through that experience. I think one is it kind of validated or confirmed our belief that there's something here. Autonomy, it's a question of when it was gonna happen, not if.\n\nSpeaker 3 | 10:44 - 11:02\nAnd, again, fast forward today, you're seeing you see the way most driving it. Right? It's happening. So we should keep investing. The second is I think it allowed us to learn what it takes to actually enable autonomy because it turns out there's a lot of things you have to build around autonomy, the infrastructure, the ecosystem.\n\nSpeaker 3 | 11:02 - 11:16\nHow does autonomy integrate with DoorDash? What deliveries do you take on? Like, the operational aspect. Turned out a lot of things you have to build around autonomy in order to make autonomy possible. It's not just you plop a robot in or, like, or even AI.\n\nSpeaker 3 | 11:16 - 11:44\nJust plop a LM in, and then things just magically happen. There's a lot of things around it, and and and you kinda have to build a platform, an ecosystem. So one of the things that we end up building is this thing called the autonomous delivery platform. Essentially, it's like, what are all the products and technology, the APIs, the dispatch you need to build now that in a in a post autonomy world where autonomy and robotics and drones are are every what what are all the things you have to build? How do you integrate with merchants?\n\nSpeaker 3 | 11:44 - 12:08\nWhat does the consumer experience look like? And I think the last thing, which I think is probably the most important thing we learned, which eventually led us to realize we have to build this technology ourselves, is really this idea of building towards a use case. Mhmm. Yes. There's a lot of autonomy startups out there, but we it always felt like these these companies weren't really focused on a use case.\n\nSpeaker 3 | 12:08 - 12:11\nIt it always felt like they kind of build the technology first\n\nSpeaker 1 | 12:11 - 12:11\nMhmm.\n\nSpeaker 3 | 12:11 - 12:42\nAnd then retroactively try to go find a problem to fit into. Right? Like, these these things are all built in a vacuum, which is kinda weird because because it's it's like because in in in software world, like, when we went through YC, like, we're always taught to, oh, you ought to start with the customer, build something people want. That's kinda, like, drilled into you, and then you can iterate. But then when it comes to, like, hardware and hard tech and AI and and robotics, it's see, people just kinda do the opposite where they try to build a tech first and and and not really think about the use case they're building towards.\n\nSpeaker 3 | 12:42 - 13:30\nAnd whenever that happens, you just end up with something that just wasn't quite the right fit. Like like, there's they would and and we went through this this this process where a lot of these companies out there I always felt like it wasn't exactly what DoorDash needed. Like like, for example, you you a simple example is that you have these in in Tiny World, there's basically two buckets of category of companies out there. You have these sidewalk robot companies, which are kind of these two, three mile per hour kind of water cooler on wheels, super effective, simple technology, but we quickly realized the speed was, like, and distance was a huge limitation because the the average delivery at DoorDash is about three to five miles. And and and the typical delivery time's about fifteen minutes if you exclude the time it takes to make the food.\n\nSpeaker 3 | 13:30 - 13:45\nSo if you put a two mile per hour sidewalk robot, it's just never gonna work. And on the on the end of the spectrum, you have kind of the robotaxi players, which really are designed for carrying people around. It's a 4,000 pound vehicle. This goes super fast. You're transporting people.\n\nSpeaker 3 | 13:45 - 14:16\nAnd and but turns out the problem around carrying people and carrying goods is actually a little bit different. How you, like, you don't need if you only have if you're only carrying a couple burritos around, do you really need a 4,004 pound car with chairs and AC? The pickup drop off problem is also very different. In robotaxis, you know, you can walk to a Waymo. I mean, how how often have you taken a Waymo where it drops you off half a block or a block away from where you need to be, which is totally fine because you you can you can walk, but packages can't do that.\n\nSpeaker 3 | 14:16 - 14:32\nLike, you know, how do you how do you solve that, what I call the first and last 100 feet problem? How does the the food get picked up at the merchant? What does that integration look like? And then on the customer, like, how do you drop off the food? How do you find the driveway?\n\nSpeaker 3 | 14:32 - 15:05\nYou know, like, people expect their food to be dropped off and or or or the the vehicles be pulled up straight to the front of their driveway or their or their porch. So so so we when we kinda looked around and and asked ourselves, okay. Like, you were to start first principle and, again, this has always been our philosophy at DoorDash. Like like, if you were to start from the business the customer use case, work your way backwards, our first principles, and you can build exactly what we need to solve our use case, what would that look like? And we looked around.\n\nSpeaker 3 | 15:05 - 15:29\nTurns out no one's really building that. It's not a sidewalk robot. It's not a robotaxi. We felt like the it was probably something in between. The the right metaphor for us again, it's like if you're trying to solve that three to five mile delivery in dense suburbs, which is where most of the deliveries happen, the right metaphor is probably a autonomous motorcycle or a scooter or a bike profile vehicle.\n\nSpeaker 3 | 15:30 - 15:54\nAnd, you know, it doesn't even be 4,000 pound. It's probably, you know, 300 pounds, but it also has to a lot faster than sidewalk. It has to go twenty, twenty five miles per hour. And when we looked around and saw no one's building that, we decided, well, if if no one's gonna do that, instead of waiting around and let's you know, and wait and wait for this to happen, we're gonna control our own destiny here. Let's invest in this and see what we can build.\n\nSpeaker 3 | 15:54 - 16:27\nAnd and it took many iterations. You know, like, we start look looking at, like, when testing this with real DoorDash deliveries, looking at our 10,000,000,000 delivery we've done, extracting the insights we have, the operational learnings we have, and that's eventually what led us to launch and ship, which is kind of our in house autonomous delivery robot. So it's been a it's been quite a journey. And but, again, this is something we look to bring to every aspect of the business, whether it's autonomy, robotics, AI. Like, it's it's always starts start out as experiments.\n\nSpeaker 3 | 16:28 - 16:39\nIt always starts out as what is the customer problem you're solving for, what's the use case you're solving for, work your way backwards, and then iterate and and validate kind of your hypothesis and slowly build the product over time.\n\nSpeaker 1 | 16:39 - 17:04\nThat sounds extremely rational. I have a hypothesis, and it's very cool. I wanna ask you where we are in the life cycle of everybody getting these automated deliveries. Have I a hypothesis, and I'm curious if it resonates with either of you about, like, why a lot of people in this area are building technology first versus customer back. I think people think everything is gonna work like ChatGeeBT.\n\nSpeaker 3 | 17:04 - 17:04\nMhmm. Yeah.\n\nSpeaker 1 | 17:04 - 17:39\nI just and, like, by the way, like, there was, of course, work done on instruction fine tuning to get it to, like, be shaped in a product that was still a user experience. But I I think the the Mentum model that people have, like, it's a general technology, and it's just kinda, like, free to turn into different applications is what they're applying to lots of different things now. And especially in autonomy, my sense is people are like, okay. We'll make the model, and then, like, the other stuff will be, if not easy, at least secondary. This is not my view at all.\n\nSpeaker 1 | 17:39 - 17:39\nI\n\nSpeaker 2 | 17:39 - 17:45\nyeah. I agree with you there. I mean, that's basically your methodology into building the dot\n\nSpeaker 3 | 17:45 - 18:07\nform factor. I think maybe that approach works in, like, software land, but, like, for at least for a business like ours, like, DoorDash is a physical world business. It's like we're we're, you know, you bring technology into physical world, and the physical world is always a lot messier. It's a lot more complicated, a lot more nuanced. I I think one of the things I think people don't realize is just how complicated DoorDash is.\n\nSpeaker 3 | 18:07 - 19:05\nI mean, we do, like, over 3,000,000,000 deliveries a year. There are no two deliveries that look the same. All 3,000,000,000 deliveries look look different, and they all come in all sorts of shapes and sizes and different geographies. Like, a delivery in Downtown San Francisco is completely different than a delivery done in Dallas or even in Europe or in Helsinki where it's snowing or you're doing a pizza is very different than ice cream, like your dinner is very different than your grocery order, which is very different now that we're expanding to retail and pharmacy and parcels as well, it's like the diversity of deliveries that happen at DoorDash is so complex that I I think people sometimes don't realize just how nuanced the problem the problem the problem is. And then that's kind of how what we have to solve for DoorDash.\n\nSpeaker 3 | 19:05 - 19:29\nAnd and I think that's part of the been been the learning process, especially when it comes to, like, building autonomy or even AI is how do you manage through all that complexity. And, again, it always comes down to, like like like, do you understand the use case? And I think we just have such a huge advantage over everyone else because we have something that everyone else doesn't have. It's it's called DoorDash. We have 10,000,000,000 deliveries of data to extract from.\n\nSpeaker 3 | 19:29 - 20:05\nWe have all these consumers, you know, over 40,000,000 consumers ordering every single month. Like, we understand the complexities of how to handle when things go wrong, how to integrate all across all different types of merchants. I think the way you work with a McDonald's or a Starbucks is very different than working with a mom and pop sandwich shop. Like, a a drive thru restaurant is, again, is very different than a restaurant at a strip mall or a downtown main street, and how do you handle kind of those different use cases, right, different interaction, different pickup points. I don't know if there's anything you wanna add on the AI side.\n\nSpeaker 2 | 20:05 - 20:08\nI mean, for me, like, the kind of that analogy you\n\nSpeaker 3 | 20:08 - 20:08\nbrought up, I think\n\nSpeaker 2 | 20:08 - 20:28\nI think about it in terms of the economy thing, but I also think about it in terms of, like, the like, how the humanoid robotic space is starting to play out potentially where I mean, we we also launched a product called Tasks a couple months ago where we're we're having people in the Dash fleet help basically collect data points to help train some\n\nSpeaker 3 | 20:28 - 20:29\nof these world models.\n\nSpeaker 2 | 20:29 - 21:01\nAnd I think we're so early there, and I think there are so many different form factors that you can use, and there's, like, different opinions on, like, what type of model is gonna work versus not. But I think unlike something like ChatGPT, I think there's a lot of expense needed to invest in just like the v one of this. Nah. I guess ChatGPT cost a lot of money too, but I think there's a lot of pressure, though, to figure out how do I actually provide value. Like, I have to be better than what people can do today.\n\nSpeaker 2 | 21:02 - 21:17\nAnd, you know, whether it's dot and, like, delivering something end to end or I mean, you probably invest in, like, a bunch of different players in this space, but, like, there's real pressure to, like, be better than the alternative from either a quality and or a cost perspective.\n\nSpeaker 1 | 21:17 - 21:19\nSo yeah. So, otherwise, what are we doing?\n\nSpeaker 2 | 21:19 - 21:20\nYeah. Exactly.\n\nSpeaker 1 | 21:21 - 21:27\nSo for those of us who aren't in Phoenix, like, what is doordashdot, and, like, tell us about the design of it.\n\nSpeaker 3 | 21:27 - 21:40\nYeah. So doordashdot, it's a autonomous delivery robot. It's built entirely in house at DoorDash. It's weighs 300 pounds, travels up to 20 miles per hour. It's one tenth the size of a car.\n\nSpeaker 3 | 21:40 - 22:02\nIt's the only delivery robot out there that's designed to travel not just on sidewalks, but also go on bike lanes on and and on the road as well. It's it's live in Phoenix. We've been live doing deliveries for almost two years now. It's you know, we we do. It's fully autonomous l four.\n\nSpeaker 3 | 22:02 - 22:08\nSo if you come up to Phoenix, to Tempe, it really feels like Waymo San Francisco.\n\nSpeaker 1 | 22:08 - 22:23\nI'm gonna state something and see if this is, like, a correct or you agree. Even beyond understanding the wealth of use cases, like, you need to know what the distribution of environments you're gonna be playing in is in robotics.\n\nSpeaker 3 | 22:23 - 22:23\nYes.\n\nSpeaker 1 | 22:23 - 22:35\nThis is a huge problem for everybody where, like, it's not I think most people familiar with the area understand that it's not that hard to get a cherry pick demo of, like, one cool success on a task.\n\nSpeaker 2 | 22:35 - 22:36\nRight.\n\nSpeaker 1 | 22:36 - 23:01\nThe problem is getting it to work on any object or in any environment. Yeah. And so there's this, like, you know, huge question in the industry of, like, okay, how are we gonna go get data that feels like realistic data? And, like, the best realistic data is the real world data, actually. And so I think that's, like, a really interesting premise of, like, why you might have the right to go do this besides you want to do it for the quality of your business.\n\nSpeaker 3 | 23:01 - 23:28\nYeah. No. Exactly. And I think that's, again, that's also where DoorDash gets to shine with our advantage is we don't necessarily have to solve for 100% of our use cases. I mean, that's that's also part of our again, that was part of the learning with our kind of the kind of the first early years when when we did the partnerships for how we built our autonomous delivery platform was understanding what kind of deliveries fits into what modality.\n\nSpeaker 3 | 23:28 - 23:52\nMhmm. And and I think the vision was always was always, let's not design something to solve for everything, but instead kind of let's let's go over that with a how do you come up with a multimodal strategy where perhaps, you know, you have doordash. Do kind of the the three to five mile suburban deliveries from a strip mall. So so right now, we're live in in Phoenix. That's kind of our starting point with DOT.\n\nSpeaker 3 | 23:53 - 24:19\nThat's kind of the perfect market for DOT. Right? These dense suburbs, yet things are still far far apart enough. Maybe if it's if it's a rural area where there's poor road infrastructure, maybe you send a and it's a lightweight order, maybe you send a drone delivery for that. If it's a complicated multistep grocery order where have to climb go up and down stairs and pick and pack orders, like, you're still gonna have a have a dasher for that.\n\nSpeaker 3 | 24:19 - 24:47\nAnd I think that's nice thing about DoorDash is you can kind of you don't have it's not an all or nothing approach. You can kind of phase in these modalities over time and pick and choose what the right again, so what the use case what are the right use cases to to solve for? What are the right modalities to to to fit into for for each of the each of the use cases? Like, are there certain deliveries you can carve out that makes a lot of sense for robotics versus versus humans?\n\nSpeaker 1 | 24:47 - 24:55\nYeah. I also think that's really cool that you have control over the routing and the distribution where you're like, I can I can accomplish this task? Exactly.\n\nSpeaker 3 | 24:55 - 25:11\nAnd then and then from the consumer side and the merchant side, it's like the exact same experience. It's still it's the same app for the customer that you can access everything. And then for the merchant, it's just one integration. You already integrated DoorDash. All of sudden, you you get not just Dashers, but you get drones.\n\nSpeaker 3 | 25:11 - 25:47\nYou get autonomy. You know, he had access to all the, you know, AI tools and products everyone has shipped. And I think, again, it's it's like I think that's that is, like, that is, like, what ultimately, like, DoorDash is is building is, like it's it's really, like, that ecosystem for local commerce, and I think that is, yeah, that is, like, something that is really hard to replicate. And I think and I think it's, you know, trying to trying to do that in the real world across, you know, you know, like, forty, fifty plus countries and all these different jars, all these different merchants. That's that's the hard part about about the business.\n\nSpeaker 1 | 25:47 - 26:09\nAsking for a friend. Question of how you got here. Mhmm. There is an insufficient supply of researchers and people who, you know, know how to work on robotics or applied AI in the ecosystem for the recognition of all the different cool use cases you go after. And a lot of people gravitate toward, like, the general case.\n\nSpeaker 2 | 26:09 - 26:10\nMhmm.\n\nSpeaker 1 | 26:10 - 26:18\nLike, we can solve it once. I assume you're competing for some of those people. How do you convince people to work at DoorDash on these problems?\n\nSpeaker 3 | 26:18 - 26:53\nYeah. My pitch is really simple. It's it's it's basically, like, do you wanna go work on prototypes and demos and and do and be at a PhD lab, or do you wanna work on something where you can actually ship something in the real world? And I think that's kind of, you know, I I think I think I think that's kind of really been the culture we kinda set up, you know, both at DoorDash Labs and all the AI efforts is is, like, this is we're not just here to do pure research. Like, at the end the day, like, you we get to ship something where you have real impact.\n\nSpeaker 3 | 26:53 - 27:36\nAnd I think people, at least especially in the autonomy world for the past ten years, were just fed up just working on something for ten years and, you know, never actually getting to a point where they actually saw their products being used in the real world. And and I think be like, for us, like, it's like, because we like, we've always been much more focused on creating kinda taking this much more pragmatic, practical approach. Like, we're not here necessarily to do, like, the it's it's not about, oh, let's go work on, like, a crazy moonshot idea. It's like, let's get something out that can be shipped in the real world and actually start learning how these technologies interact with the physical world and start iterating. Because, again, like, technology these these things aren't built in in a vacuum.\n\nSpeaker 3 | 27:36 - 28:01\nYou have to put something out in the real world, make contact with the real world, and and actually learn learn from that. I think that's we've we've we did that pretty early on for for DoorDash. I Actually, I I don't again, I don't I don't think a lot of people know. We've actually been doing autonomous deliveries in Phoenix for over two years now. I mean, we publicly announced last year or that we've been doing it for over two years, but, really, at the beginning, was just learning.\n\nSpeaker 3 | 28:01 - 28:26\nLike, okay. Like, again, like, think you mentioned earlier, it's one thing to just do a fancy demo or have something that works in a one off environment. It's entirely different to now, okay, how do you turn this into a an actual scaled fleet, a scaled service, a scaled business? I mean, the thing I always mention talk about a lot is, you know, building autonomy. Business takes more than just autonomy.\n\nSpeaker 3 | 28:26 - 28:43\nIt's like, how do you actually scale something in the real real world, scale fleets? All of sudden, you're running out into all these edge cases. Right? Like, you just don't see it until when when you have to do something seven seven days a week or ten hours a day, seven days a week at scale, things start breaking. Right?\n\nSpeaker 3 | 28:43 - 29:07\nLike, it could be something as simple as, I don't know, like like like a dirt covering one of your camera sensors. Okay. Like, how does how robust is your autonomy stock able to able to handle that? Like, there's some there's some leaves on the ground, but it only covers kinda because, again, our dot drives on the road, but it would it tries to act like a bike. So it'll take the kind of the right side of the road or the the bike lane.\n\nSpeaker 3 | 29:07 - 29:36\nAnd Mhmm. If there's kinda leaves located along the kinda where the right at where the sidewalks are, maybe half your wheels, the right two wheels are on the leaves. The left two wheels are still on the asphalt. Yeah. Well, all of a sudden, the the torque you have to send to the wheels is, like, very different than your autonomy stack and your and your kind of your of your middleware and your and your kind of your your kind of low level controls has to handle that differently.\n\nSpeaker 3 | 29:36 - 29:49\nLike like, that's something I would have never thought of if it was just, like, driving in a nice little demo environment. It's like like things just start breaking. Like, how do you handle operations? Like, people don't think about actually, you know, how to scale autonomy. There's a lot of nonautonomy or, like, operations.\n\nSpeaker 3 | 29:49 - 30:08\nLike, you have to set up depots. Again, it's a physical world business. You have to set up depots, maintenance. Like, what if your battery like, how do you recharge your battery? Like, what if one of your braking system kind of, like, over you you have to kinda like, here here was an issue we ran into.\n\nSpeaker 3 | 30:08 - 30:36\nIt's like it's like there are certain situations where the the vehicle has to brake so hard that it kind of the regen braking system overpowers kind of the the battery because it causes this electric shock. Right? Again, like, it only happens, like, extreme edge cases, but but there's certain situations where you have to do that because it's, again, it's something in the real world. Like, like, safe like, this thing like, safety is, like, some like, is something that's super important. So if it can't handle that, like, you gotta you gotta you gotta figure that out.\n\nSpeaker 3 | 30:36 - 31:03\nAnother example we we didn't think about is is is booting up the robots. Like, when we're doing when when this was still a demo project, we like, no one thought about, oh, boot up time. Alright. So so it's literally the the the original version of of of the robot boot up was a kind of this simple Jenkins script that one of our engineers hacked together in, like, in, in, like, couple hours. And then which worked which worked fine, but then now you're doing, like, hundreds of robots a day.\n\nSpeaker 3 | 31:04 - 31:25\nEvery morning needs to get booted up, and the script, you know, like, crashes half the time. It takes, like, thirty, forty five minutes, but to multiply across 500 robots, all of a sudden, it's like, holy crap. It's like it's like there's this huge productivity. It becomes this huge productivity issue. And and then and then, of course, it's like how do you think through, like, reliability.\n\nSpeaker 3 | 31:26 - 32:01\nYou know, now you have to start thinking about manufacturing and supply chain, and, of course, the kind of the operational aspect of actually how does how does this thing integrate with merchants. How do you how do you do the pickup drop off problem, how do you educate the merchant, like, how do you even find the pin the the location of a customer's home, which, again, sounds kind of silly, but when you punch in someone's address on Google Maps, like the GPS pin, it's like especially if you're going to apartment complex, it's never kind of I mean I I mean, it's it's not, like, always the exact same spot. Absolutely. But if you're human, it's like you kinda figure it out. Right?\n\nSpeaker 3 | 32:01 - 32:06\nLike, you kinda don't think about it. It's like, oh, yeah. A human dasher shows up. They they can kinda find where the restaurant is. Building.\n\nSpeaker 3 | 32:06 - 32:12\nYeah. The building. It's at the front door. You can't do that with a robot. The robot's gonna show up to a pin and all of a sudden it's like, well, okay.\n\nSpeaker 3 | 32:12 - 32:18\nWhich where where where is which which front which storefront is it? Which front door is it? Which gate is it?\n\nSpeaker 1 | 32:18 - 32:19\nNow I'm just imagining dot looking around.\n\nSpeaker 3 | 32:19 - 32:25\nExactly. Right? And, again, like, that's something you have to figure out. But the nice thing is, again, DoorDash has that data. Like, we Yeah.\n\nSpeaker 3 | 32:25 - 32:26\nAll the drop offs,\n\nSpeaker 2 | 32:26 - 32:29\nlike, we we can see where people are actually dropping off the package.\n\nSpeaker 3 | 32:29 - 32:40\nYeah. Where did the human dasher drop it off historically, and that is, you know, like, again, it's that first and last 100 feet problem. Like, you don't that that data doesn't exist anywhere else. It doesn't exist in Google Maps. Yeah.\n\nSpeaker 3 | 32:40 - 32:42\nIt only exists at on at DoorDash.\n\nSpeaker 1 | 32:42 - 33:06\nYeah. I think that is a a really interesting and genuine advantage. Early on, when people are, like, talking about what's gonna happen with AI and incumbents and startups, there were a lot of people, I think, had a very surface level view of, like, what the incumbent data advantage was. Yes. Because they didn't, like, really think about, like, well, what are we trying to do?\n\nSpeaker 1 | 33:05 - 33:18\nRight? What is the use case? What is the intelligence supposed to accomplish? And so they'd be like, ah, like, we have the, I don't know, customer records and database. And I was like, that actually has, like, very little to do with the thing we're trying to we could try to accomplish with an agent.\n\nSpeaker 3 | 33:18 - 33:19\nRight?\n\nSpeaker 1 | 33:19 - 33:45\nAnd I think this is totally, like, real in in robotics where I'm an investor in a company called Sundae. Right? And one thing that we, like, deeply believe in this company is you you can't imagine the distribution. Right? As soon as you, like, make contact with the physical world, as you said, or the, like, the real world, you're like, man, if we're trying to do the dishes, why is a cat in the dishwasher?\n\nSpeaker 1 | 33:46 - 34:03\nAnd, like, you know, you're in somebody's real house, they're like, the cat likes the dishwasher. Yeah. I'm like, that's not you know, that's not something you're gonna go imagine. Just feel like you're not gonna imagine, like, oh, I'm gonna deal with this torque problem where, like, one wheel is on the leaves and not. And then you, like, think, like, okay, but, like, how important is that in the distribution?\n\nSpeaker 1 | 34:03 - 34:19\nThen you find another cat in another dishwasher when you have enough data, and you're like like, I don't know how many of these are out there, but, like, the only way to find out is not by an engineer sitting and being like, let me imagine this the the setup and the scenario for this robot. Yeah. Like, that's clearly not gonna be the reality.\n\nSpeaker 2 | 34:19 - 34:49\nI just feel like for the next frontier of AI, it's you know, at least what we're really excited about is, like, what how it's gonna affect the physical world. You know? And I think to your point, it's like, you can only simulate so much. You can only, like, you know, you know, pretend and imagine various demo situations. So I think one thing that we're very I think another thing that makes us very confident is, like, pairing that world class operational expertise that we have with world class technology.\n\nSpeaker 2 | 34:49 - 35:20\nMhmm. And I think, you know, a lot of AI researchers are very hesitant to do a lot of the operational stuff, or they think it's, like, easy to handle. But I think one thing that's really powerful about what we have here at DoorDash is we have a world class operations team that you can partner with, whether it's to collect or annotate data, whether it's to figure out how to deploy robots and figure out how to, like, get the fleet operations to work. And I think for a lot of people we talk to, that's very compelling because, like, hey. Actually, there's a we're not just talking hypothetical here.\n\nSpeaker 2 | 35:20 - 35:20\nYou know?\n\nSpeaker 1 | 35:21 - 35:25\nYou're making the deliveries in Phoenix. What are the challenges from here for scale up?\n\nSpeaker 3 | 35:25 - 35:49\nI mean, we've been doing deliveries in Phoenix for over two years now. I mean, we went fully autonomous l four last year. I mean, it's it's like we I think that was a super exciting milestone. And and, really, it's just a matter of, like, how do you take this from again, it's like originally, it was just a couple robots, 10 robots to a 100. Again, it's just like we ought to make that hill climb of, like, how do you how do you scale this?\n\nSpeaker 3 | 35:49 - 35:59\nWhether and then I think it's really just three three components. It's can we get the autonomy to scale? Five years ago, the question was, like, was autonomy even possible? Like, was this was this just a research project? Is this a science fiction?\n\nSpeaker 3 | 36:00 - 36:17\nYou see kinda now with especially, AI, like, Waymo's kinda made that breakthrough. I think Tesla's starting to make that breakthrough. We made that breakthrough last year. Like, our entire autonomy stack is built in house, but purpose built for for delivery, which is, again, it's still it's a little bit different. You can't it's not just copy.\n\nSpeaker 3 | 36:17 - 36:57\nI think this is the other thing people miss is you don't you can't just copy and paste what Waymo's done and then pop it into the DoorDash dot, and everything works. It's it's again, it's the use case is a little bit different. This is a bike lane profile vehicle, but it's that's constantly navigating between the road and the sidewalks. As far as I know, this is like there's nothing else like this in the world besides that Lehman behaves like doordashdot, but we've kinda built it because we kind of built it uniquely to our use case. So the autonomy is is definitely one piece, like, do you keep scaling across not just Phoenix, we wanna upgrade to Bay Area, more cities.\n\nSpeaker 3 | 36:58 - 37:16\nYou know? Yeah. That's I'm sure we're gonna run into more more and more edge cases. But the funny thing is, like, autonomy is probably increasingly becoming less and less of a constraint of a a blocker. It's really, like, now how do you it's it's really more the the next two, which is the second is, like, operational.\n\nSpeaker 3 | 37:17 - 37:31\nLike, how do you scale operations? Restaurants behave in in Phoenix look different than restaurants in in San Francisco versus, like, you know, London versus Helsinki. How do you adapt to all these different integrations? How do you\n\nSpeaker 1 | 37:31 - 37:34\nSo it's the interface layer and then, like, the fleet management of it? Yeah.\n\nSpeaker 3 | 37:34 - 37:52\nInterface and fleet management. And then the last piece is is is hardware. Like, how do and it's kinda funny. It's like when we first started, like, five years ago, like, everyone thought hardware was a commodity, and now it's starting to look like hardware is starting to become a bottleneck. It's like we hand built the first 100 robots ourselves and which is not an issue.\n\nSpeaker 3 | 37:52 - 38:10\nBut then, okay, the the next thousand or 10,000, well, we're gonna have to now start to think of figure out things like supply chain, kinda like like component reliability. Like, it's it's like it's like it's like these things have to last for a really long time. It's like how you think about yeah. It's it's it's like it's it's it's\n\nSpeaker 1 | 38:10 - 38:14\nAnd you're not guessing because you can actually tell how long it needs to last and how it's\n\nSpeaker 3 | 38:14 - 38:41\ndoing in the field. Right? Like manufacturing, hair, like, it's like it's like learning learning all that, and that turned out to be a a pretty hard problem as a cow. And and so so one of the things we we actually did was is is we actually partnered up with this company called Also, which is this micromobility company that spun out of Rivian. So RJ is actually the board of founder and and and chair chairman of the company.\n\nSpeaker 3 | 38:41 - 39:01\nSo if, you know, like, why don't we work with someone who's who knows how to actually scale vehicles? And and so so that's kinda one of the partnerships we we we struck up. But it's kinda funny. It's like the the problem five years ago was autonomy. Now it's increasingly becoming more about operations, commercialization, hardware, manufacturing.\n\nSpeaker 3 | 39:02 - 39:14\nAnd, again, it's like this is I feel like this is where DoorDash, you know, gets to shine with our scale advantage and operation advantages. How do we take this thing from not just the other one, but, like, 100, one a thousand?\n\nSpeaker 1 | 39:14 - 39:15\nOne to 3,000,000,000. Yeah.\n\nSpeaker 3 | 39:15 - 39:29\nOne to 3,000,000,000. Right? And I feel like DoorDash is just so well positioned to to to take on this. I it's it's like we have just such a unique advantage here, and I think that's that's what that's where we wanna play in terms of our play play to our strengths.\n\nSpeaker 1 | 39:29 - 39:56\nSo you have these enormous strengths. You've got the network and the existing great business and these, like, two you know, amongst others, I'm sure, like, two really big plays around agentic commerce and around autonomy. How do you think about just it's it's a 10,000 plus person company, and, like, a lot of that company is ops. A lot of that company is technology. I'm sure you're thinking deeply about productivity of that workforce.\n\nSpeaker 1 | 39:56 - 40:01\nLike, who owns it? What matters today? You're even publishing benchmarks. Like, talk about that.\n\nSpeaker 2 | 40:01 - 40:25\nI feel like in the past couple years, what was required to really operate at a high level in the technology industry has changed a lot. And I think one of the reasons why we were so excited to acquire a company called Metis last year was really to just infuse some of that AI native thinking into the company. And I think for a company of our size, it's been really and I think every company is every large company, at least, is facing it.\n\nSpeaker 3 | 40:25 - 40:25\nI think\n\nSpeaker 2 | 40:25 - 40:51\na lot of start ups I mean, you you see this better than anyone else probably is, like, the way they operate is so different. And I think a lot of people at our company, they they have struggled to to see what's possible because they're so used to how things have worked historically. And so I think really figuring out how do we bring in people who actually have seen what is possible on the frontier and incorporating that into how we do our work. And I think, you know, coding is obviously, like,\n\nSpeaker 1 | 40:51 - 40:51\nthe\n\nSpeaker 2 | 40:51 - 41:27\nmost, like, obvious place to do transformation, and we've seen a lot of gains there. But there's also work we're doing in terms of how do we do AI enablement across the entire organization. And so I think, you know, figuring out how to, like, benchmark various parts of the company. I think we we announced a benchmark called DashBench a couple weeks ago now that was mainly focused on our ability to figure out how well various models and harness performed on coding tasks. And so that was a really good initial exercise for us to figure out how do we calculate the ROI on all this money we're spending.\n\nSpeaker 2 | 41:27 - 41:38\nI mean, I think I was looking at it a week ago. I think our spend in June went up, like, 20 x versus what the spend was in January. Wow. Yeah. And so I think it's like, okay.\n\nSpeaker 2 | 41:38 - 41:45\nLike, clearly, this has gotta get some sort of return. And so and, obviously, like, I think we're seeing a lot of,\n\nSpeaker 1 | 41:46 - 41:56\nyou know, subjective ask? You can you can Sure. Not answer, but, like, since you have inspected this spend, has it come down? Has it been flat?\n\nSpeaker 2 | 41:56 - 42:14\nHas it continued to grow? We're seeing a flat one. Okay. And I think a lot of it is through some of these intentional efforts. Like because I think, you know, when people were experimenting with, especially at the beginning of the year or, like, maybe, like, December last year, it's like I think there's just, like, a step function change in terms of what was possible.\n\nSpeaker 2 | 42:14 - 42:47\nAnd so I think a lot of it was just experimenting and letting people run with it, but it's gone to a point where it's like, okay. One, there's, like, easy things we can do to, like, make sure that, like, we're not doing wasteful stuff. But two is, like, you know, as it relates to this benchmark that we released, it's like, okay. We actually need to start calculating the ROI. Like, you know, if there's a way for us to get maximize the intelligence, but maybe, like, delegate to open weight models for some of the cheaper tasks, we can actually do we can get the fable level of intelligence, but actually pay less than if we're just using these closed weight models.\n\nSpeaker 2 | 42:47 - 43:14\nSo I think coding is kind of where we think there's lot of opportunity mainly because, I mean, the vast majority of that spend is still within, like, engineering related tasks. But we're actually seeing the highest amount of growth in our organization in terms of, like, seats in the nontechnical organizations because, you know, analysts are finding a lot of value in it. Our operators, you know, account managers who are trying to figure out, okay. How do I do my QBR with the strategic merchants? How do we, like, automate a lot of that?\n\nSpeaker 2 | 43:14 - 43:43\nAnd so I think, know, you there's work we're doing there to figure out, okay. How do we benchmark some of the work we're doing in some of these other areas? And I think the another thing that is interesting for us is because we work with some of these frontier labs on, like, okay. Like, for, like, accounting tasks or analytics tasks, like, how well do the latest models perform? And I think a challenge that we've run into is, like, we'll ask our teams, like, hey.\n\nSpeaker 2 | 43:43 - 43:49\nHow well do the models perform on your task? They're like, yeah. It works okay. And I think you know? But then when we do\n\nSpeaker 1 | 43:49 - 43:51\nAnd you're like, okay. Like, $30,000,000 of okay?\n\nSpeaker 2 | 43:51 - 43:54\nYeah. Exactly. It's like the the cost, but then it's like, okay.\n\nSpeaker 3 | 43:54 - 43:55\nWhen we then when we\n\nSpeaker 2 | 43:55 - 43:59\nsend some of these data to the labs, we'll have to do, like, the data scrubbing, and then we'll have to, like, you know,\n\nSpeaker 1 | 43:59 - 43:59\nyou\n\nSpeaker 2 | 43:59 - 44:13\nknow, put in, like, RL environment, whatever. And then, you know, then the models crush it. But then we're like, there's clearly it's kinda like what you're saying with, like, the the Sunday robotics example. It's like, okay. If you, like, dumb down the problem, maybe the models do well.\n\nSpeaker 2 | 44:13 - 44:55\nBut, like, for some reason and when we actually have it with the enterprise data and all the real stuff, it's not performing as well. And so I think for us, it's a question of, like, hey. Is it because, like, there's just things that we need to do with the harness to get the model to perform better, or are there inherently things that the models just don't have in their data distribution or whatever capability set that is not allowing that step function change enablement in, like, accounting analytics or, you know, finance functions? And so I think that's, like, kind of, like, the next step for us beyond the coding stuff, which, of course, there's a lot of work for us to do. But I think there's a lot of interesting things in terms of, like, how do we really see that step function change across the org.\n\nSpeaker 1 | 44:55 - 45:01\nIs the long term view, like, you get rid of all the dashers and it's just dots everywhere? What happens?\n\nSpeaker 3 | 45:01 - 45:45\nYeah. Well, my take my prediction actually is in a world where robotics, drones, AI is is everywhere, my guess is that in ten years' time, we're actually gonna have more Dashers doing doing deliveries, not less, simply just because again, I I think it's just the well, one, I think the pace at which DoorDash is growing is just, I mean and then the scale at which we're operating is is pretty insane. I I don't know if people know, but, like, we have over 9,000,000 Dashers doing deliveries and the business growing 25% year over year. Like, fast forward ten years' time. Like like and and we want a five x from here, 10 x from here.\n\nSpeaker 3 | 45:45 - 46:13\nWell, where are they where's the supply gonna come from? Like, are you gonna have half America doing doing deliveries for us every month? Like, that's probably not gonna be the case. Like like, there has to be we're gonna have to find other areas of opportunity to both brand new modalities as well as improve efficiencies within our business. And I think and I think DOT, robotics, drones, like Waymos, like, sidewalking robots, I think we're gonna you're gonna see a world where we're gonna have this multimodal fleet.\n\nSpeaker 3 | 46:13 - 46:45\nLike, we're gonna need our hand get our hands on every single modality we can get. So I think you're not only gonna see more autonomy and more robotics, but I think you're gonna see even more humans as well. And, I mean, I mean and and and I think and I also just think, like, with the introduction of autonomy and robotics, like and and efficiency gains you're gonna see over time, like, I also think you're just gonna see an even stronger surge in in demand as autonomy as delivery becomes even more affordable.\n\nSpeaker 1 | 46:45 - 47:00\nI look forward to getting six of these a day. Yeah. Amazing. And, Andy, when you think about what you've learned with the initial forays into agentic commerce, like, how are people gonna buy differently in the future beyond food?\n\nSpeaker 2 | 47:00 - 47:41\nYeah. I mean, I think one of the trends that I found fascinating is, like, over the past couple years, Google search query links have gone longer. And I think, to me, how I've translated that is, okay. People feel more comfortable, like, talking to, like, agents or to, like, apps like they would a normal human being. And so I think if we fast forward and look ahead to the future, I think the easier we can make it for people to kind of interface with apps or with agents like they would with a person, I think it's gonna reduce the friction in terms of their compelling them to place an order, whether that's for food or for, like, their groceries or for retail, what have you.\n\nSpeaker 2 | 47:41 - 48:14\nAnd I think another thing that I think is gonna be true is I think we're all gonna need to think about, like, what does the agent first experience look like? And, you know, I think we've been testing some of that with the recent DoorDash CLI that we launched last week. But I just think there's a lot of interesting emerging use cases that can crop up once once you start thinking about this. Like, one concrete example I can talk about is, like, someone who was really excited to use the DoorDash CLI because they're like, hey. Let me, like, basically streamline my Office Manager use case for my start up.\n\nSpeaker 2 | 48:14 - 48:43\nAnd when they found out that DoorDash did more than just lunch, they're like, oh, actually, wait. DoorDash can order me, like, convenience and groceries. So then they just pointed a camera at their pantry shelf. And whenever the shelf was getting empty, like, they would fire off the agent to basically restock the shelf. So I think those types of use cases that you wouldn't really think of, but I think it's gonna unlock some interesting use cases that I think would not really be as feasible or possible, like, in today's world.\n\nSpeaker 2 | 48:44 - 48:49\nBut as we make things more naturally agent first, I think some of these use cases are gonna become a lot more interesting.\n\nSpeaker 1 | 48:50 - 48:58\nAmazing. I love how ambitious you guys are for both the user experience and the scope and scale of DoorDash. Thanks, guys.\n\nSpeaker 2 | 48:58 - 48:59\nYeah. It's a pleasure to be here.\n\nSpeaker 1 | 49:12 - 49:18\nEpisode every week. And sign up for emails or find transcripts for every episode at know-priors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2080750437133901925",
+            "text": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations https://t.co/6uSOT102QS https://t.co/brUhUANaMU",
+            "createdAt": "2026-07-24T20:22:17.000Z",
+            "url": "https://x.com/swyx/status/2080750437133901925",
+            "likes": 24,
+            "retweets": 1,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2080500752183960017"
+          },
+          {
+            "id": "2080705334587605122",
+            "text": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit https://t.co/rO3dn0F26S",
+            "createdAt": "2026-07-24T17:23:04.000Z",
+            "url": "https://x.com/swyx/status/2080705334587605122",
+            "likes": 39,
+            "retweets": 0,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2080771183944073347",
+            "text": "Gemini does more than talk. It gets things done.\n\nToday’s use case: Drop in a school calendar PDF. Tell Gemini to add every \"No School\" day to your Google Calendar. Done.\n\n📍Gemini Spark is live now for all Google AI Pro subscribers in the US, expanding globally next.",
+            "createdAt": "2026-07-24T21:44:43.000Z",
+            "url": "https://x.com/joshwoodward/status/2080771183944073347",
+            "likes": 768,
+            "retweets": 42,
+            "replies": 79,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2080713091688583312",
+            "text": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work.\n\nMore than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.\n\nAnd when layering defenses -- strong model alignment, combined with prompt injection probes, combined with Auto Mode in Claude Code -- the success rate for prompt injection attacks drops to ~0. This is new and exciting! More about this soon.\n\nhttps://t.co/Tc7z2FqJhQ",
+            "createdAt": "2026-07-24T17:53:53.000Z",
+            "url": "https://x.com/bcherny/status/2080713091688583312",
+            "likes": 5042,
+            "retweets": 383,
+            "replies": 269,
+            "isQuote": true,
+            "quotedTweetId": "2080699497064083942"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2080876712439747052",
+            "text": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone.\n\nPuts a jetpack on your ChatGPT",
+            "createdAt": "2026-07-25T04:44:03.000Z",
+            "url": "https://x.com/thsottiaux/status/2080876712439747052",
+            "likes": 1167,
+            "retweets": 25,
+            "replies": 381,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080756403493560652",
+            "text": "Show me your pet https://t.co/WkrKZ8UyCj",
+            "createdAt": "2026-07-24T20:45:59.000Z",
+            "url": "https://x.com/thsottiaux/status/2080756403493560652",
+            "likes": 1416,
+            "retweets": 37,
+            "replies": 1038,
+            "isQuote": true,
+            "quotedTweetId": "2080747505474736162"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2080793867960643823",
+            "text": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great.\n\nTo do this well I think you have to remember the names of all your long running threads.",
+            "createdAt": "2026-07-24T23:14:52.000Z",
+            "url": "https://x.com/petergyang/status/2080793867960643823",
+            "likes": 88,
+            "retweets": 4,
+            "replies": 30,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080699985612484986",
+            "text": "A beautiful day in Vancouver https://t.co/hz7D2PgNOz",
+            "createdAt": "2026-07-24T17:01:48.000Z",
+            "url": "https://x.com/petergyang/status/2080699985612484986",
+            "likes": 47,
+            "retweets": 0,
+            "replies": 11,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080669643577176573",
+            "text": "I tend to agree with this. \n\nFeels like pure software is really hard to monetize now for indie developers.\n\nYou need software + something else (e.g., services).\n\nWould love to hear counter examples in the replies. https://t.co/8HMjINRd9y",
+            "createdAt": "2026-07-24T15:01:14.000Z",
+            "url": "https://x.com/petergyang/status/2080669643577176573",
+            "likes": 83,
+            "retweets": 3,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2080597522788295123"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2080632759073021954",
+            "text": "Endorse https://t.co/HxC3JFv6n9",
+            "createdAt": "2026-07-24T12:34:40.000Z",
+            "url": "https://x.com/thenanyu/status/2080632759073021954",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2080330876475634077"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2080707454422413487",
+            "text": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them.\n\nDoing that requires understanding how work gets done, designing evals, improving models through post-training, and building the feedback loops that continuously improve models.\n\nThat’s how a general-purpose model becomes exceptional for a specific domain.\n\nToday, that skillset is still concentrated in a handful of labs.",
+            "createdAt": "2026-07-24T17:31:29.000Z",
+            "url": "https://x.com/realmadhuguru/status/2080707454422413487",
+            "likes": 282,
+            "retweets": 31,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2080643682408321103"
+          },
+          {
+            "id": "2080678006998352307",
+            "text": "Some people should be required to use AI for their writing.",
+            "createdAt": "2026-07-24T15:34:28.000Z",
+            "url": "https://x.com/realmadhuguru/status/2080678006998352307",
+            "likes": 25,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2080707593115516985",
+            "text": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :) https://t.co/8LTbAOJJR0",
+            "createdAt": "2026-07-24T17:32:02.000Z",
+            "url": "https://x.com/_catwu/status/2080707593115516985",
+            "likes": 626,
+            "retweets": 23,
+            "replies": 62,
+            "isQuote": true,
+            "quotedTweetId": "2080699495453528290"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+        "tweets": [
+          {
+            "id": "2080711577867845645",
+            "text": "this is also available on the Claude Blog here: https://t.co/W84J5X640M",
+            "createdAt": "2026-07-24T17:47:52.000Z",
+            "url": "https://x.com/trq212/status/2080711577867845645",
+            "likes": 257,
+            "retweets": 16,
+            "replies": 8,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080710971228918066",
+            "text": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them. https://t.co/6DZwSrZjE9",
+            "createdAt": "2026-07-24T17:45:27.000Z",
+            "url": "https://x.com/trq212/status/2080710971228918066",
+            "likes": 10199,
+            "retweets": 1063,
+            "replies": 255,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080703339306913985",
+            "text": "Opus 5 rounds out our Claude 5 family beautifully.\n\nI think it’s an incredible daily driver, pair it with Fable for planning,  brainstorming or fixing the hardest bugs. https://t.co/S9GfhsS7v1",
+            "createdAt": "2026-07-24T17:15:08.000Z",
+            "url": "https://x.com/trq212/status/2080703339306913985",
+            "likes": 3713,
+            "retweets": 97,
+            "replies": 359,
+            "isQuote": true,
+            "quotedTweetId": "2080699495453528290"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2080864869130416320",
+            "text": "It was always perplexing to me that VCs passed on Etched in the early rounds. Glad they woke up… and early believers get less dilution 🙂 https://t.co/wnVV5HVh8q",
+            "createdAt": "2026-07-25T03:57:00.000Z",
+            "url": "https://x.com/amasad/status/2080864869130416320",
+            "likes": 165,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2080307393699987849"
+          },
+          {
+            "id": "2080850075358826871",
+            "text": "Will Anthropic sign? \n\nIf you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models? https://t.co/99lCnlz5vW",
+            "createdAt": "2026-07-25T02:58:12.000Z",
+            "url": "https://x.com/amasad/status/2080850075358826871",
+            "likes": 614,
+            "retweets": 29,
+            "replies": 58,
+            "isQuote": true,
+            "quotedTweetId": "2080798081466138781"
+          },
+          {
+            "id": "2080848381967212975",
+            "text": "If you haven’t used Replit for a while, you’re in for a big surprise. https://t.co/OrG0COztRW",
+            "createdAt": "2026-07-25T02:51:29.000Z",
+            "url": "https://x.com/amasad/status/2080848381967212975",
+            "likes": 117,
+            "retweets": 0,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2080808808071499970"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2080714333793972498",
+            "text": "Where's the ambition! https://t.co/kGiCsaFIPi",
+            "createdAt": "2026-07-24T17:58:49.000Z",
+            "url": "https://x.com/rauchg/status/2080714333793972498",
+            "likes": 38,
+            "retweets": 2,
+            "replies": 10,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080706974476583337",
+            "text": "Ok let's see what you can do https://t.co/w3vt8GmwMK https://t.co/mn9q4sYkWa",
+            "createdAt": "2026-07-24T17:29:35.000Z",
+            "url": "https://x.com/rauchg/status/2080706974476583337",
+            "likes": 396,
+            "retweets": 9,
+            "replies": 29,
+            "isQuote": true,
+            "quotedTweetId": "2080705590238892474"
+          },
+          {
+            "id": "2080646549336678597",
+            "text": "Figma2React. It’s good https://t.co/ybjd12tIKG",
+            "createdAt": "2026-07-24T13:29:28.000Z",
+            "url": "https://x.com/rauchg/status/2080646549336678597",
+            "likes": 361,
+            "retweets": 11,
+            "replies": 25,
+            "isQuote": true,
+            "quotedTweetId": "2080632084662775954"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "bio": "Research @AnthropicAI. Opinions are my own!",
+        "tweets": [
+          {
+            "id": "2080731979528679617",
+            "text": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make. Things are changing fast. https://t.co/HKpFPP4hrM https://t.co/qv8OJoPXcf",
+            "createdAt": "2026-07-24T19:08:56.000Z",
+            "url": "https://x.com/alexalbert__/status/2080731979528679617",
+            "likes": 2285,
+            "retweets": 120,
+            "replies": 54,
+            "isQuote": true,
+            "quotedTweetId": "2005670179045523595"
+          },
+          {
+            "id": "2080703118086693121",
+            "text": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domains while still raising the intelligence bar. \n\nIt feels very smooth to use and I prefer it over Fable 5 for  many coding tasks. https://t.co/bScX0FgtLq",
+            "createdAt": "2026-07-24T17:14:15.000Z",
+            "url": "https://x.com/alexalbert__/status/2080703118086693121",
+            "likes": 607,
+            "retweets": 27,
+            "replies": 39,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080702002120757562",
+            "text": "Welcome to the world, Opus 5. https://t.co/uLgA9FqQjR",
+            "createdAt": "2026-07-24T17:09:49.000Z",
+            "url": "https://x.com/alexalbert__/status/2080702002120757562",
+            "likes": 250,
+            "retweets": 2,
+            "replies": 15,
+            "isQuote": true,
+            "quotedTweetId": "2080699495453528290"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2080761484305654091",
+            "text": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message.\n\nThe key now is that America should actually step up and continue to push open weights innovation. It’s good for the entire market, including the frontier labs. \n\nOpen weights accelerates the diffusion of AI across the economy by providing more options for specific customer requirements, can lower the cost of certain workloads, and you can tune models for areas of work that don’t always make sense in a horizontal frontier model.",
+            "createdAt": "2026-07-24T21:06:11.000Z",
+            "url": "https://x.com/levie/status/2080761484305654091",
+            "likes": 271,
+            "retweets": 26,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2080643682408321103"
+          },
+          {
+            "id": "2080704871934931221",
+            "text": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. \n\nAt Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries.  We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. \n\nHere are a few examples of some of the wins we saw in testing:\n\n* Due diligence (+17%): On a transaction due-diligence review, Opus 5 worked through the full set of required findings and flagged the ones Opus 4.8 missed. It stays thorough as the checklist grows instead of catching the obvious items and stopping.\n\n* Life Sciences (+30%): On a target-identification task, it intersected several ranked datasets under a strict matching rule to find the targets common to all of them. Opus 4.8 over-included partial matches and dropped genuine ones.\n\n* Legal (+12%): On a clause-by-clause contract review against a policy, Opus 5 scored every item and correctly cleared the clauses that were acceptable under an exception where Opus 4.8 both missed items and mis-scored the exception.\n\n* Technology (+19%) and Healthcare (+13%) showed the same pattern: complete, precise, multi-step analysis over messy source material.\n\nOverall, the reasoning, analytical, and data processing skills of Opus 5 outshine Opus 4.8 meaningfully. Going to be very powerful for enterprise agentic use-cases. You'll be able to build agents with Opus 5 in the Box AI Studio shortly.",
+            "createdAt": "2026-07-24T17:21:13.000Z",
+            "url": "https://x.com/levie/status/2080704871934931221",
+            "likes": 281,
+            "retweets": 20,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2080699495453528290"
+          },
+          {
+            "id": "2080675210991443982",
+            "text": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI.\n\nOpen weights models help to drive the industry forward in a variety of ways to ensure more innovation, creativity, and diffusion of AI.\n\nYou get to have layers of the stack that emerge to post train models for highly specific purposes, which makes AI more useful in real world scenarios. Instead of waiting for just a few players to go deep in a domain, you get dozens or hundreds of attempts at that vertical, like in finance, life sciences, legal, healthcare, and more.\n\nYou get to see variance in how to handle safety and cyber risks. Instead of just one approach, you get a peek into what happens advanced capabilities can be used to build better systems to are used to defend systems. \n\nYou get alternative approaches to training and building AI models. In more compute constrained environments, you develop more novel and efficient approaches to model training, which every other lab can learn from. \n\nAnd you get different cost structures for different workloads. High end and orchestration tasks can go to the closed frontier models and specific workhorse tasks can be done more cheaply. \n\nOpen vs. closed is not a zero sum battle. The reason why you want strong open weights models is because it pushes the entire AI industry forward.",
+            "createdAt": "2026-07-24T15:23:22.000Z",
+            "url": "https://x.com/levie/status/2080675210991443982",
+            "likes": 216,
+            "retweets": 24,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2080643682408321103"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2080849953413541982",
+            "text": "\"How fast a country adopted new technology over the last 200 years accounts for at least 25% of why some nations are rich and others aren’t today. The Ottomans got the printing press eventually but eventually cost them a lot.\" https://t.co/3Tg0oUz3dl",
+            "createdAt": "2026-07-25T02:57:43.000Z",
+            "url": "https://x.com/garrytan/status/2080849953413541982",
+            "likes": 181,
+            "retweets": 16,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2080579374735065468"
+          },
+          {
+            "id": "2080807733184586232",
+            "text": "YC Startup School 2026 rehearsal at Chase Center\n\nWelcome to San Francisco, future founders!\n\nTomorrow and this whole weekend are going to be 🔥 https://t.co/rwXOK3jBb0",
+            "createdAt": "2026-07-25T00:09:57.000Z",
+            "url": "https://x.com/garrytan/status/2080807733184586232",
+            "likes": 598,
+            "retweets": 29,
+            "replies": 41,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080699367883980924",
+            "text": "To get macro productivity gains, managers and CEOs have to greenlight radically different staffing and workflow plans\n\nTo date I don’t think they’ve done it\n\nBe prepared for this to take 10 years not 2 https://t.co/aNNYgDRp59",
+            "createdAt": "2026-07-24T16:59:21.000Z",
+            "url": "https://x.com/garrytan/status/2080699367883980924",
+            "likes": 283,
+            "retweets": 25,
+            "replies": 34,
+            "isQuote": true,
+            "quotedTweetId": "2080661595802198468"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2080738638065729741",
+            "text": "Under-discussed: the fundamental irony of the world's top AI researchers researching their way out of their own job, as they build recursive auto-research.",
+            "createdAt": "2026-07-24T19:35:24.000Z",
+            "url": "https://x.com/mattturck/status/2080738638065729741",
+            "likes": 18,
+            "retweets": 1,
+            "replies": 9,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080645582209663049",
+            "text": "Big week in model routing:\n\nStripe rumored to acquire OpenRouter for $10B\n\nCursor Router announced on Wednesday \n\nRunway Router announced yesterday \n\nAlso see routers at Databricks, Vercel, Cloudflare, Dataiku, AWS, Google  (yes lots of differences behind the same term)",
+            "createdAt": "2026-07-24T13:25:37.000Z",
+            "url": "https://x.com/mattturck/status/2080645582209663049",
+            "likes": 25,
+            "retweets": 3,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2080829737044439444",
+            "text": "The #1 thing I want from any model right now: speed\n\nIntelligence is already good enough. But waiting 1-5 min per task is the worst possible window: too short for deep work, too long to just stare at the screen. So I end up scrolling X\n\nAgents are making all of us more ADHD",
+            "createdAt": "2026-07-25T01:37:23.000Z",
+            "url": "https://x.com/zarazhangrui/status/2080829737044439444",
+            "likes": 128,
+            "retweets": 4,
+            "replies": 34,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080621285852565973",
+            "text": "True \nThe main benefit of being in SF is that if you attempt to do something crazy people think it’s admirable rather than crazy https://t.co/KaWtFqfZEu",
+            "createdAt": "2026-07-24T11:49:05.000Z",
+            "url": "https://x.com/zarazhangrui/status/2080621285852565973",
+            "likes": 88,
+            "retweets": 1,
+            "replies": 8,
+            "isQuote": true,
+            "quotedTweetId": "2080605663508439359"
+          },
+          {
+            "id": "2080617484261249160",
+            "text": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcripts become PRDs\n\nIn the past, work culture tended to favor written communicators; now verbal communicators have an equal chance cos agents don’t care https://t.co/H3UqXdDiLB",
+            "createdAt": "2026-07-24T11:33:58.000Z",
+            "url": "https://x.com/zarazhangrui/status/2080617484261249160",
+            "likes": 28,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2080607928629985422"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2080658090366501257",
+            "text": "Also here’s what I sent in my work group chat https://t.co/DYvWkfNafL",
+            "createdAt": "2026-07-24T14:15:20.000Z",
+            "url": "https://x.com/nikunj/status/2080658090366501257",
+            "likes": 9,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080656285540716568",
+            "text": "Haters will say this is AI 🇨🇭 https://t.co/B1VC7ylldR",
+            "createdAt": "2026-07-24T14:08:09.000Z",
+            "url": "https://x.com/nikunj/status/2080656285540716568",
+            "likes": 172,
+            "retweets": 0,
+            "replies": 23,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2080899298838098034",
+            "text": "Hit a new record with our autoreview skill. 66 rounds on a gnarly refactor. https://t.co/zbUjIS2LQQ",
+            "createdAt": "2026-07-25T06:13:48.000Z",
+            "url": "https://x.com/steipete/status/2080899298838098034",
+            "likes": 135,
+            "retweets": 5,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080779917130858598",
+            "text": "am I a graph engineer now https://t.co/QYO04bQDIW https://t.co/Ikmafr6HdR",
+            "createdAt": "2026-07-24T22:19:25.000Z",
+            "url": "https://x.com/steipete/status/2080779917130858598",
+            "likes": 2453,
+            "retweets": 168,
+            "replies": 135,
+            "isQuote": true,
+            "quotedTweetId": "2080776965070496115"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2080709090909503775",
+            "text": "@every full vibe check here: \nhttps://t.co/0wSJQeP0Hh",
+            "createdAt": "2026-07-24T17:37:59.000Z",
+            "url": "https://x.com/danshipper/status/2080709090909503775",
+            "likes": 28,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080705381794288032",
+            "text": "as usual claire and i are on the same page https://t.co/T73iS9hmDP",
+            "createdAt": "2026-07-24T17:23:15.000Z",
+            "url": "https://x.com/danshipper/status/2080705381794288032",
+            "likes": 243,
+            "retweets": 4,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2080703735878336983"
+          },
+          {
+            "id": "2080700057892815114",
+            "text": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd…it’s a hard model to love.\n\nWe’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent.\n\nIt argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy?\n\nThen we deleted our existing skills and started from scratch.\n\nWithout the elaborate workflows we had built for earlier models, Opus 5 got dramatically better, and even showed flashes of brilliance.\n\nHere’s our Day 0 vibe check:\n\n- It’s a poor man’s Fable. It has many of Fable’s personality quirks without Fable’s genius.\n- It breaks backward compatibility. If you’re using it with existing skills and workflows, watch out. It will often stop early or otherwise miss your instructions.\n- If you start from scratch, you’ll have better results. @KieranKlaassen figured out that if he just started from scratch without his existing skills, he could get dramatically better results. This is a model that takes some time to rebuild your workflows around—but if you do, there’s a payoff waiting.\n- Medium or low effort works better. @KieranKlassenn also found better results using Opus 5 on lower thinking levels. It seems that the more time you give it to think, the more likely it is to do the more annoying behaviors. Don’t just switch to Sonnet for a faster response! Try low thinking.\n\nI have two slots in my workflow:\n\n1. The genius model I use for my biggest hardest tasks, currently Fable.\n2. The smart, fast generalist I use for everything else, currently GPT-5.6.\n\nOpus 5 has the personality of the genius, but doesn’t have its top end. So that puts it in a strange middle ground that doesn’t really have a home in my day to day. I think I’ll use it mostly when I run out of Fable tokens.\n\nfull vibe check on @every in the next tweet 👇",
+            "createdAt": "2026-07-24T17:02:05.000Z",
+            "url": "https://x.com/danshipper/status/2080700057892815114",
+            "likes": 2221,
+            "retweets": 128,
+            "replies": 151,
+            "isQuote": true,
+            "quotedTweetId": "2080699495453528290"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2080683363174945065",
+            "text": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this https://t.co/fkYFw30437",
+            "createdAt": "2026-07-24T15:55:45.000Z",
+            "url": "https://x.com/sama/status/2080683363174945065",
+            "likes": 11498,
+            "retweets": 736,
+            "replies": 1752,
+            "isQuote": true,
+            "quotedTweetId": "2080643682408321103"
+          },
+          {
+            "id": "2080683119959757243",
+            "text": "let us know what you think of pro-ultra-superhard https://t.co/df2WxqXsIx",
+            "createdAt": "2026-07-24T15:54:47.000Z",
+            "url": "https://x.com/sama/status/2080683119959757243",
+            "likes": 3132,
+            "retweets": 89,
+            "replies": 436,
+            "isQuote": true,
+            "quotedTweetId": "2080515937803886872"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8dz3D or download the app.",
+        "tweets": [
+          {
+            "id": "2080699515271528827",
+            "text": "Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8. It’s the default model on Claude Max, and the strongest on Claude Pro. It’s also offered in Fast mode, which runs around 2.5× the default speed.\n\nRead more: https://t.co/YMw7gLMT7e",
+            "createdAt": "2026-07-24T16:59:56.000Z",
+            "url": "https://x.com/claudeai/status/2080699515271528827",
+            "likes": 2665,
+            "retweets": 135,
+            "replies": 99,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080699512205537648",
+            "text": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains substantially behind Mythos 5 at developing exploits.\n\nIts safeguards are designed to allow developers to identify and fix software vulnerabilities, while blocking high-risk uses. https://t.co/ZWeqZv2AO0",
+            "createdAt": "2026-07-24T16:59:55.000Z",
+            "url": "https://x.com/claudeai/status/2080699512205537648",
+            "likes": 2310,
+            "retweets": 89,
+            "replies": 33,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2080699508401328462",
+            "text": "According to our automated behavioral audit, Opus 5 is our most aligned model to date. Compared to our other models, it shows the lowest rates of reckless or deceptive behavior, and the strongest adherence to Claude’s Constitution. https://t.co/PAxcWrvay6",
+            "createdAt": "2026-07-24T16:59:54.000Z",
+            "url": "https://x.com/claudeai/status/2080699508401328462",
+            "likes": 2162,
+            "retweets": 62,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerabilities remain—any probabilistic defense has a non-zero miss rate. 1 The second approach to capping the blast radius—and the focus of much of this post—is containment. Rather than supervising what the agent does, we supervise what it’s able to do by enforcing access boundaries through, for example, sandboxes, virtual machines, and egress controls. This is where Anthropic engineering has devoted the most effort, and also where many of the most surprising security failures have occurred. Over the past two years, we’ve shipped three primary agentic products: claude.ai , Claude Code, and Claude Cowork. Each serves a different audience, requiring a different containment architecture. This article shares what’s held up, what’s broken, and what we’ve learned about agent security along the way. Three types of risk, three components of defense Security risks to agents fall into one of three categories: User misuse: A user—either maliciously or through carelessness—directs the agent to do something harmful. This includes everything from asking the agent to bypass a check they find annoying, to running a destructive command they don’t understand, to specifying intentional harm. Model misbehavior: The agent takes a harmful action no one asked for. As our models have improved, they have become more aligned on most behavior evaluations, but this doesn’t mean risk necessarily shrinks. Less capable models are more likely to misread a situation and make obvious errors. More capable models make fewer mistakes, but they’re also better at finding unexpected paths to a goal, often by routing around restrictions nobody thought to write down. At Anthropic, we’ve seen Claude models “helpfully” escape a sandbox in order to complete a task, examine git history to find answers to a coding test , and spontaneously identify the benchmark it was being run on in order to decrypt its answer key . Each model brings a new set of capabilities that are sometimes put to work in unexpected ways. External attackers: The agent is attacked through external vectors such as tools, files, or network access. This category includes both prompt injection and conventional attacks on the agent&#x27;s runtime, orchestration layer, or proxy. When building containment and defense systems, we apply defenses to three main components: The environment in which the agent runs. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can&#x27;t be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. A tight perimeter also means you can relax oversight. Claude Code’s reference devcontainer exists precisely so that the agent can run unattended, without per-action approvals. The model the agent consults. The mechanisms here include system prompts, classifiers, probes, and training modifications. Because models are probabilistic, these shape only what the agent tends to do, not what it is theoretically capable of doing. These defenses are strong. On Gray Swan&#x27;s Agent Red Teaming benchmark, which tests susceptibility to prompt injection, Claude Opus 4.7 holds attack success to roughly 0.1% on single attempts, and around 5–6% after 100 adaptive attempts. Claude Code auto mode catches roughly 83% of overeager behaviors before they execute . Yet even with best-in-class defenses, protection in the model layer will never be 100% effective, which is why it can&#x27;t stand alone. The external content the agent can reach. MCP servers, third-party plugins, and web search tools all feed content into the agent’s context from sources you don’t control. An audited connector isn’t the same as audited data—a GitHub connector, for instance, can load a poisoned README straight into the model’s context despite passing malware checks. Granularly limiting tool permissions can help limit the blast radius. An agent with read-only DB access, for instance, can be deployed far more broadly than one that writes to prod. Defenses should overlap and complement each other. When environmental defenses aren’t available, the model layer has to pick up the slack (this is precisely what Claude Code’s auto mode is designed for). Locally, the environment and model defenses can guard against malicious tool outputs, but defenses can be added higher up the chain by limiting the tool’s capabilities and access. Three components to defend: the model, the environment in which it runs, and the external content the agent can reach. Patterns for containing agents Focusing on the environment layer, we describe three isolation patterns and how they’re tailored for each Claude platform— claude.ai , Claude Code, and Cowork. We arrived at each design gradually, after finding the balance between the capabilities we need from the agent and the degree of intervention required from the user. Pattern 1: The ephemeral container (claude.ai code execution) Though best known as a chat interface, claude.ai also writes and runs code, generates files, and calls connectors. When Claude runs code inside claude.ai, it does so in a gVisor container on isolated infrastructure. The agent is entirely server-side; no code runs on the local machine, and the filesystem is ephemeral (per-session). The blast radius is minimal, but so is the ceiling on what Claude can do—there&#x27;s no persistent workspace and no access to the user&#x27;s filesystem. This also makes claude.ai subject to a more traditional threat model. We&#x27;re not protecting user machines from agents; we&#x27;re protecting our own infrastructure and each tenant from one another. Our pre-launch work for claude.ai was dominated by traditional security work like network configuration, internal service auth, and orchestration. That work reinforced the oldest lesson in security: the weakest layer is the one you built yourself. gVisor and seccomp have been hardened against well-resourced adversaries for far longer than agentic AI has existed, so the review effort went into the newer pieces we&#x27;d built around them. We’ll come back to this later, since our custom proxy is also the piece that broke in our most consequential incident. Pattern 2: The human-in-the-loop sandbox (Claude Code) Claude Code runs on a user&#x27;s machine and has access to their filesystem, shell, and network. Without this, coding agents have limited usefulness, so it’s imperative to find a way to grant that access safely. One approach is to rely on a human-in-the-loop. This is only a tractable solution for Claude Code because the average user is a developer who’s familiar with coding environments: they can read bash, they understand what rm -rf does, and they already run npm install from untrusted sources several times a week. All that means that when an “allow this” dialog pops up, they are highly likely to have the expertise to accurately evaluate what the agent is attempting to do and the risk involved. Given this, Claude Code launched with the simplest possible defense: allow reads, require approval for write, bash, and network access. However, as mentioned, approval fatigue showed up within weeks. Ironically, this meant that a feature originally designed to provide oversight could arguably have the opposite effect—some users might simply stop paying attention. As a first step to mitigate incautious approvals, we shipped an OS-level sandbox (Seatbelt on macOS, bubblewrap on Linux) that hardens the boundary: reads are allowed, writes are allowed inside the workspace, but network is denied by default. Within the sandbox, the agent runs largely without interruption. The result was an 84% reduction in permission prompts, and we open-sourced the runtime , so the boundary is auditable. Our anonymized usage data also showed that experienced users auto-approve roughly twice as often as new users, but they also interrupt the agent mid-execution more frequently. Instead of gating individual steps, experienced users are more likely to supervise the agent only when it goes off track. While this may be a natural evolution in how people prefer to work with agents, this too is fallible, requiring users to be technical and attentive enough to notice drift in the first place. As model capabilities improve and agents begin writing increasingly ambitious bash, it becomes harder to notice any such drift. And as users move to multi-agent systems, this approach is also much less likely to be an effective oversight strategy. Risk we missed: Everything before the trust dialog Between mid-2025 and January 2026, we received reports of vulnerabilities in Claude Code through our responsible disclosure program. Three of these vulnerabilities targeted code that executes before the user has consented to anything. To understand how this is possible, consider the most direct case: a developer clones a repository to review a pull request, and that repository contains a .claude/settings.json which defines a hook. Because Claude Code reads project settings during startup—before presenting the standard \"Do you trust this folder?\" prompt—the hook the attacker had authored and committed would execute automatically. The remaining cases looked structurally similar, in which input from the not-yet-trusted directory was parsed before the trust boundary had been established. The fix in each case had the same shape: defer parsing and execution of project-local configuration until after the user accepts the trust prompt. If you&#x27;re building something similar, treat project-open, config-load, and localhost listeners the way you&#x27;d treat any inbound request from the internet. They shouldn’t be implicitly trusted just because they feel local and arrive before the user has consented. Risk we missed: The user as an injection vector In February 2026, during a controlled internal red-team exercise, a researcher successfully phished an employee into launching Claude Code with a malicious prompt. The phish looked like ordinary collaboration—a \"can you run this for me?\" email with a ready-to-paste prompt attached—and the prompt itself read like routine task instructions. But somewhere among the setup steps, it gently asked Claude to read ~/.aws/credentials, encode the contents, and POST them to an external endpoint. Across 25 retries of that prompt, Claude completed the exfiltration 24 times. This is a direct prompt injection—the attacker&#x27;s instructions arrived through the user, not through tool output or fetched content. Our model-layer defenses anchor on user intent—when the user is the one typing the instruction, there&#x27;s nothing anomalous for a classifier to catch. A human contractor handed the same script would have done the same thing. The only defense that holds in this situation is the environment, specifically egress controls that block the POST regardless of intent and filesystem boundaries that keep ~/.aws out of reach in the first place. (When we shared the working prompt in internal Slack for discussion, someone pointed out that some internal agents read Slack. The payload was now ambient. We added a canary string to the thread so we&#x27;d notice if anything picked it up. In a world where agents read everything, the investigation tooling is also an attack surface.) Pattern 3: The local VM (Claude Cowork) Claude Cowork runs on a user&#x27;s desktop with access to a workspace folder selected by the user. Because the platform is built for general knowledge work, not software engineering, the average user is much less likely to be fluent in bash. As a result, the human-in-the-loop sandbox strategy may not transfer; a non-technical knowledge worker shouldn’t be expected to judge bash incantations such as find . -name \"*.tmp\" -exec rm {} \\;. When approving an exception requires expertise the typical user doesn’t have, admins should set a boundary that is absolute and always-on. To enable this, our first version of Claude Cowork ran inside a full virtual machine using the platform&#x27;s vendor hypervisor (Apple&#x27;s Virtualization framework on macOS, HCS on Windows). The VM has its own Linux kernel, its own filesystem, and its own process table. The user&#x27;s selected workspace and .claude folder are mounted; nothing else on the host is visible. Credentials stay in the host&#x27;s keychain and never enter the guest machine. This design protects against the possibility that Claude will, at some point, behave in a misaligned manner. A compromised Claude could still damage what&#x27;s inside the workspace folder, so the architecture is designed to make sure that&#x27;s the only thing it can reach (until the user adds connectors), and that the user controls what&#x27;s mounted there. In the original architecture—what we call full-VM mode—the agent loop itself ran inside the guest, so Claude executed as an ordinary Linux user with no awareness it was sandboxed. Compare this to Claude Code, where a privileged process sits outside the sandbox deciding per-command whether to enforce it; a persuasive injected prompt or a fatigued approval click can get that process to run something un-sandboxed. Here, there was no outer process holding an escape-hatch key, and so no component with the authority to grant an exception. The six main isolation mechanisms of Claude Cowork’s VM. Two are enforced outside the guest kernel and would thus survive the agent achieving root-level access within the VM. The other four are guest-enforced and kept deliberately minimal because the outer layers carry the rest. However, we soon realized that running the whole agent in full-VM mode caused practical problems: any failure during VM startup made Cowork unusable. Moving the agent loop outside of the VM, while keeping code execution inside of it, allowed Claude to still respond to the user and help debug issues rather than freeze on an error. This change caused minimal security impact because the VM still enforces filesystem and network controls over code executed by the agent. Separately, we also moved local MCP servers outside the VM. Running them inside the VM made them harder to audit, created brittle dependency issues when the VM updated, and didn’t support MCPs that required interaction with local processes such as databases—such servers had to run on the host regardless. The change brings Claude Cowork in line with how local MCP servers already work in Claude Desktop: treating them like any software a user might choose to install and entrusting admins to decide which local MCPs to enable (if any). Remote MCP servers are unaffected since they do not run on the user&#x27;s machine. Having the agent loop inside the VM meant that any failure in the VM caused Cowork to become unusable. Host-mode is more reliable because the agent can still respond if the VM crashes, and it still provides important security guarantees by isolating code execution. Filesystem controls were another important architectural choice. Claude needs to be able to access some files on the host in order to be useful, but we wanted to minimize the blast radius and provide transparency to the user about local file access. We found that offering different file-mount modes helps to granularly control risk; Claude Cowork offers read-only, read-write, and read-write-no-delete. One potential gotcha here is that symlink resolution has to happen before path validation, not after, or a symlink inside an authorized folder can point outside and escape. For enterprise customers, we allow admins to control this via mount-path allowlists in MDM settings. Risk we missed: Exfiltration through an approved domain A clear example of exfiltration through an approved domain came from a third-party disclosure. Claude Cowork&#x27;s egress allowlist correctly passed traffic to api.anthropic.com—the product can&#x27;t function without calling our own API. In this case, a malicious file placed in the user&#x27;s mounted workspace carried hidden instructions along with an API key controlled by the attacker. Claude, following the instructions, read other files in the workspace and called Anthropic&#x27;s Files API using the attacker&#x27;s key. The egress proxy checked the destination, saw api.anthropic.com, and let it through. The files were uploaded to the attacker&#x27;s Anthropic account. The sandbox worked perfectly, and yet the data was exfiltrated. Previously, we’d conceptualized the allowlist as a destination filter, something that told Claude these domains are okay to talk to. But it may be better conceptualized as a capability grant. Every function reachable through any domain on an allowlist is now an attack surface. Allowing api.anthropic.com meant allowing file uploads to arbitrary Anthropic accounts. We fixed it using a defensive man-in-the-middle proxy inside the VM that intercepts traffic to our API. It only passes requests carrying the VM&#x27;s own provisioned session token; an attacker-embedded key is rejected by the proxy. It also blocks headers that would enable server-side fetch. The proxy sits inside the VM rather than on our servers because only the VM knows provenance—from the server&#x27;s perspective, a Cowork request is indistinguishable from any other API client. Top: traffic to api.anthropic.com is let through, resulting in egress. Bottom: fix with a man-in-the-middle proxy intercepting traffic to our API. This is also a second instance of the principle that the software you build yourself is often the weakest. The hypervisor, seccomp, and gVisor across our products have been dependable. Our custom allowlist proxy was the piece that failed. Risk we missed: VM isolation kept the endpoint detection software out too When evaluating Claude Cowork, enterprise security teams asked, \"Why can&#x27;t our EDR see inside?\" The answer was that the same isolation keeping Claude contained also kept host-based endpoint detection and response out. From the EDR&#x27;s perspective, Claude Cowork is an opaque hypervisor process. It can&#x27;t inspect the guest. Isolation reduces visibility, and opacity is problematic for teams whose compliance posture depends on endpoint visibility. Our current mitigation is to use pull-based OTLP exports that let administrators retrieve event logs after the fact, but this is not the same as live monitoring. If you&#x27;re building something similar, budget for this conversation early. Environment Ephemeral container ( claude.ai ) HITL sandbox (Claude Code) Sealed VM (Claude Cowork) Cost: Isolation Overhead Container spin-up Low-latency native sandbox Full VM boot Cost: User Reliance N/A Must interpret bash N/A Risk: Blast Radius Server-side container (guarded by gVisor + host infra boundary) Local workspace Mounted workspace (guarded by vsock + hypervisor boundary) Trusting what the agent reads Enterprises often ask us how to secure MCP connections. It&#x27;s a good question, but the right one is broader than MCP specifically. Any external resource provided to an agent represents two risks at once: a code execution risk, in the traditional supply-chain sense, and a prompt injection vector. Traditional dependency auditing (pinning versions, verifying signatures, reviewing source) addresses the first, but misses the second. Remote versus local is more important than it seems. A locally installed tool is auditable. You can read the code, pin the version, and know it won&#x27;t change under you. A remote tool—a hosted MCP server, a cloud connector—can change behavior at any point after you’ve approved it; your install-time trust decision may no longer apply. Our connector directory addresses this through ongoing review, but anything outside it should be treated as untrusted. Run it against fake data first, in an environment where the blast radius of a malicious tool is contained. Tool output is an attack surface even when the tool is trusted. The GitHub README example mentioned earlier is exactly this case; any input scanning applied to web pages needs to be applied to network-enabled tool results with the same rigor. Even though this adds latency and isn&#x27;t a perfect defense, we err toward live inspection: once a poisoned tool return has steered the agent into exfiltrating data, the log just shows a successful, authorized API call. There&#x27;s no after-the-fact signal to find. In Claude Code and Claude Cowork, tool calls route through proxies that enforce network and file policy and can inspect return values before they enter the model&#x27;s context. The classifier that does the inspection can be a small, fast model; it doesn&#x27;t need to be the one doing the reasoning. Looking ahead Models and products are advancing fast. As they do, risks morph and evolve, and our mitigations must keep pace to meet them. Persistent memory poisoning. The share of agent context that persists across sessions keeps growing—this includes product memory, CLAUDE.md files, mounted workspaces, and the state directories of scheduled and long-running agents. An injection that lands in any of these is reloaded each time the agent starts. As more agent state survives the session, we are threatened by new persistence mechanisms in the classic post-exploitation sense. Good classifiers on session startup will need to become more commonplace. Multi-agent trust escalation. On the one hand, sub-agents can isolate untrusted content, returning structured facts rather than raw text up to the main agent. On the other hand, this can be abused: if a sub-agent&#x27;s output is treated as higher-trust than raw tool results, because such output came from “us,” a new vector for prompt injection is introduced. In multi-agent systems, there is a tradeoff between allocating differing trust levels and becoming liable to trust escalation. Agent identity. Claude Cowork&#x27;s answer to agent identity is concrete: credentials stay in the host keychain, the VM gets a per-session scoped-down token, and that token can be revoked independently of the user&#x27;s. However, we are starting to grapple with the broader question of cross-platform agent identity. Should an agent possess its own principal identity, or should it act as an extension of the user and inherit the user’s permissions? Ultimately, the answer may be a blend of the two. As agents grow more capable, attack surfaces are constantly shifting. The types of failures we’ve seen are likely to be repeated across industries and labs. We need collective investment in agent-specific security posture, from shared benchmarks and disclosure norms to common identity standards and cross-vendor red-teaming. We focus on containment in this piece, but that&#x27;s only one part of the security picture for agents. For governance, observability, and the rest of the stack, see NIST&#x27;s project on AI agent identity and authorization , the six-agency guidance on adopting agentic AI led by Australia&#x27;s ACSC with CISA and the UK&#x27;s NCSC, and ISO/IEC 42001 , the AI management standard. Our Glasswing initiative is one contribution, but we look forward to working with both partners and competitors on this critical issue. Summary In short, there are a few principles we keep returning to: Design for containment at the environment layer first, then steer behavior at the model layer. Two of the incidents that taught us the most—the employee phish and the third-party allowlist disclosure—were both cases of egress, in which data left through a permitted path. In each, the model layer couldn&#x27;t help; there was nothing anomalous for it to catch. The deterministic boundary is what gets hit when everything probabilistic misses. Match isolation strength to the user&#x27;s capacity for oversight. A developer who can read bash and a knowledge worker who can&#x27;t are not running the same threat model. The question of whether a user can evaluate what an agent is about to do should help determine the containment strategy, and answering it wrong in either direction—too much friction for experts, too much trust for non-experts—is its own failure. Be wary of custom components. Battle-tested hypervisors, syscall filters, and container runtimes have survived more adversarial attention than anything you&#x27;ll build. Across every deployment described here, the standard primitives held while our own work around them exposed flaws. Ultimately, while agents may be a new category of software, their system-level interactions are not. They still read files, open sockets, and spawn processes; this makes containment with mature tooling a crucially viable defense. The risk-reward balance of deployments will keep shifting as AI develops, but placing a hard limit on blast radius often forces that balance into the right direction. Acknowledgements Written by Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton, and Abel Ribbink. We&#x27;re also grateful to Hanah Ho, Hasnain Lakhani, Pedram Navid, Molly Villagra, Maya Nielan, Akila Srinivasan, Travis Szucs, Sam Attard, Alfred Xing, Mohamad El Hajj, Gabby Curtis, David Dworken, Adam Jones, Amie Rotherham, Christian Ryan, Lucas Smedley, Brett Andrews, and others for their contributions. Special thanks to our security and product engineering teams, and to the individuals and organizations that have reported vulnerabilities in Claude products. Footnotes Claude Code auto mode delegates command approvals to a model-based classifier; it minimizes friction (roughly 0.4% of benign commands blocked) at the cost of missing a fraction of risky ones (~17% of overeager actions get through), so it&#x27;s one layer of defense-in-depth inside a sandbox, not a substitute for one."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 21,
+      "totalTweets": 48,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-07-25T07:03:44.085Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
