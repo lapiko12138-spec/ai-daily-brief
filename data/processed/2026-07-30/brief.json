@@ -1,0 +1,898 @@
+{
+  "date": "2026-07-30",
+  "title": "2026-07-30 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-07-30.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "af9edf8f69209cb7",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @petergyang",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl... 2. I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1.... 3. I got tired of using IMDb to rate movies and TV...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575",
+      "source_name": "Follow Builders / @petergyang",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl",
+        "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+        "I got tired of using IMDb to rate movies and TV"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Peter Yang: These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol...",
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl；I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "44b3d0f9d1fc366f",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of... 2. More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of",
+        "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quic...",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of；More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "3710050bc4099dd5",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @danshipper",
+      "summary": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my h...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530",
+      "source_name": "Follow Builders / @danshipper",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Dan Shipper: i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth inter...",
+      "source_context": "Follow Builders / @danshipper / X / @danshipper 的原始信息主要包括：i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ad03328904660e4d",
+      "title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "company": "Builder Ecosystem",
+      "product": "X / @swyx",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod。要点：1. re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimpli...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/swyx/status/2082199414656127010",
+      "source_name": "Follow Builders / @swyx",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people"
+      ],
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "original_title": "Swyx: re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"h...",
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "4c30d0769442aa71",
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "source_url": "https://x.com/levie/status/2082168124733116537",
+      "source_name": "Follow Builders / @levie",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "Great piece and vision for AI from Zuckerberg"
+      ],
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "original_title": "Aaron Levie: Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Great piece and vision for AI from Zuckerberg",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "af9edf8f69209cb7",
+        "date": "2026-07-30",
+        "title": "Peter Yang: These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl... 2. I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1.... 3. I got tired of using IMDb to rate movies and TV...",
+        "company": "OpenAI",
+        "product": "X / @petergyang",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "多模态",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2082323512069685575",
+        "published_at": "2026-07-29T12:33:07+08:00",
+        "fetched_at": "2026-07-30T11:55:16.605877+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2082323512069685575\", \"text\": \"These are all valid criticisms of Codex, even though I love the product too!\\n\\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1 https://t.co/nFmz6awv7d\", \"createdAt\": \"2026-07-29T04:33:07.000Z\", \"url\": \"https://x.com/petergyang/status/2082323512069685575\", \"likes\": 34, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2082273539776975236\"}, {\"id\": \"2082254852600873376\", \"text\": \"I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code.\\n\\nI made a video walking through my full process, including:\\n\\n1. Creating a design.md and HTML spec\\n2. Prototyping screens in Claude Design\\n3. Building and iterating with Claude Code\\n\\n📌 Subscribe to get the full tutorial tomorrow: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-07-29T00:00:17.000Z\", \"url\": \"https://x.com/petergyang/status/2082254852600873376\", \"likes\": 4, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082254840655405293\", \"text\": \"I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\\n\\nSo I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile.\\n\\nYou can use it to:\\n\\n→ Rate and review your favorites\\n→ Create and share lists\\n→ Discover what to watch or play next\\n\\nBecause of API limits, I’m launching this as a limited release for the first 100 profiles only.\\n\\n📌 Claim your free profile now: https://t.co/HLkDespYE8\", \"createdAt\": \"2026-07-29T00:00:15.000Z\", \"url\": \"https://x.com/petergyang/status/2082254840655405293\", \"likes\": 48, \"retweets\": 0, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082323512069685575\", \"text\": \"These are all valid criticisms of Codex, even though I love the product too!\\n\\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1 https://t.co/nFmz6awv7d\", \"createdAt\": \"2026-07-29T04:33:07.000Z\", \"url\": \"https://x.com/petergyang/status/2082323512069685575\", \"likes\": 34, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2082273539776975236\"}, {\"id\": \"2082254852600873376\", \"text\": \"I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code.\\n\\nI made a video walking through my full process, including:\\n\\n1. Creating a design.md and HTML spec\\n2. Prototyping screens in Claude Design\\n3. Building and iterating with Claude Code\\n\\n📌 Subscribe to get the full tutorial tomorrow: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-07-29T00:00:17.000Z\", \"url\":...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2082254852600873376",
+            "credibility": "community"
+          },
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2082254840655405293",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl",
+          "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+          "I got tired of using IMDb to rate movies and TV"
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl；I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "44b3d0f9d1fc366f",
+        "date": "2026-07-30",
+        "title": "Thibault Sottiaux: Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quic...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of... 2. More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang...",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "API 更新",
+          "产品功能",
+          "Agent",
+          "开发者工具",
+          "安全与合规"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+        "published_at": "2026-07-29T12:09:02+08:00",
+        "fetched_at": "2026-07-30T11:55:16.605030+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2082326593532473523\", \"text\": \"One day we created the reset button and the rest is history.\", \"createdAt\": \"2026-07-29T04:45:22.000Z\", \"url\": \"https://x.com/thsottiaux/status/2082326593532473523\", \"likes\": 4056, \"retweets\": 133, \"replies\": 640, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082317452755751098\", \"text\": \"Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\\n\\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\\n\\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\\n\\nHere’s what we found:\\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\\n\\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\\n\\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.\", \"createdAt\": \"2026-07-29T04:09:02.000Z\", \"url\": \"https://x.com/thsottiaux/status/2082317452755751098\", \"likes\": 11970, \"retweets\": 800, \"replies\": 2121, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082241164850364555\", \"text\": \"More opensource goodness. We have just released a CLI and Type...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2082241164850364555",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quic...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of",
+          "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang"
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of；More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "3710050bc4099dd5",
+        "date": "2026-07-30",
+        "title": "Dan Shipper: i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth inter...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my h...",
+        "company": "OpenAI",
+        "product": "X / @danshipper",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @danshipper",
+        "source_url": "https://x.com/danshipper/status/2082130836485259530",
+        "published_at": "2026-07-28T23:47:30+08:00",
+        "fetched_at": "2026-07-30T11:55:16.607687+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Dan Shipper\", \"handle\": \"danshipper\", \"bio\": \"ceo @every | the only subscription you need to stay at the edge of AI\", \"tweets\": [{\"id\": \"2082273076352315440\", \"text\": \"or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming https://t.co/yZH95T9H6p\", \"createdAt\": \"2026-07-29T01:12:42.000Z\", \"url\": \"https://x.com/danshipper/status/2082273076352315440\", \"likes\": 16, \"retweets\": 0, \"replies\": 5, \"isQuote\": true, \"quotedTweetId\": \"2081473807190028374\"}, {\"id\": \"2082270947793350785\", \"text\": \"This is why i do anti depressants and stimulants. \\n\\nDynamism x2. Join me America! https://t.co/yXB5FbDGsJ\", \"createdAt\": \"2026-07-29T01:04:15.000Z\", \"url\": \"https://x.com/danshipper/status/2082270947793350785\", \"likes\": 40, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2082140136415096933\"}, {\"id\": \"2082130836485259530\", \"text\": \"i spent the morning writing the definitive history of codex on my couch \\n\\nit comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb \\n\\nmy hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode \\n\\nabsolutely goated for creative work. \\n\\nwhole piece will be published on @every in a few weeks\", \"createdAt\": \"2026-07-28T15:47:30.000Z\", \"url\": \"https://x.com/danshipper/status/2082130836485259530\", \"likes\": 178, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082130836485259530\", \"text\": \"i spent the morning writing the definitive history of codex on my couch \\n\\nit comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb \\n\\nmy hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode \\n\\nabsolutely goated for creative work. \\n\\nwhole piece will be published on @every in a few weeks\", \"createdAt\": \"2026-07-28T15:47:30.000Z\", \"url\": \"https://x.com/danshipper/status/2082130836485259530\", \"likes\": 178, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Dan Shipper: i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth inter...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s..."
+        ],
+        "source_context": "Follow Builders / @danshipper / X / @danshipper 的原始信息主要包括：i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "e942b24681c878f3",
+        "date": "2026-07-30",
+        "title": "Madhu Guru: I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t...",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t.co/kfV3qV62T7",
+        "company": "Anthropic",
+        "product": "X / @realmadhuguru",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @realmadhuguru",
+        "source_url": "https://x.com/realmadhuguru/status/2082112941814661236",
+        "published_at": "2026-07-28T22:36:23+08:00",
+        "fetched_at": "2026-07-30T11:55:16.606188+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2082112941814661236\", \"text\": \"I saw a SWE at work today. No Claude. No wispr. No tab key.\\n\\nJust writing code. With his bare hands. https://t.co/kfV3qV62T7\", \"createdAt\": \"2026-07-28T14:36:23.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2082112941814661236\", \"likes\": 18, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2081622865355407385\"}]}, \"tweets\": [{\"id\": \"2082112941814661236\", \"text\": \"I saw a SWE at work today. No Claude. No wispr. No tab key.\\n\\nJust writing code. With his bare hands. https://t.co/kfV3qV62T7\", \"createdAt\": \"2026-07-28T14:36:23.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2082112941814661236\", \"likes\": 18, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2081622865355407385\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Madhu Guru: I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands."
+        ],
+        "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "ad03328904660e4d",
+        "date": "2026-07-30",
+        "title": "Swyx: re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"h...",
+        "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod。要点：1. re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimpli...",
+        "company": "Builder Ecosystem",
+        "product": "X / @swyx",
+        "category": "Builder 观点",
+        "tags": [
+          "Builder 观点",
+          "X"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @swyx",
+        "source_url": "https://x.com/swyx/status/2082199414656127010",
+        "published_at": "2026-07-29T04:20:00+08:00",
+        "fetched_at": "2026-07-30T11:55:16.604194+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @dxtipshq\\n- @cognition\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2082287480687272053\", \"text\": \"https://t.co/uwzHs4G1nt https://t.co/K6E6EHYPeh\", \"createdAt\": \"2026-07-29T02:09:57.000Z\", \"url\": \"https://x.com/swyx/status/2082287480687272053\", \"likes\": 2, \"retweets\": 1, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2082199003983466768\"}, {\"id\": \"2082255848492183583\", \"text\": \"i'm just reporting; many counter examples if you dislike this trend: https://t.co/YZ7z66bEVk\\n\\nsee Edison on @latentspacepod https://t.co/3BDUegJrWf here\", \"createdAt\": \"2026-07-29T00:04:15.000Z\", \"url\": \"https://x.com/swyx/status/2082255848492183583\", \"likes\": 10, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2082254692508401967\"}, {\"id\": \"2082199414656127010\", \"text\": \"re: hiring right now\\n\\nit's a huge bull market for AI-native IC's/player-coaches\\nit's a huge bear market for \\\"heads of X\\\" managers\\n\\nnever seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents &gt; 10 years experience managing 10-100 people\", \"createdAt\": \"2026-07-28T20:20:00.000Z\", \"url\": \"https://x.com/swyx/status/2082199414656127010\", \"likes\": 721, \"retweets\": 25, \"replies\": 69, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082199414656127010\", \"text\": \"re: hiring right now\\n\\nit's a huge bull market for AI-native IC's/player-coaches\\nit's a huge bear market for \\\"heads of X\\\" managers\\n\\nnever seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents &gt; 10 years experience managing 10-100 people\", \"createdAt\": \"2026-07-28T20:20:00.000Z\", \"url\": \"https://x.com/swyx/status/2082199414656127010\", \"likes\": 721, \"retweets\": 25, \"replies\": 69, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Swyx: re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"h...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people"
+        ],
+        "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "4c30d0769442aa71",
+        "date": "2026-07-30",
+        "title": "Aaron Levie: Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+        "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "多模态",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "多模态",
+          "企业服务"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2082168124733116537",
+        "published_at": "2026-07-29T02:15:40+08:00",
+        "fetched_at": "2026-07-30T11:55:16.606737+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2082168124733116537\", \"text\": \"Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu\", \"createdAt\": \"2026-07-28T18:15:40.000Z\", \"url\": \"https://x.com/levie/status/2082168124733116537\", \"likes\": 323, \"retweets\": 30, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2082160210399948869\"}, {\"id\": \"2082114876873597239\", \"text\": \"https://t.co/Zgd4HPRMyi https://t.co/qrbpAbZifu\", \"createdAt\": \"2026-07-28T14:44:05.000Z\", \"url\": \"https://x.com/levie/status/2082114876873597239\", \"likes\": 8594, \"retweets\": 415, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2081575149334335552\"}]}, \"tweets\": [{\"id\": \"2082168124733116537\", \"text\": \"Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu\", \"createdAt\": \"2026-07-28T18:15:40.000Z\", \"url\": \"https://x.com/levie/status/2082168124733116537\", \"likes\": 323, \"retweets\": 30, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2082160210399948869\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+        "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+        "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+        "evidence_points": [
+          "Great piece and vision for AI from Zuckerberg"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Great piece and vision for AI from Zuckerberg",
+        "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "af9edf8f69209cb7",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575",
+      "source_name": "Follow Builders / @petergyang",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "44b3d0f9d1fc366f",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决开发者接入、能力调用或平台集成中的具体问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "3710050bc4099dd5",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530",
+      "source_name": "Follow Builders / @danshipper",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "af9edf8f69209cb7",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "44b3d0f9d1fc366f",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "3710050bc4099dd5",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "e942b24681c878f3",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/realmadhuguru/status/2082112941814661236",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "OpenAI",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl... 2. I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1.... 3. I got tired of using IMDb to rate movies and TV...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of... 2. More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @danshipper",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my h...",
+      "change_type": "Builder 观点, X, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "change_type": "Builder 观点, X, 多模态",
+      "developer_impact": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2082168124733116537"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @realmadhuguru",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t.co/kfV3qV62T7",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/realmadhuguru/status/2082112941814661236"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "OpenAI 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/swyx/status/2082199414656127010"
+    },
+    {
+      "insight": "云厂商的 AI 更新，本质上是在把模型能力变成企业可采购的解决方案。",
+      "explanation": "这对云服务销售、企业集成和行业方案理解尤其重要。",
+      "source_title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "source_url": "https://x.com/levie/status/2082168124733116537"
+    }
+  ],
+  "actions": [
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/swyx/status/2082199414656127010",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2082168124733116537",
+      "reason": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。"
+    }
+  ],
+  "events": [
+    {
+      "id": "af9edf8f69209cb7",
+      "date": "2026-07-30",
+      "title": "Peter Yang: These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl... 2. I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1.... 3. I got tired of using IMDb to rate movies and TV...",
+      "company": "OpenAI",
+      "product": "X / @petergyang",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "多模态",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2082323512069685575",
+      "published_at": "2026-07-29T12:33:07+08:00",
+      "fetched_at": "2026-07-30T11:55:16.605877+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2082323512069685575\", \"text\": \"These are all valid criticisms of Codex, even though I love the product too!\\n\\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1 https://t.co/nFmz6awv7d\", \"createdAt\": \"2026-07-29T04:33:07.000Z\", \"url\": \"https://x.com/petergyang/status/2082323512069685575\", \"likes\": 34, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2082273539776975236\"}, {\"id\": \"2082254852600873376\", \"text\": \"I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code.\\n\\nI made a video walking through my full process, including:\\n\\n1. Creating a design.md and HTML spec\\n2. Prototyping screens in Claude Design\\n3. Building and iterating with Claude Code\\n\\n📌 Subscribe to get the full tutorial tomorrow: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-07-29T00:00:17.000Z\", \"url\": \"https://x.com/petergyang/status/2082254852600873376\", \"likes\": 4, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082254840655405293\", \"text\": \"I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\\n\\nSo I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile.\\n\\nYou can use it to:\\n\\n→ Rate and review your favorites\\n→ Create and share lists\\n→ Discover what to watch or play next\\n\\nBecause of API limits, I’m launching this as a limited release for the first 100 profiles only.\\n\\n📌 Claim your free profile now: https://t.co/HLkDespYE8\", \"createdAt\": \"2026-07-29T00:00:15.000Z\", \"url\": \"https://x.com/petergyang/status/2082254840655405293\", \"likes\": 48, \"retweets\": 0, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082323512069685575\", \"text\": \"These are all valid criticisms of Codex, even though I love the product too!\\n\\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1 https://t.co/nFmz6awv7d\", \"createdAt\": \"2026-07-29T04:33:07.000Z\", \"url\": \"https://x.com/petergyang/status/2082323512069685575\", \"likes\": 34, \"retweets\": 1, \"replies\": 15, \"isQuote\": true, \"quotedTweetId\": \"2082273539776975236\"}, {\"id\": \"2082254852600873376\", \"text\": \"I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code.\\n\\nI made a video walking through my full process, including:\\n\\n1. Creating a design.md and HTML spec\\n2. Prototyping screens in Claude Design\\n3. Building and iterating with Claude Code\\n\\n📌 Subscribe to get the full tutorial tomorrow: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-07-29T00:00:17.000Z\", \"url\":...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2082254852600873376",
+          "credibility": "community"
+        },
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2082254840655405293",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl",
+        "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+        "I got tired of using IMDb to rate movies and TV"
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it availabl；I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "44b3d0f9d1fc366f",
+      "date": "2026-07-30",
+      "title": "Thibault Sottiaux: Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quic...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of... 2. More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang...",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "API 更新",
+        "产品功能",
+        "Agent",
+        "开发者工具",
+        "安全与合规"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "published_at": "2026-07-29T12:09:02+08:00",
+      "fetched_at": "2026-07-30T11:55:16.605030+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2082326593532473523\", \"text\": \"One day we created the reset button and the rest is history.\", \"createdAt\": \"2026-07-29T04:45:22.000Z\", \"url\": \"https://x.com/thsottiaux/status/2082326593532473523\", \"likes\": 4056, \"retweets\": 133, \"replies\": 640, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082317452755751098\", \"text\": \"Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\\n\\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\\n\\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\\n\\nHere’s what we found:\\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\\n\\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\\n\\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.\", \"createdAt\": \"2026-07-29T04:09:02.000Z\", \"url\": \"https://x.com/thsottiaux/status/2082317452755751098\", \"likes\": 11970, \"retweets\": 800, \"replies\": 2121, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2082241164850364555\", \"text\": \"More opensource goodness. We have just released a CLI and Type...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2082241164850364555",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quic...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of",
+        "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang"
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of；More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review chang",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "3710050bc4099dd5",
+      "date": "2026-07-30",
+      "title": "Dan Shipper: i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth inter...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my h...",
+      "company": "OpenAI",
+      "product": "X / @danshipper",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @danshipper",
+      "source_url": "https://x.com/danshipper/status/2082130836485259530",
+      "published_at": "2026-07-28T23:47:30+08:00",
+      "fetched_at": "2026-07-30T11:55:16.607687+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Dan Shipper\", \"handle\": \"danshipper\", \"bio\": \"ceo @every | the only subscription you need to stay at the edge of AI\", \"tweets\": [{\"id\": \"2082273076352315440\", \"text\": \"or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming https://t.co/yZH95T9H6p\", \"createdAt\": \"2026-07-29T01:12:42.000Z\", \"url\": \"https://x.com/danshipper/status/2082273076352315440\", \"likes\": 16, \"retweets\": 0, \"replies\": 5, \"isQuote\": true, \"quotedTweetId\": \"2081473807190028374\"}, {\"id\": \"2082270947793350785\", \"text\": \"This is why i do anti depressants and stimulants. \\n\\nDynamism x2. Join me America! https://t.co/yXB5FbDGsJ\", \"createdAt\": \"2026-07-29T01:04:15.000Z\", \"url\": \"https://x.com/danshipper/status/2082270947793350785\", \"likes\": 40, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2082140136415096933\"}, {\"id\": \"2082130836485259530\", \"text\": \"i spent the morning writing the definitive history of codex on my couch \\n\\nit comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb \\n\\nmy hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode \\n\\nabsolutely goated for creative work. \\n\\nwhole piece will be published on @every in a few weeks\", \"createdAt\": \"2026-07-28T15:47:30.000Z\", \"url\": \"https://x.com/danshipper/status/2082130836485259530\", \"likes\": 178, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082130836485259530\", \"text\": \"i spent the morning writing the definitive history of codex on my couch \\n\\nit comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb \\n\\nmy hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode \\n\\nabsolutely goated for creative work. \\n\\nwhole piece will be published on @every in a few weeks\", \"createdAt\": \"2026-07-28T15:47:30.000Z\", \"url\": \"https://x.com/danshipper/status/2082130836485259530\", \"likes\": 178, \"retweets\": 9, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Dan Shipper: i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth inter...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s..."
+      ],
+      "source_context": "Follow Builders / @danshipper / X / @danshipper 的原始信息主要包括：i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ad03328904660e4d",
+      "date": "2026-07-30",
+      "title": "Swyx: re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"h...",
+      "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod。要点：1. re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimpli...",
+      "company": "Builder Ecosystem",
+      "product": "X / @swyx",
+      "category": "Builder 观点",
+      "tags": [
+        "Builder 观点",
+        "X"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @swyx",
+      "source_url": "https://x.com/swyx/status/2082199414656127010",
+      "published_at": "2026-07-29T04:20:00+08:00",
+      "fetched_at": "2026-07-30T11:55:16.604194+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @dxtipshq\\n- @cognition\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2082287480687272053\", \"text\": \"https://t.co/uwzHs4G1nt https://t.co/K6E6EHYPeh\", \"createdAt\": \"2026-07-29T02:09:57.000Z\", \"url\": \"https://x.com/swyx/status/2082287480687272053\", \"likes\": 2, \"retweets\": 1, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2082199003983466768\"}, {\"id\": \"2082255848492183583\", \"text\": \"i'm just reporting; many counter examples if you dislike this trend: https://t.co/YZ7z66bEVk\\n\\nsee Edison on @latentspacepod https://t.co/3BDUegJrWf here\", \"createdAt\": \"2026-07-29T00:04:15.000Z\", \"url\": \"https://x.com/swyx/status/2082255848492183583\", \"likes\": 10, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2082254692508401967\"}, {\"id\": \"2082199414656127010\", \"text\": \"re: hiring right now\\n\\nit's a huge bull market for AI-native IC's/player-coaches\\nit's a huge bear market for \\\"heads of X\\\" managers\\n\\nnever seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents &gt; 10 years experience managing 10-100 people\", \"createdAt\": \"2026-07-28T20:20:00.000Z\", \"url\": \"https://x.com/swyx/status/2082199414656127010\", \"likes\": 721, \"retweets\": 25, \"replies\": 69, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2082199414656127010\", \"text\": \"re: hiring right now\\n\\nit's a huge bull market for AI-native IC's/player-coaches\\nit's a huge bear market for \\\"heads of X\\\" managers\\n\\nnever seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents &gt; 10 years experience managing 10-100 people\", \"createdAt\": \"2026-07-28T20:20:00.000Z\", \"url\": \"https://x.com/swyx/status/2082199414656127010\", \"likes\": 721, \"retweets\": 25, \"replies\": 69, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Swyx: re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"h...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people"
+      ],
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "4c30d0769442aa71",
+      "date": "2026-07-30",
+      "title": "Aaron Levie: Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "title_zh": "Builder Ecosystem 的企业 AI 信号值得关注",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "多模态",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "多模态",
+        "企业服务"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2082168124733116537",
+      "published_at": "2026-07-29T02:15:40+08:00",
+      "fetched_at": "2026-07-30T11:55:16.606737+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2082168124733116537\", \"text\": \"Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu\", \"createdAt\": \"2026-07-28T18:15:40.000Z\", \"url\": \"https://x.com/levie/status/2082168124733116537\", \"likes\": 323, \"retweets\": 30, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2082160210399948869\"}, {\"id\": \"2082114876873597239\", \"text\": \"https://t.co/Zgd4HPRMyi https://t.co/qrbpAbZifu\", \"createdAt\": \"2026-07-28T14:44:05.000Z\", \"url\": \"https://x.com/levie/status/2082114876873597239\", \"likes\": 8594, \"retweets\": 415, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2081575149334335552\"}]}, \"tweets\": [{\"id\": \"2082168124733116537\", \"text\": \"Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu\", \"createdAt\": \"2026-07-28T18:15:40.000Z\", \"url\": \"https://x.com/levie/status/2082168124733116537\", \"likes\": 323, \"retweets\": 30, \"replies\": 32, \"isQuote\": true, \"quotedTweetId\": \"2082160210399948869\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "core_viewpoint": "核心信号是 AI 能力正在进入企业采购、数据应用和内部自动化场景。",
+      "evidence_points": [
+        "Great piece and vision for AI from Zuckerberg"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Great piece and vision for AI from Zuckerberg",
+      "reader_takeaway": "我的判断：从云服务销售和业务自动化视角看，重点不是功能酷不酷，而是客户能否采购、集成和治理。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "e942b24681c878f3",
+      "date": "2026-07-30",
+      "title": "Madhu Guru: I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t...",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t.co/kfV3qV62T7",
+      "company": "Anthropic",
+      "product": "X / @realmadhuguru",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "source_url": "https://x.com/realmadhuguru/status/2082112941814661236",
+      "published_at": "2026-07-28T22:36:23+08:00",
+      "fetched_at": "2026-07-30T11:55:16.606188+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2082112941814661236\", \"text\": \"I saw a SWE at work today. No Claude. No wispr. No tab key.\\n\\nJust writing code. With his bare hands. https://t.co/kfV3qV62T7\", \"createdAt\": \"2026-07-28T14:36:23.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2082112941814661236\", \"likes\": 18, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2081622865355407385\"}]}, \"tweets\": [{\"id\": \"2082112941814661236\", \"text\": \"I saw a SWE at work today. No Claude. No wispr. No tab key.\\n\\nJust writing code. With his bare hands. https://t.co/kfV3qV62T7\", \"createdAt\": \"2026-07-28T14:36:23.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2082112941814661236\", \"likes\": 18, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2081622865355407385\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Madhu Guru: I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands. https://t...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands."
+      ],
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 6,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 6,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-07-30T11:55:16.622726+08:00"
+  }
+}
