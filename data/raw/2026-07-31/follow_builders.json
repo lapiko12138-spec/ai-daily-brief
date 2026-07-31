@@ -1,0 +1,564 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-07-31T12:20:56.988813+08:00",
+  "events_count": 15,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 16,
+    "totalTweets": 32,
+    "blogPosts": 1,
+    "feedGeneratedAt": "2026-07-30T07:11:33.639Z"
+  },
+  "digest_generated_at": "2026-07-31T04:20:56.961Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-07-31T04:20:56.961Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "AI & I by Every",
+        "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+        "guid": "6676e79c-2984-4653-8a01-2e6431797287",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-07-29T15:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:28\nWhat I've learned with the future is that it's easy to make predictions and hard to make predictions that are true. Gerard Lanier showed me VR in '87. I was completely blown away and I thought, oh my gosh, this is the future. The VR that we had back then is not that much different than the VR you get now. The difference was that was multimillion dollars and it's a $100.\n\nSpeaker 1 | 00:28 - 00:36\nI've been very, very surprised about how slow that has been. You could say VR is still waiting for its LLM moment. AI's fifty year overnight success.\n\nSpeaker 2 | 00:50 - 00:52\nKevin, welcome to the show.\n\nSpeaker 1 | 00:52 - 00:54\nIt's a pleasure to be here. I'm glad to be seen.\n\nSpeaker 2 | 00:55 - 01:15\nI am very excited to have you. In addition to being a personal hero of mine, I am a longtime Wired reader. I had, like, a gigantic shelf of magazines growing up, so it's sort of crazy to get to chat with you. There's a lot of things I wanna talk to you about, but I wanna start with we have a mutual love of Annie Dillard.\n\nSpeaker 1 | 01:15 - 01:16\nMhmm. We do.\n\nSpeaker 2 | 01:16 - 01:24\nShe's my favorite writer, and I know she's your favorite writer as well. Tell me why you like her.\n\nSpeaker 1 | 01:27 - 02:15\nFor for the for those who aren't familiar with Annie, she burst onto the scene with a meteorite of a book called Pilgrim at Tinker Creek that, for some reason, it's account of her spending some year on musing kinda like a Henry David Thoreau intimate investigation of a creek in Virginia or West Virginia. I don't remember. And so it was just the writing and the style and the ideas and her blazing brilliance in being able to capture this into a few words. It was almost like poetry. There was prose.\n\nSpeaker 1 | 02:16 - 02:59\nIt somehow just worked on my brain. And I don't know enough about literature to describe her in relation to other writers and why it doesn't work for me as much, But there was something about her spirit as well as her writing, which was very expansive, cosmic, enthusiastic, questioning. She talked about feeling as if, at one point in the story that she was a bell that someone else had rung. And I felt exactly the same in response to her writing. It was like she was ringing my bell in a curious way.\n\nSpeaker 2 | 02:59 - 03:05\nYeah. Lifted and struck. There's another part in the early part of the book where she talks about the tree with the lights in it.\n\nSpeaker 1 | 03:05 - 03:05\nYeah.\n\nSpeaker 2 | 03:06 - 03:26\nAnd that moment is so very evocative of, like, one of her big themes, which is you can just be sort of walking around in in ordinary life, in ordinary nature, and somehow, like, the veil is lifted from your eyes, and you can experience these moments of transcendence where everything feels like it's glowing from within.\n\nSpeaker 1 | 03:27 - 04:12\nSo yeah. So so there was this her kind of cosmic poetic, you know, ability to kind of take these moments, but then interstitial with that were these findings, these weird little trivia bits that you'd find in some obscure book that you would be grounded in before the next jump. It was it was a a very distinctive way of kind of wrapping rhepsodic ecstasy with very concrete science trivia or oddities, and that combination just somehow appealed to me.\n\nSpeaker 2 | 04:12 - 04:29\nYeah. The the the thing I remember is she spends a a long time talking about Henley's loops, which are like this little part of the kidney. Right. And it's just like, where does that even come from? And, yeah, I think, like, she sort of zooms out to the biggest stuff and then zooms into the smallest stuff.\n\nSpeaker 1 | 04:29 - 04:30\nRight.\n\nSpeaker 2 | 04:30 - 05:04\nBut another thing that's really interesting about her writing, and I'm I'm curious how you've thought about this in your own work, is she spends a lot of time talking about the beauty of the world, but she also spends a lot of time talking about the worst of the world. Like, there's an entire chapter on insects and how gross insects are. She's also angry about it and not afraid to be angry about it, you know? And I think a lot of writers are usually either one or the other. Either you're, like, really angry or you're really everything is beautiful and awesome, and she does both pretty well.\n\nSpeaker 1 | 05:04 - 05:16\nThat's true. She said I think either she said in the book or elsewhere that she wrote the book as if there was a patient of cancer dying in her room.\n\nSpeaker 2 | 05:16 - 05:16\nOh, wow.\n\nSpeaker 1 | 05:16 - 05:28\nAnd she's talking to them. So, yeah, that was yeah. It it is not just saccharin. It's not just sweet kumbaya. It's yeah.\n\nSpeaker 1 | 05:28 - 05:34\nShe's she can be pretty harsh too, and and they usually that is part of the attraction of, you know, the sweet sour flavor.\n\nSpeaker 2 | 05:34 - 05:38\nHow has she, if at all, influenced how you write or edit?\n\nSpeaker 1 | 05:38 - 06:04\nWell, in some ways, it's why I won't write at all because I I I came across that book in the weirdest of all places. It was in a library American library in Kandy, Sri Lanka. Wow. And I walked in because there was air conditioning. And there was a book why they had the book there, I don't know.\n\nSpeaker 1 | 06:04 - 06:20\nBut there was a book that opened up. And from the first immediate paragraph, I once had a Tomcat. You know? Like, it was I was I was caught, and I didn't put it down. And it was like, I don't know what she's doing, but I wanna do that.\n\nSpeaker 1 | 06:20 - 06:25\nIf I could do that, I would you know, I'm it. I'm golden.\n\nSpeaker 2 | 06:25 - 06:29\nI feel the same way. Have you read any of her other any of her other stuff?\n\nSpeaker 1 | 06:29 - 06:38\nYeah. Yeah. I didn't I didn't write read her fiction book, but the other essay books of essay, Teaching a Stone to Talk and\n\nSpeaker 2 | 06:39 - 06:40\nHoly Firm, The Writing Lights.\n\nSpeaker 1 | 06:40 - 06:52\nYeah. Holy the Firm and all those. Yes. And her and her account of the eclipse has the total eclipse. It's sort of never to be equaled.\n\nSpeaker 1 | 06:53 - 06:59\nAnybody who writes about eclipse has to start with Annie's version of it.\n\nSpeaker 2 | 07:02 - 07:38\nYeah. It's it's so funny because, like, the reason I started with Annie is I love her so much and I and she evokes all the same kind of feelings in me that I think she evokes for you and and gives me that same kind of energy to write stuff. If I write stuff after I've read something that she's written, it just it brings something out in me that I just love. And also, no one else I know likes her or even really has heard about her. Like, I feel like a lot of her work is it's maybe taught in school, but it's, like, kind of the thing that you're assigned, but people don't like as much.\n\nSpeaker 1 | 07:38 - 07:43\nWell, they probably also don't read the whole thing. They probably would have understood is they only get the excerpt.\n\nSpeaker 2 | 07:43 - 07:44\nYeah.\n\nSpeaker 1 | 07:44 - 08:14\nYou know, it's probably some one passage about the the lights in the trees or whatever. Yeah. It it is true because because she didn't really I mean, she wrote a couple other books, but she didn't really go on to have a huge amount of work and a huge amount of output for whatever reason. I actually sent her a book that I did when I was riding my bicycle across the country. I did a haiku and a sketch every day.\n\nSpeaker 1 | 08:14 - 08:36\nAnd I sent her the book, the original. And because I thought I was inspired by her. I just thought that she would enjoy it. And she actually sent some nice words in response to the book and sent it back. So that was my kind of my one it was the one time when I kinda wrote to a hero.\n\nSpeaker 2 | 08:37 - 08:38\nThat's really nice.\n\nSpeaker 1 | 08:38 - 08:40\nYeah. She she did reply.\n\nSpeaker 2 | 08:40 - 08:46\nI bet a a reply a reply from Annie is probably pretty rare. So, that's that's pretty great.\n\nSpeaker 1 | 08:46 - 08:52\nI think I still have it. I I think it's right behind me. I should dig it up and see. She did yeah. There was one little drawing.\n\nSpeaker 1 | 08:52 - 08:55\nShe said she really liked that little drawing, so that was that was good.\n\nSpeaker 2 | 08:55 - 09:25\nYeah. Another thing to move on from Annie for a second, one thing that you wrote in your book, The Inevitable, that I really loved and thought was interesting is after living online for the past three decades, first as pioneer in a rather wild empty quarter, and then later as a builder who constructed parts of this new continent, my confidence in this inevitability is based on the depth of these technological changes. I really love the the sort of, like, pioneer to builder transition.\n\nSpeaker 1 | 09:25 - 09:25\nMhmm.\n\nSpeaker 2 | 09:25 - 09:29\nI've been watching this show. It's an old HBO show called Deadwood.\n\nSpeaker 1 | 09:29 - 09:29\nI don't\n\nSpeaker 2 | 09:29 - 09:30\nknow if you've seen it.\n\nSpeaker 1 | 09:30 - 09:31\nI haven't seen it.\n\nSpeaker 2 | 09:32 - 10:02\nBut it's it's basically about Deadwood. I I think now it's South Dakota, but it was like a it was a mining town in in Indian territory before it was annexed into a state, and so it had no law. And the whole show is kind of about that transition from pioneer to, like, order out of chaos. And I think there's a lot of resonance with what was sort of what you wrote and and this yeah. The transition from pioneer to to builder feels like something that's deeply embedded in into tech.\n\nSpeaker 2 | 10:02 - 10:18\nEven with every single wave, like, in the in this new AI wave, there's this whole movement of pioneers, like, kind of figuring out the whole new landscape, and then the builders kind of move in. Tell me about what that's been like for you to participate in and watch over the last couple decades.\n\nSpeaker 1 | 10:18 - 10:41\nYeah. There are a lot you know, there are always feelings of loss as the the kind of the freedom of no laws, the unvarnished, the unconstrained ability to do what you want without having to ask permission, that goes away. And and, oh, actually, I was just just just I had another experience that was like that, which was Burning Man.\n\nSpeaker 2 | 10:41 - 10:41\nMhmm. Yeah.\n\nSpeaker 1 | 10:42 - 11:25\nAnd I was reminded because I did a podcast with Burning Man today and they were reminiscing about, you know, the first, in the '96 or so, the first time I was at Burning Man when there were no streets, there were no, there was no adult supervision at all. There was no sense of order. Was crazy and chaotic and wonderful, but there was a second year, I think, was somebody who died because they got run over by a car and they were just sleeping on the sleeping bag. So it was like, Oh, we need streets. Okay?\n\nSpeaker 1 | 11:25 - 12:06\nAnd and over so over years and years of Burning Man, they have more and more of the layering of law and order, and they have tons and tons of police and sheriffs and whatnot and laws and and the bureaucratic stuff that I had to go through because I did artwork last year. It was unbelievable. It was like dealing with somebody in India. And so but at the same time, I think burning means better than ever. And so you lose something, but actually, I think there's more to be gained by adding that layer of organization and structure and governance.\n\nSpeaker 1 | 12:07 - 12:43\nAnd so what you wanna have is though you still wanna have those zones where there's a frontier. You wanna keep making new territory that generates new frontiers. And some people are better on the frontier than back at the center. And I think that's a wonderful way the world would work. And so for me, I want to maintain both of constantly new frontiers where those are suited to not having to have many rules are able to thrive.\n\nSpeaker 1 | 12:43 - 12:52\nThen those who prefer to have the discipline of working within rules also can thrive.\n\nSpeaker 2 | 12:52 - 13:13\nWhat about in your own life? Because, you know, as someone who's interested in new technology, that requires being on the frontier. And the interesting thing about the frontier is if you're a little bit of a restless spirit, it's pretty cool. That's it. But being a restless spirit is it can be hard.\n\nSpeaker 2 | 13:13 - 13:17\nIt can be lonely. How have you balanced that in your own life or dealt with in your own life?\n\nSpeaker 1 | 13:18 - 13:54\nSo I tend to visit the frontier. I'd spend a lot of my adult life in the very remote parts of Asia, where there is very little infrastructure. I'd spend a early portion of my adulthood for many extended time in areas where there was very little modern infrastructure. And I thoroughly, thoroughly enjoyed it, but I would have died if I needed to live there. I mean, so it was a great place to visit, but it was only great because I was going to leave.\n\nSpeaker 1 | 13:54 - 14:15\nI have the same kind of things with the frontiers. It's like, Yeah, Burning Man's fantastic for two weeks, but it'd be horrible. I have to live there year round. And, you know, being the frontier of the Internet and or AI, my understanding is is that, you know, it's a moving it's a moving frontier. It's gonna move.\n\nSpeaker 1 | 14:15 - 14:42\nI can keep going up to the to the edge to see what's happening, but I don't need to stay there, and I'm gonna actually come back and report anyway. So I have the liberty of being a nomad in that sense of occupying it. So for me, it's a fantastic place to spend the time in, but not a place that I wanna spend all my time in.\n\nSpeaker 2 | 14:42 - 15:07\nAnd how does that work? Because I understand sort of the frontier of going to another country and be able to come home, but with technology, you can be at the frontier in your house. And so is that structured for you? Like, are periods in your life or periods in your day where you're sort of immersing yourself in what's new and then periods where you're kind of in the sort of stability of whatever you're familiar with, or how does it work?\n\nSpeaker 1 | 15:07 - 15:39\nYeah, right. So one of the things that I discovered over time is that all the, my favorite people who were best about the future were actually great historians too. So I bet would balance reading something about AI with trying to read something historical in the past. And, a balance, you know, wrestling with the latest AI stuff with working in my workshop and using my hands. So for me, yes, that's exactly what it is.\n\nSpeaker 1 | 15:41 - 16:08\nJeff Bezos said, you know, he was trying to build a business on the things that didn't change. And so the Long Now Foundation, which I've been very central to, is trying to take a long term view and not just to forward, but also the past. And so for me, I would spend time on this ephemeral frontier, but also then try to think about the next ten thousand years, the last ten thousand years.\n\nSpeaker 2 | 16:08 - 16:16\nAs you're digging into the current AI wave, what are the historical periods that you're thinking about or diving into?\n\nSpeaker 1 | 16:16 - 16:55\nYeah. Actually, I spent a good amount of time recently reading about the discovery and or invention of electricity. Because my contention right now is we have no idea what intelligence is, that we're as ignorant of it as Isaac Newton and others were of electricity when it was first encountered. And Isaac Newton, one of the smartest humans ever, was totally wrong about electricity. Right?\n\nSpeaker 1 | 16:55 - 16:59\nHe had just wrong, weird ideas about it that were just that were just wrong.\n\nSpeaker 2 | 16:59 - 17:04\nWhat did he think about it? I I have not heard anything about Isaac Newton and electricity. That's really interesting.\n\nSpeaker 1 | 17:04 - 17:12\nIt was one of the people who kind of thought that there was this either flog, flog, flogestan. Have you heard of flogestan?\n\nSpeaker 2 | 17:12 - 17:13\nYeah. Flugestan. Yeah. Yeah.\n\nSpeaker 1 | 17:13 - 17:15\nSo it was, it was- The\n\nSpeaker 2 | 17:15 - 17:16\nthing that creates fire.\n\nSpeaker 1 | 17:16 - 17:41\nYeah. It was just kind of, well, no, it was just this kind of, element. And there was another element. And this, and the, the, discovery of electricity was happening at the same time that basically we were understanding what elements and atoms and compounds were. So Davies and Faraday and those guys were almost discovering stuff about, electricity weekly.\n\nSpeaker 1 | 17:41 - 18:18\nAnd the origins of the Royal Academy came out of the weekly meetings that they would have where they would sell tickets and do demos with electricity and make sparks and stuff. And one of the biggest news items in the shocks was when they and I forget who it was, maybe Faraday proved that electricity would happen in a vacuum. Because there goes the ether. You don't need ether. It's like, well, then what is it?\n\nSpeaker 1 | 18:19 - 18:29\nOkay? And there was some of the earliest beliefs, electricity was that it was primarily a biological phenomenon. And there's all those\n\nSpeaker 2 | 18:31 - 18:33\nReflexes and Reflexes and stuff.\n\nSpeaker 1 | 18:33 - 19:09\nAnd so there were just endless theories about what is. And they all reminded me of all the theories we have about what intelligence is because we don't really know what it is. And I have been saying, I suspect that intelligence is not an element, but a compound. That it is made up of a complex of different cognitive elements and we haven't even identified yet in the same way that salt's not a element. Salt is actually a compound of some elements that they had not yet identified.\n\nSpeaker 1 | 19:09 - 19:16\nSo you can think of the kind of the current AI is we're making some kind of salt, and we don't even know what it's made from.\n\nSpeaker 2 | 19:16 - 19:46\nYeah. I think that's true. Where it makes my mind go, and I'm curious how you would respond to this, is we actually do know what it is, but we don't know it in the same way that we know what electricity is. So we don't have an explicit, exact mathematical theory in the same way that we can talk electricity. About And we don't have a way to decompose it into parts that reduce down and then recombine into it.\n\nSpeaker 2 | 19:46 - 20:07\nBut we do know what it is on a in a different way. Like, I'm talking to you, and I know that you're intelligent. And that's harder to grasp. It's not the same kind of graspy, I can pin it down to the wall kind of thing. But I think that that just may be a property of intelligence, that it is sort of like this fuzzy thing.\n\nSpeaker 2 | 20:07 - 20:09\nHow do you think about that?\n\nSpeaker 1 | 20:09 - 20:33\nWell, don't know. You may be confusing recognizing something with knowing it. So I think we can recognize it, but I definitely don't think we know what it is. And in fact, I think our brains are incredibly opaque to introspection deliberately. I think we have these complex things that deliberately does not allow the organism to interfere and meddle with it.\n\nSpeaker 1 | 20:33 - 21:16\nCould you imagine if we had access to the source code, we'd be completely wrecking ourselves. And what the it is, again, I think we humans have a very peculiar complex of things that if we map it out in the possibility space of all possible minds, which is a very high dimensional space, that we're going to be our compounds with the edge. We're an edge species. We're not at the center of anything, the galaxy or the solar system or evolution. We are an edge or kind of intelligence will be revealed to be a very peculiar mixture that's evolved for us.\n\nSpeaker 1 | 21:16 - 21:52\nThen what we're gonna be doing with AIs is making hundreds of various other kinds and filling out that possibility space with many types of thinking. And so we'll look back and we won't even recognize maybe some of these other things as intelligence right now because we don't have a very good definition. It's like, what are the definitions or what are the marks for something that doesn't like a human like intelligence? Some people say, well, there isn't anything. There's only universal intelligence.\n\nSpeaker 1 | 21:52 - 22:27\nAnd that we're just gonna make more of it, that there's only one thing. And that's possible, but I suspect that's wrong. I suspect that there is many compounds and that they will be engineered to do different things. And to some degree, we won't understand even how they work, but that's because they're different. And so I I I think we we are very much like the early days of electricity where we simply didn't have a clue about what it was, even though we could use it, even though we could recognize it.\n\nSpeaker 2 | 22:28 - 22:31\nWhere does your intuition that it's made up of compounds come from?\n\nSpeaker 1 | 22:32 - 23:13\nWell, and several wins. One is Marvin Minsky was the first who suggested it called the society of mind. And then these days, the AIs have mixture of experts where they are already doing that, where they already are taking different kinds of cognition and making them into compounds. And so I think we'll have various layers of this like tissues where you have cells and, or molecules made from elements. And so we're gonna make some very high chain heavy compounds of intelligence at some level, made up from lots of little bits of elemental cognition.\n\nSpeaker 1 | 23:14 - 23:30\nWhat we haven't done yet is done the chemistry of identifying what some of the basic cognitive units are or the cognitive elements. And we may be starting to do that.\n\nSpeaker 2 | 23:30 - 24:27\nThinking about the way neural networks work, a way to look at them is they learn many, many thousands or millions of rules for what to do in particular situations that they can partially apply, and run many, many of those rules in parallel to find the right set that sort of applies to a particular situation. So in that case, like, intelligence is a compound of rules that are about, like, little micro correlations that are applied depending on how relevant they are to a particular situation. But it's interesting to think about how much of those rules are contingent, like they're just situational versus they're sort of universal. Because we do know, for example, how neural networks function at a low level. Like, we know the atomic units.\n\nSpeaker 2 | 24:27 - 24:39\nAnd in fact, like, the specific architecture, the specific set of atomic units that you use doesn't really matter for the high level behavior. It does to some extent, but you can get basically the same behavior to no matter the the the simple components you use.\n\nSpeaker 1 | 24:39 - 24:40\nRight.\n\nSpeaker 2 | 24:40 - 24:47\nSo there's something like always hard to understand in between the simple components and the like outward behavior that we observe.\n\nSpeaker 1 | 24:48 - 25:33\nI mean, Danny Hill has made a computer with Tinker Toys, so you can make computers out of all kinds of elements, logic gates and stuff like that. So I don't wanna confuse neural nets. I don't think that is the basic unit. I think there is a type of reasoning or learning or something that happens with the neural nets that we haven't quite identified yet. That, I would say, would be the the element is is what is that process of pattern matching or if that is what it is or deduction or it's a logic or what's the workflow for doing deduction.\n\nSpeaker 1 | 25:33 - 25:39\nAnd it could be, you know, it could be agnostic to the actual platform.\n\nSpeaker 2 | 25:39 - 26:11\nIt seems like it must be in in some way, but, yeah, that's interesting. One of the things I love about the way that you've set up your career, and and I think probably also the the way that you think about just creative work in general is it's about being honest and authentic to who you are instead of what you think you should be doing. And I found that over and over again, like especially, like, at the beginning of a career, it's, like, really easy to be, like, I need to do things in this particular way.\n\nSpeaker 1 | 26:11 - 26:11\nMhmm.\n\nSpeaker 2 | 26:12 - 26:51\nAnd then at some point, you're, I don't know this kinda at least for me, you're like, this isn't working as well as it should and this kind of sucks. And like, I guess I have to like do the thing that's like more honest to who I am and more shaped to who I am and and it it removes all of this like daily friction. So, like, honestly, like, hearing you talk about that in various forms over the years has been, like, quite helpful for me. How does that look now after many years of thinking that way? Is that still something that's that's on your mind that's difficult that you have to, like, unstick yourself from, or are you kind of do you get used to living that way after a while?\n\nSpeaker 1 | 26:54 - 27:24\nYeah. I mean, my own life was never very planned or deliberate in that sense. I had more directions than destinies or destinations. A phrase that I like or advice that I like to give these days is about don't aim to be the best, aim to be the only, be the only. But that was not something that I was doing consciously when I was younger.\n\nSpeaker 1 | 27:24 - 28:20\nThat was something that I only realized I was doing much later. And it's it's part of the book about wisdom I wish I'd known earlier is that I really did wish that someone had told me that earlier. And so I think I did some a bunch of things very intuitively without necessarily having a grand plan about it. And so so I kind of naturally move in that direction. And this this idea of being the only was made clear to me first at wired where I was trying to assign stories that I had to other writers and often not getting any traction with a great idea that I couldn't sell to anybody.\n\nSpeaker 1 | 28:21 - 28:55\nAnd after years of kind of trying to kill it, I would wind up doing it myself and then realizing, oh, that's because only I can do it, and that's what I should be focusing on to begin with. And so that was so I think the the the clarity of it I I think I have more clarity of it, but I'm still kind of doing what I've always done, but maybe being a little bit more aware of the the actual process of of doing it.\n\nSpeaker 2 | 28:55 - 29:19\nYeah. I I resonate very much with this, like, trying to get writers to to do an idea. So every the company that I run, it's a media company. And it's so different from other any other business because, like, I come from the software world. And if you have a product idea and you build a little bit of it, you can have someone else, like, build a lot build most of the product, and it's totally it can be great.\n\nSpeaker 2 | 29:19 - 29:31\nBut getting a writer to write your idea, it's never any good. Almost almost never. There's, the people who are good ghostwriters are, like, such a small portion of writers.\n\nSpeaker 1 | 29:31 - 29:53\nThat actually wasn't that actually wasn't my experience. My experience was that the writers were even better. So, you know, I signed I had this I discovered reading IEEE Spectrum that they were laying the fiber optic cables around the globe. And I thought, they're wiring up the new sphere. That would be a great story.\n\nSpeaker 1 | 29:53 - 30:14\nSo I signed Neal Stephenson to that. He, you know, he just did this masterpiece that I could never ever have done. And Bruce Sterling and the other great writers, they did a much better job of writing it than than I ever could have.\n\nSpeaker 2 | 30:14 - 30:18\nWell, I wish I had Neal Stephenson writing for me.\n\nSpeaker 1 | 30:18 - 30:35\nWell, okay. Here here's the thing. This is what I tell every aspiring is get the young science fiction writers of today and give them journalistic assignments. They love it because they're born storytellers. You're paying them to go learn something that they wanna learn and they'll come back with something amazing.\n\nSpeaker 2 | 30:36 - 30:54\nI think that's the key thing, and and what I what I'm more talking about rather than like it's it's I I've I've worked with a lot of, like, really talented writers. Everyone that I work with, I think, is super talented. But trying to get someone to write about something they don't really wanna write about, it's never gonna be that good in my experience.\n\nSpeaker 1 | 30:54 - 31:03\nWell, yeah. But yeah. So so you have you have to match it to something that they're interested in. So yeah. That's that's the that's the trick.\n\nSpeaker 1 | 31:03 - 31:25\nI wasn't giving them I wasn't making them write something they weren't interested in, but I was and sometimes that's how the conversation would start. You know? Okay. What's something you're really interested in that we can help make happen, that we can pay you to educate yourself in? And we could jointly come up with an idea.\n\nSpeaker 1 | 31:28 - 31:35\nI mean, if And again, if I was running a magazine, that's the first thing I would start doing is finding the youngest science fiction writers and giving them assignments.\n\nSpeaker 2 | 31:36 - 31:43\nI should, I should look into that. Mostly, I just, find people who write good tweets that I'm that I find interesting.\n\nSpeaker 1 | 31:43 - 32:04\nYeah. That's fine. That's a good way too. But find someone who can tell a good story and has a little bit of a ability to kind of fantasize or, you know, whatever. So, you know, and and Neil was not Neil when we were first starting.\n\nSpeaker 1 | 32:04 - 32:09\nYou know, he he he was still at the beginning of of his career, which is, of course, why he agreed to\n\nSpeaker 2 | 32:09 - 32:24\nit. Yeah. One of the things you you talk about a lot is being a reluctant writer and born editor. And one of the just getting into AI for a second. One of the things that strikes me about AI is it it puts you into editing mode much quicker.\n\nSpeaker 1 | 32:24 - 32:25\nYeah. It does.\n\nSpeaker 2 | 32:25 - 32:27\nHow has that worked for you?\n\nSpeaker 1 | 32:27 - 32:49\nIt's been great because it's I can get over that big hump just just kind of helping get something on the page and starting to work with and kind of illuminating the spots that I'm most ignorant of. And, for me, it's a really great way to start.\n\nSpeaker 2 | 32:49 - 32:57\nIs there anything that has worked particularly well, like, as part of your workflow to, like, to get it started?\n\nSpeaker 1 | 32:58 - 33:31\nWell, I use it for I use some of them for research too, and that's another way, you know, while you're researching, you're summarizing stuff So there are these elements that begin to take place. The LILMs are really good at organizing things. That's another see, I'm not that organized normally. I don't I kind of, I'm a gardener rather than an architect in terms of things. And so I can get a little bit more further along in thinking about it in an architectural way.\n\nSpeaker 1 | 33:32 - 33:37\nSo for me, it's a, yeah, it's a great way to start on things.\n\nSpeaker 2 | 33:37 - 33:40\nWhat are you using day to day AI wise? Like, what which models?\n\nSpeaker 1 | 33:40 - 33:43\nI'm using mostly OpenAI right now.\n\nSpeaker 2 | 33:43 - 33:49\nDo you use any, like, any particular one? Like, are you using four o, o o one, o three?\n\nSpeaker 1 | 33:50 - 33:51\nI have the o one pro.\n\nSpeaker 2 | 33:52 - 33:53\nDo you like it?\n\nSpeaker 1 | 33:53 - 34:18\nYeah. I mean, I've done some of, you know, for a very deep research and it's it's it's astounding. I'm just reminded again and again that this is a skill. Using him, getting the most from it is a skill that will take your ten thousand hours. And it's definitely not just pushing the buttons.\n\nSpeaker 1 | 34:18 - 34:43\nIt's not just clicking. And so it it's very apparent to me that, you know, I need to spend a lot more time whispering and understanding how it is and what is how to use it. And so my needs right this moment are not so that I'm using that level of research every day.\n\nSpeaker 2 | 34:43 - 34:48\nDo you have specific examples of, like, when you've used it for research that it has, like, blown you away?\n\nSpeaker 1 | 34:49 - 35:32\nI did something, and this is a little bit of something I've been meaning to write about, which is I I I had this fantasy. I had had this observation that I realized that Leonardo da Vinci, Martin Luther, and Christopher Columbus were all alive at the same time. And I said, I was this is my conversation with the AI. I said, imagine it's a snowy evening and all three are stuck in the same hotel together and they have a conversation. You know, give me the conversation based on, you know, based on your writings and or their interests and their personalities and their and so they did the conversation.\n\nSpeaker 1 | 35:32 - 35:52\nI said, that was amazing. But they're they got along so well, they decided to collaborate on a project. What would that project be? And this was the AI's idea. The AI's idea was that they would want to start a new city in the new world that was based around science and religious freedom.\n\nSpeaker 1 | 35:54 - 36:26\nAnd I said, okay, you'll start writing Wikipedia articles about this city and start we'll start filling it in. And then we had characters and peoples and histories. And then I was going on with so I need to tell have actually to tell research stories based on these characters. And then I introduced other things like other contemporaries like the queen of Victoria who was alive at the same time. She was the main rival trying to take down the city.\n\nSpeaker 1 | 36:26 - 37:11\nThere was they reached China ten years before the Portuguese, and then they would bring all the books from China. And so I was just making this bigger and bigger, bigger thing, world building, and I started I I got 10 different novels from it, and then I had them had synthesized and ironed out all the contradictions between the novels and make a big epic saga. And then I had it write the making book covers and writing the marketing materials. And the point of all this is that I'm not going show it to anybody because I don't need to. The joy of creating it was better than reading it.\n\nSpeaker 1 | 37:13 - 37:50\nIt was the audience of one. And so what I'm hypothesizing is that a lot of the generative stuff, the 50,000,000, images that are generated each day with AI, 99.999% have the audience of one. They're generated for the pleasure of the co creator. And this idea of people will be making feature length movies for themselves. And the the the pleasure will be in the generating of the movie, the co generating of the movie that you're directing.\n\nSpeaker 1 | 37:50 - 38:07\nYou'll be directing the movie for yourself. And anyway, so that was a project that I was using Prophet because the the the degree of historical realism and fantasy was mind bending.\n\nSpeaker 2 | 38:08 - 38:17\nThat's really cool. I love that. It seems like there's an interesting line from a thousand true fans to an audience of one. Yeah. How have you thought about that?\n\nSpeaker 1 | 38:18 - 38:23\nWell, of course, there's no economic model for the audience of one.\n\nSpeaker 2 | 38:25 - 38:27\nThere is for OpenAI.\n\nSpeaker 1 | 38:27 - 38:46\nRight. Exactly. I think this is in you know, this is the abundance mindset where where you have the time to to do this. So so I I think this is not so much a a business or or someone's career. I think this is kind of a different form of entertainment or self expression.\n\nSpeaker 1 | 38:46 - 39:12\nIt's just like Sunday painting or keeping a journal or you know, someone doing ice skating. It's it's a form of self expression and relaxation and enjoyment, entertainment. So it's it's it's closer to entertainment than it is to actually, you know, a career.\n\nSpeaker 2 | 39:12 - 39:51\nIt reminds me a little bit of have you are you familiar with active imagination? No. It's a it's part of like Jungian psychotherapy. The idea being you can do active imagination where you you take a dream that you've had recently and you sort of like reenter the dream world while you're waking, and you explore some of the archetypes and themes either by writing them out or just, like, exploring them to to to and with yourself. And in doing that, it kind of reflects back to you things that might be, like, a little bit more late in in your psyche.\n\nSpeaker 2 | 39:51 - 40:09\nSo the fact that you're playing around with these characters and you're and these novels are going in different directions or whatever and the decisions that you're making might say something to you about what you're processing or like what you're what you're currently thinking about that in addition to just being really fun, it might tell you something about yourself.\n\nSpeaker 1 | 40:10 - 40:39\nMhmm. Yeah. So it may be something like that. In fact, you know, I mean, I think there will be very, very good AI therapists. And maybe to the extent that we may not even make that distinction, maybe some particular AI companions, AI buddies, AI partners will perform some of that, and people will use them in that capacity even though they're not maybe nominated as that.\n\nSpeaker 1 | 40:39 - 41:01\nAnd, again, this is something else I've been saying is I think people are gonna be shocked by the degree of emotion emotional bonding that we will have as we put emotions into the AIs. And some people will be very, very close to these on a always on basis and very dependent on them to do their best.\n\nSpeaker 2 | 41:02 - 41:06\nYeah. One thing that I don't know if you saw, but just came out today, like a couple hours ago.\n\nSpeaker 1 | 41:07 - 41:09\nNo. I haven't seen them in podcast.\n\nSpeaker 2 | 41:10 - 41:48\nWhat You're in for a treat when you get off the when you get off the podcast grind, but OpenAI released a new memory system for Chechi BT. So previously, Chechi BT, you could ask it to save memories, but it would like do it when it was really explicitly told to. And, you know, when it like really thought, okay, this is definitely something I need to store. But what the new memory system does is it just it it it is able to access all the past history of all your chats that are relevant automatically. So you can ask things like, what do you know about me that from all of our chats that I might not know about it myself?\n\nSpeaker 2 | 41:48 - 42:05\nAnd it will just go through all these historical chats and tell you a lot of really interesting things. I've been playing I was playing around with it all day before we we got on the show. I think you'll really I think you'll really like it and I think to that sort of emotional attachment point, I wanna use something that feels like it knows me.\n\nSpeaker 1 | 42:05 - 42:05\nSure.\n\nSpeaker 2 | 42:06 - 42:19\nI get I get more I get more more attached to it. I personally think that's really good, but there's there's trade offs, obviously, and I'll be curious to see how that changes how we relate to each other too over the next couple years.\n\nSpeaker 1 | 42:19 - 42:22\nYeah. Yeah. That's cool.\n\nSpeaker 2 | 42:23 - 42:31\nI've been I've noticed that you're also doing a lot of tweeting with, it looks like AI generated images. Are you using are you using native image gen for that?\n\nSpeaker 1 | 42:31 - 42:32\nI think they're mostly mid journey.\n\nSpeaker 2 | 42:32 - 42:33\nMid journey.\n\nSpeaker 1 | 42:33 - 43:03\nYeah. Which for me, I just have a habit of that. It's it's comfortable. I know Dolly I mean, not Dolly. The chat now has some, which I've tried and and it's pretty good, but I just I actually like the public aspect of the mid journey discord where you actually it was a huge quick learning curve because you're seeing what the prompts other people were doing and how you could get there.\n\nSpeaker 1 | 43:03 - 43:05\nAnd I and I like that public aspect of it.\n\nSpeaker 2 | 43:05 - 43:35\nYeah. I'm curious if we if we zoom back out. You've seen a lot of different technology waves. I think one of the interesting things about this particular one is how how scared people are, and that's probably been true to some extent of previous ones. But I think in a lot of ways, like, with mobile, it was like people didn't even care.\n\nSpeaker 2 | 43:35 - 43:51\nIt just, like, wasn't even on their minds for a while, at least in my lifetime. And I'm curious what you've learned about, like, seeing all these different waves come and go, like, what you've learned about the future and how to think about the future.\n\nSpeaker 1 | 43:53 - 44:00\nThat's a pretty big question. I think the first thing I think about all the places that I was wrong.\n\nSpeaker 2 | 44:00 - 44:01\nWhere were you wrong?\n\nSpeaker 1 | 44:01 - 44:26\nOh, so many, so many times. I was very wrong about VR. I saw Jared Lanier showed me VR in '87, something like that, in his lab. And I was completely blown away. And I thought, oh my gosh, this is this is this is the future.\n\nSpeaker 1 | 44:26 - 44:52\nThis is amazing. And to be clear, the VR that we had back then, which was thirty, forty years ago, it's crazy, can't remember. It's a lot of years ago, many decades, is not that much different than the VR you get now. The difference was that that was multimillion dollars and it was now a $100. That's the main difference.\n\nSpeaker 1 | 44:52 - 45:32\nIt was not that it was actually that much better now. It is better, but it's not a million times better, but it's a million times cheaper. And so I've been very, very surprised about how resistant, how slow, how slow that has been because I really expected that to take off. I was wrong about eBay, just as a trivial example. I thought, I don't get you know, what's it's who who would use this?\n\nSpeaker 1 | 45:32 - 46:05\nAnd I just didn't have the imagination to to see it. I was early to blockchain, but I I didn't think Bitcoin was really going to be much. I didn't understand. I didn't I didn't foresee the way in which it became this store of value. And I expect like everyone else that it could be used for micro payments, but it was I didn't understand it.\n\nSpeaker 1 | 46:05 - 46:37\nWe didn't appreciate it. We didn't know how expensive it was gonna be to to do a processing. And so so my expectations about the role of blockchain, I also thought that we would have more of a headway into things that were not financial. And and again, so blockchain became completely overwhelmed by the amount of money in it, and it became about money and finance. And I was thought that it would be used for things that had nothing to do with finance.\n\nSpeaker 1 | 46:37 - 46:50\nThat really didn't happen. So that's when I think about what I've learned with the future, that it's easy to make predictions and hard to make predictions that are true.\n\nSpeaker 2 | 46:52 - 47:11\nWell, if we if we go back to the specific cases, it seems like there is one case where you're like, this has definitely got a future. And another and two other cases where you're like, this not I don't think these are really that that great. And what do you think you missed? Let's talk about the first one where you're like, this definitely has a future. What do you draw from that?\n\nSpeaker 2 | 47:11 - 47:18\nWhat do you think you you missed there that made it much harder than you expected to get people to adopt it?\n\nSpeaker 1 | 47:18 - 47:48\nI think it required a lot of biology and understanding or or being able to work with biological things rather than just our mind. You have focusing on your eyes. You have just the weight of the thing on your head. There's just a lot of biological things in addition to the hardware things. You have hardware biology and that that is just going to go slower.\n\nSpeaker 1 | 47:48 - 48:43\nSo one the things I take from that is I think the arrival of robots is going to take a lot, lot, lot longer than people think because we have a 25 watt supercomputer and a quarter horsepower engine, and and there's no no way we can do all that kind of stuff with that kind of efficiency anywhere close to that. So the amount of power that we need to either compress or to eliminate by making more efficient things is is is a huge, huge, huge gap. And so that, again, that physicality of it, particularly around our bodies and stuff, or near scale of our bodies, think is is gonna be a lot slower. And that's what I've taken away from the thing the way I've learned about VR is that it's gonna take a lot more time than than just making AI.\n\nSpeaker 2 | 48:43 - 49:21\nWell, that's interesting because I was gonna bring up AI as an interesting parallel example where it also took a lot longer to do AI than we thought it would, but then it just all seemed to suddenly happen in like ten years. And I'm curious what you think the leading indicators are for something like, okay, so AI didn't work for fifty years, and then, like, suddenly in, like, 2010 or so, it started to, like there was some, like, glimmers of hope, and then ChatGubati a couple years ago is, like, really, wow, this is a thing. In VR, if we wanted to measure where we are in that cycle, do you have a thought for that?\n\nSpeaker 1 | 49:21 - 50:09\nYeah. I mean, you could say VR is still waiting for its LLM moment, right, where where where there's some technical breakthrough in the lenses or focusing or something or projection that allows for that. So it's interesting too that the LLMs were kind of not working on reasoning directly. Were they were doing language translation and that's they noticed that there was some reasoning happening in language translation, which was completely unexpected. And maybe the key technology for VRAR will come from somewhere else, but it hasn't happened yet.\n\nSpeaker 1 | 50:09 - 50:21\nIt doesn't look like it's happening right now. So I yeah. We you know, AI is a yeah. It's a fifty year overnight success. And\n\nSpeaker 2 | 50:22 - 50:31\nWhat about what about going back to the other two examples. So eBay and blockchain of, like, hey. Like, I don't this isn't really that interesting.\n\nSpeaker 1 | 50:32 - 50:49\nRight. Right. So eBay, I think with the auction stuff and I think the only reason why eBay worked is that people move beyond the auction. I use eBay all the time and I've never used auction. I just have no patience for it.\n\nSpeaker 1 | 50:49 - 51:10\nSo I think the idea that it was this idea that it was auctions and that I didn't connect to and I was never really interested in. And I could be wrong, but for me eBay has only now succeeded because most people aren't using the auctions. But I don't know if that's really true or not. Do you use auctions on eBay?\n\nSpeaker 2 | 51:10 - 51:17\nI I only I got really into eBay when I was like 10 and I was like, wanna sell everything in my dad's garage, you know.\n\nSpeaker 1 | 51:17 - 51:18\nDid you?\n\nSpeaker 2 | 51:19 - 51:31\nI didn't end up doing it because it it just selling things online as 10 year old was it was a complicated situation. Yeah. Yeah. But I was really into it for that reason, but I I've never really bought anything on eBay. I I've never I never bid.\n\nSpeaker 1 | 51:32 - 52:13\nSo so eBay is actually very, very useful. It's kinda like there's Amazon, and then there's, you know, Alibaba, and then there's eBay, which is sort of like all the things that either aren't officially for sale or, you know, they're way out of stock or out of print, or they're totally obscure. And so for me, if I can't find it on Amazon, you look at Alibaba, then you're onto eBay. Etsy is another level which is like, you know, handmade stuff, but there's eBay is really good for like really obscure stuff. And then they do have the option of auction, but I never use it.\n\nSpeaker 1 | 52:13 - 52:29\nBut anyway, so for me, the the thing was this idea of auctioning for everything. Didn't seem like that was gonna work. But for a while, it it it did, and that was just me personally just not being much of a bargainer type.\n\nSpeaker 2 | 52:29 - 52:43\nI guess you can't win them all. I know you have a hard stop. Kevin, it was really great to get a chance to chat. Thank you so much. Would love to do this again soon.\n\nSpeaker 1 | 52:43 - 52:49\nYeah. It was a pleasure. Great things, and I'm glad there's another Andy Dillard fan.\n\nSpeaker 3 | 52:57 - 53:09\nOh my gosh, folks. You absolutely positively have to smash that like button and subscribe to AI and I. Why? Because this show is the epitome of awesomeness. It's like finding a treasure chest in your backyard.\n\nSpeaker 3 | 53:09 - 53:31\nBut instead of gold, it's filled with pure unadulterated knowledge bombs about chat GPT. Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat craving for more. It's not just a show. It's a journey into the future with Dan Shipper as the captain of the spaceship. So do yourself a favor.\n\nSpeaker 3 | 53:31 - 53:40\nHit like, smash subscribe, and strap in for the ride of your life. And now without any further ado, let me just say, Dan, I'm absolutely, hopelessly in love with you."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2082617801362313527",
+            "text": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that everyone hates\n\npeople who say \"make something people want\" dont have the full picture https://t.co/DHT1CcVMbk https://t.co/j7J7irkwIB",
+            "createdAt": "2026-07-30T00:02:31.000Z",
+            "url": "https://x.com/swyx/status/2082617801362313527",
+            "likes": 24,
+            "retweets": 0,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2052556538339045666"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2082655731204096275",
+            "text": "This week is all about intelligence too cheap to meter. Tomorrow we ship again.",
+            "createdAt": "2026-07-30T02:33:14.000Z",
+            "url": "https://x.com/thsottiaux/status/2082655731204096275",
+            "likes": 6473,
+            "retweets": 228,
+            "replies": 742,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2082637967852806207",
+            "text": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you. https://t.co/3Enah7xd4t",
+            "createdAt": "2026-07-30T01:22:39.000Z",
+            "url": "https://x.com/thsottiaux/status/2082637967852806207",
+            "likes": 1020,
+            "retweets": 35,
+            "replies": 117,
+            "isQuote": true,
+            "quotedTweetId": "2082609662231502932"
+          },
+          {
+            "id": "2082609662231502932",
+            "text": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
+            "createdAt": "2026-07-29T23:30:11.000Z",
+            "url": "https://x.com/thsottiaux/status/2082609662231502932",
+            "likes": 6926,
+            "retweets": 456,
+            "replies": 534,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2082642205811106158",
+            "text": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read anything\n\nIt's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did.\n\n2. Getting distracted by agents while I’m out\n\nIt’s too easy to open ChatGPT or Claude on my phone while I’m out to give feedback my agents and feel “productive,” even when I’m supposed to be watching my kids or doing literally anything else.\n\n3. Preferring to talk to the agent vs. a human\n\nThis is a new pattern with ChatGPT Voice, I sometimes find myself preferring to brainstorm with the agent instead of the actual human in the room.",
+            "createdAt": "2026-07-30T01:39:30.000Z",
+            "url": "https://x.com/petergyang/status/2082642205811106158",
+            "likes": 201,
+            "retweets": 8,
+            "replies": 56,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2082579428090192192",
+            "text": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anything.\n\nI’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet.\n\n📌 Here’s how I use Claude Design to prototype: https://t.co/DYtxQdhytA",
+            "createdAt": "2026-07-29T21:30:02.000Z",
+            "url": "https://x.com/petergyang/status/2082579428090192192",
+            "likes": 34,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2082473770741272747"
+          },
+          {
+            "id": "2082519030859264086",
+            "text": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nTo avoid this, I always create a design md file with guidelines for color, typography, and more.\nHere are a few places to find inspiration for your design md:\n\n1. Go to @mobbin and install its MCP to find design patterns and app screens you like. Paste the screens and ask AI to make a design md.\n\n2. Check out designmd sh, which has a library of design md files for popular websites and apps.\n\n📌 I walk through an example of creating a design md in my new tutorial: https://t.co/3LIw4UXbpi",
+            "createdAt": "2026-07-29T17:30:02.000Z",
+            "url": "https://x.com/petergyang/status/2082519030859264086",
+            "likes": 412,
+            "retweets": 23,
+            "replies": 13,
+            "isQuote": true,
+            "quotedTweetId": "2082473770741272747"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2082550710160310587",
+            "text": "That is why we must pace https://t.co/CoIo5Y5Mf5",
+            "createdAt": "2026-07-29T19:35:55.000Z",
+            "url": "https://x.com/thenanyu/status/2082550710160310587",
+            "likes": 27,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2082388217849053631"
+          },
+          {
+            "id": "2082480369543065855",
+            "text": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products?\n\nWhen I think about it, a couple of mundane examples come to mind. 3M post-it notes, and Expo whiteboard markers are unmatched. The alternatives are garbage https://t.co/DbY8Ltyg3F",
+            "createdAt": "2026-07-29T14:56:25.000Z",
+            "url": "https://x.com/thenanyu/status/2082480369543065855",
+            "likes": 49,
+            "retweets": 3,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2082359345833279614"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2082629168035201459",
+            "text": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier. https://t.co/x4EPGKFvSQ",
+            "createdAt": "2026-07-30T00:47:41.000Z",
+            "url": "https://x.com/realmadhuguru/status/2082629168035201459",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "1997438567203872788"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "bio": "Google’s home for our latest AI tools and experiments.",
+        "tweets": [
+          {
+            "id": "2082501360466174163",
+            "text": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session.\n\nWhat this means for your tracks:\n\n✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs and export stems for full-length songs!\n\n🎤 Upgraded vocals: More expressive, dynamic, and rich singing.\n\n🎸 Richer musicality: Arrangements flow more naturally from note to note.\n\nHear it for yourself and start creating at https://t.co/3XMUc2pkzU 👇",
+            "createdAt": "2026-07-29T16:19:49.000Z",
+            "url": "https://x.com/GoogleLabs/status/2082501360466174163",
+            "likes": 308,
+            "retweets": 34,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2082508826767679668",
+            "text": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Design is powered by the best of open and closed models to generate superior aesthetics. https://t.co/qt5XNdHfQ8 https://t.co/Nqjzz7EyVO",
+            "createdAt": "2026-07-29T16:49:30.000Z",
+            "url": "https://x.com/amasad/status/2082508826767679668",
+            "likes": 404,
+            "retweets": 15,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2082496843368255985"
+          },
+          {
+            "id": "2082505558293467363",
+            "text": "Post-prompt era https://t.co/fUiEzr3Fik",
+            "createdAt": "2026-07-29T16:36:30.000Z",
+            "url": "https://x.com/amasad/status/2082505558293467363",
+            "likes": 253,
+            "retweets": 9,
+            "replies": 16,
+            "isQuote": true,
+            "quotedTweetId": "2082501334612541747"
+          },
+          {
+            "id": "2082504898801999990",
+            "text": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out! https://t.co/Nqjzz7EyVO",
+            "createdAt": "2026-07-29T16:33:53.000Z",
+            "url": "https://x.com/amasad/status/2082504898801999990",
+            "likes": 1417,
+            "retweets": 51,
+            "replies": 40,
+            "isQuote": true,
+            "quotedTweetId": "2082496843368255985"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2082658870523248967",
+            "text": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. \n\nThis in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. \n\nBut I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuing to drive down prices until capacity can catch up.\n\nThere are too many model providers and infra players that want these workloads to cause the effect that’s proposed here. But will see!",
+            "createdAt": "2026-07-30T02:45:43.000Z",
+            "url": "https://x.com/levie/status/2082658870523248967",
+            "likes": 133,
+            "retweets": 10,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2082482530209411419"
+          },
+          {
+            "id": "2082514776392175844",
+            "text": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more.\n\nEven in the happy path case with a good actor, if you give an agent a task like \"find all of our most important IP on project Maven\" it will gladly go out and execute that work -no matter how long- and find any resource relevant to the task. It might run into data with out of date access controls or reveal something that you shouldn't know about. Then, in the non-happy path case with a malicious actor the risk is clearly far worse.\n\nIn theory, you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments.\n\nThis obviously creates a huge opportunity for the startup and security ecosystems because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work.",
+            "createdAt": "2026-07-29T17:13:08.000Z",
+            "url": "https://x.com/levie/status/2082514776392175844",
+            "likes": 148,
+            "retweets": 24,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2082232405629235649"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2082539893729972320",
+            "text": "your agents, anywhere\n\ntry Cursor on iOS today https://t.co/cUpj159sqj",
+            "createdAt": "2026-07-29T18:52:57.000Z",
+            "url": "https://x.com/ryolu_/status/2082539893729972320",
+            "likes": 371,
+            "retweets": 9,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2082532273421955513"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2082529714162536926",
+            "text": "The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state\n\nhttps://t.co/svoLRmiRhD https://t.co/90vXFe4Ydq https://t.co/SdOOWXAZ7b",
+            "createdAt": "2026-07-29T18:12:30.000Z",
+            "url": "https://x.com/garrytan/status/2082529714162536926",
+            "likes": 189,
+            "retweets": 22,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2082173948318384265"
+          },
+          {
+            "id": "2082518742752461268",
+            "text": "Manhattan Institute is the truth https://t.co/mN8Qi19I0u",
+            "createdAt": "2026-07-29T17:28:54.000Z",
+            "url": "https://x.com/garrytan/status/2082518742752461268",
+            "likes": 113,
+            "retweets": 13,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2082440084125532410"
+          },
+          {
+            "id": "2082472533337813241",
+            "text": "Seasoned founders in the age of intelligence are aging like fine wine https://t.co/XVdaAVdine https://t.co/PXnKOcAQ9Q",
+            "createdAt": "2026-07-29T14:25:17.000Z",
+            "url": "https://x.com/garrytan/status/2082472533337813241",
+            "likes": 2046,
+            "retweets": 171,
+            "replies": 188,
+            "isQuote": true,
+            "quotedTweetId": "2073858886180942200"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2082705944782520462",
+            "text": "If you both have deep domain expertise &amp; experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible https://t.co/vRwyZoTf3a",
+            "createdAt": "2026-07-30T05:52:46.000Z",
+            "url": "https://x.com/zarazhangrui/status/2082705944782520462",
+            "likes": 24,
+            "retweets": 1,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2082472533337813241"
+          },
+          {
+            "id": "2082684904136134881",
+            "text": "Being good at marketing is not just good for your marketing; it’s good for your product \n\nSo many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and use these products https://t.co/d9TuyWeVpW",
+            "createdAt": "2026-07-30T04:29:10.000Z",
+            "url": "https://x.com/zarazhangrui/status/2082684904136134881",
+            "likes": 26,
+            "retweets": 6,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2082437553030901814"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2082507794889220545",
+            "text": "Evergreen post - wrote this as I held my son who’s now 20 months old! https://t.co/ZYutlcl2c2",
+            "createdAt": "2026-07-29T16:45:24.000Z",
+            "url": "https://x.com/nikunj/status/2082507794889220545",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "1857570527008698384"
+          },
+          {
+            "id": "2082460273005433192",
+            "text": "First kid teaches you unconditional love. \n\nSecond kid teaches you unbridled joy. \n\nAs AGI (digital & physical) comes close, having close family and friends is going to be the most important (only?) human connection we have. So if you are on the fence, let this be a vote in the yes direction!\n\nDon’t get me wrong having kids is really hard and one of life’s only irreversible choices - the highs are really high and the lows well sometimes can be very low (mostly temporary though). \n\nBut oh my, it’s such a privilege to have these two and I honestly wouldn’t trade it for anything else!",
+            "createdAt": "2026-07-29T13:36:33.000Z",
+            "url": "https://x.com/nikunj/status/2082460273005433192",
+            "likes": 50,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2082617409408762124",
+            "text": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?\nhttps://t.co/DPdPc04YZT https://t.co/ObXC5D8g4v",
+            "createdAt": "2026-07-30T00:00:58.000Z",
+            "url": "https://x.com/steipete/status/2082617409408762124",
+            "likes": 2884,
+            "retweets": 70,
+            "replies": 169,
+            "isQuote": true,
+            "quotedTweetId": "2080699504576045299"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2082613916706693560",
+            "text": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is\n\nHave not seen vibes this high in a while. If you haven’t tried it yet, you should https://t.co/L6c67tNeF2",
+            "createdAt": "2026-07-29T23:47:05.000Z",
+            "url": "https://x.com/danshipper/status/2082613916706693560",
+            "likes": 217,
+            "retweets": 15,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2082608994275725650",
+            "text": "incredibly good write up \n\nbad actors will obviously try to use models to do stuff like this on purpose in the future. \n\non the bright side:\n\n- OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits\n- HG’s AI actually surfaced the attack automatically (though not with a high enough criticality) \n\nWill obviously require any company dealing with sensitive customer data to have automated agentic defense systems, massive opportunity and seems effective",
+            "createdAt": "2026-07-29T23:27:31.000Z",
+            "url": "https://x.com/danshipper/status/2082608994275725650",
+            "likes": 27,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2082201245813514613"
+          },
+          {
+            "id": "2082605739256734153",
+            "text": "usually the most honest answer ime https://t.co/tqDureRmzo",
+            "createdAt": "2026-07-29T23:14:35.000Z",
+            "url": "https://x.com/danshipper/status/2082605739256734153",
+            "likes": 100,
+            "retweets": 4,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2082582897387512286"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2082558632705896899",
+            "text": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots.\n\nThis is what AI researchers are going through and explains all the goddamn drama.\n\nThey are MVPs with 18 months on the shot clock.",
+            "createdAt": "2026-07-29T20:07:24.000Z",
+            "url": "https://x.com/adityaag/status/2082558632705896899",
+            "likes": 147,
+            "retweets": 4,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2082538703432630398",
+            "text": "Some observations from our Demo Faire yesterday:\n\n1/ There is a tremendous amount of interest from the larger investor community for frontier technology. Robots. Drones. Semiconductors. Bring it all. \n\n2/ The interest in Frontier Tech is legitimately Based. People want 🇺🇸 to win.\n\n3/ The bar for \"great\" in software has gone up a lot. If you are building something that resembles vertical SaaS or agent-for-X, then you have to show something truly different in terms of vision or on a bonkers ramp.\n\n4/ You should only do early stage investing if you love building the future. That is the real joy of it. It was so cool to see everyone deeply engaging with our founders about what they were building (as opposed to simply asking for up and to the right graphs).\n\n5/ Silicon Valley does best when we understand that it takes a village to build something special for many decades.",
+            "createdAt": "2026-07-29T18:48:13.000Z",
+            "url": "https://x.com/adityaag/status/2082538703432630398",
+            "likes": 66,
+            "retweets": 11,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2082628413769003269",
+            "text": "so excited for this.\n\nvery close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves.\n\nwe all deserve the benefits. https://t.co/nzfHpb96re",
+            "createdAt": "2026-07-30T00:44:41.000Z",
+            "url": "https://x.com/sama/status/2082628413769003269",
+            "likes": 3117,
+            "retweets": 190,
+            "replies": 432,
+            "isQuote": true,
+            "quotedTweetId": "2082516370949062989"
+          },
+          {
+            "id": "2082627724040884667",
+            "text": "goblin-level blog post https://t.co/pmcqmDjE4f",
+            "createdAt": "2026-07-30T00:41:57.000Z",
+            "url": "https://x.com/sama/status/2082627724040884667",
+            "likes": 2817,
+            "retweets": 79,
+            "replies": 171,
+            "isQuote": true,
+            "quotedTweetId": "2082609662231502932"
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "publishedAt": "Jun 08, 2026",
+        "author": "",
+        "description": "",
+        "content": "Today we&#x27;re releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple&#x27;s Foundation Models framework to call Claude for more complex workflows. Apple’s Foundation Models framework gives developers access to tap into models natively from Swift. It is very easy to use and can return typed Swift values through guided generation in as few as three lines of code. Developers can use this to tap into Apple’s on-device models for fast, local tasks like summarization or extraction. Developers can now use Apple’s Foundation Models framework to hand off to Claude when a request calls for multi-step reasoning, code generation, and more. Claude can also search the web for current information and execute code for data analysis. Stream Claude&#x27;s response back into the same view. Because Apple&#x27;s framework returns typed Swift values from @Generable annotations, developers arrive at the Claude API call with clean inputs instead of raw user text. What this unlocks The Foundation Models framework already powers a range of intelligent on-device features — journaling apps that surface personalized prompts, document apps that summarize contracts, learning apps that explain a concept at a student&#x27;s level. Adding Claude extends each of those patterns. A journaling app can generate daily prompts on-device, then ask Claude to find threads across months of entries. A study app can define a term on-device, then hand off to Claude when the student follows up with \"why does this matter for everything else we&#x27;ve covered?\" It&#x27;s one experience for the user, backed by the right model for each step. Getting started Claude support with the Foundation Models framework will be available tomorrow and works through Apple&#x27;s Foundation Models framework on iOS 27, iPadOS 27, macOS 27, and visionOS 27, and watch OS 27. Add it to your project, sign in with an Anthropic API key, and pass typed outputs from Apple&#x27;s on-device pass into a Claude request — the package handles streaming, tool calls, and structured responses back into your SwiftUI view."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 16,
+      "totalTweets": 32,
+      "blogPosts": 1,
+      "feedGeneratedAt": "2026-07-30T07:11:33.639Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
