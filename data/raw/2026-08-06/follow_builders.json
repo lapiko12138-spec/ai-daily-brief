@@ -1,0 +1,586 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-08-06T12:09:58.781573+08:00",
+  "events_count": 11,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 16,
+    "totalTweets": 35,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-08-05T07:11:53.266Z"
+  },
+  "digest_generated_at": "2026-08-06T04:09:58.753Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-08-06T04:09:58.753Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "Training Data",
+        "title": "Chai Discovery's Bitter Lesson: Drug Design Is Another Scaling Problem",
+        "guid": "00198340-89dd-11f1-8519-5f4366a34437",
+        "url": "https://www.youtube.com/watch?v=wv53mDmY-k0",
+        "publishedAt": "2026-08-04T09:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:22\nOne of our big guiding principles is just simplicity. So, like, when you look at a model like, let's say, CHI one, I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on something like that, it gets really hard because you're like, I kinda I need to understand each of these sub modules independently. I need to understand all of their behaviors, their dynamics, and, like, that doesn't actually scale that well. So, like, you can start to think, okay.\n\nSpeaker 1 | 00:22 - 00:31\nHow do I simplify this? How do I identify, like, what's what's really important? Once you have that, the whole research process and identifying these types of scaling directions becomes a lot simpler.\n\nSpeaker 2 | 00:48 - 01:01\nWe're here with Josh and Matt, two of the co founders of CHI Discovery. CHI is engineering molecules with AI. So it's something of a foundation model lab for biology. Sounds like a big idea, but let\n\nSpeaker 3 | 01:01 - 01:25\nme just start there. What is the big idea? Thanks for having us on the show. One of the exciting things we're trying to do at CHI is to make the drug discovery process look a little bit more like engineering, and we've seen all the work happening with the LMs for cogeneration, for instance, right, and that works really well because code's a very simple obstruction, right, of like to kind of get across what you want to do. Biology doesn't look like that today.\n\nSpeaker 3 | 01:25 - 01:52\nIt's a lot of like trial and error. I think if we go back to the early days of just like modern biotech, right, a lot of the medicines that we have today were kind of discovered quite randomly. It was a bit serendipitous, and what we're trying to do is allow us to industrialize that process a little bit more and try to come up with the tools that we'd need in order to have abstraction layers, the same way we have that encoded in modern engineering, allows us to iterate really quickly and try to bring that, into biology and into drug discovery.\n\nSpeaker 2 | 01:52 - 02:15\nSo let me ask you a question on that then. So there's and tell me if this is a reasonable way to frame it. There's almost this boundary between that which can be engineered and that which needs to be tested in the real world. And it feels like that boundary has been moving over time. Like the proportion of the drug development process that can be engineered as opposed to trial and errored seems to be increasing.\n\nSpeaker 2 | 02:15 - 02:22\nIs that a reasonable way to think about it? If so, can you talk about like what specific developments have pushed that boundary over time?\n\nSpeaker 3 | 02:22 - 02:41\nI think that's one way to think about it. The way that we often, look at this is like the lab is an important part to verify that what you're doing is correct. And actually verification is a very big theme in AI as well. If you can evaluate that your model works, you can verify it, then you can start to hill climb that and you can make progress on it. So I think the lab is a very important part of this.\n\nSpeaker 3 | 02:41 - 03:03\nAnd the question is how do we take drug discovery and make it look a lot more like drug design? So one of the reasons why we call this field drug discovery is we're often looking for a needle in a haystack. We'll screen millions, billions of molecules, try to find one that works. And if we can instead put in what is like the dream state of the molecule you want, and then the model can materialize that, that's going be really powerful. So it's not even a question of like reducing lab testing.\n\nSpeaker 3 | 03:03 - 03:24\nI mean, maybe that happens as a result. I actually might even take the opposite side of the coin and we can talk about that where maybe we'd actually do even more lab testing because the ROI will increase the same way there's more software engineers, there's or more demand for software engineers now that they become more productive. There might be more demand for the lab. But I think the key part is how do we just change the paradigm here and how do we make it more design oriented?\n\nSpeaker 2 | 03:24 - 03:40\nCan we talk about what is state of the art today? And then maybe let's take a little trip down memory lane. Five years ago, three years ago, one year ago, like what have been some of the major breakthroughs and like how has state of the art changed over the recent years?\n\nSpeaker 1 | 03:40 - 04:03\nYeah, I think the field has like, it's really evolved, especially like over the last decade. So it really wasn't until like, you can actually look back, there's like this biannual protein folding competition. So every two years, usually, a bunch of academic groups who compete in this protein folding competition. What would happen is, like, you kind of hold out these protein targets that no one's ever seen before. They never get deposited publicly.\n\nSpeaker 1 | 04:03 - 04:30\nAnd then all these groups compete so you can predict the proteins the best. And, like, really, it wasn't until 2018 where you started to see this, like, big step change in in performance and then finally, again, in, like, 2020 with Alffold two. But, really, like, it was kind of like the advent of deep learning that really, like, kicked off this whole field. So at first, what you do, these are kind of like, bring me back to my original days in my adviser's lab. So we worked on, like, one of the first systems to do this with deep learning.\n\nSpeaker 1 | 04:30 - 05:04\nWhat we would try to do is predict, like, the distances between amino acids and a protein, and then we'd have some render, which then took in, like, these kind of noisy and complete looking distances and then emitted some protein from that. And what's pretty remarkable is that with relatively minimal information, like, you could build a machine learning system that could actually produce something that really looks like a protein and, for the most part, was was correct. Like, there are still pretty big gaps. It didn't quite have the resolution of, like, what what we have today. Almost like with the early image generation models where it was, like, a little bit grainy, a little bit blurry, and now it's like, oh my gosh.\n\nSpeaker 1 | 05:04 - 05:24\nLike, this is this is crazy high definition images, like, in seconds. So we kinda, like, saw that same evolution happen over time. So it started with protein folding. And then I guess once that became more realizable, there were kind of these other subproblems that people wanted to solve. So now given a protein structure, can I design, say, like a sequence which might fold to that?\n\nSpeaker 1 | 05:24 - 05:52\nAnd that's getting closer and closer to, like, the drug design problem. So you're you're kind of, like, now thinking, okay, how do I start engineering proteins that match a certain shape or might perform a specific function? So people kind of studied that problem independently, and that was kind of like 2021, 2022 time. And then kind of these ideas began to merge together. It was really like the advent of diffusion models where we started to be able to like, okay, I can now generate a protein structure in a sequence kind of simultaneously.\n\nSpeaker 1 | 05:52 - 06:04\nAnd I can start making these, like, what we would call prompts more and more realistic. So I can now prompt these models on a target that might have a certain shape and I can say, hey, wanna bind over here, kind of like add more real world constraints on the problem.\n\nSpeaker 2 | 06:04 - 06:08\nWhat did you guys see in 2024 that made you think that was the right time to start the company?\n\nSpeaker 3 | 06:09 - 06:51\nThere were a lot of discussions that went into it. I remember one of these, early discussions actually back in Matt's house when we were, you know, Matt was showing me some of these results on like antibody antigen, like structure prediction. Matt was just talking about protein folding, but for a long time people thought that protein folding for antibodies was just like too hard of a problem. People were like there was not enough data in antibodies like in the protein databank for instance to like solve this problem, and people as a result thought that like antibody design was going be out of reach. A lot of the work that people even did on protein design in the early days with deep learning, it wasn't antibodies, it was these different class of proteins called mini proteins, which are actually really interesting in their own right, but they're not what most of the drug industry is looking at.\n\nSpeaker 3 | 06:52 - 07:03\nSo the holy grail was whether we could design antibody proteins on the computer, especially ones that had all that therapeutic function. And our thinking was that if you couldn't predict what an antibody looks like, how are you ever going to design one?\n\nSpeaker 1 | 07:03 - 07:08\nTraditionally, people have thought like, biology is scary. Like, there's so much to know.\n\nSpeaker 2 | 07:08 - 07:09\nI'm terrified of biology.\n\nSpeaker 1 | 07:09 - 07:27\nI am as well, honestly. My background was never biology. I studied pure math and started my PhD in theoretical computer science. And it was only after my third year that I ended up switching into deep learning, protein, structure prediction, all of this stuff. So it was totally new field to me.\n\nSpeaker 1 | 07:27 - 07:41\nSeemed insane. But at the end of the day, it's much simpler and the problems are much more interconnected than one might think. So I think people, when they start going into the field, they're like, oh, man, what's an antibody? What's a mini protein? These are all just sequences of amino acids.\n\nSpeaker 1 | 07:41 - 08:08\nAt the end of the day, these are just different types of prompts for the model. But, like, in the same way where you might, like, have a math problem that goes into ChadGPT, ChadGPT can both answer your math math problem and, like, help you with your English homework. So, like, really, we we have the same type of thing going on with our models. Like, we just have some way of representing these sequences of amino acids, then we have a way of designing, predicting those as well. And I think in that lens, things become a lot more clear.\n\nSpeaker 2 | 08:08 - 08:25\nAnd Matt, you mentioned your background a little bit. Josh, talk a bit about your background and then more broadly, in order to pull this off, you have a bunch of different disciplines that kind of come together. So can you just talk a bit about like your background and that of some of the other core members of the team and how these things all fit together?\n\nSpeaker 3 | 08:25 - 09:02\nYeah, I've been excited about AI and biology, since I was kid, so I guess I'm like mad I didn't start with theoretical CS and get into that way, but I went to a high school with a stem cell lab, so I was just always excited about biology as a kid and I grew up as a programmer. I really started my career at OpenAI so it was on the early team there. Was a nonprofit back then, so it was a pretty good time to be there. We did GPT-one, GPT-two, scaling laws and it was the question was like if the models can learn to speak English, German, why can't they learn to speak DNA and protein? And that was kind of my research agenda since then.\n\nSpeaker 3 | 09:02 - 09:27\nI think that sort of intersects with around the time like Matt got into the field as well. And it was a I think it was a pretty important time as well, right? Because if you look at the kind of methods that we are bringing in, like there's been a lot of these, you know, changes on the edges, if you will, right? And, you know, Matt talked a bit about the history of what's happened in the field here. But, you know, it's all about like how do we find like the right deep learning architectures with the right compute configuration and the right model architectures to make this happen?\n\nSpeaker 3 | 09:27 - 09:51\nWhat are the right tasks to apply it to? We're talking about how we even knew that like, you know, 2024 is the right time to start the company. As Matt was saying, you know, these are all different like kinds of amino acid sequences and people thought that antibody class of problem was going to be too hard. And we started to see the first signs of life that actually this was starting to work. I think a lot of it fueled by some of the new architectures we're bringing to the problems, where I think it was diffusion models back then.\n\nSpeaker 1 | 09:51 - 10:09\nThe first time anyone was able to generate reasonable looking proteins was the advent of diffusion models. So it was pretty crazy. They were a bunch of generative modeling approaches that would kind of work if you had a bunch of data. So people got these working for images. There are, like, a bunch of tricks to make this better and better along the way.\n\nSpeaker 1 | 10:09 - 10:16\nLike, we've definitely borrowed a lot of those ideas in our domain as well. But it was really, like, once diffusion models came around\n\nSpeaker 2 | 10:16 - 10:19\nAnd is there is there an intuition for why diffusion models work?\n\nSpeaker 1 | 10:20 - 10:37\nYeah. So diffusion is is not a one step process. So, like, I think kind of up until this point, like, the the main generative design paradigm was, like, called variational autoencoders. And in that case, you're, like, saying, I wanna just, like, compress my input distribution. So, like, you you have some, like, proteins.\n\nSpeaker 1 | 10:37 - 10:58\nYou wanna make these look like kind of, like, fuzzy Gaussian vectors. That task is just, like, really hard. And maybe today, if we tried, like, super hard, I think we'd crack it. But at the time, like, I I think, like, it wasn't really as developed enough to to work for our problems. What turned out working really well was just kinda giving the model more time to think and showing it, like, more examples.\n\nSpeaker 1 | 10:58 - 11:11\nLike, here's, like, a slightly broken looking protein. How do you make it better? You can kinda break that protein more and more and more, and you can make it look more and more noisy, more and more broken, and teach the model just quick little shortcuts. Alright. Here's how I make it slightly better.\n\nSpeaker 1 | 11:11 - 11:20\nAnd you can just keep asking over and over again. Make it slightly better. Make it slightly better. And kind of, like, breaking the problem down to that scale worked really, really well for for biology.\n\nSpeaker 2 | 11:20 - 11:34\nYeah. The make it slightly better reminds me of a game that I like to play with my daughters where we have ChatGPT give us a unicorn, and then we make it stronger. And we just keep telling it to make it stronger. By the time we're done, we have the strongest unicorn in the world. So about the same, right?\n\nSpeaker 1 | 11:34 - 11:39\nYeah. That's, it's that easy.\n\nSpeaker 2 | 11:39 - 11:40\nYeah. Okay. Maybe not the same.\n\nSpeaker 4 | 11:40 - 11:58\nYeah. So I feel like in this domain, you need to assemble kind of like a quadrilingual group of people, like an Avengers squad of chemistry people, biologists, AI folks. And so that's a challenge. How have you guys gone about finding people, convincing people to join the team, who are your superstars?\n\nSpeaker 3 | 11:58 - 12:36\nSo we've been really pragmatic about this, Achai. If you look at the founding team, it was mostly AI researchers. So people who had worked on either scaling models or getting them to work in this domain, But really with each generation of model, the kind of people we've needed for the next milestone has changed, or I'd say probably has expanded, right? So if you look at CHI-two, right, that's the point when we started to bring in some of the most incredible like, you know, antibody engineers and scientists in the world. One of the scientists from Andy Young, actually when we hired him, people asked us if we had pivoted into building a full stack drug pipeline because they're like, you'd be crazy not to do that if like Andy joined your team.\n\nSpeaker 3 | 12:37 - 13:10\nBut I think Andy has enjoyed running more antibody campaigns in the past couple of months than he's probably running his whole career, which is very cool to see. You have folks like Nathan Rollins on the team. Like Nathan was actually homeschooled and then started college very early on. So, you joined like David Baker's lab who won the Nobel Prize for Protein Design, like when he was 14, started his PhD when he was 18, and has so many creative ideas. As the model started to get better, we needed to build up a product team because while the researchers might get the models to a point that they're very powerful, you need to build the right product interfaces so that the models are actually useful.\n\nSpeaker 3 | 13:11 - 13:45\nAnd that's where we started to bring on people who have, built some of the most exciting products we know about today. Like our co founder Jack worked at Stripe, Munaz, who was one of the top 10 code contributors at Stripe, Neil, who ran his own cybersecurity company before security started to become very important as we deployed this to our big partners. We started to scale up, we've brought in people who've really done a lot of like the GPU hacking, if you will, in order to scale up our systems so that don't break when we're running them at scale. We had an email or a Slack message from one of our hyperscalers the other day where we had a cluster. I think that's an issue too.\n\nSpeaker 3 | 13:45 - 13:52\nAnd they're like, Oh, the GPS got too hot. I think you guys are running too many. And we're like, Isn't that the point? Right? That's probably was like, Good, we're doing our job at least.\n\nSpeaker 3 | 13:52 - 14:11\nYeah, it's like, How do you convince those people to join? I think, again, a lot of it comes back to the results and like a clear need. We didn't hire antibody engineers before in an antibody design model. Like, what are those folks going to do? We were even, I think, worried when we started that trend because for some of the next generation formats, the complicated antibodies like multi specifics, like they didn't even work with CHI2.\n\nSpeaker 3 | 14:12 - 14:37\nSo it actually took a couple of weeks when some of those people showed up before the models could work at a point that they could work on some of these interesting case studies, but fortunately the progress was fast enough to kind of bring that online. So, I think we're always like evolving that team and going for that next milestone. We've got the team very small as a result, too. So this way, everyone is a little bit like slightly over capacity, I think, which means we have to prioritize. It forces us to work on the things that really matter most.\n\nSpeaker 1 | 14:37 - 15:01\nI think on the research side as well, one of the founding engineers, Kevin Wu, he had the first, I think it was the first protein diffusion model, like, ever. And that speaks to Kevin's speed of execution. Like, he is a heck of an engineer. And, like, I think engineering has just always been, like, important since day one. So, really, even our researchers are all excellent engineers, and we really care about building a high quality code base.\n\nSpeaker 1 | 15:01 - 15:22\nAt the end of the day, we are technically a software company. We're AI researchers. We're protein designers. We're a lot of things, but our deliverable is some piece of software. So we've kept that, like, kept that bar really high while also trying to, like, you know, level that with great research talent and people that can actually, like, push the frontiers of what's possible.\n\nSpeaker 4 | 15:22 - 15:41\nAnd you've had a number of, it seems like moments in the field. Like AlphaFold was an we can figure out how a protein folds. And then the diffusion models, like we can generate proteins. And it seems like your latest models are a kind of another moment. We're not only generating molecules that look like proteins, but they also have therapeutic properties.\n\nSpeaker 4 | 15:41 - 15:53\nLike, they can bind really tightly. They have really high hit rates. Can you talk sort of about the quality of the molecules that your models are producing now and everything that sort of went in to those models to make them able to do that?\n\nSpeaker 3 | 15:53 - 16:37\nYeah, if we look at the quality of the molecules that's coming out, if it goes back to, you know, one of the theses when we started the company, that we really wanted to focus in on this like de novo generation of the molecules. If you look at what a lot of the drug discovery AI work was at the time, it was about how do I take a molecule and just make it a little bit better, right, which we just talked about in a sense, but it was doing it with a lab in the loop style, right, where I take some data, try to make it better that way. And the question we started with is, well, can we actually just like do all that on the computer, right? Is there a way that the maybe there would be enough data or we could collect enough data so that we could just zero shot a molecule that has a lot of these properties? So the first thing we needed to do to get there was to design molecules with really high success rates.\n\nSpeaker 3 | 16:37 - 17:05\nWhen we started the company, the state of the art for antibody design was about like a 0.1% binding rate, so one in a thousand of the molecules you design would actually bind in the lab. So, first of all, that means you have to screen a lot of molecules to find some good ones. It also means that, like, the gradient you get on your process is actually quite weak as well, so for many targets you won't get any hits. For the ones that, you know, you do get some hits, you won't have enough to actually see whether you're having, like, the drug like properties. So, we really focused in on how do we just make this process more accurate?\n\nSpeaker 3 | 17:05 - 17:32\nWe got to with our CHI2 model about like a fifteen percent success rate. So, if you screen 1,000 molecules, you're getting 150 back, now you can start to get some like interesting statistics on the properties of the molecules, right? And that allowed us to like iterate on that, build the right evaluations around that in the lab and really try to hill climb that as well. And we're getting to a point now where we can actually bake in a lot of these different properties from the start into this engine. And then maybe if you think about, you know, how does this happen or like, how are we approaching this as well?\n\nSpeaker 3 | 17:32 - 17:33\nLike, why do we think it's gonna continue improving?\n\nSpeaker 1 | 17:34 - 17:48\nYeah. So like, honestly, I think Josh and I were both surprised at how quickly this worked. Like, when we were originally budgeting this, we're like, ah, maybe, like, 20% hit rate, like, three or four years. We were, like, really shooting for, like, a 1%. We thought one in a 100 would be amazing.\n\nSpeaker 1 | 17:48 - 18:07\nWe're like, this is gonna be, you know, a groundbreaking thing. We had a philosophy on, like, an an approach that we wanted to take, and it just, like, ended up working really well. And that approach is, like, very similar to what's worked in the rest of machine learning. So people kinda treat biology as this, like, bespoke problem or, like, bespoke field, but, really, it's, like, the same principles as, like, self driving LMs.\n\nSpeaker 2 | 18:07 - 18:28\nThey same all principles, but one of the things we've talked about before is how you manage to find scaling laws. And it's one thing to tokenize a string of text. It's another thing to tokenize biology. Can you say a couple words about without giving away any of the magic, you know, can you just say a couple words about that challenge and how you guys solve that?\n\nSpeaker 1 | 18:28 - 18:41\nYeah. So one thing that I really like about Chai is we're a very bitter lesson built company. So we really believe in scaling data, scaling models, scaling compute. In order to do that, obviously, need to identify scaling laws. Otherwise, you're just kind of wasting time and resources.\n\nSpeaker 1 | 18:41 - 19:06\nAnd I think without without giving away too much, like, one of our big guiding principles is just simplicity. So, like, when you look at a model, like, let's say, CHI one. So, like, there are, like I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on something like that, it gets really hard because you're like, I kinda I need to understand each of these sub modules independently. I need to understand all of their behaviors, their dynamics, and, like, that doesn't actually scale that well.\n\nSpeaker 1 | 19:07 - 19:18\nSo, like, you can start to think, okay. How do I simplify this? How do I identify, like, what's what's really important? And once you have that, like kind of the whole research process and like identifying these types of scaling directions becomes a lot simpler.\n\nSpeaker 3 | 19:18 - 19:27\nOne of the other things too, think it's interesting about this is we take a lot of these lessons from what's worked in the rest of the deep learning space. But as you're pointing out, like the data itself is different.\n\nSpeaker 2 | 19:27 - 19:27\nYeah.\n\nSpeaker 3 | 19:27 - 19:53\nThe models at Chai are completely built from scratch. We're not like fine tuning GLM or something like that on some We protein build everything from the ground up. I think a lot of the company building process though is taking a philosophy and actually sticking with it and iterating on that and just having some guiding principles. When you're building like a blue sky research company, if you will, you know, CHI is almost like one of these NeoLabs, right? Like we have this big AI problem we're going after where as we make progress on it, know, that opens up opportunity for our customers.\n\nSpeaker 3 | 19:54 - 20:03\nBut if you're going to work on something so open ended that way, you need some principles to guide you. And I think we've done a very good job on like tracking those principles in the company, working on it. So a lot of the things that Matt\n\nSpeaker 2 | 20:03 - 20:05\nCan you share them? What are the guiding principles?\n\nSpeaker 3 | 20:05 - 20:18\nSo I think simplicity was one of the ones that Matt mentioned. It's this like bitter lesson, pileness of like, you know, scaling compute and data and models. It's being really rigorous. That's something that's so important in this space. You can fool yourself so easily in biology.\n\nSpeaker 3 | 20:18 - 20:59\nLike the error bars in the wet lab are actually quite large as well, so it's actually a little bit different than if you look at like cogeneration, for instance. If you look at SWE bench, people were like, Oh, this is maybe like a year ago, people were like, Oh, got 16%, then 17, then 18%. I mean, in biology, if you're like plus or -five percent in your lab, like that might all be the same, so it actually just means the bar is really high in terms of the step changes that you want to see with the models but you also need to be really honest with yourself about whether you're making progress or So you could come up with some fancy model that looks like it works well in, like, one or two new tasks, but it's very important to show that that works more generally if you're actually trying to build a product that can, like, bring the field forward.\n\nSpeaker 4 | 20:59 - 21:21\nYeah, and that's, I think, pretty interesting because biology is one of those inherently not so verifiable domains. And you guys have been really good at sort of showing your progress to customers and to people like us, you know, very little about biology. And so can we talk a little bit about the evals and the verifiable part of the model progress? Like how do you guys know that your models are getting better?\n\nSpeaker 3 | 21:21 - 21:35\nWell I would say first of all that I actually think this is one of the more verifiable domains. It's actually a very objective readout. If you look at something even like cogen, right? Like maybe as a verifiable task like did my code compile? Did it solve these unit tests?\n\nSpeaker 3 | 21:35 - 21:49\nBut how do think about the taste, right? Like did I write some really sloppy code that can't be maintained? Like what does that look like? When we think about designing a molecule in the lab, we can actually be quite specific about many of these properties, right? So maybe we get a molecule that binds the target but can I manufacture it, right?\n\nSpeaker 3 | 21:49 - 22:02\nThat might be your, you know, version of like some tech debt. You can measure that. And I think those evals again actually make this domain more verifiable. Maybe it takes a little bit longer to validate it, right? It's not like five seconds to like get a readout and run a unit test.\n\nSpeaker 3 | 22:02 - 22:07\nYou might have to spend a couple days, a couple weeks in the lab to get that readout, but at least you can be honest with yourself.\n\nSpeaker 4 | 22:07 - 22:24\nYeah. When we talk about progress and how good the models are, there's like a domain of targets in biology that you can, as you mentioned, sort of address with traditional screening methods. They take a long time. They're very slow and rudimentary. And then there are targets that just aren't addressable with existing methods.\n\nSpeaker 4 | 22:24 - 22:40\nThey're not druggable for whatever reason. And so where are we in terms of model progress, in terms of working on existing targets and generating molecules faster? One end of the spectrum. And then the other end of the spectrum is unlocking novel biology, new targets and things that we couldn't drug before.\n\nSpeaker 1 | 22:40 - 23:04\nThis kind of goes back to of like our core modeling philosophy. So there have actually been plenty of times where like, Man, if we had a twenty fourth module, like, we can actually, like, unlock that new target. And we're like, is that really something that we wanna maintain long term? Is this incremental, or is this, like, actually a compounding improvement? Will this actually, like, help us generalize to the broader class of, like, these this whole class of targets that we we really can't hit?\n\nSpeaker 1 | 23:04 - 23:36\nAnd so, like, our our philosophy has been, like, alright. Let's just, like, continue to focus, like, identify your scaling laws. Like, there there comes a point where, like, if the model is able to push loss down even further, it has to understand, like, something very intrinsic about the target that it's operating on. So one example we were talking about the other day, Paul and I, maybe the way that we're looking at certain glycosylation sites on proteins, we're like, Oh, we might want to represent them differently or something like this. And we're like, Well, even if we didn't represent them, like, there are certain sequence motifs that will tell the model, like, there should be a glycosylation site here.\n\nSpeaker 1 | 23:36 - 23:59\nIn order to drive, like, loss down further, the model should just, like, have to learn that. So there are, like, all these hidden features of targets where, like, if you really believe in scaling laws, you believe the models will get there. Like, these types of targets, like, should just unlock with better models. And, of course, like, you still have to take this very seriously and, like, you still need all the proper validation. You need to, like, really challenge yourself and, like, make sure that this is truly working.\n\nSpeaker 1 | 23:59 - 24:05\nBut I think our approach has always been, like, you know, we with better models, like, we should be able to unlock a\n\nSpeaker 3 | 24:05 - 24:28\nlot of these targets. One of the other interesting things is if we look at we talked about, like, the interdisciplinary nature of this. If we look at the different teams at CHI, what people will call a hard target is actually different in literally every team. So on the science team it might be, you know, like an undruggable GPCR target no one's gotten something that has like, you know, modulated that in a functional way. On the ML research team it'll be something like, Oh, there's like the model just can't fold this thing up.\n\nSpeaker 3 | 24:28 - 24:51\nIt doesn't know what it looks like. And then on the product team, it might look like, Oh, I've got all these like, you know, modifications like my glycosylations and it's a membrane protein. How do I represent that to the user? And actually the fact that it's different for each of these groups, I think is a feature rather than a bug. And it means that if we want to make like broad progress over here, everyone is kind of pushing in parallel in these different ways and that means that there is very smooth progress that we can make all the time.\n\nSpeaker 3 | 24:51 - 25:15\nAnd there's usually not one bottleneck at Chai. It's not like, Oh, if we only had that one extra module, things would work, or if we only, you know, like try to push this into the product in some way we could unlock it. We're trying to build this unified solution because at the end the day, the goal of the company is to build a computer aided design suite for molecules. It's not to make one or two molecules, it's not to get a pipeline of like five interesting therapies that we bring to market. It's to change the way that medicines are discovered.\n\nSpeaker 3 | 25:15 - 25:20\nAnd if we're going to do that, we need to work on all the hard targets regardless of how you define hard. Yeah.\n\nSpeaker 2 | 25:20 - 25:24\nSay more about this idea of computer aided design suite for molecules. What does that mean?\n\nSpeaker 3 | 25:24 - 25:58\nSo at its core, it goes back to this point about making biology look more like an engineering discipline. So we're not going and fishing something out of a large library or doing a ton of trial and error. You want to be able to specify upfront the principles that go into designing your molecule then and have an engine that can actually realize that into some molecule that we're going go and create in the lab. And look, you still might do some iteration on the lab and on your model because maybe your hypothesis was wrong. But what we want to speed up is actually, again, have that computer aided design suite so that you can go from idea to testable hypothesis very quickly.\n\nSpeaker 3 | 25:58 - 26:31\nAnd if that loop right now takes something like nine months, I don't know, to go and like discover your molecule versus if it takes nine weeks or it takes nine days, you know, each order of magnitude just scales in a very big way the number of ideas you can really sort through. I think that's ultimately how the field is going to converge on better medicines. It really comes back to like people sometimes talk about do we care and you kind of noted on it, not like do we care about like speed or do we care about like the difficulty of the targets? At some point they converge in this way as well, because a hard target, if we can like iterate through hypotheses a lot faster, then maybe it'll be easier to crack it.\n\nSpeaker 2 | 26:31 - 27:03\nSo if we can maybe detach ourselves from the present reality and go far enough into the future that we're not thinking present forward, we're actually thinking future back, 2035, 2040, 2100, whatever you want. What does the industry look like? Like, let's imagine that computer aided design suite for molecules has become a standard. Let's imagine a lot of innovation has flowed downstream into some of the wet lab parts of the process. Like, can you paint the picture of what the industry might look like ten years from now?\n\nSpeaker 3 | 27:03 - 27:33\nDoctor. Yeah, think it's going to be a really exciting time, and we can look at this on a couple of angles. So first of all, the quality of the medicines that we develop, will hopefully go up. There's a lot of molecules we put into the clinic today that there is really hard to discover molecule, you find something that's like 80% of the way there, maybe I'm just going advance it anyways, like hit my timelines, it's probably going to benefit some patients, but then you get beat, you know, a year later by someone else and it's really just not the most efficient spend of resources in the industry. You've got the kind of diseases that are just too hard to go after today.\n\nSpeaker 3 | 27:33 - 28:04\nPeople have been trying to drug Alzheimer's forever and unfortunately, you know, haven't made as much progress as we'd like. You have things that just aren't economical to go after today. Think about like personalized medicines, rare diseases, things where maybe the patient population is going to be smaller, but again, if we can iterate through those ideas faster, if we can launch something faster, if we can do it in a less expensive way, then those probably come into reach as well. So I think there are just so many different axes that that we're able to push on. And I think that means that the future is really bright.\n\nSpeaker 3 | 28:04 - 28:05\nIt used to be like, you either want to\n\nSpeaker 1 | 28:05 - 28:07\nbe first in class or best in class.\n\nSpeaker 2 | 28:07 - 28:07\nYeah.\n\nSpeaker 1 | 28:07 - 28:35\nAnd now it's like, you want to be last in class because like, you actually just want to like be the final answer. So I think a lot of what you'll see is just way more intentionality in the types of drugs that you're designing. This drug will be super specific to the disease of interest. It won't have certain interactions, certain negative interactions that a lot of drugs today do. A lot of this stuff is actually, you're able to model most of this, computationally, like maybe not today, but there's definitely a path towards getting there.\n\nSpeaker 1 | 28:35 - 28:37\nI think that's like one of the most exciting things for me.\n\nSpeaker 2 | 28:37 - 28:54\nVery cool. Can we talk about a business model decision that you guys made? Cause I think a lot of times folks think about shy and isomorphic in the same neighborhood. Isomorphic is developing drugs. You guys are enabling the existing industry to develop drugs more efficiently, better, faster, cheaper than they had before.\n\nSpeaker 2 | 28:55 - 29:00\nWhy did you decide to go down that path versus, you know, the isomorphic path?\n\nSpeaker 3 | 29:00 - 29:32\nYeah, first of I think both of these paths are great and they can create tremendous value. We've always been really excited about building infrastructure for the industry. Our bet when we started to go back to those results in Matt's house, you know, a few years ago was that this is how most future drugs are going to be discovered. And if that's the case, somebody needs to go and like build that infrastructure and make it happen. I think part of this too is a lot of our founding team, like including Matt and I, had worked in companies before where we had built these full stack drug pipelines, right, and we were building AI models, we were putting those drugs in the clinic.\n\nSpeaker 3 | 29:32 - 30:02\nAgain, we're pretty bitter lesson pilled as well, and our thinking was as the models get better, we want to be spending more of the money making better models as opposed to diverting those resources into clinical trials and things like that. And one of the interesting things about our business models, as the models get better, it actually wins us the right to continue investing more in them, right? And you have, you know, partnerships with these pharma companies that are paying off today and a lot of us can invest in it. So it's a much more, you know, scalable business in that way. And I just think about the ultimate impact that we can create for the world is a lot larger.\n\nSpeaker 3 | 30:02 - 30:34\nWe've always wanted to just partner broadly with the ecosystem. It goes back to this point about fooling yourself in biology. If you work on a small number of drug targets, you might come up with the most exquisite molecules, creating a ton of value for the world by doing that, but you might miss the forest for the trees because maybe your model doesn't generalize to the other 500 molecules that people are going to make that year. And if you go and partner with people, you just can't fool yourself. Like, if you look at our partners, Eli Lilly, Novartis, Argenx, Pfizer, like these are not companies that are, you know, they take this stuff for granted.\n\nSpeaker 3 | 30:34 - 30:50\nLike, you have to really deliver on these partnerships for them to take you seriously. And that means it can't just work like some of the time. Like when we ship models at CHI, they really have to work. They have to deliver value to our partners. And it's not like, Oh, we made some molecule, it doesn't fully work, we're gonna have our chemists like clean it up a little bit.\n\nSpeaker 3 | 30:50 - 31:09\nSo it's almost a harder business to pull off. I think that's one of the reasons why you haven't seen it pursued many times. If you work on a drug pipeline, again, like, there might be ways to fix things up later. There will be the proof of like what happens in the clinic, of course, but when you have this partnering based model, you have to be really rigorous about your models. Your models have to work really well because otherwise those partners are not going to come easily.\n\nSpeaker 3 | 31:09 - 31:14\nSo, it's made our life harder, I think, in many ways, but I think it's also the more rewarding path if we can get it to work.\n\nSpeaker 2 | 31:14 - 31:35\nWell, and what have you learned? I mean, you know, you're out of the lab, so to speak, and in the real world, you know, delivering real value for actual pharma companies. What have you learned as you started to work with these partners in terms of any surprises in terms of how their needs might have differed from what you expected or how their level of sophistication around this might be different than what you expected? Any surprises or any learnings from working with these partners?\n\nSpeaker 3 | 31:35 - 31:58\nSo when we went into these partnerships, I think a lot of people told us that like, pharma doesn't know how to use AI, these are not, it's not like a tech forward industry and things like that. And to be honest, that hasn't really been our experience. I think that these are, again, they're very rigorous partners, very rigorous customers, right? And they're going to test every one of our claims, right, before they start to deploy these things. But when they see the data, they go all in, right?\n\nSpeaker 3 | 31:58 - 32:16\nBecause pharma is an innovation industry. I think it's interesting just to think about even the whole economics of the pharma industry. If you build a product in pharma, right, like a drug, right, you only have exclusivity on that drug for a certain period of time, right? And you have to continue to reinvest. Eli Lilly is a trillion dollar pharma company right now.\n\nSpeaker 3 | 32:16 - 32:47\nIf they don't get more blockbuster drugs, they will not be a trillion dollar pharma company forever. And I think that forces these companies to really be on their game of adopting new technologies and deploying them and trying to stay ahead. Pharma is a very competitive arena. There's a lot of people trying to bring these drugs to patients, by the way is great for patients, but it means that you have to be on top of your game here. And I think that means that, you know, once you're through that door and your models are working, we've seen like an upscale this adoption very quickly and people thinking about how to use the models in incredibly creative ways.\n\nSpeaker 1 | 32:47 - 33:08\nI really like the incentive structure that it creates as well, like taking more of the partnership model. As our models get better, we get better results to our customers and so on. So I think that's just a nice side effect for us as well. Chai has been incredibly focused. And, like, really, as the models get better, you can kind of, like, iterate on a better model with better data and so on.\n\nSpeaker 1 | 33:08 - 33:29\nSo, like, a lot of what we see and, like, a lot of what our partners are using the model for, like, generating, you know, binders, antibodies, so on. Like, we're also, like, doing a lot of dogfooding in house. We have a whole science team that's using the models and just trying to understand what they can do. And a lot of that comes back to, okay, now that we've unlocked use case X, what type of new data can we generate? How can we make the model better that way?\n\nSpeaker 1 | 33:29 - 33:44\nAnd really, that's been the long term vision of CHI. We never thought of, we're gonna build this one model that's gonna solve all of this. We know that they're just like in other fields, they're gonna be multiple iterations of this model. And as you get better and better models, you get this flywheel effect, I guess.\n\nSpeaker 2 | 33:45 - 33:56\nAnd you mentioned what data can we generate. Can we touch on data for a minute? You guys can't exactly just go scrape the internet and have all the data you need to build your models. Where does the data come from? How does it kind of compound over time?\n\nSpeaker 2 | 33:56 - 34:00\nCan you just say a word about data as an input to your models?\n\nSpeaker 1 | 34:00 - 34:29\nYeah. So I think the primary source of data or the gold standard source of data is this protein database. So this is like it's actually just legit lab scientists, like, who since, like, 1970 have just been depositing crystal structures of, like, proteins and other molecules over time. And, like, really without that, like, structure prediction and design wouldn't have been a thing. So there are these so that's, like, one source of structural data.\n\nSpeaker 1 | 34:29 - 34:42\nWhen I started in the field, I really took, like, a structure pilled approach. I was, like, super interested in predicting structure. Like, how do you think about a machine learning model that can output three d coordinates? Like, that's that's not look like an LLM. It doesn't look like an image model.\n\nSpeaker 1 | 34:42 - 35:07\nThis is really in its own class. Josh, interestingly, was taking, like, the exact opposite approach. So he he was, like, one of the original authors on ESM, and that was, like, a really, like, a seminal work in understanding how to apply language models to protein sequences. What's really cool about that work is if you can train a language model to understand protein sequences, what ends up happening is it ends up kind of, like, representing the three d structure internally. And there's, like, a really interesting reason why this happens.\n\nSpeaker 1 | 35:07 - 35:30\nSo, like, order to predict, like, missing amino acids so, like, same way that you'd predict, like, next word in a sentence, I wanna predict next amino acid in a protein. In order to do that effectively, like, you really need to understand, like, okay. What does amino acids, like, immediate microenvironment look like? Because that kinda tells you, okay, what are, like, the compatible amino acids with everything surrounding it? And in order to do that well, you need to understand the protein's three d shape.\n\nSpeaker 1 | 35:30 - 35:59\nSo I was taking, like, this this really structure based approach, and Josh is even more bitter lesson pill than me. He's like, we're just gonna, like, look at the sequences, and is just gonna emerge. So, yeah, the two main sources of this data, again, like protein database for structures, and then, like, these massive, massive, maybe even, like, order of, like, trillions of token sequence databases. And what you can do once you have really good models is just run them on the sequence databases to get new structures out. So again, like you have this compounding effect as your models get better, they get more and more accurate at predicting these structures.\n\nSpeaker 1 | 35:59 - 36:02\nAnd then you have more and more training data for the next series of models.\n\nSpeaker 3 | 36:02 - 36:42\nSometimes people ask us at CHI about, these days at CHI, like which paradigm are you actually going after? I think one of the things I love about our team is that it's actually just like neither, we're very pragmatic. Like we want to solve the problem, we don't really care is it a sequence approach, it a structure approach, and practice it's going to end up being like both of course. I think you'd be surprised but there might even be more like biological sequence tokens on the internet than English language tokens. And now a lot of that data is not that useful, it might not be redone, it might be very noisy, but there's a lot of data out there, there's a lot of art in like bringing it together, and I think also the exciting thing is as the models have gotten to a point now where we can design things in the lab, right, to new targets for instance, we can actually use the models to generate data as well.\n\nSpeaker 3 | 36:42 - 37:11\nSo there's a lot of exhaust from like all the experiments that we're doing at CHI, which also helped to make the models even better. So it's a similar kind of takeoff that we saw with LLMs. Like when I was at OpenAI, worked on reinforcement learning of like a GPT-one architecture. Like did not work because the models weren't like good enough, but once the base model got good enough, then you could start to do those kinds of experiments. And I think there's a similar analogy that's starting to happen in our world now as well, where the models have reached a point where there's actually like a renewed interest in data and how do we actually bring the models into the loop on making that happen?\n\nSpeaker 3 | 37:11 - 37:15\nAnd then that creates another really interesting cycle on compounding improvement of the models.\n\nSpeaker 4 | 37:15 - 37:37\nYeah. We're talking a bit about compounding improvement in the models, and you said something about how pharma as an industry is an incredibly competitive landscape. And it's interesting because I think there's been a renowned interest in using AI and using ML to generate proteins and molecules. And so your arena has actually become quite competitive. And you guys have obviously done an amazing job at staying at the frontier.\n\nSpeaker 4 | 37:37 - 37:46\nIt's been a year of deployment for you, you've locked up a number of pharma partnerships that are making your models better. But how do you guys think about the competitive landscape and staying at the front of the frontier?\n\nSpeaker 3 | 37:47 - 38:16\nWell, first of all, I think it goes back to like looking at the results and not fooling yourself and being rigorous. So, one of the reasons why we do a lot of evaluation of the models, we mainly do it just a hill climb in the models itself. I think if you look at many of the capabilities that we've brought in have kind of been like first in the field. You look at our CHI-two model, right, like getting to success rate of the models that you didn't have to do large library screening anymore to see results. A couple months later showing how we could bring in a lot of these developability properties you've talked about before, like the manufacturability of the molecules.\n\nSpeaker 3 | 38:16 - 38:41\nSo, in many cases, we are pushing the model forward and trying to see these capabilities emerge, and then we try to quickly like lock those in. Like how do we make those capabilities like even more pronounced that they become production ready and we can like ship them to our customers? I think one of the things I like to tell the team is that, you know, it's not like we are head to head like with other model providers or something like that. We're all of us, I think, are working against nature. Like nature has actually been a pretty good baseline.\n\nSpeaker 3 | 38:41 - 39:24\nPeople have done drug discovery a certain way for a long time and, you know, Matt talked about how like maybe you don't want to add like module 24 to the CHI model, but people have added like module two forty to like the existing wet lab protocols and they have been like tuned quite considerably. One of the scientists on our team, Andy Young, was one of the first people working on yeast display at MIT actually like two decades ago and he's got twenty years experience in like Pfizer and Genentech, like really honing in these methods, has a drug approval to his name in antibodies. I think you look at someone like that and like, you know, Annie knows how to make a good antibody with existing tools and that is actually the bar that we need to clear. Now, of course, I think the ceiling in AI is going be a lot higher than what we've managed to do before. Otherwise, what would be the point of doing this?\n\nSpeaker 3 | 39:24 - 39:40\nWe didn't start the company just to make, you know, a 10 times faster mouse, right? We started this to make breakthrough medicines that weren't possible before. But ultimately that is the bar that we needed to clear in order to get adoption. I think we hit that inflection point a couple months ago. That's why you've seen a lot of these big pharma announcements.\n\nSpeaker 3 | 39:41 - 39:44\nBut now we just need to continue to hone in on like making these things even better.\n\nSpeaker 2 | 39:44 - 39:55\nFor somebody who's listening who thinks, wow, this sounds pretty cool. I wonder what it would be like to work at CHI. What is the best thing about working at CHI and what is the worst thing about working at CHI?\n\nSpeaker 1 | 39:56 - 40:11\nYeah, I can speak to some of this. I'll think of this on the fly, the worst thing. So I think like the best thing is just like how actually like mission driven everybody is. Like everyone is so dedicated to what they're doing. I've worked at other companies.\n\nSpeaker 1 | 40:12 - 40:26\nThe closest I've ever seen to this is maybe some of the guys in my PhD lab. But everyone is just incredibly, incredibly motivated. We all work really hard. There's an obvious shared goal. And I think that's really rare to see.\n\nSpeaker 1 | 40:26 - 40:47\nAnd I think this goes back to just the focus that we've had since the beginning. We've always had kind of a clear philosophy, a clear plan on how things are going to get there, how things are going to get better. And really, everyone at CHI is very bought into this. It's pretty amazing just to see, like, the amount of dedication that that everyone's putting in. Least favorite thing about Chai, not directly on top of Dandelion Chocolate, maybe.\n\nSpeaker 3 | 40:49 - 40:51\nNo. Maybe the next office.\n\nSpeaker 1 | 40:51 - 41:09\nYeah. Actually, so probably the least favorite part now is just like, I guess it's getting things to work at scale. And really, didn't even know what that meant. Actually, when we started Chai, we had 128 GPUs. And I was like, this is like the most scale possible for a lab.\n\nSpeaker 1 | 41:09 - 41:23\nLike, this is crazy. I came from like, my PhD group where there were four of us sharing eight GPUs. And I was like, I just felt GPU rich. It was crazy. So now at Chai, we have a lot more infrastructure to maintain.\n\nSpeaker 1 | 41:23 - 41:36\nWe have a lot more compute resources. Luckily GPUs are parallelizable, but that also kind of brings up its own set of problems. So just like, how do you keep a cluster healthy over time? How do you get that large training run? So how do keep you that running for months on end?\n\nSpeaker 1 | 41:36 - 41:52\nAnd even when it does die, how do you automatically resume these things? How do you keep all of your communication down? How do you optimize the models and make the best use of the resources that you have? So I think these are a lot of problems that they continuously pop up. They're good problems to have, but I think they're also really difficult to solve.\n\nSpeaker 1 | 41:53 - 41:55\nYeah, and I'm just excited to work on this.\n\nSpeaker 2 | 41:55 - 42:04\nYeah, I remember one of the CEOs that we've worked with a couple of times, Frank Slootman, had this line about, You either have the pain of failure or the pain of growth. You'd much rather have the pain of growth.\n\nSpeaker 3 | 42:04 - 42:19\nYeah, that's exactly right. I think my favorite part is probably the results. And that sounds a bit cliche, there's nothing That's working. It's working, right? And just like knowing that you're, you know, I think many of us in the company, right, like we've been working in AI for a long time, right?\n\nSpeaker 3 | 42:19 - 42:36\nThere's all this experience you've built up. To know that you're applying it to something that really matters, just even, I think just take Matt and I, like we've been working on this problem for like ten years, right? And a couple of years ago, I'm looking at something like, yeah, we're writing some cool papers, like everyone is like celebrating this. Are we actually making the world better? Like, is this actually going to impact some patients?\n\nSpeaker 3 | 42:36 - 43:11\nAnd I think now the answer is like, actually yes, like we have reached the point where this is going to make a big difference in the world. And every time you get one of these breakthrough results, anytime there's a new feature on the product that makes our lives of our customers easier, whenever there's like new lab results coming back from the science team, it's just always so honestly it's exhilarating to realize like this is actually going to change the world in a pretty profound way. I think that's also then maybe it comes to the least favorite side, right? Like, you know, we're running the company and it's like we have real partners that are relying on this and like things have to work, right? And you ship a new model generation.\n\nSpeaker 3 | 43:11 - 43:28\nDo How you make sure that there's no bugs in that? How do you make sure you don't have regressions, right? This is no longer just like a, again, the blue sky research problem of like, oh, we got some cool results and move on. We've had to have really high priorities on like, you know, having production level code bases as the team grows. How do we make sure that code base is in a state that more people can contribute to this?\n\nSpeaker 3 | 43:28 - 44:02\nSo, something that one of our other co founders, Jack, likes to say is that if you want to move fast in the long term, you sometimes have to just move a little bit slower in the short term, right, and make sure that you are building something, again, that goes back to that compounding idea. Goes back to we don't add module 25 to make the next thing work. So, sometimes, you know, you're like so excited to get to the next result and you just want to jump into it, but we have real partners, some of the biggest companies in the world that are now relying on us, and it's important that we realize that, we take that responsibility to heart, and we make sure we're building systems that, you know, continue to work.\n\nSpeaker 4 | 44:03 - 44:07\nI have a burning question. Why are you guys called Chai Discovery?\n\nSpeaker 3 | 44:07 - 44:12\nChemistry and AI. But we love Chai Chi as well. It's a lot of Chai themed stuff in the offices.\n\nSpeaker 4 | 44:12 - 44:13\nThat's right.\n\nSpeaker 2 | 44:13 - 44:13\nThat's a good question.\n\nSpeaker 1 | 44:13 - 44:16\nI didn't know that either. Josh is the visionary, That was all him.\n\nSpeaker 2 | 44:16 - 44:18\nIt is a very user friendly name.\n\nSpeaker 3 | 44:18 - 44:21\nYeah. We also wanted a name that like biotech companies have such complicated names.\n\nSpeaker 2 | 44:21 - 44:22\nYeah.\n\nSpeaker 3 | 44:22 - 44:23\nWe wanted something that's gonna be much simpler.\n\nSpeaker 1 | 44:23 - 44:23\nYes.\n\nSpeaker 3 | 44:23 - 44:28\nWe're trying to make this whole thing simpler, right? Yeah. So we need a simple name to go along with it.\n\nSpeaker 2 | 44:28 - 44:33\nAwesome. What are you guys most excited about in the next six to twelve months?\n\nSpeaker 3 | 44:33 - 45:08\nI think for me, it's just the deployments that are happening. So we've announced a couple of these partnerships and I'm really excited just to hear about the results that our partners are bringing online. It goes back to this point of like making a real difference and also why I'm so happy to see how these partnerships are going even, you know, posting the agreement and as we're working with these folks that the models are not sitting on a shelf somewhere, like they're actually being used on real programs. People trying to approach devastating diseases where, you know, if CHI could give them a molecule that works, it could really change the lives of patients. So I'm really excited to see how that goes.\n\nSpeaker 3 | 45:08 - 45:32\nJust the pace of progress here is incredible, but also just like the pace of the models. Like a year ago, you could not zero shot a molecule and like, you know, have a good sense that your program was going to work. Like now that's changed. Someone might zero shot a molecule and be like, I think we're going to bring this program to the clinic And then a year later, you know, they might even have some of those first molecules going into patients. And just the speed of that is just incredible.\n\nSpeaker 3 | 45:32 - 45:53\nAnd it's, you know, sometimes you get some shivers thinking about this that like, okay, my model is going to, like Matt has some patents from our last company about, you know, like just generating the molecule on the computer, and these things are now in patients, and just to think about the scale, like, I don't know, few years from now, do we have dozens, do we have hundreds of like Chi molecules going into people? It's a bit mind blowing to think about what that might look like for patients.\n\nSpeaker 1 | 45:53 - 46:16\nI think one of the things that, again, what makes Chi unique, the dedication, people are like, Man, you work a lot. Aren't you burned out or whatever? It's actually really easy and it's very motivating when you're making Seeing the progress they're making and just thinking, Man, the next model is going be even better than the last. We identified this new thing, so on. That's so incredibly motivating.\n\nSpeaker 1 | 46:16 - 46:35\nFor me, it's more of just what can we unlock next and how do we make these things more controllable? Controllable? And like, when someone comes to us with a certain target, instead of just like hoping we get good affinity or something like that, you know, can we actually control this? Can we say like, we want exactly a 10 nanomolar binder or things like that? Like, there are a lot of technical things that I think are, we're like kind of right on the brink of solving.\n\nSpeaker 1 | 46:36 - 46:43\nAnd for me, it's really motivating just to pin those things down and just get all of this over the line and see kind of where that leads to next.\n\nSpeaker 2 | 46:43 - 46:49\nAwesome. Matt, Josh, thank you for engineering biology and thank you for sharing your story with us today.\n\nSpeaker 1 | 46:49 - 46:49\nThank you guys.\n\nSpeaker 4 | 46:49 - 46:50\nThank Thanks\n\nSpeaker 3 | 46:50 - 46:50\nfor having us."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2084832553895444570",
+            "text": "smol aha moment at @_chenglou’s @midjourney meetup today - \n\none reason that ontologies and graph knowledge are finally trending now rather than 3 years ago is  that “good enough” intelligence is finally too cheap to meter\n\nthis is why talks like @coyle_frankp and @emileifrem’s are on fire.  the hardest part of KGs is cheap now. intelligence is commoditized so complements are increasing in value",
+            "createdAt": "2026-08-05T02:43:09.000Z",
+            "url": "https://x.com/swyx/status/2084832553895444570",
+            "likes": 23,
+            "retweets": 1,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2084748639470272972"
+          },
+          {
+            "id": "2084738591109038187",
+            "text": "confirmation here https://t.co/gTKw1zNLzd",
+            "createdAt": "2026-08-04T20:29:47.000Z",
+            "url": "https://x.com/swyx/status/2084738591109038187",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2084687434886135915"
+          },
+          {
+            "id": "2084698630653641092",
+            "text": "yes https://t.co/yWb8PQwaxS https://t.co/dQwnFxZxqO",
+            "createdAt": "2026-08-04T17:51:00.000Z",
+            "url": "https://x.com/swyx/status/2084698630653641092",
+            "likes": 89,
+            "retweets": 2,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2078319122153386334"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2084746170576892342",
+            "text": "Notebook is built for thinking, not toggling.\n\nWhile others add more modes, Notebook keeps everything in a single, unified prompt bar and just does the things you want.\n\nUltra and Pro subscribers can jump in now, rolling out to everyone next. https://t.co/X02sfCEnCI",
+            "createdAt": "2026-08-04T20:59:54.000Z",
+            "url": "https://x.com/joshwoodward/status/2084746170576892342",
+            "likes": 341,
+            "retweets": 23,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2084430602116481479"
+          },
+          {
+            "id": "2084698846609682675",
+            "text": "Nice use case! https://t.co/EZlX8axJt0",
+            "createdAt": "2026-08-04T17:51:51.000Z",
+            "url": "https://x.com/joshwoodward/status/2084698846609682675",
+            "likes": 145,
+            "retweets": 11,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2084624887055044790"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2084859308165271658",
+            "text": "Better Cyber. Excited to welcome Halvar Flake to the team soon. https://t.co/5ZWQ6yydY4",
+            "createdAt": "2026-08-05T04:29:28.000Z",
+            "url": "https://x.com/thsottiaux/status/2084859308165271658",
+            "likes": 467,
+            "retweets": 16,
+            "replies": 228,
+            "isQuote": true,
+            "quotedTweetId": "2084640518173053307"
+          },
+          {
+            "id": "2084738022650892544",
+            "text": "What is my title at OpenAI",
+            "createdAt": "2026-08-04T20:27:31.000Z",
+            "url": "https://x.com/thsottiaux/status/2084738022650892544",
+            "likes": 1464,
+            "retweets": 27,
+            "replies": 1681,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2084855632029774167",
+            "text": "I think if you vibe code a SaaS these days it can just be a self-serve funnel into a more expensive services offering vs. trying to make alot of money with the SaaS itself.\n\nBut the only thing about services is it feels like consulting and selling \"time for money\" again.",
+            "createdAt": "2026-08-05T04:14:52.000Z",
+            "url": "https://x.com/petergyang/status/2084855632029774167",
+            "likes": 49,
+            "retweets": 1,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084849701351035182",
+            "text": "Hearing that GPT 5.6 Luna High is much cheaper and basically unlimited usage and I'm running low on Sol :P \n\nCan it do complex browser automation tasks? That's 50% of my Codex usage. https://t.co/v6nEn0z9Rc",
+            "createdAt": "2026-08-05T03:51:18.000Z",
+            "url": "https://x.com/petergyang/status/2084849701351035182",
+            "likes": 58,
+            "retweets": 3,
+            "replies": 19,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084846191456751725",
+            "text": "Easier to make more money from @X payouts than from a micro SaaS these days",
+            "createdAt": "2026-08-05T03:37:21.000Z",
+            "url": "https://x.com/petergyang/status/2084846191456751725",
+            "likes": 25,
+            "retweets": 1,
+            "replies": 12,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "tweets": [
+          {
+            "id": "2084800235474178138",
+            "text": "Old heads remember Will Smith eating noodles https://t.co/ay1A5ahaEV",
+            "createdAt": "2026-08-05T00:34:44.000Z",
+            "url": "https://x.com/thenanyu/status/2084800235474178138",
+            "likes": 11,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2084429985691910194"
+          },
+          {
+            "id": "2084772618314428627",
+            "text": "The real ones remember https://t.co/uKcctkLFNK",
+            "createdAt": "2026-08-04T22:45:00.000Z",
+            "url": "https://x.com/thenanyu/status/2084772618314428627",
+            "likes": 6,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "1976749042018427012"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2084809416105472070",
+            "text": "Ok builders, here’s your playbook. \n\nPrototype your product with the best frontier model. Cost be damned. \nValidate the user experience.\n\nThen, 6-8 weeks later when open-weight models catch up - move your production workloads there, and to smaller models where possible.\n\nIn that order. Don’t start with the cheapest model.",
+            "createdAt": "2026-08-05T01:11:13.000Z",
+            "url": "https://x.com/realmadhuguru/status/2084809416105472070",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2084100707423289643"
+          },
+          {
+            "id": "2084667443046502631",
+            "text": "The best model for early product validation is almost never the best model for production.\n\nTalked to a bunch of founders this weekend. There’s a standard playbook emerging :\n\n1/ Prototype with the best frontier models. Max quality. Ignore cost and latency.\nLearn what users actually want and iterate. \n\n2/ Once the workflow and UX is validated, optimize like crazy for cost and latency - prompt eng, model routing, harnesses, smaller models, fine tuning. \n\nI see most teams get stuck in step 1.",
+            "createdAt": "2026-08-04T15:47:04.000Z",
+            "url": "https://x.com/realmadhuguru/status/2084667443046502631",
+            "likes": 40,
+            "retweets": 1,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2084843512496034002",
+            "text": "One might say, the investigation was Bari’d. https://t.co/YhdfHFSB2j",
+            "createdAt": "2026-08-05T03:26:42.000Z",
+            "url": "https://x.com/amasad/status/2084843512496034002",
+            "likes": 168,
+            "retweets": 6,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2084687764818116981"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2084804138169446449",
+            "text": "Vercel is the Vercel for backends.\n\n@FactoryAI powers their API services with Fluid compute, with billions of requests per month. https://t.co/Xmgrgd3qjz",
+            "createdAt": "2026-08-05T00:50:14.000Z",
+            "url": "https://x.com/rauchg/status/2084804138169446449",
+            "likes": 188,
+            "retweets": 8,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2084773602709365237"
+          },
+          {
+            "id": "2084779435866398801",
+            "text": "1 line of code in @aisdk saves you 90% or more in DeepSeek v4 Flash AI Gateway tokens https://t.co/bcT8sqF120",
+            "createdAt": "2026-08-04T23:12:05.000Z",
+            "url": "https://x.com/rauchg/status/2084779435866398801",
+            "likes": 238,
+            "retweets": 8,
+            "replies": 32,
+            "isQuote": true,
+            "quotedTweetId": "2084772366983598171"
+          },
+          {
+            "id": "2084682618927558811",
+            "text": "𝟸𝟶𝟸𝟼 𝟷,𝟶𝟿𝟹,𝟷𝟿𝟿,𝟿𝟾𝟽+ https://t.co/RG3Lv9rURD",
+            "createdAt": "2026-08-04T16:47:22.000Z",
+            "url": "https://x.com/rauchg/status/2084682618927558811",
+            "likes": 398,
+            "retweets": 9,
+            "replies": 51,
+            "isQuote": true,
+            "quotedTweetId": "1990506139524686227"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2084828773808239080",
+            "text": "One fun benefit of spending so much time with enterprises is you get to see the array of AI implementation strategies that exist in companies right now. \n\nUnlike the early innings of cloud where there were really only a couple deployment patterns available -including being limited by only a couple infra vendors existing- AI actually has a much wider range of approaches in the enterprise.\n\nIf you ask 10 IT leaders what their coding agent strategy looks like, you get at least 5 different answers. If you ask about their end-user productivity agents, some have standardized on ChatGPT or Claude, others offer a choice of multiple solutions, and many have built their own orchestration layers for employees to use any model. \n\nFor models, we know the big ones, but increasingly enterprises are experimenting with OSS models, or are at least immensely curious about OSS and would jump at the right offering that felt safe. And increasingly there’s a set of vertical models and agents that equally show up in enterprises for a range of tailored use-cases.\n\nFor accessing data, some enterprises just have agents take on the role of the user, and others are setting up agent users that have their own identities. Some companies are setting up substantial guardrails on what agents can do, and others are putting responsibility on the user.\n\nGiven this heterogeneity this early on at the start, it means we’re in for years of landscape changes. Anyone who’s predicting ultimate market outcomes already probably will be wrong as nothing has formally settled in yet. Lots of opportunity ahead.",
+            "createdAt": "2026-08-05T02:28:08.000Z",
+            "url": "https://x.com/levie/status/2084828773808239080",
+            "likes": 145,
+            "retweets": 14,
+            "replies": 34,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2084704793432588435",
+            "text": "It's insane that the CA Dem Party is endorsing yes on Prop 40, the asset seizure tax that will destroy the California tax base https://t.co/17m33X6WmK",
+            "createdAt": "2026-08-04T18:15:29.000Z",
+            "url": "https://x.com/garrytan/status/2084704793432588435",
+            "likes": 1140,
+            "retweets": 65,
+            "replies": 92,
+            "isQuote": true,
+            "quotedTweetId": "2084702549475492193"
+          },
+          {
+            "id": "2084650011288375751",
+            "text": "If you want housing prices to go down, you build more housing. Markets work. \n\nIf you want housing prices to go up, you try to abolish rent and foment mass asset seizure and expropriation. The revolution only serves those who foment it. https://t.co/1CTz9fsHV3 https://t.co/dWY6o46A6C",
+            "createdAt": "2026-08-04T14:37:48.000Z",
+            "url": "https://x.com/garrytan/status/2084650011288375751",
+            "likes": 241,
+            "retweets": 38,
+            "replies": 31,
+            "isQuote": true,
+            "quotedTweetId": "2084636830360584515"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2084759190195536202",
+            "text": "Everyone on X: \"damn, Airtable sold for so low!\"\n\nMany SaaS founders, secretly: \"damn, I'd take that any day, at least they had an exit\"",
+            "createdAt": "2026-08-04T21:51:38.000Z",
+            "url": "https://x.com/mattturck/status/2084759190195536202",
+            "likes": 117,
+            "retweets": 2,
+            "replies": 18,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084635916480450888",
+            "text": "What the world              What Europeans \nthinks Europeans            in tech actually in tech do in the               do in the \nSummer.                             Summer. https://t.co/q1xFKyBwdt",
+            "createdAt": "2026-08-04T13:41:47.000Z",
+            "url": "https://x.com/mattturck/status/2084635916480450888",
+            "likes": 110,
+            "retweets": 10,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+        "tweets": [
+          {
+            "id": "2084828855404294266",
+            "text": "Contrary to popular perception, most people will not adopt a new technology just because it makes them more efficient.\n\nInstead, they’ll adopt new technology because:\n- Someone they know who’s similar to them on some dimension adopted the technology, and got positive results (eg became cooler, richer, more popular/respected), and they wanna become like that person \n- They feel like everyone around them has adopted the technology, and if they don’t, they’ll be left behind\n\nNotice that it’s not entirely a rational decision. It’s more of an EMOTIONAL decision.\n\nSo if you’re trying to make someone adopt a new technology, the messaging shouldn’t be “this will make you 10x more efficient!” It should be “So-and-so, someone you can relate to, has adopted this and look how much better their life has become; wouldn’t it be nice to be like them?”\n\nThis book reminds you of that. It can be distilled in one sentence: “The diffusion of technology is a SOCIAL process”",
+            "createdAt": "2026-08-05T02:28:28.000Z",
+            "url": "https://x.com/zarazhangrui/status/2084828855404294266",
+            "likes": 90,
+            "retweets": 10,
+            "replies": 13,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084635984164237792",
+            "text": "The best AI training isn't a course. It's pulling an agent into your team's group chat &amp; letting people watch it work\n\nEvery company rolling out \"AI enablement programs\" should try that first https://t.co/L1jub0HgYw",
+            "createdAt": "2026-08-04T13:42:03.000Z",
+            "url": "https://x.com/zarazhangrui/status/2084635984164237792",
+            "likes": 44,
+            "retweets": 3,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2053121182044451016"
+          },
+          {
+            "id": "2084601752817729811",
+            "text": "How to judge if a meeting is efficient:\n\nAn efficient meeting has no to-do list left behind, because all the actions are done DURING the meeting (either by agents who listen to the meeting in real time or by humans)\n\nThe gap between saying and doing should be zero, and meetings become work sessions where things actually get DONE",
+            "createdAt": "2026-08-04T11:26:02.000Z",
+            "url": "https://x.com/zarazhangrui/status/2084601752817729811",
+            "likes": 74,
+            "retweets": 3,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2084687833516691844",
+            "text": "the best vibey, air conditioned, quiet coffee shop to meet founders discretely does not exi- https://t.co/wRvjeA9096",
+            "createdAt": "2026-08-04T17:08:05.000Z",
+            "url": "https://x.com/nikunj/status/2084687833516691844",
+            "likes": 221,
+            "retweets": 1,
+            "replies": 25,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084625658173415726",
+            "text": "My SF brain shudders at the thought of how much collective time is lost waiting for New York elevators.. \n\nHotel elevators are simply the worst. Who designed two elevators for 30+ floors? I spent 12 mins recently just trying to get down from my room 😅",
+            "createdAt": "2026-08-04T13:01:02.000Z",
+            "url": "https://x.com/nikunj/status/2084625658173415726",
+            "likes": 22,
+            "retweets": 0,
+            "replies": 10,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2084719029575647660",
+            "text": "the best founders know there is no spoon https://t.co/2RRfeYCxnR https://t.co/VhBI2g7CdQ",
+            "createdAt": "2026-08-04T19:12:03.000Z",
+            "url": "https://x.com/danshipper/status/2084719029575647660",
+            "likes": 97,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2084697625539064248"
+          },
+          {
+            "id": "2084692896696111243",
+            "text": "so freaking cool https://t.co/1UoApZ2C2O",
+            "createdAt": "2026-08-04T17:28:12.000Z",
+            "url": "https://x.com/danshipper/status/2084692896696111243",
+            "likes": 189,
+            "retweets": 7,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2084686485836681335"
+          },
+          {
+            "id": "2084634391079469390",
+            "text": "agree except they’ll still be heroes\n\nonce the agency rupture heals and the AI goes back to being invisible, we’ll think only about the humans and what they’ve done. AI use will be assumed and unimportant \n\nhttps://t.co/rbs7OcBLqV https://t.co/dRD6hGl59G",
+            "createdAt": "2026-08-04T13:35:44.000Z",
+            "url": "https://x.com/danshipper/status/2084634391079469390",
+            "likes": 70,
+            "retweets": 1,
+            "replies": 16,
+            "isQuote": true,
+            "quotedTweetId": "2084544136213139894"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2084691249332649995",
+            "text": "More on why we invested: https://t.co/tdLh5WXW7e",
+            "createdAt": "2026-08-04T17:21:40.000Z",
+            "url": "https://x.com/adityaag/status/2084691249332649995",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2084691244496625793",
+            "text": ".@TryRivo is building self-driving finance.\n\nAgents connect to the checking account you already have, learn your cash flow, sweep dollars into Treasury-backed yield, and bring them back before your bills hit.\n\nEvery dollar earns until the moment you spend it.\n\nWhy is this hard? Prediction under asymmetric cost.\n\nMoney returned a day early costs you a little yield. \n\nMoney returned a day late bounces a bill and destroys trust.\n\n@AmbrishTweets is one of the few people who has shipped this class of system before. \n\nPhD in AI, 7,000+ citations, built consumer AI at Amazon, and led the L4 autonomy work at Cruise that launched robotaxis, before he came through @spc as a Founder Fellow.\n\nSelf-driving cars took two decades because the last edge cases were the hard ones.\n\nSelf-driving money is the same problem with a friendlier failure mode, and the founder building it has already solved the harder version once.",
+            "createdAt": "2026-08-04T17:21:39.000Z",
+            "url": "https://x.com/adityaag/status/2084691244496625793",
+            "likes": 13,
+            "retweets": 4,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2084675364916515018"
+          },
+          {
+            "id": "2084676740924764625",
+            "text": "The right way to deploy AI at scale is to be able to understand how it works.\n\nIt does NOT need to be a black box.\n\nThis is a key step in helping us understand what is going in these LLMs. https://t.co/waRRR1WmTS",
+            "createdAt": "2026-08-04T16:24:01.000Z",
+            "url": "https://x.com/adityaag/status/2084676740924764625",
+            "likes": 27,
+            "retweets": 3,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2084671608028057737"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "tweets": [
+          {
+            "id": "2084663673570971990",
+            "text": "i would rather be an optimist and work hard than a pessimist posting about why things won't work.\n\nit's much more difficult and the most likely path is failure, but society fails if people don't try.\n\nno amount of \"it will never work\" essays will drive society forward. https://t.co/951QDCikV2",
+            "createdAt": "2026-08-04T15:32:05.000Z",
+            "url": "https://x.com/sama/status/2084663673570971990",
+            "likes": 10148,
+            "retweets": 755,
+            "replies": 1045,
+            "isQuote": true,
+            "quotedTweetId": "2084522610998878228"
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 16,
+      "totalTweets": 35,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-08-05T07:11:53.266Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
