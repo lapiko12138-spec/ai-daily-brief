@@ -1,0 +1,515 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-08-19T10:16:59.838252+08:00",
+  "events_count": 11,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 14,
+    "totalTweets": 30,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-08-18T07:03:56.144Z"
+  },
+  "digest_generated_at": "2026-08-19T02:16:59.815Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-08-19T02:16:59.815Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad",
+        "guid": "17b96322-915c-11f1-aad7-53d361bc6996",
+        "url": "https://www.youtube.com/watch?v=6l8oAO_LBx4",
+        "publishedAt": "2026-08-06T10:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:11\n70% of France is still nuclear in terms of its power generation. 70%. Where are all the accidents and where are all the kerfuffles and, you know, nothing. Nothing's happened. US is 18%, and we haven't built a reactor in forty years.\n\nSpeaker 1 | 00:11 - 00:25\nWe had a safety lobby in the seventies basically kill abundant clean energy for us. There are real outcomes where safety has hurt us. And the question is where do we want the spectrum to be on AI for this stuff? And there's many worlds, many scenarios, many outcomes.\n\nSpeaker 2 | 00:31 - 01:03\nHi, listeners. Welcome back to No Fires. Today is just me and Alad talking about risk management, RSI, how many trillion dollar companies there can really be, and the ills of regulatory capture. For any new founders out there, it's also time to apply to embed Conviction's low overhead, high signal grant program for 10 exceptional startups building at the frontier. We hold this program twice a year, and it's $250,000 in cash on an uncapped note, well as compute and services from our partners, OpenAI, Anthropic, Base10, and others.\n\nSpeaker 2 | 01:04 - 01:24\nMost importantly, it's about the company you keep. Our first handful of cohorts have included companies like Cognition, Chai Discovery, Listen Labs, Physical Intelligence, and Flappy Airplanes, people advancing the frontier and diffusing AI into every corner of the economy. Find the app online at embed.conviction.com. Okay. Let's get started.\n\nSpeaker 1 | 01:24 - 01:26\nSarah G. How are doing? You\n\nSpeaker 2 | 01:27 - 01:31\nA lot. It's good to see you. It's been a while since we just get to hang out with each other.\n\nSpeaker 1 | 01:32 - 01:34\nI know. It's been too long. What happened? Where you been?\n\nSpeaker 2 | 01:34 - 01:38\nYou know, working at companies in DC, trying to take a day off. You?\n\nSpeaker 1 | 01:39 - 01:44\nThere's just so much going on right now in AI. There's so much going on. It's nonstop. It's very exciting times.\n\nSpeaker 2 | 01:44 - 01:48\nYou're chasing chasing the next trillion dollar company?\n\nSpeaker 1 | 01:48 - 02:03\nYeah. It's a it's a really interesting point because basically what we had is over the last five years or so, we had three companies roughly go from close to zero to a trillion dollars in market cap. Right? Anthropic basically didn't exist five years ago. OpenAI was still quite early.\n\nSpeaker 1 | 02:03 - 02:22\nI think GPT-three just come out, and SpaceX was trading at 80, a 100, something like that. And so suddenly, we had this massive inflection in terms of valuations of these companies. And I think a lot of people now are assuming that there's a bunch of other trillion dollar companies that will be formed in three to five years. And that's unprecedented in human history. Usually, it takes twenty years.\n\nSpeaker 1 | 02:22 - 02:40\nSpaceX actually took since the early 2000s, and Google took since the nineties. These are usually fifteen, twenty year arcs. And then we had this weird five year inflection. And so I feel like a lot of people now are looking at different areas that are very exciting, very promising areas, robotics, materials. And everything in everybody's mind is going to be a trillion dollar company.\n\nSpeaker 1 | 02:40 - 02:53\nAnd maybe some of these will over the next decade, but it's unlikely that we'll see that many more in the next three to five years. I mean, there's one I can think of that could maybe get there, but not multiple. So yeah.\n\nSpeaker 2 | 02:53 - 02:54\nWhat's the one?\n\nSpeaker 1 | 02:54 - 02:55\nHow am I gonna say?\n\nSpeaker 2 | 02:56 - 02:58\nA lot. Where am gonna put my money?\n\nSpeaker 1 | 02:59 - 03:01\nI don't know. It's like throwing darts.\n\nSpeaker 2 | 03:02 - 03:12\nYeah. That's why we have the dartboard here. So you think it's actually just like a very good special point in time vintage versus, you know, the ecosystem always gets bigger?\n\nSpeaker 1 | 03:12 - 03:27\nWell, it's more like a punctuated equilibrium. Right? If you look at theories of evolution, one of them is punctuated equilibrium where you have a Cambridge Explosion and you have consolidation and things are kind of steady state for all. Then you have an explosion. And so that's kind of like the history of technology, right, if you think about it.\n\nSpeaker 1 | 03:27 - 03:47\nWe had a big social wave, but there isn't a dozen new social companies all the time right now. We had a SaaS wave, then they kind of settled down. So we just had a giant AI wave, and there's still more to come. One could argue that Internet had four or five periods to it. I had the Internet of the nineties, I had social of the early to two thousand ten, 2012 ish kind of era.\n\nSpeaker 1 | 03:48 - 03:57\nYou had SaaS. You had cloud. You had big security companies. You had crypto as a wave, so you had all these waves happening. And sometimes they had two pieces.\n\nSpeaker 1 | 03:57 - 04:16\nRight? Bitcoin had a couple different cycles, and other technologies will have that. AI undoubtedly, there'll be some giant breakthrough in model capability, and we'll see another step in some of these startups again. Right? But we see these moments in time where things go from zero to a lot, and then those things become consolidators.\n\nSpeaker 1 | 04:17 - 04:34\nAnd then the question is what comes after that? And so I think we've now seen at least some of the consolidators emerge. And the question is how many more giant companies are coming in the next handful of years? And that's different from saying what happens over the next twenty years. Of course, there's gonna be tons of interesting stuff over twenty years.\n\nSpeaker 1 | 04:34 - 04:42\nOver two years, three years, there's still things that will grow a lot. You know, there's still a lot of $100,000,000,000 companies to be built, but multi trillion dollar companies are kind of hard to get to.\n\nSpeaker 2 | 04:42 - 05:13\nI wanna talk to the investors you're talking to because I feel like I run more into a failure of imagination of how much bigger or better something can be than the closest proxy market from a previous era. And, like, I I think, like, being able to rethink market size is just still, like, a key underpriced investor skill right now at any stage. Right? If you think about Sure. Take some of the, like, application companies that, you know, we have in common or that other people have invested in.\n\nSpeaker 2 | 05:13 - 05:34\nI think there are a lot of investors who have intellectually recognized this idea of AI companies delivering services value. They don't act like they believe it. They look at everything a little bit more linearly. Right? So think of, if you're looking at Harvey or a Bridge or something, then they think about a per seat or per, yeah, per, like, lawyer or per doctor TAM.\n\nSpeaker 2 | 05:34 - 05:48\nAnd they're not actually, you know, asking the question of, like, what does the company look like if they can charge for outcomes? And actually thinking about, like, what's happening in the the coding domain, which is consumption and value, you know, a 100 x from here.\n\nSpeaker 1 | 05:48 - 05:53\nCoating, I think, is like a much, much bigger market than anyone thought. And, you know, I think both of us were saying that a year or two ago.\n\nSpeaker 2 | 05:53 - 05:57\nBut now the evidence is out there. You don't have to be a genius to, like, take that to domains.\n\nSpeaker 1 | 05:57 - 06:15\nThe evidence is out there, but it's also what is a trillion dollar market and what is a $100,000,000,000 market? Both of those are big numbers. Right? I actually wrote a blog post in 2010 or something talking about how hard it was to get to 10,000,000,000 in market cap, right, Which is now like a seed round for some of these Neo Labs. Don't get me wrong.\n\nSpeaker 1 | 06:15 - 06:34\nI think that the reality is that there's a lot of these things that could be a 100, but I don't think there's that many that could be a trillion. Those are just different orders of magnitude. And so then the question is, what are these things that could actually be a trillion dollar market? Because you just think of the revenue basis that's needed for that. You need a 100,000,000,000 of revenue or 50 to 100,000,000,000 pretty easily.\n\nSpeaker 1 | 06:34 - 06:46\nSo then the question with good margin. Right? So then the question is, where are the $50 to $100,000,000,000 revenue streams for single companies? That's a different question than is the TAM really, really big. Right?\n\nSpeaker 1 | 06:46 - 06:56\nThat's huge TAM. Right? That's a very small number of markets in the world. There's a lot of them. There's a dozen plus companies that are there ish.\n\nSpeaker 1 | 06:57 - 07:09\nBut how many more will there be in the next five years? That's my question. It's not what in the next twenty years. It's what in the next five years we'll be able to get to 50 to 100,000,000,000 of revenue. And that changes how you think about this.\n\nSpeaker 1 | 07:09 - 07:14\nRight? There's tons that can get to 5 or 10,000,000,000 of revenue, and there'll be a $100,000,000,000 company.\n\nSpeaker 2 | 07:14 - 07:29\nI think I'm looking at more both a little further out. And then I'd say, like, I don't know that there are that many markets that are gonna get to 100,000,000,000 of revenue in the next couple years that aren't. Like in France. Right? Tell me what else what else you think in that timeline.\n\nSpeaker 2 | 07:30 - 07:34\nPerhaps some supply chain, like energy type technologies.\n\nSpeaker 1 | 07:34 - 07:39\nMaybe. Yeah. Yeah. There's there's like a list. You can make a list of, like, five or six areas that seem promising.\n\nSpeaker 1 | 07:40 - 07:57\nAnd then part of it too is you actually if it's a physically it's a physical goods company, energy, robotics, etcetera, do you actually have the footprint to get there that fast? Again, I'm doubting the size of some of these markets. I'm doubting the speed at which you can get there. Yeah. A 100%.\n\nSpeaker 1 | 07:57 - 08:24\nAnd that's the issue. And people are, at least in my experience, collectively at least investing against the fact that they believe the speed is there, which is different from the market size. People are conflating the two things right now in my opinion. The other phenomena that I think is happening is almost the opposite of it, which is I see some really, really excellent founders going after niche markets because they're not scared of the Neolabs. And I think there's much less head to head competition.\n\nSpeaker 1 | 08:24 - 09:00\nIf you look at the markets that Harvey or Open Evidence or Decagon or any of these folks at Sierra entered four or five years ago, three or four years ago even, Cognition two ish years ago, it was big, big markets that could be in the roadmaps of these labs. But I feel like the the two things are happening at the same time. One is for the mid to late stage technology markets, people are continuing to invest as if there's velocity to get to a trillion for many companies where I don't think there's a velocity. Again, I think some of them will get to 20, some will get to a 100, some of course will go to zero. And then there's a separate thread of all the new stuff that's coming.\n\nSpeaker 1 | 09:01 - 09:20\nHow aggressive and ambitious are the founders relative to what the labs are doing? And I think that's why you're seeing a flight to hardware companies. Oh, the labs will never do this hardware thing, and so we'll do that. And American Dynamism, and niche applications of AI, and something that should be provided by an inference cloud, and etcetera, etcetera. Right?\n\nSpeaker 1 | 09:20 - 09:34\nSo there's a lot of these types of companies that I think are gonna be potentially a bit more derivative. And don't get wrong, there's people doing huge amazing things simultaneously. Right? It's not every startup. But there's more and more, at least to my perception, of people doing smaller niche things out of fear of the labs.\n\nSpeaker 1 | 09:35 - 09:37\nAnd that's also I think a negative.\n\nSpeaker 2 | 09:37 - 09:46\nAnd you feel like they're being too meek, like they should just take on the head on competition because you can create a much better experience and go just compete on the product, on the distribution, any of it.\n\nSpeaker 1 | 09:46 - 09:54\nI think so. Yeah. For certain markets. Of course, there's some markets where the labs will just eat it naturally, but there's a bunch of markets where they won't. But I think people are staying away from both.\n\nSpeaker 2 | 09:54 - 10:00\nOh, we have companies in the portfolio that are going against pretty central premises. So I don't think all the founders are being too meek.\n\nSpeaker 1 | 10:00 - 10:10\nOh, I don't think it's all. I think there's more. My point is it's more a trend line and it's the newest stuff. I'm not saying a thing that's a year old or two years old. I feel like it's a trend line that's shifting.\n\nSpeaker 1 | 10:10 - 10:21\nAnd again, it's not all of them. It's just enough of a subset. It's a subset of the good founders. I'm not concerned about the median founder. I'm concerned about the best founders.\n\nSpeaker 1 | 10:21 - 10:22\nWhat are they doing?\n\nSpeaker 2 | 10:22 - 10:40\nI am more often disappointed right now that founders are being less ambitious than they could be. So maybe that's the trend that I'm talking about. We were talking about when companies when founders should sell their companies. What is your thinking on it at this point in time or your framework for it?\n\nSpeaker 1 | 10:40 - 10:52\nThere's a handful of companies that should never ever sell, at least anytime in the near term. If you're Anthropic, you shouldn't sell. If you're OpenAI, you shouldn't sell. There's a handful of these things that should never sell. Most companies in any given era should at least consider it.\n\nSpeaker 1 | 10:52 - 11:18\nAnd there's usually a time maximizing window where your best outcome is a sale within that window. It's like a twelve to eighteen month period, usually where the company's worth the most it'll ever be worth. And I I think we saw one major exit where that was probably the case reasonably recently. I think there's other companies that should really actively think about it. From a hygiene perspective, maybe what companies should do I think Ben Horowitz wrote about this once.\n\nSpeaker 1 | 11:18 - 11:34\nBasically, do a preplanned once a year board meeting where the discussion topic is in a non emotional way. Should we consider exiting this next six months period? And it's prescheduled, so it's not the founders pushing for it. It's not the investors pushing. It's just a rational conversation.\n\nSpeaker 1 | 11:34 - 11:48\nAnd the answer to the conversation may be no. We should keep going. We still think we have XYZ ahead of us. Amazing. But I think it's very useful for people to have that sort of conversation because I feel like in the cycle, every year of AI time is like three to four years of normal cycle time.\n\nSpeaker 1 | 11:48 - 12:18\nAnd so three years is like a decade. Right? Like, if you think of what existed in AI three years ago from a model capability perspective, from a vertical app perspective, from AI roll ups, from you name it, any any of the stuff like infrastructure, whatever, radically different world three years ago. And so we're on an accelerated timeline right now where everything is moving faster. And that means that you should double check your thinking more frequently because the underlying fact set is changing faster than it ever has.\n\nSpeaker 1 | 12:19 - 12:23\nI don't know. What do you think? What's your what's your approach to exits or not exits?\n\nSpeaker 2 | 12:23 - 12:49\nI agree with you that there there are a set of companies that should never sell unless they cannot finance their future. Right? If I think about maybe one principle that is like new for this point in time is I might ask at that board meeting or at that meeting once a quarter or once a year or whatever you think is the right pacing today. And it's more often than it was a few years ago.\n\nSpeaker 1 | 12:49 - 12:50\nYeah. It's every six months.\n\nSpeaker 2 | 12:50 - 13:05\nOkay. So every six months. Great. Are you capturing value as costs fall and capabilities increase? Because if you're the on the wrong side of this secular change and you can't get to the other side of it, you should in fact, like, sell.\n\nSpeaker 2 | 13:05 - 13:27\nYou don't have good ideas about how to be on the right side of history. So I I think that's a question people should ask them ask themselves. And then if you think about our our friends at Cursor, is the way you want to compete capital compute access? And is it perhaps a maximally valuable point in time? That's an interesting question.\n\nSpeaker 2 | 13:30 - 13:49\nBut I think that, like, you know, more broadly, it's a it's a I feel like it's a very personal and very interesting risk management question. I do think people should ask themselves. Right? Like, the idea that there is pride around, like, never considering this as nonsense. The situational awareness situation is a good reminder that everyone has to stay alive to profit as well.\n\nSpeaker 2 | 13:49 - 14:04\nHedge funds are different than companies. They have to survive to compound. But I I think even just the premise of, like, you need to match your financing structure to your thesis horizon and then be able to, like, continually finance the company to the promised land of whatever you're trying to\n\nSpeaker 1 | 14:04 - 14:30\ndo. Yeah. I think the financing part though is gonna be there because basically what's happening, because of this rapid rise of $3,000,000,000,000 plus companies in a short timeframe, an enormous amount of venture capital is starting to get returned. And that means people are raising bigger and bigger funds, and they need to put it somewhere, they're going to put it against trillion dollar companies of the future. And so I do think we're going to see an ongoing rise in valuations most likely over the next year or two, much more than we've seen today.\n\nSpeaker 1 | 14:30 - 14:56\nAnd obviously, there'll be some great things in there and there'll be a bunch of stuff that doesn't deserve it, but I actually think financing is going to get easier, not harder. And so I'd view it less as financing and more what do you think is the true likely expected outcome of your company? Not what investors are telling you, not what the press is telling you, not what Twitter is telling you. Just sit down and run the math. And then remember that at some point, you'll probably trade at 10x or something, maybe 15x.\n\nSpeaker 1 | 14:56 - 15:07\nAnd so then the question is, what is your thing going to be worth? And remember, eventually things slow down in terms of compounding too. And you can decide where that slowdown happens. But you kind of do that math. You do future dilution.\n\nSpeaker 1 | 15:07 - 15:22\nYou look at your potential outcome. You look at years of work it'll take to get there. And you can come to a conclusion because there's two types of opportunity costs that are risk management. There's risk management against the value of the thing you're doing. But the biggest opportunity cost is your time.\n\nSpeaker 1 | 15:22 - 15:39\nYour most productive years of your life are on the line right now. And you can either walk away with a good amount of money to go to the next giant thing, now having done it before, they're going to work with you again, etcetera, etcetera, or you can roll the dice. And you can decide to roll the dice. That may be the right answer. And again, for some companies, absolutely, you should do that.\n\nSpeaker 1 | 15:39 - 16:06\nBut for others, may be, hey, actually, now is maybe the time to go. Secondary is an intermediate option, which I actually don't think is always that great because it sells for some short term needs, but it doesn't actually create a solution. And you see a lot of people from 2020, 2021, store running companies five years later that aren't working. And think of that five or six year period where they've been locked up when all the AI change happened. What is the cost of that to a great founder?\n\nSpeaker 1 | 16:08 - 16:25\nSo I think there's that kind of cost that people don't really talk about as much, which I think is the real cost. That's your lifetime cost. Right? And you only live once, and it's a short life. And so do you want to eventually be working on something that's going to continue to struggle, that's overcapitalized, that has runway for the next ten years or not?\n\nSpeaker 1 | 16:25 - 16:34\nAnd that's where you end up. That's what happened with the 2020, 2021 cohort. There's tons of people running these companies that aren't working still. And we forgot about them because we're talking about AI all the time.\n\nSpeaker 2 | 16:34 - 17:03\nThat is a huge waste. My I think my point was really that even if there are lots of dollars still rotating into venture or being produced by these huge outcomes over, you know, now and over the next year or two, private markets don't have to be rational or right for long periods of time. Right? And so being smart about your ability to finance the company is the equivalent of avoiding margin calls. Right?\n\nSpeaker 2 | 17:03 - 17:41\nAnd I I you know, some founders who are working on something that requires a, like, a technical structural point of view about how the market resolves can get very frustrated because investors will believe something that they think is wrong or stupid for a long time. And it's just the job of the founders to go navigate that narrative or that set of beliefs. And if if they think it's untenable or if they think they're, like, down some, wasteful path of their time, as you described, then they should sell the company. But it could be worse. I mean, founders, they have the concentration risk, but they could be hedge fund managers facing retail, irrational acts in the market, and redemptions next quarter.\n\nSpeaker 2 | 17:41 - 17:52\nSo it's just different different environment. But I don't think it's as simple as, like, financing is now free. I do think it is gonna skew, as you said, toward scale of opportunity naturally.\n\nSpeaker 1 | 17:52 - 18:12\nPerceived scale. Perceived Yeah. Perceived scale is the important angle. So the other thing a lot of people out here are working on or talking about is if you talk to people at the labs, there's this enormous manic energy right now. We're six months ish or towards the end of the year to be completely done with code, like, as a solved problem.\n\nSpeaker 1 | 18:13 - 18:45\nAnd then we'll probably hit some form of light RSI by end of next year. And at that point, you'll have models training big chunks of the models themselves. I think it's probably more post training initially, maybe it could impact pre training over time more quickly as well. And because of that, many people believe, hey, if I have a year, year and a half left of productive work in my career, I should be working sixteen hours a day because every week is, you know, 2% of all the time I have left to be productive before I get displaced by AI. What do you think of that?\n\nSpeaker 2 | 18:45 - 18:48\nLike, do I believe it, or what happens if it's true?\n\nSpeaker 1 | 18:48 - 18:48\nDo you believe it?\n\nSpeaker 2 | 18:49 - 19:07\nI think the idea that the models can improve their own training if the leading scientists working on this believe it, and it's an extension of what we are already seeing in code and math, of course, you should believe it. Right?\n\nSpeaker 1 | 19:07 - 19:08\nYeah. But on that timeline.\n\nSpeaker 2 | 19:08 - 19:48\nThe data I have is that a number of very smart and even very self aware research scientists have felt that, you know, there was some knee in the curve on recursive self improvement or ASI eighteen months away, every eighteen months for the last five years. So how good of it is a predictor? It's not clear. I think the, like, the extension from code to training code to data pipeline work, is way easier to believe. The question of like how you are going to go gather that data for less verifiable, more complex domains?\n\nSpeaker 2 | 19:48 - 20:00\nOr do you run into the actual constraints on the, like, physical compute accessibility side? Like, I think that's probably more of a limiter than, this being algorithmically possible.\n\nSpeaker 1 | 20:00 - 20:30\nYeah. I mean, the physical compute basically reinforces an oligopoly market because what it does is it creates a ceiling on the rate of progress any single lab can get if effectively assume the compute is roughly pro rata across the ecosystem to the big labs. And so in the absence of a lack of compute constraints, you're almost having an enforced oligopoly market up to a point, or at least you force closer competition between the players than what exists otherwise, which I think is an interesting artifact of this moment in time. And the question is when does that lift and what does that look like? So, yeah, it's kind of it's a very exciting time.\n\nSpeaker 1 | 20:30 - 20:45\nI mean, I always wonder about second order effects of that belief of it's eighteen months away because that does suggest there could be a burnout cycle in eighteen months. Like, I know some people at one of the major labs who for a while, brought up with me, should they get married? Do people want to get married? Should they get married? Because I don't know what happens in eighteen months to the world.\n\nSpeaker 1 | 20:46 - 21:01\nIt's like, you should get married. You should go ahead. It'll be okay. And so I do think we're living through this very manic, very exciting, very intense work period. So, yeah, it's really fun stuff.\n\nSpeaker 2 | 21:01 - 21:03\nI think it's kind of tragic, man.\n\nSpeaker 1 | 21:03 - 21:04\nReally? Why?\n\nSpeaker 2 | 21:04 - 21:26\nI think the reactions of some really extraordinary research friends to it, it feels a little bit tragic. I think it like I feel like it's psychologically most similar to if people think they're gonna die. Right? Like, how would you spend the last two years of your life? Would you spend it the way you are today, or would you spend it in a very different way is a, like, a not unrelated philosophical question.\n\nSpeaker 2 | 21:27 - 21:38\nAnd so you do have people who are like, ah, like, my contribution is a bit irrelevant given RSI in the next eighteen months. So should I get married? Should I bother to work? Should I travel? Should I only work?\n\nSpeaker 2 | 21:39 - 21:49\nAnd, you know, I just actually think it's a much more stable and satisfying state if people act as if they have. But maybe you think that's blind.\n\nSpeaker 1 | 21:49 - 22:25\nYeah. I just think there's a lot of second order effects that are happening or going to happen. Part of them are driven by this belief system and potential burnout over time. Part of it is going to be One thing that I've noticed that is happening at some of the labs is that as compute becomes really the scarce resource, it turns out that there's say a few dozen researchers that drive 80% of the results at any given place, which is a really interesting human power law. If you actually look at it in any field, there's at most a few dozen people who drive the field.\n\nSpeaker 1 | 22:25 - 22:45\nYou look at breast cancer research, you look at certain subfields of mathematics, you look at subfields of physics, You look at the entrepreneurial ecosystem and founders. There's a handful of people, dozens of people who drive most progress. And that also happens in AI research. And increasingly, compute is differentially provided to those people. Right?\n\nSpeaker 1 | 22:45 - 23:09\nAnd so I know some labs have slowed down on their hiring of researchers unless they're above a very, very high bar because the cost isn't the researcher, it's the compute associated with the person. That's where the real bottleneck is. I think there's this broader concept of return on invested tokens, like an ROI kind of metric, which is if you have a certain token budget, who do you give it to and why? This is kind of like engineering back in the day. Right?\n\nSpeaker 1 | 23:09 - 23:57\nThe internal tools teams at companies were always starved for resources because many, at least tech companies, would rather use the same engineers to build product than to build internal tools that would make other functions more productive. That's why I think the death of SaaS is a little bit overstated because why would you use tokens on a bunch of SaaS stuff that you're not actually paying that much for per year relative to the outcome of those same tokens being invested against a core product or against some massive margin lift or some other thing? And so I think increasingly we've shifted from a world where people said, Hey, everybody use AI and do whatever you want, to hey, we have to measure, spend, and move more things to open source. And then I think the next wave is what are the projects and people that should actually get outsized pieces of a token budget, and what is that return on investment? It's this sort of next shift that's coming?\n\nSpeaker 1 | 23:57 - 24:02\nIt'll take some time, though. I mean, many people are still at like, hey, everybody try AI or whatever, you know, big enterprises.\n\nSpeaker 2 | 24:02 - 24:14\nWhat do you think is the appropriate compute, like token budget for a business or a human being three to five years from now? Should I look at it like rent?\n\nSpeaker 1 | 24:14 - 24:27\nNo. I mean, it depends on what the budget is for what. I mean, people forget too. Minecraft was like, what was it, five people, 10 people, and it was bought for billions of dollars by Microsoft. People keep talking about someday there'll be a multi billion dollar single person company.\n\nSpeaker 1 | 24:27 - 24:50\nThat was basically Minecraft, roughly. It already happened fifteen years ago or whenever that was. So there are always people who can take outsized advantages of technology, and AI has accelerated that radically. And so at some point, it's like, why give tokens to people who can't do that on a relative basis unless you just run out of those people? And you may run out of them.\n\nSpeaker 1 | 24:50 - 25:13\nThis is back to like, well, all the engineers get laid off. Probably not anytime soon. But you could argue that at some companies, even before AI, there's a bunch of engineers that weren't that productive that could be let go, especially some of the big tech companies. And I think a lot of those folks will be very coveted by GE or PG and E or Hershey's. So even if there is some displacement of engineers at some point in the future, I don't know when that is or if it happens.\n\nSpeaker 1 | 25:13 - 25:45\nBut if it does happen, there's lots and lots of homes for them Because there's tons of enterprises that never had the capability set or ability to recruit these people, and they want the capabilities they bring. Even if they're mediocre in the context of a Google or Meta or whatever, they may be exceptional in the context of a certain subset of old school enterprises. And so I do think there's gonna be this permeation through the enterprise landscape of engineering talent in an unexpected way. This probably is many years away. I'm just saying I think that's probably a likely outcome.\n\nSpeaker 2 | 25:45 - 25:57\nI think relatedly, if, you know, if you are a researcher 800 and you have not been allocated an outsized number of tokens to work with at one of the major labs.\n\nSpeaker 1 | 25:57 - 25:57\nYeah.\n\nSpeaker 2 | 25:58 - 26:24\nI think the opportunity to go spend your energy on, you know, something where you have, like, compared advantage and understanding and should benefit from all of this. The supply chain bottlenecks, domains that should accelerate like bio, diffusion into other valuable fields. Like, to me, that that seems a lot more exciting than being concerned about the downfall of mathematics and going on, you know, vacation until the world ends.\n\nSpeaker 1 | 26:25 - 26:40\nOh, yeah. Lots of places to go do stuff. And I do think that's where a subset of the research community will end up over time. And that's an interesting question is how many researchers do you need if you're a top AI lab? And how does that number relate to the number that you have now?\n\nSpeaker 1 | 26:40 - 26:56\nAnd is it you have the right number? Is it you need five times as many people? Is it you need half as many, but they only know you have a certain bar because it's compute constrained? And you wanna map it against the best ideas, and the best ideas come from a subset of people on average. Not always, but on average.\n\nSpeaker 1 | 26:56 - 27:13\nAnd so it's a really interesting question of how does all this stuff fall out, and then where does the n plus one person go? And there's lots and lots and lots of places for the n plus one person to go. They're still exceptional. They're still top of the bell curve. Again, I don't wanna have that misinterpreted as the person is not being amazing.\n\nSpeaker 1 | 27:13 - 27:17\nIt's just at some point, people will do some cutoff on their power law.\n\nSpeaker 2 | 27:18 - 27:42\nI think you will appreciate this. Maybe you've heard it because it's an old ex Googler joke. But when Google is like, I don't know, 50,000 people or something, the question was, how many people does it take to run Google? And if you ask somebody within search and ads, they're like, oh, like 20% of people in search and ads. And if you ask somebody outside of, you know, search and ads, they'd say, like, 50,000 people or whatever Google is.\n\nSpeaker 2 | 27:42 - 27:53\nSo I think this is probably some varied perspectives on the concentration of contribution. I don't know, having never worked at Google.\n\nSpeaker 1 | 27:53 - 27:59\nYeah. I mean, we definitely know that yeah. I mean, I worked at Google. I thought it was a wonderful place.\n\nSpeaker 2 | 28:00 - 28:01\nIn search?\n\nSpeaker 1 | 28:01 - 28:12\nI worked on mobile search a bit, and I worked on worked on ads a bit. I mean, I I worked on a bunch of mobile stuff, and then I worked on a bunch of, like, AI ads related stuff.\n\nSpeaker 2 | 28:12 - 28:39\nCan I ask you a very different question, which is, like, can you think of anything that could disrupt us all right now? You could have, like, investors, like a number of different players collapse in their commitment on the CapEx side because the markets hate it. There's some sort of freak out about the debt and the returns profile. You seem like minor indication of that, but not not real pressure yet. And the last one is, do you think there's a technological disruption that's possible?\n\nSpeaker 2 | 28:39 - 29:03\nLike alternatives to transformers, does that still matter at all? Is there anything that would make the landscape look really different technically? I think there's always technology unknowns. And then I I think the idea of attempting to restrict model usage of models we already have or open source to dramatically constrain pace of progress, I think, is the other.\n\nSpeaker 1 | 29:03 - 29:15\nYeah. And I agree with the regulatory angle. What do you think is gonna happen in California? So they passed the billionaire tax. And then I mean, the Democratic Party in California came out in favor of it.\n\nSpeaker 1 | 29:17 - 29:33\nYou're a founder of one of these companies that you've backed that's now worth 10,000,000,000 plus. Is the founder gonna have a forced asset sale now next year, assuming it passes? Will dozens of founders have to sell big chunks of their companies?\n\nSpeaker 2 | 29:33 - 30:02\nIt's not clear the regulators have thought through the execution and compliance of this. But I think the immediate effect is that a huge number of people that are attempting to create value or do new things in California choose to leave. It's that's already happening. It's hard to move an entire ecosystem very quickly. This is the fastest way I can think of to chase the entire ecosystem out.\n\nSpeaker 2 | 30:02 - 30:03\nWhat do you think happens?\n\nSpeaker 1 | 30:03 - 30:26\nYeah. I mean, way that law is written is, my sense is it's reasonably broad in terms of once it passes, they can reimplement it, they can lower the bar in future years, etcetera. Yeah. And my sense is in '28, there's increasing talk about also trying to add a exit tax in California. So if you actually try and leave, they'll they'll try and take a big chunk as sort of a penalty for that.\n\nSpeaker 2 | 30:26 - 30:32\nSo is your prediction mass migration in '27 to Miami? Miami finally happens?\n\nSpeaker 1 | 30:32 - 30:57\nI think it will take some time. I think the people who wrote the bill want the flight to happen. I think they want people to leave. And I think the two really negative signs for California were this bill and then the ballot harvesting initiatives. I think those are the two things that make it a potentially worse future for the state in different ways.\n\nSpeaker 1 | 30:58 - 31:17\nSo I'm hopeful, as usual, that California figures it out. But I think if there's any alternative that was easy to do, a lot of people would even more people would be leaving. I do think a lot of people are leaving. I know quite a few who are starting to go now or planning to go by the fall next month or so.\n\nSpeaker 2 | 31:17 - 31:19\nWhat is your second choice ecosystem?\n\nSpeaker 1 | 31:19 - 31:42\nI think that there's a few different places that a lot of people are considering. And the question is, what does critical mass look like in two years at each one of those spots? So I think a lot of these things self assemble and people talk about weather and they talk about all these other things. But the reality is Boston used to be one of the main startup hubs. It still is for biotech.\n\nSpeaker 1 | 31:42 - 31:59\nThey lost competitively in the early nineties. Right? In the eighties, Boston was sort of the counterweight to Silicon Valley. And the weather there was awful. And so I think it's more about where do you have enough smart people aggregated working on common things?\n\nSpeaker 1 | 31:59 - 32:01\nAnd then that's where these renaissance tend to happen.\n\nSpeaker 2 | 32:01 - 32:33\nI think it's been really exciting to see the amount of, like, great technology migration and innovation in in Texas around energy. Because that is really like a reaction to regulatory environment and demand where I've seen a lot of people either move from Silicon Valley or move from other places because it is a place where you can experiment. And there is actually an ecosystem now that's super exciting.\n\nSpeaker 1 | 32:33 - 32:59\nEnergy and hardware, actually. There's a really growing hardware corridor there as well, which is you know, it was originally all around El Segundo because that's where SpaceX was and then Andoril. And now, you know, SpaceX and I think part of Tesla and stuff moved to Texas. And so there's like this new ecosystem kind of emerging around sort of a part of Texas as well in addition to Austin. So I do think we are seeing these shifts, and these shifts are purely driven by regulation.\n\nSpeaker 1 | 32:59 - 33:06\nThey're not driven by is Texas a better or worse place to live? I mean, it impacts things. Right? But but it's regulatory shifts driving people out.\n\nSpeaker 2 | 33:06 - 33:11\nYou didn't take my bait on architecture and, like, technology.\n\nSpeaker 1 | 33:11 - 33:13\nWhat do you think about architectures?\n\nSpeaker 2 | 33:13 - 33:50\nI think we are going to, like, as an industry, consume all of the compute and power available, whatever the underlying architectures. So the idea that you are going to have a lot of pressure to find more memory or power efficient architectures is like more interesting than ever. But catching up to transformers and scale and match for hardware remains pretty tough. But I think people make that they will make that bet as they get more desperate in terms of more experimentation. I don't think it changes the direction of the industry.\n\nSpeaker 1 | 33:50 - 34:03\nI think whatever it is gets copied and then it'll lapse to it and they have all the computing. You know? That's that's the high probability outcome. It's not the only outcome. There could be some lower probability thing where some neo lab comes up with something.\n\nSpeaker 1 | 34:03 - 34:20\nThey keep it super, super secret. They scale on it, and suddenly their model is better than anyone else by far. And then they can afford all that extra compute and everything else and everybody rallies around them. You could always imagine a scenario like that. But you could also imagine a scenario where just one person from that team leaves for Anthropic or OpenAI and the knowledge spreads.\n\nSpeaker 1 | 34:20 - 34:26\nAnd the next thing you know, everybody has it, which is what's been happening so far in terms of these models.\n\nSpeaker 2 | 34:26 - 34:42\nDo you think if the dominant thing is access to compute then, and it's an oligopoly because of it, do you see the labs using that access to compute to control other verticals that they want to be in?\n\nSpeaker 1 | 34:42 - 34:56\nOr what is the safety that's really needed that's actually protective of people? What is the risk? What is the outcome? That's kind of the Janssen from Janssen Pharmaceuticals. He's considered one of the best drug developers of all times.\n\nSpeaker 1 | 34:57 - 35:22\nHe has these great videos on YouTube where he's interviewed thirty, forty years ago talking about regulatory capture in pharma. And the reason things got so expensive and so slow is number one, regulatory capture, and the second is risk reward scenarios where the FDA, in his mind I'm not saying this is correct or incorrect. In his mind, the FDA focuses too much on safety and risk and not enough on benefit. And so there's no risk reward. There's only risk.\n\nSpeaker 1 | 35:22 - 35:44\nSo that slows everything down because you're only looking at one side of the equation. One could imagine a scenario where in the labs, a version of that is created as well. Right? Where the safety burden is so high even if the outcome is even higher, even if the positive outcome is dramatically higher relative to the risk. And so this is back to if you only focus on one side of the equation, you'll always constrain things.\n\nSpeaker 1 | 35:44 - 36:17\nAnd if you constrain things but then push progress forward internally on an exponent, and a year is worth three or four years in normal time, then you're a year ahead internally, that's a massive advantage. And so it's this very interesting question of where do we as a society feel comfortable on the risk reward spectrum for different things? Like, if my email gets hacked, is that so terrible relative to better healthcare through AI models sooner? And so that's kind of the trade off. So yeah, these are all things we'll have to work through from a societal perspective.\n\nSpeaker 2 | 36:18 - 36:32\nI think part of the challenge here is it's not a comfortable stance for the regulators to for many policymakers to hear from technologists that you have to see what happens with the technology versus control.\n\nSpeaker 1 | 36:32 - 36:48\nWe've always said that. It's always been a tech thing. It's always been throughout history, hey, of course, this technology could be used in negative ways. Right? Every technology has both positive and negative applications.\n\nSpeaker 1 | 36:48 - 37:03\nBiotech, you could create a virus, but you can cure cancer. Nuclear, you could have free, cheap, abundant energy. You can also create weapons. And if you actually look at it, you know, 70% of France is still nuclear in terms of its power generation. Right?\n\nSpeaker 1 | 37:03 - 37:09\n70%. Where are all the accidents? And where are all the kerfuffles? You know, nothing. Nothing's happened.\n\nSpeaker 1 | 37:09 - 37:19\nUS is 18%, and we haven't built a reactor in forty years. Japan is 25%. Very safe, very abundant, but we had a safety lobby in the seventies basically kill abundant clean energy for us. Right?\n\nSpeaker 2 | 37:19 - 37:23\nWell, we're making them now. We just need to make a lot of them.\n\nSpeaker 1 | 37:23 - 37:36\nWe're not making much. We're not making much. So I think there are real outcomes where safety has hurt us. And that's hurt us in power and energy production. It's hurt us in aspects of medicine.\n\nSpeaker 1 | 37:36 - 37:55\nIt's hurt us in lots of places. And the question is where do we want the spectrum to be on AI for this stuff? And there's many worlds, many scenarios, many outcomes. And societally, we kind of get to choose where do we wanna where do we wanna place that needle on that on the wheel of safety versus risk versus outcome.\n\nSpeaker 2 | 37:55 - 38:05\nElad, before we go, what is something that you're just excited about that is on the positive end of that wheel?\n\nSpeaker 1 | 38:05 - 38:42\nI mean, there's so much stuff I'm excited about there. Like, I think there's so much we can do from a human productivity perspective, from an education perspective, from a health care perspective, from a daily life and benefit to life perspective, self driving and elderly, everything. There's so much good that can come of all this. So I'm optimistic about a lot of applications, and that's why I'm cautious about where we should end up on that spectrum. Because I do think it's always good to make sure that we have the proper safeguards societally, but I think that historically, for big industries, we've gone too far.\n\nSpeaker 1 | 38:43 - 38:59\nAnd the reason tech has been so successful so quickly and has had so much human impact is because it's been lightly regulated. And I think it's better to keep it that way than not. And we'll lose optimism. We'll lose momentum. We'll lose progress.\n\nSpeaker 1 | 38:59 - 39:04\nAnd that's what happened in biotech, and that's what's happened in a variety of areas over time. It's what happened in energy for a long time.\n\nSpeaker 2 | 39:04 - 39:16\nCall to arms against regulatory capture. Alright. We'll see you guys. Find us on Twitter nopriorspod. Subscribe to our YouTube channel if you wanna see our faces.\n\nSpeaker 2 | 39:16 - 39:27\nFollow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at nopriors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2089467492163010836",
+            "text": "@TomasReimers @cursor_ai is live! https://t.co/hkyT5adhBO",
+            "createdAt": "2026-08-17T21:40:45.000Z",
+            "url": "https://x.com/swyx/status/2089467492163010836",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2089399057659596847"
+          },
+          {
+            "id": "2089393202755502492",
+            "text": "@rronak_ https://t.co/c72imKExtp",
+            "createdAt": "2026-08-17T16:45:33.000Z",
+            "url": "https://x.com/swyx/status/2089393202755502492",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089393073327653344",
+            "text": "Trajectory have generally impressed me with their tasteful execution on ambitious goals. on our Continual Learning track, @rronak_ gave a very thoughtful overview on how they're tackling the main data problems left in CL, including why GRPO isn't enough and they had to go on-policy.... and then subsequently fix all the issues that come up with it\n\nnice overview from one of the early leaders in this field!\n\n(see the rest of the track for more, this one was quite stacked)",
+            "createdAt": "2026-08-17T16:45:02.000Z",
+            "url": "https://x.com/swyx/status/2089393073327653344",
+            "likes": 117,
+            "retweets": 7,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2089384708245540877"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2089520767281324112",
+            "text": "Circling back on this with some updates... What’s the next set of things we can improve to make your Gemini experience even better?\n\n#1: Testing revamped Workspace tools in 1-2 weeks\n#2: 3.7 Flash showed improvements in tool calling, more coming here\n#3: New “Projects” design done, implementing now\n#4: 49 connectors (and counting) supported now\n#5: Backend work done, frontend work started\n#6: Done\n#7: Done, ramping up now\n#8: Done\n#9: Done\n#10: Done, fixed the biggest over-triggering bugs",
+            "createdAt": "2026-08-18T01:12:26.000Z",
+            "url": "https://x.com/joshwoodward/status/2089520767281324112",
+            "likes": 467,
+            "retweets": 30,
+            "replies": 145,
+            "isQuote": true,
+            "quotedTweetId": "2075241749048401936"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2089538781909332210",
+            "text": "Small quality of life improvements like this add up. More on the way https://t.co/EtGYv1BRxa",
+            "createdAt": "2026-08-18T02:24:02.000Z",
+            "url": "https://x.com/bcherny/status/2089538781909332210",
+            "likes": 678,
+            "retweets": 16,
+            "replies": 58,
+            "isQuote": true,
+            "quotedTweetId": "2089509659090780193"
+          },
+          {
+            "id": "2089537919795212565",
+            "text": "Let us know what you think! https://t.co/sToEXNbzAC",
+            "createdAt": "2026-08-18T02:20:36.000Z",
+            "url": "https://x.com/bcherny/status/2089537919795212565",
+            "likes": 739,
+            "retweets": 27,
+            "replies": 99,
+            "isQuote": true,
+            "quotedTweetId": "2089471692762673408"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2089604619936956778",
+            "text": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
+            "createdAt": "2026-08-18T06:45:39.000Z",
+            "url": "https://x.com/thsottiaux/status/2089604619936956778",
+            "likes": 971,
+            "retweets": 34,
+            "replies": 424,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089500941842342287",
+            "text": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+            "createdAt": "2026-08-17T23:53:40.000Z",
+            "url": "https://x.com/thsottiaux/status/2089500941842342287",
+            "likes": 3726,
+            "retweets": 82,
+            "replies": 4727,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2089593232741240881",
+            "text": "@bot If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+            "createdAt": "2026-08-18T06:00:24.000Z",
+            "url": "https://x.com/petergyang/status/2089593232741240881",
+            "likes": 2,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089526739815092580",
+            "text": "Most inspirational video you’ll watch today https://t.co/9ba2DwPMeZ",
+            "createdAt": "2026-08-18T01:36:10.000Z",
+            "url": "https://x.com/petergyang/status/2089526739815092580",
+            "likes": 40,
+            "retweets": 0,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2089386103291703510"
+          },
+          {
+            "id": "2089519732336787619",
+            "text": "What AI skills or tools are people using to edit YouTube talking head intros? Stuff like zoom ins and animating in captions, logos, and b-roll.\n\nI've been testing @HyperFrames_ for this but curious if there are alternatives.\n\nI want to do the full edit just by talking to Codex or another harness.",
+            "createdAt": "2026-08-18T01:08:20.000Z",
+            "url": "https://x.com/petergyang/status/2089519732336787619",
+            "likes": 32,
+            "retweets": 1,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast",
+        "tweets": [
+          {
+            "id": "2089555421593768061",
+            "text": "Many such cases https://t.co/yowzWcKc7d",
+            "createdAt": "2026-08-18T03:30:09.000Z",
+            "url": "https://x.com/thenanyu/status/2089555421593768061",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2089350581232304396"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2089480958571331623",
+            "text": "The best way to get good at evals is to  take a workflow you know really well and figure out how to make its quality measurable.\n\nStudy the actual traces - the sequence of prompts typical users have, what good responses would look like at each step and for the end to end outcome. \n\nStudy where your product fails and create traces that capture them - messy tool call responses, missing context etc.\n\nOnce you have a good eval, think about how you would make it easy to run repeatedly and automatically. \n\nOnce you have that, think about how you will ensure your eval continues to mirror live traffic as your users patterns evolve.\n\nThis could be a series. Would you guys like me to write about it everyday?",
+            "createdAt": "2026-08-17T22:34:15.000Z",
+            "url": "https://x.com/realmadhuguru/status/2089480958571331623",
+            "likes": 198,
+            "retweets": 8,
+            "replies": 18,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+        "tweets": [
+          {
+            "id": "2089529798850969805",
+            "text": "go into CC and type /design &lt;something you want to design&gt;\n\ndo it rn https://t.co/Qwdq42ko2g",
+            "createdAt": "2026-08-18T01:48:20.000Z",
+            "url": "https://x.com/trq212/status/2089529798850969805",
+            "likes": 880,
+            "retweets": 27,
+            "replies": 61,
+            "isQuote": true,
+            "quotedTweetId": "2089470636796059754"
+          },
+          {
+            "id": "2089415713098522688",
+            "text": "the nice things about code is that it is easier to edit and nudge in the directions you want and export to work with existing tools",
+            "createdAt": "2026-08-17T18:15:00.000Z",
+            "url": "https://x.com/trq212/status/2089415713098522688",
+            "likes": 48,
+            "retweets": 0,
+            "replies": 6,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089415712007938315",
+            "text": "all of the recent proc gen art, video editing and 3d game demos recently have made me update towards LLM coding models being better at a lot of creative work than diffusion models",
+            "createdAt": "2026-08-17T18:14:59.000Z",
+            "url": "https://x.com/trq212/status/2089415712007938315",
+            "likes": 470,
+            "retweets": 8,
+            "replies": 63,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2089530098902864336",
+            "text": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience https://t.co/nBfua981ZJ",
+            "createdAt": "2026-08-18T01:49:31.000Z",
+            "url": "https://x.com/amasad/status/2089530098902864336",
+            "likes": 107,
+            "retweets": 5,
+            "replies": 14,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089525819567739264",
+            "text": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they weren’t so AI-pilled. https://t.co/MpRuYiKCaw",
+            "createdAt": "2026-08-18T01:32:31.000Z",
+            "url": "https://x.com/amasad/status/2089525819567739264",
+            "likes": 156,
+            "retweets": 2,
+            "replies": 16,
+            "isQuote": true,
+            "quotedTweetId": "2089412054990065850"
+          },
+          {
+            "id": "2089435606338416884",
+            "text": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing. https://t.co/1Hc1AT4jz0",
+            "createdAt": "2026-08-17T19:34:03.000Z",
+            "url": "https://x.com/amasad/status/2089435606338416884",
+            "likes": 267,
+            "retweets": 12,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2089427187162083785"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2089409162270965858",
+            "text": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel. And unlike GitHub, it's online 😁 https://t.co/ybWprI8gm4",
+            "createdAt": "2026-08-17T17:48:58.000Z",
+            "url": "https://x.com/rauchg/status/2089409162270965858",
+            "likes": 3600,
+            "retweets": 111,
+            "replies": 141,
+            "isQuote": true,
+            "quotedTweetId": "2089399059488350447"
+          },
+          {
+            "id": "2089373735002526018",
+            "text": "Wow https://t.co/ZXftfl1vuv",
+            "createdAt": "2026-08-17T15:28:11.000Z",
+            "url": "https://x.com/rauchg/status/2089373735002526018",
+            "likes": 270,
+            "retweets": 4,
+            "replies": 18,
+            "isQuote": true,
+            "quotedTweetId": "2089372856014836113"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2089499887905997272",
+            "text": "When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data that we’re entering an era where it’s valuable almost in any form.\n\nIn a world of AI, information actually belongs as an asset on the balance sheet. This data sale is just one example of the implications of what that will look like.\n\nUltimately, the way that companies manage and mine their organization’s intelligence will be one of the deciding factors for competitiveness and value creation in the future.",
+            "createdAt": "2026-08-17T23:49:28.000Z",
+            "url": "https://x.com/levie/status/2089499887905997272",
+            "likes": 304,
+            "retweets": 31,
+            "replies": 33,
+            "isQuote": true,
+            "quotedTweetId": "2089383753290301850"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2089438298540519821",
+            "text": "This is my open source to help you create your own Personal AGI as mentioned at my Startup School talk earlier this year https://t.co/PyyEpKLVPl",
+            "createdAt": "2026-08-17T19:44:44.000Z",
+            "url": "https://x.com/garrytan/status/2089438298540519821",
+            "likes": 11,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2085443781797785828"
+          },
+          {
+            "id": "2089425134339961173",
+            "text": "What do you get? A private github repo with 70 of my proven skills and  the beginnings of your Karpathy-style knowledge wiki. \n\nRead the full docs in the README. All of this is MIT-licensed open source and free.\n\nhttps://t.co/yFpFU4pn5b https://t.co/Jk3muxCpYS",
+            "createdAt": "2026-08-17T18:52:26.000Z",
+            "url": "https://x.com/garrytan/status/2089425134339961173",
+            "likes": 20,
+            "retweets": 2,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089424620764168485",
+            "text": "It's free to try and works with your existing Claude Code or Codex subscription right now. Just make a new directory and start Codex or CC (on command line OR on Desktop, slightly better on Desktop)\n\nJust paste this image into your CC/Codex and it'll set up your agent repo asap https://t.co/vs7Yfb91Ko",
+            "createdAt": "2026-08-17T18:50:23.000Z",
+            "url": "https://x.com/garrytan/status/2089424620764168485",
+            "likes": 19,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2089486802356961364",
+            "text": "the models have no moat (OpenAI, Anthropic, XAI)\n\nthe IDEs have no moat (Cursor, Windsurf)\n\nthe harnesses have no moat (Cognition, Factory, LangChain)\n\nthe app builders have no moat (Replit, Lovable, Bolt)\n\nthe wrappers have no moat (Harvey, Abridge, OpenEvidence)\n\nthe inference providers have no moat (Together, Fireworks, Groq)\n\nthe voice layer has no moat (Sierra, Decagon, ElevenLabs)\n\nthe data labeling companies have no moat (Scale, Surge, Mercor)\n\nthe AI infrastructure has no moat (Baseten, Modal, Railway)\n\nthe neoclouds have no moat (CoreWeave, Lambda, Crusoe)\n\nthe generative media companies have no moat (Runway, Higgsfield, Suno)\n\napparently nobody in AI has a moat\n\nexcept the venture firm ☠️",
+            "createdAt": "2026-08-17T22:57:29.000Z",
+            "url": "https://x.com/nikunj/status/2089486802356961364",
+            "likes": 1483,
+            "retweets": 84,
+            "replies": 154,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2089374392295842086",
+            "text": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward. \n\nAnd, I’m not talking about launch videos or pouring money primarily for “aesthetics” simply to pump the valuation. You still need retention before attention. \n\nI’m talking about thinking through what a company stands for and understanding the “vibe” of what’s happening in the market. Being relentless on the long term goal while also thinking through how to showcase the company in the short term. And doing it every week. \n\nEspecially if you think agents become the primary user for most products, then to get the attention of a rapidly attention deficit audience (aka humans) you’ll need to stand out consistently in how you present the company. \n\nThese folks primary have been given tier 2 roles and passed up for CMOs many many times. I think this will finally invert in the next 10 years where you’ll hire these folks as cofounders or at least give them a big seat at the table. \n\nNormally the design centric CEO tends to be this, but those are rare and you’ll need to learn how to hire for this role. Just like a good product marketer, these are exceptionally rare so you have one hold them close!!",
+            "createdAt": "2026-08-17T15:30:48.000Z",
+            "url": "https://x.com/nikunj/status/2089374392295842086",
+            "likes": 789,
+            "retweets": 59,
+            "replies": 86,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2089528326096384158",
+            "text": "The question CFOs around the country are asking everyone in their organization https://t.co/kgjPrUBqgW",
+            "createdAt": "2026-08-18T01:42:29.000Z",
+            "url": "https://x.com/danshipper/status/2089528326096384158",
+            "likes": 32,
+            "retweets": 2,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2089480297947496697"
+          },
+          {
+            "id": "2089525989223157976",
+            "text": "I have had extremely similar experiences\n\nVoice mode even better https://t.co/kbBdVQl1eP",
+            "createdAt": "2026-08-18T01:33:12.000Z",
+            "url": "https://x.com/danshipper/status/2089525989223157976",
+            "likes": 51,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2089512978575950080"
+          },
+          {
+            "id": "2089481397421441278",
+            "text": "Lfgggg!!! https://t.co/mVbveI8pSp",
+            "createdAt": "2026-08-17T22:36:00.000Z",
+            "url": "https://x.com/danshipper/status/2089481397421441278",
+            "likes": 10,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2089480149981073677"
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 14,
+      "totalTweets": 30,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-08-18T07:03:56.144Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
