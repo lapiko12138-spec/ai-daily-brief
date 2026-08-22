@@ -1,0 +1,557 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-08-22T10:14:16.430905+08:00",
+  "events_count": 16,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 14,
+    "totalTweets": 31,
+    "blogPosts": 3,
+    "feedGeneratedAt": "2026-08-21T07:07:46.815Z"
+  },
+  "digest_generated_at": "2026-08-22T02:14:16.385Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-08-22T02:14:16.385Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "No Priors",
+        "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+        "guid": "8ec6281a-9c1a-11f1-b9ab-fb1fa4061363",
+        "url": "https://www.youtube.com/watch?v=7HXqMepjvy8",
+        "publishedAt": "2026-08-20T10:00:00.000Z",
+        "transcript": "Speaker 1 | 00:00 - 00:20\nThe brain very literally, very clearly, plainly is a computer. You can solve computational problems by arranging matter in a certain way and then like taking your hands off and pressing go. We talk about being a brain in a vat. That's what the skull is. Like the brain is connected to the environment through a small number of wires, the cranial and spinal nerves, these little cables that carry your interaction with the world.\n\nSpeaker 1 | 00:20 - 00:41\nIf you can get the visual signal, auditory signal, balance, motor, in and out of the brain, that is an end in itself. That is the central object. The retinal prosthesis right now, I think, is a great proof of concept that we're on the right track. Nobody had previously ever been able to restore a form vision image in the mind's eye of a blind patient in this way. We need to add depth of grayscale.\n\nSpeaker 1 | 00:41 - 00:49\nWe think we could see a path to get at least red and green. And so there's ways that we can compound upon this path through an engineering process to make a product that's better and better.\n\nSpeaker 2 | 00:56 - 01:17\nHi, listeners. Welcome back to No Priors. Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink. We talk about Prima, the implant that helps people who have gone blind see again, which just got regulatory approval in Europe. Their quest to sustain the human experience and substrate independence for the brain.\n\nSpeaker 2 | 01:17 - 01:26\nWe also talk about alignable representations between AI models and the future of neuroscience. Welcome, Max. Max, thanks so much for doing this.\n\nSpeaker 1 | 01:26 - 01:27\nThanks for having me.\n\nSpeaker 2 | 01:27 - 01:36\nSo for anyone who is not familiar with science, can you just describe a little bit about, you know, why you started the company, leaving Neuralink, what the mission is?\n\nSpeaker 1 | 01:36 - 01:58\nFundamentally, we're a medical device company. But I think if, like, the mission of lowercase s science is to use a differentiated understanding of the universe to improve the human condition, I mean, that's that's the mission of uppercase s science. That's what we do. We use, specifically an understanding of how to work with the brain to get big effect sizes that you don't get in medicine often. Our main product is a retinal prosthesis.\n\nSpeaker 1 | 01:58 - 02:16\nYou can think of it like a cochlear implant for the eye. Cochlear implants are some of the biggest impacts in all of medicine. I mean, you can if you've ever seen a video of a newborn turning on turning it on for the first time, it's striking. And our goal is to to build things like that, including our prima retinal prosthesis.\n\nSpeaker 2 | 02:16 - 02:21\nAnd for people who are not familiar with that, it's a chip that's inserted with glasses.\n\nSpeaker 1 | 02:21 - 02:53\nIt's it's a tiny chip that's implanted under the retina in the back of the eye for patients that have gone blind due to loss of the light sensitive cells in the eye. So specifically, this is diseases like macular degeneration, our clinical trial was done, and we're about to do studies in retinitis pigmentosa and Stargardt's and a couple of other diseases. So it is a chip that sits under the retina and then converts it to the patient, wears glasses that have a laser projector that projects an image onto the implant that then stimulates the retina to bypass the dead rods and cones and stimulate the retina directly to get a visual signal back into the brain.\n\nSpeaker 2 | 02:53 - 03:03\nHow did you go from, we should have, like, a nick invasively in the brain to this particular form factor as the first premise?\n\nSpeaker 1 | 03:03 - 03:33\nOh, so when we started the company, we had a couple ideas. The one of the ideas was the was the biohybrid neural interface direction, where instead of placing metal wires into the brain or genetically modifying the brain, what we do is we engraft in living neurons that grow it and form new biological connections. That's a big research project. It's very exciting research, but also, needed to be paired with another near term business. And we asked ourselves like, what was the most valuable thing we could do?\n\nSpeaker 1 | 03:33 - 04:03\nWe thought that we could restore vision to the blind with the resources available to us and and where the state of the field was in early twenty twenty one. And if so if you wanna do that, we have to start from this understanding of, like, how does the brain get vision? What is vision in the brain? And you you could look at the retina, which is obviously how vision gets into the brain, first place it's created. The the first stop of the optic nerve into the brain is a structure called the the lateral geniculate nucleus in the thalamus so that you could think, oh, we'll stimulate the LGN.\n\nSpeaker 1 | 04:03 - 04:25\nAnd then the connection from there is visual cortex. Like, it's a half a billion cells up at the back of the brain. And so if you want to restore vision, you can think I can go into the retina, I can go in through the thalamus, or I can go in through V1. There's a bunch of scientific technical reasons that lead you to think if you have an optic nerve, you want to be in the retina. And from there, you have a choice of do you stimulate?\n\nSpeaker 1 | 04:25 - 04:41\nThere's two types of cells, and there's a couple of different ways you could stimulate them. And so we explored kind of all variants of that early on. We developed an in house gene therapy that affected the retina in one direction. We did a survey of electrical stimulators. We looked at ultrasound.\n\nSpeaker 1 | 04:41 - 05:24\nAnd what we ended up doing is we developed indigenously a state of the art gene therapy, which is probably going to humans next year, as well as we we found the state of the art out there in the world of people electrically stimulating the retina. There was a company in France called Pyxium that back in late twenty twenty two had by far the state of the artwork. It was originally developed by an inventor at Stanford and then licensed to this small French company, and they were in the middle of clinical trials. And we got to know them over the course of a couple of years, and then we're in a position to acquire them when we saw something that I think kind of nobody else really saw at the time. And that I mean, we that deal has turned out to be great.\n\nSpeaker 2 | 05:24 - 05:29\nCan you talk about the recent CE designation regulatory approval you got?\n\nSpeaker 1 | 05:29 - 05:43\nYeah. So it took us about two years for post acquisition to get it to the place where this was was possible. But we just, in July, got marketing approval in Europe for Prima to start commercially selling it there. And so that's a major milestone. That means it's it's really commercially available.\n\nSpeaker 1 | 05:43 - 05:44\nThe first sales will happen in the coming weeks.\n\nSpeaker 2 | 05:45 - 05:53\nThat's amazing. I think most people think of anything in the BCI field as, you know, moonshot project that may or may not pan out ten years from now.\n\nSpeaker 1 | 05:53 - 06:16\nWell, I mean, people forget that the moonshot worked. Like, we went we left, like, boot prints on the moon. And so this comparison, I mean, I think that there's it has gotten used in Silicon Valley to mean these things that have extremely long odds and are unlikely to work, and therefore we can vaporize a bunch of investor money just fine. It's like, you know, when we went to the moon, we did it. And so historically, the success rate of moonshots is higher than I think people give them credit for.\n\nSpeaker 1 | 06:16 - 06:21\nThe one of the most important things is having a real business here, and this is the start of that.\n\nSpeaker 2 | 06:21 - 06:46\nCan I ask how you, when you were exploring both, different signaling pathways and form factors and just conditions to go attack, or, how you thought about scope of timeline and engineering cost and risk? Were you were you just looking for, like, the, like, big enough to be useful and feasible in some period of time, or how did you think about funding the project and how long it could take?\n\nSpeaker 1 | 06:46 - 07:24\nSo there's three elements to our pipeline. The first is our work in vision. Second is our biohybrid neural interfaces, and the third is our work in a different area of of medicine, perfusion, a program called vessel. These three things together form kind of the minimum set of things that I think if they're successful on the timescale of ten to fifteen years could really drive a, I think, a significant revolution in medicine broadly. People have spent huge amounts of time and money looking for drugs to restore vision or to restore hearing or to stop Parkinson's or to to help paralyzed people move again.\n\nSpeaker 1 | 07:24 - 07:42\nUnderstanding the, like, the biology and the molecular detail required to make a drug has been very difficult. Humanity just isn't that good at that, to be totally honest. On the other hand, the brain is a computer. And when you deal with the brain as a computer, you get these these things to work very like. It's just again, there you don't see demonstration.\n\nSpeaker 1 | 07:42 - 08:00\nYou don't see things in medicine like a cochlear implant being turned on or a deep brain stimulator being turned on. Or I mean, you can implant a quadriplegic patient motor cortex and and have them playing video games like an hour like this. Just you just don't really see things like this in in most drugs. And so there's this,\n\nSpeaker 2 | 08:00 - 08:04\nyou know, in small molecule, random walk, you know, sifting in nature.\n\nSpeaker 1 | 08:04 - 08:23\nYeah. I mean, small molecules especially are super hard. I mean, even I mean, you can do some super highly engineered patient specific CAR T and instead you get, like, an auto like, giant immune overreaction. It's like if I put electrodes in m one, you will probably be using a computer in an hour. And so it's just it's easier.\n\nSpeaker 1 | 08:23 - 08:32\nIt's more amenable to biology in many ways. You can do drug discovery for a decade or run a clinical trial. You're going to turn over a card. The answer might be no. And then like, what do you like?\n\nSpeaker 1 | 08:32 - 08:53\nYou everybody goes home. Whereas here, we have a clear sense of how to make the thing better. The retinal prosthesis right now, I think, is a great proof of concept that we're on the right track. Nobody had previously ever been able to restore a form vision image in the mind's eye of blind patient in this way. But at the same time, it's a small field of view.\n\nSpeaker 1 | 08:53 - 09:03\nIt's like looking through a straw. It's only black and white. We need to add depth of grayscale. We think we see a path to get at least red and green. Blue is a little bit trickier.\n\nSpeaker 1 | 09:03 - 09:09\nAnd so there's ways that we can compound upon this path through an engineering process to make a product that's better and better.\n\nSpeaker 2 | 09:09 - 09:15\nCan you talk a little bit about what you saw in the clinical trial in terms of variation between patients or what the ceiling was so far?\n\nSpeaker 1 | 09:15 - 09:40\nYeah, I mean, the clinical trial, I mean, the main thing was just the existence proof of like that success was impossible outcome, Like that we had patients filling in sudoku puzzles or crossword puzzles. There were patients that were reading books. And so I saw some of these patients, some of these videos, met with one of the patients, talked to the surgeons. We, I mean, this is one of those things that seems too good to be true.\n\nSpeaker 2 | 09:40 - 09:55\nHow do clinicians react to all of this? Like, do would would the people that you work with say at the beginning, like, yes, Max is right. Like, the brain is computer. This should definitely work. It should work at a higher likelihood and better rate of progression than our random walk in biological understanding.\n\nSpeaker 1 | 09:55 - 09:59\nWell, if you want to make people angry, you should tell the Internet that the brain is a computer.\n\nSpeaker 2 | 09:59 - 10:00\nOkay. We'll start by doing that.\n\nSpeaker 1 | 10:00 - 10:07\nYeah. That kind of starts you off in a in a, like a defensive place.\n\nSpeaker 2 | 10:07 - 10:08\nWhy don't people like that?\n\nSpeaker 1 | 10:09 - 10:19\nI don't know. This is one of those things. This just feels like bike shedding to me. Mean, to me, I don't mean that metaphorically, the brain very literally, very clearly, plainly as a computer. In my understanding of the world.\n\nSpeaker 1 | 10:19 - 10:40\nI also view the universe generally as a computer. Like we can solve like you can solve computational problems by arranging matter in a certain way and then like taking your hands off and letting impressing go. And so the fact that like that that that unfolds in time to solve some computational problem, I think of that as computer brains, the same thing. That I don't think there's necessarily\n\nSpeaker 2 | 10:40 - 10:43\na broader definition of computer than I had before. Yeah.\n\nSpeaker 1 | 10:44 - 11:00\nYeah. I mean, there's nothing special about transistors. I mean, we understand computers in this idealized way as the as like a Turing machine. That's an abstract computer. It's just you're going from state to state in ways that are subject to laws that mean that the transformations are interesting and meaningful.\n\nSpeaker 1 | 11:00 - 11:35\nBut, no, I think this was fairly contrarian. The both in the sense that BCI has this broader interpretation than motor decoding, as well as like like is a retinal prosthesis a BCI? That's also kind of a minor definitional question. But if you think that it is, then that that kind of opens up this interpretation of of a lot of areas of medicine that could be accessible to it that other that people weren't really thinking about. I mean, clearly, was interest in look like looking into this, like, there wasn't that contrarian.\n\nSpeaker 1 | 11:35 - 12:09\nIt's a different approach, and I think we come from a different culture than a lot of the conventional biotech industry. There's always been kind of an East Coast West Coast divide in biotech, And we are more of a tech company than a conventional biotech company. And our device view of a lot of historical biology problems makes us, like, even more of a tech company by biotech standards. So we mostly raised from from tech investors, not that much from biotech investors. In fact, there's only one VC that I sought out at all at the series a that I went to go pitch, which was Bob Nelson, who's a biotech investor.\n\nSpeaker 2 | 12:09 - 12:26\nWhen you describe different types of BCI products and missions, I think you have a really good way of explaining it that is, you know, on a spectrum. Can you can you talk about just the landscape of what devices and approaches people are are working on in BCI today?\n\nSpeaker 1 | 12:26 - 12:38\nYeah. I mean, I think BCI is a category kind of like how pharma is a category. Think sometimes you I I'll talk to VCs and like, oh, we have a BCI bet. Like, do have a drug bet? You made one bet on drugs like that's that how you think about the category.\n\nSpeaker 1 | 12:38 - 12:39\nEverything from\n\nSpeaker 2 | 12:39 - 12:43\nversus thinking about it like in, you know, neurodegenerative and Parkinson's or a specific condition?\n\nSpeaker 1 | 12:43 - 12:50\nOr maybe even different bets within neurodegenerative. You got a degrader and maybe you got a gene therapy and maybe you got something else, like, because they're\n\nSpeaker 2 | 12:51 - 12:52\nDifferent hypothesis. Yeah.\n\nSpeaker 1 | 12:52 - 13:13\nYeah. And similarly, I think on one end of the spectrum, you've got silent speech devices that may be BCI in a greater or lesser degree. Like, maybe they're recording a neural signal like EEG. Maybe they're using something just like radar through the face, which I know, like, you know, is an idea out there. But these are all basically hand substitutes.\n\nSpeaker 1 | 13:13 - 13:27\nAnd on the one hand, hands are great. Two on the two hands, hands are great. The they work really well. You don't need to think like, I'll talk to teams that say, oh, well, it'd be really nice if to go to your next thing. You didn't have to, like, open the Uber app and, like, call an Uber.\n\nSpeaker 1 | 13:27 - 13:43\nYou just, like, thought of it. It was there. Like, you probably wanna communicate really unambiguously with the Uber app. It'd be pretty annoying if they just start, like, spontaneously getting notifications during meetings that, like, oh, it thought that you were thinking about an Uber, therefore, decided to summon summon two for you. And so you'll probably want these to be pretty explicit.\n\nSpeaker 1 | 13:43 - 14:12\nTo the degree that that is a volitional intent, like, you already don't need to do a lot to your hands to do things. Now, could you have extra hands? Extra hands famously useful. And so having some easier way to communicate might might be useful. That is kind of outside of the scope of things I spent a lot of time thinking about, because if you can if you get vision, hearing, balance and a kilobit per second of motor control, you're halfway to the matrix.\n\nSpeaker 1 | 14:13 - 14:31\nAnd this takes you into some, like, really trippy interpret reinterpretations of medicine. And that's the stuff that we work on. I think other people will do things like speech to text and and, AI communication. There is a distinction. So there's there's let me come back to your broader question a second.\n\nSpeaker 1 | 14:31 - 15:10\nBut there's some point where you go from communicating with a thing to redrawing the border around your brain. And we don't have a great sense of exactly where that transition is yet, but there's a sense that there is one. Like, you the way that you use the two hemispheres of your brain as one integrated bound thing is different than the way that you talk to another person. And it's not just that there's correlation because, like, all communication is about creating correlations between brains. When we speak, there's big correlations that are being driven between our brains because there's I mean, all all communications is, like, premised on that.\n\nSpeaker 1 | 15:10 - 15:38\nIf we didn't pre share a language or some common education, like some sense of math, then we wouldn't be able to communicate those concepts. Is there some, there's something that's lit up in my brain? I can serialize that to language, send that to you that lights up the same pre shared concept spaces. And so there's one mode where you're you've pre shared some structure between the two brains, whether this is an AI model or a biological brain, and then you're communicating over that channel. The other is you've added some new structural capability.\n\nSpeaker 1 | 15:39 - 15:44\nI think figuring out where that transition happens is a really, like, a really compelling area of research for us.\n\nSpeaker 2 | 15:45 - 15:49\nWhat are you most personally interested in in terms of exploring that boundary yourself?\n\nSpeaker 1 | 15:50 - 15:58\nYeah. Well, I mean, that is like, what is you is a really central question here. Like, if the end of the artificial intelligence quest\n\nSpeaker 2 | 15:58 - 16:05\nis I don't really care. What if I just want my brain to be a better computer or a richer one in terms of understanding other people's experiences?\n\nSpeaker 1 | 16:05 - 16:25\nI mean, I think that you still there is an important question here. So if I just like scanned your brain into a computer and there is a software simulation of you. Is that does that count as you? Like, would that make you feel better about dying of cancer? Like, if you were diagnosed with lung cancer and you said, okay, we will scan you into a computer.\n\nSpeaker 1 | 16:25 - 16:32\nSo so imagine that we do it like non nondestructively. So you're still you are still there. Mhmm. But then you're talking to the software replica of\n\nSpeaker 2 | 16:32 - 16:33\nyou. Mhmm.\n\nSpeaker 1 | 16:33 - 16:39\nAnd then you're like, Okay, I'm going to go to hospice, but this thing will keep doing my venture investing job. Does that make you feel better that much?\n\nSpeaker 2 | 16:40 - 16:46\nWell, I think on this question, have you ever been under general anesthesia? Yeah, yeah. Well,\n\nSpeaker 1 | 16:46 - 16:50\nthat produces a break And that's that this is the type of thing that you have to explain about. Why does that feel different?\n\nSpeaker 2 | 16:50 - 16:51\nMhmm.\n\nSpeaker 1 | 16:51 - 17:02\nBecause I think it does feel different. I think that people are reticent to undergo general anesthesia, but they do it. They survive, they realize it's fine. And then there's if I could make a copy of you and you can talk to that copy and you're like, okay. I will go away now.\n\nSpeaker 1 | 17:02 - 17:21\nI just don't think that many people are gonna be like, this is it. And so you have to answer why it's different. There's an asymmetry in the so you've got, like, some of the operators that actually change things in physics are like a creation or an annihilation operator, and we get these in life. Right?\n\nSpeaker 2 | 17:21 - 17:22\nYou can\n\nSpeaker 1 | 17:22 - 17:33\ncreate a new life or a new mind or a new soul. And then there are times when they can be annihilated. They can get destroyed. And then there's ways that they kind of change while intact.\n\nSpeaker 2 | 17:34 - 17:45\nDo you study consciousness at science in a like a sequential way or directly explicitly today when you talk about the operators that are part of it, let's say?\n\nSpeaker 1 | 17:45 - 18:14\nSo your conscious moment is a you're experiencing a bunch of things in parallel. So you you're seeing things and you're hearing things and you're feeling things and you're smelling things, and these things happened just simultaneously together. But they are they're kind of different elements of the experience, and we want to understand how does the brain construct each of those and how does it cause them to be perceived together to the exclusion of other things. Like, you have your vision and your hearing. You never get my vision and your hearing.\n\nSpeaker 1 | 18:15 - 18:23\nAnd I think you kind of have this, like, you might think, like, that sounds, like, really obvious. Like, it's in my brain. It's not in your brain, but we need some more fundamental explanation for really how that partitioning happens.\n\nSpeaker 2 | 18:23 - 18:26\nOkay. So you think that's a foundational component? Yeah.\n\nSpeaker 1 | 18:26 - 18:39\nAnd so and, yeah, so I'm in the camp that, like, continuity is greatly important. And so people will accept significant drift in their identity over time as long as they have continuity.\n\nSpeaker 2 | 18:39 - 18:40\nMhmm.\n\nSpeaker 1 | 18:40 - 18:46\nBut if you preserve the sense of identity, like you have a software simulation that answers exactly like you would now, but it's not phenomenally continuous.\n\nSpeaker 2 | 18:46 - 18:47\nMhmm.\n\nSpeaker 1 | 18:47 - 18:48\nThat is less satisfying.\n\nSpeaker 2 | 18:48 - 18:56\nYeah. That's an interesting trade. I think I would take dramatic morph but continuous experience. Yeah. I don't know if I take, like, significantly degraded IQ.\n\nSpeaker 2 | 18:56 - 18:57\nLaura Deming asked me this.\n\nSpeaker 1 | 18:58 - 19:26\nYeah. It's like life with provable characteristics is a thing we've never seen before, and it might be might be transient. Like, you probably accept degraded IQ for some period of time if it then got backfilled some number of weeks later and then you got some I mean, at that point where you achieve substrate independence, you can really you can take that almost anywhere you want, which is why that's really, really interesting. One of the big missing pieces here is connectomics. That is getting to the that is getting pretty close, I think, in terms of to the point where the project could be done.\n\nSpeaker 1 | 19:26 - 19:49\nWe're still relatively far from a human connectome, but I think we're not that far from a mouse connectome. That would be enormously useful for for, like, facilitating this research and understanding about how all this works. We need to understand, like even really basic questions like, what is the overall architecture of the brain? We have some answer for, but I don't know that it's, like, a really, really detailed one at this point.\n\nSpeaker 2 | 19:49 - 20:09\nYou are of the view that it makes sense that there is this increased, like, interest, this surge of investor interest and founder and engineer interest in BCI as a field given the progress of AI model research because the representations actually should be shared, or they they empirically seem to be.\n\nSpeaker 1 | 20:09 - 20:26\nYeah. I mean, this is this is the idea called the, platonic representation hypothesis, and this is really interesting. It's it is controversial in the community. But, I mean, from where I sit, there's clearly something real happening. So when you look inside these big AI models, the mathematical objects that you see look a lot like the things that you see in neuroscience.\n\nSpeaker 1 | 20:27 - 20:52\nSo if you look at how do how do these AI models represent, just, like, represent concepts, then you look at the parts of the brain that represent concepts, you see these you see very similar geometry. That to me was one of the first clues. Like, when I really saw that and we we use that practically. Like, we use that constructively at science. Like, that's we know that that is that is true because we can get alignments between animal brain neural recordings and AI model internal representations.\n\nSpeaker 1 | 20:53 - 21:12\nThat was a big clue to me that the AI AI was on the right track, and this was, like, not a gimmick and not hitting a wall. There was, like, something deeper deeper that's true here. There's some fact about the universe where these things as they're learning are grabbing onto some true underlying data manifold. I mean, it feels like a law of physics. Like, if you apply enough compute to matter, you get this thing that looks like intelligence.\n\nSpeaker 2 | 21:13 - 21:17\nWhy do you think that's controversial, or why is it in the field?\n\nSpeaker 1 | 21:17 - 22:02\nThere's some faction of people that kind of don't want this to be true for reasons that are not totally clear to me. It is also not clear we don't complete we don't really under fully understand the whatever phenomenon is happening here. It's unclear if the structure is global or if it's local in some sense that in this like, there's you can recover relational structures between ideas, but it might be that this this works locally. It doesn't like, the where disconnected things might be placed might like, this this gets fairly detail like, tech technical quickly, but there's a bunch of stuff that we just don't know. And I think this causes great space for people to wonder, is this as giving us as fundamental of, like, a hint as it might seem?\n\nSpeaker 1 | 22:02 - 22:02\nI think that it is.\n\nSpeaker 2 | 22:03 - 22:09\nWhat do you think are the most fertile ways to study neuroscience today if if your set of beliefs is true?\n\nSpeaker 1 | 22:09 - 22:18\nYeah. Well, I mean, ironically, it's probably working on AI. Yeah. Yeah. I have some I have a couple of neuroscience friends at at Open Eye Anthropic who it's like we joke like, oh, you left neuroscience.\n\nSpeaker 1 | 22:18 - 22:25\nLike, no. No. No. It is just way easier to do neuroscience on the models. But to the the degree to which it is neuroscience is fascinating.\n\nSpeaker 2 | 22:25 - 22:49\nI want to talk a little bit about the future in the maybe the very short and then the medium time scale for science, short of changing the boundary of who we are. So what does it look like to commercialize the first program for you? You said that there need to be a $100,000,000 run rate businesses in this field. How do you get there?\n\nSpeaker 1 | 22:49 - 23:00\nYeah. Well, I mean, becoming profitable or at least have like, having the ability to do this forever is a super high priority. Restoring vision to the blind is pretty good business if you can actually do that.\n\nSpeaker 2 | 23:00 - 23:04\nEspecially since almost everyone has the problem as an age related problem.\n\nSpeaker 1 | 23:04 - 23:25\nYeah. So AMD, it's like one in two have some early stage by 80. The it's like one in ten, eighty five, that actually have it. The it is definitely a major issue, and and not just vision, but these topics in general affect everybody. We don't have firm pricing yet.\n\nSpeaker 1 | 23:25 - 23:55\nThis is a thing that we are being a little cautious about how we talk about publicly because we aren't, like, totally sure yet. But the precedents for vision are all I mean, I think we could say they're expensive. I mean, Second Sight, ten years ago, they so there's a company, about a decade ago that had a retinal prosthesis that works differently than ours does. It did not get the type of performance that Prima does, but was briefly approved because, again, there's really nothing for these patients. There's always been a lot of enthusiasm for anything that could possibly help them.\n\nSpeaker 1 | 23:55 - 24:26\nAnd they didn't get what we call form form vision. They didn't get, like, a coherent, like, face or, like like, paragraph that that your eyes could scan over. They got these flashes of light that patients could look at and kind of think about assembling into what they meant. They got paid about $150,000 per patient in the mid 20 tens. There's a gene therapy that works that is only relevant in the first place for about five percent of patients in one narrow indication, and it really doesn't work that well.\n\nSpeaker 1 | 24:26 - 24:57\nIt gets a point one line to improvement. It kind of slows the rate of degeneration for some patients that reimburses at almost $500,000 per eye. And so there's I mean, some of this is a function of just how expensive it is to develop these therapies and how high the failure rate has been historically. And then some of it is that there's just it is I mean, vision's very dominant sense for us. If you if you lose that, that's totally debilitating, and restoring it is is very important, even just, like, minimal vision.\n\nSpeaker 1 | 24:58 - 25:17\nSo the the TAM will grow over time. For this first version, it's on the scale of, like, hundreds of thousands of patients Mhmm. In The US and Europe. So for the the current version of Frima, it's probably hundreds of thousands of patients. And then the next version, which is going into animal studies now, be in humans hopefully next year, should expand that to millions.\n\nSpeaker 2 | 25:17 - 25:33\nYou said something that surprised me as a intermediate point between vision and, you know, fully understanding consciousness. How does oncology or other like how do other indications fit into the picture in terms of what you might work on?\n\nSpeaker 1 | 25:33 - 25:53\nI mean, the thing that makes you you the only organ that you can't even in principle transplant is the brain. The like the heart, the pancreas, the liver, the lungs, as far as I'm concerned, they're really support characters. Uh-huh. They're there to keep the brain activity interesting and and going. And I think we're gonna get to a point where because the biology is so difficult.\n\nSpeaker 1 | 25:53 - 26:22\nI mean, you've got this, like, alien nanotechnology that is around us that we are, like, completely surrounding us that we are completely dependent on, that we understand still very poorly. Instead of needing to solve that, are there ways where we can accomplish the same fundamental goals, you know, like using a toolbox that humanity is much more advanced in? And so I'm gonna be ultimately fairly disappointed if I'm murdered by my pancreas. And that I think that's that's the world view. It's that the thing that matters is the brain.\n\nSpeaker 1 | 26:22 - 26:51\nThe brain is the computer that gives us this. You could not we talk about being a brain in a vat or have, like, these upload thought experiments, but you already that's what the skull is. Like the brain is connected to the environment through a small number of wires, the cranial and spinal nerves, the optic nerve is nerve two, the vestibulocochlear nerve that carries hearing imbalances nerve eight. You've got these these little cables that carry your interaction with the world. That world is is generated by the brain.\n\nSpeaker 1 | 26:51 - 27:04\nAnd so if you can get visuals the visual signal, auditory signal, balance, motor, like somatosensory motor in and out of the brain, that is that is an end in itself. That is the central object.\n\nSpeaker 2 | 27:04 - 27:04\nMhmm.\n\nSpeaker 1 | 27:04 - 27:33\nAnd through a mix of the BCIs that allow you to kind of change the thing that it's interacting with and our perfusion medicine program, we think that there's ways to significantly improve not just lifespan, but health span and kind of create a better a better quality of life for many patients in ways that I think will feel kind of like a lateral move rather than just solving many of the things that people have seen on the horizon.\n\nSpeaker 2 | 27:33 - 27:48\nFor people who are interested in working out or investing in science, if you are successful, you know, what will be the change the human experience twenty years from now besides you not worrying about your pancreas as much?\n\nSpeaker 1 | 27:48 - 28:07\nYeah. I mean, that's it. Like, that's the there's the there's a sense like a fragility that we all live like, there's this jeopardy that we all live under as part of the human condition. And I think that if we're successful, what will happen is that sense of jeopardy will fade. Like, we will be we will just become much less fragile.\n\nSpeaker 1 | 28:08 - 28:22\nWe will have the ability to upgrade and replace parts of ourselves. So neurodegeneration, we don't know about. That one still seems that's still difficult. That still needs, like, real investment. The two leading causes of death, though, are cardiovascular disease and cancer that metastasized to the brain.\n\nSpeaker 1 | 28:22 - 28:52\nAnd I think both of those are going to be really attackable through this type of work. The other extreme is if we are serious about exploring the universe and going to the stars, we are gonna have to adapt ourselves to that environment. We're not gonna export Earth with us everywhere we go. And these bodies are great, but they're designed for this planet. And it is gonna be adapting ourselves to the hard vacuum space is definitely going to be, I think, the thing that we wanna do in the long run.\n\nSpeaker 1 | 28:52 - 28:54\nAnd ultimately, those are the same those are the same project.\n\nSpeaker 2 | 28:55 - 28:58\nBeing able to preserve yourself and being able to adapt\n\nSpeaker 1 | 28:58 - 29:00\nyour Swappable parts and substrate independence. Yeah.\n\nSpeaker 2 | 29:00 - 29:18\nYeah. Substrate independence, I'll use that phrase. The the simplest premise for a company in the BCI domain today is, like, you can, in some way, invasively, non invasively talk to an AI model in, like, a high bandwidth way. That is not your focus of interest. Why?\n\nSpeaker 1 | 29:18 - 29:31\nYeah. Well, I mean, first of all, I think that talking or writing is thinking. I think this idea that there's the stuff that's just as kind of preformed in your brain that if you could access it through BCI, it would be faster is probably not not the case.\n\nSpeaker 2 | 29:31 - 29:34\nYou don't think there's some special latent state that's not language?\n\nSpeaker 1 | 29:34 - 29:53\nNo. I think that but the like, feels like you'll have you'll it'll feel like it's fully formed, but until you really sit down and try to write it out, it is it isn't really. And I think that feeling is misleading. And so there's this there's this, like, 10 bit per second kind of famous, like, cognitive bottleneck. There's this observation that the brain seems to process information.\n\nSpeaker 1 | 29:53 - 30:15\nLike, a bunch of ways you can triangulate this. You can put somebody with a perfect memory on a helicopter ride over Manhattan, ask them to draw what they saw, and then you look at all the details. It works to about 10 bits per second over a course of an hour or two. There's, like, a bunch of different independent lines of evidence for this. So there's some deeply evolved cognitive bottleneck at about that, and I think that this kind of rolls up through language.\n\nSpeaker 1 | 30:16 - 30:38\nBut even so but even if you if you take that, it probably I mean, it probably would be nice to be able to walk down the street with, like, a cap on and, like, ask questions to my AI through monologue. Like, that might be possible. There's probably some combination of EEG and MEG that might be capable of this. That is still just like a different type of product. That is not the thing we are trying.\n\nSpeaker 1 | 30:38 - 31:07\nLike, keyboard is I'm not it might be valuable. It might turn out to be like AR glasses where it's just that we were our attention was already fully 100% occupied and putting it on the face didn't really change that. We were already consuming all of you all the time. But the at the other end of that spectrum are things like generating vision or generating hearing or achieving substrate independence. Those are the things that we are focused on, not brain keyboard.\n\nSpeaker 1 | 31:08 - 31:18\nBoth of these are potentially BCI prod, problems or products, but very different type of companies that will build them just as I think you have a huge range of of drug companies.\n\nSpeaker 2 | 31:20 - 31:36\nFind us on Twitter at no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way, you get a new episode every week. And sign up for emails or find transcripts for every episode @no-priors.com."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2090678390575513991",
+            "text": "@vibhuuuus more in ainews  https://t.co/hZVnWQKuMX",
+            "createdAt": "2026-08-21T05:52:25.000Z",
+            "url": "https://x.com/swyx/status/2090678390575513991",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090577677916807429",
+            "text": "proud that @vibhuuuus and i did the most recent pod with @eisokant on why NVIDIA just paid him $6B to buy the incredible model factory that is pumping out Thinky-beating models (actually not exaggeration, look at the numbers)\n\ntune in / subscribe / whatever https://t.co/EsgyFnhAIy \n\nonly on @latentspacepod",
+            "createdAt": "2026-08-20T23:12:14.000Z",
+            "url": "https://x.com/swyx/status/2090577677916807429",
+            "likes": 60,
+            "retweets": 7,
+            "replies": 16,
+            "isQuote": true,
+            "quotedTweetId": "2090538596440715455"
+          },
+          {
+            "id": "2090550020496040266",
+            "text": "by total views, matt’s now the top @aidotengineer speaker in our brief history, and arguably one of the best skills experts in the world — his /grill-me has reached all echelons up to @satyanadella (with some variations…)\n\n/wayfinder is @mattpocockuk’s /grill-me for /grill-me, when you are just navigating the fog of war and don’t yet know what you dont yet know, and need to orchestrate research and other grill sessions to get there. super glad to have @ricmac help launch our new Skills coverage with his course launch this week!\n\n👇exclusive interview, quick read",
+            "createdAt": "2026-08-20T21:22:20.000Z",
+            "url": "https://x.com/swyx/status/2090550020496040266",
+            "likes": 87,
+            "retweets": 7,
+            "replies": 11,
+            "isQuote": true,
+            "quotedTweetId": "2090546052847763862"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2090537902912815536",
+            "text": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own data and Anthropic retains none. It’s coming this fall. https://t.co/vH8CMhxhdB",
+            "createdAt": "2026-08-20T20:34:11.000Z",
+            "url": "https://x.com/bcherny/status/2090537902912815536",
+            "likes": 1671,
+            "retweets": 95,
+            "replies": 140,
+            "isQuote": true,
+            "quotedTweetId": "2090499283682300333"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2090675027670978569",
+            "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+            "createdAt": "2026-08-21T05:39:04.000Z",
+            "url": "https://x.com/thsottiaux/status/2090675027670978569",
+            "likes": 2797,
+            "retweets": 112,
+            "replies": 1426,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090631723302469995",
+            "text": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y https://t.co/tkFkC7NYpq",
+            "createdAt": "2026-08-21T02:46:59.000Z",
+            "url": "https://x.com/thsottiaux/status/2090631723302469995",
+            "likes": 2503,
+            "retweets": 86,
+            "replies": 573,
+            "isQuote": true,
+            "quotedTweetId": "2090536933571330440"
+          },
+          {
+            "id": "2090518287532916854",
+            "text": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun. https://t.co/KrWSbWWTwl",
+            "createdAt": "2026-08-20T19:16:14.000Z",
+            "url": "https://x.com/thsottiaux/status/2090518287532916854",
+            "likes": 1605,
+            "retweets": 64,
+            "replies": 563,
+            "isQuote": true,
+            "quotedTweetId": "2090515079058108745"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2090660707968704888",
+            "text": "How dare it look me up 😅 https://t.co/t3IHhjeObV",
+            "createdAt": "2026-08-21T04:42:10.000Z",
+            "url": "https://x.com/petergyang/status/2090660707968704888",
+            "likes": 30,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090589731927282021",
+            "text": "I'm on my way back to Vancouver to be with my mom but wanted to take a moment to celebrate crossing 100K subs on YouTube.\n\nExcited to share a lot more practical interviews soon to answer your most burning AI questions:\n\n1. @HamelHusain and @sh_reya (AI evals experts) on how today's AI models have changed evals completely\n\n2. @amoljain_ (Head of Product Engineering at Replit) on which vibe-coded apps have actually become real businesses\n\n3. @ebloch (Product Lead at OpenAI) on how ChatGPT Finance can help you save both time and money\n\n4. @poteto and Roman (SpaceXAI) on how the Grok Bot team uses Grok @bot\n\n📌 Subscribe to get the episodes soon:\nhttps://t.co/NSTj7ijxE0",
+            "createdAt": "2026-08-21T00:00:08.000Z",
+            "url": "https://x.com/petergyang/status/2090589731927282021",
+            "likes": 265,
+            "retweets": 6,
+            "replies": 54,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090564541499498919",
+            "text": "My gut is that alot of AI output can be improved just by building a loop where a manager agent negs the other worker agent with prompts like:\n\n\"Are you sure this is the best you can do?\"\n\"I think you can do better, try again\"\n\"Take a closer look, give me 11/10 output\"",
+            "createdAt": "2026-08-20T22:20:02.000Z",
+            "url": "https://x.com/petergyang/status/2090564541499498919",
+            "likes": 484,
+            "retweets": 21,
+            "replies": 90,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2090635465120424067",
+            "text": "*hill climbing evals (not ‘long’)",
+            "createdAt": "2026-08-21T03:01:51.000Z",
+            "url": "https://x.com/realmadhuguru/status/2090635465120424067",
+            "likes": 0,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090595384905113939",
+            "text": "How to build great evals - part 4\n\nThe reason enterprises struggle with building decent AI systems is the lack of an eval strategy.\n\nYou need a laddered eval strategy, for your unique use cases,\nwith multiple evals on the cost/realism spectrum.\n\nHere are the key kinds of evals you need:\n\nHill-climb long evals : this pushes the frontier of your product and you need to continually refresh this to improve quality and expand your feature base.\n\nRegression evals : Did we break the product of today while hill climbing?\n\nSmoke test evals: safety and the absolute basics that just can’t go wrong. Not necessarily hard questions, but important to not get wrong. Eg product identity.\n\nLaunch evals: often close to an online test with real-ish traffic. Less control, but the most realistic.\n\nMore in tomorrow’s post! \n\nShare with your teammates who will benefit!",
+            "createdAt": "2026-08-21T00:22:35.000Z",
+            "url": "https://x.com/realmadhuguru/status/2090595384905113939",
+            "likes": 137,
+            "retweets": 7,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+        "tweets": [
+          {
+            "id": "2090569474139439335",
+            "text": "we're launching new Fable safeguards for enterprises that work on your infrastructure so you have control over where your data lives &amp; who has access to it\n\nwe've been developing it alongside ~100 companies for a bit and hoping to roll it out more broadly in the fall https://t.co/ZJF2q8NKcC",
+            "createdAt": "2026-08-20T22:39:38.000Z",
+            "url": "https://x.com/trq212/status/2090569474139439335",
+            "likes": 543,
+            "retweets": 15,
+            "replies": 50,
+            "isQuote": true,
+            "quotedTweetId": "2090499283682300333"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2090514571513708874",
+            "text": "This partnership with @OpenAI is long overdue.\n\nBefore Replit was in YC, PG asked Sam to recruit us.\n\nHere’s Sam telling the story of how we first met: https://t.co/qgrj1TJv5L https://t.co/IsiPoUBvOx",
+            "createdAt": "2026-08-20T19:01:28.000Z",
+            "url": "https://x.com/amasad/status/2090514571513708874",
+            "likes": 938,
+            "retweets": 41,
+            "replies": 42,
+            "isQuote": true,
+            "quotedTweetId": "2090076648276185555"
+          },
+          {
+            "id": "2090484698413740186",
+            "text": "One of the more underrated aspects of the new Free Mode is how fast it is.\n\nMaking coding interactive again! https://t.co/qwCBr2vBS2",
+            "createdAt": "2026-08-20T17:02:46.000Z",
+            "url": "https://x.com/amasad/status/2090484698413740186",
+            "likes": 145,
+            "retweets": 9,
+            "replies": 22,
+            "isQuote": true,
+            "quotedTweetId": "2090287714113569196"
+          },
+          {
+            "id": "2090434587075793146",
+            "text": "You can really build a TON with Free Mode on Replit! https://t.co/YBQQ4OfwiP",
+            "createdAt": "2026-08-20T13:43:38.000Z",
+            "url": "https://x.com/amasad/status/2090434587075793146",
+            "likes": 146,
+            "retweets": 7,
+            "replies": 17,
+            "isQuote": true,
+            "quotedTweetId": "2090204302694588492"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2090600467592266240",
+            "text": "https://t.co/3Z4NESzNKd 0.0.5 gets even smaller\nfits in 2 floppy disks 💾💾😁 (𝚡𝚣-compressed)\nshipping tomorrow with our most-asked feature! https://t.co/HhQ7HHIcUL",
+            "createdAt": "2026-08-21T00:42:47.000Z",
+            "url": "https://x.com/rauchg/status/2090600467592266240",
+            "likes": 512,
+            "retweets": 12,
+            "replies": 42,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090520415336845595",
+            "text": "We’re building AWS for agents https://t.co/BdfqfqUMl4",
+            "createdAt": "2026-08-20T19:24:41.000Z",
+            "url": "https://x.com/rauchg/status/2090520415336845595",
+            "likes": 387,
+            "retweets": 11,
+            "replies": 40,
+            "isQuote": true,
+            "quotedTweetId": "2090517308821409837"
+          },
+          {
+            "id": "2090470175674179695",
+            "text": "Bun’s pursuit of simple, fast &amp; open is the perfect match for Vercel and how we think about the world.\n\nCongrats @jarredsumner on shipping! https://t.co/cAJehCfYKN",
+            "createdAt": "2026-08-20T16:05:03.000Z",
+            "url": "https://x.com/rauchg/status/2090470175674179695",
+            "likes": 463,
+            "retweets": 10,
+            "replies": 12,
+            "isQuote": true,
+            "quotedTweetId": "2090460580532584811"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2090664811185205722",
+            "text": "Great post on what post training looks like for applied AI use-cases to bring down costs and improve accuracy on certain tasks. This will increasingly be an approach that companies that can get closer to the underlying workflow in an enterprise will take.\n\nThe key is that once you understand a domain well enough and have enough volume on a set of similar tasks, it can start to make sense to purpose design models just for that work.\n\n“In post-training, we incentivized efficient tool use and reasoning through reward shaping, preferring trajectories that would reduce tokens consumed at inference-time given equivalent performance. This allowed us to co-optimize for both cost and quality, gaining significant performance while keeping cost stable.”\n\nNow, this won’t make sense in every domain, as general purpose frontier closed or open models will be good enough out of the box -or necessary- for the work at hand. But once you have deep enough vertical expertise, and either the costs are too high to do at scale *or* you have a unique enough task type not being trained on otherwise, this will make a ton of sense. \n\nVery compelling value proposition for being an applied AI company, and awesome to see multiple paths to winning in the market right now.",
+            "createdAt": "2026-08-21T04:58:28.000Z",
+            "url": "https://x.com/levie/status/2090664811185205722",
+            "likes": 57,
+            "retweets": 5,
+            "replies": 6,
+            "isQuote": true,
+            "quotedTweetId": "2090453918547685537"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2090471408996659339",
+            "text": "YC is the YC for AI Researchers https://t.co/xb9ZtXkoiT",
+            "createdAt": "2026-08-20T16:09:57.000Z",
+            "url": "https://x.com/garrytan/status/2090471408996659339",
+            "likes": 210,
+            "retweets": 11,
+            "replies": 10,
+            "isQuote": true,
+            "quotedTweetId": "2090469857196421497"
+          },
+          {
+            "id": "2090470082053050655",
+            "text": "Interesting violation of “you should dogfood your own product” https://t.co/6S9pdYnHUc",
+            "createdAt": "2026-08-20T16:04:41.000Z",
+            "url": "https://x.com/garrytan/status/2090470082053050655",
+            "likes": 400,
+            "retweets": 8,
+            "replies": 33,
+            "isQuote": true,
+            "quotedTweetId": "2090159644849353058"
+          },
+          {
+            "id": "2090469087722041567",
+            "text": "YC is the YC for consumer hardware https://t.co/VpXRNETldF",
+            "createdAt": "2026-08-20T16:00:44.000Z",
+            "url": "https://x.com/garrytan/status/2090469087722041567",
+            "likes": 537,
+            "retweets": 21,
+            "replies": 36,
+            "isQuote": true,
+            "quotedTweetId": "2090123297518391318"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
+        "tweets": [
+          {
+            "id": "2090399357145317837",
+            "text": "The other day I was feeling unmotivated and talked to Claude about it. Claude said something that completely changed how I see motivation:\n\n\"Motivation follows action more than it precedes it\"\n\nBoom.",
+            "createdAt": "2026-08-20T11:23:39.000Z",
+            "url": "https://x.com/zarazhangrui/status/2090399357145317837",
+            "likes": 295,
+            "retweets": 23,
+            "replies": 42,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2090585553947517298",
+            "text": "My last post on ambition struck a nerve. Got a bunch of DMs from founders asking the same thing: why does ambition matter so much to investors? Let me try to explain the math.\n\nA couple of things have happened, right? Anthropic became the fastest company to go from zero to a trillion dollars in valuation, beating every revenue record you can think of. OpenAI did the same over a longer period. SpaceX went public at $1.77 trillion. And then the Cursor acquisition was the bellwether. You have a company going from zero to $60 billion in four years, returning so much DPI to its early funds that there's actual, meaningful dollar growth coming out. And we haven't even talked about OpenRouter and the IRR there.\n\nSo LPs are voting with their feet, giving money to these very, very large mega funds. Fund sizes have gotten way, way larger, and that almost justifies the behavior. When your fund is that big, each investment needs to be underwritten to an outcome that big. Small wins literally don't move the number.\n\nSo when those funds are evaluating deals, even a Series A, their underwriting needs to be: hey, does this company get to a trillion dollars? If they have that belief, the entry price almost doesn't matter. They're underwriting to a very large outcome and hoping the company kind of gets there. If you enter at 200, 300, 500, sometimes 1B, it really doesn't matter. Because that's how they return the fund.\n\nEven a prominent investor at one of the most disciplined firms says this. It sucks to not be at Anthropic or one of these foundational model companies. The value is just too big.\n\nSo what's happened in venture is that the error of omission is just too fudging high. They can't not invest. When something has a little bit of heat, price almost doesn't matter, because they can't go back to their LPs and say, hey, we didn't get into one of the biggest outcomes. They have to be in it.\n\nThe error of omission is way, way worse than the error of admission. And then power law kind of takes care of itself.\n\nThis is why ambition matters SO much when you're pitching.",
+            "createdAt": "2026-08-20T23:43:31.000Z",
+            "url": "https://x.com/nikunj/status/2090585553947517298",
+            "likes": 112,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2090501112927223889",
+            "text": "The best founders are reductionists. https://t.co/QHv0dR5ZcJ https://t.co/coKzjpfqZ8",
+            "createdAt": "2026-08-20T18:07:59.000Z",
+            "url": "https://x.com/adityaag/status/2090501112927223889",
+            "likes": 33,
+            "retweets": 3,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2090478527313252494"
+          },
+          {
+            "id": "2090478530513543631",
+            "text": "He scaled @Google ads from $1B to $100B. Now he's leading @Snowflake through the AI shift.\n\nWatch the full episode on Youtube: \nhttps://t.co/DiSoqgRUcc",
+            "createdAt": "2026-08-20T16:38:15.000Z",
+            "url": "https://x.com/adityaag/status/2090478530513543631",
+            "likes": 9,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090478527313252494",
+            "text": "One of the attributes that we look for the most @spc is Clarity.\n\nThe ability to be honest.\n\nTo cut through the fog of war.\n\nTo chart a path through murky waters.\n\n@RamaswmySridhar demonstrates this to the maximum degree.\n\nMinus One episode out now.\n\n(00:52) Choosing When to Take a Career Risk\n(05:01) Lessons From Google’s Founders\n(09:52) What Went Wrong at Neeva\n(13:39) The Future of AI Models\n(22:59) Snowflake’s Enduring Value in the AI Era\n(29:24) How to Keep Up With AI\n(32:24) Rapid Fire: Books, Search & Google",
+            "createdAt": "2026-08-20T16:38:14.000Z",
+            "url": "https://x.com/adityaag/status/2090478527313252494",
+            "likes": 44,
+            "retweets": 4,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2090557653294383151",
+            "text": "What are you building with Claude?",
+            "createdAt": "2026-08-20T21:52:39.000Z",
+            "url": "https://x.com/claudeai/status/2090557653294383151",
+            "likes": 69,
+            "retweets": 0,
+            "replies": 57,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2090557651595722851",
+            "text": "https://t.co/OgQ1IszMkZ",
+            "createdAt": "2026-08-20T21:52:39.000Z",
+            "url": "https://x.com/claudeai/status/2090557651595722851",
+            "likes": 141,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2082434477536530619"
+          },
+          {
+            "id": "2090557650056450058",
+            "text": "https://t.co/r9UeQv6zyb",
+            "createdAt": "2026-08-20T21:52:39.000Z",
+            "url": "https://x.com/claudeai/status/2090557650056450058",
+            "likes": 115,
+            "retweets": 1,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2087687049566421074"
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we received user feedback that Claude Opus 4.6 in high effort mode would occasionally think for too long, causing the UI to appear frozen and leading to disproportionate latency and token usage for those users. In general, the longer the model thinks, the better the output. Effort levels are how Claude Code lets users set that tradeoff—more thinking versus lower latency and fewer usage limit hits. As we calibrate effort levels for our models, we take this tradeoff into account in order to pick points along the test-time-compute curve that give people the best range of options. In the product layer, we then choose which point along this curve we set as our default, and that is the value we send to the Messages API as the effort parameter; we then make the other options available via /effort . In our internal evals and testing, medium effort achieved slightly lower intelligence with significantly less latency for the majority of tasks. It also didn’t suffer from the same issues with occasional very long tail latencies for thinking, and it helped maximize users’ usage limits. As a result, we rolled out a change making medium the default effort, and explained the rationale via in-product dialog. Soon after rolling out, users began reporting that Claude Code felt less intelligent. We shipped a number of design iterations to make the current effort setting clearer in order to alert people they could change the default (notices on startup, an inline effort selector, and bringing back ultrathink), but most users retained the medium effort default. After hearing feedback from more customers, we reversed this decision on April 7. All users now default to xhigh effort for Opus 4.7, and high effort for all other models. A caching optimization that dropped prior reasoning When Claude reasons through a task, that reasoning is normally kept in the conversation history so that on every subsequent turn, Claude can see why it made the edits and tool calls it did. On March 26, we shipped what was meant to be an efficiency improvement to this feature. We use prompt caching to make back-to-back API calls cheaper and faster for users. Claude writes the input tokens to the cache when it makes an API request, then after a period of inactivity the prompt is evicted from cache, making room for other prompts. Cache utilization is something we manage carefully (more on our approach ). The design should have been simple: if a session has been idle for more than an hour, we could reduce users’ cost of resuming that session by clearing old thinking sections. Since the request would be a cache miss anyway, we could prune unnecessary messages from the request to reduce the number of uncached tokens sent to the API. We’d then resume sending full reasoning history. To do this we used the clear_thinking_20251015 API header along with keep:1 . The implementation had a bug. Instead of clearing thinking history once, it cleared it on every turn for the rest of the session. After a session crossed the idle threshold once, each request for the rest of that process told the API to keep only the most recent block of reasoning and discard everything before it. This compounded: if you sent a follow-up message while Claude was in the middle of a tool use, that started a new turn under the broken flag, so even the reasoning from the current turn was dropped. Claude would continue executing, but increasingly without memory of why it had chosen to do what it was doing. This surfaced as the forgetfulness, repetition, and odd tool choices people reported. Because this would continuously drop thinking blocks from subsequent requests, those requests also resulted in cache misses. We believe this is what drove the separate reports of usage limits draining faster than expected. Two unrelated experiments made it challenging for us to reproduce the issue at first: an internal-only server-side experiment related to message queuing; and an orthogonal change in how we display thinking suppressed this bug in most CLI sessions, so we didn’t catch it even when testing external builds. This bug was at the intersection of Claude Code’s context management, the Anthropic API, and extended thinking. The changes it introduced made it past multiple human and automated code reviews, as well as unit tests, end-to-end tests, automated verification, and dogfooding. Combined with this only happening in a corner case (stale sessions) and the difficulty of reproducing the issue, it took us over a week to discover and confirm the root cause. As part of the investigation, we back-tested Code Review against the offending pull requests using Opus 4.7. When provided the code repositories necessary to gather complete context, Opus 4.7 found the bug, while Opus 4.6 didn&#x27;t. To prevent this from happening again, we are now landing support for additional repositories as context for code reviews. We fixed this bug on April 10 in v2.1.101. A system prompt change to reduce verbosity Our latest model, Claude Opus 4.7, has a notable behavioral quirk relative to its predecessor: as we wrote about at launch, it tends to be quite verbose. This makes it smarter on hard problems, but it also produces more output tokens. A few weeks before we released Opus 4.7, we started tuning Claude Code in preparation. Each model behaves slightly differently, and we spend time before each release optimizing the harness and product for it. We have a number of tools to reduce verbosity: model training, prompting, and improving thinking UX in the product. Ultimately we used all of these, but one addition to the system prompt caused an outsized effect on intelligence in Claude Code: “Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.” After multiple weeks of internal testing and no regressions in the set of evaluations we ran, we felt confident about the change and shipped it alongside Opus 4.7 on April 16. As part of this investigation, we ran more ablations (removing lines from the system prompt to understand the impact of each line) using a broader set of evaluations. One of these evaluations showed a 3% drop for both Opus 4.6 and 4.7. We immediately reverted the prompt as part of the April 20 release. Going forward We are going to do several things differently to avoid these issues: we’ll ensure that a larger share of internal staff use the exact public build of Claude Code (as opposed to the version we use to test new features); and we&#x27;ll make improvements to our Code Review tool that we use internally, and ship this improved version to customers. We’re also adding tighter controls on system prompt changes. We will run a broad suite of per-model evals for every system prompt change to Claude Code, continuing ablations to understand the impact of each line, and we have built new tooling to make prompt changes easier to review and audit. We&#x27;ve additionally added guidance to our CLAUDE.md to ensure model-specific changes are gated to the specific model they&#x27;re targeting. For any change that could trade off against intelligence, we&#x27;ll add soak periods, a broader eval suite, and gradual rollouts so we catch issues earlier. We recently created @ClaudeDevs on X to give us the room to explain product decisions and the reasoning behind them in depth. We&#x27;ll share the same updates in centralized threads on GitHub. Finally, we’d like to thank our users: the people who used the /feedback command to share their issues with us (or who posted specific, reproducible examples online) are the ones who ultimately allowed us to identify and fix these problems. Today we are resetting usage limits for all subscribers. We’re immensely grateful for your feedback and for your patience."
+      },
+      {
+        "source": "blog",
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "publishedAt": null,
+        "author": "",
+        "description": "",
+        "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet . In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health. Nursing containers meant debugging unresponsive stuck sessions. Our only window in was the WebSocket event stream, but that couldn’t tell us where failures arose, which meant that a bug in the harness, a packet drop in the event stream, or a container going offline all presented the same. To figure out what went wrong, an engineer had to open a shell inside the container, but because that container often also held user data, that approach essentially meant we lacked the ability to debug. A second issue was that the harness assumed that whatever Claude worked on lived in the container with it. When customers asked us to connect Claude to their virtual private cloud, they had to either peer their network with ours, or run our harness in their own environment. An assumption baked into the harness became a problem when we wanted to connect it to different infrastructure. Decouple the brain from the hands The solution we arrived at was to decouple what we thought of as the “brain” (Claude and its harness) from both the “hands” (sandboxes and tools that perform actions) and the “session” (the log of session events). Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. The harness leaves the container. Decoupling the brain from the hands meant the harness no longer lived inside the container. It called the container the way it called any other tool: execute(name, input) → string . The container became cattle. If the container died, the harness caught the failure as a tool-call error and passed it back to Claude. If Claude decided to retry, a new container could be reinitialized with a standard recipe: provision({resources}) . We no longer had to nurse failed containers back to health. Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId) , use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events. The security boundary. In the coupled design, any untrusted code that Claude generated was run in the same container as credentials—so a prompt injection only had to convince Claude to read its own environment. Once an attacker has those tokens, they can spawn fresh, unrestricted sessions and delegate work to them. Narrow scoping is an obvious mitigation, but this encodes an assumption about what Claude can&#x27;t do with a limited token—and Claude is getting increasingly smart. The structural fix was to make sure the tokens are never reachable from the sandbox where Claude’s generated code runs. We used two patterns to ensure this. Auth can be bundled with a resource or held in a vault outside the sandbox. For Git, we use each repository’s access token to clone the repo during sandbox initialization and wire it into the local git remote. Git push and pull work from inside the sandbox without the agent ever handling the token itself. For custom tools, we support MCP and store OAuth tokens in a secure vault. Claude calls MCP tools via a dedicated proxy; this proxy takes in a token associated with the session. The proxy can then fetch the corresponding credentials from the vault and make the call to the external service. The harness is never made aware of any credentials. The session is not Claude’s context window Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks. But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it. In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action. Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation. Many brains, many hands Many brains. Decoupling the brain from the hands solved one of our earliest customer complaints. When teams wanted Claude to work against resources in their own VPC, the only path was to peer their network with ours, because the container holding the harness assumed every resource sat next to it. Once the harness was no longer in the container, that assumption went away. The same change had a performance payoff. When we initially put the brain in a container, it meant that many brains required as many containers. For each brain, no inference could happen until that container was provisioned; every session paid the full container setup cost up front. Every session, even ones that would never touch the sandbox, had to clone the repo, boot the process, fetch pending events from our servers. That dead time is expressed in time-to-first-token (TTFT), which measures how long a session waits between accepting work and producing its first response token. TTFT is the latency the user most acutely feels . Decoupling the brain from the hands means that containers are provisioned by the brain via a tool call (execute(name, input) → string) only if they are needed. So a session that didn&#x27;t need a container right away didn&#x27;t wait for one. Inference could start as soon as the orchestration layer pulled pending events from the session log. Using this architecture, our p50 TTFT dropped roughly 60% and p95 dropped over 90%. Scaling to many brains just meant starting many stateless harnesses, and connecting them to hands only if needed. Many hands. We also wanted the ability to connect each brain to many hands. In practice, this means Claude must reason about many execution environments and decide where to send work—a harder cognitive task than operating in a single shell. We started with the brain in a single container because earlier models weren&#x27;t capable of this. As intelligence scaled, the single container became the limitation instead: when that container failed, we lost state for every hand that the brain was reaching into. Decoupling the brain from the hands makes each hand a tool, execute(name, input) → string : a name and input go in, and a string is returned. That interface supports any custom tool, any MCP server, and our own tools. The harness doesn’t know whether the sandbox is a container, a phone, or a Pokémon emulator. And because no hand is coupled to any brain, brains can pass hands to one another. Conclusion The challenge we faced is an old one: how to design a system for “programs as yet unthought of.” Operating systems have lasted decades by virtualizing the hardware into abstractions general enough for programs that didn&#x27;t exist yet. With Managed Agents, we aimed to design a system that accommodates future harnesses, sandboxes, or other components around Claude. Managed Agents is a meta-harness in the same spirit, unopinionated about the specific harness that Claude will need in the future. Rather, it is a system with general interfaces that allow many different harnesses. For example, Claude Code is an excellent harness that we use widely across tasks. We’ve also shown that task-specific agent harnesses excel in narrow domains. Managed Agents can accommodate any of these, matching Claude’s intelligence over time. Meta-harness design means being opinionated about the interfaces around Claude: we expect that Claude will need the ability to manipulate state (the session) and perform computation (the sandbox). We also expect that Claude will require the ability to scale to many brains and many hands. We designed the interfaces so that these can be run reliably and securely over long time horizons. But we make no assumptions about the number or location of brains or hands that Claude will need. Acknowledgements Written by Lance Martin, Gabe Cemaj, and Michael Cohen. Thanks to Nodir Turakulov and Jeremy Fox for helpful conversations on these topics. Special thanks to the Agents API team and Jake Eaton for their contributions."
+      },
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "publishedAt": "May 19, 2026",
+        "author": "",
+        "description": "",
+        "content": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls. The sandbox runs on your own infrastructure, or with managed providers like Cloudflare , Daytona , Modal , or Vercel to handle the compute and isolation for you. On the Claude Platform, self-hosted sandboxes is available in public beta and MCP tunnels in research preview ( request access ). Self-hosted sandboxes: keep agent execution within your perimeter A self-hosted sandbox lets a Claude Managed Agent execute tools on infrastructure you control or with a managed sandbox provider. Code execution, sensitive files, packages, services, and data stay within your enterprise perimeter, under your security and runtime controls. With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The agent loop that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment. Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don&#x27;t leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs. Choose your sandbox client Bring any sandbox client you want, or start with one of our supported providers: Cloudflare runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare&#x27;s network. Amplitude is building Design Agent, an internal tool for on-brand production UI and marketing design, on Managed Agents and Cloudflare for tighter observability and control. Daytona sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. Clay’s GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona. Modal is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal&#x27;s functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal&#x27;s custom container runtime delivers sub-second startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand. Vercel sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. Rogo , an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely. MCP tunnels: Connect to services within your private network MCP tunnels connect Claude Managed Agents to Model Context Protocol (MCP) servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end. MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the Claude Console by organization admins."
+      }
+    ],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 14,
+      "totalTweets": 31,
+      "blogPosts": 3,
+      "feedGeneratedAt": "2026-08-21T07:07:46.815Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
