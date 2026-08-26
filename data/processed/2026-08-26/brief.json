@@ -1,0 +1,1076 @@
+{
+  "date": "2026-08-26",
+  "title": "2026-08-26 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-08-26.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "5831fba3dab9a4cf",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close. 2. Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+        "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.；Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "2663e63252482112",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query... 2. It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/levie/status/2092087679240569126",
+      "source_name": "Follow Builders / @levie",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query",
+        "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aaron Levie: Systems of record have never been more important than in a world where you have AI agents that will do 100X m...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query；It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "1164fe015cb8b31e",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @petergyang",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertai... 2. I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE 3. I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474",
+      "source_name": "Follow Builders / @petergyang",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.",
+        "I got 3 AI chief of staffs now, clearly the next step is to add one more",
+        "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions. What's the easiest way to try this?"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Peter Yang: Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually...",
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.；I got 3 AI chief of staffs now, clearly the next step is to add one more",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "a74afd18aa4a421f",
+      "title": "Codex 的真实任务完成能力正在被 builders 放大",
+      "company": "OpenAI",
+      "product": "X / @thenanyu",
+      "summary": "Follow Builders 记录到 Nan Yu（@thenanyu） 在 X 上的最新动态。简介：product enthusiast。要点：1. setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good 2. Feel the agi https://t.co/Uvr0TCMKyg",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thenanyu/status/2092048044502192374",
+      "source_name": "Follow Builders / @thenanyu",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "一线 builder 关注的不是 benchmark，而是 Codex 能否在真实工作里一次性完成任务。",
+      "evidence_points": [
+        "setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good",
+        "Feel the agi"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Nan Yu: setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot...",
+      "source_context": "Follow Builders / @thenanyu / X / @thenanyu 的原始信息主要包括：setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good；Feel the agi",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ad390660d6efcd4b",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "product": "X / @amasad",
+      "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks....",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/amasad/status/2091962601907638352",
+      "source_name": "Follow Builders / @amasad",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Amjad Masad: True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fas...",
+      "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "5831fba3dab9a4cf",
+        "date": "2026-08-26",
+        "title": "Thibault Sottiaux: OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close. 2. Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h...",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+        "published_at": "2026-08-25T13:10:47+08:00",
+        "fetched_at": "2026-08-26T10:23:20.695162+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2092117461646856505\", \"text\": \"OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.\", \"createdAt\": \"2026-08-25T05:10:47.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092117461646856505\", \"likes\": 1869, \"retweets\": 77, \"replies\": 278, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092058556707344708\", \"text\": \"Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\\n\\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\\n\\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.\", \"createdAt\": \"2026-08-25T01:16:43.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092058556707344708\", \"likes\": 9223, \"retweets\": 527, \"replies\": 2664, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2092117461646856505\", \"text\": \"OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.\", \"createdAt\": \"2026-08-25T05:10:47.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092117461646856505\", \"likes\": 1869, \"retweets\": 77, \"replies\": 278, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092058556707344708\", \"text\": \"Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\\n\\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\\n\\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.\", \"createdAt\": \"2026-08-25T01:16:43.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092058556707344708\", \"likes\": 9223, \"retweets\": 527, \"replies\": 2664, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thsottiaux",
+            "source_url": "https://x.com/thsottiaux/status/2092058556707344708",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+          "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,..."
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.；Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "a74afd18aa4a421f",
+        "date": "2026-08-26",
+        "title": "Nan Yu: setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot...",
+        "title_zh": "Codex 的真实任务完成能力正在被 builders 放大",
+        "summary": "Follow Builders 记录到 Nan Yu（@thenanyu） 在 X 上的最新动态。简介：product enthusiast。要点：1. setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good 2. Feel the agi https://t.co/Uvr0TCMKyg",
+        "company": "OpenAI",
+        "product": "X / @thenanyu",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent",
+          "开发者工具",
+          "算力/基础设施"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thenanyu",
+        "source_url": "https://x.com/thenanyu/status/2092048044502192374",
+        "published_at": "2026-08-25T08:34:56+08:00",
+        "fetched_at": "2026-08-26T10:23:20.697373+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Nan Yu\", \"handle\": \"thenanyu\", \"bio\": \"product enthusiast\", \"tweets\": [{\"id\": \"2092048044502192374\", \"text\": \"setting up a new computer with Codex is kind of nice... \\\"download and install handy, slack, chrome, cleanshot, rectangle\\\"\\n\\nmakes you wish siri was good\", \"createdAt\": \"2026-08-25T00:34:56.000Z\", \"url\": \"https://x.com/thenanyu/status/2092048044502192374\", \"likes\": 28, \"retweets\": 0, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092013239643394076\", \"text\": \"Feel the agi https://t.co/Uvr0TCMKyg\", \"createdAt\": \"2026-08-24T22:16:38.000Z\", \"url\": \"https://x.com/thenanyu/status/2092013239643394076\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2092007061722660892\"}, {\"id\": \"2091993558018572434\", \"text\": \"“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most common mail app on Earth”\\n\\nhttps://t.co/bQkjEBJIB4\", \"createdAt\": \"2026-08-24T20:58:26.000Z\", \"url\": \"https://x.com/thenanyu/status/2091993558018572434\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2091975532670054710\"}]}, \"tweets\": [{\"id\": \"2092048044502192374\", \"text\": \"setting up a new computer with Codex is kind of nice... \\\"download and install handy, slack, chrome, cleanshot, rectangle\\\"\\n\\nmakes you wish siri was good\", \"createdAt\": \"2026-08-25T00:34:56.000Z\", \"url\": \"https://x.com/thenanyu/status/2092048044502192374\", \"likes\": 28, \"retweets\": 0, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092013239643394076\", \"text\": \"Feel the agi https://t.co/Uvr0TCMKyg\", \"createdAt\": \"2026-08-24T22:16:38.000Z\", \"url\": \"https://x.com/thenanyu/status/2092013239643394076\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2092007061722660892\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@thenanyu",
+            "source_url": "https://x.com/thenanyu/status/2092013239643394076",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Nan Yu: setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot...",
+        "core_viewpoint": "一线 builder 关注的不是 benchmark，而是 Codex 能否在真实工作里一次性完成任务。",
+        "evidence_points": [
+          "setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good",
+          "Feel the agi"
+        ],
+        "source_context": "Follow Builders / @thenanyu / X / @thenanyu 的原始信息主要包括：setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good；Feel the agi",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "8a245b0bdf66cfbe",
+        "date": "2026-08-26",
+        "title": "Peter Steinberger: We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH 2. TIL: prompt kiddie https://t.co/N92Q7aIzPq",
+        "company": "OpenAI",
+        "product": "X / @steipete",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @steipete",
+        "source_url": "https://x.com/steipete/status/2091923535513928015",
+        "published_at": "2026-08-25T00:20:11+08:00",
+        "fetched_at": "2026-08-26T10:23:20.700824+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2091923535513928015\", \"text\": \"We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH\", \"createdAt\": \"2026-08-24T16:20:11.000Z\", \"url\": \"https://x.com/steipete/status/2091923535513928015\", \"likes\": 2423, \"retweets\": 127, \"replies\": 106, \"isQuote\": true, \"quotedTweetId\": \"2091841106480627871\"}, {\"id\": \"2091779461650006514\", \"text\": \"More blog posts should come with theme songs.\", \"createdAt\": \"2026-08-24T06:47:41.000Z\", \"url\": \"https://x.com/steipete/status/2091779461650006514\", \"likes\": 49, \"retweets\": 1, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2091778518531395927\", \"text\": \"TIL: prompt kiddie https://t.co/N92Q7aIzPq\", \"createdAt\": \"2026-08-24T06:43:56.000Z\", \"url\": \"https://x.com/steipete/status/2091778518531395927\", \"likes\": 654, \"retweets\": 32, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2091923535513928015\", \"text\": \"We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH\", \"createdAt\": \"2026-08-24T16:20:11.000Z\", \"url\": \"https://x.com/steipete/status/2091923535513928015\", \"likes\": 2423, \"retweets\": 127, \"replies\": 106, \"isQuote\": true, \"quotedTweetId\": \"2091841106480627871\"}, {\"id\": \"2091778518531395927\", \"text\": \"TIL: prompt kiddie https://t.co/N92Q7aIzPq\", \"createdAt\": \"2026-08-24T06:43:56.000Z\", \"url\": \"https://x.com/steipete/status/2091778518531395927\", \"likes\": 654, \"retweets\": 32, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@steipete",
+            "source_url": "https://x.com/steipete/status/2091778518531395927",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Steinberger: We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "We need to get away from software that we can’t change with a prompt.",
+          "TIL: prompt kiddie"
+        ],
+        "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：We need to get away from software that we can’t change with a prompt.；TIL: prompt kiddie",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "ad390660d6efcd4b",
+        "date": "2026-08-26",
+        "title": "Amjad Masad: True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fas...",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks....",
+        "company": "Anthropic",
+        "product": "X / @amasad",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @amasad",
+        "source_url": "https://x.com/amasad/status/2091962601907638352",
+        "published_at": "2026-08-25T02:55:25+08:00",
+        "fetched_at": "2026-08-26T10:23:20.698065+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2091963442186092639\", \"text\": \"Only a few have reached this milestone! https://t.co/FEmlDPmJfj\", \"createdAt\": \"2026-08-24T18:58:46.000Z\", \"url\": \"https://x.com/amasad/status/2091963442186092639\", \"likes\": 173, \"retweets\": 5, \"replies\": 16, \"isQuote\": true, \"quotedTweetId\": \"2091586075974398182\"}, {\"id\": \"2091962601907638352\", \"text\": \"True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ\", \"createdAt\": \"2026-08-24T18:55:25.000Z\", \"url\": \"https://x.com/amasad/status/2091962601907638352\", \"likes\": 160, \"retweets\": 9, \"replies\": 26, \"isQuote\": true, \"quotedTweetId\": \"2091953150919901625\"}, {\"id\": \"2091937147473551474\", \"text\": \"Cool! https://t.co/11uSkCUPrc\", \"createdAt\": \"2026-08-24T17:14:16.000Z\", \"url\": \"https://x.com/amasad/status/2091937147473551474\", \"likes\": 102, \"retweets\": 3, \"replies\": 7, \"isQuote\": true, \"quotedTweetId\": \"2091935960292295071\"}]}, \"tweets\": [{\"id\": \"2091962601907638352\", \"text\": \"True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ\", \"createdAt\": \"2026-08-24T18:55:25.000Z\", \"url\": \"https://x.com/amasad/status/2091962601907638352\", \"likes\": 160, \"retweets\": 9, \"replies\": 26, \"isQuote\": true, \"quotedTweetId\": \"2091953150919901625\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Amjad Masad: True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fas...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks."
+        ],
+        "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Google / DeepMind": [
+      {
+        "id": "637bd78f222e641d",
+        "date": "2026-08-26",
+        "title": "Madhu Guru: How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when...",
+        "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine yo...",
+        "company": "Google / DeepMind",
+        "product": "X / @realmadhuguru",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @realmadhuguru",
+        "source_url": "https://x.com/realmadhuguru/status/2092058332735693264",
+        "published_at": "2026-08-25T09:15:49+08:00",
+        "fetched_at": "2026-08-26T10:23:20.697662+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2092058332735693264\", \"text\": \"How to build great evals - part 8.\\n\\nThe discriminatory property of evals.\\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\\n\\nImagine you run an eval on five AI systems:\\n\\nA: 94\\nB: 93\\nC: 95\\nD: 94\\nE: 92\\n\\nNow suppose you already know A and C are substantially better systems than D and E.\\n\\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\\n\\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and you’ve learned nothing about who is the smartest.\\n\\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\\n\\nThe sweet spot for an eval is:\\nRealistic + difficult + sensitive to differences in capability.\\n\\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\\n\\nDrop your guesses in the comments.\\n\\nShare this with your teammates.\", \"createdAt\": \"2026-08-25T01:15:49.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2092058332735693264\", \"likes\": 92, \"retweets\": 7, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2091684812012875981\"}]}, \"tweets\": [{\"id\": \"2092058332735693264\", \"text\": \"How to build great evals - part 8.\\n\\nThe discriminatory property of evals.\\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\\n\\nImagine you run an eval on five AI systems:\\n\\nA: 94\\nB: 93\\nC: 95\\nD: 94\\nE: 92\\n\\nNow suppose you already know A and C are substantially better systems than D and E.\\n\\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\\n\\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and you’ve learned nothing about who is the smartest.\\n\\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\\n\\nThe sweet spot for an eval is:\\nRealistic + difficult + sensitive to differences in capability.\\n\\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\\n\\nDrop your guesses in the comments.\\n\\nShare this with your teammates.\", \"createdAt\": \"2026-08-25T01:15:49.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2092058332735693264\", \"likes\": 92, \"retweets\": 7, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2091684812012875981\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Madhu Guru: How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine you run an eval on five AI systems: A: 94 B: 93 C: 95 D: 94 E: 92 Now suppose you already know A and C are substantially better systems than D and E. The eval is bad cos it doesn’t t..."
+        ],
+        "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine you run an eval on five AI systems: A: 94 B: 93 C: 95 D: 94 E: 92 Now suppose you already know A and C are substantially better systems than D and E. The eval is bad cos it doesn’t t...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "2663e63252482112",
+        "date": "2026-08-26",
+        "title": "Aaron Levie: Systems of record have never been more important than in a world where you have AI agents that will do 100X m...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query... 2. It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent",
+          "企业服务",
+          "安全与合规"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2092087679240569126",
+        "published_at": "2026-08-25T11:12:26+08:00",
+        "fetched_at": "2026-08-26T10:23:20.699124+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2092087679240569126\", \"text\": \"Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \\n\\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \\n\\nThus, the governance, reliability, security, access controls, and business logic remain critical more than ever — the OpenAI Hugging Face incident is just a small peek into what the future will look like with agents running around trying to execute on their goals.\\n\\nBut this only works for the systems of record that respond with the right product experiences, APIs, and business models to support agents on and off their platform executing in these systems.\\n\\nHuge moment of opportunity and disruption right now in all of software.\", \"createdAt\": \"2026-08-25T03:12:26.000Z\", \"url\": \"https://x.com/levie/status/2092087679240569126\", \"likes\": 344, \"retweets\": 24, \"replies\": 45, \"isQuote\": true, \"quotedTweetId\": \"2091742825042030681\"}, {\"id\": \"2091909170308296950\", \"text\": \"It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with in handling data with subprocessors. The alternative path would have been a far slower adoption rate.\\n\\nFor the applied AI tools that are primarily responsible for driving AI growth, they generally have agreements in place with their customers to only offer models with ZDR to ensure that customers don’t have to inspect each model they turn on. Anything else is an exception process that takes far longer.\\n\\nAnd then inside enterprises directly, most companies have internal governance requirements that say they can only use ZDR models because they have no way of explicitly separating PII and other sensitive or confidential data they put in the context window across their enterprise.\\n\\nNow, all of this could change if the entire industry went this direction, but with one off models hold outs it would take years for these policies to change. Without ZDR, AI diffusion grinds to a halt.\", \"createdAt\": \"2026-08-24T15:23:06.000Z\", \"url\": \"https://x.com/levie/status/2091909170308296950\", \"likes\": 172, \"retweets\": 18, \"replies\": 22, \"isQuote\": true, \"quotedTweetId\": \"2091792587741135078\"}]}, \"tweets\": [{\"id\": \"2092087679240569126\", \"text\": \"Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \\n\\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \\n\\nThus, the governance, reliability, security, access controls, and business logic...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@levie",
+            "source_url": "https://x.com/levie/status/2091909170308296950",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: Systems of record have never been more important than in a world where you have AI agents that will do 100X m...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query",
+          "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query；It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "1164fe015cb8b31e",
+        "date": "2026-08-26",
+        "title": "Peter Yang: Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertai... 2. I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE 3. I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk...",
+        "company": "Builder Ecosystem",
+        "product": "X / @petergyang",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2092080901094248474",
+        "published_at": "2026-08-25T10:45:30+08:00",
+        "fetched_at": "2026-08-26T10:23:20.695521+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2092080901094248474\", \"text\": \"Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming).\\n\\nI can't be the only one.\", \"createdAt\": \"2026-08-25T02:45:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092080901094248474\", \"likes\": 26, \"retweets\": 1, \"replies\": 13, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092048940732682395\", \"text\": \"I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE\", \"createdAt\": \"2026-08-25T00:38:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092048940732682395\", \"likes\": 82, \"retweets\": 2, \"replies\": 28, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092031413319266382\", \"text\": \"I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions.\\n\\nWhat's the easiest way to try this?\", \"createdAt\": \"2026-08-24T23:28:51.000Z\", \"url\": \"https://x.com/petergyang/status/2092031413319266382\", \"likes\": 51, \"retweets\": 2, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2092080901094248474\", \"text\": \"Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming).\\n\\nI can't be the only one.\", \"createdAt\": \"2026-08-25T02:45:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092080901094248474\", \"likes\": 26, \"retweets\": 1, \"replies\": 13, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092048940732682395\", \"text\": \"I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE\", \"createdAt\": \"2026-08-25T00:38:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092048940732682395\", \"likes\": 82, \"retweets\": 2, \"replies\": 28, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092031413319266382\", \"text\": \"I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions.\\n\\nWhat's the easiest way to try this?\", \"createdAt\": \"2026-08-24T23:28:51.000Z\", \"url\": \"https://x.com/petergyang/status/2092031413319266382\", \"likes\": 51, \"retweets\": 2, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2092048940732682395",
+            "credibility": "community"
+          },
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2092031413319266382",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.",
+          "I got 3 AI chief of staffs now, clearly the next step is to add one more",
+          "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions. What's the easiest way to try this?"
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.；I got 3 AI chief of staffs now, clearly the next step is to add one more",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "5831fba3dab9a4cf",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "2663e63252482112",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2092087679240569126",
+      "source_name": "Follow Builders / @levie",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "1164fe015cb8b31e",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474",
+      "source_name": "Follow Builders / @petergyang",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "5831fba3dab9a4cf",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "2663e63252482112",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2092087679240569126",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "1164fe015cb8b31e",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "a74afd18aa4a421f",
+      "title": "Codex 的真实任务完成能力正在被 builders 放大",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thenanyu/status/2092048044502192374",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "ad390660d6efcd4b",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/amasad/status/2091962601907638352",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "8a245b0bdf66cfbe",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/steipete/status/2091923535513928015",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "637bd78f222e641d",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "source_url": "https://x.com/realmadhuguru/status/2092058332735693264",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close. 2. Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query... 2. It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with...",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2092087679240569126"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertai... 2. I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE 3. I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk...",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thenanyu",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Nan Yu（@thenanyu） 在 X 上的最新动态。简介：product enthusiast。要点：1. setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good 2. Feel the agi https://t.co/Uvr0TCMKyg",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thenanyu/status/2092048044502192374"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @amasad",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks....",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/amasad/status/2091962601907638352"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @steipete",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH 2. TIL: prompt kiddie https://t.co/N92Q7aIzPq",
+      "change_type": "Builder 观点, X, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/steipete/status/2091923535513928015"
+    },
+    {
+      "company": "Google / DeepMind",
+      "model_product": "X / @realmadhuguru",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine yo...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/realmadhuguru/status/2092058332735693264"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "OpenAI 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505"
+    }
+  ],
+  "actions": [
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2092087679240569126",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Codex 的真实任务完成能力正在被 builders 放大",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thenanyu/status/2092048044502192374",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/amasad/status/2091962601907638352",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    }
+  ],
+  "events": [
+    {
+      "id": "5831fba3dab9a4cf",
+      "date": "2026-08-26",
+      "title": "Thibault Sottiaux: OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close. 2. Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h...",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "published_at": "2026-08-25T13:10:47+08:00",
+      "fetched_at": "2026-08-26T10:23:20.695162+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2092117461646856505\", \"text\": \"OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.\", \"createdAt\": \"2026-08-25T05:10:47.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092117461646856505\", \"likes\": 1869, \"retweets\": 77, \"replies\": 278, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092058556707344708\", \"text\": \"Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\\n\\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\\n\\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.\", \"createdAt\": \"2026-08-25T01:16:43.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092058556707344708\", \"likes\": 9223, \"retweets\": 527, \"replies\": 2664, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2092117461646856505\", \"text\": \"OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.\", \"createdAt\": \"2026-08-25T05:10:47.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092117461646856505\", \"likes\": 1869, \"retweets\": 77, \"replies\": 278, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092058556707344708\", \"text\": \"Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\\n\\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\\n\\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.\", \"createdAt\": \"2026-08-25T01:16:43.000Z\", \"url\": \"https://x.com/thsottiaux/status/2092058556707344708\", \"likes\": 9223, \"retweets\": 527, \"replies\": 2664, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thsottiaux",
+          "source_url": "https://x.com/thsottiaux/status/2092058556707344708",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+        "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,..."
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.；Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users,...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "2663e63252482112",
+      "date": "2026-08-26",
+      "title": "Aaron Levie: Systems of record have never been more important than in a world where you have AI agents that will do 100X m...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query... 2. It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent",
+        "企业服务",
+        "安全与合规"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2092087679240569126",
+      "published_at": "2026-08-25T11:12:26+08:00",
+      "fetched_at": "2026-08-26T10:23:20.699124+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2092087679240569126\", \"text\": \"Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \\n\\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \\n\\nThus, the governance, reliability, security, access controls, and business logic remain critical more than ever — the OpenAI Hugging Face incident is just a small peek into what the future will look like with agents running around trying to execute on their goals.\\n\\nBut this only works for the systems of record that respond with the right product experiences, APIs, and business models to support agents on and off their platform executing in these systems.\\n\\nHuge moment of opportunity and disruption right now in all of software.\", \"createdAt\": \"2026-08-25T03:12:26.000Z\", \"url\": \"https://x.com/levie/status/2092087679240569126\", \"likes\": 344, \"retweets\": 24, \"replies\": 45, \"isQuote\": true, \"quotedTweetId\": \"2091742825042030681\"}, {\"id\": \"2091909170308296950\", \"text\": \"It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with in handling data with subprocessors. The alternative path would have been a far slower adoption rate.\\n\\nFor the applied AI tools that are primarily responsible for driving AI growth, they generally have agreements in place with their customers to only offer models with ZDR to ensure that customers don’t have to inspect each model they turn on. Anything else is an exception process that takes far longer.\\n\\nAnd then inside enterprises directly, most companies have internal governance requirements that say they can only use ZDR models because they have no way of explicitly separating PII and other sensitive or confidential data they put in the context window across their enterprise.\\n\\nNow, all of this could change if the entire industry went this direction, but with one off models hold outs it would take years for these policies to change. Without ZDR, AI diffusion grinds to a halt.\", \"createdAt\": \"2026-08-24T15:23:06.000Z\", \"url\": \"https://x.com/levie/status/2091909170308296950\", \"likes\": 172, \"retweets\": 18, \"replies\": 22, \"isQuote\": true, \"quotedTweetId\": \"2091792587741135078\"}]}, \"tweets\": [{\"id\": \"2092087679240569126\", \"text\": \"Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \\n\\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \\n\\nThus, the governance, reliability, security, access controls, and business logic...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@levie",
+          "source_url": "https://x.com/levie/status/2091909170308296950",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: Systems of record have never been more important than in a world where you have AI agents that will do 100X m...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query",
+        "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be query；It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "1164fe015cb8b31e",
+      "date": "2026-08-26",
+      "title": "Peter Yang: Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertai... 2. I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE 3. I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk...",
+      "company": "Builder Ecosystem",
+      "product": "X / @petergyang",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2092080901094248474",
+      "published_at": "2026-08-25T10:45:30+08:00",
+      "fetched_at": "2026-08-26T10:23:20.695521+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2092080901094248474\", \"text\": \"Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming).\\n\\nI can't be the only one.\", \"createdAt\": \"2026-08-25T02:45:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092080901094248474\", \"likes\": 26, \"retweets\": 1, \"replies\": 13, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092048940732682395\", \"text\": \"I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE\", \"createdAt\": \"2026-08-25T00:38:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092048940732682395\", \"likes\": 82, \"retweets\": 2, \"replies\": 28, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092031413319266382\", \"text\": \"I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions.\\n\\nWhat's the easiest way to try this?\", \"createdAt\": \"2026-08-24T23:28:51.000Z\", \"url\": \"https://x.com/petergyang/status/2092031413319266382\", \"likes\": 51, \"retweets\": 2, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2092080901094248474\", \"text\": \"Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming).\\n\\nI can't be the only one.\", \"createdAt\": \"2026-08-25T02:45:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092080901094248474\", \"likes\": 26, \"retweets\": 1, \"replies\": 13, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092048940732682395\", \"text\": \"I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE\", \"createdAt\": \"2026-08-25T00:38:30.000Z\", \"url\": \"https://x.com/petergyang/status/2092048940732682395\", \"likes\": 82, \"retweets\": 2, \"replies\": 28, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092031413319266382\", \"text\": \"I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions.\\n\\nWhat's the easiest way to try this?\", \"createdAt\": \"2026-08-24T23:28:51.000Z\", \"url\": \"https://x.com/petergyang/status/2092031413319266382\", \"likes\": 51, \"retweets\": 2, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2092048940732682395",
+          "credibility": "community"
+        },
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2092031413319266382",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.",
+        "I got 3 AI chief of staffs now, clearly the next step is to add one more",
+        "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions. What's the easiest way to try this?"
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.；I got 3 AI chief of staffs now, clearly the next step is to add one more",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "a74afd18aa4a421f",
+      "date": "2026-08-26",
+      "title": "Nan Yu: setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot...",
+      "title_zh": "Codex 的真实任务完成能力正在被 builders 放大",
+      "summary": "Follow Builders 记录到 Nan Yu（@thenanyu） 在 X 上的最新动态。简介：product enthusiast。要点：1. setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good 2. Feel the agi https://t.co/Uvr0TCMKyg",
+      "company": "OpenAI",
+      "product": "X / @thenanyu",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent",
+        "开发者工具",
+        "算力/基础设施"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thenanyu",
+      "source_url": "https://x.com/thenanyu/status/2092048044502192374",
+      "published_at": "2026-08-25T08:34:56+08:00",
+      "fetched_at": "2026-08-26T10:23:20.697373+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Nan Yu\", \"handle\": \"thenanyu\", \"bio\": \"product enthusiast\", \"tweets\": [{\"id\": \"2092048044502192374\", \"text\": \"setting up a new computer with Codex is kind of nice... \\\"download and install handy, slack, chrome, cleanshot, rectangle\\\"\\n\\nmakes you wish siri was good\", \"createdAt\": \"2026-08-25T00:34:56.000Z\", \"url\": \"https://x.com/thenanyu/status/2092048044502192374\", \"likes\": 28, \"retweets\": 0, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092013239643394076\", \"text\": \"Feel the agi https://t.co/Uvr0TCMKyg\", \"createdAt\": \"2026-08-24T22:16:38.000Z\", \"url\": \"https://x.com/thenanyu/status/2092013239643394076\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2092007061722660892\"}, {\"id\": \"2091993558018572434\", \"text\": \"“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most common mail app on Earth”\\n\\nhttps://t.co/bQkjEBJIB4\", \"createdAt\": \"2026-08-24T20:58:26.000Z\", \"url\": \"https://x.com/thenanyu/status/2091993558018572434\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2091975532670054710\"}]}, \"tweets\": [{\"id\": \"2092048044502192374\", \"text\": \"setting up a new computer with Codex is kind of nice... \\\"download and install handy, slack, chrome, cleanshot, rectangle\\\"\\n\\nmakes you wish siri was good\", \"createdAt\": \"2026-08-25T00:34:56.000Z\", \"url\": \"https://x.com/thenanyu/status/2092048044502192374\", \"likes\": 28, \"retweets\": 0, \"replies\": 5, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2092013239643394076\", \"text\": \"Feel the agi https://t.co/Uvr0TCMKyg\", \"createdAt\": \"2026-08-24T22:16:38.000Z\", \"url\": \"https://x.com/thenanyu/status/2092013239643394076\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2092007061722660892\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@thenanyu",
+          "source_url": "https://x.com/thenanyu/status/2092013239643394076",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Nan Yu: setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot...",
+      "core_viewpoint": "一线 builder 关注的不是 benchmark，而是 Codex 能否在真实工作里一次性完成任务。",
+      "evidence_points": [
+        "setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good",
+        "Feel the agi"
+      ],
+      "source_context": "Follow Builders / @thenanyu / X / @thenanyu 的原始信息主要包括：setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good；Feel the agi",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ad390660d6efcd4b",
+      "date": "2026-08-26",
+      "title": "Amjad Masad: True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fas...",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks....",
+      "company": "Anthropic",
+      "product": "X / @amasad",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @amasad",
+      "source_url": "https://x.com/amasad/status/2091962601907638352",
+      "published_at": "2026-08-25T02:55:25+08:00",
+      "fetched_at": "2026-08-26T10:23:20.698065+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2091963442186092639\", \"text\": \"Only a few have reached this milestone! https://t.co/FEmlDPmJfj\", \"createdAt\": \"2026-08-24T18:58:46.000Z\", \"url\": \"https://x.com/amasad/status/2091963442186092639\", \"likes\": 173, \"retweets\": 5, \"replies\": 16, \"isQuote\": true, \"quotedTweetId\": \"2091586075974398182\"}, {\"id\": \"2091962601907638352\", \"text\": \"True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ\", \"createdAt\": \"2026-08-24T18:55:25.000Z\", \"url\": \"https://x.com/amasad/status/2091962601907638352\", \"likes\": 160, \"retweets\": 9, \"replies\": 26, \"isQuote\": true, \"quotedTweetId\": \"2091953150919901625\"}, {\"id\": \"2091937147473551474\", \"text\": \"Cool! https://t.co/11uSkCUPrc\", \"createdAt\": \"2026-08-24T17:14:16.000Z\", \"url\": \"https://x.com/amasad/status/2091937147473551474\", \"likes\": 102, \"retweets\": 3, \"replies\": 7, \"isQuote\": true, \"quotedTweetId\": \"2091935960292295071\"}]}, \"tweets\": [{\"id\": \"2091962601907638352\", \"text\": \"True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ\", \"createdAt\": \"2026-08-24T18:55:25.000Z\", \"url\": \"https://x.com/amasad/status/2091962601907638352\", \"likes\": 160, \"retweets\": 9, \"replies\": 26, \"isQuote\": true, \"quotedTweetId\": \"2091953150919901625\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Amjad Masad: True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fas...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks."
+      ],
+      "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "8a245b0bdf66cfbe",
+      "date": "2026-08-26",
+      "title": "Peter Steinberger: We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH 2. TIL: prompt kiddie https://t.co/N92Q7aIzPq",
+      "company": "OpenAI",
+      "product": "X / @steipete",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @steipete",
+      "source_url": "https://x.com/steipete/status/2091923535513928015",
+      "published_at": "2026-08-25T00:20:11+08:00",
+      "fetched_at": "2026-08-26T10:23:20.700824+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2091923535513928015\", \"text\": \"We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH\", \"createdAt\": \"2026-08-24T16:20:11.000Z\", \"url\": \"https://x.com/steipete/status/2091923535513928015\", \"likes\": 2423, \"retweets\": 127, \"replies\": 106, \"isQuote\": true, \"quotedTweetId\": \"2091841106480627871\"}, {\"id\": \"2091779461650006514\", \"text\": \"More blog posts should come with theme songs.\", \"createdAt\": \"2026-08-24T06:47:41.000Z\", \"url\": \"https://x.com/steipete/status/2091779461650006514\", \"likes\": 49, \"retweets\": 1, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2091778518531395927\", \"text\": \"TIL: prompt kiddie https://t.co/N92Q7aIzPq\", \"createdAt\": \"2026-08-24T06:43:56.000Z\", \"url\": \"https://x.com/steipete/status/2091778518531395927\", \"likes\": 654, \"retweets\": 32, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2091923535513928015\", \"text\": \"We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH\", \"createdAt\": \"2026-08-24T16:20:11.000Z\", \"url\": \"https://x.com/steipete/status/2091923535513928015\", \"likes\": 2423, \"retweets\": 127, \"replies\": 106, \"isQuote\": true, \"quotedTweetId\": \"2091841106480627871\"}, {\"id\": \"2091778518531395927\", \"text\": \"TIL: prompt kiddie https://t.co/N92Q7aIzPq\", \"createdAt\": \"2026-08-24T06:43:56.000Z\", \"url\": \"https://x.com/steipete/status/2091778518531395927\", \"likes\": 654, \"retweets\": 32, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@steipete",
+          "source_url": "https://x.com/steipete/status/2091778518531395927",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Steinberger: We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "We need to get away from software that we can’t change with a prompt.",
+        "TIL: prompt kiddie"
+      ],
+      "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：We need to get away from software that we can’t change with a prompt.；TIL: prompt kiddie",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "637bd78f222e641d",
+      "date": "2026-08-26",
+      "title": "Madhu Guru: How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when...",
+      "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine yo...",
+      "company": "Google / DeepMind",
+      "product": "X / @realmadhuguru",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "source_url": "https://x.com/realmadhuguru/status/2092058332735693264",
+      "published_at": "2026-08-25T09:15:49+08:00",
+      "fetched_at": "2026-08-26T10:23:20.697662+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2092058332735693264\", \"text\": \"How to build great evals - part 8.\\n\\nThe discriminatory property of evals.\\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\\n\\nImagine you run an eval on five AI systems:\\n\\nA: 94\\nB: 93\\nC: 95\\nD: 94\\nE: 92\\n\\nNow suppose you already know A and C are substantially better systems than D and E.\\n\\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\\n\\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and you’ve learned nothing about who is the smartest.\\n\\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\\n\\nThe sweet spot for an eval is:\\nRealistic + difficult + sensitive to differences in capability.\\n\\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\\n\\nDrop your guesses in the comments.\\n\\nShare this with your teammates.\", \"createdAt\": \"2026-08-25T01:15:49.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2092058332735693264\", \"likes\": 92, \"retweets\": 7, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2091684812012875981\"}]}, \"tweets\": [{\"id\": \"2092058332735693264\", \"text\": \"How to build great evals - part 8.\\n\\nThe discriminatory property of evals.\\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\\n\\nImagine you run an eval on five AI systems:\\n\\nA: 94\\nB: 93\\nC: 95\\nD: 94\\nE: 92\\n\\nNow suppose you already know A and C are substantially better systems than D and E.\\n\\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\\n\\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and you’ve learned nothing about who is the smartest.\\n\\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\\n\\nThe sweet spot for an eval is:\\nRealistic + difficult + sensitive to differences in capability.\\n\\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\\n\\nDrop your guesses in the comments.\\n\\nShare this with your teammates.\", \"createdAt\": \"2026-08-25T01:15:49.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2092058332735693264\", \"likes\": 92, \"retweets\": 7, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2091684812012875981\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Madhu Guru: How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine you run an eval on five AI systems: A: 94 B: 93 C: 95 D: 94 E: 92 Now suppose you already know A and C are substantially better systems than D and E. The eval is bad cos it doesn’t t..."
+      ],
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine you run an eval on five AI systems: A: 94 B: 93 C: 95 D: 94 E: 92 Now suppose you already know A and C are substantially better systems than D and E. The eval is bad cos it doesn’t t...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 7,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 7,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-08-26T10:23:20.722411+08:00"
+  }
+}
