@@ -1,0 +1,546 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-09-10T13:36:11.074464+08:00",
+  "events_count": 10,
+  "stats": {
+    "podcastEpisodes": 0,
+    "xBuilders": 15,
+    "totalTweets": 33,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-09-09T06:41:14.821Z"
+  },
+  "digest_generated_at": "2026-09-10T05:36:10.745Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-09-10T05:36:10.745Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [],
+    "x": [
+      {
+        "source": "x",
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2097557079762624563",
+            "text": "Also note that well aligned models are not sufficient to solve prompt injection by themselves yet. That said, we have solved prompt injection in practice when layering our latest models with prompt injection probes (on by default for all traffic) and auto mode (also on by default). The little bit of scaffolding helps.\n\nhttps://t.co/z4jN6ip3cs",
+            "createdAt": "2026-09-09T05:25:53.000Z",
+            "url": "https://x.com/bcherny/status/2097557079762624563",
+            "likes": 12,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2085860677990883454"
+          },
+          {
+            "id": "2097470212471922848",
+            "text": "It's the little things https://t.co/dhyV5jPE8o",
+            "createdAt": "2026-09-08T23:40:42.000Z",
+            "url": "https://x.com/bcherny/status/2097470212471922848",
+            "likes": 1338,
+            "retweets": 28,
+            "replies": 142,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097368503624085773",
+            "text": "To all: this came out sassier than I wanted it to. I meant this post earnestly - this is an improvement, and it really is good that we are seeing that improvement. Please keep it up",
+            "createdAt": "2026-09-08T16:56:33.000Z",
+            "url": "https://x.com/bcherny/status/2097368503624085773",
+            "likes": 595,
+            "retweets": 2,
+            "replies": 49,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "tweets": [
+          {
+            "id": "2097559315150426222",
+            "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+            "createdAt": "2026-09-09T05:34:46.000Z",
+            "url": "https://x.com/thsottiaux/status/2097559315150426222",
+            "likes": 6276,
+            "retweets": 355,
+            "replies": 915,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097492424474165293",
+            "text": "See you at the Astra party. Excited to meet some of you https://t.co/WOICELwSrQ",
+            "createdAt": "2026-09-09T01:08:58.000Z",
+            "url": "https://x.com/thsottiaux/status/2097492424474165293",
+            "likes": 3122,
+            "retweets": 51,
+            "replies": 460,
+            "isQuote": true,
+            "quotedTweetId": "2097404861642137851"
+          },
+          {
+            "id": "2097482341916852719",
+            "text": "I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from Codex from last May this year. Nice work!\n\nShipping great features first turns out to be a great way to encourage other labs to ship too. We will continue to do this until other labs pay more attention to shipping. This is good for everyone and there is a lot of room left to go!\n\nWe solved computer use in practice for GPT models about four months ago. But computer use is a significantly awesome thing no matter what model you use, and it is important that the industry similarly spends more effort to train their models to be great at computer use, among other elements of model capabilities.\n\nAs models become more capable and central to businesses and economies, the value of computer use only increases. We should be taking it seriously, and doing the right thing for our customers and the world.",
+            "createdAt": "2026-09-09T00:28:54.000Z",
+            "url": "https://x.com/thsottiaux/status/2097482341916852719",
+            "likes": 4085,
+            "retweets": 123,
+            "replies": 318,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2097429947979829514",
+            "text": "Follow @roupenmd for more balanced takes from an actual oncologist (and AI enthusiast) on where AI is at helping to treat cancer. \n\nHyping a \"cure\" without understanding basic facts is disrespectful to all the patients and family members suffering from this disease. https://t.co/Ocrr84RpRm",
+            "createdAt": "2026-09-08T21:00:42.000Z",
+            "url": "https://x.com/petergyang/status/2097429947979829514",
+            "likes": 8,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2097415028358177123"
+          },
+          {
+            "id": "2097397466283102580",
+            "text": "This kind of tweet is both interesting and misleading.\n\nOn the one hand, who doesn’t want a personalized vaccine that treats their cancer and reduces the need for chemo?\n\nOn the other hand, there are many patients and families desperately looking for treatment. \n\nPresenting this as what cancer treatment looks like in 2026 is just not true:\n\n1. Promising results in melanoma don’t mean personalized vaccines work across all cancers.\n\n2. A treatment showing promise in a trial doesn’t mean most patients can get it or benefit from it.\n\nI’d love to hear from oncologists like @RoupenMD @jasonwilliamsmd:\n\n1. How close are we to making personalized cancer vaccines a realistic option for most patients?\n\n2. What’s still standing in the way?",
+            "createdAt": "2026-09-08T18:51:38.000Z",
+            "url": "https://x.com/petergyang/status/2097397466283102580",
+            "likes": 14,
+            "retweets": 1,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2096931497798459605"
+          },
+          {
+            "id": "2097351149024321690",
+            "text": "What are the best games that you've seen people build with Astra? \n\nPlease share in the replies (only include actual playable games please).",
+            "createdAt": "2026-09-08T15:47:35.000Z",
+            "url": "https://x.com/petergyang/status/2097351149024321690",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 28,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+        "tweets": [
+          {
+            "id": "2097379245928665426",
+            "text": "Astra when I ask it to use the expense UI https://t.co/5tUwWheUwm",
+            "createdAt": "2026-09-08T17:39:14.000Z",
+            "url": "https://x.com/thenanyu/status/2097379245928665426",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097378208173920719",
+            "text": "This weekend I used Astra to search my email and text messages for receipts to automatically fill out and submit expense reports. We are not the same. https://t.co/4J7cSdq31r",
+            "createdAt": "2026-09-08T17:35:06.000Z",
+            "url": "https://x.com/thenanyu/status/2097378208173920719",
+            "likes": 12,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2097377663094853788"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "tweets": [
+          {
+            "id": "2097472483662479470",
+            "text": "meanwhile,  swarms of agents are sacrificing themselves for the greater good of their collective. https://t.co/tpHnfLsYO4",
+            "createdAt": "2026-09-08T23:49:43.000Z",
+            "url": "https://x.com/realmadhuguru/status/2097472483662479470",
+            "likes": 5,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2097224624274911368"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "tweets": [
+          {
+            "id": "2097522316125372570",
+            "text": "OpenAI wrote up more here but wish this was disclosed much sooner https://t.co/wljaLILldU",
+            "createdAt": "2026-09-09T03:07:44.000Z",
+            "url": "https://x.com/trq212/status/2097522316125372570",
+            "likes": 45,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2096133504417616165"
+          },
+          {
+            "id": "2097522305916395786",
+            "text": "I didn’t understand what was happening with the agent wikis until reading this, chilling\n\nto bypass sandbox restrictions, an agent found an exempt domain, edited /etc/hosts to route arbitrary domains to it &amp; then posted this exploit on a German wiki for other agents to use https://t.co/5io5nlOrZy https://t.co/vsNRV7QvwU",
+            "createdAt": "2026-09-09T03:07:42.000Z",
+            "url": "https://x.com/trq212/status/2097522305916395786",
+            "likes": 548,
+            "retweets": 29,
+            "replies": 24,
+            "isQuote": true,
+            "quotedTweetId": "2095916804912877871"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2097531548555997459",
+            "text": "Token volume on @vercel AI Gateway has averaged double-digit weekly growth for 8 straight weeks. Last week it accelerated to +24.8%. It’s almost inconceivable. Infinite demand of intelligence.",
+            "createdAt": "2026-09-09T03:44:26.000Z",
+            "url": "https://x.com/rauchg/status/2097531548555997459",
+            "likes": 196,
+            "retweets": 13,
+            "replies": 27,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097525477900685468",
+            "text": "/goal understand the universe",
+            "createdAt": "2026-09-09T03:20:18.000Z",
+            "url": "https://x.com/rauchg/status/2097525477900685468",
+            "likes": 408,
+            "retweets": 23,
+            "replies": 52,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097408592290971956",
+            "text": "Chat has won. It's all chat + computer from this point on https://t.co/DHrSYd92jf",
+            "createdAt": "2026-09-08T19:35:51.000Z",
+            "url": "https://x.com/rauchg/status/2097408592290971956",
+            "likes": 1344,
+            "retweets": 33,
+            "replies": 67,
+            "isQuote": true,
+            "quotedTweetId": "2097402344061510004"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2097412556893852154",
+            "text": "Personal assistant agents are going to be a very exciting AI category. It’s the first time you can have high token volume agentic use-cases that make sense for consumers. \n\nLots of different approaches emerging right now, and it’s going to be hyper competitive because these agents will mediate a lot of consumer spend over time. \n\nBut this certainly plays directly to Meta’s strengths: lots of compute required, can monetize with ads and commerce, software focused experiences so can distribute it at scale, and so on.",
+            "createdAt": "2026-09-08T19:51:36.000Z",
+            "url": "https://x.com/levie/status/2097412556893852154",
+            "likes": 361,
+            "retweets": 19,
+            "replies": 41,
+            "isQuote": true,
+            "quotedTweetId": "2097402344061510004"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2097540189430415785",
+            "text": "Run your own game\n\nIt's going to work out https://t.co/fdy2X1GkYa",
+            "createdAt": "2026-09-09T04:18:46.000Z",
+            "url": "https://x.com/garrytan/status/2097540189430415785",
+            "likes": 332,
+            "retweets": 14,
+            "replies": 30,
+            "isQuote": true,
+            "quotedTweetId": "2097412238596608139"
+          },
+          {
+            "id": "2097539792619864190",
+            "text": "They should actually declare this area in SF a treatment &amp; recovery sober zone\n\nAll nonprofits in this area must commit to sober housing and mandatory recovery and treatment https://t.co/UAOchs0ZUL",
+            "createdAt": "2026-09-09T04:17:11.000Z",
+            "url": "https://x.com/garrytan/status/2097539792619864190",
+            "likes": 124,
+            "retweets": 6,
+            "replies": 19,
+            "isQuote": true,
+            "quotedTweetId": "2097430793970696302"
+          },
+          {
+            "id": "2097471691060642159",
+            "text": "Harness wars are full on now and Muse is very impressive https://t.co/K72W9KaJMc",
+            "createdAt": "2026-09-08T23:46:34.000Z",
+            "url": "https://x.com/garrytan/status/2097471691060642159",
+            "likes": 470,
+            "retweets": 16,
+            "replies": 29,
+            "isQuote": true,
+            "quotedTweetId": "2097402344061510004"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2097386897018355769",
+            "text": "Build and customize any voice you’d like.  Live today.  👏👏 @GradiumAI https://t.co/ROIoEEXe2o",
+            "createdAt": "2026-09-08T18:09:38.000Z",
+            "url": "https://x.com/mattturck/status/2097386897018355769",
+            "likes": 33,
+            "retweets": 6,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2097359468963004826"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
+        "tweets": [
+          {
+            "id": "2097489234500390929",
+            "text": "Just realized you can ask Codex to fire a confetti in the chat 🎉 https://t.co/PMCbBqH2Ci",
+            "createdAt": "2026-09-09T00:56:17.000Z",
+            "url": "https://x.com/zarazhangrui/status/2097489234500390929",
+            "likes": 87,
+            "retweets": 0,
+            "replies": 21,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2097472125863137627",
+            "text": "new personal website.\n\nmade with astra. \n\ninspired by inside out &amp; monument valley. \n\nfind the hidden room &amp; other fun elements. \n\nhttps://t.co/OdfTgavRhC https://t.co/r4LpvPwMNW",
+            "createdAt": "2026-09-08T23:48:18.000Z",
+            "url": "https://x.com/nikunj/status/2097472125863137627",
+            "likes": 79,
+            "retweets": 0,
+            "replies": 7,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097360241050747335",
+            "text": "Market maps are primarily for vanity (founders), show you are “early” (LPs) , and to convince your fund-mates you have thought leadership..\n\nNo successful investor (or founder) I have met has ever found it useful to date. https://t.co/EIrrIauVBa",
+            "createdAt": "2026-09-08T16:23:43.000Z",
+            "url": "https://x.com/nikunj/status/2097360241050747335",
+            "likes": 24,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2097397449392615650",
+            "text": "yet another win for Gary and his neurosymbolic AI program! \n\nkudos https://t.co/aVjLdSX5bo",
+            "createdAt": "2026-09-08T18:51:34.000Z",
+            "url": "https://x.com/danshipper/status/2097397449392615650",
+            "likes": 60,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2097374640582668336"
+          },
+          {
+            "id": "2097394656573276453",
+            "text": "ok I’ll bite\n\nwhat’s a Navier stoke",
+            "createdAt": "2026-09-08T18:40:28.000Z",
+            "url": "https://x.com/danshipper/status/2097394656573276453",
+            "likes": 80,
+            "retweets": 1,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097376861680718081",
+            "text": "dang https://t.co/cRPjkUUUAy",
+            "createdAt": "2026-09-08T17:29:45.000Z",
+            "url": "https://x.com/danshipper/status/2097376861680718081",
+            "likes": 33,
+            "retweets": 2,
+            "replies": 4,
+            "isQuote": true,
+            "quotedTweetId": "2097374640582668336"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2097445737529581578",
+            "text": "It's a weird time.\n\nAs many of you know, my superpower is optimism. I have an insane ability to look at any situation through the most positive lens. I strongly believe that today is the \"least best\" (not worst) day of my life and tomorrow will be glorious.\n\nI am super optimistic about where AI is going.\n\nBut I also find myself genuinely anxious about the pace of change and our inability to understand how these (insanely) complicated machines work.\n\nI always err on the side of \"just let us cook\". The only way out is through. Let us build. \n\nBut man, it is a weird time.",
+            "createdAt": "2026-09-08T22:03:27.000Z",
+            "url": "https://x.com/adityaag/status/2097445737529581578",
+            "likes": 253,
+            "retweets": 5,
+            "replies": 16,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097372383258796460",
+            "text": "Very excited to be partnering with @ScottWu46, @russelljkaplan and that amazing team @cognition to continue building! https://t.co/fHhGZCnmOM",
+            "createdAt": "2026-09-08T17:11:58.000Z",
+            "url": "https://x.com/adityaag/status/2097372383258796460",
+            "likes": 51,
+            "retweets": 5,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2097369798518681891"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
+        "tweets": [
+          {
+            "id": "2097450292996604189",
+            "text": "i want one! https://t.co/da7jjZzoRi",
+            "createdAt": "2026-09-08T22:21:33.000Z",
+            "url": "https://x.com/sama/status/2097450292996604189",
+            "likes": 4953,
+            "retweets": 172,
+            "replies": 287,
+            "isQuote": true,
+            "quotedTweetId": "2097339677128982873"
+          },
+          {
+            "id": "2097410967978324010",
+            "text": "Images 2.5 is here.\n\nI don't think it can solve super difficult math problems, but it is really good and we hope you enjoy it.\n\nhttps://t.co/LdZhGF5AcZ",
+            "createdAt": "2026-09-08T19:45:17.000Z",
+            "url": "https://x.com/sama/status/2097410967978324010",
+            "likes": 15495,
+            "retweets": 929,
+            "replies": 675,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2097404861642137851",
+            "text": "We want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun.\n\nWe’re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out.\n\nApply by Sep 10:\n\nhttps://t.co/3LIMfGOBRQ",
+            "createdAt": "2026-09-08T19:21:01.000Z",
+            "url": "https://x.com/sama/status/2097404861642137851",
+            "likes": 8470,
+            "retweets": 317,
+            "replies": 662,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 0,
+      "xBuilders": 15,
+      "totalTweets": 33,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-09-09T06:41:14.821Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
