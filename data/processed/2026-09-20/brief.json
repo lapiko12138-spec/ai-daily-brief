@@ -1,0 +1,1089 @@
+{
+  "date": "2026-09-20",
+  "title": "2026-09-20 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-09-20.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "51ed2952750fdeb0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @steipete",
+      "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and... 2. ... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/steipete/status/2101141707375227372",
+      "source_name": "Follow Builders / @steipete",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.",
+        "... and CUA works on all of these too, so agent can be more efficient than just screenshots."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Peter Steinberger: The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all...",
+      "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.；... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "502ac1cfd542fd0d",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @petergyang",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes 2. Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627",
+      "source_name": "Follow Builders / @petergyang",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes",
+        "Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Peter Yang: How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or...",
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes；Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "d27b59243cf814a9",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "product": "X / @trq212",
+      "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：Claude Code @anthropicai. prev YC W20, @spc, @medialab。要点：1. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of p... 2. We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/trq212/status/2101009393731223817",
+      "source_name": "Follow Builders / @trq212",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.",
+        "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thariq: AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. Th...",
+      "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.；We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "10eeab0ca9617c04",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/levie/status/2101007708044574906",
+      "source_name": "Follow Builders / @levie",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aaron Levie: Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgme...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ee59dc1a1bb20a85",
+      "title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "company": "Builder Ecosystem",
+      "product": "X / @rauchg",
+      "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 t... 2. The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeit...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/rauchg/status/2101186741042663579",
+      "source_name": "Follow Builders / @rauchg",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...",
+        "The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!"
+      ],
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "original_title": "Guillermo Rauch: Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 C...",
+      "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...；The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "51ed2952750fdeb0",
+        "date": "2026-09-20",
+        "title": "Peter Steinberger: The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and... 2. ... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+        "company": "OpenAI",
+        "product": "X / @steipete",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @steipete",
+        "source_url": "https://x.com/steipete/status/2101141707375227372",
+        "published_at": "2026-09-19T10:49:55+08:00",
+        "fetched_at": "2026-09-20T13:42:53.679260+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2101141707375227372\", \"text\": \"The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling.\\n\\nWe can ask it about context to current and past sessions right while we have meetings.\", \"createdAt\": \"2026-09-19T02:49:55.000Z\", \"url\": \"https://x.com/steipete/status/2101141707375227372\", \"likes\": 83, \"retweets\": 5, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101139037801283997\", \"text\": \"Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands.\\n\\nAlso hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/BFw01me3sP\", \"createdAt\": \"2026-09-19T02:39:18.000Z\", \"url\": \"https://x.com/steipete/status/2101139037801283997\", \"likes\": 50, \"retweets\": 1, \"replies\": 11, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101115690719809873\", \"text\": \"... and CUA works on all of these too, so agent can be more efficient than just screenshots.\", \"createdAt\": \"2026-09-19T01:06:32.000Z\", \"url\": \"https://x.com/steipete/status/2101115690719809873\", \"likes\": 13, \"retweets\": 0, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101141707375227372\", \"text\": \"The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling.\\n\\nWe can ask it about context to current and past sessions right while we have meetings.\", \"createdAt\": \"2026-09-19T02:49:55.000Z\", \"url\": \"https://x.com/steipete/status/2101141707375227372\", \"likes\": 83, \"retweets\": 5, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101115690719809873\", \"text\": \"... and CUA works on all of these too, so agent can be more efficient than just screenshots.\", \"createdAt\": \"2026-09-19T01:06:32.000Z\", \"url\": \"https://x.com/steipete/status/2101115690719809873\", \"likes\": 13, \"retweets\": 0, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@steipete",
+            "source_url": "https://x.com/steipete/status/2101115690719809873",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Steinberger: The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.",
+          "... and CUA works on all of these too, so agent can be more efficient than just screenshots."
+        ],
+        "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.；... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "d27b59243cf814a9",
+        "date": "2026-09-20",
+        "title": "Thariq: AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. Th...",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：Claude Code @anthropicai. prev YC W20, @spc, @medialab。要点：1. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of p... 2. We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle...",
+        "company": "Anthropic",
+        "product": "X / @trq212",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @trq212",
+        "source_url": "https://x.com/trq212/status/2101009393731223817",
+        "published_at": "2026-09-19T02:04:08+08:00",
+        "fetched_at": "2026-09-20T13:42:53.677204+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thariq\", \"handle\": \"trq212\", \"bio\": \"Claude Code @anthropicai. prev YC W20, @spc, @medialab\", \"tweets\": [{\"id\": \"2101009395052343462\", \"text\": \"You can see the source for the mod here! https://t.co/ZGJxRbh33b\", \"createdAt\": \"2026-09-18T18:04:09.000Z\", \"url\": \"https://x.com/trq212/status/2101009395052343462\", \"likes\": 469, \"retweets\": 11, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009393731223817\", \"text\": \"AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.\\n\\nThis is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009393731223817\", \"likes\": 926, \"retweets\": 20, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009392611278961\", \"text\": \"We're adding support for AGENTS.md to Claude Code. \\n\\nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\\n\\nYou can toggle this behavior in /config.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009392611278961\", \"likes\": 25553, \"retweets\": 2174, \"replies\": 1676, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101009393731223817\", \"text\": \"AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.\\n\\nThis is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009393731223817\", \"likes\": 926, \"retweets\": 20, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009392611278961\", \"text\": \"We're adding support for AGENTS.md to Claude Code. \\n\\nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\\n\\nYou can toggle this behavior in /config.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009392611278961\", \"likes\": 25553, \"retweets\": 2174, \"replies\": 1676, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@trq212",
+            "source_url": "https://x.com/trq212/status/2101009392611278961",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thariq: AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. Th...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.",
+          "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config."
+        ],
+        "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.；We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "502ac1cfd542fd0d",
+        "date": "2026-09-20",
+        "title": "Peter Yang: How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes 2. Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my...",
+        "company": "Builder Ecosystem",
+        "product": "X / @petergyang",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2101104320897040627",
+        "published_at": "2026-09-19T08:21:21+08:00",
+        "fetched_at": "2026-09-20T13:42:53.676458+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2101104320897040627\", \"text\": \"How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes\", \"createdAt\": \"2026-09-19T00:21:21.000Z\", \"url\": \"https://x.com/petergyang/status/2101104320897040627\", \"likes\": 35, \"retweets\": 0, \"replies\": 10, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101083891507593576\", \"text\": \"I find this phone transcript from @Muse on how it negotiated $288 in annual savings for my Comcast cable bill super fascinating.\\n\\nHonestly, I think most companies' customer support lines are NOT ready for agents 😅\\n\\n📌 Watch me talk about my favorite Muse use cases here: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T23:00:10.000Z\", \"url\": \"https://x.com/petergyang/status/2101083891507593576\", \"likes\": 230, \"retweets\": 10, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2101033599319613533\"}, {\"id\": \"2101033599319613533\", \"text\": \"Meta's @Muse is the best personal agent I've tried to date.\\n\\nIt actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent.\\n\\nHere's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negotiate my bills for me.\\n\\nHonestly, I can see Muse becoming Meta's next billion-user app.\\n\\n📌 Watch now: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T19:40:20.000Z\", \"url\": \"https://x.com/petergyang/status/2101033599319613533\", \"likes\": 707, \"retweets\": 57, \"replies\": 76, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101104320897040627\", \"text\": \"How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes\", \"createdAt\": \"2026-09-19T00:21:21.000Z\", \"url\": \"https://x.com/petergyang/status/2101104320897040627\", \"likes\": 35, \"retweets\": 0, \"replies\": 10, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101033599319613533\", \"text\": \"Meta's @Muse is the best personal agent I've tried to date.\\n\\nIt actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent.\\n\\nHere's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negotiate my bills for me.\\n\\nHonestly, I can see Muse becoming Meta's next billion-user app.\\n\\n📌 Watch now: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T19:40:20.000Z\", \"url\": \"https://x.com/petergyang/status/2101033599319613533\", \"likes\": 707, \"retweets\": 57, \"replies\": 76, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2101033599319613533",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes",
+          "Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot..."
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes；Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "10eeab0ca9617c04",
+        "date": "2026-09-20",
+        "title": "Aaron Levie: Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgme...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "Agent",
+          "企业服务"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2101007708044574906",
+        "published_at": "2026-09-19T01:57:27+08:00",
+        "fetched_at": "2026-09-20T13:42:53.678104+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2101007708044574906\", \"text\": \"Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise.\\n\\nHere's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, monitor, or review folders, and sets a metadata template instance with the result. This all happens nearly instantly and at almost no cost.\\n\\nYou can imagine this in insurance claims, contract management, loan processing, security reviews, customer log analysis, and so on. Definitely a great new class of AI use-case.\", \"createdAt\": \"2026-09-18T17:57:27.000Z\", \"url\": \"https://x.com/levie/status/2101007708044574906\", \"likes\": 500, \"retweets\": 57, \"replies\": 43, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101007708044574906\", \"text\": \"Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise.\\n\\nHere's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, monitor, or review folders, and sets a metadata template instance with the result. This all happens nearly instantly and at almost no cost.\\n\\nYou can imagine this in insurance claims, contract management, loan processing, security reviews, customer log analysis, and so on. Definitely a great new class of AI use-case.\", \"createdAt\": \"2026-09-18T17:57:27.000Z\", \"url\": \"https://x.com/levie/status/2101007708044574906\", \"likes\": 500, \"retweets\": 57, \"replies\": 43, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgme...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon..."
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "ee59dc1a1bb20a85",
+        "date": "2026-09-20",
+        "title": "Guillermo Rauch: Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 C...",
+        "title_zh": "Builder Ecosystem 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 t... 2. The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeit...",
+        "company": "Builder Ecosystem",
+        "product": "X / @rauchg",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @rauchg",
+        "source_url": "https://x.com/rauchg/status/2101186741042663579",
+        "published_at": "2026-09-19T13:48:51+08:00",
+        "fetched_at": "2026-09-20T13:42:53.677783+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2101186741042663579\", \"text\": \"Looks like today may be a record day for token volume % of open models on Vercel AI Gateway:\\n\\n🟦 Open 78.4% 🟨 Closed 21.6%\\n\\nWhile spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2).\\n\\n(Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)\", \"createdAt\": \"2026-09-19T05:48:51.000Z\", \"url\": \"https://x.com/rauchg/status/2101186741042663579\", \"likes\": 91, \"retweets\": 3, \"replies\": 24, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101116978677285241\", \"text\": \"Free Jev on Vercel \\nI know what I’m doing this weekend 😁 https://t.co/cTKPgKlkcZ\", \"createdAt\": \"2026-09-19T01:11:39.000Z\", \"url\": \"https://x.com/rauchg/status/2101116978677285241\", \"likes\": 1796, \"retweets\": 53, \"replies\": 66, \"isQuote\": true, \"quotedTweetId\": \"2101116818463281579\"}, {\"id\": \"2101079472732848510\", \"text\": \"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.\\n\\nI think it's a great product, but this is also downstream of the \\\"AI is too expensive/slow\\\" zeitgeist. People are eager to optimize and put AI in even more places!\\n\\nhttps://t.co/tK86PNGgNs https://t.co/Y7w3UKosBC\", \"createdAt\": \"2026-09-18T22:42:37.000Z\", \"url\": \"https://x.com/rauchg/status/2101079472732848510\", \"likes\": 711, \"retweets\": 35, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2101077346203971900\"}]}, \"tweets\": [{\"id\": \"2101186741042663579\", \"text\": \"Looks like today may be a record day for token volume % of open models on Vercel AI Gateway:\\n\\n🟦 Open 78.4% 🟨 Closed 21.6%\\n\\nWhile spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2).\\n\\n(Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)\", \"createdAt\": \"2026-09-19T05:48:51.000Z\", \"url\": \"https://x.com/rauchg/status/2101186741042663579\", \"likes\": 91, \"retweets\": 3, \"replies\": 24, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101079472732848510\", \"text\": \"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.\\n\\nI think it's a great product, but this is also downstream of the \\\"AI is too expensive/slow\\\" zeitgeist. People are eager to optimize and put AI in even more places!\\n\\nhttps://t.co/tK86PNGgNs https://t.co/Y7w3UKosBC\", \"createdAt\": \"2026-09-18T22:42:37.000Z\", \"url\": \"https://x.com/rauchg/status/2101079472732848510\", \"likes\": 711, \"retweets\": 35, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2101077346203971900\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@rauchg",
+            "source_url": "https://x.com/rauchg/status/2101079472732848510",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Guillermo Rauch: Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 C...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...",
+          "The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!"
+        ],
+        "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...；The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "83cb207d900706ca",
+        "date": "2026-09-20",
+        "title": "Dan Shipper: there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”...",
+        "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focuse...",
+        "company": "Builder Ecosystem",
+        "product": "X / @danshipper",
+        "category": "Builder 观点",
+        "tags": [
+          "Builder 观点",
+          "X"
+        ],
+        "importance": "Low",
+        "credibility": "community",
+        "source_name": "Follow Builders / @danshipper",
+        "source_url": "https://x.com/danshipper/status/2101155521818476693",
+        "published_at": "2026-09-19T11:44:48+08:00",
+        "fetched_at": "2026-09-20T13:42:53.679762+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Dan Shipper\", \"handle\": \"danshipper\", \"bio\": \"ceo @every | the only subscription you need to stay at the edge of AI\", \"tweets\": [{\"id\": \"2101155521818476693\", \"text\": \"there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”\\n\\nHe’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future \\n\\nnot a good look!\", \"createdAt\": \"2026-09-19T03:44:48.000Z\", \"url\": \"https://x.com/danshipper/status/2101155521818476693\", \"likes\": 23, \"retweets\": 0, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2101117066845831478\"}, {\"id\": \"2101023880282251340\", \"text\": \"THIS CANNOT STAND https://t.co/DmVL3WMV4n\", \"createdAt\": \"2026-09-18T19:01:42.000Z\", \"url\": \"https://x.com/danshipper/status/2101023880282251340\", \"likes\": 16, \"retweets\": 1, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2101020240083599723\"}, {\"id\": \"2100961925840404886\", \"text\": \"Roose on the loose. Very concerning https://t.co/ghgCESpBnD\", \"createdAt\": \"2026-09-18T14:55:31.000Z\", \"url\": \"https://x.com/danshipper/status/2100961925840404886\", \"likes\": 43, \"retweets\": 0, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2100955205915627908\"}]}, \"tweets\": [{\"id\": \"2101155521818476693\", \"text\": \"there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”\\n\\nHe’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future \\n\\nnot a good look!\", \"createdAt\": \"2026-09-19T03:44:48.000Z\", \"url\": \"https://x.com/danshipper/status/2101155521818476693\", \"likes\": 23, \"retweets\": 0, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2101117066845831478\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Dan Shipper: there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future not a good look!"
+        ],
+        "source_context": "Follow Builders / @danshipper / X / @danshipper 的原始信息主要包括：there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future not a good look!",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "e665a79e71656c66",
+        "date": "2026-09-20",
+        "title": "Aditya Agarwal: AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+        "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+        "company": "Builder Ecosystem",
+        "product": "X / @adityaag",
+        "category": "Builder 观点",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "生态合作"
+        ],
+        "importance": "Low",
+        "credibility": "community",
+        "source_name": "Follow Builders / @adityaag",
+        "source_url": "https://x.com/adityaag/status/2101097330107875437",
+        "published_at": "2026-09-19T07:53:34+08:00",
+        "fetched_at": "2026-09-20T13:42:53.679979+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aditya Agarwal\", \"handle\": \"adityaag\", \"bio\": \"General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad\", \"tweets\": [{\"id\": \"2101097330107875437\", \"text\": \"AI is a full circle.\\n\\nEverything old is new again. https://t.co/B0mpUnjas2\", \"createdAt\": \"2026-09-18T23:53:34.000Z\", \"url\": \"https://x.com/adityaag/status/2101097330107875437\", \"likes\": 6, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101097330107875437\", \"text\": \"AI is a full circle.\\n\\nEverything old is new again. https://t.co/B0mpUnjas2\", \"createdAt\": \"2026-09-18T23:53:34.000Z\", \"url\": \"https://x.com/adityaag/status/2101097330107875437\", \"likes\": 6, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aditya Agarwal: AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "AI is a full circle. Everything old is new again."
+        ],
+        "source_context": "Follow Builders / @adityaag / X / @adityaag 的原始信息主要包括：AI is a full circle. Everything old is new again.",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "9bc484031483f770",
+        "date": "2026-09-20",
+        "title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+        "title_zh": "Podcasts / Interviews 的模型/产品能力有新变化",
+        "summary": "Follow Builders 收录了 No Priors 的一期播客：Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon。转录摘要线索：Speaker 1 | 00:05 - 00:31 Hi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years...",
+        "company": "Podcasts / Interviews",
+        "product": "No Priors",
+        "category": "模型更新",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "模型更新",
+          "算力/基础设施"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / No Priors",
+        "source_url": "https://www.youtube.com/@NoPriorsPodcast",
+        "published_at": "2026-09-18T18:00:00+08:00",
+        "fetched_at": "2026-09-20T13:42:53.681779+08:00",
+        "raw_text": "Speaker 1 | 00:05 - 00:31 Hi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years. Speaker 1 | 00:31 - 00:35 Welcome, Stefano. Stefano, thanks so much for being here. Speaker 2 | 00:35 - 00:35 Great to be here. Speaker 1 | 00:35 - 00:42 I would love for us to just start with a little bit of your research background and how you ended up starting your company. Speaker 2 | 00:42 - 01:01 For sure. Yeah. I've been doing research in generative models for like basically my entire career. I started at Stanford in 2014 as an assistant professor, I was working on building generative models. Back then, the the research area was not particularly hot. Speaker 2 | 01:01 - 01:35 You know, the the the models were not quite working well. We were still, like, building little generative models over MNIST, and it was, like, a big success if you could generate these grainy images of digits. And it was even hard to publish papers back then on that topic, and you had to justify training a generative model as a way to learn features from unlabeled data that then could maybe help you do better at supervised learning because that was the thing that everybody cared about. But then things took over, of course. And so it was at the right place at the right time working on the right thing. Speaker 2 | 01:35 - 01:40 And so I've been doing research in that space since the beginning, basically. Speaker 1 | 01:40 - 01:47 Did you have like a, besides a curiosity in the area, a personal hope for what the models would do back in 2014 and 'fifteen? Speaker 2 | 01:48 - 02:18 Yeah, I mean, I always felt like that was going to be the that was the right way to think about learning from unlabeled data, that building a generative model is really the right way to make sure you understand the structure in the data. That was kind of like the way I was getting at. I was not even dreaming about the kind of capabilities that these LLMs that we have today could do that. But I was thinking more from a, I think, world models perspective. Like, I was working a lot on images and so thinking about, okay. Speaker 2 | 02:18 - 02:41 Like, I have a world model. I can imagine what's gonna happen if I were to stand up and walk out the door. Like, I can kinda, like, picture that in my mind, and that's important to make decisions and kinda model predictive control when having this kind of model of the world requires some generative capabilities. And so I always felt like, okay, that's the right direction to work on. I felt like this is going to be very hard as a problem. Speaker 2 | 02:41 - 02:51 So this is going to keep me...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception.",
+          "Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion.",
+          "We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years.",
+          "I would love for us to just start with a little bit of your research background and how you ended up starting your company."
+        ],
+        "source_context": "Follow Builders / No Priors 的原始信息主要包括：Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception.；Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion.",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "51ed2952750fdeb0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/steipete/status/2101141707375227372",
+      "source_name": "Follow Builders / @steipete",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "502ac1cfd542fd0d",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627",
+      "source_name": "Follow Builders / @petergyang",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "d27b59243cf814a9",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/trq212/status/2101009393731223817",
+      "source_name": "Follow Builders / @trq212",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Anthropic 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "51ed2952750fdeb0",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/steipete/status/2101141707375227372",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "502ac1cfd542fd0d",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "d27b59243cf814a9",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/trq212/status/2101009393731223817",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "10eeab0ca9617c04",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2101007708044574906",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "OpenAI",
+      "model_product": "X / @steipete",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and... 2. ... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/steipete/status/2101141707375227372"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes 2. Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my...",
+      "change_type": "Builder 观点, X, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @trq212",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：Claude Code @anthropicai. prev YC W20, @spc, @medialab。要点：1. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of p... 2. We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/trq212/status/2101009393731223817"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a...",
+      "change_type": "Builder 观点, X, Agent",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2101007708044574906"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @rauchg",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 t... 2. The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeit...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/rauchg/status/2101186741042663579"
+    },
+    {
+      "company": "Podcasts / Interviews",
+      "model_product": "No Priors",
+      "before": "信息不足",
+      "after": "Follow Builders 收录了 No Priors 的一期播客：Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon。转录摘要线索：Speaker 1 | 00:05 - 00:31 Hi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years...",
+      "change_type": "Builder 访谈, Podcast, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://www.youtube.com/@NoPriorsPodcast"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "OpenAI 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/steipete/status/2101141707375227372"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "source_url": "https://x.com/rauchg/status/2101186741042663579"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/danshipper/status/2101155521818476693"
+    }
+  ],
+  "actions": [
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/steipete/status/2101141707375227372",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/trq212/status/2101009393731223817",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2101007708044574906",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 的模型/产品能力有新变化",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/rauchg/status/2101186741042663579",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    }
+  ],
+  "events": [
+    {
+      "id": "51ed2952750fdeb0",
+      "date": "2026-09-20",
+      "title": "Peter Steinberger: The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Steinberger（@steipete） 在 X 上的最新动态。简介：Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI。要点：1. The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and... 2. ... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+      "company": "OpenAI",
+      "product": "X / @steipete",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @steipete",
+      "source_url": "https://x.com/steipete/status/2101141707375227372",
+      "published_at": "2026-09-19T10:49:55+08:00",
+      "fetched_at": "2026-09-20T13:42:53.679260+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Steinberger\", \"handle\": \"steipete\", \"bio\": \"Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\\n@OpenClaw🦞 + @OpenAI\", \"tweets\": [{\"id\": \"2101141707375227372\", \"text\": \"The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling.\\n\\nWe can ask it about context to current and past sessions right while we have meetings.\", \"createdAt\": \"2026-09-19T02:49:55.000Z\", \"url\": \"https://x.com/steipete/status/2101141707375227372\", \"likes\": 83, \"retweets\": 5, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101139037801283997\", \"text\": \"Love having @vhbrzezowski hijacking my sessions and desloping them before the PR lands.\\n\\nAlso hot tip: Open the home sidebar and ask your claw to reorganize your sessions to keep your sessions organized. https://t.co/BFw01me3sP\", \"createdAt\": \"2026-09-19T02:39:18.000Z\", \"url\": \"https://x.com/steipete/status/2101139037801283997\", \"likes\": 50, \"retweets\": 1, \"replies\": 11, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101115690719809873\", \"text\": \"... and CUA works on all of these too, so agent can be more efficient than just screenshots.\", \"createdAt\": \"2026-09-19T01:06:32.000Z\", \"url\": \"https://x.com/steipete/status/2101115690719809873\", \"likes\": 13, \"retweets\": 0, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101141707375227372\", \"text\": \"The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling.\\n\\nWe can ask it about context to current and past sessions right while we have meetings.\", \"createdAt\": \"2026-09-19T02:49:55.000Z\", \"url\": \"https://x.com/steipete/status/2101141707375227372\", \"likes\": 83, \"retweets\": 5, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101115690719809873\", \"text\": \"... and CUA works on all of these too, so agent can be more efficient than just screenshots.\", \"createdAt\": \"2026-09-19T01:06:32.000Z\", \"url\": \"https://x.com/steipete/status/2101115690719809873\", \"likes\": 13, \"retweets\": 0, \"replies\": 3, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@steipete",
+          "source_url": "https://x.com/steipete/status/2101115690719809873",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Steinberger: The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.",
+        "... and CUA works on all of these too, so agent can be more efficient than just screenshots."
+      ],
+      "source_context": "Follow Builders / @steipete / X / @steipete 的原始信息主要包括：The coolest part: roboclaw runs our team server, is live on Discord, talks with gpt-live and knows about all the sessions it's juggling. We can ask it about context to current and past sessions right while we have meetings.；... and CUA works on all of these too, so agent can be more efficient than just screenshots.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "502ac1cfd542fd0d",
+      "date": "2026-09-20",
+      "title": "Peter Yang: How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes 2. Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my...",
+      "company": "Builder Ecosystem",
+      "product": "X / @petergyang",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2101104320897040627",
+      "published_at": "2026-09-19T08:21:21+08:00",
+      "fetched_at": "2026-09-20T13:42:53.676458+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2101104320897040627\", \"text\": \"How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes\", \"createdAt\": \"2026-09-19T00:21:21.000Z\", \"url\": \"https://x.com/petergyang/status/2101104320897040627\", \"likes\": 35, \"retweets\": 0, \"replies\": 10, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101083891507593576\", \"text\": \"I find this phone transcript from @Muse on how it negotiated $288 in annual savings for my Comcast cable bill super fascinating.\\n\\nHonestly, I think most companies' customer support lines are NOT ready for agents 😅\\n\\n📌 Watch me talk about my favorite Muse use cases here: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T23:00:10.000Z\", \"url\": \"https://x.com/petergyang/status/2101083891507593576\", \"likes\": 230, \"retweets\": 10, \"replies\": 20, \"isQuote\": true, \"quotedTweetId\": \"2101033599319613533\"}, {\"id\": \"2101033599319613533\", \"text\": \"Meta's @Muse is the best personal agent I've tried to date.\\n\\nIt actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent.\\n\\nHere's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negotiate my bills for me.\\n\\nHonestly, I can see Muse becoming Meta's next billion-user app.\\n\\n📌 Watch now: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T19:40:20.000Z\", \"url\": \"https://x.com/petergyang/status/2101033599319613533\", \"likes\": 707, \"retweets\": 57, \"replies\": 76, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101104320897040627\", \"text\": \"How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes\", \"createdAt\": \"2026-09-19T00:21:21.000Z\", \"url\": \"https://x.com/petergyang/status/2101104320897040627\", \"likes\": 35, \"retweets\": 0, \"replies\": 10, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101033599319613533\", \"text\": \"Meta's @Muse is the best personal agent I've tried to date.\\n\\nIt actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent.\\n\\nHere's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negotiate my bills for me.\\n\\nHonestly, I can see Muse becoming Meta's next billion-user app.\\n\\n📌 Watch now: https://t.co/jte6evu5iI\", \"createdAt\": \"2026-09-18T19:40:20.000Z\", \"url\": \"https://x.com/petergyang/status/2101033599319613533\", \"likes\": 707, \"retweets\": 57, \"replies\": 76, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2101033599319613533",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes",
+        "Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot..."
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：How smart AI gets is inversely correlated with my ability to compose a coherent sentence with no spelling or grammar mistakes；Meta's @Muse is the best personal agent I've tried to date. It actually save me $800+ a year on my cable and phone bills, which is just insane value for a free AI agent. Here's my new video where I walk through 10 of my favorite Muse use cases, including a personalized morning news feed, a habit tracker, and how I got Muse to call customer support and negot...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "d27b59243cf814a9",
+      "date": "2026-09-20",
+      "title": "Thariq: AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. Th...",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：Claude Code @anthropicai. prev YC W20, @spc, @medialab。要点：1. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of p... 2. We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle...",
+      "company": "Anthropic",
+      "product": "X / @trq212",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @trq212",
+      "source_url": "https://x.com/trq212/status/2101009393731223817",
+      "published_at": "2026-09-19T02:04:08+08:00",
+      "fetched_at": "2026-09-20T13:42:53.677204+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thariq\", \"handle\": \"trq212\", \"bio\": \"Claude Code @anthropicai. prev YC W20, @spc, @medialab\", \"tweets\": [{\"id\": \"2101009395052343462\", \"text\": \"You can see the source for the mod here! https://t.co/ZGJxRbh33b\", \"createdAt\": \"2026-09-18T18:04:09.000Z\", \"url\": \"https://x.com/trq212/status/2101009395052343462\", \"likes\": 469, \"retweets\": 11, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009393731223817\", \"text\": \"AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.\\n\\nThis is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009393731223817\", \"likes\": 926, \"retweets\": 20, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009392611278961\", \"text\": \"We're adding support for AGENTS.md to Claude Code. \\n\\nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\\n\\nYou can toggle this behavior in /config.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009392611278961\", \"likes\": 25553, \"retweets\": 2174, \"replies\": 1676, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101009393731223817\", \"text\": \"AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.\\n\\nThis is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009393731223817\", \"likes\": 926, \"retweets\": 20, \"replies\": 33, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101009392611278961\", \"text\": \"We're adding support for AGENTS.md to Claude Code. \\n\\nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\\n\\nYou can toggle this behavior in /config.\", \"createdAt\": \"2026-09-18T18:04:08.000Z\", \"url\": \"https://x.com/trq212/status/2101009392611278961\", \"likes\": 25553, \"retweets\": 2174, \"replies\": 1676, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@trq212",
+          "source_url": "https://x.com/trq212/status/2101009392611278961",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thariq: AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. Th...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.",
+        "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config."
+      ],
+      "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.；We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. You can toggle this behavior in /config.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "10eeab0ca9617c04",
+      "date": "2026-09-20",
+      "title": "Aaron Levie: Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgme...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "Agent",
+        "企业服务"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2101007708044574906",
+      "published_at": "2026-09-19T01:57:27+08:00",
+      "fetched_at": "2026-09-20T13:42:53.678104+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2101007708044574906\", \"text\": \"Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise.\\n\\nHere's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, monitor, or review folders, and sets a metadata template instance with the result. This all happens nearly instantly and at almost no cost.\\n\\nYou can imagine this in insurance claims, contract management, loan processing, security reviews, customer log analysis, and so on. Definitely a great new class of AI use-case.\", \"createdAt\": \"2026-09-18T17:57:27.000Z\", \"url\": \"https://x.com/levie/status/2101007708044574906\", \"likes\": 500, \"retweets\": 57, \"replies\": 43, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101007708044574906\", \"text\": \"Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise.\\n\\nHere's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, monitor, or review folders, and sets a metadata template instance with the result. This all happens nearly instantly and at almost no cost.\\n\\nYou can imagine this in insurance claims, contract management, loan processing, security reviews, customer log analysis, and so on. Definitely a great new class of AI use-case.\", \"createdAt\": \"2026-09-18T17:57:27.000Z\", \"url\": \"https://x.com/levie/status/2101007708044574906\", \"likes\": 500, \"retweets\": 57, \"replies\": 43, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgme...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon..."
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise. Here's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, mon...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ee59dc1a1bb20a85",
+      "date": "2026-09-20",
+      "title": "Guillermo Rauch: Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 C...",
+      "title_zh": "Builder Ecosystem 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 t... 2. The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeit...",
+      "company": "Builder Ecosystem",
+      "product": "X / @rauchg",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @rauchg",
+      "source_url": "https://x.com/rauchg/status/2101186741042663579",
+      "published_at": "2026-09-19T13:48:51+08:00",
+      "fetched_at": "2026-09-20T13:42:53.677783+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2101186741042663579\", \"text\": \"Looks like today may be a record day for token volume % of open models on Vercel AI Gateway:\\n\\n🟦 Open 78.4% 🟨 Closed 21.6%\\n\\nWhile spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2).\\n\\n(Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)\", \"createdAt\": \"2026-09-19T05:48:51.000Z\", \"url\": \"https://x.com/rauchg/status/2101186741042663579\", \"likes\": 91, \"retweets\": 3, \"replies\": 24, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101116978677285241\", \"text\": \"Free Jev on Vercel \\nI know what I’m doing this weekend 😁 https://t.co/cTKPgKlkcZ\", \"createdAt\": \"2026-09-19T01:11:39.000Z\", \"url\": \"https://x.com/rauchg/status/2101116978677285241\", \"likes\": 1796, \"retweets\": 53, \"replies\": 66, \"isQuote\": true, \"quotedTweetId\": \"2101116818463281579\"}, {\"id\": \"2101079472732848510\", \"text\": \"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.\\n\\nI think it's a great product, but this is also downstream of the \\\"AI is too expensive/slow\\\" zeitgeist. People are eager to optimize and put AI in even more places!\\n\\nhttps://t.co/tK86PNGgNs https://t.co/Y7w3UKosBC\", \"createdAt\": \"2026-09-18T22:42:37.000Z\", \"url\": \"https://x.com/rauchg/status/2101079472732848510\", \"likes\": 711, \"retweets\": 35, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2101077346203971900\"}]}, \"tweets\": [{\"id\": \"2101186741042663579\", \"text\": \"Looks like today may be a record day for token volume % of open models on Vercel AI Gateway:\\n\\n🟦 Open 78.4% 🟨 Closed 21.6%\\n\\nWhile spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2).\\n\\n(Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)\", \"createdAt\": \"2026-09-19T05:48:51.000Z\", \"url\": \"https://x.com/rauchg/status/2101186741042663579\", \"likes\": 91, \"retweets\": 3, \"replies\": 24, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2101079472732848510\", \"text\": \"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.\\n\\nI think it's a great product, but this is also downstream of the \\\"AI is too expensive/slow\\\" zeitgeist. People are eager to optimize and put AI in even more places!\\n\\nhttps://t.co/tK86PNGgNs https://t.co/Y7w3UKosBC\", \"createdAt\": \"2026-09-18T22:42:37.000Z\", \"url\": \"https://x.com/rauchg/status/2101079472732848510\", \"likes\": 711, \"retweets\": 35, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2101077346203971900\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@rauchg",
+          "source_url": "https://x.com/rauchg/status/2101079472732848510",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Guillermo Rauch: Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 C...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...",
+        "The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!"
+      ],
+      "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US),...；The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it. I think it's a great product, but this is also downstream of the \"AI is too expensive/slow\" zeitgeist. People are eager to optimize and put AI in even more places!",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "9bc484031483f770",
+      "date": "2026-09-20",
+      "title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "title_zh": "Podcasts / Interviews 的模型/产品能力有新变化",
+      "summary": "Follow Builders 收录了 No Priors 的一期播客：Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon。转录摘要线索：Speaker 1 | 00:05 - 00:31 Hi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years...",
+      "company": "Podcasts / Interviews",
+      "product": "No Priors",
+      "category": "模型更新",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "模型更新",
+        "算力/基础设施"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / No Priors",
+      "source_url": "https://www.youtube.com/@NoPriorsPodcast",
+      "published_at": "2026-09-18T18:00:00+08:00",
+      "fetched_at": "2026-09-20T13:42:53.681779+08:00",
+      "raw_text": "Speaker 1 | 00:05 - 00:31 Hi, listeners. Welcome back to No Priors. Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception. Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion. We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years. Speaker 1 | 00:31 - 00:35 Welcome, Stefano. Stefano, thanks so much for being here. Speaker 2 | 00:35 - 00:35 Great to be here. Speaker 1 | 00:35 - 00:42 I would love for us to just start with a little bit of your research background and how you ended up starting your company. Speaker 2 | 00:42 - 01:01 For sure. Yeah. I've been doing research in generative models for like basically my entire career. I started at Stanford in 2014 as an assistant professor, I was working on building generative models. Back then, the the research area was not particularly hot. Speaker 2 | 01:01 - 01:35 You know, the the the models were not quite working well. We were still, like, building little generative models over MNIST, and it was, like, a big success if you could generate these grainy images of digits. And it was even hard to publish papers back then on that topic, and you had to justify training a generative model as a way to learn features from unlabeled data that then could maybe help you do better at supervised learning because that was the thing that everybody cared about. But then things took over, of course. And so it was at the right place at the right time working on the right thing. Speaker 2 | 01:35 - 01:40 And so I've been doing research in that space since the beginning, basically. Speaker 1 | 01:40 - 01:47 Did you have like a, besides a curiosity in the area, a personal hope for what the models would do back in 2014 and 'fifteen? Speaker 2 | 01:48 - 02:18 Yeah, I mean, I always felt like that was going to be the that was the right way to think about learning from unlabeled data, that building a generative model is really the right way to make sure you understand the structure in the data. That was kind of like the way I was getting at. I was not even dreaming about the kind of capabilities that these LLMs that we have today could do that. But I was thinking more from a, I think, world models perspective. Like, I was working a lot on images and so thinking about, okay. Speaker 2 | 02:18 - 02:41 Like, I have a world model. I can imagine what's gonna happen if I were to stand up and walk out the door. Like, I can kinda, like, picture that in my mind, and that's important to make decisions and kinda model predictive control when having this kind of model of the world requires some generative capabilities. And so I always felt like, okay, that's the right direction to work on. I felt like this is going to be very hard as a problem. Speaker 2 | 02:41 - 02:51 So this is going to keep me...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception.",
+        "Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion.",
+        "We talk about his company challenging the large labs and why speed and efficiency are going to be the name of the game in AI over the next few years.",
+        "I would love for us to just start with a little bit of your research background and how you ended up starting your company."
+      ],
+      "source_context": "Follow Builders / No Priors 的原始信息主要包括：Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co founder and CEO of Inception.；Stefano has a extraordinarily broad body of work around generative modeling, but is especially well known as one of the fathers of diffusion.",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "83cb207d900706ca",
+      "date": "2026-09-20",
+      "title": "Dan Shipper: there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”...",
+      "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Dan Shipper（@danshipper） 在 X 上的最新动态。简介：ceo @every | the only subscription you need to stay at the edge of AI。要点：1. there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focuse...",
+      "company": "Builder Ecosystem",
+      "product": "X / @danshipper",
+      "category": "Builder 观点",
+      "tags": [
+        "Builder 观点",
+        "X"
+      ],
+      "importance": "Low",
+      "credibility": "community",
+      "source_name": "Follow Builders / @danshipper",
+      "source_url": "https://x.com/danshipper/status/2101155521818476693",
+      "published_at": "2026-09-19T11:44:48+08:00",
+      "fetched_at": "2026-09-20T13:42:53.679762+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Dan Shipper\", \"handle\": \"danshipper\", \"bio\": \"ceo @every | the only subscription you need to stay at the edge of AI\", \"tweets\": [{\"id\": \"2101155521818476693\", \"text\": \"there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”\\n\\nHe’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future \\n\\nnot a good look!\", \"createdAt\": \"2026-09-19T03:44:48.000Z\", \"url\": \"https://x.com/danshipper/status/2101155521818476693\", \"likes\": 23, \"retweets\": 0, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2101117066845831478\"}, {\"id\": \"2101023880282251340\", \"text\": \"THIS CANNOT STAND https://t.co/DmVL3WMV4n\", \"createdAt\": \"2026-09-18T19:01:42.000Z\", \"url\": \"https://x.com/danshipper/status/2101023880282251340\", \"likes\": 16, \"retweets\": 1, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2101020240083599723\"}, {\"id\": \"2100961925840404886\", \"text\": \"Roose on the loose. Very concerning https://t.co/ghgCESpBnD\", \"createdAt\": \"2026-09-18T14:55:31.000Z\", \"url\": \"https://x.com/danshipper/status/2100961925840404886\", \"likes\": 43, \"retweets\": 0, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2100955205915627908\"}]}, \"tweets\": [{\"id\": \"2101155521818476693\", \"text\": \"there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”\\n\\nHe’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future \\n\\nnot a good look!\", \"createdAt\": \"2026-09-19T03:44:48.000Z\", \"url\": \"https://x.com/danshipper/status/2101155521818476693\", \"likes\": 23, \"retweets\": 0, \"replies\": 8, \"isQuote\": true, \"quotedTweetId\": \"2101117066845831478\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Dan Shipper: there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake”...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future not a good look!"
+      ],
+      "source_context": "Follow Builders / @danshipper / X / @danshipper 的原始信息主要包括：there are certainly over the top AI demos on X, but it very sad to see someone call @jackcheng’s work “fake” He’s one of the smartest, most intellectually honest, and craft-focused people I’ve ever worked with. And his demo is both real and an interesting peak into the future not a good look!",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "e665a79e71656c66",
+      "date": "2026-09-20",
+      "title": "Aditya Agarwal: AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+      "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Aditya Agarwal（@adityaag） 在 X 上的最新动态。简介：General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad。要点：1. AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+      "company": "Builder Ecosystem",
+      "product": "X / @adityaag",
+      "category": "Builder 观点",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "生态合作"
+      ],
+      "importance": "Low",
+      "credibility": "community",
+      "source_name": "Follow Builders / @adityaag",
+      "source_url": "https://x.com/adityaag/status/2101097330107875437",
+      "published_at": "2026-09-19T07:53:34+08:00",
+      "fetched_at": "2026-09-20T13:42:53.679979+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aditya Agarwal\", \"handle\": \"adityaag\", \"bio\": \"General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad\", \"tweets\": [{\"id\": \"2101097330107875437\", \"text\": \"AI is a full circle.\\n\\nEverything old is new again. https://t.co/B0mpUnjas2\", \"createdAt\": \"2026-09-18T23:53:34.000Z\", \"url\": \"https://x.com/adityaag/status/2101097330107875437\", \"likes\": 6, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2101097330107875437\", \"text\": \"AI is a full circle.\\n\\nEverything old is new again. https://t.co/B0mpUnjas2\", \"createdAt\": \"2026-09-18T23:53:34.000Z\", \"url\": \"https://x.com/adityaag/status/2101097330107875437\", \"likes\": 6, \"retweets\": 0, \"replies\": 1, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aditya Agarwal: AI is a full circle. Everything old is new again. https://t.co/B0mpUnjas2",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "AI is a full circle. Everything old is new again."
+      ],
+      "source_context": "Follow Builders / @adityaag / X / @adityaag 的原始信息主要包括：AI is a full circle. Everything old is new again.",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 8,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 8,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-09-20T13:42:53.711839+08:00"
+  }
+}
