@@ -1,0 +1,653 @@
+{
+  "date": "2026-10-11",
+  "title": "2026-10-11 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-10-11.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "8ee0bcee017280ce",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d... 2. Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/levie/status/2109079686286565378",
+      "source_name": "Follow Builders / @levie",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d",
+        "Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aaron Levie: If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d；Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "a1ef777541e0fcd6",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "product": "X / @realmadhuguru",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agent...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities..."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Madhu Guru: Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will...",
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities...",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "4f7ef2c744b20c14",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @garrytan",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only r... 2. For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl whi...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789",
+      "source_name": "Follow Builders / @garrytan",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.",
+        "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Garry Tan: I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to...",
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.；For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "d606ff1b56c77095",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "product": "X / @zarazhangrui",
+      "summary": "Follow Builders 记录到 Zara Zhang（@zarazhangrui） 在 X 上的最新动态。简介：Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w。要点：1. Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/zarazhangrui/status/2109087739287384387",
+      "source_name": "Follow Builders / @zarazhangrui",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Code is the new medium for creative self-expression"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Zara Zhang: Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+      "source_context": "Follow Builders / @zarazhangrui / X / @zarazhangrui 的原始信息主要包括：Code is the new medium for creative self-expression",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "Google / DeepMind": [
+      {
+        "id": "a1ef777541e0fcd6",
+        "date": "2026-10-11",
+        "title": "Madhu Guru: Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will...",
+        "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agent...",
+        "company": "Google / DeepMind",
+        "product": "X / @realmadhuguru",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "安全与合规"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @realmadhuguru",
+        "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+        "published_at": "2026-10-11T02:07:51+08:00",
+        "fetched_at": "2026-10-11T14:48:12.029116+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2108982858513776899\", \"text\": \"Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this.\\n\\nThe evolutionary direction of the broader agents space is capability -> trust -> autonomy\\n\\nThe first phase has been about capability - can the combination of model + harness + tools + context reliably get work done?\\n\\nCapabilities have gotten pretty far, so the focus now shifts to trust…does the harness / system take the right action with right permissions? Can we observe it, audit it and establish accountability?\\n\\nA lot of serious work has already gone into these problems over the last couple of years.\\n\\nNow the challenge gets more important. and harder.\", \"createdAt\": \"2026-10-10T18:07:51.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2108982858513776899\", \"likes\": 24, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2108931348857827686\"}]}, \"tweets\": [{\"id\": \"2108982858513776899\", \"text\": \"Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this.\\n\\nThe evolutionary direction of the broader agents space is capability -> trust -> autonomy\\n\\nThe first phase has been about capability - can the combination of model + harness + tools + context reliably get work done?\\n\\nCapabilities have gotten pretty far, so the focus now shifts to trust…does the harness / system take the right action with right permissions? Can we observe it, audit it and establish accountability?\\n\\nA lot of serious work has already gone into these problems over the last couple of years.\\n\\nNow the challenge gets more important. and harder.\", \"createdAt\": \"2026-10-10T18:07:51.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2108982858513776899\", \"likes\": 24, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2108931348857827686\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Madhu Guru: Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities..."
+        ],
+        "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities...",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "GitHub": [
+      {
+        "id": "d606ff1b56c77095",
+        "date": "2026-10-11",
+        "title": "Zara Zhang: Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+        "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Zara Zhang（@zarazhangrui） 在 X 上的最新动态。简介：Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w。要点：1. Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+        "company": "GitHub",
+        "product": "X / @zarazhangrui",
+        "category": "开发者工具",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @zarazhangrui",
+        "source_url": "https://x.com/zarazhangrui/status/2109087739287384387",
+        "published_at": "2026-10-11T09:04:36+08:00",
+        "fetched_at": "2026-10-11T14:48:12.030930+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Zara Zhang\", \"handle\": \"zarazhangrui\", \"bio\": \"Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \\nYouTube: https://t.co/8xzbGWtf6w\", \"tweets\": [{\"id\": \"2109087739287384387\", \"text\": \"Code is the new medium for creative self-expression https://t.co/jYeBPExlMV\", \"createdAt\": \"2026-10-11T01:04:36.000Z\", \"url\": \"https://x.com/zarazhangrui/status/2109087739287384387\", \"likes\": 74, \"retweets\": 4, \"replies\": 10, \"isQuote\": true, \"quotedTweetId\": \"2108047745936466373\"}]}, \"tweets\": [{\"id\": \"2109087739287384387\", \"text\": \"Code is the new medium for creative self-expression https://t.co/jYeBPExlMV\", \"createdAt\": \"2026-10-11T01:04:36.000Z\", \"url\": \"https://x.com/zarazhangrui/status/2109087739287384387\", \"likes\": 74, \"retweets\": 4, \"replies\": 10, \"isQuote\": true, \"quotedTweetId\": \"2108047745936466373\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Zara Zhang: Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Code is the new medium for creative self-expression"
+        ],
+        "source_context": "Follow Builders / @zarazhangrui / X / @zarazhangrui 的原始信息主要包括：Code is the new medium for creative self-expression",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "8ee0bcee017280ce",
+        "date": "2026-10-11",
+        "title": "Aaron Levie: If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d... 2. Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent",
+          "企业服务",
+          "安全与合规"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2109079686286565378",
+        "published_at": "2026-10-11T08:32:36+08:00",
+        "fetched_at": "2026-10-11T14:48:12.029804+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2109079686286565378\", \"text\": \"If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software development, cyber, life sciences research, AI research, finance, and more.\\n\\nThe ability to parallelize agents against a unified goal where the volume of work is large, or where the search space not entirely known upfront, is going to be massive. \\n\\nAgents can fan out and coordinate work together on a specific mission in completely different ways from what humans are able to do. Today even in the most resource-abundant organizations, your ability to parallelize work on most projects is quite limited. Humans run into constraints on being able to communicate with one another, share status, deal with conflicts in work, keep shared context, and so on.\\n\\nAs AI models can handle larger context without getting confused, and as they’re able to communicate effectively across their work with shared infrastructure, they can avoid many of the pitfalls that people have.\\n\\nYou can see how this can lead to not just faster execution of tasks, but qualitatively different outcomes in medicine, research or defending against cyber attacks, scientific and math discoveries, and so on. This is why we’re going to need 1,000X more compute.\", \"createdAt\": \"2026-10-11T00:32:36.000Z\", \"url\": \"https://x.com/levie/status/2109079686286565378\", \"likes\": 296, \"retweets\": 37, \"replies\": 70, \"isQuote\": true, \"quotedTweetId\": \"2108672479007047952\"}, {\"id\": \"2108952226714865966\", \"text\": \"Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization than humans, our need to secure, govern, control, and audit that work will become paramount. \\n\\nYou’ll have agents operating against most of your most valuable data; they’ll be making decisions that will be harder and harder to reverse engineer; we’ll need to understand the liability and accountability regimes when models make decisions for us; and we need ways of containing the blast radius of accidentally or intentionally malicious agents. \\n\\n“Treating frontier closed and open weight models like insider risks is a way to build such a system. Not because they are necessarily malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised, and the architecture of containment and control must account for that”\\n\\nIn a sense, AI will need to have its “zero trust” era that security saw. And all of this leads to needing various layers of protection and auditability of what agents are doing, what data they can work with, and controls for when things go wrong. And a huge opportunity right now for th...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@levie",
+            "source_url": "https://x.com/levie/status/2108952226714865966",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d",
+          "Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d；Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "4f7ef2c744b20c14",
+        "date": "2026-10-11",
+        "title": "Garry Tan: I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only r... 2. For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl whi...",
+        "company": "Builder Ecosystem",
+        "product": "X / @garrytan",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent",
+          "价格变化",
+          "算力/基础设施"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @garrytan",
+        "source_url": "https://x.com/garrytan/status/2108954740013043789",
+        "published_at": "2026-10-11T00:16:07+08:00",
+        "fetched_at": "2026-10-11T14:48:12.030654+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2108954741065879945\", \"text\": \"https://t.co/0wdR9PQsqC works best with experimental modes including Captain turned on. I end up using one thread that is able to coordinate and run the merge PR queue, make sure that CI works, and that only green runs with full CI make it into master.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954741065879945\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954740013043789\", \"text\": \"I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954740013043789\", \"likes\": 19, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954738540863498\", \"text\": \"For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be auto-researched and auto-improved\", \"createdAt\": \"2026-10-10T16:16:06.000Z\", \"url\": \"https://x.com/garrytan/status/2108954738540863498\", \"likes\": 22, \"retweets\": 2, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2108954740013043789\", \"text\": \"I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954740013043789\", \"likes\": 19, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954738540863498\", \"text\": \"For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be auto-researched and auto-improved\", \"createdAt\": \"2026-10-10T16:16:06.000Z\", \"url\": \"https://x.com/garrytan/status/2108954738540863498\", \"likes\": 22, \"retweets\": 2, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@garrytan",
+            "source_url": "https://x.com/garrytan/status/2108954738540863498",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Garry Tan: I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.",
+          "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved"
+        ],
+        "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.；For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "8ee0bcee017280ce",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2109079686286565378",
+      "source_name": "Follow Builders / @levie",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "a1ef777541e0fcd6",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Google / DeepMind 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "4f7ef2c744b20c14",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789",
+      "source_name": "Follow Builders / @garrytan",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "8ee0bcee017280ce",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2109079686286565378",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "a1ef777541e0fcd6",
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "company": "Google / DeepMind",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "4f7ef2c744b20c14",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "d606ff1b56c77095",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "source_url": "https://x.com/zarazhangrui/status/2109087739287384387",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d... 2. Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization...",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2109079686286565378"
+    },
+    {
+      "company": "Google / DeepMind",
+      "model_product": "X / @realmadhuguru",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agent...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @garrytan",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only r... 2. For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl whi...",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/levie/status/2109079686286565378"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2109079686286565378",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/zarazhangrui/status/2109087739287384387",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    }
+  ],
+  "events": [
+    {
+      "id": "8ee0bcee017280ce",
+      "date": "2026-10-11",
+      "title": "Aaron Levie: If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d... 2. Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent",
+        "企业服务",
+        "安全与合规"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2109079686286565378",
+      "published_at": "2026-10-11T08:32:36+08:00",
+      "fetched_at": "2026-10-11T14:48:12.029804+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2109079686286565378\", \"text\": \"If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software development, cyber, life sciences research, AI research, finance, and more.\\n\\nThe ability to parallelize agents against a unified goal where the volume of work is large, or where the search space not entirely known upfront, is going to be massive. \\n\\nAgents can fan out and coordinate work together on a specific mission in completely different ways from what humans are able to do. Today even in the most resource-abundant organizations, your ability to parallelize work on most projects is quite limited. Humans run into constraints on being able to communicate with one another, share status, deal with conflicts in work, keep shared context, and so on.\\n\\nAs AI models can handle larger context without getting confused, and as they’re able to communicate effectively across their work with shared infrastructure, they can avoid many of the pitfalls that people have.\\n\\nYou can see how this can lead to not just faster execution of tasks, but qualitatively different outcomes in medicine, research or defending against cyber attacks, scientific and math discoveries, and so on. This is why we’re going to need 1,000X more compute.\", \"createdAt\": \"2026-10-11T00:32:36.000Z\", \"url\": \"https://x.com/levie/status/2109079686286565378\", \"likes\": 296, \"retweets\": 37, \"replies\": 70, \"isQuote\": true, \"quotedTweetId\": \"2108672479007047952\"}, {\"id\": \"2108952226714865966\", \"text\": \"Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization than humans, our need to secure, govern, control, and audit that work will become paramount. \\n\\nYou’ll have agents operating against most of your most valuable data; they’ll be making decisions that will be harder and harder to reverse engineer; we’ll need to understand the liability and accountability regimes when models make decisions for us; and we need ways of containing the blast radius of accidentally or intentionally malicious agents. \\n\\n“Treating frontier closed and open weight models like insider risks is a way to build such a system. Not because they are necessarily malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised, and the architecture of containment and control must account for that”\\n\\nIn a sense, AI will need to have its “zero trust” era that security saw. And all of this leads to needing various layers of protection and auditability of what agents are doing, what data they can work with, and controls for when things go wrong. And a huge opportunity right now for th...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@levie",
+          "source_url": "https://x.com/levie/status/2108952226714865966",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d",
+        "Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software d；Good post to start thinking through the long term safety approaches to managing intelligence in an enterprise. As agents begin to do vastly more task execution in the organization",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "a1ef777541e0fcd6",
+      "date": "2026-10-11",
+      "title": "Madhu Guru: Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will...",
+      "title_zh": "Google / DeepMind 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Madhu Guru（@realmadhuguru） 在 X 上的最新动态。简介：Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.。要点：1. Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agent...",
+      "company": "Google / DeepMind",
+      "product": "X / @realmadhuguru",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "安全与合规"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @realmadhuguru",
+      "source_url": "https://x.com/realmadhuguru/status/2108982858513776899",
+      "published_at": "2026-10-11T02:07:51+08:00",
+      "fetched_at": "2026-10-11T14:48:12.029116+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Madhu Guru\", \"handle\": \"realmadhuguru\", \"bio\": \"Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.\", \"tweets\": [{\"id\": \"2108982858513776899\", \"text\": \"Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this.\\n\\nThe evolutionary direction of the broader agents space is capability -> trust -> autonomy\\n\\nThe first phase has been about capability - can the combination of model + harness + tools + context reliably get work done?\\n\\nCapabilities have gotten pretty far, so the focus now shifts to trust…does the harness / system take the right action with right permissions? Can we observe it, audit it and establish accountability?\\n\\nA lot of serious work has already gone into these problems over the last couple of years.\\n\\nNow the challenge gets more important. and harder.\", \"createdAt\": \"2026-10-10T18:07:51.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2108982858513776899\", \"likes\": 24, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2108931348857827686\"}]}, \"tweets\": [{\"id\": \"2108982858513776899\", \"text\": \"Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this.\\n\\nThe evolutionary direction of the broader agents space is capability -> trust -> autonomy\\n\\nThe first phase has been about capability - can the combination of model + harness + tools + context reliably get work done?\\n\\nCapabilities have gotten pretty far, so the focus now shifts to trust…does the harness / system take the right action with right permissions? Can we observe it, audit it and establish accountability?\\n\\nA lot of serious work has already gone into these problems over the last couple of years.\\n\\nNow the challenge gets more important. and harder.\", \"createdAt\": \"2026-10-10T18:07:51.000Z\", \"url\": \"https://x.com/realmadhuguru/status/2108982858513776899\", \"likes\": 24, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2108931348857827686\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Madhu Guru: Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities..."
+      ],
+      "source_context": "Follow Builders / @realmadhuguru / X / @realmadhuguru 的原始信息主要包括：Agent capabilities will soon evolve at RSI pace. Agentic security (identity, permissions, observability) will need to outpace this. The evolutionary direction of the broader agents space is capability -> trust -> autonomy The first phase has been about capability - can the combination of model + harness + tools + context reliably get work done? Capabilities...",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "4f7ef2c744b20c14",
+      "date": "2026-10-11",
+      "title": "Garry Tan: I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only r... 2. For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl whi...",
+      "company": "Builder Ecosystem",
+      "product": "X / @garrytan",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent",
+        "价格变化",
+        "算力/基础设施"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @garrytan",
+      "source_url": "https://x.com/garrytan/status/2108954740013043789",
+      "published_at": "2026-10-11T00:16:07+08:00",
+      "fetched_at": "2026-10-11T14:48:12.030654+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2108954741065879945\", \"text\": \"https://t.co/0wdR9PQsqC works best with experimental modes including Captain turned on. I end up using one thread that is able to coordinate and run the merge PR queue, make sure that CI works, and that only green runs with full CI make it into master.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954741065879945\", \"likes\": 12, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954740013043789\", \"text\": \"I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954740013043789\", \"likes\": 19, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954738540863498\", \"text\": \"For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be auto-researched and auto-improved\", \"createdAt\": \"2026-10-10T16:16:06.000Z\", \"url\": \"https://x.com/garrytan/status/2108954738540863498\", \"likes\": 22, \"retweets\": 2, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2108954740013043789\", \"text\": \"I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.\", \"createdAt\": \"2026-10-10T16:16:07.000Z\", \"url\": \"https://x.com/garrytan/status/2108954740013043789\", \"likes\": 19, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2108954738540863498\", \"text\": \"For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be auto-researched and auto-improved\", \"createdAt\": \"2026-10-10T16:16:06.000Z\", \"url\": \"https://x.com/garrytan/status/2108954738540863498\", \"likes\": 22, \"retweets\": 2, \"replies\": 6, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@garrytan",
+          "source_url": "https://x.com/garrytan/status/2108954738540863498",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Garry Tan: I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.",
+        "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved"
+      ],
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I use GStack /autoplan and ask for the agent to ELI5 the plan it comes up with, and I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene. The frontier models are fantastic these days.；For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo which has 40+ categories that each can be auto-researched and auto-improved",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "d606ff1b56c77095",
+      "date": "2026-10-11",
+      "title": "Zara Zhang: Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+      "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Zara Zhang（@zarazhangrui） 在 X 上的最新动态。简介：Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w。要点：1. Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+      "company": "GitHub",
+      "product": "X / @zarazhangrui",
+      "category": "开发者工具",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @zarazhangrui",
+      "source_url": "https://x.com/zarazhangrui/status/2109087739287384387",
+      "published_at": "2026-10-11T09:04:36+08:00",
+      "fetched_at": "2026-10-11T14:48:12.030930+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Zara Zhang\", \"handle\": \"zarazhangrui\", \"bio\": \"Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \\nYouTube: https://t.co/8xzbGWtf6w\", \"tweets\": [{\"id\": \"2109087739287384387\", \"text\": \"Code is the new medium for creative self-expression https://t.co/jYeBPExlMV\", \"createdAt\": \"2026-10-11T01:04:36.000Z\", \"url\": \"https://x.com/zarazhangrui/status/2109087739287384387\", \"likes\": 74, \"retweets\": 4, \"replies\": 10, \"isQuote\": true, \"quotedTweetId\": \"2108047745936466373\"}]}, \"tweets\": [{\"id\": \"2109087739287384387\", \"text\": \"Code is the new medium for creative self-expression https://t.co/jYeBPExlMV\", \"createdAt\": \"2026-10-11T01:04:36.000Z\", \"url\": \"https://x.com/zarazhangrui/status/2109087739287384387\", \"likes\": 74, \"retweets\": 4, \"replies\": 10, \"isQuote\": true, \"quotedTweetId\": \"2108047745936466373\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Zara Zhang: Code is the new medium for creative self-expression https://t.co/jYeBPExlMV",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Code is the new medium for creative self-expression"
+      ],
+      "source_context": "Follow Builders / @zarazhangrui / X / @zarazhangrui 的原始信息主要包括：Code is the new medium for creative self-expression",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 4,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 4,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-10-11T14:48:12.039030+08:00"
+  }
+}
