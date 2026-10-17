@@ -1,0 +1,572 @@
+{
+  "date": "2026-10-17",
+  "title": "2026-10-17 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-10-17.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "30ab71e9dfc503a7",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "product": "X / @bcherny",
+      "summary": "Follow Builders 记录到 Boris Cherny（@bcherny） 在 X 上的最新动态。简介：Claude @anthropicai。要点：1. Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624",
+      "source_name": "Follow Builders / @bcherny",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Boris Cherny: Over the last few years, we have made significant progress on prompt injection for Claude models. As agents d...",
+      "source_context": "Follow Builders / @bcherny / X / @bcherny 的原始信息主要包括：Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "1ac88bb138167b82",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able... 2. Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/levie/status/2110787013809222141",
+      "source_name": "Follow Builders / @levie",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able",
+        "Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aaron Levie: They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is goi...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able；Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "724011b0ad87249a",
+      "title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "company": "Builder Ecosystem",
+      "product": "X / @mattturck",
+      "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/mattturck/status/2110799882952831302",
+      "source_name": "Follow Builders / @mattturck",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha"
+      ],
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "original_title": "Matt Turck: Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all wi...",
+      "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "Anthropic": [
+      {
+        "id": "30ab71e9dfc503a7",
+        "date": "2026-10-17",
+        "title": "Boris Cherny: Over the last few years, we have made significant progress on prompt injection for Claude models. As agents d...",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Boris Cherny（@bcherny） 在 X 上的最新动态。简介：Claude @anthropicai。要点：1. Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry...",
+        "company": "Anthropic",
+        "product": "X / @bcherny",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @bcherny",
+        "source_url": "https://x.com/bcherny/status/2110791698611855624",
+        "published_at": "2026-10-16T01:55:32+08:00",
+        "fetched_at": "2026-10-17T13:19:04.637878+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Boris Cherny\", \"handle\": \"bcherny\", \"bio\": \"Claude @anthropicai\", \"tweets\": [{\"id\": \"2110791698611855624\", \"text\": \"Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. \\n\\nReally excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!\", \"createdAt\": \"2026-10-15T17:55:32.000Z\", \"url\": \"https://x.com/bcherny/status/2110791698611855624\", \"likes\": 568, \"retweets\": 34, \"replies\": 105, \"isQuote\": true, \"quotedTweetId\": \"2110746350983737460\"}]}, \"tweets\": [{\"id\": \"2110791698611855624\", \"text\": \"Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. \\n\\nReally excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!\", \"createdAt\": \"2026-10-15T17:55:32.000Z\", \"url\": \"https://x.com/bcherny/status/2110791698611855624\", \"likes\": 568, \"retweets\": 34, \"replies\": 105, \"isQuote\": true, \"quotedTweetId\": \"2110746350983737460\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Boris Cherny: Over the last few years, we have made significant progress on prompt injection for Claude models. As agents d...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!"
+        ],
+        "source_context": "Follow Builders / @bcherny / X / @bcherny 的原始信息主要包括：Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "1ac88bb138167b82",
+        "date": "2026-10-17",
+        "title": "Aaron Levie: They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is goi...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able... 2. Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "企业服务",
+          "开源模型"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2110787013809222141",
+        "published_at": "2026-10-16T01:36:55+08:00",
+        "fetched_at": "2026-10-17T13:19:04.641815+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2110975373219688624\", \"text\": \"So in fact we actually can get robots, flying cars, superintelligence, fast internet on planes, space travel, space colonies, orbital data centers, unlimited energy, likely cures for nearly every disease, and more all in our life times. Pretty great. https://t.co/jhgqv8gXhb\", \"createdAt\": \"2026-10-16T06:05:23.000Z\", \"url\": \"https://x.com/levie/status/2110975373219688624\", \"likes\": 193, \"retweets\": 6, \"replies\": 18, \"isQuote\": true, \"quotedTweetId\": \"2110913107094606330\"}, {\"id\": \"2110787013809222141\", \"text\": \"They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. \\n\\nThis is going to further accelerate AI diffusion because enterprises will be able to mix and match frontier performance for orchestration and high end tasks, while being able to have low cost and tailored post trained models for repeatable workflows. \\n\\nOverall this dramatically increases token consumption and workloads across the stack. Great to see Meta doing this.\", \"createdAt\": \"2026-10-15T17:36:55.000Z\", \"url\": \"https://x.com/levie/status/2110787013809222141\", \"likes\": 532, \"retweets\": 40, \"replies\": 55, \"isQuote\": true, \"quotedTweetId\": \"2110778736434184611\"}, {\"id\": \"2110622982762803449\", \"text\": \"Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token consumption than what we’re seeing today. \\n\\nMost work right now is essentially rate limited by our ability to process and work with information. Moving data between systems. Reviewing a document. Looking through code for security issues. Processing log data to look for even patterns. Looking up information about a prospective client. Almost all of knowledge work is constrained by these steps, and AI has become a huge unlock to that. \\n\\nSo our first step was to use AI to do these individual tasks much faster for us. That was the chatbot phenomenon that we have been experiencing for the past 3+ years. But we can still then only augment the work that we remain in the loop for, and we’re highly limited by our ability to parallelize this work by our own bandwidth and context.\\n\\nBut where we’re going is quite different. As AI models continue to improve at incredible rates, we can hand off more and more work to the agent. First it’s letting the agent run with a harder problem. Then it’s giving a few agents multiple parts of a task at once. But we’re not far off from being able to throw an arbitrary number of agents at a problem and just say “come back when you’ve accomplished this goal”. \\n\\nNow imagine that agent swarm for any problem we can think of. Protecting our codebases, data, and systems. QAing every change we make and make sure all our infrastructure is robust and doe...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@levie",
+            "source_url": "https://x.com/levie/status/2110622982762803449",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is goi...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able",
+          "Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able；Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "724011b0ad87249a",
+        "date": "2026-10-17",
+        "title": "Matt Turck: Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all wi...",
+        "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha...",
+        "company": "Builder Ecosystem",
+        "product": "X / @mattturck",
+        "category": "Builder 观点",
+        "tags": [
+          "Builder 观点",
+          "X"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @mattturck",
+        "source_url": "https://x.com/mattturck/status/2110799882952831302",
+        "published_at": "2026-10-16T02:28:03+08:00",
+        "fetched_at": "2026-10-17T13:19:04.642899+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2110799887239365012\", \"text\": \"This great conversation about Jev with @CompleteSkeptic, CEO of @typesafeai, is also available on Spotify, Apple Podcasts and here on YouTube:\\n\\nhttps://t.co/zddSCCEqh4\", \"createdAt\": \"2026-10-15T18:28:04.000Z\", \"url\": \"https://x.com/mattturck/status/2110799887239365012\", \"likes\": 6, \"retweets\": 1, \"replies\": 0, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2110799882952831302\", \"text\": \"Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes what's broken in AI, and why the fast-followers are missing the hard part. \\n\\n00:00 “95% Einstein, 5% Mr. Bean”\\n1:09 Why intelligence per dollar matters\\n3:25 Why TypeSafe built in stealth for two years\\n5:50 “We could have had AGI last year”\\n6:48 Why the product carries the marketing\\n9:33 What is Jev? Machine-native AI, built for software\\n10:53 System One vs. System Two\\n12:26 From simple decisions to composable AI\\n15:21 Automating email: giant prompts vs. smart if-statements\\n20:03 Probabilities, thresholds, and developer control\\n23:43 Why Jev is faster and cheaper than chat models\\n25:39 “Classification is AI-complete”\\n27:16 RLHF: how OpenAI trained models to please humans\\n31:28 Sycophancy, refusals, and the hidden costs of RLHF\\n34:22 RLVR: why benchmark gains don’t mean reliable automation\\n37:51 RLCD: optimizing for machine-native intelligence\\n39:54 Why TypeSafe builds its training data in-house\\n41:49 The Bitterest Lesson: define the task before scaling\\n44:39 Building Jev from open-weight models\\n45:56 Is Jev just a classifier? Why that’s a compliment\\n48:35 “Build prod, not God”\\n50:11 Embedding AI in software, beyond coding assistants\\n53:05 Jev’s copycats: matching the interface vs. the intelligence\\n55:33 Why benchmarks mislead the users they should help\\n58:37 Open weights vs. APIs: how TypeSafe weighs the tradeoff\\n1:00:04 Jevons paradox: a new market for machine intelligence\\n1:02:50 Why Diogo is skeptical of recursive self-improvement\\n1:04:47 Can practical automation avert an AI winter?\", \"createdAt\": \"2026-10-15T18:28:03.000Z\", \"url\": \"https://x.com/mattturck/status/2110799882952831302\", \"likes\": 88, \"retweets\": 10, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2110799882952831302\", \"text\": \"Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes what's broken in AI, and why the fast-followers are missing the hard part. \\n\\n00:00 “95% Einstein, 5% Mr. Bean”\\n1:09 Why intelligence per dollar matters\\n3:25 Why TypeSafe built in stealth for two years\\n5:50 “We could have had AGI last year”\\n6...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Matt Turck: Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all wi...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha"
+        ],
+        "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "47b51a6a2a6a080b",
+        "date": "2026-10-17",
+        "title": "The MAD Podcast with Matt Turck: Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+        "title_zh": "一线访谈提供了值得沉淀的 builder 判断",
+        "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)。转录摘要线索：Speaker 1 | 00:00 - 00:18 95% Einstein, 5% mister Bean. And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything? I wrote a document at OpenAI. We could have had AGI last year, and I still believe that to be true. Pre training is a giant dumpster fire of wasting resources. Speaker 1 | 00:18 - 00:31 When I first started this project, I literally thought it would take a week. You can now express things t...",
+        "company": "Podcasts / Interviews",
+        "product": "The MAD Podcast with Matt Turck",
+        "category": "Builder 访谈",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "算力/基础设施"
+        ],
+        "importance": "Low",
+        "credibility": "media",
+        "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+        "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "published_at": "2026-10-15T19:30:01+08:00",
+        "fetched_at": "2026-10-17T13:19:04.647095+08:00",
+        "raw_text": "Speaker 1 | 00:00 - 00:18 95% Einstein, 5% mister Bean. And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything? I wrote a document at OpenAI. We could have had AGI last year, and I still believe that to be true. Pre training is a giant dumpster fire of wasting resources. Speaker 1 | 00:18 - 00:31 When I first started this project, I literally thought it would take a week. You can now express things that you couldn't express in software before. I think that the future will be unbelievably sci fi. We're building fraud, not god. Absolutely. Speaker 2 | 00:31 - 00:53 That is Jogo Almeida, CEO of TypeSafe, the company behind JEV. A month ago, nobody had heard of JEV. Then he blanched, hit a nerve in the AI world, and quickly became the most copied model in AI. JEV is both fascinating and perplexing. It's a new kind of model and is clearly a big deal, yet even some AI insiders struggle to explain what it is while others dismiss it as just a classifier. Speaker 2 | 00:53 - 01:07 So we went to the source and asked Diogo to walk us through JEV in plain English. What it is, where it's going, and why copycats are missing the point. I'm Matt Turk, and this is the BAT Podcast. Diogo, welcome. Speaker 1 | 01:07 - 01:08 Thank you. Thank you. Hey. Speaker 2 | 01:08 - 01:38 Alright. This is a super fun time, to be doing this conversation, in part because, just yesterday, I believe, as we were recording this, you guys announced, your gigantic series a, 870,000,000 series a at a 7,500,000,000 valuation. It's been a wild three weeks just looking at some stats. Your launch video had 40,000,000 views. Talked to somebody about a million users a day, a trillion tokens a day, a third of the Fortune five hundred. Speaker 2 | 01:40 - 01:50 So, it it sounds like you're indeed building, what you call the Jivolution. I love the term. I'm just curious what it feels like from the inside. Speaker 1 | 01:50 - 02:13 Where do I start? I will say that a lot of those stats don't really matter for what I feel like is the devolution. To me, I knew it would be happening when builders started playing with it and doing the weird stuff. And especially when people were starting to make apps that they maybe could have done before but didn't bother with because AI was so expensive. You know? Speaker 1 | 02:13 - 02:42 I I... We push the boundaries of intelligence per second, but I think the future is going to be intelligence per dollar primarily. And I think really getting people to play with, like like, the idea that intelligence per dollar has dropped to orders of magnitude is what will make the Jevolution unstoppable independent of enterprise adoption, users, stats, whatever. To me, it's about people playing around with things and starting to... I can't think of a non corny way to say it, but, like, build the future. Speaker 1 | 02:43 - 03:01 You know? Like like that to be used, the unstoppable energy. And no matter how big that initial snowball is,...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "The MAD Podcast with Matt Turck: Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+        "core_viewpoint": "长访谈的价值在于理解问题定义、产品取舍和商业化逻辑，而不是只看新闻标题。",
+        "evidence_points": [
+          "And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything?",
+          "We could have had AGI last year, and I still believe that to be true.",
+          "Pre training is a giant dumpster fire of wasting resources.",
+          "When I first started this project, I literally thought it would take a week."
+        ],
+        "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything?；We could have had AGI last year, and I still believe that to be true.",
+        "reader_takeaway": "我的判断：把这类访谈当作长期认知材料，重点记录 builder 如何定义问题和衡量价值。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "30ab71e9dfc503a7",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624",
+      "source_name": "Follow Builders / @bcherny",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Anthropic 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "1ac88bb138167b82",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2110787013809222141",
+      "source_name": "Follow Builders / @levie",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "30ab71e9dfc503a7",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "1ac88bb138167b82",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2110787013809222141",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "Anthropic",
+      "model_product": "X / @bcherny",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Boris Cherny（@bcherny） 在 X 上的最新动态。简介：Claude @anthropicai。要点：1. Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able... 2. Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2110787013809222141"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "Anthropic 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/mattturck/status/2110799882952831302"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2110787013809222141",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/mattturck/status/2110799882952831302",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "一线访谈提供了值得沉淀的 builder 判断",
+      "action": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    }
+  ],
+  "events": [
+    {
+      "id": "30ab71e9dfc503a7",
+      "date": "2026-10-17",
+      "title": "Boris Cherny: Over the last few years, we have made significant progress on prompt injection for Claude models. As agents d...",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Boris Cherny（@bcherny） 在 X 上的最新动态。简介：Claude @anthropicai。要点：1. Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry...",
+      "company": "Anthropic",
+      "product": "X / @bcherny",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @bcherny",
+      "source_url": "https://x.com/bcherny/status/2110791698611855624",
+      "published_at": "2026-10-16T01:55:32+08:00",
+      "fetched_at": "2026-10-17T13:19:04.637878+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Boris Cherny\", \"handle\": \"bcherny\", \"bio\": \"Claude @anthropicai\", \"tweets\": [{\"id\": \"2110791698611855624\", \"text\": \"Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. \\n\\nReally excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!\", \"createdAt\": \"2026-10-15T17:55:32.000Z\", \"url\": \"https://x.com/bcherny/status/2110791698611855624\", \"likes\": 568, \"retweets\": 34, \"replies\": 105, \"isQuote\": true, \"quotedTweetId\": \"2110746350983737460\"}]}, \"tweets\": [{\"id\": \"2110791698611855624\", \"text\": \"Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. \\n\\nReally excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!\", \"createdAt\": \"2026-10-15T17:55:32.000Z\", \"url\": \"https://x.com/bcherny/status/2110791698611855624\", \"likes\": 568, \"retweets\": 34, \"replies\": 105, \"isQuote\": true, \"quotedTweetId\": \"2110746350983737460\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Boris Cherny: Over the last few years, we have made significant progress on prompt injection for Claude models. As agents d...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!"
+      ],
+      "source_context": "Follow Builders / @bcherny / X / @bcherny 的原始信息主要包括：Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. Really excited to partner with Gray Swan to host this competition. Can’t wait to see what you find!",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "1ac88bb138167b82",
+      "date": "2026-10-17",
+      "title": "Aaron Levie: They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is goi...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able... 2. Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "企业服务",
+        "开源模型"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2110787013809222141",
+      "published_at": "2026-10-16T01:36:55+08:00",
+      "fetched_at": "2026-10-17T13:19:04.641815+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2110975373219688624\", \"text\": \"So in fact we actually can get robots, flying cars, superintelligence, fast internet on planes, space travel, space colonies, orbital data centers, unlimited energy, likely cures for nearly every disease, and more all in our life times. Pretty great. https://t.co/jhgqv8gXhb\", \"createdAt\": \"2026-10-16T06:05:23.000Z\", \"url\": \"https://x.com/levie/status/2110975373219688624\", \"likes\": 193, \"retweets\": 6, \"replies\": 18, \"isQuote\": true, \"quotedTweetId\": \"2110913107094606330\"}, {\"id\": \"2110787013809222141\", \"text\": \"They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. \\n\\nThis is going to further accelerate AI diffusion because enterprises will be able to mix and match frontier performance for orchestration and high end tasks, while being able to have low cost and tailored post trained models for repeatable workflows. \\n\\nOverall this dramatically increases token consumption and workloads across the stack. Great to see Meta doing this.\", \"createdAt\": \"2026-10-15T17:36:55.000Z\", \"url\": \"https://x.com/levie/status/2110787013809222141\", \"likes\": 532, \"retweets\": 40, \"replies\": 55, \"isQuote\": true, \"quotedTweetId\": \"2110778736434184611\"}, {\"id\": \"2110622982762803449\", \"text\": \"Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token consumption than what we’re seeing today. \\n\\nMost work right now is essentially rate limited by our ability to process and work with information. Moving data between systems. Reviewing a document. Looking through code for security issues. Processing log data to look for even patterns. Looking up information about a prospective client. Almost all of knowledge work is constrained by these steps, and AI has become a huge unlock to that. \\n\\nSo our first step was to use AI to do these individual tasks much faster for us. That was the chatbot phenomenon that we have been experiencing for the past 3+ years. But we can still then only augment the work that we remain in the loop for, and we’re highly limited by our ability to parallelize this work by our own bandwidth and context.\\n\\nBut where we’re going is quite different. As AI models continue to improve at incredible rates, we can hand off more and more work to the agent. First it’s letting the agent run with a harder problem. Then it’s giving a few agents multiple parts of a task at once. But we’re not far off from being able to throw an arbitrary number of agents at a problem and just say “come back when you’ve accomplished this goal”. \\n\\nNow imagine that agent swarm for any problem we can think of. Protecting our codebases, data, and systems. QAing every change we make and make sure all our infrastructure is robust and doe...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@levie",
+          "source_url": "https://x.com/levie/status/2110622982762803449",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is goi...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able",
+        "Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：They did it. They made a Muse open weights model, which is a huge step forward for OSS in the US. This is going to further accelerate AI diffusion because enterprises will be able；Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "724011b0ad87249a",
+      "date": "2026-10-17",
+      "title": "Matt Turck: Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all wi...",
+      "title_zh": "Builder Ecosystem 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha...",
+      "company": "Builder Ecosystem",
+      "product": "X / @mattturck",
+      "category": "Builder 观点",
+      "tags": [
+        "Builder 观点",
+        "X"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @mattturck",
+      "source_url": "https://x.com/mattturck/status/2110799882952831302",
+      "published_at": "2026-10-16T02:28:03+08:00",
+      "fetched_at": "2026-10-17T13:19:04.642899+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2110799887239365012\", \"text\": \"This great conversation about Jev with @CompleteSkeptic, CEO of @typesafeai, is also available on Spotify, Apple Podcasts and here on YouTube:\\n\\nhttps://t.co/zddSCCEqh4\", \"createdAt\": \"2026-10-15T18:28:04.000Z\", \"url\": \"https://x.com/mattturck/status/2110799887239365012\", \"likes\": 6, \"retweets\": 1, \"replies\": 0, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2110799882952831302\", \"text\": \"Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes what's broken in AI, and why the fast-followers are missing the hard part. \\n\\n00:00 “95% Einstein, 5% Mr. Bean”\\n1:09 Why intelligence per dollar matters\\n3:25 Why TypeSafe built in stealth for two years\\n5:50 “We could have had AGI last year”\\n6:48 Why the product carries the marketing\\n9:33 What is Jev? Machine-native AI, built for software\\n10:53 System One vs. System Two\\n12:26 From simple decisions to composable AI\\n15:21 Automating email: giant prompts vs. smart if-statements\\n20:03 Probabilities, thresholds, and developer control\\n23:43 Why Jev is faster and cheaper than chat models\\n25:39 “Classification is AI-complete”\\n27:16 RLHF: how OpenAI trained models to please humans\\n31:28 Sycophancy, refusals, and the hidden costs of RLHF\\n34:22 RLVR: why benchmark gains don’t mean reliable automation\\n37:51 RLCD: optimizing for machine-native intelligence\\n39:54 Why TypeSafe builds its training data in-house\\n41:49 The Bitterest Lesson: define the task before scaling\\n44:39 Building Jev from open-weight models\\n45:56 Is Jev just a classifier? Why that’s a compliment\\n48:35 “Build prod, not God”\\n50:11 Embedding AI in software, beyond coding assistants\\n53:05 Jev’s copycats: matching the interface vs. the intelligence\\n55:33 Why benchmarks mislead the users they should help\\n58:37 Open weights vs. APIs: how TypeSafe weighs the tradeoff\\n1:00:04 Jevons paradox: a new market for machine intelligence\\n1:02:50 Why Diogo is skeptical of recursive self-improvement\\n1:04:47 Can practical automation avert an AI winter?\", \"createdAt\": \"2026-10-15T18:28:03.000Z\", \"url\": \"https://x.com/mattturck/status/2110799882952831302\", \"likes\": 88, \"retweets\": 10, \"replies\": 8, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2110799882952831302\", \"text\": \"Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes what's broken in AI, and why the fast-followers are missing the hard part. \\n\\n00:00 “95% Einstein, 5% Mr. Bean”\\n1:09 Why intelligence per dollar matters\\n3:25 Why TypeSafe built in stealth for two years\\n5:50 “We could have had AGI last year”\\n6...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Matt Turck: Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all wi...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha"
+      ],
+      "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：Crazy launch! Copycats! Massive round! On the one-month anniversary of the launch of Jev, we unpack it all with @CompleteSkeptic, CEO of @typesafeai: what Jev is, how it fixes wha",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "47b51a6a2a6a080b",
+      "date": "2026-10-17",
+      "title": "The MAD Podcast with Matt Turck: Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+      "title_zh": "一线访谈提供了值得沉淀的 builder 判断",
+      "summary": "Follow Builders 收录了 The MAD Podcast with Matt Turck 的一期播客：Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)。转录摘要线索：Speaker 1 | 00:00 - 00:18 95% Einstein, 5% mister Bean. And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything? I wrote a document at OpenAI. We could have had AGI last year, and I still believe that to be true. Pre training is a giant dumpster fire of wasting resources. Speaker 1 | 00:18 - 00:31 When I first started this project, I literally thought it would take a week. You can now express things t...",
+      "company": "Podcasts / Interviews",
+      "product": "The MAD Podcast with Matt Turck",
+      "category": "Builder 访谈",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "算力/基础设施"
+      ],
+      "importance": "Low",
+      "credibility": "media",
+      "source_name": "Follow Builders / The MAD Podcast with Matt Turck",
+      "source_url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "published_at": "2026-10-15T19:30:01+08:00",
+      "fetched_at": "2026-10-17T13:19:04.647095+08:00",
+      "raw_text": "Speaker 1 | 00:00 - 00:18 95% Einstein, 5% mister Bean. And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything? I wrote a document at OpenAI. We could have had AGI last year, and I still believe that to be true. Pre training is a giant dumpster fire of wasting resources. Speaker 1 | 00:18 - 00:31 When I first started this project, I literally thought it would take a week. You can now express things that you couldn't express in software before. I think that the future will be unbelievably sci fi. We're building fraud, not god. Absolutely. Speaker 2 | 00:31 - 00:53 That is Jogo Almeida, CEO of TypeSafe, the company behind JEV. A month ago, nobody had heard of JEV. Then he blanched, hit a nerve in the AI world, and quickly became the most copied model in AI. JEV is both fascinating and perplexing. It's a new kind of model and is clearly a big deal, yet even some AI insiders struggle to explain what it is while others dismiss it as just a classifier. Speaker 2 | 00:53 - 01:07 So we went to the source and asked Diogo to walk us through JEV in plain English. What it is, where it's going, and why copycats are missing the point. I'm Matt Turk, and this is the BAT Podcast. Diogo, welcome. Speaker 1 | 01:07 - 01:08 Thank you. Thank you. Hey. Speaker 2 | 01:08 - 01:38 Alright. This is a super fun time, to be doing this conversation, in part because, just yesterday, I believe, as we were recording this, you guys announced, your gigantic series a, 870,000,000 series a at a 7,500,000,000 valuation. It's been a wild three weeks just looking at some stats. Your launch video had 40,000,000 views. Talked to somebody about a million users a day, a trillion tokens a day, a third of the Fortune five hundred. Speaker 2 | 01:40 - 01:50 So, it it sounds like you're indeed building, what you call the Jivolution. I love the term. I'm just curious what it feels like from the inside. Speaker 1 | 01:50 - 02:13 Where do I start? I will say that a lot of those stats don't really matter for what I feel like is the devolution. To me, I knew it would be happening when builders started playing with it and doing the weird stuff. And especially when people were starting to make apps that they maybe could have done before but didn't bother with because AI was so expensive. You know? Speaker 1 | 02:13 - 02:42 I I... We push the boundaries of intelligence per second, but I think the future is going to be intelligence per dollar primarily. And I think really getting people to play with, like like, the idea that intelligence per dollar has dropped to orders of magnitude is what will make the Jevolution unstoppable independent of enterprise adoption, users, stats, whatever. To me, it's about people playing around with things and starting to... I can't think of a non corny way to say it, but, like, build the future. Speaker 1 | 02:43 - 03:01 You know? Like like that to be used, the unstoppable energy. And no matter how big that initial snowball is,...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：AI 正在压缩窄场景软件的差异化空间，商业化更依赖工作流深度和客户上下文。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "The MAD Podcast with Matt Turck: Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+      "core_viewpoint": "长访谈的价值在于理解问题定义、产品取舍和商业化逻辑，而不是只看新闻标题。",
+      "evidence_points": [
+        "And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything?",
+        "We could have had AGI last year, and I still believe that to be true.",
+        "Pre training is a giant dumpster fire of wasting resources.",
+        "When I first started this project, I literally thought it would take a week."
+      ],
+      "source_context": "Follow Builders / The MAD Podcast with Matt Turck 的原始信息主要包括：And if it doesn't tell you when it's the mister Bean, then how are you gonna automate anything?；We could have had AGI last year, and I still believe that to be true.",
+      "reader_takeaway": "我的判断：把这类访谈当作长期认知材料，重点记录 builder 如何定义问题和衡量价值。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 4,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 4,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-10-17T13:19:04.658668+08:00"
+  }
+}
