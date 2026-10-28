@@ -1,0 +1,982 @@
+{
+  "date": "2026-10-28",
+  "title": "2026-10-28 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-10-28.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "9d6bf431864e8346",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/levie/status/2115305369799110905",
+      "source_name": "Follow Builders / @levie",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Aaron Levie: This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in an...",
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "47611f480ad9ff3a",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "product": "X / @trq212",
+      "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：playing WoW forever, formerly Claude Code @anthropicai。要点：1. feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do... 2. experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/trq212/status/2115188992861970693",
+      "source_name": "Follow Builders / @trq212",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically",
+        "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thariq: feels like there needs to be a new way to distribute opensource software such that people can modify via agen...",
+      "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically；experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ffddb4cfe5caa051",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "product": "X / @swyx",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd 2. at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/swyx/status/2115135448876269782",
+      "source_name": "Follow Builders / @swyx",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years",
+        "at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml."
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Swyx: yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.......",
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years；at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml.",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "c67ec52f0f8247b6",
+      "title": "xAI 的模型/产品能力有新变化",
+      "company": "xAI",
+      "product": "X / @petergyang",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/petergyang/status/2115239304092106772",
+      "source_name": "Follow Builders / @petergyang",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:"
+      ],
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "original_title": "Peter Yang: I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments wit...",
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "82af48946c749e4d",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "product": "X / @garrytan",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6 2. The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy...",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "source_url": "https://x.com/garrytan/status/2115215790756794496",
+      "source_name": "Follow Builders / @garrytan",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "I am trying to slim down GStack and reduce token usage and task latency to be sure",
+        "The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Garry Tan: I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I am trying to slim down GStack and reduce token usage and task latency to be sure；The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "1543a8f5d95082ea",
+        "date": "2026-10-28",
+        "title": "Matt Turck: Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paral...",
+        "title_zh": "OpenAI 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Data...",
+        "company": "OpenAI",
+        "product": "X / @mattturck",
+        "category": "Builder 观点",
+        "tags": [
+          "Builder 观点",
+          "X"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @mattturck",
+        "source_url": "https://x.com/mattturck/status/2115132327131328806",
+        "published_at": "2026-10-28T01:23:38+08:00",
+        "fetched_at": "2026-10-28T14:37:29.153074+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2115132327131328806\", \"text\": \"Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\\n\\nAlso:\\n\\n* Anthropic: 7 co-founders\\n\\n* OpenAI: 11 co-founders\\n\\n* Databricks: 7 co-founders\", \"createdAt\": \"2026-10-27T17:23:38.000Z\", \"url\": \"https://x.com/mattturck/status/2115132327131328806\", \"likes\": 220, \"retweets\": 11, \"replies\": 54, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115132327131328806\", \"text\": \"Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\\n\\nAlso:\\n\\n* Anthropic: 7 co-founders\\n\\n* OpenAI: 11 co-founders\\n\\n* Databricks: 7 co-founders\", \"createdAt\": \"2026-10-27T17:23:38.000Z\", \"url\": \"https://x.com/mattturck/status/2115132327131328806\", \"likes\": 220, \"retweets\": 11, \"replies\": 54, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Matt Turck: Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paral...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Databricks: 7 co-founders"
+        ],
+        "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Databricks: 7 co-founders",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "47611f480ad9ff3a",
+        "date": "2026-10-28",
+        "title": "Thariq: feels like there needs to be a new way to distribute opensource software such that people can modify via agen...",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：playing WoW forever, formerly Claude Code @anthropicai。要点：1. feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do... 2. experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior...",
+        "company": "Anthropic",
+        "product": "X / @trq212",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @trq212",
+        "source_url": "https://x.com/trq212/status/2115188992861970693",
+        "published_at": "2026-10-28T05:08:48+08:00",
+        "fetched_at": "2026-10-28T14:37:29.152015+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thariq\", \"handle\": \"trq212\", \"bio\": \"playing WoW forever, formerly Claude Code @anthropicai\", \"tweets\": [{\"id\": \"2115188992861970693\", \"text\": \"feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\\n\\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D\", \"createdAt\": \"2026-10-27T21:08:48.000Z\", \"url\": \"https://x.com/trq212/status/2115188992861970693\", \"likes\": 2465, \"retweets\": 53, \"replies\": 219, \"isQuote\": true, \"quotedTweetId\": \"2115135857669881939\"}, {\"id\": \"2115135859075015137\", \"text\": \"this is the kind of HCI work I've been wanting to do for a while, but messing with OS internals has always been very time consuming\\n\\nnot sharing yet, there are still many edge cases (would not recommend using), but fun to experiment with!\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135859075015137\", \"likes\": 628, \"retweets\": 2, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115135857669881939\", \"text\": \"experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\\n\\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time &amp; act on them https://t.co/yplDQUwTv5\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135857669881939\", \"likes\": 8262, \"retweets\": 215, \"replies\": 432, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115188992861970693\", \"text\": \"feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\\n\\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D\", \"createdAt\": \"2026-10-27T21:08:48.000Z\", \"url\": \"https://x.com/trq212/status/2115188992861970693\", \"likes\": 2465, \"retweets\": 53, \"replies\": 219, \"isQuote\": true, \"quotedTweetId\": \"2115135857669881939\"}, {\"id\": \"2115135857669881939\", \"text\": \"experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\\n\\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time &amp; act on them https://t.co/yplDQUwTv5\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135857669881939\", \"likes\": 8262, \"retweets\": 215, \"replies\": 432, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@trq212",
+            "source_url": "https://x.com/trq212/status/2115135857669881939",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thariq: feels like there needs to be a new way to distribute opensource software such that people can modify via agen...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically",
+          "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them"
+        ],
+        "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically；experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "ffddb4cfe5caa051",
+        "date": "2026-10-28",
+        "title": "Swyx: yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.......",
+        "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd 2. at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc...",
+        "company": "Anthropic",
+        "product": "X / @swyx",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @swyx",
+        "source_url": "https://x.com/swyx/status/2115135448876269782",
+        "published_at": "2026-10-28T01:36:02+08:00",
+        "fetched_at": "2026-10-28T14:37:29.151083+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2115156135875629109\", \"text\": \"anyway here's my soundcloud https://t.co/12VJjC5aB8\", \"createdAt\": \"2026-10-27T18:58:15.000Z\", \"url\": \"https://x.com/swyx/status/2115156135875629109\", \"likes\": 22, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2115156080309489736\"}, {\"id\": \"2115135448876269782\", \"text\": \"yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd\", \"createdAt\": \"2026-10-27T17:36:02.000Z\", \"url\": \"https://x.com/swyx/status/2115135448876269782\", \"likes\": 53, \"retweets\": 1, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115089887959359988\", \"text\": \"at spacex ipo everyone was posting their cursor bag fumble.\\n\\nkid stuff.\\n\\nmy turn.\\n\\ni estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml. https://t.co/O4SZbwKhoQ https://t.co/kEV0gzb1Q6\", \"createdAt\": \"2026-10-27T14:35:00.000Z\", \"url\": \"https://x.com/swyx/status/2115089887959359988\", \"likes\": 1437, \"retweets\": 7, \"replies\": 194, \"isQuote\": true, \"quotedTweetId\": \"2114864999709753526\"}]}, \"tweets\": [{\"id\": \"2115135448876269782\", \"text\": \"yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd\", \"createdAt\": \"2026-10-27T17:36:02.000Z\", \"url\": \"https://x.com/swyx/status/2115135448876269782\", \"likes\": 53, \"retweets\": 1, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115089887959359988\", \"text\": \"at spacex ipo everyone was posting their cursor bag fumble.\\n\\nkid stuff.\\n\\nmy turn.\\n\\ni estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml. https://t.co/O4SZbwKhoQ https://t.co/kEV0gzb1Q6\", \"createdAt\": \"2026-10-27T14:35:00.000Z\", \"url\": \"https://x.com/swyx/status/2115089887959359988\", \"likes\": 1437, \"retweets\": 7, \"replies\": 194, \"isQuote\": true, \"quotedTweetId\": \"2114864999709753526\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@swyx",
+            "source_url": "https://x.com/swyx/status/2115089887959359988",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Swyx: yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.......",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years",
+          "at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml."
+        ],
+        "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years；at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml.",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "fe2bb28b83f8edc2",
+        "date": "2026-10-28",
+        "title": "Amjad Masad: If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medic...",
+        "title_zh": "Anthropic 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturat... 2. In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp",
+        "company": "Anthropic",
+        "product": "X / @amasad",
+        "category": "产品功能",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @amasad",
+        "source_url": "https://x.com/amasad/status/2115207856496480261",
+        "published_at": "2026-10-28T06:23:46+08:00",
+        "fetched_at": "2026-10-28T14:37:29.152255+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2115207856496480261\", \"text\": \"If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.\", \"createdAt\": \"2026-10-27T22:23:46.000Z\", \"url\": \"https://x.com/amasad/status/2115207856496480261\", \"likes\": 592, \"retweets\": 31, \"replies\": 115, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115181058815660449\", \"text\": \"In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp\", \"createdAt\": \"2026-10-27T20:37:17.000Z\", \"url\": \"https://x.com/amasad/status/2115181058815660449\", \"likes\": 102, \"retweets\": 2, \"replies\": 36, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115150680977715419\", \"text\": \"Designers’ contribution to the codebase. https://t.co/FMlhbFzszv https://t.co/IdcnEzDEmW\", \"createdAt\": \"2026-10-27T18:36:34.000Z\", \"url\": \"https://x.com/amasad/status/2115150680977715419\", \"likes\": 265, \"retweets\": 14, \"replies\": 47, \"isQuote\": true, \"quotedTweetId\": \"2115130930125996103\"}]}, \"tweets\": [{\"id\": \"2115207856496480261\", \"text\": \"If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.\", \"createdAt\": \"2026-10-27T22:23:46.000Z\", \"url\": \"https://x.com/amasad/status/2115207856496480261\", \"likes\": 592, \"retweets\": 31, \"replies\": 115, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115181058815660449\", \"text\": \"In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp\", \"createdAt\": \"2026-10-27T20:37:17.000Z\", \"url\": \"https://x.com/amasad/status/2115181058815660449\", \"likes\": 102, \"retweets\": 2, \"replies\": 36, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@amasad",
+            "source_url": "https://x.com/amasad/status/2115181058815660449",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Amjad Masad: If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medic...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.",
+          "In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast."
+        ],
+        "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.；In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast.",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "xAI": [
+      {
+        "id": "c67ec52f0f8247b6",
+        "date": "2026-10-28",
+        "title": "Peter Yang: I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments wit...",
+        "title_zh": "xAI 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should...",
+        "company": "xAI",
+        "product": "X / @petergyang",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2115239304092106772",
+        "published_at": "2026-10-28T08:28:43+08:00",
+        "fetched_at": "2026-10-28T14:37:29.151668+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2115319325137731757\", \"text\": \"Other hiring practices that need to change: \\n\\n1. Filtering candidates based on years of experience or some company name \\n\\n2. Prioritizing resumes and cover letters over proof of work and real projects \\n\\n3. Listing number of people managed as an accomplishment by itself \\n\\n4. Endless rounds of interviews over short work trials\\n\\nI could go on.\", \"createdAt\": \"2026-10-28T05:46:42.000Z\", \"url\": \"https://x.com/petergyang/status/2115319325137731757\", \"likes\": 16, \"retweets\": 0, \"replies\": 4, \"isQuote\": true, \"quotedTweetId\": \"2115200995546566910\"}, {\"id\": \"2115309642209436057\", \"text\": \"If you’re going to make videos about some made-up ARR then just be a satirical media company. \\n\\nI’d respect that.\", \"createdAt\": \"2026-10-28T05:08:13.000Z\", \"url\": \"https://x.com/petergyang/status/2115309642209436057\", \"likes\": 12, \"retweets\": 0, \"replies\": 9, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115239304092106772\", \"text\": \"I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. \\n\\nIt's not quite launched to everyone but should be coming very soon.\\n\\nI'm going to make a video on just this feature. Subscribe here to get it soon: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-10-28T00:28:43.000Z\", \"url\": \"https://x.com/petergyang/status/2115239304092106772\", \"likes\": 65, \"retweets\": 1, \"replies\": 17, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115239304092106772\", \"text\": \"I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. \\n\\nIt's not quite launched to everyone but should be coming very soon.\\n\\nI'm going to make a video on just this feature. Subscribe here to get it soon: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-10-28T00:28:43.000Z\", \"url\": \"https://x.com/petergyang/status/2115239304092106772\", \"likes\": 65, \"retweets\": 1, \"replies\": 17, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments wit...",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:"
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "GitHub": [
+      {
+        "id": "82af48946c749e4d",
+        "date": "2026-10-28",
+        "title": "Garry Tan: I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+        "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6 2. The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy...",
+        "company": "GitHub",
+        "product": "X / @garrytan",
+        "category": "开发者工具",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "开发者工具"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @garrytan",
+        "source_url": "https://x.com/garrytan/status/2115215790756794496",
+        "published_at": "2026-10-28T06:55:17+08:00",
+        "fetched_at": "2026-10-28T14:37:29.152925+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2115215790756794496\", \"text\": \"I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6\", \"createdAt\": \"2026-10-27T22:55:17.000Z\", \"url\": \"https://x.com/garrytan/status/2115215790756794496\", \"likes\": 92, \"retweets\": 3, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2115213279912173914\"}, {\"id\": \"2115210866962624810\", \"text\": \"What did my Capy software factory do on the greenest days? https://t.co/miOR2treNF\", \"createdAt\": \"2026-10-27T22:35:44.000Z\", \"url\": \"https://x.com/garrytan/status/2115210866962624810\", \"likes\": 8, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115193524152860771\", \"text\": \"The @capydotai software factory renormalization of your GitHub contribution colors is real\\n\\nHere is mine 👀 \\n\\nI was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain) https://t.co/cCDEI6d0Xu https://t.co/15R8aFycyA\", \"createdAt\": \"2026-10-27T21:26:49.000Z\", \"url\": \"https://x.com/garrytan/status/2115193524152860771\", \"likes\": 114, \"retweets\": 8, \"replies\": 53, \"isQuote\": true, \"quotedTweetId\": \"2115190553126342694\"}]}, \"tweets\": [{\"id\": \"2115215790756794496\", \"text\": \"I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6\", \"createdAt\": \"2026-10-27T22:55:17.000Z\", \"url\": \"https://x.com/garrytan/status/2115215790756794496\", \"likes\": 92, \"retweets\": 3, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2115213279912173914\"}, {\"id\": \"2115193524152860771\", \"text\": \"The @capydotai software factory renormalization of your GitHub contribution colors is real\\n\\nHere is mine 👀 \\n\\nI was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain) https://t.co/cCDEI6d0Xu https://t.co/15R8aFycyA\", \"createdAt\": \"2026-10-27T21:26:49.000Z\", \"url\": \"https://x.com/garrytan/status/2115193524152860771\", \"likes\": 114, \"retweets\": 8, \"replies\": 53, \"isQuote\": true, \"quotedTweetId\": \"2115190553126342694\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@garrytan",
+            "source_url": "https://x.com/garrytan/status/2115193524152860771",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Garry Tan: I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "I am trying to slim down GStack and reduce token usage and task latency to be sure",
+          "The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)"
+        ],
+        "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I am trying to slim down GStack and reduce token usage and task latency to be sure；The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "9d6bf431864e8346",
+        "date": "2026-10-28",
+        "title": "Aaron Levie: This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in an...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no...",
+        "company": "Builder Ecosystem",
+        "product": "X / @levie",
+        "category": "Agent",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "Agent",
+          "企业服务"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @levie",
+        "source_url": "https://x.com/levie/status/2115305369799110905",
+        "published_at": "2026-10-28T12:51:15+08:00",
+        "fetched_at": "2026-10-28T14:37:29.152605+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2115305369799110905\", \"text\": \"This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\\n\\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\\n\\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \\n\\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\\n\\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflows to take advantage of agents in their processes. This will have a massive impact in finance, life sciences, healthcare, and other information-heavy domains. Lots of opportunity to build and deploy these systems right now.\", \"createdAt\": \"2026-10-28T04:51:15.000Z\", \"url\": \"https://x.com/levie/status/2115305369799110905\", \"likes\": 186, \"retweets\": 10, \"replies\": 54, \"isQuote\": true, \"quotedTweetId\": \"2115193664981152000\"}]}, \"tweets\": [{\"id\": \"2115305369799110905\", \"text\": \"This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\\n\\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\\n\\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \\n\\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\\n\\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflo...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Aaron Levie: This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in an...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no"
+        ],
+        "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "9d6bf431864e8346",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2115305369799110905",
+      "source_name": "Follow Builders / @levie",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "47611f480ad9ff3a",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/trq212/status/2115188992861970693",
+      "source_name": "Follow Builders / @trq212",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Anthropic 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "ffddb4cfe5caa051",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/swyx/status/2115135448876269782",
+      "source_name": "Follow Builders / @swyx",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Anthropic 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "9d6bf431864e8346",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/levie/status/2115305369799110905",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "47611f480ad9ff3a",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/trq212/status/2115188992861970693",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "ffddb4cfe5caa051",
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "company": "Anthropic",
+      "source_url": "https://x.com/swyx/status/2115135448876269782",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "82af48946c749e4d",
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "company": "GitHub",
+      "source_url": "https://x.com/garrytan/status/2115215790756794496",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @levie",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no...",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/levie/status/2115305369799110905"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @trq212",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：playing WoW forever, formerly Claude Code @anthropicai。要点：1. feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do... 2. experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/trq212/status/2115188992861970693"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @swyx",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd 2. at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/swyx/status/2115135448876269782"
+    },
+    {
+      "company": "xAI",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/petergyang/status/2115239304092106772"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/levie/status/2115305369799110905"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "xAI 的模型/产品能力有新变化",
+      "source_url": "https://x.com/petergyang/status/2115239304092106772"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Anthropic 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/amasad/status/2115207856496480261"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/levie/status/2115305369799110905",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/trq212/status/2115188992861970693",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/swyx/status/2115135448876269782",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "xAI 的模型/产品能力有新变化",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/petergyang/status/2115239304092106772",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    },
+    {
+      "title": "GitHub 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/garrytan/status/2115215790756794496",
+      "reason": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。"
+    }
+  ],
+  "events": [
+    {
+      "id": "9d6bf431864e8346",
+      "date": "2026-10-28",
+      "title": "Aaron Levie: This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in an...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Aaron Levie（@levie） 在 X 上的最新动态。简介：ceo @box - your business lives in content. unleash it with AI。要点：1. This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no...",
+      "company": "Builder Ecosystem",
+      "product": "X / @levie",
+      "category": "Agent",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "Agent",
+        "企业服务"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @levie",
+      "source_url": "https://x.com/levie/status/2115305369799110905",
+      "published_at": "2026-10-28T12:51:15+08:00",
+      "fetched_at": "2026-10-28T14:37:29.152605+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Aaron Levie\", \"handle\": \"levie\", \"bio\": \"ceo @box - your business lives in content. unleash it with AI\", \"tweets\": [{\"id\": \"2115305369799110905\", \"text\": \"This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\\n\\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\\n\\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \\n\\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\\n\\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflows to take advantage of agents in their processes. This will have a massive impact in finance, life sciences, healthcare, and other information-heavy domains. Lots of opportunity to build and deploy these systems right now.\", \"createdAt\": \"2026-10-28T04:51:15.000Z\", \"url\": \"https://x.com/levie/status/2115305369799110905\", \"likes\": 186, \"retweets\": 10, \"replies\": 54, \"isQuote\": true, \"quotedTweetId\": \"2115193664981152000\"}]}, \"tweets\": [{\"id\": \"2115305369799110905\", \"text\": \"This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now.\\n\\nAt best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI itself.\\n\\nThat’s all changing. Now with computer use, long running agents, harness improvements and surrounding infrastructure, we’re finally at a point where we can start to apply agents at more complex workflows. \\n\\nWe will see self-improving systems that can take any particular workflow goal and improve the execution rates over a volume of instances. And with the emerging form factor of agent swarms, you can just choose to deploy any amount of compute at a problem and agents will off and do the work.\\n\\nThis won’t be about and users prompting agents to complete a specific task for them, but instead the organization reengineering the underlying workflo...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Aaron Levie: This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in an...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no"
+      ],
+      "source_context": "Follow Builders / @levie / X / @levie 的原始信息主要包括：This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right no",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "47611f480ad9ff3a",
+      "date": "2026-10-28",
+      "title": "Thariq: feels like there needs to be a new way to distribute opensource software such that people can modify via agen...",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thariq（@trq212） 在 X 上的最新动态。简介：playing WoW forever, formerly Claude Code @anthropicai。要点：1. feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do... 2. experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior...",
+      "company": "Anthropic",
+      "product": "X / @trq212",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @trq212",
+      "source_url": "https://x.com/trq212/status/2115188992861970693",
+      "published_at": "2026-10-28T05:08:48+08:00",
+      "fetched_at": "2026-10-28T14:37:29.152015+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thariq\", \"handle\": \"trq212\", \"bio\": \"playing WoW forever, formerly Claude Code @anthropicai\", \"tweets\": [{\"id\": \"2115188992861970693\", \"text\": \"feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\\n\\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D\", \"createdAt\": \"2026-10-27T21:08:48.000Z\", \"url\": \"https://x.com/trq212/status/2115188992861970693\", \"likes\": 2465, \"retweets\": 53, \"replies\": 219, \"isQuote\": true, \"quotedTweetId\": \"2115135857669881939\"}, {\"id\": \"2115135859075015137\", \"text\": \"this is the kind of HCI work I've been wanting to do for a while, but messing with OS internals has always been very time consuming\\n\\nnot sharing yet, there are still many edge cases (would not recommend using), but fun to experiment with!\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135859075015137\", \"likes\": 628, \"retweets\": 2, \"replies\": 19, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115135857669881939\", \"text\": \"experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\\n\\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time &amp; act on them https://t.co/yplDQUwTv5\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135857669881939\", \"likes\": 8262, \"retweets\": 215, \"replies\": 432, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115188992861970693\", \"text\": \"feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in\\n\\ncoding agents can do this but they won’t do it automatically https://t.co/6iejoVGp1D\", \"createdAt\": \"2026-10-27T21:08:48.000Z\", \"url\": \"https://x.com/trq212/status/2115188992861970693\", \"likes\": 2465, \"retweets\": 53, \"replies\": 219, \"isQuote\": true, \"quotedTweetId\": \"2115135857669881939\"}, {\"id\": \"2115135857669881939\", \"text\": \"experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused\\n\\nmy agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time &amp; act on them https://t.co/yplDQUwTv5\", \"createdAt\": \"2026-10-27T17:37:40.000Z\", \"url\": \"https://x.com/trq212/status/2115135857669881939\", \"likes\": 8262, \"retweets\": 215, \"replies\": 432, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@trq212",
+          "source_url": "https://x.com/trq212/status/2115135857669881939",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thariq: feels like there needs to be a new way to distribute opensource software such that people can modify via agen...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically",
+        "experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them"
+      ],
+      "source_context": "Follow Builders / @trq212 / X / @trq212 的原始信息主要包括：feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in coding agents can do this but they won’t do it automatically；experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ffddb4cfe5caa051",
+      "date": "2026-10-28",
+      "title": "Swyx: yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.......",
+      "title_zh": "Anthropic 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd 2. at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc...",
+      "company": "Anthropic",
+      "product": "X / @swyx",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @swyx",
+      "source_url": "https://x.com/swyx/status/2115135448876269782",
+      "published_at": "2026-10-28T01:36:02+08:00",
+      "fetched_at": "2026-10-28T14:37:29.151083+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2115156135875629109\", \"text\": \"anyway here's my soundcloud https://t.co/12VJjC5aB8\", \"createdAt\": \"2026-10-27T18:58:15.000Z\", \"url\": \"https://x.com/swyx/status/2115156135875629109\", \"likes\": 22, \"retweets\": 0, \"replies\": 1, \"isQuote\": true, \"quotedTweetId\": \"2115156080309489736\"}, {\"id\": \"2115135448876269782\", \"text\": \"yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd\", \"createdAt\": \"2026-10-27T17:36:02.000Z\", \"url\": \"https://x.com/swyx/status/2115135448876269782\", \"likes\": 53, \"retweets\": 1, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115089887959359988\", \"text\": \"at spacex ipo everyone was posting their cursor bag fumble.\\n\\nkid stuff.\\n\\nmy turn.\\n\\ni estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml. https://t.co/O4SZbwKhoQ https://t.co/kEV0gzb1Q6\", \"createdAt\": \"2026-10-27T14:35:00.000Z\", \"url\": \"https://x.com/swyx/status/2115089887959359988\", \"likes\": 1437, \"retweets\": 7, \"replies\": 194, \"isQuote\": true, \"quotedTweetId\": \"2114864999709753526\"}]}, \"tweets\": [{\"id\": \"2115135448876269782\", \"text\": \"yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years https://t.co/dEix0oyszd\", \"createdAt\": \"2026-10-27T17:36:02.000Z\", \"url\": \"https://x.com/swyx/status/2115135448876269782\", \"likes\": 53, \"retweets\": 1, \"replies\": 7, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115089887959359988\", \"text\": \"at spacex ipo everyone was posting their cursor bag fumble.\\n\\nkid stuff.\\n\\nmy turn.\\n\\ni estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml. https://t.co/O4SZbwKhoQ https://t.co/kEV0gzb1Q6\", \"createdAt\": \"2026-10-27T14:35:00.000Z\", \"url\": \"https://x.com/swyx/status/2115089887959359988\", \"likes\": 1437, \"retweets\": 7, \"replies\": 194, \"isQuote\": true, \"quotedTweetId\": \"2114864999709753526\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@swyx",
+          "source_url": "https://x.com/swyx/status/2115089887959359988",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Swyx: yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.......",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years",
+        "at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml."
+      ],
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：yeah you ignored a @mntruell email in 2024 but did you pitch something like Claude Code in 2019 and then.... not do it for 7 years；at spacex ipo everyone was posting their cursor bag fumble. kid stuff. my turn. i estimate this was a $500m bag fumble lol. and very probably wouldve been on claude code early (bc i've been a typescript cli maintainer). fml.",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "c67ec52f0f8247b6",
+      "date": "2026-10-28",
+      "title": "Peter Yang: I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments wit...",
+      "title_zh": "xAI 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should...",
+      "company": "xAI",
+      "product": "X / @petergyang",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2115239304092106772",
+      "published_at": "2026-10-28T08:28:43+08:00",
+      "fetched_at": "2026-10-28T14:37:29.151668+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2115319325137731757\", \"text\": \"Other hiring practices that need to change: \\n\\n1. Filtering candidates based on years of experience or some company name \\n\\n2. Prioritizing resumes and cover letters over proof of work and real projects \\n\\n3. Listing number of people managed as an accomplishment by itself \\n\\n4. Endless rounds of interviews over short work trials\\n\\nI could go on.\", \"createdAt\": \"2026-10-28T05:46:42.000Z\", \"url\": \"https://x.com/petergyang/status/2115319325137731757\", \"likes\": 16, \"retweets\": 0, \"replies\": 4, \"isQuote\": true, \"quotedTweetId\": \"2115200995546566910\"}, {\"id\": \"2115309642209436057\", \"text\": \"If you’re going to make videos about some made-up ARR then just be a satirical media company. \\n\\nI’d respect that.\", \"createdAt\": \"2026-10-28T05:08:13.000Z\", \"url\": \"https://x.com/petergyang/status/2115309642209436057\", \"likes\": 12, \"retweets\": 0, \"replies\": 9, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115239304092106772\", \"text\": \"I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. \\n\\nIt's not quite launched to everyone but should be coming very soon.\\n\\nI'm going to make a video on just this feature. Subscribe here to get it soon: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-10-28T00:28:43.000Z\", \"url\": \"https://x.com/petergyang/status/2115239304092106772\", \"likes\": 65, \"retweets\": 1, \"replies\": 17, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115239304092106772\", \"text\": \"I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. \\n\\nIt's not quite launched to everyone but should be coming very soon.\\n\\nI'm going to make a video on just this feature. Subscribe here to get it soon: https://t.co/NSTj7ijxE0\", \"createdAt\": \"2026-10-28T00:28:43.000Z\", \"url\": \"https://x.com/petergyang/status/2115239304092106772\", \"likes\": 65, \"retweets\": 1, \"replies\": 17, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments wit...",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:"
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：I just tried the most incredible Grok @bot feature today it was one of my favorite (and funniest) moments with AI in recent memory. It's not quite launched to everyone but should be coming very soon. I'm going to make a video on just this feature. Subscribe here to get it soon:",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "82af48946c749e4d",
+      "date": "2026-10-28",
+      "title": "Garry Tan: I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "title_zh": "GitHub 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6 2. The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy...",
+      "company": "GitHub",
+      "product": "X / @garrytan",
+      "category": "开发者工具",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "开发者工具"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @garrytan",
+      "source_url": "https://x.com/garrytan/status/2115215790756794496",
+      "published_at": "2026-10-28T06:55:17+08:00",
+      "fetched_at": "2026-10-28T14:37:29.152925+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2115215790756794496\", \"text\": \"I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6\", \"createdAt\": \"2026-10-27T22:55:17.000Z\", \"url\": \"https://x.com/garrytan/status/2115215790756794496\", \"likes\": 92, \"retweets\": 3, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2115213279912173914\"}, {\"id\": \"2115210866962624810\", \"text\": \"What did my Capy software factory do on the greenest days? https://t.co/miOR2treNF\", \"createdAt\": \"2026-10-27T22:35:44.000Z\", \"url\": \"https://x.com/garrytan/status/2115210866962624810\", \"likes\": 8, \"retweets\": 1, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115193524152860771\", \"text\": \"The @capydotai software factory renormalization of your GitHub contribution colors is real\\n\\nHere is mine 👀 \\n\\nI was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain) https://t.co/cCDEI6d0Xu https://t.co/15R8aFycyA\", \"createdAt\": \"2026-10-27T21:26:49.000Z\", \"url\": \"https://x.com/garrytan/status/2115193524152860771\", \"likes\": 114, \"retweets\": 8, \"replies\": 53, \"isQuote\": true, \"quotedTweetId\": \"2115190553126342694\"}]}, \"tweets\": [{\"id\": \"2115215790756794496\", \"text\": \"I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6\", \"createdAt\": \"2026-10-27T22:55:17.000Z\", \"url\": \"https://x.com/garrytan/status/2115215790756794496\", \"likes\": 92, \"retweets\": 3, \"replies\": 36, \"isQuote\": true, \"quotedTweetId\": \"2115213279912173914\"}, {\"id\": \"2115193524152860771\", \"text\": \"The @capydotai software factory renormalization of your GitHub contribution colors is real\\n\\nHere is mine 👀 \\n\\nI was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain) https://t.co/cCDEI6d0Xu https://t.co/15R8aFycyA\", \"createdAt\": \"2026-10-27T21:26:49.000Z\", \"url\": \"https://x.com/garrytan/status/2115193524152860771\", \"likes\": 114, \"retweets\": 8, \"replies\": 53, \"isQuote\": true, \"quotedTweetId\": \"2115190553126342694\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@garrytan",
+          "source_url": "https://x.com/garrytan/status/2115193524152860771",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Garry Tan: I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "I am trying to slim down GStack and reduce token usage and task latency to be sure",
+        "The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)"
+      ],
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：I am trying to slim down GStack and reduce token usage and task latency to be sure；The @capydotai software factory renormalization of your GitHub contribution colors is real Here is mine 👀 I was no token slouch before but wow the PRs are hot and heavy with Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "fe2bb28b83f8edc2",
+      "date": "2026-10-28",
+      "title": "Amjad Masad: If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medic...",
+      "title_zh": "Anthropic 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Amjad Masad（@amasad） 在 X 上的最新动态。简介：ceo @replit. civilizationist。要点：1. If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturat... 2. In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp",
+      "company": "Anthropic",
+      "product": "X / @amasad",
+      "category": "产品功能",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @amasad",
+      "source_url": "https://x.com/amasad/status/2115207856496480261",
+      "published_at": "2026-10-28T06:23:46+08:00",
+      "fetched_at": "2026-10-28T14:37:29.152255+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Amjad Masad\", \"handle\": \"amasad\", \"bio\": \"ceo @replit. civilizationist\", \"tweets\": [{\"id\": \"2115207856496480261\", \"text\": \"If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.\", \"createdAt\": \"2026-10-27T22:23:46.000Z\", \"url\": \"https://x.com/amasad/status/2115207856496480261\", \"likes\": 592, \"retweets\": 31, \"replies\": 115, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115181058815660449\", \"text\": \"In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp\", \"createdAt\": \"2026-10-27T20:37:17.000Z\", \"url\": \"https://x.com/amasad/status/2115181058815660449\", \"likes\": 102, \"retweets\": 2, \"replies\": 36, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115150680977715419\", \"text\": \"Designers’ contribution to the codebase. https://t.co/FMlhbFzszv https://t.co/IdcnEzDEmW\", \"createdAt\": \"2026-10-27T18:36:34.000Z\", \"url\": \"https://x.com/amasad/status/2115150680977715419\", \"likes\": 265, \"retweets\": 14, \"replies\": 47, \"isQuote\": true, \"quotedTweetId\": \"2115130930125996103\"}]}, \"tweets\": [{\"id\": \"2115207856496480261\", \"text\": \"If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.\", \"createdAt\": \"2026-10-27T22:23:46.000Z\", \"url\": \"https://x.com/amasad/status/2115207856496480261\", \"likes\": 592, \"retweets\": 31, \"replies\": 115, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2115181058815660449\", \"text\": \"In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast. https://t.co/hcuRaiQwJp\", \"createdAt\": \"2026-10-27T20:37:17.000Z\", \"url\": \"https://x.com/amasad/status/2115181058815660449\", \"likes\": 102, \"retweets\": 2, \"replies\": 36, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@amasad",
+          "source_url": "https://x.com/amasad/status/2115181058815660449",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Amjad Masad: If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medic...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.",
+        "In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast."
+      ],
+      "source_context": "Follow Builders / @amasad / X / @amasad 的原始信息主要包括：If I’m investing in frontier AI I would underwrite it mostly on new discovery and its applications like medicine because coding and most of knowledge work is quickly being saturated by sub-frontier models.；In the Stanford piracy case against Anthropic, the judge’s name is “Alsup” which sounds suspiciously close to “AI slop” when say it fast.",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "1543a8f5d95082ea",
+      "date": "2026-10-28",
+      "title": "Matt Turck: Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paral...",
+      "title_zh": "OpenAI 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Matt Turck（@mattturck） 在 X 上的最新动态。简介：VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.。要点：1. Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Data...",
+      "company": "OpenAI",
+      "product": "X / @mattturck",
+      "category": "Builder 观点",
+      "tags": [
+        "Builder 观点",
+        "X"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @mattturck",
+      "source_url": "https://x.com/mattturck/status/2115132327131328806",
+      "published_at": "2026-10-28T01:23:38+08:00",
+      "fetched_at": "2026-10-28T14:37:29.153074+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Matt Turck\", \"handle\": \"mattturck\", \"bio\": \"VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.\", \"tweets\": [{\"id\": \"2115132327131328806\", \"text\": \"Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\\n\\nAlso:\\n\\n* Anthropic: 7 co-founders\\n\\n* OpenAI: 11 co-founders\\n\\n* Databricks: 7 co-founders\", \"createdAt\": \"2026-10-27T17:23:38.000Z\", \"url\": \"https://x.com/mattturck/status/2115132327131328806\", \"likes\": 220, \"retweets\": 11, \"replies\": 54, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2115132327131328806\", \"text\": \"Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis!\\n\\nAlso:\\n\\n* Anthropic: 7 co-founders\\n\\n* OpenAI: 11 co-founders\\n\\n* Databricks: 7 co-founders\", \"createdAt\": \"2026-10-27T17:23:38.000Z\", \"url\": \"https://x.com/mattturck/status/2115132327131328806\", \"likes\": 220, \"retweets\": 11, \"replies\": 54, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Matt Turck: Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paral...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Databricks: 7 co-founders"
+      ],
+      "source_context": "Follow Builders / @mattturck / X / @mattturck 的原始信息主要包括：Usual startup advice: too many co-founders is bad!!! Too much dilution! Founder friction risk! Analysis paralysis! Also: * Anthropic: 7 co-founders * OpenAI: 11 co-founders * Databricks: 7 co-founders",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 7,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 7,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-10-28T14:37:29.166046+08:00"
+  }
+}
