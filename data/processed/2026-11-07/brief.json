@@ -1,0 +1,1060 @@
+{
+  "date": "2026-11-07",
+  "title": "2026-11-07 每日 AI Builders 简讯",
+  "page_url": "https://lapiko12138-spec.github.io/ai-daily-brief/daily/2026-11-07.html",
+  "language": "中文为主 / Original titles retained",
+  "core_summary": [
+    {
+      "event_id": "4f4656302df11af4",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @garrytan",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model gen... 2. Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill beca...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323",
+      "source_name": "Follow Builders / @garrytan",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"",
+        "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Garry Tan: \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious b...",
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"；Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "bed7782866fe9122",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Quite cool what you can do with a single prompt these days 👀",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "source_name": "Follow Builders / @thsottiaux",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Quite cool what you can do with a single prompt these days 👀"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Thibault Sottiaux: Quite cool what you can do with a single prompt these days 👀",
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Quite cool what you can do with a single prompt these days 👀",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "a23990745e47d304",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "product": "X / @rauchg",
+      "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353",
+      "source_name": "Follow Builders / @rauchg",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Guillermo Rauch: Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight...",
+      "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "c09333984f9ce904",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "product": "X / @nikunj",
+      "summary": "Follow Builders 记录到 Nikunj Kothari（@nikunj） 在 X 上的最新动态。简介：partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧。要点：1. (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, full disk access and that's it (or use claude code / codex) &gt; runs on... 2. ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide...",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "source_url": "https://x.com/nikunj/status/2118840414853861627",
+      "source_name": "Follow Builders / @nikunj",
+      "importance": "High",
+      "credibility": "community",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on",
+        "ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide"
+      ],
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "original_title": "Nikunj Kothari: (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, fu...",
+      "source_context": "Follow Builders / @nikunj / X / @nikunj 的原始信息主要包括：(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on；ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "40b7e897ac7f002f",
+      "title": "Anthropic 生态出现一条值得记录的信号",
+      "company": "Anthropic",
+      "product": "X / @swyx",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity he... 2. @StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "source_url": "https://x.com/swyx/status/2118905788915982341",
+      "source_name": "Follow Builders / @swyx",
+      "importance": "Medium",
+      "credibility": "community",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
+        "@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video"
+      ],
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "original_title": "Swyx: we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having...",
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.；@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "company_updates": {
+    "OpenAI": [
+      {
+        "id": "bed7782866fe9122",
+        "date": "2026-11-07",
+        "title": "Thibault Sottiaux: Quite cool what you can do with a single prompt these days 👀",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Quite cool what you can do with a single prompt these days 👀",
+        "company": "OpenAI",
+        "product": "X / @thsottiaux",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @thsottiaux",
+        "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+        "published_at": "2026-11-07T13:30:18+08:00",
+        "fetched_at": "2026-11-07T14:49:35.412282+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2118939076791546000\", \"text\": \"Quite cool what you can do with a single prompt these days 👀\", \"createdAt\": \"2026-11-07T05:30:18.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118939076791546000\", \"likes\": 492, \"retweets\": 7, \"replies\": 105, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118938956301779171\", \"text\": \"Get me out of the basement\\n\\nhttps://t.co/SsG3P83NBg https://t.co/eeASj3vnsN\", \"createdAt\": \"2026-11-07T05:29:49.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118938956301779171\", \"likes\": 1776, \"retweets\": 48, \"replies\": 586, \"isQuote\": true, \"quotedTweetId\": \"2118871902366441879\"}, {\"id\": \"2118871902366441879\", \"text\": \"It's Friday\", \"createdAt\": \"2026-11-07T01:03:22.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118871902366441879\", \"likes\": 5778, \"retweets\": 110, \"replies\": 1692, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118939076791546000\", \"text\": \"Quite cool what you can do with a single prompt these days 👀\", \"createdAt\": \"2026-11-07T05:30:18.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118939076791546000\", \"likes\": 492, \"retweets\": 7, \"replies\": 105, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Thibault Sottiaux: Quite cool what you can do with a single prompt these days 👀",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Quite cool what you can do with a single prompt these days 👀"
+        ],
+        "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Quite cool what you can do with a single prompt these days 👀",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "c09333984f9ce904",
+        "date": "2026-11-07",
+        "title": "Nikunj Kothari: (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, fu...",
+        "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Nikunj Kothari（@nikunj） 在 X 上的最新动态。简介：partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧。要点：1. (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, full disk access and that's it (or use claude code / codex) &gt; runs on... 2. ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide...",
+        "company": "OpenAI",
+        "product": "X / @nikunj",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "Agent",
+          "开发者工具",
+          "生态合作"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @nikunj",
+        "source_url": "https://x.com/nikunj/status/2118840414853861627",
+        "published_at": "2026-11-07T06:58:15+08:00",
+        "fetched_at": "2026-11-07T14:49:35.416167+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Nikunj Kothari\", \"handle\": \"nikunj\", \"bio\": \"partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧\", \"tweets\": [{\"id\": \"2118840414853861627\", \"text\": \"(re) introducing texts wrapped\\n\\n&gt; imessage, whatsapp and phone calls analyzed\\n&gt; one terminal command, full disk access and that's it (or use claude code / codex)\\n&gt; runs on Mac, 100% local, no AI, open source\\n&gt; fresh coat of paint, new insights, better accuracy\\n\\nwrap2026 dot com https://t.co/u6hprVFnBm\", \"createdAt\": \"2026-11-06T22:58:15.000Z\", \"url\": \"https://x.com/nikunj/status/2118840414853861627\", \"likes\": 5, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118758688567792008\", \"text\": \"ok so here's how we get to building a 100M company in two weeks before thanksgiving.. \\n\\nfirst, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch video, $200k to promote the launch video to xM impressions - i have six agencies lined up for this don't sweat with no paid partnerships tag duhh, and $500k for the tokens i'm going to obliterate to have a resemblance of a product. again its all token spend and no employee spend because vcs dont want that. solo founders is hot again so i can fully get away with this lfg.\\n\\nok, so next we use the token spend that i can vibe code and sell to \\\"wink friendly wink\\\" customers and have them give me LOIs and cARR - in return for using their products obviously. scratch mine, scratch yours. ok then i can fully wrap in the most creative financial metrics possible to show xM in revenue of ARR because who even knows what that means anymore. \\n\\nand then i'm going to run the tighteeest possible process as possible for my \\\"already oversubscribed seed\\\". get some sick angels at a discount duhh, fomo VCs, get that tier 1 TS, shop it, and tranche it to the moon baby. first at 40M, then 80M and then finally a few angels at $100M. \\n\\nof course i'm going to incorporate the company as late as possible even though all the machinery is there. so i can claim 0->10M in revenue on day 14 or whatever. \\n\\nand yeah completely forgot that i need a sick vision and a full deck, that will need $100k for someone to drill that to me cause i ain't got no clue what this category even means. don't sweat, there's a fundraising expert who might take x% and some cash or whatever to help me whisper to the right networks. yeah, that's a thing. \\n\\ndiligence? who needs charts and due diligence, we live in the token economy, and lfg economy baby. elections and the market selloff? don't sweat, the seed market is still red hot, it might take a day more, but this will still most def work.\\n\\nanyway, i'm going to go try this and i'll see you in two weeks eh?\\n\\n(before i get obliterated this is satire, but every sentence in there individually has personally happened to me)\", \"createdAt\": \"2026-11-06T17:33:30.000Z\", \"u...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@nikunj",
+            "source_url": "https://x.com/nikunj/status/2118758688567792008",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Nikunj Kothari: (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, fu...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on",
+          "ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide"
+        ],
+        "source_context": "Follow Builders / @nikunj / X / @nikunj 的原始信息主要包括：(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on；ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "ba7c65449fa5ff49",
+        "date": "2026-11-07",
+        "title": "Peter Yang: Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+        "title_zh": "OpenAI 的模型/产品能力有新变化",
+        "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09 2. Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3do...",
+        "company": "OpenAI",
+        "product": "X / @petergyang",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "产品功能",
+          "多模态"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @petergyang",
+        "source_url": "https://x.com/petergyang/status/2118869042153095422",
+        "published_at": "2026-11-07T08:52:00+08:00",
+        "fetched_at": "2026-11-07T14:49:35.412992+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2118869042153095422\", \"text\": \"Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09\", \"createdAt\": \"2026-11-07T00:52:00.000Z\", \"url\": \"https://x.com/petergyang/status/2118869042153095422\", \"likes\": 17, \"retweets\": 0, \"replies\": 14, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118852799094206787\", \"text\": \"Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. \\n\\nGoing to expedite shipping our episode. \\n\\nSubscribe here to get it soon: https://t.co/744uInp9aE https://t.co/cYja0eI996 https://t.co/Rma4NLvkCn\", \"createdAt\": \"2026-11-06T23:47:28.000Z\", \"url\": \"https://x.com/petergyang/status/2118852799094206787\", \"likes\": 90, \"retweets\": 11, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2115623382721126826\"}, {\"id\": \"2118811231545122998\", \"text\": \"Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves.\\n\\nThe ones remaining like @t3dotcodes and @orca_build are open source.\\n\\nWonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from different labs.\", \"createdAt\": \"2026-11-06T21:02:17.000Z\", \"url\": \"https://x.com/petergyang/status/2118811231545122998\", \"likes\": 49, \"retweets\": 2, \"replies\": 39, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118869042153095422\", \"text\": \"Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09\", \"createdAt\": \"2026-11-07T00:52:00.000Z\", \"url\": \"https://x.com/petergyang/status/2118869042153095422\", \"likes\": 17, \"retweets\": 0, \"replies\": 14, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118811231545122998\", \"text\": \"Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves.\\n\\nThe ones remaining like @t3dotcodes and @orca_build are open source.\\n\\nWonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from different labs.\", \"createdAt\": \"2026-11-06T21:02:17.000Z\", \"url\": \"https://x.com/petergyang/status/2118811231545122998\", \"likes\": 49, \"retweets\": 2, \"replies\": 39, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@petergyang",
+            "source_url": "https://x.com/petergyang/status/2118811231545122998",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Peter Yang: Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "Paging my favorite ChatGPT Images PM @adele__li",
+          "Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3dotcodes and @orca_build are open source. Wonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from di..."
+        ],
+        "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Paging my favorite ChatGPT Images PM @adele__li；Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3dotcodes and @orca_build are open source. Wonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from di...",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Anthropic": [
+      {
+        "id": "40b7e897ac7f002f",
+        "date": "2026-11-07",
+        "title": "Swyx: we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having...",
+        "title_zh": "Anthropic 生态出现一条值得记录的信号",
+        "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity he... 2. @StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+        "company": "Anthropic",
+        "product": "X / @swyx",
+        "category": "产品功能",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "产品功能",
+          "多模态",
+          "生态合作"
+        ],
+        "importance": "Medium",
+        "credibility": "community",
+        "source_name": "Follow Builders / @swyx",
+        "source_url": "https://x.com/swyx/status/2118905788915982341",
+        "published_at": "2026-11-07T11:18:02+08:00",
+        "fetched_at": "2026-11-07T14:49:35.411801+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2118905788915982341\", \"text\": \"we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \\n\\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.\", \"createdAt\": \"2026-11-07T03:18:02.000Z\", \"url\": \"https://x.com/swyx/status/2118905788915982341\", \"likes\": 78, \"retweets\": 0, \"replies\": 44, \"isQuote\": true, \"quotedTweetId\": \"2118905429535379691\"}, {\"id\": \"2118831214308262043\", \"text\": \"@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ\", \"createdAt\": \"2026-11-06T22:21:42.000Z\", \"url\": \"https://x.com/swyx/status/2118831214308262043\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2118831109396193635\"}, {\"id\": \"2118829491904708834\", \"text\": \"@aditabrm @reductoai @barsisyphus unironically, @allenpark cooked https://t.co/V6rr9tqBWY\", \"createdAt\": \"2026-11-06T22:14:51.000Z\", \"url\": \"https://x.com/swyx/status/2118829491904708834\", \"likes\": 3, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118905788915982341\", \"text\": \"we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \\n\\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.\", \"createdAt\": \"2026-11-07T03:18:02.000Z\", \"url\": \"https://x.com/swyx/status/2118905788915982341\", \"likes\": 78, \"retweets\": 0, \"replies\": 44, \"isQuote\": true, \"quotedTweetId\": \"2118905429535379691\"}, {\"id\": \"2118831214308262043\", \"text\": \"@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ\", \"createdAt\": \"2026-11-06T22:21:42.000Z\", \"url\": \"https://x.com/swyx/status/2118831214308262043\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2118831109396193635\"}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+        "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@swyx",
+            "source_url": "https://x.com/swyx/status/2118831214308262043",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Swyx: we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having...",
+        "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "evidence_points": [
+          "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
+          "@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video"
+        ],
+        "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.；@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video",
+        "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Builder Ecosystem": [
+      {
+        "id": "4f4656302df11af4",
+        "date": "2026-11-07",
+        "title": "Garry Tan: \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious b...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model gen... 2. Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill beca...",
+        "company": "Builder Ecosystem",
+        "product": "X / @garrytan",
+        "category": "模型更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "模型更新",
+          "Agent"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @garrytan",
+        "source_url": "https://x.com/garrytan/status/2118950671886287323",
+        "published_at": "2026-11-07T14:16:23+08:00",
+        "fetched_at": "2026-11-07T14:49:35.414667+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2118951284376285508\", \"text\": \"Computer use on Aside is *amazing* and also has an added benefit of literally being a real Chromium browser that few/almost no sites can block https://t.co/jmZVxOansa\", \"createdAt\": \"2026-11-07T06:18:49.000Z\", \"url\": \"https://x.com/garrytan/status/2118951284376285508\", \"likes\": 4, \"retweets\": 1, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2118783186859884688\"}, {\"id\": \"2118950671886287323\", \"text\": \"\\\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\\\" https://t.co/eQt5M7vZrX\", \"createdAt\": \"2026-11-07T06:16:23.000Z\", \"url\": \"https://x.com/garrytan/status/2118950671886287323\", \"likes\": 10, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2118787107174896069\"}, {\"id\": \"2118920030243139596\", \"text\": \"Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. \\n\\nI just removed /investigate as a skill because Opus 5.5 does it better without it. \\n\\nYou can feel the AGI tide rising https://t.co/RTpbEAMZVU\", \"createdAt\": \"2026-11-07T04:14:37.000Z\", \"url\": \"https://x.com/garrytan/status/2118920030243139596\", \"likes\": 217, \"retweets\": 9, \"replies\": 58, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118950671886287323\", \"text\": \"\\\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\\\" https://t.co/eQt5M7vZrX\", \"createdAt\": \"2026-11-07T06:16:23.000Z\", \"url\": \"https://x.com/garrytan/status/2118950671886287323\", \"likes\": 10, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2118787107174896069\"}, {\"id\": \"2118920030243139596\", \"text\": \"Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. \\n\\nI just removed /investigate as a skill because Opus 5.5 does it better without it. \\n\\nYou can feel the AGI tide rising https://t.co/RTpbEAMZVU\", \"createdAt\": \"2026-11-07T04:14:37.000Z\", \"url\": \"https://x.com/garrytan/status/2118920030243139596\", \"likes\": 217, \"retweets\": 9, \"replies\": 58, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [
+          {
+            "source_name": "@garrytan",
+            "source_url": "https://x.com/garrytan/status/2118920030243139596",
+            "credibility": "community"
+          }
+        ],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Garry Tan: \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious b...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"",
+          "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising"
+        ],
+        "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"；Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      },
+      {
+        "id": "a23990745e47d304",
+        "date": "2026-11-07",
+        "title": "Guillermo Rauch: Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight...",
+        "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+        "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will...",
+        "company": "Builder Ecosystem",
+        "product": "X / @rauchg",
+        "category": "API 更新",
+        "tags": [
+          "Builder 观点",
+          "X",
+          "API 更新",
+          "Agent",
+          "开发者工具"
+        ],
+        "importance": "High",
+        "credibility": "community",
+        "source_name": "Follow Builders / @rauchg",
+        "source_url": "https://x.com/rauchg/status/2118856239719608353",
+        "published_at": "2026-11-07T08:01:08+08:00",
+        "fetched_at": "2026-11-07T14:49:35.414011+08:00",
+        "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2118928276118986991\", \"text\": \"Imagine we get gta6.wasm before gta6\", \"createdAt\": \"2026-11-07T04:47:23.000Z\", \"url\": \"https://x.com/rauchg/status/2118928276118986991\", \"likes\": 143, \"retweets\": 2, \"replies\": 42, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118916001152803057\", \"text\": \"Somewhere, something incredible is waiting to be known\", \"createdAt\": \"2026-11-07T03:58:36.000Z\", \"url\": \"https://x.com/rauchg/status/2118916001152803057\", \"likes\": 356, \"retweets\": 20, \"replies\": 44, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118856239719608353\", \"text\": \"Generative UI for conversational agents.\\n\\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\\n\\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey\", \"createdAt\": \"2026-11-07T00:01:08.000Z\", \"url\": \"https://x.com/rauchg/status/2118856239719608353\", \"likes\": 1147, \"retweets\": 60, \"replies\": 131, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118856239719608353\", \"text\": \"Generative UI for conversational agents.\\n\\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\\n\\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey\", \"createdAt\": \"2026-11-07T00:01:08.000Z\", \"url\": \"https://x.com/rauchg/status/2118856239719608353\", \"likes\": 1147, \"retweets\": 60, \"replies\": 131, \"isQuote\": false, \"quotedTweetId\": null}]}",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "builder_x",
+        "original_title": "Guillermo Rauch: Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight...",
+        "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+        "evidence_points": [
+          "Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:"
+        ],
+        "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:",
+        "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ],
+    "Podcasts / Interviews": [
+      {
+        "id": "d8db0e924eb9759a",
+        "date": "2026-11-07",
+        "title": "Latent Space: Controlling Biology - Fabian Theis, Helmholtz Munich",
+        "title_zh": "Podcasts / Interviews 的模型/产品能力有新变化",
+        "summary": "Follow Builders 收录了 Latent Space 的一期播客：Controlling Biology - Fabian Theis, Helmholtz Munich。转录摘要线索：We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction. But now we can go to actually steering the next experiment. But quite frankly, very often the papers ended with some model, right? Maybe some sort of concept figure, maybe add a little bit validation. But then typically you start the next project, right? And o...",
+        "company": "Podcasts / Interviews",
+        "product": "Latent Space",
+        "category": "模型更新",
+        "tags": [
+          "Builder 访谈",
+          "Podcast",
+          "模型更新",
+          "产品功能",
+          "论文研究"
+        ],
+        "importance": "Medium",
+        "credibility": "media",
+        "source_name": "Follow Builders / Latent Space",
+        "source_url": "https://www.youtube.com/@LatentSpacePod",
+        "published_at": "2026-11-06T22:48:24+08:00",
+        "fetched_at": "2026-11-07T14:49:35.419526+08:00",
+        "raw_text": "We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction. But now we can go to actually steering the next experiment. But quite frankly, very often the papers ended with some model, right? Maybe some sort of concept figure, maybe add a little bit validation. But then typically you start the next project, right? And of course you learn a bit, but it's not like, not like a continual learning type of thing. A new thing we ca-- which we call Lab Compass, which is an inverse generative model that actually allows you, once you have a forward world model or whatever, to tell you what you need to do in order to reach a certain state. Obviously, the, the ultimate vision being that we want to RL everything. We want to do RL also in, in this loop. It it's a bit out there, but you know, I think we're s- we're slowly getting there. Welcome to the Latent Space AI for Science podcast. I'm RJ Hanocki, CTO of Mira Omics. I'm joined by my co-host, Brandon Anderson, who develops RNA therapeutics at Atomic AI. I can't emphasize enough how much Fabian Theis and his labs and companies have contributed to the development of systems biology and various iterations of the virtual cell concept. Papers and models come out of his lab faster than I can read them, and the lab is consistently moving the ball forward on our understanding of how to observe and model the behaviors and the interactions of cells. Just as importantly, his work often focuses on creating the tools that researchers and scientists actually use in their day-to-day work. Most computational biologists have probably used Scanpy and Anndata at some point, and this work has led to the creation of scVerse, which is an amazing collection of open tools that has attracted many, many contributors. Of course, Fabian is one of those academics who has way more honors than you can possibly list, but suffice it to say that he leads a bunch of the AI and computational biology efforts at Helmholtz Munich and related institutions, and participates also in many other industry efforts. Fabian, it's really great to meet you. Thanks a lot for joining us. Thanks for having me. I'm really looking forward to the discussion, man. Yeah, I've been tracking your work for a long time, and so it's a great honor to finally get you on the show and talk to you. Let's kick things off with some of the hype happening right now. There's a ton of interest right now in structural biology. Anthropic and OpenAI biopharma initiatives focus heavily on designing molecules right now. On the other hand, virtual cell and systems biology approaches really haven't gotten as much attention recently. Maybe Zera and Noetic are good counter examples there. But Biohub just announced a one point eight billion dollar collaboration with the DOE, the NIH, Meta and Google to collect a...",
+        "is_manual_input": false,
+        "is_duplicate": false,
+        "duplicate_of": "",
+        "is_verified": true,
+        "needs_follow_up": false,
+        "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+        "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+        "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+        "secondary_sources": [],
+        "multi_source": false,
+        "source_platform": "follow-builders",
+        "source_kind": "podcast",
+        "original_title": "Latent Space: Controlling Biology - Fabian Theis, Helmholtz Munich",
+        "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+        "evidence_points": [
+          "We can really now start guiding the experimentation.",
+          "So where before you, we built these human cell atlases, we had sort of this mapping aspect.",
+          "Then we talked about the world models prediction problem.",
+          "But now we can go to actually steering the next experiment."
+        ],
+        "source_context": "Follow Builders / Latent Space 的原始信息主要包括：We can really now start guiding the experimentation.；So where before you, we built these human cell atlases, we had sort of this mapping aspect.",
+        "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+        "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+      }
+    ]
+  },
+  "deep_dives": [
+    {
+      "event_id": "4f4656302df11af4",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323",
+      "source_name": "Follow Builders / @garrytan",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者、企业客户和普通用户的实际收益仍需看可用入口、价格和限制条件。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "bed7782866fe9122",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "source_name": "Follow Builders / @thsottiaux",
+      "problem_solved": "主要解决从模型回答到任务执行之间的工作流连接问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 OpenAI 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "event_id": "a23990745e47d304",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353",
+      "source_name": "Follow Builders / @rauchg",
+      "problem_solved": "主要解决开发者接入、能力调用或平台集成中的具体问题。",
+      "industry_signal": "行业信号是平台竞争正在向工具调用、上下文管理和任务执行链路延伸。",
+      "competition_impact": "对竞争格局的影响取决于 Builder Ecosystem 是否能把这次更新转化为稳定产品入口、API 使用量或开发者生态优势。",
+      "user_impact": "开发者需要关注接口变化、迁移成本和能否减少手工集成；企业客户更关心稳定性、权限和合规；普通用户影响可能间接体现为产品体验提升。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "personal_takeaway": "建议记录它如何连接文件、代码、数据库、浏览器或企业系统，这是理解 Agent 工作流的关键。",
+      "uncertainty": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "agent_tools": [
+    {
+      "event_id": "4f4656302df11af4",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "bed7782866fe9122",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "a23990745e47d304",
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "company": "Builder Ecosystem",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "c09333984f9ce904",
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "company": "OpenAI",
+      "source_url": "https://x.com/nikunj/status/2118840414853861627",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合代码理解、脚手架生成、仓库内修改、命令行自动化和开发流程提效。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "High",
+      "credibility": "community"
+    },
+    {
+      "event_id": "40b7e897ac7f002f",
+      "title": "Anthropic 生态出现一条值得记录的信号",
+      "company": "Anthropic",
+      "source_url": "https://x.com/swyx/status/2118905788915982341",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合检索增强、信息核查、研究型工作流和知识库问答。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    },
+    {
+      "event_id": "ba7c65449fa5ff49",
+      "title": "OpenAI 的模型/产品能力有新变化",
+      "company": "OpenAI",
+      "source_url": "https://x.com/petergyang/status/2118869042153095422",
+      "workflow_help": "可能帮助把模型能力接入编码、检索、企业知识库或自动化任务链路。",
+      "try_or_not": "值得试用",
+      "scenarios": "适合先作为 Agent 工作流候选工具观察，重点看权限、上下文、执行稳定性和集成成本。",
+      "business_relevance": "与业务自动化、AI 工作台、云服务销售中的方案理解有关，适合沉淀为案例。",
+      "importance": "Medium",
+      "credibility": "community"
+    }
+  ],
+  "model_api_changes": [
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @garrytan",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model gen... 2. Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill beca...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @thsottiaux",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Quite cool what you can do with a single prompt these days 👀",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000"
+    },
+    {
+      "company": "Builder Ecosystem",
+      "model_product": "X / @rauchg",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will...",
+      "change_type": "Builder 观点, X, API 更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能影响企业采购、云平台绑定和业务自动化方案设计。",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @nikunj",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Nikunj Kothari（@nikunj） 在 X 上的最新动态。简介：partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧。要点：1. (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, full disk access and that's it (or use claude code / codex) &gt; runs on... 2. ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "可能推动从单点工具采购走向端到端工作流方案。",
+      "source_url": "https://x.com/nikunj/status/2118840414853861627"
+    },
+    {
+      "company": "Anthropic",
+      "model_product": "X / @swyx",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity he... 2. @StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+      "change_type": "Builder 观点, X, 产品功能",
+      "developer_impact": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/swyx/status/2118905788915982341"
+    },
+    {
+      "company": "OpenAI",
+      "model_product": "X / @petergyang",
+      "before": "信息不足",
+      "after": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09 2. Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3do...",
+      "change_type": "Builder 观点, X, 模型更新",
+      "developer_impact": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://x.com/petergyang/status/2118869042153095422"
+    },
+    {
+      "company": "Podcasts / Interviews",
+      "model_product": "Latent Space",
+      "before": "信息不足",
+      "after": "Follow Builders 收录了 Latent Space 的一期播客：Controlling Biology - Fabian Theis, Helmholtz Munich。转录摘要线索：We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction. But now we can go to actually steering the next experiment. But quite frankly, very often the papers ended with some model, right? Maybe some sort of concept figure, maybe add a little bit validation. But then typically you start the next project, right? And o...",
+      "change_type": "Builder 访谈, Podcast, 模型更新",
+      "developer_impact": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "business_impact": "商业化影响暂时需要更多使用数据和客户场景验证。",
+      "source_url": "https://www.youtube.com/@LatentSpacePod"
+    }
+  ],
+  "manual_review": [],
+  "cognition": [
+    {
+      "insight": "Agent 工具的核心不是替代聊天，而是把 AI 从回答者变成执行者。",
+      "explanation": "今天的开发者工具更新需要放到真实任务链路中评估，而不是只看演示效果。",
+      "source_title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323"
+    },
+    {
+      "insight": "每日追踪的价值在于把零散更新沉淀成可复用的判断框架。",
+      "explanation": "单条信息可能很小，但连续观察能帮助识别平台战略和商业化节奏。",
+      "source_title": "Anthropic 生态出现一条值得记录的信号",
+      "source_url": "https://x.com/swyx/status/2118905788915982341"
+    },
+    {
+      "insight": "模型竞争正在从单点能力转向模型、工具链和分发渠道的组合竞争。",
+      "explanation": "只看 benchmark 容易低估产品入口和开发者生态的价值。",
+      "source_title": "OpenAI 的模型/产品能力有新变化",
+      "source_url": "https://x.com/petergyang/status/2118869042153095422"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "OpenAI 相关 Agent 动态值得跟踪",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/nikunj/status/2118840414853861627",
+      "reason": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。"
+    },
+    {
+      "title": "Anthropic 生态出现一条值得记录的信号",
+      "action": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "source_url": "https://x.com/swyx/status/2118905788915982341",
+      "reason": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。"
+    }
+  ],
+  "events": [
+    {
+      "id": "4f4656302df11af4",
+      "date": "2026-11-07",
+      "title": "Garry Tan: \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious b...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Garry Tan（@garrytan） 在 X 上的最新动态。简介：President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop。要点：1. \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model gen... 2. Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill beca...",
+      "company": "Builder Ecosystem",
+      "product": "X / @garrytan",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "Agent"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @garrytan",
+      "source_url": "https://x.com/garrytan/status/2118950671886287323",
+      "published_at": "2026-11-07T14:16:23+08:00",
+      "fetched_at": "2026-11-07T14:49:35.414667+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Garry Tan\", \"handle\": \"garrytan\", \"bio\": \"President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop\", \"tweets\": [{\"id\": \"2118951284376285508\", \"text\": \"Computer use on Aside is *amazing* and also has an added benefit of literally being a real Chromium browser that few/almost no sites can block https://t.co/jmZVxOansa\", \"createdAt\": \"2026-11-07T06:18:49.000Z\", \"url\": \"https://x.com/garrytan/status/2118951284376285508\", \"likes\": 4, \"retweets\": 1, \"replies\": 2, \"isQuote\": true, \"quotedTweetId\": \"2118783186859884688\"}, {\"id\": \"2118950671886287323\", \"text\": \"\\\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\\\" https://t.co/eQt5M7vZrX\", \"createdAt\": \"2026-11-07T06:16:23.000Z\", \"url\": \"https://x.com/garrytan/status/2118950671886287323\", \"likes\": 10, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2118787107174896069\"}, {\"id\": \"2118920030243139596\", \"text\": \"Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. \\n\\nI just removed /investigate as a skill because Opus 5.5 does it better without it. \\n\\nYou can feel the AGI tide rising https://t.co/RTpbEAMZVU\", \"createdAt\": \"2026-11-07T04:14:37.000Z\", \"url\": \"https://x.com/garrytan/status/2118920030243139596\", \"likes\": 217, \"retweets\": 9, \"replies\": 58, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118950671886287323\", \"text\": \"\\\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\\\" https://t.co/eQt5M7vZrX\", \"createdAt\": \"2026-11-07T06:16:23.000Z\", \"url\": \"https://x.com/garrytan/status/2118950671886287323\", \"likes\": 10, \"retweets\": 1, \"replies\": 3, \"isQuote\": true, \"quotedTweetId\": \"2118787107174896069\"}, {\"id\": \"2118920030243139596\", \"text\": \"Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. \\n\\nI just removed /investigate as a skill because Opus 5.5 does it better without it. \\n\\nYou can feel the AGI tide rising https://t.co/RTpbEAMZVU\", \"createdAt\": \"2026-11-07T04:14:37.000Z\", \"url\": \"https://x.com/garrytan/status/2118920030243139596\", \"likes\": 217, \"retweets\": 9, \"replies\": 58, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@garrytan",
+          "source_url": "https://x.com/garrytan/status/2118920030243139596",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Garry Tan: \"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious b...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"",
+        "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising"
+      ],
+      "source_context": "Follow Builders / @garrytan / X / @garrytan 的原始信息主要包括：\"Using just 3 million tokens of advice from ordinary people facing complex moral dilemmas brought malicious behavior down to 0%, with a 28-fold jump in efficiency across model generations\"；Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "bed7782866fe9122",
+      "date": "2026-11-07",
+      "title": "Thibault Sottiaux: Quite cool what you can do with a single prompt these days 👀",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Thibault Sottiaux（@thsottiaux） 在 X 上的最新动态。简介：Codex & ChatGPT @OpenAI。要点：1. Quite cool what you can do with a single prompt these days 👀",
+      "company": "OpenAI",
+      "product": "X / @thsottiaux",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @thsottiaux",
+      "source_url": "https://x.com/thsottiaux/status/2118939076791546000",
+      "published_at": "2026-11-07T13:30:18+08:00",
+      "fetched_at": "2026-11-07T14:49:35.412282+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Thibault Sottiaux\", \"handle\": \"thsottiaux\", \"bio\": \"Codex & ChatGPT @OpenAI\", \"tweets\": [{\"id\": \"2118939076791546000\", \"text\": \"Quite cool what you can do with a single prompt these days 👀\", \"createdAt\": \"2026-11-07T05:30:18.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118939076791546000\", \"likes\": 492, \"retweets\": 7, \"replies\": 105, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118938956301779171\", \"text\": \"Get me out of the basement\\n\\nhttps://t.co/SsG3P83NBg https://t.co/eeASj3vnsN\", \"createdAt\": \"2026-11-07T05:29:49.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118938956301779171\", \"likes\": 1776, \"retweets\": 48, \"replies\": 586, \"isQuote\": true, \"quotedTweetId\": \"2118871902366441879\"}, {\"id\": \"2118871902366441879\", \"text\": \"It's Friday\", \"createdAt\": \"2026-11-07T01:03:22.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118871902366441879\", \"likes\": 5778, \"retweets\": 110, \"replies\": 1692, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118939076791546000\", \"text\": \"Quite cool what you can do with a single prompt these days 👀\", \"createdAt\": \"2026-11-07T05:30:18.000Z\", \"url\": \"https://x.com/thsottiaux/status/2118939076791546000\", \"likes\": 492, \"retweets\": 7, \"replies\": 105, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Thibault Sottiaux: Quite cool what you can do with a single prompt these days 👀",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Quite cool what you can do with a single prompt these days 👀"
+      ],
+      "source_context": "Follow Builders / @thsottiaux / X / @thsottiaux 的原始信息主要包括：Quite cool what you can do with a single prompt these days 👀",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "a23990745e47d304",
+      "date": "2026-11-07",
+      "title": "Guillermo Rauch: Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight...",
+      "title_zh": "Builder Ecosystem 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Guillermo Rauch（@rauchg） 在 X 上的最新动态。简介：@vercel CEO。要点：1. Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will...",
+      "company": "Builder Ecosystem",
+      "product": "X / @rauchg",
+      "category": "API 更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "API 更新",
+        "Agent",
+        "开发者工具"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @rauchg",
+      "source_url": "https://x.com/rauchg/status/2118856239719608353",
+      "published_at": "2026-11-07T08:01:08+08:00",
+      "fetched_at": "2026-11-07T14:49:35.414011+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Guillermo Rauch\", \"handle\": \"rauchg\", \"bio\": \"@vercel CEO\", \"tweets\": [{\"id\": \"2118928276118986991\", \"text\": \"Imagine we get gta6.wasm before gta6\", \"createdAt\": \"2026-11-07T04:47:23.000Z\", \"url\": \"https://x.com/rauchg/status/2118928276118986991\", \"likes\": 143, \"retweets\": 2, \"replies\": 42, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118916001152803057\", \"text\": \"Somewhere, something incredible is waiting to be known\", \"createdAt\": \"2026-11-07T03:58:36.000Z\", \"url\": \"https://x.com/rauchg/status/2118916001152803057\", \"likes\": 356, \"retweets\": 20, \"replies\": 44, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118856239719608353\", \"text\": \"Generative UI for conversational agents.\\n\\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\\n\\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey\", \"createdAt\": \"2026-11-07T00:01:08.000Z\", \"url\": \"https://x.com/rauchg/status/2118856239719608353\", \"likes\": 1147, \"retweets\": 60, \"replies\": 131, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118856239719608353\", \"text\": \"Generative UI for conversational agents.\\n\\nCombining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams.\\n\\nI believe this will become the dominant Human-Agent Interaction (HAI) paradigm:\\nhttps://t.co/MHxtLyoy7t https://t.co/tRgxRi5Hey\", \"createdAt\": \"2026-11-07T00:01:08.000Z\", \"url\": \"https://x.com/rauchg/status/2118856239719608353\", \"likes\": 1147, \"retweets\": 60, \"replies\": 131, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Guillermo Rauch: Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:"
+      ],
+      "source_context": "Follow Builders / @rauchg / X / @rauchg 的原始信息主要包括：Generative UI for conversational agents. Combining @aisdk with Chat SDK and 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛, you can go straight from LLM to UI on platforms like Slack and Teams. I believe this will become the dominant Human-Agent Interaction (HAI) paradigm:",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "c09333984f9ce904",
+      "date": "2026-11-07",
+      "title": "Nikunj Kothari: (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, fu...",
+      "title_zh": "OpenAI 相关 Agent 动态值得跟踪",
+      "summary": "Follow Builders 记录到 Nikunj Kothari（@nikunj） 在 X 上的最新动态。简介：partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧。要点：1. (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, full disk access and that's it (or use claude code / codex) &gt; runs on... 2. ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide...",
+      "company": "OpenAI",
+      "product": "X / @nikunj",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "Agent",
+        "开发者工具",
+        "生态合作"
+      ],
+      "importance": "High",
+      "credibility": "community",
+      "source_name": "Follow Builders / @nikunj",
+      "source_url": "https://x.com/nikunj/status/2118840414853861627",
+      "published_at": "2026-11-07T06:58:15+08:00",
+      "fetched_at": "2026-11-07T14:49:35.416167+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Nikunj Kothari\", \"handle\": \"nikunj\", \"bio\": \"partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧\", \"tweets\": [{\"id\": \"2118840414853861627\", \"text\": \"(re) introducing texts wrapped\\n\\n&gt; imessage, whatsapp and phone calls analyzed\\n&gt; one terminal command, full disk access and that's it (or use claude code / codex)\\n&gt; runs on Mac, 100% local, no AI, open source\\n&gt; fresh coat of paint, new insights, better accuracy\\n\\nwrap2026 dot com https://t.co/u6hprVFnBm\", \"createdAt\": \"2026-11-06T22:58:15.000Z\", \"url\": \"https://x.com/nikunj/status/2118840414853861627\", \"likes\": 5, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118758688567792008\", \"text\": \"ok so here's how we get to building a 100M company in two weeks before thanksgiving.. \\n\\nfirst, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch video, $200k to promote the launch video to xM impressions - i have six agencies lined up for this don't sweat with no paid partnerships tag duhh, and $500k for the tokens i'm going to obliterate to have a resemblance of a product. again its all token spend and no employee spend because vcs dont want that. solo founders is hot again so i can fully get away with this lfg.\\n\\nok, so next we use the token spend that i can vibe code and sell to \\\"wink friendly wink\\\" customers and have them give me LOIs and cARR - in return for using their products obviously. scratch mine, scratch yours. ok then i can fully wrap in the most creative financial metrics possible to show xM in revenue of ARR because who even knows what that means anymore. \\n\\nand then i'm going to run the tighteeest possible process as possible for my \\\"already oversubscribed seed\\\". get some sick angels at a discount duhh, fomo VCs, get that tier 1 TS, shop it, and tranche it to the moon baby. first at 40M, then 80M and then finally a few angels at $100M. \\n\\nof course i'm going to incorporate the company as late as possible even though all the machinery is there. so i can claim 0->10M in revenue on day 14 or whatever. \\n\\nand yeah completely forgot that i need a sick vision and a full deck, that will need $100k for someone to drill that to me cause i ain't got no clue what this category even means. don't sweat, there's a fundraising expert who might take x% and some cash or whatever to help me whisper to the right networks. yeah, that's a thing. \\n\\ndiligence? who needs charts and due diligence, we live in the token economy, and lfg economy baby. elections and the market selloff? don't sweat, the seed market is still red hot, it might take a day more, but this will still most def work.\\n\\nanyway, i'm going to go try this and i'll see you in two weeks eh?\\n\\n(before i get obliterated this is satire, but every sentence in there individually has personally happened to me)\", \"createdAt\": \"2026-11-06T17:33:30.000Z\", \"u...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@nikunj",
+          "source_url": "https://x.com/nikunj/status/2118758688567792008",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Nikunj Kothari: (re) introducing texts wrapped &gt; imessage, whatsapp and phone calls analyzed &gt; one terminal command, fu...",
+      "core_viewpoint": "核心信号是 AI 工具正在从问答能力转向任务执行、上下文管理和工作流控制。",
+      "evidence_points": [
+        "(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on",
+        "ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide"
+      ],
+      "source_context": "Follow Builders / @nikunj / X / @nikunj 的原始信息主要包括：(re) introducing texts wrapped > imessage, whatsapp and phone calls analyzed > one terminal command, full disk access and that's it (or use claude code / codex) > runs on；ok so here's how we get to building a 100M company in two weeks before thanksgiving.. first, our preseed plan. we're going to raise $2M. why $2M? simple. $200k for the launch vide",
+      "reader_takeaway": "我的判断：优先观察它是否能稳定连接文件、代码、浏览器、知识库或企业系统；这决定它是不是工作流入口。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "40b7e897ac7f002f",
+      "date": "2026-11-07",
+      "title": "Swyx: we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having...",
+      "title_zh": "Anthropic 生态出现一条值得记录的信号",
+      "summary": "Follow Builders 记录到 Swyx（@swyx） 在 X 上的最新动态。简介：achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @cognition - @temporalio - @aidotengineer - @latentspacepod。要点：1. we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity he... 2. @StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ",
+      "company": "Anthropic",
+      "product": "X / @swyx",
+      "category": "产品功能",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "产品功能",
+        "多模态",
+        "生态合作"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @swyx",
+      "source_url": "https://x.com/swyx/status/2118905788915982341",
+      "published_at": "2026-11-07T11:18:02+08:00",
+      "fetched_at": "2026-11-07T14:49:35.411801+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Swyx\", \"handle\": \"swyx\", \"bio\": \"achieve ambition with intentionality, intensity, integrity & insanity.\\n\\naffiliations:\\n- @smol_ai\\n- @cognition\\n- @temporalio\\n- @aidotengineer\\n- @latentspacepod\", \"tweets\": [{\"id\": \"2118905788915982341\", \"text\": \"we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \\n\\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.\", \"createdAt\": \"2026-11-07T03:18:02.000Z\", \"url\": \"https://x.com/swyx/status/2118905788915982341\", \"likes\": 78, \"retweets\": 0, \"replies\": 44, \"isQuote\": true, \"quotedTweetId\": \"2118905429535379691\"}, {\"id\": \"2118831214308262043\", \"text\": \"@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ\", \"createdAt\": \"2026-11-06T22:21:42.000Z\", \"url\": \"https://x.com/swyx/status/2118831214308262043\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2118831109396193635\"}, {\"id\": \"2118829491904708834\", \"text\": \"@aditabrm @reductoai @barsisyphus unironically, @allenpark cooked https://t.co/V6rr9tqBWY\", \"createdAt\": \"2026-11-06T22:14:51.000Z\", \"url\": \"https://x.com/swyx/status/2118829491904708834\", \"likes\": 3, \"retweets\": 0, \"replies\": 2, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118905788915982341\", \"text\": \"we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. \\n\\nHaving covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.\", \"createdAt\": \"2026-11-07T03:18:02.000Z\", \"url\": \"https://x.com/swyx/status/2118905788915982341\", \"likes\": 78, \"retweets\": 0, \"replies\": 44, \"isQuote\": true, \"quotedTweetId\": \"2118905429535379691\"}, {\"id\": \"2118831214308262043\", \"text\": \"@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video https://t.co/lHywQfrceQ\", \"createdAt\": \"2026-11-06T22:21:42.000Z\", \"url\": \"https://x.com/swyx/status/2118831214308262043\", \"likes\": 2, \"retweets\": 0, \"replies\": 0, \"isQuote\": true, \"quotedTweetId\": \"2118831109396193635\"}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "它有助于观察 AI 从技术能力进入企业采购、业务流程和商业化落地的路径。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@swyx",
+          "source_url": "https://x.com/swyx/status/2118831214308262043",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Swyx: we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having...",
+      "core_viewpoint": "这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "evidence_points": [
+        "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
+        "@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video"
+      ],
+      "source_context": "Follow Builders / @swyx / X / @swyx 的原始信息主要包括：we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.；@StandupPartners @ryolu_ @Microsoft @MiniMax_AI @theworldlabs @HeyGen @ExaAILabs recap video",
+      "reader_takeaway": "我的判断：这条信息需要结合原始来源和后续产品事实判断，先作为趋势观察样本记录。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "ba7c65449fa5ff49",
+      "date": "2026-11-07",
+      "title": "Peter Yang: Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+      "title_zh": "OpenAI 的模型/产品能力有新变化",
+      "summary": "Follow Builders 记录到 Peter Yang（@petergyang） 在 X 上的最新动态。简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6。要点：1. Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09 2. Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3do...",
+      "company": "OpenAI",
+      "product": "X / @petergyang",
+      "category": "模型更新",
+      "tags": [
+        "Builder 观点",
+        "X",
+        "模型更新",
+        "产品功能",
+        "多模态"
+      ],
+      "importance": "Medium",
+      "credibility": "community",
+      "source_name": "Follow Builders / @petergyang",
+      "source_url": "https://x.com/petergyang/status/2118869042153095422",
+      "published_at": "2026-11-07T08:52:00+08:00",
+      "fetched_at": "2026-11-07T14:49:35.412992+08:00",
+      "raw_text": "{\"builder\": {\"source\": \"x\", \"name\": \"Peter Yang\", \"handle\": \"petergyang\", \"bio\": \"Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6\", \"tweets\": [{\"id\": \"2118869042153095422\", \"text\": \"Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09\", \"createdAt\": \"2026-11-07T00:52:00.000Z\", \"url\": \"https://x.com/petergyang/status/2118869042153095422\", \"likes\": 17, \"retweets\": 0, \"replies\": 14, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118852799094206787\", \"text\": \"Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. \\n\\nGoing to expedite shipping our episode. \\n\\nSubscribe here to get it soon: https://t.co/744uInp9aE https://t.co/cYja0eI996 https://t.co/Rma4NLvkCn\", \"createdAt\": \"2026-11-06T23:47:28.000Z\", \"url\": \"https://x.com/petergyang/status/2118852799094206787\", \"likes\": 90, \"retweets\": 11, \"replies\": 24, \"isQuote\": true, \"quotedTweetId\": \"2115623382721126826\"}, {\"id\": \"2118811231545122998\", \"text\": \"Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves.\\n\\nThe ones remaining like @t3dotcodes and @orca_build are open source.\\n\\nWonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from different labs.\", \"createdAt\": \"2026-11-06T21:02:17.000Z\", \"url\": \"https://x.com/petergyang/status/2118811231545122998\", \"likes\": 49, \"retweets\": 2, \"replies\": 39, \"isQuote\": false, \"quotedTweetId\": null}]}, \"tweets\": [{\"id\": \"2118869042153095422\", \"text\": \"Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09\", \"createdAt\": \"2026-11-07T00:52:00.000Z\", \"url\": \"https://x.com/petergyang/status/2118869042153095422\", \"likes\": 17, \"retweets\": 0, \"replies\": 14, \"isQuote\": false, \"quotedTweetId\": null}, {\"id\": \"2118811231545122998\", \"text\": \"Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves.\\n\\nThe ones remaining like @t3dotcodes and @orca_build are open source.\\n\\nWonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from different labs.\", \"createdAt\": \"2026-11-06T21:02:17.000Z\", \"url\": \"https://x.com/petergyang/status/2118811231545122998\", \"likes\": 49, \"retweets\": 2, \"replies\": 39, \"isQuote\": false, \"quotedTweetId\": null}]}",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：需要把 builder 观点和官方产品事实分开看，避免把个人判断误读为已发布能力。",
+      "why_it_matters": "这不是官方公告，但来自一线 builder 的原始表达，适合作为行业温度和早期信号来源。",
+      "action_suggestion": "打开原始 X 链接，判断这是否只是个人观点，还是已经对应到产品、文档或可试用入口。",
+      "secondary_sources": [
+        {
+          "source_name": "@petergyang",
+          "source_url": "https://x.com/petergyang/status/2118811231545122998",
+          "credibility": "community"
+        }
+      ],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "builder_x",
+      "original_title": "Peter Yang: Paging my favorite ChatGPT Images PM @adele__li https://t.co/DGXQQyEP09",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "Paging my favorite ChatGPT Images PM @adele__li",
+        "Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3dotcodes and @orca_build are open source. Wonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from di..."
+      ],
+      "source_context": "Follow Builders / @petergyang / X / @petergyang 的原始信息主要包括：Paging my favorite ChatGPT Images PM @adele__li；Feels like all the apps that can use models from different labs like @conductor_build, cursor and others are getting acquired by the labs themselves. The ones remaining like @t3dotcodes and @orca_build are open source. Wonder how this will all play out. Personally I think there’s still a lot of user and enterprise demand for apps that can use models from di...",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    },
+    {
+      "id": "d8db0e924eb9759a",
+      "date": "2026-11-07",
+      "title": "Latent Space: Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "title_zh": "Podcasts / Interviews 的模型/产品能力有新变化",
+      "summary": "Follow Builders 收录了 Latent Space 的一期播客：Controlling Biology - Fabian Theis, Helmholtz Munich。转录摘要线索：We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction. But now we can go to actually steering the next experiment. But quite frankly, very often the papers ended with some model, right? Maybe some sort of concept figure, maybe add a little bit validation. But then typically you start the next project, right? And o...",
+      "company": "Podcasts / Interviews",
+      "product": "Latent Space",
+      "category": "模型更新",
+      "tags": [
+        "Builder 访谈",
+        "Podcast",
+        "模型更新",
+        "产品功能",
+        "论文研究"
+      ],
+      "importance": "Medium",
+      "credibility": "media",
+      "source_name": "Follow Builders / Latent Space",
+      "source_url": "https://www.youtube.com/@LatentSpacePod",
+      "published_at": "2026-11-06T22:48:24+08:00",
+      "fetched_at": "2026-11-07T14:49:35.419526+08:00",
+      "raw_text": "We can really now start guiding the experimentation. So where before you, we built these human cell atlases, we had sort of this mapping aspect. Then we talked about the world models prediction problem. From mapping, we went to prediction. But now we can go to actually steering the next experiment. But quite frankly, very often the papers ended with some model, right? Maybe some sort of concept figure, maybe add a little bit validation. But then typically you start the next project, right? And of course you learn a bit, but it's not like, not like a continual learning type of thing. A new thing we ca-- which we call Lab Compass, which is an inverse generative model that actually allows you, once you have a forward world model or whatever, to tell you what you need to do in order to reach a certain state. Obviously, the, the ultimate vision being that we want to RL everything. We want to do RL also in, in this loop. It it's a bit out there, but you know, I think we're s- we're slowly getting there. Welcome to the Latent Space AI for Science podcast. I'm RJ Hanocki, CTO of Mira Omics. I'm joined by my co-host, Brandon Anderson, who develops RNA therapeutics at Atomic AI. I can't emphasize enough how much Fabian Theis and his labs and companies have contributed to the development of systems biology and various iterations of the virtual cell concept. Papers and models come out of his lab faster than I can read them, and the lab is consistently moving the ball forward on our understanding of how to observe and model the behaviors and the interactions of cells. Just as importantly, his work often focuses on creating the tools that researchers and scientists actually use in their day-to-day work. Most computational biologists have probably used Scanpy and Anndata at some point, and this work has led to the creation of scVerse, which is an amazing collection of open tools that has attracted many, many contributors. Of course, Fabian is one of those academics who has way more honors than you can possibly list, but suffice it to say that he leads a bunch of the AI and computational biology efforts at Helmholtz Munich and related institutions, and participates also in many other industry efforts. Fabian, it's really great to meet you. Thanks a lot for joining us. Thanks for having me. I'm really looking forward to the discussion, man. Yeah, I've been tracking your work for a long time, and so it's a great honor to finally get you on the show and talk to you. Let's kick things off with some of the hype happening right now. There's a ton of interest right now in structural biology. Anthropic and OpenAI biopharma initiatives focus heavily on designing molecules right now. On the other hand, virtual cell and systems biology approaches really haven't gotten as much attention recently. Maybe Zera and Noetic are good counter examples there. But Biohub just announced a one point eight billion dollar collaboration with the DOE, the NIH, Meta and Google to collect a...",
+      "is_manual_input": false,
+      "is_duplicate": false,
+      "duplicate_of": "",
+      "is_verified": true,
+      "needs_follow_up": false,
+      "analysis": "初步判断：Agent 相关讨论正在从“模型能不能做”转向“如何嵌入个人和企业工作流”。",
+      "why_it_matters": "这类 builder 动态能更早反映 Agent 工具从演示走向日常工作流的真实用法。",
+      "action_suggestion": "优先听这期访谈或检索转录，提炼 builder 对产品、商业化和 Agent 工作流的原始判断。",
+      "secondary_sources": [],
+      "multi_source": false,
+      "source_platform": "follow-builders",
+      "source_kind": "podcast",
+      "original_title": "Latent Space: Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "core_viewpoint": "核心信号是模型能力继续被包装进用户可感知的产品入口。",
+      "evidence_points": [
+        "We can really now start guiding the experimentation.",
+        "So where before you, we built these human cell atlases, we had sort of this mapping aspect.",
+        "Then we talked about the world models prediction problem.",
+        "But now we can go to actually steering the next experiment."
+      ],
+      "source_context": "Follow Builders / Latent Space 的原始信息主要包括：We can really now start guiding the experimentation.；So where before you, we built these human cell atlases, we had sort of this mapping aspect.",
+      "reader_takeaway": "我的判断：先确认它是否有明确产品入口、价格/限制和可复现实例，再判断影响。",
+      "uncertainty_note": "这条信息可追溯到原始 builder / 媒体来源，但不等同于公司官方确认。"
+    }
+  ],
+  "duplicates": [],
+  "failures": [],
+  "stats": {
+    "total_events": 7,
+    "manual_events": 0,
+    "duplicates": 0,
+    "verified_events": 7,
+    "needs_follow_up": 0,
+    "source_failures": 0,
+    "manual_files": [],
+    "generated_at": "2026-11-07T14:49:35.442807+08:00"
+  }
+}
