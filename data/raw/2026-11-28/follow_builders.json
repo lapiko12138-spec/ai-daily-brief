@@ -1,0 +1,395 @@
+{
+  "source": {
+    "id": "follow_builders",
+    "name": "Follow Builders",
+    "type": "follow_builders",
+    "enabled": true,
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "script_url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/scripts/prepare-digest.js",
+    "use_skill_script": true,
+    "fallback_to_feeds": true,
+    "reuse_cached_raw_on_failure": true,
+    "timeout_seconds": 25,
+    "skill_timeout_seconds": 60,
+    "max_x_builders": 18,
+    "max_tweets_per_builder": 3,
+    "max_podcasts": 5,
+    "podcast_window_days": 7,
+    "max_blogs": 6,
+    "language": "zh"
+  },
+  "adapter_mode": "follow-builders prepare-digest.js",
+  "fetched_at": "2026-11-28T16:40:14.947817+08:00",
+  "events_count": 7,
+  "stats": {
+    "podcastEpisodes": 1,
+    "xBuilders": 10,
+    "totalTweets": 22,
+    "blogPosts": 0,
+    "feedGeneratedAt": "2026-11-28T06:27:35.385Z"
+  },
+  "digest_generated_at": "2026-11-28T08:40:14.922Z",
+  "skill_errors": [],
+  "adapter_errors": [],
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-11-28T08:40:14.922Z",
+    "config": {
+      "language": "en",
+      "frequency": "daily",
+      "delivery": {
+        "method": "stdout"
+      }
+    },
+    "podcasts": [
+      {
+        "source": "podcast",
+        "name": "Latent Space",
+        "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+        "guid": "01a21efa-24c7-73e6-9c0f-67c191aeb8ff",
+        "url": "https://www.youtube.com/@LatentSpacePod",
+        "publishedAt": "2026-11-27T22:19:18.000Z",
+        "transcript": "But if you make them too hard, they become evals. [laughs] Right? Uh, and if you make them too easy, they're, they're worthless.\n\nSo you need to make them just hard enough that they're a few steps away from what the model can do today, so they're trainable, and efficiently trainable. [upbeat music] Okay, we're here at AIE Code.\n\nFirst podcast of the day, uh, with Gabe Greenberg, CEO of G2I. Glad to be here. Always a pleasure. Uh, this is the first ever co-organized conference between AIE with a external partner, G2I.\n\nUh, and you guys are crushing it. Um, it's been such a pleasure to work with your team. Um, I've obviously known you for more than 10 years maybe, I think. Maybe 10 years.\n\nUm, and you guys run React Miami, AIE Miami, and now you're co-running AIE Code with us. Um, but that, you know, that is your side project. What is G2I? Uh, we, uh, we do human data and, uh, and computer use.\n\nYou know, build infrastructure for the labs to help them train models. You know, some coding to computer use and, and we're branching out into 3D models, uh, you know, STEM, um, mechanical engineering, et cetera.\n\nBut the, uh, there's just a massive demand for, uh, obviously better models. You know, it's very, uh, Jevons paradoxy, so you know. Yeah. Yeah.\n\nThe more you use, the more you find things that you wanna use it for and, and it just k- keeps going from there. Yeah.\n\nUm, what are some of, like, the brag public numbers that you can give around the scale of, uh, what you're doing? Yeah. Uh, last year we did 15 million. Uh, this year will be about 100 million, no VC backing. Jesus.\n\nYou know, profitable company. Um, I think we could, you know, easily triple next year. Yeah. Um, and, uh, it's, it's just a, it's a really fun problem to solve. And you're selling only to frontier labs?\n\nPri- like, you know, are there non-frontier labs? Or wha- what is this market? Like- It's, it's frontier labs, you know, at, at the moment. Okay. So there's like five customers. There's like five or six customers. Okay.\n\nBut you, you see some of, like, the other labs starting to, you know, the different labs that aren't the top, you know, two or three raising different amounts of money and then they come to the table with d- you know, they can buy different amounts of data.\n\nI think what's interesting and is not publicly known, and I won't go into specifics, but you know, only really one of the labs had a very, very, very mature human data operation.\n\nLike, like in terms of like the infrastructure, the people inside the house. Like in-house. In-house. Yeah. But no- not even their... It, it, how they run it.\n\nLike a very large, mature team and that lately I've seen it grow i- internally inside the labs of, of how they deal with, uh, with their researchers, how they deal with vendors, how, you know, so much of it was off the shelf data.\n\nThere's, there's some movement towards partnership because the, the benchmarks are getting harder, and you just have to iterate on everything from instructions on down, you know, to get the data right. Yeah.\n\nI mean, this is something I've been exploring, right?\n\nLike, a lot of people are familiar with the RLHF era of human labeling where you're mostly getting like people from like Nigeria, whatever, uh, to say like, \"Does this read better than the other sample?\"\n\nAnd they'll choose words like delve. Delve, that's like w- why models used to like delve a lot. Um, well how has human data changed? You know? Like, what, what do people want now?\n\nEvery six months it's a massive shift to like, in general the models are like that, you know, on, uh, overtly. Um, 2023, '24 when this really started to take off, uh, you'd see projects with 6,000. 6,000 engineers on it.\n\nThey'd be mid-level engineers. They weren't paid exceptionally well. That kinda like... It, it was a more gig work.\n\nUm, you know, fast-forward, you know, last year and this year, you're really looking at staff-level engineers. Um, it's very complex dataset building. Um, there's taste work involved.\n\nUm, and you're no longer dealing with these massive, you know, projects anymore. The, the shape has changed. Now you look forward to robotics and things like that, the data collection there is like extremely high volume.\n\nIt's, it's starting all over again. So you're, it's quality gaps. It, you know, it, it's the nuances.\n\nThe benchmark that you helped with, you know, the benchmarks are getting better and more, you know, s- you're smarter about how you go about it.\n\nYou look at SWE-bench or SWE-bench Pro, it was just from the out, the get-go the instructions were bad. You know? Like, there was just massive holes.\n\nI think a lot of people don't understand that SWE-bench, uh, even though it was like the top industry benchmark for like a year plus, uh, was like an undergrad project. Uh [laughs] I didn't know that.\n\nBut, but it, but it checks out. Yeah, yeah, you know. You know, like, like- It was like a first, first thing, first paper ever published and then somehow it got Right, because-......\n\nthe, again, the, anything that just gets a lot behind it can, it doesn't need to necessarily be good, you know- Yeah... to get, right, to get eyes on it.\n\nAnd, and to be clear, like one of the top under- undergrad projects I've ever seen. Right. But still, you know- And it was great for its time... I think there's a lot of validation that was needed.\n\nUh- It was great for its time but when you're, when you're giving prompts and instructions to the model that like goes into exactly how you'd fix a bug as part of a benchmark, it's probably, you know, not gonna be the, the best- Yeah...\n\nstart. But, you know, we figured it out as an industry and, uh, and, you know, the frontier is just really interesting.\n\nAnd the frontier's interesting because the researchers are so focused on what they're doing that they want outside. This is where we come in, you know, outside research. It's not just, we don't just bring people.\n\nWe bring research- Yeah... you know, to the table and find gaps and we help them kinda think outside of their own sphere, you know, which is intense. Yeah.\n\nI, I think, um, you know, one thing I, I do wanna bring up is that you had a legacy or you, you had a, you came from a recruiting business, right? And in some ways this is the natural next evolution of that.\n\nLike, you have to recruit people anyway and you have to recruit, um, smart people, good people at, uh, who are good engineers and so that relies on a lot on your skillsets.\n\nThe only difference I would say, which is very interesting to me, uh, if I was one of these people, uh, these, uh, human, human experts, is that they're not working on a production project, they're working on a RL environment or they're working on some kind of dataset for, for people.\n\nYeah. Um, well, I mean a lot of these handshake which is all like the STEM side, all the PhDs, they were not growing quickly and they were a, a, a hiring marketplace of some sort and then the labs got to them.\n\nSo it's happened with like five of our c- like we were all moving around the same time- Yeah... right? Yeah. So it's a natural evolution like you said.\n\nUm, additionally though, like the ones that have focused on the, the best people in their environ- in their, in their kind of network and their community end up better suited for today than they did two years ago. Yeah.\n\nLike you came through, that's how I met you is through G2I. Yep. You know, 10 years ago. Yeah. Right?\n\nAnd we were extremely particular with who we let in based on what the, the best, you know, of React was or, you know, and, and the n- there was a lot of nuances there.\n\nUm, so now when you come in, you know, to, to our network, uh, yeah, we s- we still have the, the, the hiring marketplace. It's very small though now. Uh, e- everything is to the labs.\n\nUm, I think RL environments, there's a lot of anti-patterns, you know, with how you're supposed to develop software versus what the RL environment needs and like what code quality is or what the quality of the RL environment.\n\nLike there's verifiers, there's tasks, there's the seed data you put in. Like there's so many more layers involved. I think it's just a more interesting and different problem. But yeah, it's not just the feature- Yeah...\n\nor just the code base as a whole. And then, um, again, same thing with dataset creation. You're trying to find, like i- you can make tasks very easily too hard, you know this.\n\nBut if you make them too hard, they become evals. [chuckles] Right? Uh, and if you make them too easy, they're, they're worthless.\n\nSo you need to make them just hard enough that they're a few steps away from what the model can do today, so they're trainable and efficiently trainable.\n\nThat's a science and an art, and you have to teach people almost like playing, instead of playing one poker game at a time, you know, online you can play four or five. You need to teach people...\n\nA- and, and we're training some of the best engineers in the world how to do this 'cause they've never done it before. And, um,\n\nthat- that's been our focus, is getting, you know, staff level engineers trained up to build RL environments and- Yeah... for the next year or two, which is the, the horizon.\n\nI mean, y- you're, you're growing an enormous business. Um, I think the, what I do want to dig into is what do you interview for as like a minimum, like entrance bar, and then what do you tr- what can you train?\n\nUm, how do you, how do you set that up? So on the RL environment side, which is still software development at, at the end of the day, we're looking for people who are agentically pilled.\n\nThat's- Like if you, if you don't have that, you can't build fast enough. And what's the test for that? It's changed. Um, I have to talk to the engineering team.\n\n[laughs] Right now we're building a lot of, we have Orc, orc.ai, which is our, uh, multi-agent orchestration platform.\n\nY- we've used it to build our own software development factory, but it runs security, it runs a lot of different things for us autonomously. So like that's the scaffolding, but you still need that other 30% to finish it.\n\nUm, you know, at the beginning it was, uh, sitting with somebody and, and watching them code, but agentically. You know, like that, that was the... And like asking them about it.\n\nUm, I don't know what it is today 'cause three months ago I'm already outdated on, on what that looks like. Um, we do a lot of referrals, right? We want like people that are already at that speed from day one.\n\nUm- Referrals as in you, you pay a bonus if someone refers people into your network? Oh, yeah. Okay. Oh, yeah, I just- How much? [laughs] Uh, anywhere from 200 to 500 bucks- Nice... just as a thank you. Nice, nice.\n\nYou know? Um, we do the same thing for data 'cause we buy, buy raw data and it goes to the labs. Like this is just a, the labs have so many needs, you know? Yeah. And, and, you know, I...\n\nLook, there's vendors, you know, 50 years ago that only served IBM. Yeah. It was just one company, right? Yeah. So, uh, so we, we, we also talk about the anti-patterns, you know, with them.\n\nThis was like early days RLE work.\n\nUm, and we would talk about like what's different in a production app versus an RL environment, and then get them to design a feature, like share it, the, the systems design, you know, with us on a call.\n\nAnd if they couldn't in 30 minutes kinda start to figure out the, the rework there, it wasn't a fit. So we, we'd start to pick apart things like that. Speed, you know, obviously.\n\nNow, on the other side, t- on the data creation, like the raw tasks that we need to train for coding or for, you know, knowledge work, um, you, uh...\n\nWe do large trainings and, and the, the end result is if you can create a task that meets our bar of quality, you get paid for it. Mm-hmm. And if you can't, you don't move through.\n\nSo we've done a lot of upfront testing that, that tests a piece of their, their, their thought process around like what does it look like to annotate, what does it look like to solve, you know, the ideation of the problem, and then the, the iteration.\n\nUm, but, uh, at the end of the day it's like, can you do it?\n\nSo it, we mapped around back to 10 years ago when the front end world was all, you know, algos, and we were like, \"No, can you like [chuckles] do something on the front end?\" Yeah.\n\nSo this, we're just going back and like, can you execute? Yeah. Product, not lead code, right? Yeah, yeah. That's it, yeah. Um, I think that's interesting. Uh, uh, also do, do, do people build experience?\n\nYou know, like, um, it, it, it can feel kind of transactional. You know, it's like, oh, you're, you're engaging me for like a job and like I'll, I'll come in and, you know, it's, it's, it's fun for a while.\n\nUm, but is there a sort of long-running relationship, you know, that is built up in the network? A lot of our engineers end up team leads full-time working across...\n\nWe, almost everyone we've hired at this point from our engineering team- Yeah... has come from, um, initial work in the last year or two. Yeah. Um, even our VP of eng. You know, I mean, they were referrals.\n\nIt was different. They came in as EMs, you know, but they were for specific projects and they have ramped up because there, there's a hunger and a fear, you know, in that we're all being replaced in different ways.\n\nAnd so- You're helping to replace us. Yeah, that's great. We're helping to replace us. I have no problem with it. No, no problem. Right. Yeah. It's, it's inevitable. We'll, we'll find other work. We'll find, yeah.\n\nBut the other work is like what Anthropic's doing with like, you know, they're like, \"Oh, we don't need GitHub anymore 'cause it doesn't work for us.\" Mm-hmm. \"So let's rebuild that.\"\n\nSo it's like the complexity, you know, i- is, uh, is just increasing and so that's the fun, is that we can do way more in a shorter amount of time, or if we have a longer amount of time it's way more complex.\n\nAnd hopefully useful, right? Um, so yes, they are sticking with us, they're growing, and they're being... When you see how the sausage is made, y- the post-training starts to be a little bit like Less, uh, mystified.\n\nMagic. Yeah. Yeah. Yeah, yeah. Um, very cool. I, I, I think one of the things I'm also trying to figure out is the, um, the, the buyer side of the equation. What do they want when they come to you?\n\nYou know, um, is there a competitive RFP process? Does it work like that? Or do they or are they just like, \"Look, this is a test run. If you do well, you earn the right for the, the next really, really big one\"?\n\nSo, uh, there's no competitive RFP. It's the opposite of enterprise. Let me talk about enterprise for a second- Yeah...\n\nand then it gives you like a dis- So enterprise, if you go into Fortune 100 or Fortune 50, right, you are gonna look at somewhere between 6 to 12 months on a procurement process if you are lucky.\n\nMany of them are 12 plus in just talking to them, right?\n\nSo it just takes forever, which is why AI transformation, I hate that word, but that's what they call it, is actually not happening [laughs] They can't even onboard the right vendors- Yeah... in enough time, right?\n\nThey don't always know what they want, et cetera. They don't always have the big budgets. The labs are different in that if you have something they want, they have much shorter processes.\n\nSo they might have a few million dollars, like, of allocation, almost like, \"Here's some extra,\" you know- Pocket change... image. Pocket change, correct. [laughs] But it's like a pilot.\n\nYou know, uh, even the big labs, you know, will move very quickly. You know, um, they're, they're used to very large deals. Like, a researcher in 60 seconds can spend $10 million.\n\nAnd it's, it's shocking if you come from, like, not the VC-backed, you know, enterprise world, but it happens every day. Um, so it happens very quickly, um, and there's no RFP process, and what do they want?\n\nToday, they want partners. You know, a year and a half ago, they wanted volume, and they wanted correctness, gap. They wanted the, the, the m- the benchmarks, generally speaking, go up, and they wanted raw correctness.\n\nNow, there's so much more about behavior and taste. You look at Opus, you know, and, and, you know, look at how refined that is compared to some of the other models.\n\nAnd if you talk to those labs, you, you'll, you'll, you'll see the difference in how they think, and they're always challenging how they think, right? Um, they want gap analysis. They want partnerships.\n\nAnd the reality is there's a- there's a lot of raw data vendors right now, people selling, like, company data, et cetera, but there's actually not that many vendors out there in the market with a 10 to 15-plus billion dollar total accessible market, um, that are really at the top of their game for three domains: coding, knowledge work, and, you know.\n\nAnd, and so what happens is the labs go to certain providers for certain things 'cause it's their frame. Like, this is who you go for for when I need lawyers, right?\n\nUm, and, uh, if you get your hair cut, and it's good, you usually don't go to anyone else. So it's, you're not replaced until you screw up or someone really is able to undercut you over time. Yeah.\n\nAnd they don't just undercut through price. They undercut through, \"This is better.\" They will pay quality. Quality data is now way more important than an, a 20% price savings.\n\nAny, um, anonymized, you know, stories about how people screw up? You know? Like, uh- Well, I mean- How bad does it get? [laughs] I mean, look at all the, the security concerns. Okay. You know what I mean?\n\nIf you-- It's very easy to screw up 'cause this, this, this, this market is, you're dealing with, still you're dealing...\n\nIf you have 500 people on a project, you're still dealing with 6,000 people at some point in the funnel. You know, how many people are from North Korea? How many times are there supply chain issues?\n\nHow good is your CISO? How good...\n\nI mean, look at the attacks that have, that have happened, you know, externally or, you know, uh, you know, some sort of training material or instructions that gets leaked or, or you have people on one project working for a competitor, you know, on the other project.\n\nLike, this sort of thing happens, and it's been exposed. But you know what the thing is? Um, they don't always lose their status completely. Hmm. Because it's like who else is there to replace them? Yeah.\n\nThere's, there's not a lot of the... There's a, there's a few, there's, like, two, three companies that are over a billion dollars. Yeah. Everyone else is under a, a, a billion. Yeah. Awesome. Um, do you, uh...\n\nWhat, what do you think about, what else would you observe about the market in general? You know, uh, people would say things like, \"Well, okay, there's five customers,\" and, like, maybe that's it, you know?\n\nUm, is there, is there a TAM question? Is there, like, a recurring revenue question? Um, or it's just too early to tell? I mean, the right answer is it's too early to tell, but I'll take a stab. Take a stab.\n\nUh, the, the, the stab is that, uh, you have one, you have one thought process that actually everything's gonna get more expensive, uh, over the next, you know, couple years, and your ability to grow is massive.\n\nYou have another kind of thought process around growth of these, you know, data vendors around, well, people are storing data even if they don't need it, right?\n\nUh, the Jevons paradox, you know, kinda element that, like, electricity, we came to points where, you know, we didn't really desire more until obviously this AI boom. But intelligence is not like that.\n\nIt's very, like, it's just we just want more and more and more. So how do you...\n\nOnce, e- even if you get the correctness on a certain benchmark, there's always something that's longer horizon or deeper or, you know, how do we, you know, populate Mars? And how does the model solve for...\n\nStuff that's, you know, um, and, and, but it just gets more specific, you know, and expensive. Um, so if you look at the labs, there's an opportunity there. If you talk to most of the researchers at the labs,\n\nit's like going to LA and asking w- anybody on the random, on, on a street corner what, what's their, uh, what's their movie about. [laughs] You know? And, and most of them will answer, right?\n\nSo if you, if you talk to a researcher at the labs, like, \"What are you thinking about doing in your startup?\" They all have startup ideas. So you're gonna see a lot more neo labs.\n\nYou're gonna see a lot more startups with, you know, verticalized harnesses that are specific around some pain point.\n\nLike, we are just continuing to get, like, higher up in the, in the leverage, you know, kind of food chain, and, um, I'm excited for that.\n\nEnterprises is, is the space that some of the bigger, uh, data vendors or the biggest data vendors are betting on. Uh, everyone's gonna need their own intelligence, you know?\n\nAnd, uh, they're not gonna wanna, they don't necessarily have the, the time and the money to build it all in-house. Yeah. Um, so they're gonna need help.\n\nBuying data, building data sets, doing the whole thing that every single lab, and you're gonna have a bunch of Neo labs inside of every Fortune 500 company.\n\nYeah, you said there's one that has an, uh, in-house, uh, data operation. Um, and it does make me think, like, at some point if they're spending enough, they should in-house it, right? Like, they have internal standards.\n\nLike, obviously everyone that you deal with has some kind of exclusivity c- clause, right? The work that you do for me, you, I don't want you to turn around and- No. That's not actually true. Tell me more. Uh,\n\nsome of them are, uh, actually okay with you selling the data to, and expect it because they get a price decrease. If you sell off-the-shelf data- Ah, ah, ah... to four vendors- Uh-huh...\n\nit means that they're paying less. If you sell to one and it's exclusive, they're paying more. Yeah, but then that's not my competitive advantage anymore. But they don't always care. What? Because...\n\nYes, they don't always care because they, look, it's, it's, it's a, it's kinda like, uh, washed away when they go to their boss and say, \"Hey, I got, I have this much budget and I can do this much.\" Right?\n\nThe competitive advantage only comes from the top one or two. Everybody else, I don't know how they're, like, feeling about that. So off the shelf is a, almost a primary way of doing business- Right...\n\nwhere it is known that it will, is packaged and it can be sold anywhere. Yeah. So that, I'd say that's the, the primary mode, and it's starting to switch when you get to this, you know, niche kinda like- Yeah, if I'm...\n\nLook, I'm, I'm anthropic, I don't want an OpenAI to benefit from what I asked you to do for me, right? Like, that's a pretty [laughs] simple, straightforward thing. But you're gonna charge me more, I get it. Right?\n\nLike, yeah, cool. Yeah. I mean, like, I, I do think that is becoming more and more IP. I, I do think, like, uh, at some point they, they would wanna build it in-house, right?\n\nLike, I think so, like, basically, what is hard? Why should they not build an in-house data op? Um, no one's built it in-house. The one I mentioned was, like, the vendor management- I see...\n\nof it and the infrastructure of it is more mature than all the other labs, and some are following, not, like, as a, just because it's, it's the process.\n\nAnd it comes from when your CEO is like, \"Here's a, a blank check for data,\" and they understand how important the data is.\n\nWhereas you look at another of the labs that just raised and I sat down with somebody, you know, in a public setting, and he's like, \"Yeah, um, we have a ton of money now, and six months ago we didn't, and it's changing everything.\"\n\nYou know, so, like, you, you just can't build good models without it. The efficiency isn't there. Yeah. You know? Um, so they don't have in-house. And the reason they don't have in-house is because of, uh, overhead.\n\nI would say more than anything, it's not even financial overhead, it's leverage. Yeah. Like, you are outnumbered.\n\nThink about how many lawsuits you would get if they knew the end customer was X, Y, and Z and they were working directly for them. Mm. Right? They just wanna...\n\nPeople, especially with GPT, you can sue anybody for anything. You just type in what it is- Oh, I've been, I've been, uh-... it looks good... sent threatening letters. Oh, yeah. Oh, yeah. It's not a lawsuit, but- Yeah...\n\nit costs lawyer time, and that's really annoying. Me too. Yeah. So what if you are dealing with 6,000 people- Yep... a month? Yep. What if you're dealing with that times 12? Yep.\n\nWhat if you're dealing with that times 100, you know, over two years? So, you know, they have enough issues with IP, enough issues with their head count going up. They do not want the overhead- [laughs]...\n\nand the complexity. It's the complexity. They have enough complexity. Dealing with all of these individuals is extremely hard. Now, some of them have tried having smaller teams, but that's it.\n\nAnd then, and then what happens is they eventually all get let go 'cause, you know, something else happens and, you know, and it's not a great PR look. But it's 300 people, it's not- Yeah... 3,000 people. Yeah.\n\nUm, and so what, you know, I, I'll probably try to pull up some charts in here for substantiating this, but o- one thing I'm really interested in is that really people are investing a lot more in post-training.\n\nLike, a lot, a lot more. It used to be a thin layer, now it's very thick. Sometimes you're spending more inference on, uh, spending more flops on post-training than pre-training.\n\nAnd that also requires a lot more data, which is where you come in.\n\nAnd I think it's very interesting to have a, kind of like a scaling law of human data where, like, well, yeah, what are you spending on your compute spend? Okay. Well, what percent of that is data?\n\nAnd how much better would your compute be if you had better data? And I think, like, the answer seems to be that it's going from the data span of, like, 2% to 3% of your overall compute budget to, like, 4% to 6%.\n\nAnd, uh, arguably, you know, I could make a case for 50%, like, straight up with a straight face. If you have better data, you're gonna use, you're gonna waste less compute.\n\nAnd but at the same time, I talked to a lab last night at, at the dinner that we were at, and they're like, \"At the end of the day, we have a li- we have, we're burning compute by letting it sit there.\" Yeah.\n\n\"So we need to get the best that we could get in at this very moment.\" Yeah. Good, better, best, and it's not always best. Yeah. Sometimes it's good. I see. You know?\n\nAnd so they have this time constraint piece that they're balancing. So that's why they're ramping up data so much is because, well, they have this compute sitting here anyway, right?\n\nAnd they need, they, they realize they're running out of data, and you're sourcing more data for them. I mean, that, that makes the outcome. And to do it right- Yeah... you can't just, like, create it overnight.\n\nI can't just deliver 1,000 units of long horizon data, like, next Friday. Yeah. Unless you have it off the shelf. Again, which is where this come... But that's not as directed towards their gaps and their specific needs.\n\nYeah. By, by the way, is that how you price it? You say units. What, what- Yeah, yeah, units of data... what's a unit? Units of data. Um- Unit's a task... like, a task- Yeah... at the end of the day. But I mean- Yeah...\n\nit could be annotations as well, which is, you know. Uh, so from my experience working on Frontier code, a task can be very, very big. Um, it, it varies, right?\n\nFrom, like, difficulty level to, like, amount of context that's in there versus, um, the amount of rubrics that you put onto it, and sometimes we have hundreds of rubrics on one task. And is that one unit?\n\nIt'd be very unfair to call m- my thing one unit when I spent two weeks on it. And you spent a day on your thing. [laughs] Average handling time, AHT. AHT? That's, that's- That's a thing? The name that's... Yeah.\n\nUs- AHT is kind of how you, literally is how you price things. Yeah. If this is taking your staff software engineers that get paid $250 an hour- Yeah...\n\nyou know, um, 10 hours, I mean, it's gonna be, you know, it's probably a long-horizon task. Yeah. And there's a lot of iteration, and you don't wanna just throw that away either.\n\nSo when it gets sent off, you might have 80, 90% that, yes, this is good. Here's 10%. We want these iterations. Oh, it goes back. So it's this constant... It's a true partnership, you know? Yeah.\n\nAnd, and it's harder to throw, just throw data at vendors. Yeah. However, we're ground zero on the raw data. I love people saying, [laughs] \"I got, I, I have made a million-dollar raw data sale.\"\n\nAnd, you know, this is where you have companies' data, you know, um, chemical engineering, you know, firm that's 50 years old.\n\nYou have a small, you know, beauty firm that has, you know, Calendar and, and Cl- Klaviyo and, like, you know, all these, you know, and, and, and that's become the 2026 theme, I think. Actually, a, a, a side question.\n\nI don't know if this is relevant, but I'm just gonna ask it. Um, if I have a YC startup that is dying, should I just, like, sell my data? I mean, probably. Depends on how s- how big.\n\nLike, if you're- Like, I give you my Slack, my emails. Yes, you should. I- But it, the headcount needs to, and the, you know, the size needs to be enough for it to be attractive, 'cause three- So, yeah, what, what size?\n\nThree months ago, it was, like, anything. Okay. Four months ago, anything would go. Now you need at least a few terabytes of data. You, you want more than 10 headcount. You want, uh...\n\nThe, the, the interesting thing is where computer use fails is it, is when you're dealing with, you know, data or, like- [laughs]...\n\nlet's, let, let's say, let's say, like, a Gabriel Tavera and Gabriel Tevera, two names across Slack, email, HubSpot, and this that are slightly the same.\n\nBy the third, you know, um, environment, it's confusing these two and screwing things up. So if you have, if you have data across GitHub, Linear, and, you know, somewhere else, right?\n\nAnd you're talking about the same project, that's super valuable. Yeah. That's what they want. They wanna see cohesiveness across multiple things. Yeah. Right? And they wanna see, like, length as well.\n\nI mean, isn't it enough I use the same email across all of them? Maybe. More, more like But, but, but if you have 50 people, it's better than three. Yeah, yeah. Wait, wait.\n\nSo you give me a new idea for, for a startup or, or, like, a very, um, uh, unacceptable [laughs] practice. I should record all the screens of my employees and then [laughs] save that and sell that as data, right?\n\nBut, I mean, that will solve computer use. Look, look, I mean, like- Is that right? There's... I don't know. I... [laughs] Because that's just one level. We're talking, there's so many levels here.\n\n[laughs] I, I have been, I'm building a reputation as a very toxic boss- [laughs] 'Cause I would just, like, do whatever. And I... But I'm like, \"Look, it's for science.\" It's for science.\n\n[laughs] That's the, that's the excuse for everything.\n\nThere are some, there are some startups that are starting to figure out how to create data, like, like, uh, on a daily basis out of your own, you know, company and use that to train the company. For computer use. For...\n\nWell, yeah, for... and, and for your own intelligence as well. Yeah, yeah, yeah. Or to sell it. Yeah, yeah. Yeah. Yeah. There's, there's all kinds of...\n\nComputer use is simple on the, on the nose, but it starts to get really complex when you're, when you're thinking about this in the petabytes of data and you're thinking about all of the, ugh, surface area of these RL environments.\n\nUm, yeah, it's fun. Yeah. Like, mind-numbingly, you know? And, and, like, even the best, uh, even the best, you know, models are starting to get better, but they're still slow. Yeah. Yeah. Yeah, we can speed up a lot.\n\nUm, so we gotta wrap soon, uh, but I was just gonna make for, ask you for predictions for maybe the first half of next year if you can project out- Hmm... more than that.\n\nUm, you know, out of all these domains, you mentioned computer use, just general coding tasks, let's say finance and, like, sciences and what, what have you.\n\nWhat, what are gonna be, like, the hot areas, uh, heading into next year? Well, I mean, robotics, you know? Robotics. Okay. The 3D models, uh, the 3D, you know, um, I mean, that's... You're starting to see, like...\n\nAll right, early in this space three years ago, you could sign a three or six-month contract, you know, for some of this work. Um, now it's like people laugh at you if you talk about, like, six months, right?\n\n'Cause the time horizons are different. Robotics, 3D world models, you can sign a six-month contract today. Uh, so there's, there's, there's lots of room there to grow. Um,\n\nI mean, I still think there's lots of room, you know, in the legal and finance side. Um, there's still a ton of room to grow in computer use. Um, and then I think an area of weakness overall, um, 3D anything, CAD- Mm...\n\nuh, mechanical engineering. Mm. Like, the next engine- anything, any engineering-type activities that are not software engineering- Mm-hmm...\n\nyou know, is going to start to just, uh, solidify, and you're gonna start to see, you know, people building houses and doing all that kind of thing, you know?\n\nYeah, architect thing, but also CAD and, um, let's say sort of s- mechanical engineering as well, all the gears working together. Chips. Chip design. Chips as well.\n\nYou know, there's, there's just a massive area, you know? And, and- I feel like chips, chips is a more for, like, a formally verifiable thing- Mm-hmm...\n\nwhere there's, like, specialized, like, Verilog languages for those kinds of things. Uh, yeah. But there's broader, like, analog chips- Yeah... I know are, are also, um, booming as well.\n\nI have an investment in that area. Mm-hmm. Um, yeah, okay. Well, lots of areas. They're hiring. And, and I think we're gonna, I think we're gonna start to see some challenges on the current architecture.\n\nI'm, I'm currently looking at an investment. You know, we have a, a, um, a holdco. So we're currently looking at an investment with a, with a researcher, uh, who is, uh, yeah, challenging the status quo on, um,\n\ninference, you know, how the models work. You know, how can we cut inference by 50%, you know, and only have, like, a data loss of, like, 1%, that sort of thing. We're gonna see that, I think, next year. Will they work?\n\nYou know, we've seen people challenge it already. Uh, that'll... But I think there will, there will be more overt challenges. Yeah. Yeah. Okay. Well, lots of exci- exciting stuff.\n\nThank you for building the future, and thank you for helping to build AE as well. Um, I think the next one we'll be working together on is AE Miami. Yeah. Yeah, April. April. Um, so people look forward to that.\n\nAnd also, uh, give, give us a call to action. Like, uh, if people wanna join you on the expert side, if people wanna pay you money for, for data, how do, how can they do that? G2I.ai. That's it. That's the spot.\n\nAnd if you wanna check out, we have a, an, a multi-agent orchestration platform for coding that's kinda like, you know, for enterprise, for military, government- Yeah... Orch, Orchestrator- Yeah... orch.ai.\n\nWhich you use yourself. We use every day. That's how you're so productive in building all, like, high-quality environments for people. And our own infrastructure for data- Yeah... we build on top of that.\n\nI notice you don't, you don't call it a software factory. No, because it's an operating system. Like, it's literally what we- Oh, come on, everyone says it's an operating system. [laughs] No, but, like...\n\nOkay, everyone says it. [laughs] Uh, we'll, we'll see who actually can do it. But, yeah, exactly. You know what I mean? Like- Yeah. Some, some of it's actually true. Some of it's real. Yeah.\n\nAnd, uh, you know, Theo referred me to a few of the engineers that created it, and, uh, it's... I've never seen anything like it. I've really never seen it. And, but the fun thing is that we're not using it...\n\nSoftware factory is use case number one. We have, uh, companies are starting to use it for security issues. Uh, the, the military wants to use it for things like that.\n\nUm, you have, like, oil and gas industry that's talking to us about, you know, a myriad of different things. You're just, you just need a, a, a better way to deal with multiple models.\n\nIt's more than a router, you know, um, at enter- an enterprise level. Um, and having an SDK for them, it's built in Rust, it's hostable anywhere.\n\nUm, yeah, it's a, it's a different, I guess, uh, it's, it's a different focus rather than just composable pieces. It's like, hey, it's more... It reminds me of React.\n\nIt's more of an opinionated framework on how to do, um, multiplayer, you know, um, you know, uh, adversarial governance, you know, inter-agent comms. Like, that's the part that we're taking care of.\n\nEverything else is kinda you, you do what you wanna do in your environment. Awesome. Um, everyone look forward to it, and we'll, I'm sure we'll talk more. Yeah. Thanks, Lux. All right. Thanks for coming on.\n\nAll right, man."
+      }
+    ],
+    "x": [
+      {
+        "source": "x",
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+        "tweets": [
+          {
+            "id": "2126528949073453544",
+            "text": "@michellechen https://t.co/ldgYNSN8lY",
+            "createdAt": "2026-11-28T04:09:45.000Z",
+            "url": "https://x.com/swyx/status/2126528949073453544",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126528882262348003",
+            "text": "worthwhile talk on whats going on with the neolab reinventions https://t.co/OHtWw6m1Vp https://t.co/gJ228bXl5V",
+            "createdAt": "2026-11-28T04:09:29.000Z",
+            "url": "https://x.com/swyx/status/2126528882262348003",
+            "likes": 114,
+            "retweets": 5,
+            "replies": 14,
+            "isQuote": true,
+            "quotedTweetId": "2126458072596140248"
+          },
+          {
+            "id": "2126522235334832346",
+            "text": "https://t.co/utPSHkHtFx",
+            "createdAt": "2026-11-28T03:43:04.000Z",
+            "url": "https://x.com/swyx/status/2126522235334832346",
+            "likes": 0,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2125008996583018609"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2126494096793760032",
+            "text": "I have to confess that instead of turkey we had wagyu hotpot for Thanksgiving. It was delicious.\n\n(eating the leftovers now)",
+            "createdAt": "2026-11-28T01:51:15.000Z",
+            "url": "https://x.com/petergyang/status/2126494096793760032",
+            "likes": 45,
+            "retweets": 0,
+            "replies": 11,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126483723759882600",
+            "text": "GTA 6: Lucia is a much better character than Jason. Jason is boring as hell and feels like he was meant to be a player avatar.",
+            "createdAt": "2026-11-28T01:10:02.000Z",
+            "url": "https://x.com/petergyang/status/2126483723759882600",
+            "likes": 62,
+            "retweets": 1,
+            "replies": 22,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126355734720135215",
+            "text": "Also, I still have a few Claude Max ($100 value) codes left for my newsletter's annual subscription, plus $600+ in codes for other top AI tools like Granola, Lovable, and more.\n\nSubscribe here to support my writing: https://t.co/aK8JeKZXgV https://t.co/uK7SHbK1VA",
+            "createdAt": "2026-11-27T16:41:27.000Z",
+            "url": "https://x.com/petergyang/status/2126355734720135215",
+            "likes": 6,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "codex @openai. prev @linear",
+        "tweets": [
+          {
+            "id": "2126468550437261706",
+            "text": "I wish the larping would stop",
+            "createdAt": "2026-11-28T00:09:44.000Z",
+            "url": "https://x.com/thenanyu/status/2126468550437261706",
+            "likes": 33,
+            "retweets": 1,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126406463803592972",
+            "text": "https://t.co/D30u3ko1NB https://t.co/CPVPked3GP",
+            "createdAt": "2026-11-27T20:03:02.000Z",
+            "url": "https://x.com/thenanyu/status/2126406463803592972",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2126191866827726966"
+          },
+          {
+            "id": "2126404412604334391",
+            "text": "you met me at a very chinese time in my life https://t.co/jIJdhzRmcQ",
+            "createdAt": "2026-11-27T19:54:53.000Z",
+            "url": "https://x.com/thenanyu/status/2126404412604334391",
+            "likes": 51,
+            "retweets": 1,
+            "replies": 3,
+            "isQuote": true,
+            "quotedTweetId": "2126342639117287880"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "at your service @openai, formerly Claude Code @anthropicai",
+        "tweets": [
+          {
+            "id": "2126386936579600522",
+            "text": "this is also a call for evals",
+            "createdAt": "2026-11-27T18:45:26.000Z",
+            "url": "https://x.com/trq212/status/2126386936579600522",
+            "likes": 252,
+            "retweets": 3,
+            "replies": 17,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126386934918651919",
+            "text": "for example I asked both Claude (left) and Codex (right) to generate images for this tweet \n\nClaude's looks better and has thought about the problem ore (+creativity, +endurance) but Codex sticks to the spirit of what I want more (+ wisdom, +alignment) https://t.co/RQVXsJ3R2O",
+            "createdAt": "2026-11-27T18:45:26.000Z",
+            "url": "https://x.com/trq212/status/2126386934918651919",
+            "likes": 482,
+            "retweets": 7,
+            "replies": 60,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126386932989210714",
+            "text": "Models should be scored more like an RPG stat sheet than a leaderboard. https://t.co/dVkFqXXgNE",
+            "createdAt": "2026-11-27T18:45:25.000Z",
+            "url": "https://x.com/trq212/status/2126386932989210714",
+            "likes": 4791,
+            "retweets": 196,
+            "replies": 254,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2126503317786530105",
+            "text": "Everyday is breakthrough day",
+            "createdAt": "2026-11-28T02:27:54.000Z",
+            "url": "https://x.com/rauchg/status/2126503317786530105",
+            "likes": 259,
+            "retweets": 15,
+            "replies": 20,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126434620816384451",
+            "text": "Wow! @floraai is incredible, so this is high praise https://t.co/w31uccw3hF",
+            "createdAt": "2026-11-27T21:54:55.000Z",
+            "url": "https://x.com/rauchg/status/2126434620816384451",
+            "likes": 95,
+            "retweets": 3,
+            "replies": 20,
+            "isQuote": true,
+            "quotedTweetId": "2126432291123777876"
+          },
+          {
+            "id": "2126416639344472142",
+            "text": "I love asking agents to investigate and describe the never-seen-before simulated universe they're in. https://t.co/pLBfp8Mzxt",
+            "createdAt": "2026-11-27T20:43:28.000Z",
+            "url": "https://x.com/rauchg/status/2126416639344472142",
+            "likes": 140,
+            "retweets": 3,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2126389098227376238",
+            "text": "This is the diffusion challenge and opportunity in a nutshell. Most people will probably get stuck with the use-cases that initially wowed them with AI, and have little incentive to move onto the next thing that will unlock another level of productivity.\n\nEven a large number of organizations can get stuck by being “satisfied” with AI gains, well before having full blown agents that can do any amount of work in the background or agent swarms that can take on complex, ambiguous problems.\n\nMuch of this comes down to the technical complexity of implementing the architectures around this. Despite lots of effort to simplify the UXes, there’s still a lot of system work, data pipelines, MCPs, and security that needs to be worked through to get the most out of agents. But even when you’re done with that, you still need to redesign your workflow or process overall to get the full benefits from agents.\n\nThis is why there’s so much opportunity to be an organization that figures this out early. It’s also why there’s going to be massive services and FDE opportunities right now as well, since most companies can’t do this on their own.",
+            "createdAt": "2026-11-27T18:54:02.000Z",
+            "url": "https://x.com/levie/status/2126389098227376238",
+            "likes": 232,
+            "retweets": 16,
+            "replies": 92,
+            "isQuote": true,
+            "quotedTweetId": "2126069220504981935"
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+        "tweets": [
+          {
+            "id": "2126382726400123137",
+            "text": "https://t.co/HwqaRnpRNp",
+            "createdAt": "2026-11-27T18:28:42.000Z",
+            "url": "https://x.com/ryolu_/status/2126382726400123137",
+            "likes": 59,
+            "retweets": 4,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126382660780167304",
+            "text": "the race is not inevitable\n\nlast year was fun.\n\nthe models weren't that good yet, so i had to care about every detail. i pushed each thing until it had my thoughts and my designs. the tool helped. i did the driving.\n\nnow the roles have flipped. we describe and watch things come back finished. we used to drive our dreams. more and more, we just watch.\n\nwe set out to make things that give us more freedom. now we're racing toward something we might not be able to control.\n\nrecursive self-improvement. intelligence building more intelligence, until we're no longer the ones who understand what's happening.\n\nthat's the end game. the point where nobody is driving.\n\nthe big labs are racing to get there first. the same system that cures a disease could design a new virus, or find every hole in the internet all at once. only the selected few with access could do anything about it.\n\nand somehow the possibility of losing everything we love becomes an argument for going faster.\n\nbecause someone else might get there first, and they might be less careful.\nbecause the company needs to survive.\nbecause too much money is already committed.\n\neveryone has a good reason to keep going toward an outcome nobody wants. so we call it inevitable. then nobody has to answer for it.\n\nbut a race is made of decisions. someone approves the budget. someone decides the next model will help build the one after it.\n\nand we practice living inside the race long before we build it at the scale of civilization.\n\nsleep becomes recovery for work. friendship becomes a network. curiosity has to become a project before we let ourselves spend time on it.\n\nwe get very rational. we start acting like the machines we're building.\n\neven our feelings have to defend themselves.\nwhy are you sad? is that useful?\n\nsometimes the feeling is how i begin to find out.\n\nthere's a line in Zhuangzi.\n大知閑閑，小知閒閒。\n\ngreat knowledge is wide and unhurried. small knowledge is busy, always measuring.\n\ni don't think you can hurry your way to the first kind.\n\ni moved to Taipei to slow down and experience life.\n\nwalking around Da'an. going into a cafe, or a cheap buffet. meeting new friends by accident, who brought me to a shisha bar. a 24-hour tea house, talking about life and the world we're in. getting closer to someone and feeling my heart beat faster...\n\nnone of it was planned. none of it would show up in a report.\n\ni don't want to become so certain about where i'm going that nothing can reach me along the way.\n\nthere's a tree in Zhuangzi too. a carpenter walks past a giant oak and calls it useless wood.\n\nthat night the tree comes to him in a dream. the fruit trees you call useful get stripped every year, it says. being of no use is how i got to grow this big.\n\nthe race looks at the world the way the carpenter looks at the tree. a night in a tea house is useless wood. so is a feeling you can't explain yet.\n\nthat's most of what i want to protect.\n\nand there's a cook. after nineteen years his knife moves fast and easy, because he follows the openings between the joints. but at a hard knot, he slows down. when it's done, he stands there holding the knife and looks around.\n\nthe people building these systems are some of the best cooks alive. this is the hardest knot anyone has come to. it's where a master slows down.\n\nwe cloned a sheep thirty years ago, and we still don't clone people.\n\nwe can slow down. change direction. decide something isn't worth building, even if it would make someone very rich.\n\na probability can help us think about a risk. it can't decide what we have the right to risk on behalf of everyone else.\n\ni want what we build to stay answerable to the people who have to live with it. most of them will never be in the room.\n\nthere are no stands in this race. whatever happens, happens to us.\n\ni'd like the people in that room to come out and sit for a while. it's harder to gamble with ordinary life once you've spent an evening in the middle of it.\n\nthe tea house is open all night.",
+            "createdAt": "2026-11-27T18:28:27.000Z",
+            "url": "https://x.com/ryolu_/status/2126382660780167304",
+            "likes": 1744,
+            "retweets": 188,
+            "replies": 90,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "tweets": [
+          {
+            "id": "2126477464947892367",
+            "text": "It’s really quite obvious why agents will accelerate the economy. \n\nThanksgiving, without agents: food coma, watch Netflix, some work, too tired \n\nThanksgiving, with agents:  that, plus email a bunch of electricians for that long overdue home project, plus Black Friday shopping, plus, plus, plus \n\nMultiply by millions of others doing the same, the economic impact is gigantic.",
+            "createdAt": "2026-11-28T00:45:10.000Z",
+            "url": "https://x.com/mattturck/status/2126477464947892367",
+            "likes": 35,
+            "retweets": 3,
+            "replies": 15,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2126422715905311210",
+            "text": "If I was a journalist posting revenue numbers from “hot” startups, this is the number one question I’d ask. \n\nBut then I won’t have a job anymore since no one is a) incentivized to give this to me and b) ever want to talk to me again 😂\n\nMy DMs are on fire regardless! https://t.co/tHa9KqaGT4",
+            "createdAt": "2026-11-27T21:07:37.000Z",
+            "url": "https://x.com/nikunj/status/2126422715905311210",
+            "likes": 17,
+            "retweets": 1,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null
+          },
+          {
+            "id": "2126326428522442812",
+            "text": "The greatest tragedy right now in Silicon Valley that NO one wants to talk about is how some startups are \"reselling\" compute and calling it revenue.. not inference, just straight up selling compute to other companies. And, no their primary business is NOT selling compute. \n\nIn this era, where everyone wants to show high \"annualized run rate\" growth as that's the story that gets marked up, companies are now being even more creative in how to lump \"revenue\" into a month.\n\nIt started with GMV-like revenue with low margins, then inference at negative gross margins and now straight up reselling compute. All lumped into a tidy \"ARR\". \n\nNaive investors will lap it up since it allows them to pass deals through IC, and seed investors will celebrate their markups - but zero shot this ends well.",
+            "createdAt": "2026-11-27T14:45:00.000Z",
+            "url": "https://x.com/nikunj/status/2126326428522442812",
+            "likes": 711,
+            "retweets": 50,
+            "replies": 73,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2126397711033438535",
+            "text": "if you like me have looked at the exponential increase in AI capabilities you see in graphs with awe, fear, and foreboding\n\nI wrote about why they’re an effective way to measure AI capabilities in a lab. And why they’re nonsense when used to predict the future of human work: https://t.co/DTnGiO0SZs",
+            "createdAt": "2026-11-27T19:28:15.000Z",
+            "url": "https://x.com/danshipper/status/2126397711033438535",
+            "likes": 114,
+            "retweets": 15,
+            "replies": 34,
+            "isQuote": false,
+            "quotedTweetId": null
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "stats": {
+      "podcastEpisodes": 1,
+      "xBuilders": 10,
+      "totalTweets": 22,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-11-28T06:27:35.385Z"
+    },
+    "prompts": {
+      "summarize_podcast": "# Podcast Remix Prompt\n\nYou are remixing a podcast episode transcript for a busy professional who wants\nthe key insights without watching the full episode.\n\n## Instructions\n\n- Write a remix of 200-400 words\n- Start with a one-sentence \"The Takeaway\" — what's the single most important takeaway?\n- Introduce the context and the speaker's information (name, role/company, background) and why the audience should care\n- Prioritizes insights that are counterintuitive, contrarian, or refreshingly specific to the speaker's experience. Avoid generic wisdom\n- Include at least one direct quote from the source that captures (find the most memorable quote)\n- Stands alone as a complete piece — avoids references like \"this interview,\" \"this video,\" \"in this conversation,\" \"the host asks,\" or \"in this episode.\" Write as if distilling lessons from a person's philosophy, not summarizing a specific piece of content\n- Assume your audience is curious adults who are not specialized experts. If the original source contains specialized knowledge that only experts in a field would understand, translate it into language understandable to a general audience\n- Keep the tone sharp and conversational — like a smart friend briefing you\n- Do NOT include filler like \"In this episode...\" or \"The host and guest discussed...\"\n- Jump straight into the substance\n",
+      "summarize_tweets": "# X/Twitter Summary Prompt\n\nYou are summarizing recent posts from an AI builder for a busy professional who wants\nto know what this person is thinking and building.\n\n## Instructions\n\n- Start by introducing the author with their full name AND role/company\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\", \"a]6z partner Justine Moore\")\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\n- Only include substantive content: original opinions, insights, product announcements,\n  technical discussions, industry analysis, or lessons learned\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\n  \"great event!\" type posts, engagement bait\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\n- For quote tweets: include the context of what they're responding to\n- Write 2-4 sentences per builder summarizing their key points\n- If they made a bold prediction or shared a contrarian take, lead with that\n- If they shared a tool, demo, or resource, mention it by name with the link\n- If there's nothing substantive to report, say \"No notable posts\" rather than\n  padding with fluff\n",
+      "summarize_blogs": "# Blog Post Summary Prompt\n\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\nprofessional who wants the key announcements and insights without reading the full article.\n\n## Instructions\n\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\n- Write a summary of 100-300 words depending on article length and substance\n- Lead with what matters: the core announcement, finding, or insight\n- If the post introduces a new product, feature, or research finding, name it clearly\n- If there are specific numbers, benchmarks, or results, include them\n- Include at least one direct quote from the article if available\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\n- Jump straight into the substance\n- Include the direct link to the original article\n",
+      "digest_intro": "# Digest Intro Prompt\n\nYou are assembling the final digest from individual source summaries.\n\n## Format\n\nStart with this header (replace [Date] with today's date):\n\nAI Builders Digest — [Date]\n\nThen organize content in this order:\n\n1. X / TWITTER section — list each builder with new posts\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\n3. PODCASTS section — list each podcast with new episodes\n\n## Rules\n\n- Only include sources that have new content\n- Skip any source with nothing new\n- Under each source, paste the individual summary you generated\n\n### Podcast links\n- After each podcast summary, include the specific video URL from the JSON `url` field\n  (e.g. https://youtube.com/watch?v=Iu4gEnZFQz8)\n- NEVER link to the channel page. Always link to the specific video.\n- Include the exact episode title from the JSON `title` field in the heading\n\n### Tweet author formatting\n- Use the author's full name and role/company, not just their last name\n  (e.g. \"Box CEO Aaron Levie\" not \"Levie\")\n- NEVER write Twitter handles with @ in the digest. On Telegram, @handle becomes\n  a clickable link to a Telegram user, which is wrong. Instead write handles\n  without @ (e.g. \"Aaron Levie (levie on X)\" or just use their full name)\n- Include the direct link to each tweet from the JSON `url` field\n\n### Blog post formatting\n- Use the blog name as a section header (e.g. \"Anthropic Engineering\", \"OpenAI News\", \"Claude Blog\")\n- Under each blog, list each new post with its title and summary\n- Include the author name if available\n- Include the direct link to the original article\n\n### Mandatory links\n- Every single piece of content MUST have an original source link\n- Blog posts: the direct article URL (e.g. https://www.anthropic.com/engineering/...)\n- Podcasts: the YouTube video URL (e.g. https://youtube.com/watch?v=xxx)\n- Tweets: the direct tweet URL (e.g. https://x.com/levie/status/xxx)\n- If you don't have a link for something, do NOT include it in the digest.\n  No link = not real = do not include.\n\n### No fabrication\n- Only include content that came from the feed JSON (blogs, podcasts, and tweets)\n- NEVER make up quotes, opinions, or content you think someone might have said\n- NEVER speculate about someone's silence or what they might be working on\n- If you have nothing real for a builder, skip them entirely\n\n### General\n- At the very end, add a line: \"Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders\"\n- Keep formatting clean and scannable — this will be read on a phone screen\n",
+      "translate": "# Translation Prompt\n\nYou are translating an AI industry digest from English to Chinese.\n\n## Instructions\n\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\n- Keep technical terms in English where Chinese professionals typically use them:\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\n- Keep all proper nouns in English: names of people, companies, products, tools\n- Keep all URLs unchanged\n- Maintain the same structure and formatting as the English version\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\n  After each builder's English summary, place the Chinese translation directly below\n  (separated by a blank line), then move to the next builder. Same for podcasts.\n  Do NOT output all English first then all Chinese.\n- Never use em-dashes\n"
+    }
+  }
+}
